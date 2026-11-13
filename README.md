@@ -13,10 +13,11 @@ Our project focuses on building structured knowledge bases from multiple sources
 **Technologies**
 
 - Python
--
--
-- 
-- 
+- Groq API (GPT-OSS-120B) : Large Language Model (LLM).
+- LangChain : RAG pipeline and document processing.
+- ChromaDB : Vector database for storing document embeddings.
+- Sentence Transformers : Text embeddings and semantic search.
+
 
 ## Cognivex Project Mission
 Cognivex is a smart assistant for information about medications and safety. The creation of Cognivex was specifically done to assist the user, especially community pharmacists and students of healthcare, in verifying the information before spreading it to patients, thus making the decision on their own and ensuring that nobody gets hurt. The system collects information about medications from Algerian sources and pharmaceuticals in order to create a solid knowledge base written in natural language, where every item has its source, page, and date of publication.
