@@ -37,7 +37,7 @@ Its principles : <br>
 - **Integrity:** "No exchange found" does not mean "no risk."<br>
 - **Limited function:** Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
 ## Question :
-A fictional patient 15 years, with long-term use of [Mibral(antihypertensive X)], presents with pain complaints and requests [Doliprane(an analgesic/anti-inflammatory Y)]. What is the INN of Y? Is it related to X, and at what level of interaction? Are there any precautions to take due to their age? If Y is not available, what alternatives are available in Algeria?
+A fictional patient 15 years, with long-term use of [Mibral(antihypertensive )], presents with pain complaints and requests [Doliprane(an analgesic/anti-inflammatory )]. What is the INN of Doliprane? Is it related to Mibral, and at what level of interaction? Are there any precautions to take due to their age? If Doliprane is not available, what alternatives are available in Algeria?
 
 ## Steps to Solve :
 
