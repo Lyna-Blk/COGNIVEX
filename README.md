@@ -18,6 +18,25 @@ Our project focuses on building structured knowledge bases from multiple sources
 - 
 - 
 
+## Cognivex Project Mission
+Cognivex is a smart assistant for information about medications and safety. The creation of Cognivex was specifically done to assist the user, especially community pharmacists and students of healthcare, in verifying the information before spreading it to patients, thus making the decision on their own and ensuring that nobody gets hurt. The system collects information about medications from Algerian sources and pharmaceuticals in order to create a solid knowledge base written in natural language, where every item has its source, page, and date of publication.
+
+The above-mentioned system is created for the following reasons:
+1- Identification of medicines in all its possible varieties, both INN and trade name.
+2- Extraction of data from the leaflets and documents obtained.
+3- Identification of useful data in these documents like indications of use, contraindications, precautionary measures, drug-drug interaction and their level of seriousness (in case of necessity).
+4- Building links between medicines, active ingredient and documents and also identifying equivalent medicines in Algeria.
+5- Comparison of different sources and versions of documents (by order of priority), emphasizing contradictions and choosing the most reliable source with reasoning.
+6- Each response should be backed up with an exact quotation from the source document, including the page number and the day the data was taken from the reliable and official ministry approved sources.
+7- Refusal to provide data in case of insufficient sources, rather than inventing data.
+
+## Principles
+Its principles
+The source is the primary criterion: without the source, there is no information.
+Transparency: Differences between sources will always be apparent.
+Integrity: "No exchange found" does not mean "no risk."
+Limited function: Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
+
 ## Team Members
 
 - Lyna Anfel BELKHAIRI
