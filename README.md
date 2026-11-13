@@ -13,10 +13,10 @@ Our project focuses on building structured knowledge bases from multiple sources
 **Technologies**
 
 - Python
-- Groq API (GPT-OSS-120B) – Large Language Model (LLM).
-- LangChain – RAG pipeline and document processing.
-- ChromaDB – Vector database for storing document embeddings.
-- Sentence Transformers – Text embeddings and semantic search.
+- Groq API (GPT-OSS-120B) : Large Language Model (LLM).
+- LangChain : RAG pipeline and document processing.
+- ChromaDB : Vector database for storing document embeddings.
+- Sentence Transformers : Text embeddings and semantic search.
 
 
 ## Cognivex Project Mission
