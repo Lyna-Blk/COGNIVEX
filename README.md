@@ -22,7 +22,7 @@ Our project focuses on building structured knowledge bases from multiple sources
 Cognivex is a smart assistant for information about medications and safety. The creation of Cognivex was specifically done to assist the user, especially community pharmacists and students of healthcare, in verifying the information before spreading it to patients, thus making the decision on their own and ensuring that nobody gets hurt. The system collects information about medications from Algerian sources and pharmaceuticals in order to create a solid knowledge base written in natural language, where every item has its source, page, and date of publication.
 
 The above-mentioned system is created for the following reasons:
-1- Identification of medicines in all its possible varieties, both INN and trade name.
+1- Identification of medicines in all its possible varieties, both INN and trade name.<br>
 2- Extraction of data from the leaflets and documents obtained.
 3- Identification of useful data in these documents like indications of use, contraindications, precautionary measures, drug-drug interaction and their level of seriousness (in case of necessity).
 4- Building links between medicines, active ingredient and documents and also identifying equivalent medicines in Algeria.
