@@ -30,12 +30,16 @@ The above-mentioned system is created for the following reasons:<br>
 6- Each response should be backed up with an exact quotation from the source document, including the page number and the day the data was taken from the reliable and official ministry approved sources.<br>
 7- Refusal to provide data in case of insufficient sources, rather than inventing data.<br>
 
-## Principles
+## Principles :
 Its principles : <br>
-The source is the primary criterion: without the source, there is no information.<br>
-Transparency: Differences between sources will always be apparent.<br>
-Integrity: "No exchange found" does not mean "no risk."<br>
-Limited function: Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
+- **The source is the primary criterion:** without the source, there is no information.<br>
+- **Transparency:** Differences between sources will always be apparent.<br>
+- **Integrity:** "No exchange found" does not mean "no risk."<br>
+- **Limited function:** Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
+## Question :
+A fictional patient [age], with long-term use of [antihypertensive X], presents with pain complaints and requests [an analgesic/anti-inflammatory Y]. What is the INN of Y? Is it related to X, and at what level of interaction? Are there any precautions to take due to their age? If Y is not available, what alternatives are available in Algeria?
+
+## Steps to Solve :
 
 ## Team Members
 
