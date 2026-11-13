@@ -32,7 +32,7 @@ The above-mentioned system is created for the following reasons:<br>
 
 ## Principles
 Its principles : <br>
-# The source is the primary criterion: without the source, there is no information.<br>
+The source is the primary criterion: without the source, there is no information.<br>
 Transparency: Differences between sources will always be apparent.<br>
 Integrity: "No exchange found" does not mean "no risk."<br>
 Limited function: Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
