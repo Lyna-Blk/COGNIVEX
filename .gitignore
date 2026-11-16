@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── COGNIVEX ──────────────────────────────────────────────────────────────────
+# Raw binary corpus files — large source PDFs & screenshots, tracked via LFS or
+# stored externally. Only the processed .md outputs are committed to git.
+data/corpus/**/*.pdf
+data/corpus/**/*.png
+data/corpus/**/*.jpg
+data/corpus/**/*.jpeg
+
+# Pipeline cache / intermediate log (regenerated on each run)
+data/ocr_pipeline_log.json
+
+# Validation helper (dev-only scratch script)
+validate_corpus_metadata.py
