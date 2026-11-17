@@ -1,1 +1,116 @@
-﻿[]
+﻿            {
+              "filename": "CELEBREX.avif",
+              "relative_path": "corpus/célécoxib/CELEBREX/CELEBREX.avif",
+              "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/CELEBREX.avif",
+              "type": "avif",
+              "extension": "avif",
+              "size_bytes": 20196
+            },
+            {
+              "filename": "Notice_CELEBREX.pdf",
+              "relative_path": "corpus/célécoxib/CELEBREX/Notice_CELEBREX.pdf",
+              "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/Notice_CELEBREX.pdf",
+              "type": "pdf",
+              "extension": "pdf",
+              "size_bytes": 179816
+            },
+            {
+              "filename": "RCP_CELEBREX.pdf",
+              "relative_path": "corpus/célécoxib/CELEBREX/RCP_CELEBREX.pdf",
+              "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/RCP_CELEBREX.pdf",
+              "type": "pdf",
+              "extension": "pdf",
+              "size_bytes": 341724
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dci": "néfopam",
+      "relative_path": "corpus/néfopam",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam",
+      "brand_count": 0,
+      "total_files": 3,
+      "source_files": [
+        {
+          "filename": "NEFOPAM.webp",
+          "relative_path": "corpus/néfopam/NEFOPAM.webp",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/NEFOPAM.webp",
+          "type": "webp",
+          "extension": "webp",
+          "size_bytes": 6624
+        },
+        {
+          "filename": "Notice_NEFOPAM.pdf",
+          "relative_path": "corpus/néfopam/Notice_NEFOPAM.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/Notice_NEFOPAM.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 339800
+        },
+        {
+          "filename": "RCP_NEFOPAM.pdf",
+          "relative_path": "corpus/néfopam/RCP_NEFOPAM.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/RCP_NEFOPAM.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 366327
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "paracétamol + codéine",
+      "relative_path": "corpus/paracétamol + codéine",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine",
+      "brand_count": 0,
+      "total_files": 2,
+      "source_files": [
+        {
+          "filename": "Notice_PARACETAMOL_CODEINE.pdf",
+          "relative_path": "corpus/paracétamol + codéine/Notice_PARACETAMOL_CODEINE.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/Notice_PARACETAMOL_CODEINE.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 401812
+        },
+        {
+          "filename": "RCP_PARACETAMOL_CODEINE.pdf",
+          "relative_path": "corpus/paracétamol + codéine/RCP_PARACETAMOL_CODEINE.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/RCP_PARACETAMOL_CODEINE.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 522098
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "tramadol",
+      "relative_path": "corpus/tramadol",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol",
+      "brand_count": 0,
+      "total_files": 2,
+      "source_files": [
+        {
+          "filename": "Notice_TRAMADOL.pdf",
+          "relative_path": "corpus/tramadol/Notice_TRAMADOL.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/Notice_TRAMADOL.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 407863
+        },
+        {
+          "filename": "RCP_TRAMADOL.pdf",
+          "relative_path": "corpus/tramadol/RCP_TRAMADOL.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/RCP_TRAMADOL.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 139573
+        }
+      ],
+      "brands": []
+    }
+  ]
+}
