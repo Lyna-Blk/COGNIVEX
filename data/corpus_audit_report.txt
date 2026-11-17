@@ -1,0 +1,223 @@
+
+========================================================================
+  COGNIVEX CORPUS RAG AUDIT REPORT
+========================================================================
+    Generated : 2026-11-16T21:51:29.076649+00:00
+    Corpus    : C:/Users/Administrator/COGNIVEX/data/corpus
+
+
+------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------
+    Total files scanned       : 104
+    Total PDFs analysed       : 61
+
+    [READY]  Valid for RAG ingestion  : 2
+    [OCR]    Need OCR processing      : 59
+    [ERROR]  Empty / Corrupt PDFs     : 0
+    [NOISE]  Have header/footer noise : 2
+    [IMAGE]  Non-PDF files (PNG/CSV)  : 43
+    [DUPE]   Duplicate file groups    : 0
+
+------------------------------------------------------------------------
+  VALID FILES READY FOR RAG INGESTION
+------------------------------------------------------------------------
+    [OK]  amlodipine/mibral/RCP-MIBRL.pdf
+    [OK]  losartan/LOSartan anpp.pdf
+
+------------------------------------------------------------------------
+  FILES NEEDING OCR (image-only or partial scans)
+------------------------------------------------------------------------
+    [OCR]  amlodipine/amlibon/source-generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlibon/source-interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlodal/source -generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlodal/source amlodal interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/mibral/source-mibral generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/mibral/source-mibral interactiob.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amdolipine rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amdolipine-daily med -rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amlodopine-notice.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/Source-info -amlodipline.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/acnestop/source-ansm-generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/acnestop/source-ansmi- interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/clinaram/source_ansm_interaction dwadz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/derma-t/source-ansm-interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/derma-t/source-ansm_generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source-ansm-notice.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source-ansm_info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source_ansm-rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/dwa--dz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/enalapril_mylan/enalapril mylan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/info-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/infp-ena.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/notice-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/notice-enla.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/rcp-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/rcpena.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/daily med genta.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_fiche_info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_interaction_medicament.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_noticc.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/gentacine/source_ansm_generiques.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/s_genta/source_ansm_generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/s_genta/source_interaction_s genta.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/angizar/angizar.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/cozzar/cozaar inyeraction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/dailymed-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/hysartan/hystran.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/info-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/rcp-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  nifedipine/dailymed-nifedipine.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/coversyl/source interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/coversyl/source-generique-.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/source rcp. prindoprile.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindosyl/iteraction-source.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/notic rampril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/notice-ramplir.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/raminorm/raminorm.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/ramplir-dailymed.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/rampril rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/rampril1.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/rcpramplir.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/tanatril/tanaratil.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/triatec/triatec-pharmanet.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+
+------------------------------------------------------------------------
+  EMPTY OR CORRUPTED PDFs
+------------------------------------------------------------------------
+    (none)
+
+------------------------------------------------------------------------
+  FILES WITH HEADER/FOOTER NOISE ARTIFACTS
+------------------------------------------------------------------------
+    [NOISE]  amlodipine/mibral/RCP-MIBRL.pdf
+             Repeated block: "ANNEXE I  
+RESUME DES CARACTERISTIQUES DU PRODUIT" (x13)
+             Repeated block: "Email : contact@ldmgroupe.com" (x13)
+             Repeated block: "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x13)
+    [NOISE]  losartan/LOSartan anpp.pdf
+             Repeated block: "ANNEXE I 
+    RESUME DES CARACTERISTIQUES DU PRODUIT" (x23)
+             Repeated block: "Email : contact@ldmgroupe.com" (x23)
+             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x23)
+
+------------------------------------------------------------------------
+  DUPLICATE FILE GROUPS
+------------------------------------------------------------------------
+    (none)
+
+------------------------------------------------------------------------
+  NON-PDF FILES (may need separate ingestion pipeline)
+------------------------------------------------------------------------
+    [ PNG]  amlodipine/amlibon/source dwadz-.png  (131,318 bytes)
+    [ PNG]  amlodipine/amlibon/source dwadz.png  (51,090 bytes)
+    [ PNG]  amlodipine/amlibon/source pharma net.png  (190,104 bytes)
+    [ PNG]  amlodipine/amlibon/spource pharma.png  (139,177 bytes)
+    [ PNG]  amlodipine/amlodal/source dwadz.png  (129,745 bytes)
+    [ PNG]  amlodipine/amlodal/source pharma net .png  (163,670 bytes)
+    [ PNG]  amlodipine/amlodal/source pharma.png  (164,714 bytes)
+    [ PNG]  amlodipine/amlodal/sourcedwadz.png  (49,319 bytes)
+    [ PNG]  amlodipine/mibral/resource-dwaadzz.png  (125,687 bytes)
+    [ PNG]  amlodipine/mibral/source-dadz.png  (53,145 bytes)
+    [ PNG]  amlodipine/mibral/source-dwadz-.png  (195,492 bytes)
+    [ PNG]  amlodipine/mibral/source-pharmanet.png  (165,585 bytes)
+    [ PNG]  clindamycine/acnestop/resource-ansm-dwaadz.png  (39,402 bytes)
+    [ PNG]  clindamycine/acnestop/resource-ansm-dwadz.png  (129,206 bytes)
+    [ PNG]  clindamycine/acnestop/source-ansm-pharmeny.png  (69,439 bytes)
+    [ PNG]  clindamycine/acnestop/source-ansm-phRMANET.png  (166,746 bytes)
+    [ PNG]  clindamycine/clinaram/source-ansm-dwa dz.png  (86,877 bytes)
+    [ PNG]  clindamycine/clinaram/source-ansm-dwadz.png  (126,903 bytes)
+    [ PNG]  clindamycine/clinaram/source-ansm-dwwadz.png  (237,514 bytes)
+    [ PNG]  clindamycine/clinaram/source-ansm-pharmanet.png  (165,770 bytes)
+    [ PNG]  clindamycine/derma-t/source-dwadz.png  (47,420 bytes)
+    [ PNG]  clindamycine/derma-t/source-pharmanet.png  (150,810 bytes)
+    [ PNG]  clindamycine/derma-t/sourcedwaadz.png  (129,701 bytes)
+    [ PNG]  clindamycine/derma-t/sourcepharmnet.png  (64,882 bytes)
+    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv  (387 bytes)
+    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv  (305 bytes)
+    [ PNG]  gentamicine/genta_80/source_pharmanet.png  (208,250 bytes)
+    [ PNG]  gentamicine/genta_80/source_pharmanett.png  (133,541 bytes)
+    [ PNG]  gentamicine/genta_80/sourcedwadz--.png  (164,863 bytes)
+    [ PNG]  gentamicine/genta_80/sourcedwadz-.png  (123,766 bytes)
+    [ PNG]  gentamicine/genta_80/sourcedwadz.png  (154,480 bytes)
+    [ PNG]  gentamicine/gentacine/source_pharmanet.png  (162,865 bytes)
+    [ PNG]  gentamicine/gentacine/sourcepharmanett-.png  (181,066 bytes)
+    [ PNG]  gentamicine/s_genta/source pharma net.png  (136,618 bytes)
+    [ PNG]  gentamicine/s_genta/source pharmanet.png  (149,130 bytes)
+    [ PNG]  gentamicine/s_genta/source_dwa.png  (49,899 bytes)
+    [ PNG]  gentamicine/s_genta/sourcedwadzz.png  (134,937 bytes)
+    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv  (764 bytes)
+    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv  (744 bytes)
+    [ PNG]  perindopril/coversyl/Screenshot 2026-11-15 234742.png  (153,459 bytes)
+    [ PNG]  perindopril/perindosyl/pharmanetsource'.png  (150,898 bytes)
+    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv  (788 bytes)
+    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv  (1,346 bytes)
+
+========================================================================
+  END OF REPORT
+========================================================================

@@ -1,0 +1,1625 @@
+{
+  "_meta": {
+    "generated_at": "2026-11-16T21:51:29.076649+00:00",
+    "corpus_root": "C:/Users/Administrator/COGNIVEX/data/corpus",
+    "total_files": 104,
+    "total_pdf": 61,
+    "valid_for_rag": 2,
+    "needs_ocr": 59,
+    "empty_or_corrupt": 0,
+    "noisy": 2,
+    "non_pdf": 43,
+    "duplicate_groups": 0
+  },
+  "valid_for_rag": [
+    "amlodipine/mibral/RCP-MIBRL.pdf",
+    "losartan/LOSartan anpp.pdf"
+  ],
+  "needs_ocr": [
+    "amlodipine/amlibon/source-generique.pdf",
+    "amlodipine/amlibon/source-interaction.pdf",
+    "amlodipine/amlodal/source -generique.pdf",
+    "amlodipine/amlodal/source amlodal interaction.pdf",
+    "amlodipine/mibral/source-mibral generique.pdf",
+    "amlodipine/mibral/source-mibral interactiob.pdf",
+    "amlodipine/source-amdolipine rcp.pdf",
+    "amlodipine/source-amdolipine-daily med -rcp.pdf",
+    "amlodipine/source-amlodopine-notice.pdf",
+    "amlodipine/Source-info -amlodipline.pdf",
+    "clindamycine/acnestop/source-ansm-generique.pdf",
+    "clindamycine/acnestop/source-ansmi- interaction.pdf",
+    "clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+    "clindamycine/derma-t/source-ansm-interaction.pdf",
+    "clindamycine/derma-t/source-ansm_generique.pdf",
+    "clindamycine/source-ansm-notice.pdf",
+    "clindamycine/source-ansm_info.pdf",
+    "clindamycine/source_ansm-rcp.pdf",
+    "enalapril/dwa--dz.pdf",
+    "enalapril/enalapril_mylan/enalapril mylan.pdf",
+    "enalapril/info-enalapril.pdf",
+    "enalapril/infp-ena.pdf",
+    "enalapril/notice-enalapril.pdf",
+    "enalapril/notice-enla.pdf",
+    "enalapril/rcp-enalapril.pdf",
+    "enalapril/rcpena.pdf",
+    "gentamicine/daily med genta.pdf",
+    "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+    "gentamicine/genta_80/source_ansm_fiche_info.pdf",
+    "gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+    "gentamicine/genta_80/source_ansm_noticc.pdf",
+    "gentamicine/genta_80/source_ansm_rcp.pdf",
+    "gentamicine/gentacine/source_ansm_generiques.pdf",
+    "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+    "gentamicine/s_genta/source_ansm_generique.pdf",
+    "gentamicine/s_genta/source_interaction_s genta.pdf",
+    "losartan/angizar/angizar.pdf",
+    "losartan/cozzar/cozaar inyeraction.pdf",
+    "losartan/dailymed-losartan.pdf",
+    "losartan/hysartan/hystran.pdf",
+    "losartan/info-losartan.pdf",
+    "losartan/rcp-losartan.pdf",
+    "nifedipine/dailymed-nifedipine.pdf",
+    "perindopril/coversyl/source interaction.pdf",
+    "perindopril/coversyl/source-generique-.pdf",
+    "perindopril/perindopril/generique.pdf",
+    "perindopril/perindopril/interaction.pdf",
+    "perindopril/perindopril/source rcp. prindoprile.pdf",
+    "perindopril/perindosyl/iteraction-source.pdf",
+    "ramipril/info.pdf",
+    "ramipril/notic rampril.pdf",
+    "ramipril/notice-ramplir.pdf",
+    "ramipril/raminorm/raminorm.pdf",
+    "ramipril/ramplir-dailymed.pdf",
+    "ramipril/rampril rcp.pdf",
+    "ramipril/rampril1.pdf",
+    "ramipril/rcpramplir.pdf",
+    "ramipril/tanatril/tanaratil.pdf",
+    "ramipril/triatec/triatec-pharmanet.pdf"
+  ],
+  "empty_or_corrupt": [],
+  "noisy_files": [
+    "amlodipine/mibral/RCP-MIBRL.pdf",
+    "losartan/LOSartan anpp.pdf"
+  ],
+  "non_pdf_files": [
+    "amlodipine/amlibon/source dwadz-.png",
+    "amlodipine/amlibon/source dwadz.png",
+    "amlodipine/amlibon/source pharma net.png",
+    "amlodipine/amlibon/spource pharma.png",
+    "amlodipine/amlodal/source dwadz.png",
+    "amlodipine/amlodal/source pharma net .png",
+    "amlodipine/amlodal/source pharma.png",
+    "amlodipine/amlodal/sourcedwadz.png",
+    "amlodipine/mibral/resource-dwaadzz.png",
+    "amlodipine/mibral/source-dadz.png",
+    "amlodipine/mibral/source-dwadz-.png",
+    "amlodipine/mibral/source-pharmanet.png",
+    "clindamycine/acnestop/resource-ansm-dwaadz.png",
+    "clindamycine/acnestop/resource-ansm-dwadz.png",
+    "clindamycine/acnestop/source-ansm-pharmeny.png",
+    "clindamycine/acnestop/source-ansm-phRMANET.png",
+    "clindamycine/clinaram/source-ansm-dwa dz.png",
+    "clindamycine/clinaram/source-ansm-dwadz.png",
+    "clindamycine/clinaram/source-ansm-dwwadz.png",
+    "clindamycine/clinaram/source-ansm-pharmanet.png",
+    "clindamycine/derma-t/source-dwadz.png",
+    "clindamycine/derma-t/source-pharmanet.png",
+    "clindamycine/derma-t/sourcedwaadz.png",
+    "clindamycine/derma-t/sourcepharmnet.png",
+    "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+    "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+    "gentamicine/genta_80/source_pharmanet.png",
+    "gentamicine/genta_80/source_pharmanett.png",
+    "gentamicine/genta_80/sourcedwadz--.png",
+    "gentamicine/genta_80/sourcedwadz-.png",
+    "gentamicine/genta_80/sourcedwadz.png",
+    "gentamicine/gentacine/source_pharmanet.png",
+    "gentamicine/gentacine/sourcepharmanett-.png",
+    "gentamicine/s_genta/source pharma net.png",
+    "gentamicine/s_genta/source pharmanet.png",
+    "gentamicine/s_genta/source_dwa.png",
+    "gentamicine/s_genta/sourcedwadzz.png",
+    "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+    "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+    "perindopril/coversyl/Screenshot 2026-11-15 234742.png",
+    "perindopril/perindosyl/pharmanetsource'.png",
+    "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+    "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv"
+  ],
+  "duplicate_groups": [],
+  "files": [
+    {
+      "path": "amlodipine/amlibon/source dwadz-.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source dwadz-.png",
+      "extension": "png",
+      "size_bytes": 131318,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlibon/source dwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source dwadz.png",
+      "extension": "png",
+      "size_bytes": 51090,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlibon/source pharma net.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source pharma net.png",
+      "extension": "png",
+      "size_bytes": 190104,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlibon/source-generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 1717648,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/amlibon/source-interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1720642,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/amlibon/spource pharma.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/spource pharma.png",
+      "extension": "png",
+      "size_bytes": 139177,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlodal/source -generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source -generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 1559685,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 5,
+      "total_chars": 0,
+      "image_only_pages": 5,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/amlodal/source amlodal interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source amlodal interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1543690,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 5,
+      "total_chars": 0,
+      "image_only_pages": 5,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/amlodal/source dwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source dwadz.png",
+      "extension": "png",
+      "size_bytes": 129745,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlodal/source pharma net .png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source pharma net .png",
+      "extension": "png",
+      "size_bytes": 163670,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlodal/source pharma.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source pharma.png",
+      "extension": "png",
+      "size_bytes": 164714,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/amlodal/sourcedwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/sourcedwadz.png",
+      "extension": "png",
+      "size_bytes": 49319,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/mibral/RCP-MIBRL.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/RCP-MIBRL.pdf",
+      "extension": "pdf",
+      "size_bytes": 440446,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 13,
+      "total_chars": 35760,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"ANNEXE I  \nRESUME DES CARACTERISTIQUES DU PRODUIT\" (x13)",
+        "\"Email : contact@ldmgroupe.com\" (x13)",
+        "\"CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 \" (x13)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (3 unique blocks)"
+      ]
+    },
+    {
+      "path": "amlodipine/mibral/resource-dwaadzz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/resource-dwaadzz.png",
+      "extension": "png",
+      "size_bytes": 125687,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/mibral/source-dadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-dadz.png",
+      "extension": "png",
+      "size_bytes": 53145,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/mibral/source-dwadz-.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-dwadz-.png",
+      "extension": "png",
+      "size_bytes": 195492,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/mibral/source-mibral generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 3110972,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/mibral/source-mibral interactiob.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral interactiob.pdf",
+      "extension": "pdf",
+      "size_bytes": 1739145,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/mibral/source-pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-pharmanet.png",
+      "extension": "png",
+      "size_bytes": 165585,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amlodipine/source-amdolipine rcp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine rcp.pdf",
+      "extension": "pdf",
+      "size_bytes": 2384314,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 16,
+      "total_chars": 0,
+      "image_only_pages": 16,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/source-amdolipine-daily med -rcp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine-daily med -rcp.pdf",
+      "extension": "pdf",
+      "size_bytes": 543184,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 2,
+      "total_chars": 0,
+      "image_only_pages": 2,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/source-amlodopine-notice.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amlodopine-notice.pdf",
+      "extension": "pdf",
+      "size_bytes": 1261416,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 9,
+      "total_chars": 0,
+      "image_only_pages": 9,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "amlodipine/Source-info -amlodipline.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/Source-info -amlodipline.pdf",
+      "extension": "pdf",
+      "size_bytes": 429182,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/acnestop/resource-ansm-dwaadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/resource-ansm-dwaadz.png",
+      "extension": "png",
+      "size_bytes": 39402,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/acnestop/resource-ansm-dwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/resource-ansm-dwadz.png",
+      "extension": "png",
+      "size_bytes": 129206,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/acnestop/source-ansm-generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 1519028,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 7,
+      "total_chars": 0,
+      "image_only_pages": 7,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/acnestop/source-ansm-pharmeny.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-pharmeny.png",
+      "extension": "png",
+      "size_bytes": 69439,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/acnestop/source-ansm-phRMANET.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-phRMANET.png",
+      "extension": "png",
+      "size_bytes": 166746,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/acnestop/source-ansmi- interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansmi- interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1526285,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 7,
+      "total_chars": 0,
+      "image_only_pages": 7,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/clinaram/source-ansm-dwa dz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source-ansm-dwa dz.png",
+      "extension": "png",
+      "size_bytes": 86877,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/clinaram/source-ansm-dwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source-ansm-dwadz.png",
+      "extension": "png",
+      "size_bytes": 126903,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/clinaram/source-ansm-dwwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source-ansm-dwwadz.png",
+      "extension": "png",
+      "size_bytes": 237514,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/clinaram/source-ansm-pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source-ansm-pharmanet.png",
+      "extension": "png",
+      "size_bytes": 165770,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+      "extension": "pdf",
+      "size_bytes": 1417753,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 7,
+      "total_chars": 0,
+      "image_only_pages": 7,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/derma-t/source-ansm-interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm-interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1466085,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 7,
+      "total_chars": 0,
+      "image_only_pages": 7,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/derma-t/source-ansm_generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm_generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 1458529,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 7,
+      "total_chars": 0,
+      "image_only_pages": 7,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/derma-t/source-dwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-dwadz.png",
+      "extension": "png",
+      "size_bytes": 47420,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/derma-t/source-pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-pharmanet.png",
+      "extension": "png",
+      "size_bytes": 150810,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/derma-t/sourcedwaadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/sourcedwaadz.png",
+      "extension": "png",
+      "size_bytes": 129701,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/derma-t/sourcepharmnet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/sourcepharmnet.png",
+      "extension": "png",
+      "size_bytes": 64882,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "clindamycine/source-ansm-notice.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm-notice.pdf",
+      "extension": "pdf",
+      "size_bytes": 1250092,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 9,
+      "total_chars": 0,
+      "image_only_pages": 9,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/source-ansm_info.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm_info.pdf",
+      "extension": "pdf",
+      "size_bytes": 486331,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "clindamycine/source_ansm-rcp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source_ansm-rcp.pdf",
+      "extension": "pdf",
+      "size_bytes": 1401786,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 12,
+      "total_chars": 0,
+      "image_only_pages": 12,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+      "extension": "csv",
+      "size_bytes": 387,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+      "extension": "csv",
+      "size_bytes": 305,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "enalapril/dwa--dz.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/dwa--dz.pdf",
+      "extension": "pdf",
+      "size_bytes": 277807,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 2,
+      "total_chars": 0,
+      "image_only_pages": 2,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/enalapril_mylan/enalapril mylan.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/enalapril_mylan/enalapril mylan.pdf",
+      "extension": "pdf",
+      "size_bytes": 445836,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 2,
+      "total_chars": 0,
+      "image_only_pages": 2,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/info-enalapril.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/info-enalapril.pdf",
+      "extension": "pdf",
+      "size_bytes": 440126,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/infp-ena.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/infp-ena.pdf",
+      "extension": "pdf",
+      "size_bytes": 413917,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/notice-enalapril.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/notice-enalapril.pdf",
+      "extension": "pdf",
+      "size_bytes": 1828196,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 13,
+      "total_chars": 0,
+      "image_only_pages": 13,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/notice-enla.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/notice-enla.pdf",
+      "extension": "pdf",
+      "size_bytes": 1930786,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 14,
+      "total_chars": 0,
+      "image_only_pages": 14,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/rcp-enalapril.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/rcp-enalapril.pdf",
+      "extension": "pdf",
+      "size_bytes": 3726731,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 23,
+      "total_chars": 0,
+      "image_only_pages": 23,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "enalapril/rcpena.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/rcpena.pdf",
+      "extension": "pdf",
+      "size_bytes": 3819590,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 23,
+      "total_chars": 0,
+      "image_only_pages": 23,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/daily med genta.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/daily med genta.pdf",
+      "extension": "pdf",
+      "size_bytes": 5395502,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 14,
+      "total_chars": 0,
+      "image_only_pages": 14,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+      "extension": "pdf",
+      "size_bytes": 1755807,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_ansm_fiche_info.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_fiche_info.pdf",
+      "extension": "pdf",
+      "size_bytes": 443391,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+      "extension": "pdf",
+      "size_bytes": 1759284,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_ansm_noticc.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_noticc.pdf",
+      "extension": "pdf",
+      "size_bytes": 1439233,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 11,
+      "total_chars": 0,
+      "image_only_pages": 11,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_ansm_rcp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_rcp.pdf",
+      "extension": "pdf",
+      "size_bytes": 2784317,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 23,
+      "total_chars": 0,
+      "image_only_pages": 23,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/genta_80/source_pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_pharmanet.png",
+      "extension": "png",
+      "size_bytes": 208250,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/genta_80/source_pharmanett.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_pharmanett.png",
+      "extension": "png",
+      "size_bytes": 133541,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/genta_80/sourcedwadz--.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz--.png",
+      "extension": "png",
+      "size_bytes": 164863,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/genta_80/sourcedwadz-.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz-.png",
+      "extension": "png",
+      "size_bytes": 123766,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/genta_80/sourcedwadz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz.png",
+      "extension": "png",
+      "size_bytes": 154480,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/gentacine/source_ansm_generiques.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_generiques.pdf",
+      "extension": "pdf",
+      "size_bytes": 1740015,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+      "extension": "pdf",
+      "size_bytes": 1742989,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/gentacine/source_pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_pharmanet.png",
+      "extension": "png",
+      "size_bytes": 162865,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/gentacine/sourcepharmanett-.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/sourcepharmanett-.png",
+      "extension": "png",
+      "size_bytes": 181066,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/s_genta/source pharma net.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source pharma net.png",
+      "extension": "png",
+      "size_bytes": 136618,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/s_genta/source pharmanet.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source pharmanet.png",
+      "extension": "png",
+      "size_bytes": 149130,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/s_genta/source_ansm_generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_ansm_generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 1671097,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/s_genta/source_dwa.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_dwa.png",
+      "extension": "png",
+      "size_bytes": 49899,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "gentamicine/s_genta/source_interaction_s genta.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_interaction_s genta.pdf",
+      "extension": "pdf",
+      "size_bytes": 1674238,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 8,
+      "total_chars": 0,
+      "image_only_pages": 8,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "gentamicine/s_genta/sourcedwadzz.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/sourcedwadzz.png",
+      "extension": "png",
+      "size_bytes": 134937,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "losartan/angizar/angizar.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/angizar/angizar.pdf",
+      "extension": "pdf",
+      "size_bytes": 528645,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+      "extension": "csv",
+      "size_bytes": 764,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+      "extension": "csv",
+      "size_bytes": 744,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "losartan/cozzar/cozaar inyeraction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/cozzar/cozaar inyeraction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1741133,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 5,
+      "total_chars": 0,
+      "image_only_pages": 5,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "losartan/dailymed-losartan.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/dailymed-losartan.pdf",
+      "extension": "pdf",
+      "size_bytes": 907906,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 4,
+      "total_chars": 0,
+      "image_only_pages": 4,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "losartan/hysartan/hystran.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/hysartan/hystran.pdf",
+      "extension": "pdf",
+      "size_bytes": 513823,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "losartan/info-losartan.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/info-losartan.pdf",
+      "extension": "pdf",
+      "size_bytes": 483029,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "losartan/LOSartan anpp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/LOSartan anpp.pdf",
+      "extension": "pdf",
+      "size_bytes": 448016,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 23,
+      "total_chars": 61727,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"ANNEXE I \n    RESUME DES CARACTERISTIQUES DU PRODUIT\" (x23)",
+        "\"Email : contact@ldmgroupe.com\" (x23)",
+        "\"CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3\" (x23)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (3 unique blocks)"
+      ]
+    },
+    {
+      "path": "losartan/rcp-losartan.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/rcp-losartan.pdf",
+      "extension": "pdf",
+      "size_bytes": 4096095,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 25,
+      "total_chars": 0,
+      "image_only_pages": 25,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "nifedipine/dailymed-nifedipine.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/nifedipine/dailymed-nifedipine.pdf",
+      "extension": "pdf",
+      "size_bytes": 487532,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/coversyl/Screenshot 2026-11-15 234742.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/Screenshot 2026-11-15 234742.png",
+      "extension": "png",
+      "size_bytes": 153459,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "perindopril/coversyl/source interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 1991993,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 6,
+      "total_chars": 0,
+      "image_only_pages": 6,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/coversyl/source-generique-.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source-generique-.pdf",
+      "extension": "pdf",
+      "size_bytes": 1988345,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 6,
+      "total_chars": 0,
+      "image_only_pages": 6,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/perindopril/generique.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/generique.pdf",
+      "extension": "pdf",
+      "size_bytes": 2039368,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 6,
+      "total_chars": 0,
+      "image_only_pages": 6,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/perindopril/interaction.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/interaction.pdf",
+      "extension": "pdf",
+      "size_bytes": 2043884,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 6,
+      "total_chars": 0,
+      "image_only_pages": 6,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/perindopril/source rcp. prindoprile.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/source rcp. prindoprile.pdf",
+      "extension": "pdf",
+      "size_bytes": 850219,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/perindosyl/iteraction-source.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl/iteraction-source.pdf",
+      "extension": "pdf",
+      "size_bytes": 1952177,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 6,
+      "total_chars": 0,
+      "image_only_pages": 6,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "perindopril/perindosyl/pharmanetsource'.png",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl/pharmanetsource'.png",
+      "extension": "png",
+      "size_bytes": 150898,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+      "extension": "csv",
+      "size_bytes": 788,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+      "extension": "csv",
+      "size_bytes": 1346,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "ramipril/info.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/info.pdf",
+      "extension": "pdf",
+      "size_bytes": 435011,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/notic rampril.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/notic rampril.pdf",
+      "extension": "pdf",
+      "size_bytes": 1824909,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 13,
+      "total_chars": 0,
+      "image_only_pages": 13,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/notice-ramplir.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/notice-ramplir.pdf",
+      "extension": "pdf",
+      "size_bytes": 1908842,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 14,
+      "total_chars": 0,
+      "image_only_pages": 14,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/raminorm/raminorm.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/raminorm/raminorm.pdf",
+      "extension": "pdf",
+      "size_bytes": 512169,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/ramplir-dailymed.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/ramplir-dailymed.pdf",
+      "extension": "pdf",
+      "size_bytes": 990800,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 4,
+      "total_chars": 0,
+      "image_only_pages": 4,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/rampril rcp.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rampril rcp.pdf",
+      "extension": "pdf",
+      "size_bytes": 3751741,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 25,
+      "total_chars": 0,
+      "image_only_pages": 25,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/rampril1.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rampril1.pdf",
+      "extension": "pdf",
+      "size_bytes": 436188,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/rcpramplir.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rcpramplir.pdf",
+      "extension": "pdf",
+      "size_bytes": 3793246,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 27,
+      "total_chars": 0,
+      "image_only_pages": 27,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/tanatril/tanaratil.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/tanatril/tanaratil.pdf",
+      "extension": "pdf",
+      "size_bytes": 499087,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 3,
+      "total_chars": 0,
+      "image_only_pages": 3,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    },
+    {
+      "path": "ramipril/triatec/triatec-pharmanet.pdf",
+      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/triatec/triatec-pharmanet.pdf",
+      "extension": "pdf",
+      "size_bytes": 433543,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "needs_ocr",
+      "page_count": 2,
+      "total_chars": 0,
+      "image_only_pages": 2,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": [
+        "Only 0 chars extracted - likely scanned image PDF"
+      ]
+    }
+  ]
+}
