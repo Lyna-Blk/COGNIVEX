@@ -1,4 +1,228 @@
 ﻿            {
+  "_meta": {
+    "generated_at": "2026-11-17T14:40:32.390227+00:00",
+    "corpus_root": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus",
+    "total_dci_count": 8,
+    "total_brands": 1,
+    "total_files": 30
+  },
+  "corpus": [
+    {
+      "dci": "amoxicilline",
+      "relative_path": "corpus/amoxicilline",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline",
+      "brand_count": 0,
+      "total_files": 5,
+      "source_files": [
+        {
+          "filename": "Amoxicilline_1.jpg",
+          "relative_path": "corpus/amoxicilline/Amoxicilline_1.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Amoxicilline_1.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 158503
+        },
+        {
+          "filename": "Amoxicilline_2.jpg",
+          "relative_path": "corpus/amoxicilline/Amoxicilline_2.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Amoxicilline_2.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 89143
+        },
+        {
+          "filename": "Article_Amoxicilline.pdf",
+          "relative_path": "corpus/amoxicilline/Article_Amoxicilline.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Article_Amoxicilline.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 81738
+        },
+        {
+          "filename": "Notice_Amoxicilline.pdf",
+          "relative_path": "corpus/amoxicilline/Notice_Amoxicilline.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Notice_Amoxicilline.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 747198
+        },
+        {
+          "filename": "RCP_Amoxicilline.pdf",
+          "relative_path": "corpus/amoxicilline/RCP_Amoxicilline.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/RCP_Amoxicilline.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 407290
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "amoxicilline + acide clavulanique",
+      "relative_path": "corpus/amoxicilline + acide clavulanique",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique",
+      "brand_count": 0,
+      "total_files": 4,
+      "source_files": [
+        {
+          "filename": "AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+          "relative_path": "corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 17496
+        },
+        {
+          "filename": "AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+          "relative_path": "corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 5844
+        },
+        {
+          "filename": "Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "relative_path": "corpus/amoxicilline + acide clavulanique/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 451844
+        },
+        {
+          "filename": "RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "relative_path": "corpus/amoxicilline + acide clavulanique/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 607960
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "céfixime",
+      "relative_path": "corpus/céfixime",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime",
+      "brand_count": 0,
+      "total_files": 4,
+      "source_files": [
+        {
+          "filename": "CEFIXIME_1.jpg",
+          "relative_path": "corpus/céfixime/CEFIXIME_1.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/CEFIXIME_1.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 89025
+        },
+        {
+          "filename": "CEFIXIME_2.jpg",
+          "relative_path": "corpus/céfixime/CEFIXIME_2.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/CEFIXIME_2.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 92584
+        },
+        {
+          "filename": "Notice_CEFIXIME.pdf",
+          "relative_path": "corpus/céfixime/Notice_CEFIXIME.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/Notice_CEFIXIME.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 607388
+        },
+        {
+          "filename": "RCP_CEFIXIME.pdf",
+          "relative_path": "corpus/céfixime/RCP_CEFIXIME.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/RCP_CEFIXIME.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 323396
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "céfuroxime",
+      "relative_path": "corpus/céfuroxime",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime",
+      "brand_count": 0,
+      "total_files": 5,
+      "source_files": [
+        {
+          "filename": "Article_CEFUROXIME.pdf",
+          "relative_path": "corpus/céfuroxime/Article_CEFUROXIME.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/Article_CEFUROXIME.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 49176
+        },
+        {
+          "filename": "CEFUROXIME_1.jpg",
+          "relative_path": "corpus/céfuroxime/CEFUROXIME_1.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/CEFUROXIME_1.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 98810
+        },
+        {
+          "filename": "CEFUROXIME_2.jpg",
+          "relative_path": "corpus/céfuroxime/CEFUROXIME_2.jpg",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/CEFUROXIME_2.jpg",
+          "type": "jpg",
+          "extension": "jpg",
+          "size_bytes": 128969
+        },
+        {
+          "filename": "Notice_CEFUROXIME.pdf",
+          "relative_path": "corpus/céfuroxime/Notice_CEFUROXIME.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/Notice_CEFUROXIME.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 822971
+        },
+        {
+          "filename": "RCP_CEFUROXIME.pdf",
+          "relative_path": "corpus/céfuroxime/RCP_CEFUROXIME.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/RCP_CEFUROXIME.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 418130
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "célécoxib",
+      "relative_path": "corpus/célécoxib",
+      "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib",
+      "brand_count": 1,
+      "total_files": 5,
+      "source_files": [
+        {
+          "filename": "CEBREX 100.pdf",
+          "relative_path": "corpus/célécoxib/CEBREX 100.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CEBREX 100.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 475065
+        },
+        {
+          "filename": "CEBREX 200.pdf",
+          "relative_path": "corpus/célécoxib/CEBREX 200.pdf",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CEBREX 200.pdf",
+          "type": "pdf",
+          "extension": "pdf",
+          "size_bytes": 471435
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "CELEBREX",
+          "relative_path": "corpus/célécoxib/CELEBREX",
+          "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX",
+          "file_count": 3,
+          "files": [
+            {
               "filename": "CELEBREX.avif",
               "relative_path": "corpus/célécoxib/CELEBREX/CELEBREX.avif",
               "absolute_path": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/CELEBREX.avif",
