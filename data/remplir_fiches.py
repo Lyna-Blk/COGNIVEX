@@ -5,7 +5,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 excel_path = os.path.join(BASE_DIR, "Liste 40 medicaments.xlsx")
 fiches_dir = os.path.join(BASE_DIR, "fiches_dci")
 
-# 1. قراءة الإكسيل وتنظيف أسماء الأعمدة
 df = pd.read_excel(excel_path)
 df.columns = [c.strip() for c in df.columns]
 
@@ -16,7 +15,6 @@ col_forme = 'Forme'
 col_dosage = 'Dosage'
 col_present = 'Présent dans la nomenclature algérienne ?'
 
-# 2. المرور على ملفات .md الـ 8 الموجودة في fiches_dci
 for filename in os.listdir(fiches_dir):
     if not filename.endswith(".md"):
         continue
@@ -25,10 +23,9 @@ for filename in os.listdir(fiches_dir):
     df_filtered = df[df[col_dci].astype(str).str.strip().str.lower() == dci_name]
 
     if df_filtered.empty:
-        print(f"⚠️ لم يتم العثور على الدواء في الإكسيل: {dci_name}")
+        print(f"DCI non trouvé: {dci_name}")
         continue
 
-    # استخراج الأسماء التجارية والأشكال والجرعات دون تكرار
     commercial_lines = []
     seen = set()
     for _, row in df_filtered.iterrows():
@@ -48,7 +45,6 @@ for filename in os.listdir(fiches_dir):
         
     presence_val = str(df_filtered.iloc[0].get(col_present, 'oui')).strip()
 
-    # 3. بناء القالب المعدّل (بسطر نتيجة واحد في Recherche ANPP)
     nouveau_contenu = f"""# DCI : {dci_name.upper()}
 
 - **Code ATC :** {atc_val}
@@ -90,9 +86,8 @@ Au moins 3 sources distinctes, dont au moins une officielle.
 - En cas de différence, la source algérienne prévaut : [...]
 """
 
-    # 4. الكتابة في الملف
     file_path = os.path.join(fiches_dir, filename)
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(nouveau_contenu)
 
-    print(f"✅ تم التحديث بنجاح: {filename} (ATC: {atc_val})")
+    print(f"Mis à jour avec succès: {filename} (ATC: {atc_val})")
