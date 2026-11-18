@@ -1,0 +1,122 @@
+# DCI 21 — LEVOFLOXACINE
+
+## 02. Recherche dans les sources réglementaires algériennes
+
+### 1. Objectif de la recherche
+
+Rechercher les documents réglementaires algériens relatifs à la lévofloxacine :
+
+- Nomenclature nationale des produits pharmaceutiques.
+- Codes DCI, dosages et formes pharmaceutiques.
+- Liste des médicaments enregistrés en Algérie.
+- RCP (Résumé des caractéristiques du produit).
+- Notices destinées aux patients.
+- Noms commerciaux et laboratoires titulaires.
+- Numéros et dates d'enregistrement disponibles.
+
+### 2. Sources réglementaires prioritaires
+
+**Source 1 — Ministère de l'Industrie Pharmaceutique (MIPH)**
+
+Nom : Nomenclature nationale des produits pharmaceutiques.
+
+Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+Éditions disponibles sur le portail :
+- 2026 : versions février, avril, juin et août.
+- 2025 : plusieurs éditions mensuelles.
+- 2024 : versions décembre et août.
+
+Recherche à effectuer :
+- LEVOFLOXACINE.
+- LEVOFLOXACINE HEMIHYDRATE EXPRIME EN LEVOFLOXACINE.
+- 13 K 228.
+- 13 K 231.
+
+Résultat initial :
+La nomenclature et des bases secondaires qui la reprennent identifient plusieurs présentations de lévofloxacine. Une vérification directe dans le PDF de la dernière édition officielle est nécessaire pour confirmer chaque présentation et son statut.
+
+**Source 2 — Journal officiel de la République algérienne**
+
+Document : Journal officiel n° 32 du 12 juin 2014.
+
+Lien :
+https://www.joradp.dz/FTP/jo-francais/2014/F2014032.pdf
+
+Résultat identifié :
+- Code 13 K 228 : LEVOFLOXACINE.
+- Forme : comprimé pelliculé sécable.
+- Dosage : 500 mg sous forme hémihydratée, correspondant à 512,46 mg par comprimé.
+
+Le document mentionne notamment des conditions particulières de remboursement pour certaines infections urinaires, prostatites, infections intestinales et biliaires, ainsi que certaines infections respiratoires et sinusites.
+
+Autre référence :
+Programme prévisionnel de fabrication des produits pharmaceutiques — MIPH, exercice 2023.
+
+Lien :
+https://www.miph.gov.dz/fr/wp-content/uploads/2023/02/Programme-previsionnel-de-productions-2023.pdf
+
+Résultat identifié :
+- Code 13 K 231 : Lévofloxacine, solution injectable pour perfusion, 500 mg/100 ml.
+
+Remarque : le programme prévisionnel ne suffit pas à prouver qu'un produit est actuellement enregistré ou commercialisé.
+
+**Source 3 — Agence Nationale des Produits Pharmaceutiques (ANPP)**
+
+Nom : Portail de recherche des RCP.
+
+Lien :
+https://rcp.anpp.dz/
+
+Recherches à effectuer :
+- Lévofloxacine.
+- LEVOFLOXACINE 500 mg.
+- LEVOFLOXACINE 750 mg.
+- LEVOFLOXACINE 5 mg/ml.
+- LEVOFLOX.
+- MATADOR.
+- LEVOQUIN.
+
+Résultat initial :
+Aucun RCP algérien spécifique n'a encore été confirmé. La recherche par DCI et par nom commercial reste à effectuer.
+
+**Source 4 — Liste des médicaments enregistrés en Algérie**
+
+Nom : Liste des médicaments enregistrés en Algérie.
+
+Lien :
+https://www.miph.gov.dz/fr/liste-des-medicaments-enregistres-en-algerie/
+
+Informations à rechercher :
+- Noms commerciaux de la lévofloxacine.
+- Dosages et formes pharmaceutiques.
+- Laboratoires titulaires.
+- Numéros d'enregistrement.
+- Dates d'enregistrement et de validité, lorsqu'elles sont disponibles.
+
+Résultat initial :
+Le portail officiel propose notamment des listes pour les années 2023, 2024 et 2025. Les documents doivent être recherchés par DCI et par nom commercial.
+
+### 3. Sources secondaires complémentaires
+
+**Source 5 — Algérie Docto**
+
+Nom : Lévofloxacine hémihydrate exprimée en lévofloxacine.
+
+Lien :
+https://algerie-docto.com/medicaments/substance/1257/levofloxacine-hemihydrate-exprime-en-levofloxacine
+
+Résultats préliminaires :
+Plusieurs présentations sont répertoriées, notamment :
+- LEVOFLOX 500 mg — INPHA-MEDIS.
+- LEVOFLOXACINE RAZES 5 mg/ml — FRATER RAZES.
+- LEVOQUIN 500 mg — HUPP PHARMA.
+- LEVOQUIN 5 mg/ml — HUPP PHARMA.
+- MATADOR 250 mg — DAR AL DAWA.
+- MATADOR 500 mg — DAR AL DAWA.
+- MATADOR 750 mg — DAR AL DAWA.
+
+La base indique également d'autres présentations, notamment des gouttes ophtalmiques et auriculaires.
+
+Remarque : ces données constituent des pistes de recherche secondaires. Les informations doivent être vérifiées dans la nomenclature officielle et les documents

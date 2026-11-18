@@ -1,0 +1,289 @@
+# DCI 23 — COTRIMOXAZOLE
+
+## 1. IDENTIFICATION DE LA SUBSTANCE ACTIVE
+
+- DCI : Cotrimoxazole
+- Dénomination des substances actives : Sulfaméthoxazole + Triméthoprime
+- Code ATC : J01EE01
+- Classe thérapeutique : Antibactériens à usage systémique
+- Classe pharmacologique : Association d'un sulfamide antibactérien et d'une diaminopyrimidine
+- Nature de l'activité : Association antibactérienne à effet synergique
+- Rapport de composition habituel : 5/1 (sulfaméthoxazole/triméthoprime)
+
+### Codes DCI identifiés dans les sources algériennes
+
+Selon le Journal officiel algérien n° 75 du 13 novembre 2025 :
+
+- 13 M 090 : Suspension buvable, 200 mg/40 mg par 5 ml.
+- 13 M 092 : Comprimé, 400 mg/80 mg.
+- 13 M 169 : Comprimé, 800 mg/160 mg.
+
+Ces codes correspondent aux différentes présentations du cotrimoxazole dans la nomenclature algérienne.
+
+## 2. DESCRIPTION GÉNÉRALE
+
+Le cotrimoxazole est une association fixe de deux substances antibactériennes :
+
+- Sulfaméthoxazole : antibiotique appartenant à la famille des sulfamides.
+- Triméthoprime : antibiotique appartenant à la famille des diaminopyrimidines.
+
+Ces deux substances agissent successivement sur deux étapes de la voie de synthèse de l'acide folique bactérien.
+
+Le sulfaméthoxazole inhibe la synthèse de l'acide dihydrofolique en entrant en compétition avec l'acide para-aminobenzoïque (PABA).
+
+Le triméthoprime inhibe ensuite la dihydrofolate réductase bactérienne, empêchant la formation de tétrahydrofolate.
+
+Cette double inhibition perturbe la synthèse des acides nucléiques et des protéines nécessaires à la multiplication bactérienne.
+
+L'association peut produire un effet synergique et limiter le développement de certaines résistances par rapport à l'utilisation de chaque substance seule.
+
+Le cotrimoxazole possède une activité contre plusieurs bactéries Gram positives et Gram négatives ainsi que contre certains microorganismes opportunistes, notamment Pneumocystis jirovecii.
+
+## 3. SOURCES DOCUMENTAIRES INITIALES
+
+### 3.1 Sources réglementaires algériennes
+
+**Source 1 — Journal officiel de la République algérienne**
+
+- Document : Journal officiel n° 75 du 13 novembre 2025.
+- Utilité : Vérification des codes DCI, formes pharmaceutiques et dosages.
+- Résultats :
+  - 13 M 090 : Suspension buvable 200 mg/40 mg/5 ml.
+  - 13 M 092 : Comprimé 400 mg/80 mg.
+  - 13 M 169 : Comprimé 800 mg/160 mg.
+- Lien :
+https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+
+**Source 2 — Ministère de l'Industrie Pharmaceutique**
+
+- Document : Nomenclature nationale des produits pharmaceutiques à usage de la médecine humaine.
+- Utilité : Vérifier les présentations et les produits enregistrés dans les versions successives.
+- Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+### 3.2 Sources scientifiques et réglementaires internationales
+
+**Source 3 — WHO Collaborating Centre for Drug Statistics Methodology**
+
+- Document : ATC/DDD Index.
+- Utilité : Vérification de la classification ATC.
+- Code : J01EE01 — Sulfamethoxazole and trimethoprim.
+- Lien :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01
+
+**Source 4 — DailyMed**
+
+- Organisme : U.S. National Library of Medicine.
+- Document : Sulfamethoxazole and Trimethoprim Tablets — Prescribing Information.
+- Utilité : Mécanisme d'action, spectre antibactérien, pharmacocinétique, indications, effets indésirables et interactions.
+- Lien :
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08500fcb-dbec-4ac2-91c3-189d27907ec0
+
+**Source 5 — Base de données publique des médicaments (ANSM)**
+
+- Organisme : Agence nationale de sécurité du médicament et des produits de santé (France).
+- Document : BACTRIM, comprimé sécable — Résumé des caractéristiques du produit.
+- Utilité : Informations réglementaires et pharmacologiques détaillées sur l'association.
+- Lien :
+https://rec-bdm.ansm.integra.fr/affichageDoc.php?specid=65181349&typedoc=R
+
+### Remarque méthodologique
+
+Les documents algériens constituent les références prioritaires pour l'identification réglementaire des présentations.
+
+Les documents internationaux sont utilisés comme références complémentaires pour les informations pharmacologiques et cliniques. Ils ne remplacent pas le RCP algérien spécifique à chaque spécialité.
+## 4. Mécanisme d’action
+
+Le cotrimoxazole est une association fixe de deux antibiotiques : le sulfaméthoxazole et le triméthoprime, généralement dans un rapport de 5:1.
+
+Les deux substances agissent successivement sur la voie de synthèse de l’acide folique bactérien :
+
+- **Sulfaméthoxazole :** inhibe de manière compétitive la dihydropteroate synthétase en empêchant l’utilisation de l’acide para-aminobenzoïque (PABA). Cela bloque la formation de l’acide dihydrofolique.
+- **Triméthoprime :** inhibe de manière sélective et réversible la dihydrofolate réductase bactérienne, empêchant la formation de tétrahydrofolate.
+
+Cette double inhibition bloque la synthèse des purines et des acides nucléiques nécessaires à la multiplication bactérienne.
+
+L’association peut produire un effet synergique et, selon le microorganisme et les conditions, un effet bactéricide.
+
+## 5. Spectre antibactérien
+
+Le cotrimoxazole possède une activité contre plusieurs bactéries à Gram positif et à Gram négatif, ainsi que contre certains microorganismes opportunistes.
+
+Exemples de microorganismes pouvant être sensibles :
+
+- *Staphylococcus aureus* (certaines souches).
+- *Streptococcus pneumoniae* (sensibilité variable).
+- *Escherichia coli*.
+- *Klebsiella* spp.
+- *Enterobacter* spp.
+- *Haemophilus influenzae*.
+- *Proteus mirabilis*.
+- *Shigella* spp.
+- *Pneumocystis jirovecii* (anciennement appelé *Pneumocystis carinii*).
+
+**Limites du spectre :**
+
+- La sensibilité bactérienne varie selon les régions et les périodes.
+- De nombreuses bactéries peuvent présenter une résistance au cotrimoxazole.
+- Le médicament n’est pas actif contre toutes les bactéries.
+- Le choix du traitement doit tenir compte des résultats de culture et de l’antibiogramme lorsqu’ils sont disponibles.
+
+## 6. Pharmacocinétique
+
+### 6.1. Absorption
+
+Après administration orale, le sulfaméthoxazole et le triméthoprime sont absorbés au niveau du tractus gastro-intestinal.
+
+Les concentrations plasmatiques maximales sont généralement atteintes environ 1 à 4 heures après l’administration orale.
+
+### 6.2. Distribution
+
+Les deux substances sont distribuées dans différents tissus et liquides biologiques.
+
+Elles peuvent notamment atteindre les sécrétions bronchiques, les reins et les urines. Elles traversent également la barrière placentaire et peuvent passer dans le lait maternel.
+
+### 6.3. Métabolisme
+
+Le sulfaméthoxazole est principalement métabolisé au niveau hépatique, notamment par acétylation et glucuroconjugaison.
+
+Le triméthoprime subit également un métabolisme hépatique partiel.
+
+### 6.4. Élimination
+
+Les deux substances et leurs métabolites sont principalement éliminés par voie rénale, notamment dans les urines.
+
+Une adaptation de la posologie peut être nécessaire chez les patients présentant une insuffisance rénale.
+
+### 6.5. Demi-vie
+
+Chez l'adulte ayant une fonction rénale normale, la demi-vie plasmatique est approximativement :
+
+- Sulfaméthoxazole : 10 heures.
+- Triméthoprime : 8 à 10 heures.
+
+Ces valeurs peuvent varier selon les patients et leur fonction rénale.
+
+## 7. Indications thérapeutiques
+
+Le cotrimoxazole peut être utilisé dans le traitement de certaines infections causées par des microorganismes sensibles.
+
+Les principales indications décrites dans les références internationales comprennent :
+
+- Certaines infections urinaires.
+- Certaines infections respiratoires et ORL.
+- Certaines infections gastro-intestinales bactériennes, notamment la shigellose.
+- Le traitement et la prévention de la pneumocystose à *Pneumocystis jirovecii*.
+- Certaines infections cutanées à bactéries sensibles, selon le contexte clinique et les recommandations locales.
+
+**Remarque :** les indications autorisées peuvent varier selon le pays, la spécialité et sa présentation. Cette liste est informative et ne constitue pas la liste officielle des indications autorisées en Algérie. La vérification doit être effectuée dans le RCP algérien correspondant au produit.
+
+## 8. Effets indésirables
+
+Les effets indésirables du cotrimoxazole peuvent être de fréquence et de gravité variables.
+
+### 8.1. Troubles gastro-intestinaux
+
+- Nausées.
+- Vomissements.
+- Diarrhée.
+- Perte d'appétit.
+
+### 8.2. Réactions cutanées et allergiques
+
+- Éruption cutanée.
+- Prurit.
+- Urticaire.
+- Photosensibilité.
+- Réactions cutanées graves et rares, notamment le syndrome de Stevens-Johnson et le syndrome de Lyell.
+
+### 8.3. Troubles hématologiques
+
+- Leucopénie.
+- Thrombopénie.
+- Anémie.
+- Neutropénie.
+- Dans de rares cas, agranulocytose ou aplasie médullaire.
+
+### 8.4. Troubles rénaux et métaboliques
+
+- Augmentation de la créatinine sérique.
+- Hyperkaliémie.
+- Hyponatrémie.
+- Cristallurie ou atteinte rénale dans certaines situations.
+
+### 8.5. Troubles hépatiques
+
+- Augmentation des enzymes hépatiques.
+- Hépatite médicamenteuse.
+- Rarement, atteinte hépatique grave.
+
+Toute réaction grave ou inhabituelle nécessite une évaluation médicale rapide.
+
+## 9. Contre-indications et précautions d’emploi
+
+### 9.1. Contre-indications principales
+
+Selon les références réglementaires internationales, le cotrimoxazole est notamment contre-indiqué dans les situations suivantes :
+
+- Hypersensibilité au sulfaméthoxazole, au triméthoprime ou à l'un des composants.
+- Antécédents de réactions graves aux sulfamides.
+- Insuffisance hépatique sévère.
+- Insuffisance rénale sévère dans certaines situations, notamment lorsque la surveillance appropriée n'est pas possible.
+- Déficit en glucose-6-phosphate déshydrogénase (G6PD), en raison du risque d'hémolyse.
+- Prématurés et nourrissons de moins de 6 semaines selon le RCP français consulté.
+- Association avec le méthotrexate selon les documents réglementaires consultés.
+
+### 9.2. Précautions d’emploi
+
+Une attention particulière est nécessaire chez :
+
+- Les patients présentant une insuffisance rénale ou hépatique.
+- Les patients âgés.
+- Les patients présentant des troubles hématologiques.
+- Les patients ayant un déficit en folates.
+- Les patients présentant un risque d'hyperkaliémie.
+- Les patients recevant plusieurs médicaments susceptibles d'interagir avec le cotrimoxazole.
+
+Une surveillance de la fonction rénale, de la kaliémie et de la numération formule sanguine peut être nécessaire selon le profil du patient et la durée du traitement.
+
+## 10. Interactions médicamenteuses
+
+Le cotrimoxazole peut interagir avec plusieurs médicaments.
+
+| Médicament ou classe | Interaction possible |
+|---|---|
+| Warfarine | Augmentation de l'effet anticoagulant et du risque hémorragique |
+| Méthotrexate | Augmentation du risque de toxicité hématologique |
+| Phénytoïne | Augmentation possible des concentrations plasmatiques et de la toxicité |
+| Inhibiteurs de l'enzyme de conversion et antagonistes des récepteurs de l'angiotensine | Risque accru d'hyperkaliémie |
+| Diurétiques épargneurs de potassium | Risque accru d'hyperkaliémie |
+| Spironolactone | Risque accru d'hyperkaliémie |
+| Sulfamides hypoglycémiants | Augmentation possible du risque d'hypoglycémie |
+
+La recherche d'interactions doit être réalisée avant l'administration, particulièrement chez les patients âgés ou polymédiqués.
+
+## 11. Références bibliographiques
+
+1. ANSM. BACTRIM FORTE 800 mg/160 mg, Résumé des caractéristiques du produit. Mise à jour : 21/07/2025.  
+   https://rec-bdm.ansm.integra.fr/affichageDoc.php?specid=64121235&typedoc=R
+
+2. ANSM. BACTRIM FORTE 800 mg/160 mg, Notice patient. Mise à jour : 21/07/2025.  
+   https://rec-bdm.ansm.integra.fr/affichageDoc.php?specid=64121235&typedoc=N
+
+3. DailyMed. Sulfamethoxazole and Trimethoprim Tablets — Drug Label Information.  
+   https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=266e9076-7235-f8d6-e063-6394a90a4a7f
+
+4. U.S. Food and Drug Administration (FDA). BACTRIM — Prescribing Information, 2025.  
+   https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/018374s029lbl.pdf
+
+5. Wormser GP, Keusch GT, Heel RC. Co-trimoxazole (trimethoprim-sulfamethoxazole): an updated review of its antibacterial activity and clinical efficacy. Drugs. 1982;24(6):459–518.  
+   https://pubmed.ncbi.nlm.nih.gov/6759092/
+
+6. Kielhofner MA. Trimethoprim-sulfamethoxazole: pharmacokinetics, clinical uses, and adverse reactions. Texas Heart Institute Journal. 1990;17(2):86–93.  
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC326458/
+
+### Note méthodologique
+
+Les informations pharmacologiques et cliniques de ce document sont issues de références scientifiques et réglementaires internationales. Les RCP français et américains sont utilisés comme références documentaires et ne remplacent pas le RCP officiellement approuvé en Algérie.
+
+Les indications, contre-indications, posologies et précautions doivent être vérifiées selon la spécialité commercialisée et la réglementation algérienne en vigueur.

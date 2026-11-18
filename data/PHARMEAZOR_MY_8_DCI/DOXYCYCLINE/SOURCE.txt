@@ -1,0 +1,118 @@
+# DCI 22 — DOXYCYCLINE
+# SOURCE DOCUMENTAIRE
+
+## 1. Sources réglementaires algériennes — Priorité élevée
+
+### Source 1 — Ministère de l'Industrie Pharmaceutique (MIPH)
+- Organisme : Ministère de l'Industrie Pharmaceutique.
+- Document : Nomenclature nationale des produits pharmaceutiques à usage de la médecine humaine.
+- Utilité : Vérifier les codes DCI, les présentations et les versions successives de la nomenclature.
+- Résultat à retenir : Code DCI 13 C 020 associé à la doxycycline 100 mg.
+- Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+### Source 2 — Journal officiel de la République algérienne
+- Document : Journal officiel n° 75 de 2025.
+- Utilité : Vérification réglementaire des codes DCI et des formes pharmaceutiques.
+- Résultats :
+  - 13 C 020 : Doxycycline, comprimés ou gélules, 100 mg.
+  - 13 C 444 : Doxycycline monohydratée exprimée en doxycycline, forme dispersible, 100 mg.
+- Lien :
+https://www.joradp.dz/FTP/jo-arabe/2025/A2025075.pdf
+- Remarque : Document officiel en arabe.
+
+### Source 3 — Journal officiel n° 11 du 24 février 2016
+- Organisme : Journal officiel de la République algérienne.
+- Utilité : Vérification du code 13 C 444.
+- Résultat : Doxycycline monohydratée exprimée en doxycycline, comprimé dispersible, 100 mg.
+- Lien :
+https://www.joradp.dz/FTP/JO-FRANCAIS/2016/F2016011.pdf
+
+### Source 4 — ANPP : Base de consultation des RCP
+- Organisme : Agence Nationale des Produits Pharmaceutiques.
+- Utilité : Rechercher les Résumés des Caractéristiques du Produit (RCP) algériens.
+- Recherche à effectuer : DOXYCYCLINE, DOTUR, XYLINE.
+- Lien :
+https://rcp.anpp.dz/
+- Résultat de la consultation initiale : Aucun résultat affiché lors de la recherche effectuée.
+- Remarque : Refaire la recherche ultérieurement.
+
+### Source 5 — Liste des médicaments enregistrés en Algérie
+- Organisme : Ministère de l'Industrie Pharmaceutique.
+- Utilité : Vérifier les médicaments enregistrés et leurs statuts.
+- Lien :
+https://www.miph.gov.dz/fr/liste-des-medicaments-enregistres-en-algerie/
+
+## 2. Sources pharmaceutiques algériennes complémentaires
+
+### Source 6 — Pharm'Net
+- Utilité : Identifier les spécialités commercialisées ou enregistrées et leurs caractéristiques.
+- Résultats consultés :
+  - DOTUR 100 mg : comprimé sécable, boîte de 10.
+  - XYLINE 100 mg : comprimé sécable, boîte de 10.
+- Liens :
+https://pharmnet-dz.com/m-760-dotur-100mg-comprime-secable-b-10
+https://dawa.pharmakode.dz/medicament/xyline-100-mg-comprime-secable_086ca08d-fbe4-46c6-ae83-ce3393caba29
+- Statut : Sources secondaires, à confronter aux documents officiels.
+
+### Source 7 — Algérie Docto
+- Utilité : Identifier les spécialités contenant de la doxycycline et consulter leur statut.
+- Résultats :
+  - DOTUR 100 mg.
+  - XYLINE 100 mg.
+  - Plusieurs anciennes spécialités sont indiquées comme retirées ou non renouvelées.
+- Lien :
+https://algerie-docto.com/medicaments/substance/755/doxycycline
+- Statut : Source secondaire.
+
+## 3. Sources scientifiques et pharmacologiques internationales
+
+### Source 8 — WHO Collaborating Centre for Drug Statistics Methodology
+- Document : ATC/DDD Index.
+- Utilité : Vérification de la classification ATC.
+- Résultat : J01AA02 — Doxycycline.
+- Lien :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02
+
+### Source 9 — PubChem
+- Organisme : National Center for Biotechnology Information (NCBI).
+- Utilité : Informations chimiques et moléculaires sur la doxycycline.
+- Lien :
+https://pubchem.ncbi.nlm.nih.gov/compound/54671203
+
+### Source 10 — DailyMed
+- Organisme : U.S. National Library of Medicine.
+- Utilité : Consulter les informations réglementaires, les précautions, les contre-indications, les effets indésirables et les interactions.
+- Recherche : Doxycycline.
+- Lien :
+https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=doxycycline
+- Remarque : Documentation américaine, non substitutive au RCP algérien.
+
+## 4. Résultats de la recherche initiale
+
+| Élément | Résultat |
+|---|---|
+| DCI | DOXYCYCLINE |
+| Code DCI principal identifié | 13 C 020 |
+| Dosage identifié | 100 mg |
+| Code complémentaire | 13 C 444 |
+| Formes identifiées | Comprimés, gélules et forme dispersible selon le code |
+| Spécialités actuelles repérées | DOTUR, XYLINE |
+| RCP algérien | À rechercher et confirmer auprès de l'ANPP |
+| Notice algérienne | À rechercher et confirmer |
+
+## 5. Informations restant à vérifier
+
+- Télécharger la version la plus récente de la nomenclature nationale et vérifier les lignes relatives à la doxycycline.
+- Confirmer le statut réglementaire actuel de DOTUR et XYLINE.
+- Vérifier les numéros d'enregistrement et les titulaires des décisions d'enregistrement.
+- Rechercher les RCP et notices algériens disponibles.
+- Distinguer les spécialités actuellement enregistrées des anciennes spécialités retirées ou non renouvelées.
+
+## 6. Remarque méthodologique
+
+Les documents du Journal officiel et du Ministère de l'Industrie Pharmaceutique constituent les références réglementaires prioritaires.
+
+Les bases pharmaceutiques secondaires sont utilisées pour orienter la recherche et identifier les spécialités, mais leurs informations doivent être vérifiées à partir des documents officiels.
+
+Les références scientifiques internationales seront utilisées pour compléter les informations pharmacologiques et cliniques lorsqu'elles ne figurent pas dans les documents algériens.
