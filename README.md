@@ -54,7 +54,7 @@ Depuis le dossier du projet, installez les dépendances :
 
 ```bash
 python -m pip install -r requirements.txt
-
+``` 
 ## Documentation
 
 ### 1. Présentation du projet
@@ -66,7 +66,8 @@ python -m pip install -r requirements.txt
 - [Questions posées au LLM](docs/evaluation/questions_llm.md)
 
 ### 3. Évaluation du LLM
-- [Semaine 1 — Réponses du LLM seul (sans RAG)](reponses_sans_RAG.md)
+- [Semaine 1 — Réponses du LLM seul (sans RAG)](docs/evaluation/reponses_sans_RAG.md)
+
 - [Semaine 1 — Analyse du réponses du LLM sans RAG ](docs/evaluation/analyse_reponses_sans_RAG.md)
 
 
