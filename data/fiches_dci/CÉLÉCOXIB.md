@@ -1,6 +1,6 @@
 # DCI : CÉLÉCOXIB
-
 - **Code ATC :** M01AH01
+
 - Présence dans la nomenclature MIPH : oui
 - Version consultée et date : Nomenclature officielle (août 2026), selon le fichier Excel.
 - Noms commerciaux, laboratoires, formes et dosages :
@@ -39,21 +39,37 @@
   - RUMABREX — GÉLULE — 200MG
   - PEDEXA — GÉLULE — 200MG
 
+  Laboratoires titulaires (d'après les RCP du corpus ; l'Excel ne les indique pas) : Laboratoires de Diagnostic Maghrébins –LDM- Oued Hamimime ; VIATRIS UP
+
 ## Documents de référence
-- RCP : À rechercher auprès de l'ANPP.
-- Notice : À rechercher auprès d'une source officielle.
+- RCP : CEBREX 100 mg, gélule, RCP au format algérien — laboratoire LDM (Constantine) (Algérie), date du document : Avril 2024, fichier : `CEBREX 100.pdf`
+- RCP : CEBREX 200 mg, gélule, RCP au format algérien — laboratoire LDM (Constantine) (Algérie), date du document : Avril 2024, fichier : `CEBREX 200.pdf`
+- RCP : CELEBREX 100 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `RCP_CELEBREX_100_mg.pdf`
+- RCP : CELEBREX 200 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `RCP_CELEBREX_200_mg.pdf`
+- Notice : CELEBREX 100 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `Notice_CELEBREX_100_mg.pdf`
+- Notice : CELEBREX 200 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `Notice_CELEBREX_200_mg.pdf`
+- Autre document (article bon usage) : Here's how you know, Article « bon usage » (source à préciser) (France (à confirmer)), date du document : date non trouvée, consulté le 18/11/2026, fichier : `Article_CÉLÉCOXIB.pdf`
 
 ## Recherche ANPP
 - Requêtes en majuscules : CÉLÉCOXIB / CELECOXIB
 - Méthode et date : À compléter après vérification sur le portail ANPP 17/11/2026.
-- Résultat RCP : document ANPP non trouvé.
-- Résultat Notice : document ANPP non trouvé.
+- Résultat : document ANPP non trouvé
+- Résultat : document ANPP non trouvé
 
 ## Sources consultées
-- ANPP — Produits pharmaceutiques — Algérie — https://anpp.dz
-- DailyMed — USA — https://dailymed.nlm.nih.gov/dailymed/
-- Base de données publique des médicaments — France — https://base-donnees-publique.medicaments.gouv.fr/
+Au moins 3 sources distinctes, dont au moins une officielle.
+- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
+- ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
+- RCP au format algérien — laboratoire LDM (Constantine) — RCP de CEBREX 100 mg, gélule ; CEBREX 200 mg, gélule (texte daté : Avril 2024) — Algérie — [provenance exacte et lien à confirmer : ANPP ou site du laboratoire] — [date de consultation à compléter]
+- Base de Données Publique des Médicaments (ANSM) — RCP et notice de CELEBREX 100 mg, gélule ; CELEBREX 200 mg, gélule (mise à jour ANSM : 12/09/2025) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
+- ANSM — RCP et notice du médicament. — France — https://ansm.sante.fr/ — [à compléter : date de consultation]
+- Dzair Pharma — Code et classification ATC du médicament. — Algérie — https://www.dzairpharma.com/ — [à compléter : date de consultation]
+- PubMed — Revue systématique comparant les traitements antibiotiques de première intention de l'otite moyenne aiguë chez l'enfant. — États-Unis — https://pubmed.ncbi.nlm.nih.gov/ — 18/11/2026
+
 ## Précision
-- Les informations commerciales sont reprises du fichier Excel.
 - Une source étrangère complète la source algérienne et ne la remplace pas.
-- Code ATC à confirmer : la colonne « ATC confirmé » indique « non » et contient également L01XX33. Vérification nécessaire.
+- En cas de différence, la source algérienne prévaut : RCP algérien disponible (CEBREX 100 mg, gélule, CEBREX 200 mg, gélule — laboratoire LDM (Constantine), Avril 2024). Il prévaut sur les RCP français (CELEBREX 100 mg, gélule, CELEBREX 200 mg, gélule). Différences à relever rubrique par rubrique : [à compléter après comparaison].
+- Les informations commerciales sont reprises du fichier Excel.
+- Code ATC à confirmer : la colonne « ATC confirmé » indique « non » et contient L01XX33. Vérification nécessaire.
+- Les différents dosages et présentations du célécoxib doivent être identifiés séparément.
+- Les informations relatives aux précautions d'emploi et aux contre-indications doivent être vérifiées dans le RCP correspondant.
