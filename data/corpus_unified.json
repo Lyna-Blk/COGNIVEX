@@ -1,0 +1,3915 @@
+{
+  "_meta": {
+    "generated_at": "2026-11-18T22:42:23.350790+00:00",
+    "corpus_root": "C:/Users/Administrator/COGNIVEX/data/corpus",
+    "excel_source": "C:/Users/Administrator/COGNIVEX/data/reference/Feuille de calcul sans titre (1).xlsx",
+    "total_dci_count": 8,
+    "total_excel_rows": 95,
+    "total_noms_commerciaux": 57,
+    "total_corpus_files": 58,
+    "validation_issues": 0,
+    "last_audit_scan": "2026-11-18T22:48:42.370977+00:00"
+  },
+  "corpus": [
+    {
+      "dci": "amlodipine",
+      "dci_display": "Amlodipine",
+      "code_atc": "C08CA01",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 27,
+      "miph_present": "oui",
+      "source_reference": "MIPH/ANPP + DailyMed",
+      "anpp": {
+        "rcp_trouve": true,
+        "notice_trouvee": true
+      },
+      "excel_summary": {
+        "total_lignes_excel": 27,
+        "lignes_excel": [
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          544,
+          545,
+          546,
+          547,
+          548,
+          549,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555,
+          556,
+          557,
+          558,
+          559
+        ],
+        "noms_commerciaux_count": 16
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "AMLODAL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "5MG",
+              "excel_row": 533,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "5MG",
+              "excel_row": 535,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "10MG",
+              "excel_row": 550,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLIBON",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "5MG",
+              "excel_row": 534,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "10MG",
+              "excel_row": 549,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLODIPINE MM",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "5MG",
+              "excel_row": 536,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLOMED",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "5MG",
+              "excel_row": 537,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLODIPAL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 538,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLODIPINE BEKER",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 539,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 552,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLOR",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 540,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 553,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "DIMLOR",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 541,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 554,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "DIPICARD",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 542,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 555,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "HUMLOR",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 543,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 556,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "LOTENSE",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 544,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 557,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "LOWVASC",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 545,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "MIBRAL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 546,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 558,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLOPINE",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 547,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "TENSODIPINE",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 548,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 559,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "AMLOCARDINE",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10MG",
+              "excel_row": 551,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COMPRIME",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "GELULE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME",
+          "dosage": "10MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "10MG"
+        },
+        {
+          "forme": "GELULE",
+          "dosage": "10MG"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 533,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODAL",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 534,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLIBON",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 535,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODAL",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 536,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODIPINE MM",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 537,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLOMED",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 538,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODIPAL",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 539,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODIPINE BEKER",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 540,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 541,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DIMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 542,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DIPICARD",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 543,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "HUMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 544,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LOTENSE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 545,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LOWVASC",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 546,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "MIBRAL",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 547,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLOPINE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 548,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TENSODIPINE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 549,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLIBON",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 550,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODAL",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 551,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLOCARDINE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 552,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLODIPINE BEKER",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 553,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "AMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 554,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DIMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 555,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DIPICARD",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 556,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "HUMLOR",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 557,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LOTENSE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 558,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "MIBRAL",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 559,
+          "numero_dci": 27,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "amlodipine",
+          "code_atc": "C08CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TENSODIPINE",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "amlodipine",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine",
+        "total_files": 11,
+        "source_files": [
+          {
+            "filename": "source-amdolipine rcp.pdf",
+            "relative_path": "amlodipine/source-amdolipine rcp.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine rcp.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 2384314
+          },
+          {
+            "filename": "source-amdolipine-daily med -rcp.pdf",
+            "relative_path": "amlodipine/source-amdolipine-daily med -rcp.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine-daily med -rcp.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 543184
+          },
+          {
+            "filename": "source-amlodopine-notice.pdf",
+            "relative_path": "amlodipine/source-amlodopine-notice.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amlodopine-notice.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1261416
+          },
+          {
+            "filename": "Source-info -amlodipline.pdf",
+            "relative_path": "amlodipine/Source-info -amlodipline.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/Source-info -amlodipline.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 429182
+          }
+        ],
+        "brand_folders": [
+          {
+            "brand_name": "amlibon",
+            "relative_path": "amlodipine/amlibon",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source-generique.pdf",
+                "relative_path": "amlodipine/amlibon/source-generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1717648
+              },
+              {
+                "filename": "source-interaction.pdf",
+                "relative_path": "amlodipine/amlibon/source-interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1720642
+              }
+            ]
+          },
+          {
+            "brand_name": "amlodal",
+            "relative_path": "amlodipine/amlodal",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source -generique.pdf",
+                "relative_path": "amlodipine/amlodal/source -generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source -generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1559685
+              },
+              {
+                "filename": "source amlodal interaction.pdf",
+                "relative_path": "amlodipine/amlodal/source amlodal interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source amlodal interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1543690
+              }
+            ]
+          },
+          {
+            "brand_name": "mibral",
+            "relative_path": "amlodipine/mibral",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral",
+            "file_count": 3,
+            "files": [
+              {
+                "filename": "RCP-MIBRL.pdf",
+                "relative_path": "amlodipine/mibral/RCP-MIBRL.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/RCP-MIBRL.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 440446
+              },
+              {
+                "filename": "source-mibral generique.pdf",
+                "relative_path": "amlodipine/mibral/source-mibral generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 3110972
+              },
+              {
+                "filename": "source-mibral interactiob.pdf",
+                "relative_path": "amlodipine/mibral/source-mibral interactiob.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral interactiob.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1739145
+              }
+            ]
+          }
+        ]
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "source-amdolipine rcp.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine rcp.pdf"
+          },
+          {
+            "fichier": "source-amdolipine-daily med -rcp.pdf",
+            "source": "DailyMed",
+            "pays": "États-Unis",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine-daily med -rcp.pdf"
+          },
+          {
+            "fichier": "mibral/RCP-MIBRL.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/RCP-MIBRL.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "source-amlodopine-notice.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amlodopine-notice.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "Source-info -amlodipline.pdf",
+            "source": "ANPP/MIPH",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/Source-info -amlodipline.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°27, C08CA01"
+        },
+        {
+          "source": "ANPP / pharmnet-dz",
+          "pays": "Algérie",
+          "url": "https://www.pharmnet-dz.com",
+          "info": "RCP et Notice amlodipine"
+        },
+        {
+          "source": "DailyMed / NLM-FDA",
+          "pays": "États-Unis",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine",
+          "info": "Label amlodipine besylate"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Vérification noms commerciaux"
+        }
+      ]
+    },
+    {
+      "dci": "clindamycine",
+      "dci_display": "Clindamycine",
+      "code_atc": "J01FF01",
+      "classe_therapeutique": "Antibiotiques",
+      "miph_numero": 26,
+      "miph_present": "oui",
+      "source_reference": "MIPH + ANSM",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 7,
+        "lignes_excel": [
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532
+        ],
+        "noms_commerciaux_count": 6
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "CLINARAM",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "150MG",
+              "excel_row": 526,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "ACNESTOP",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GEL DERMIQUE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 527,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "DENACINE EMULGEL",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GEL DERMIQUE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 528,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "CLEAN-ACNE",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GEL POUR APPLICATION LOCALE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 529,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "SOLUTION POUR APPLICATION LOCALE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 531,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "DERMA-T",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION DERMIQUE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 530,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "DENACINE",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION POUR APPLICATION LOCALE",
+              "dosage": "1% (10MG/ML)",
+              "excel_row": 532,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "GELULE",
+          "dosage": "150MG"
+        },
+        {
+          "forme": "GEL DERMIQUE",
+          "dosage": "1% (10MG/ML)"
+        },
+        {
+          "forme": "GEL POUR APPLICATION LOCALE",
+          "dosage": "1% (10MG/ML)"
+        },
+        {
+          "forme": "SOLUTION DERMIQUE",
+          "dosage": "1% (10MG/ML)"
+        },
+        {
+          "forme": "SOLUTION POUR APPLICATION LOCALE",
+          "dosage": "1% (10MG/ML)"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 526,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "CLINARAM",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "150MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 527,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "ACNESTOP",
+          "forme_pharmaceutique": "GEL DERMIQUE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 528,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DENACINE EMULGEL",
+          "forme_pharmaceutique": "GEL DERMIQUE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 529,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "CLEAN-ACNE",
+          "forme_pharmaceutique": "GEL POUR APPLICATION LOCALE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 530,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DERMA-T",
+          "forme_pharmaceutique": "SOLUTION DERMIQUE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 531,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "CLEAN-ACNE",
+          "forme_pharmaceutique": "SOLUTION POUR APPLICATION LOCALE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 532,
+          "numero_dci": 26,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "clindamycine",
+          "code_atc": "J01FF01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "DENACINE",
+          "forme_pharmaceutique": "SOLUTION POUR APPLICATION LOCALE",
+          "dosage": "1% (10MG/ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "clindamycine",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine",
+        "total_files": 8,
+        "source_files": [
+          {
+            "filename": "source-ansm-notice.pdf",
+            "relative_path": "clindamycine/source-ansm-notice.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm-notice.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1250092
+          },
+          {
+            "filename": "source-ansm_info.pdf",
+            "relative_path": "clindamycine/source-ansm_info.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm_info.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 486331
+          },
+          {
+            "filename": "source_ansm-rcp.pdf",
+            "relative_path": "clindamycine/source_ansm-rcp.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source_ansm-rcp.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1401786
+          }
+        ],
+        "brand_folders": [
+          {
+            "brand_name": "acnestop",
+            "relative_path": "clindamycine/acnestop",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source-ansm-generique.pdf",
+                "relative_path": "clindamycine/acnestop/source-ansm-generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1519028
+              },
+              {
+                "filename": "source-ansmi- interaction.pdf",
+                "relative_path": "clindamycine/acnestop/source-ansmi- interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansmi- interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1526285
+              }
+            ]
+          },
+          {
+            "brand_name": "clinaram",
+            "relative_path": "clindamycine/clinaram",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram",
+            "file_count": 1,
+            "files": [
+              {
+                "filename": "source_ansm_interaction dwadz.pdf",
+                "relative_path": "clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1417753
+              }
+            ]
+          },
+          {
+            "brand_name": "derma-t",
+            "relative_path": "clindamycine/derma-t",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source-ansm-interaction.pdf",
+                "relative_path": "clindamycine/derma-t/source-ansm-interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm-interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1466085
+              },
+              {
+                "filename": "source-ansm_generique.pdf",
+                "relative_path": "clindamycine/derma-t/source-ansm_generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm_generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1458529
+              }
+            ]
+          }
+        ]
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "source_ansm-rcp.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source_ansm-rcp.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "source-ansm-notice.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm-notice.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "source-ansm_info.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm_info.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°26, J01FF01"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP et Notice clindamycine"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Vérification noms commerciaux"
+        }
+      ]
+    },
+    {
+      "dci": "enalapril",
+      "dci_display": "Énalapril",
+      "code_atc": "C09AA02",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 31,
+      "miph_present": "oui",
+      "source_reference": "MIPH/ANPP + ANSM",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 2,
+        "lignes_excel": [
+          587,
+          588
+        ],
+        "noms_commerciaux_count": 1
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "ENALAPRIL MYLAN",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 587,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "20MG",
+              "excel_row": 588,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "20MG"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 587,
+          "numero_dci": 31,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "énalapril",
+          "code_atc": "C09AA02",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "ENALAPRIL MYLAN",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 588,
+          "numero_dci": 31,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "énalapril",
+          "code_atc": "C09AA02",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "ENALAPRIL MYLAN",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "20MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "enalapril",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril",
+        "total_files": 6,
+        "source_files": [
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+            "relative_path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 387
+          },
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+            "relative_path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 305
+          },
+          {
+            "filename": "dwa--dz.pdf",
+            "relative_path": "enalapril/dwa--dz.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/dwa--dz.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 277807
+          },
+          {
+            "filename": "info-enalapril.pdf",
+            "relative_path": "enalapril/info-enalapril.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/info-enalapril.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 440126
+          },
+          {
+            "filename": "notice-enalapril.pdf",
+            "relative_path": "enalapril/notice-enalapril.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/notice-enalapril.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1828196
+          },
+          {
+            "filename": "rcp-enalapril.pdf",
+            "relative_path": "enalapril/rcp-enalapril.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/rcp-enalapril.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 3726731
+          }
+        ],
+        "brand_folders": []
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "rcp-enalapril.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/rcp-enalapril.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "notice-enalapril.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/notice-enalapril.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "info-enalapril.pdf",
+            "source": "ANSM/ANPP",
+            "pays": "France/Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/info-enalapril.pdf"
+          },
+          {
+            "fichier": "dwa--dz.pdf",
+            "source": "DwaDZ",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/dwa--dz.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°31, C09AA02"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP et Notice énalapril maléate"
+        },
+        {
+          "source": "ANPP / pharmnet-dz",
+          "pays": "Algérie",
+          "url": "https://www.pharmnet-dz.com",
+          "info": "Fiche Enalapril Mylan"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Page DCI énalapril maléate"
+        }
+      ]
+    },
+    {
+      "dci": "gentamicine",
+      "dci_display": "Gentamicine",
+      "code_atc": "J01GB03",
+      "classe_therapeutique": "Antibiotiques",
+      "miph_numero": 25,
+      "miph_present": "oui",
+      "source_reference": "MIPH + ANSM + DailyMed",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 20,
+        "lignes_excel": [
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525
+        ],
+        "noms_commerciaux_count": 16
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "GENTAMYCINE",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML",
+              "excel_row": 506,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTA 160",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "160 MG/2 ML",
+              "excel_row": 507,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTAMICINE CHAUVIN O,3%",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "POMMADE OPHTALMIQUE",
+              "dosage": "0,003",
+              "excel_row": 508,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTA 10",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "10MG/ML",
+              "excel_row": 509,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "S-GENTA",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "10MG/ML",
+              "excel_row": 510,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "20MG/ML (40MG/2ML)",
+              "excel_row": 515,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTHERAXINE",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML",
+              "excel_row": 511,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "20MG/ML (40MG/2ML)",
+              "excel_row": 514,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 521,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTA 40",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "20MG/ML (40MG/2ML)",
+              "excel_row": 512,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTAXYN",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "20MG/ML (40MG/2ML)",
+              "excel_row": 513,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 520,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "EPIGENT",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 516,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTA 80",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 517,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTACINE",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 518,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTAMYCINE GEO",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+              "dosage": "40MG/ML (80MG/2ML)",
+              "excel_row": 519,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "APIGEN",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML",
+              "excel_row": 522,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTADAR",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML**",
+              "excel_row": 523,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTALEX",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML",
+              "excel_row": 524,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "GENTOCIL",
+          "classe_therapeutique": "Antibiotiques",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+              "dosage": "3MG/ML (0,3%)",
+              "excel_row": 525,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML"
+        },
+        {
+          "forme": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "160 MG/2 ML"
+        },
+        {
+          "forme": "POMMADE OPHTALMIQUE",
+          "dosage": "0,003"
+        },
+        {
+          "forme": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "10MG/ML"
+        },
+        {
+          "forme": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "20MG/ML (40MG/2ML)"
+        },
+        {
+          "forme": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)"
+        },
+        {
+          "forme": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML**"
+        },
+        {
+          "forme": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML (0,3%)"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 506,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTAMYCINE",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 507,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTA 160",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "160 MG/2 ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 508,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTAMICINE CHAUVIN O,3%",
+          "forme_pharmaceutique": "POMMADE OPHTALMIQUE",
+          "dosage": "0,003",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 509,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTA 10",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "10MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 510,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "S-GENTA",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "10MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 511,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTHERAXINE",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 512,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTA 40",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "20MG/ML (40MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 513,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTAXYN",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "20MG/ML (40MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 514,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTHERAXINE",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "20MG/ML (40MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 515,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "S-GENTA",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "20MG/ML (40MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 516,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "EPIGENT",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 517,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTA 80",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 518,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTACINE",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 519,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTAMYCINE GEO",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 520,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTAXYN",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 521,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTHERAXINE",
+          "forme_pharmaceutique": "SOLUTION INJECTABLE IM/IV",
+          "dosage": "40MG/ML (80MG/2ML)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 522,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "APIGEN",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 523,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTADAR",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML**",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 524,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTALEX",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 525,
+          "numero_dci": 25,
+          "classe_therapeutique": "Antibiotiques",
+          "dci_excel": "gentamicine",
+          "code_atc": "J01GB03",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "GENTOCIL",
+          "forme_pharmaceutique": "COLLYRE EN SOLUTION",
+          "dosage": "3MG/ML (0,3%)",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "gentamicine",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine",
+        "total_files": 12,
+        "source_files": [
+          {
+            "filename": "daily med genta.pdf",
+            "relative_path": "gentamicine/daily med genta.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/daily med genta.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 5395502
+          }
+        ],
+        "brand_folders": [
+          {
+            "brand_name": "genta_80",
+            "relative_path": "gentamicine/genta_80",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80",
+            "file_count": 7,
+            "files": [
+              {
+                "filename": "source_ansm_ autre medicament mem dci_dwadz.pdf",
+                "relative_path": "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1755807
+              },
+              {
+                "filename": "source_ansm_fiche_info.pdf",
+                "relative_path": "gentamicine/genta_80/source_ansm_fiche_info.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_fiche_info.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 443391
+              },
+              {
+                "filename": "source_ansm_interaction_medicament.pdf",
+                "relative_path": "gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1759284
+              },
+              {
+                "filename": "source_ansm_noticc.pdf",
+                "relative_path": "gentamicine/genta_80/source_ansm_noticc.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_noticc.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1439233
+              },
+              {
+                "filename": "source_ansm_rcp.pdf",
+                "relative_path": "gentamicine/genta_80/source_ansm_rcp.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_rcp.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 2784317
+              },
+              {
+                "filename": "sourcedwadz--.png",
+                "relative_path": "gentamicine/genta_80/sourcedwadz--.png",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz--.png",
+                "type": "png",
+                "extension": "png",
+                "size_bytes": 164863
+              },
+              {
+                "filename": "sourcedwadz-.png",
+                "relative_path": "gentamicine/genta_80/sourcedwadz-.png",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz-.png",
+                "type": "png",
+                "extension": "png",
+                "size_bytes": 123766
+              }
+            ]
+          },
+          {
+            "brand_name": "gentacine",
+            "relative_path": "gentamicine/gentacine",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source_ansm_generiques.pdf",
+                "relative_path": "gentamicine/gentacine/source_ansm_generiques.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_generiques.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1740015
+              },
+              {
+                "filename": "source_ansm_interaction_avc_autre_mid.pdf",
+                "relative_path": "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1742989
+              }
+            ]
+          },
+          {
+            "brand_name": "s_genta",
+            "relative_path": "gentamicine/s_genta",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source_ansm_generique.pdf",
+                "relative_path": "gentamicine/s_genta/source_ansm_generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_ansm_generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1671097
+              },
+              {
+                "filename": "source_interaction_s genta.pdf",
+                "relative_path": "gentamicine/s_genta/source_interaction_s genta.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_interaction_s genta.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1674238
+              }
+            ]
+          }
+        ]
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "genta_80/source_ansm_rcp.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_rcp.pdf"
+          },
+          {
+            "fichier": "daily med genta.pdf",
+            "source": "DailyMed",
+            "pays": "États-Unis",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/daily med genta.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "genta_80/source_ansm_noticc.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_noticc.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "genta_80/source_ansm_fiche_info.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_fiche_info.pdf"
+          },
+          {
+            "fichier": "genta_80/source_ansm_interaction_medicament.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_interaction_medicament.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°25, J01GB03"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP et Notice gentamicine sulfate"
+        },
+        {
+          "source": "DailyMed / NLM-FDA",
+          "pays": "États-Unis",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gentamicin",
+          "info": "Label Gentamicin Sulfate Injection"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Vérification noms commerciaux"
+        }
+      ]
+    },
+    {
+      "dci": "losartan",
+      "dci_display": "Losartan",
+      "code_atc": "C09CA01",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 32,
+      "miph_present": "oui",
+      "source_reference": "MIPH/ANPP + ANSM + DailyMed",
+      "anpp": {
+        "rcp_trouve": true,
+        "notice_trouvee": true
+      },
+      "excel_summary": {
+        "total_lignes_excel": 12,
+        "lignes_excel": [
+          589,
+          590,
+          591,
+          592,
+          593,
+          594,
+          595,
+          596,
+          597,
+          598,
+          599,
+          600
+        ],
+        "noms_commerciaux_count": 8
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "COZZAR",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "50MG",
+              "excel_row": 589,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "100MG",
+              "excel_row": 592,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "LOZARTAN GEO",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "50MG",
+              "excel_row": 590,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "BEKTAL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "100MG",
+              "excel_row": 591,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "50MG",
+              "excel_row": 595,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "LAZARTAN",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "100MG",
+              "excel_row": 593,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "50MG",
+              "excel_row": 597,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "ANGIZAR",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "50MG",
+              "excel_row": 594,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "HYSARTAN",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "50MG",
+              "excel_row": 596,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "100MG",
+              "excel_row": 599,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "NORTA",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "50MG",
+              "excel_row": 598,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "NORTA FORT",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "100MG",
+              "excel_row": 600,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COMPRIME PELLICULE",
+          "dosage": "50MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE",
+          "dosage": "100MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE SECABLE",
+          "dosage": "100MG"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 589,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "COZZAR",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 590,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LOZARTAN GEO",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 591,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "BEKTAL",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "100MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 592,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "COZZAR",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "100MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 593,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LAZARTAN",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "100MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 594,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "ANGIZAR",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 595,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "BEKTAL",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 596,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "HYSARTAN",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 597,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "LAZARTAN",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 598,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "NORTA",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "50MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 599,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "HYSARTAN",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "100MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 600,
+          "numero_dci": 32,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "losartan",
+          "code_atc": "C09CA01",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "NORTA FORT",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "100MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "losartan",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan",
+        "total_files": 8,
+        "source_files": [
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+            "relative_path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 764
+          },
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+            "relative_path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 744
+          },
+          {
+            "filename": "dailymed-losartan.pdf",
+            "relative_path": "losartan/dailymed-losartan.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/dailymed-losartan.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 907906
+          },
+          {
+            "filename": "info-losartan.pdf",
+            "relative_path": "losartan/info-losartan.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/info-losartan.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 483029
+          },
+          {
+            "filename": "LOSartan anpp.pdf",
+            "relative_path": "losartan/LOSartan anpp.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/LOSartan anpp.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 448016
+          },
+          {
+            "filename": "notice-losartan.pdf",
+            "relative_path": "losartan/notice-losartan.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/notice-losartan.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1819859
+          },
+          {
+            "filename": "rcp-losartan.pdf",
+            "relative_path": "losartan/rcp-losartan.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/rcp-losartan.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 4096095
+          }
+        ],
+        "brand_folders": [
+          {
+            "brand_name": "cozzar",
+            "relative_path": "losartan/cozzar",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/cozzar",
+            "file_count": 1,
+            "files": [
+              {
+                "filename": "cozaar interaction.pdf",
+                "relative_path": "losartan/cozzar/cozaar interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/cozzar/cozaar interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1741133
+              }
+            ]
+          }
+        ]
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "LOSartan anpp.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/LOSartan anpp.pdf"
+          },
+          {
+            "fichier": "rcp-losartan.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/rcp-losartan.pdf"
+          },
+          {
+            "fichier": "dailymed-losartan.pdf",
+            "source": "DailyMed",
+            "pays": "États-Unis",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/dailymed-losartan.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "notice-losartan.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/notice-losartan.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "info-losartan.pdf",
+            "source": "ANPP/ANSM",
+            "pays": "Algérie/France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/info-losartan.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°32, C09CA01"
+        },
+        {
+          "source": "ANPP / pharmnet-dz",
+          "pays": "Algérie",
+          "url": "https://www.pharmnet-dz.com",
+          "info": "RCP losartan (COZZAR, ANGIZAR…)"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP et Notice losartan potassique"
+        },
+        {
+          "source": "DailyMed / NLM-FDA",
+          "pays": "États-Unis",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=losartan",
+          "info": "Label losartan potassium"
+        }
+      ]
+    },
+    {
+      "dci": "nifedipine",
+      "dci_display": "Nifédipine",
+      "code_atc": "C08CA05",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 28,
+      "miph_present": "non",
+      "source_reference": "DailyMed (ANSM en complément)",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 1,
+        "lignes_excel": [
+          560
+        ],
+        "noms_commerciaux_count": 0
+      },
+      "noms_commerciaux": [],
+      "formes_et_dosages": [],
+      "excel_rows_detail": [
+        {
+          "excel_row": 560,
+          "numero_dci": 28,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "nifédipine",
+          "code_atc": "C08CA05",
+          "atc_confirme": "non",
+          "nomenclature_algerienne": "non",
+          "nom_commercial": "",
+          "forme_pharmaceutique": "",
+          "dosage": "",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit non trouvé dans les sources officielles / Code ATC non disponible."
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "nifedipine",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/nifedipine",
+        "total_files": 1,
+        "source_files": [
+          {
+            "filename": "dailymed-nifedipine.pdf",
+            "relative_path": "nifedipine/dailymed-nifedipine.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/nifedipine/dailymed-nifedipine.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 487532
+          }
+        ],
+        "brand_folders": []
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "dailymed-nifedipine.pdf",
+            "source": "DailyMed",
+            "pays": "États-Unis",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/nifedipine/dailymed-nifedipine.pdf"
+          }
+        ],
+        "notice": [],
+        "info": []
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°28 — NON PRESENTE"
+        },
+        {
+          "source": "DailyMed / NLM-FDA",
+          "pays": "États-Unis",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nifedipine",
+          "info": "Label nifedipine (Adalat CC, Procardia XL)"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "Adalate 10 mg capsules et LP"
+        }
+      ]
+    },
+    {
+      "dci": "perindopril",
+      "dci_display": "Périndopril",
+      "code_atc": "C09AA04",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 29,
+      "miph_present": "oui",
+      "source_reference": "MIPH/ANPP + ANSM",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 6,
+        "lignes_excel": [
+          561,
+          562,
+          563,
+          564,
+          565,
+          566
+        ],
+        "noms_commerciaux_count": 3
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "COVERSYL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "10MG",
+              "excel_row": 561,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+              "dosage": "5MG",
+              "excel_row": 562,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "PERINDOSYL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "4MG",
+              "excel_row": 563,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME PELLICULE",
+              "dosage": "8MG",
+              "excel_row": 565,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "PERINDOPRIL BEKER",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "8MG",
+              "excel_row": 564,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "4MG",
+              "excel_row": 566,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COMPRIME PELLICULE",
+          "dosage": "10MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE SECABLE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME",
+          "dosage": "4MG"
+        },
+        {
+          "forme": "COMPRIME",
+          "dosage": "8MG"
+        },
+        {
+          "forme": "COMPRIME PELLICULE",
+          "dosage": "8MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "4MG"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 561,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "COVERSYL",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 562,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "COVERSYL",
+          "forme_pharmaceutique": "COMPRIME PELLICULE SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 563,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "PERINDOSYL",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "4MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 564,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "PERINDOPRIL BEKER",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "8MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 565,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "PERINDOSYL",
+          "forme_pharmaceutique": "COMPRIME PELLICULE",
+          "dosage": "8MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 566,
+          "numero_dci": 29,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "périndopril",
+          "code_atc": "C09AA04",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "PERINDOPRIL BEKER",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "4MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "perindopril",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril",
+        "total_files": 6,
+        "source_files": [],
+        "brand_folders": [
+          {
+            "brand_name": "coversyl",
+            "relative_path": "perindopril/coversyl",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl",
+            "file_count": 2,
+            "files": [
+              {
+                "filename": "source interaction.pdf",
+                "relative_path": "perindopril/coversyl/source interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1991993
+              },
+              {
+                "filename": "source-generique-.pdf",
+                "relative_path": "perindopril/coversyl/source-generique-.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source-generique-.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1988345
+              }
+            ]
+          },
+          {
+            "brand_name": "perindopril",
+            "relative_path": "perindopril/perindopril",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril",
+            "file_count": 3,
+            "files": [
+              {
+                "filename": "generique.pdf",
+                "relative_path": "perindopril/perindopril/generique.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/generique.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 2039368
+              },
+              {
+                "filename": "interaction.pdf",
+                "relative_path": "perindopril/perindopril/interaction.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/interaction.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 2043884
+              },
+              {
+                "filename": "source rcp. prindoprile.pdf",
+                "relative_path": "perindopril/perindopril/source rcp. prindoprile.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/source rcp. prindoprile.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 850219
+              }
+            ]
+          },
+          {
+            "brand_name": "perindosyl",
+            "relative_path": "perindopril/perindosyl",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl",
+            "file_count": 1,
+            "files": [
+              {
+                "filename": "iteraction-source.pdf",
+                "relative_path": "perindopril/perindosyl/iteraction-source.pdf",
+                "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl/iteraction-source.pdf",
+                "type": "pdf",
+                "extension": "pdf",
+                "size_bytes": 1952177
+              }
+            ]
+          }
+        ]
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "perindopril/source rcp. prindoprile.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/source rcp. prindoprile.pdf"
+          }
+        ],
+        "notice": [],
+        "info": [
+          {
+            "fichier": "coversyl/source-generique-.pdf",
+            "source": "ANPP/pharmnet-dz",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source-generique-.pdf"
+          },
+          {
+            "fichier": "perindopril/generique.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/generique.pdf"
+          },
+          {
+            "fichier": "perindosyl/iteraction-source.pdf",
+            "source": "ANPP",
+            "pays": "Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl/iteraction-source.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°29, C09AA04"
+        },
+        {
+          "source": "ANPP / pharmnet-dz",
+          "pays": "Algérie",
+          "url": "https://www.pharmnet-dz.com",
+          "info": "Fiches COVERSYL 5/10 mg, PERINDOPRIL BEKER 4/8 mg"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP périndopril erbumine/arginine"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Vérification noms commerciaux"
+        }
+      ]
+    },
+    {
+      "dci": "ramipril",
+      "dci_display": "Ramipril",
+      "code_atc": "C09AA05",
+      "classe_therapeutique": "Antihypertenseurs",
+      "miph_numero": 30,
+      "miph_present": "oui",
+      "source_reference": "MIPH/ANPP + ANSM + DailyMed",
+      "anpp": {
+        "rcp_trouve": false,
+        "notice_trouvee": false
+      },
+      "excel_summary": {
+        "total_lignes_excel": 20,
+        "lignes_excel": [
+          567,
+          568,
+          569,
+          570,
+          571,
+          572,
+          573,
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584,
+          585,
+          586
+        ],
+        "noms_commerciaux_count": 7
+      },
+      "noms_commerciaux": [
+        {
+          "nom_commercial": "RAMINORM",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "5MG",
+              "excel_row": 567,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "10MG",
+              "excel_row": 570,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "TANATRIL",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "1,25MG",
+              "excel_row": 568,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "2.5MG",
+              "excel_row": 573,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 577,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "10MG",
+              "excel_row": 580,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "TRIATEC",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME",
+              "dosage": "1,25MG",
+              "excel_row": 569,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "2.5MG",
+              "excel_row": 581,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 582,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "10MG",
+              "excel_row": 583,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "RAMIPRIL BEKER",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "2.5MG",
+              "excel_row": 571,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 574,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "10MG",
+              "excel_row": 578,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "RAMITRIM",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "2.5MG",
+              "excel_row": 572,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 576,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "10MG",
+              "excel_row": 579,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "RAMIPRIL PHYSIOPHARM",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "COMPRIME SECABLE",
+              "dosage": "5MG",
+              "excel_row": 575,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        },
+        {
+          "nom_commercial": "TRIAMPEX",
+          "classe_therapeutique": "Antihypertenseurs",
+          "presentations": [
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "2.5MG",
+              "excel_row": 584,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "5MG",
+              "excel_row": 585,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            },
+            {
+              "forme_pharmaceutique": "GELULE",
+              "dosage": "10 MG",
+              "excel_row": 586,
+              "nomenclature_algerienne": "oui",
+              "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+            }
+          ]
+        }
+      ],
+      "formes_et_dosages": [
+        {
+          "forme": "COMPRIME",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME",
+          "dosage": "1,25MG"
+        },
+        {
+          "forme": "COMPRIME",
+          "dosage": "10MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "2.5MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "COMPRIME SECABLE",
+          "dosage": "10MG"
+        },
+        {
+          "forme": "GELULE",
+          "dosage": "2.5MG"
+        },
+        {
+          "forme": "GELULE",
+          "dosage": "5MG"
+        },
+        {
+          "forme": "GELULE",
+          "dosage": "10 MG"
+        }
+      ],
+      "excel_rows_detail": [
+        {
+          "excel_row": 567,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMINORM",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 568,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TANATRIL",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "1,25MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 569,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIATEC",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "1,25MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 570,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMINORM",
+          "forme_pharmaceutique": "COMPRIME",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 571,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMIPRIL BEKER",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "2.5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 572,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMITRIM",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "2.5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 573,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TANATRIL",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "2.5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 574,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMIPRIL BEKER",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 575,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMIPRIL PHYSIOPHARM",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 576,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMITRIM",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 577,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TANATRIL",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 578,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMIPRIL BEKER",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 579,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "RAMITRIM",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 580,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TANATRIL",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 581,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIATEC",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "2.5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 582,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIATEC",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 583,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIATEC",
+          "forme_pharmaceutique": "COMPRIME SECABLE",
+          "dosage": "10MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 584,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIAMPEX",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "2.5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 585,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIAMPEX",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "5MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        },
+        {
+          "excel_row": 586,
+          "numero_dci": 30,
+          "classe_therapeutique": "Antihypertenseurs",
+          "dci_excel": "ramipril",
+          "code_atc": "C09AA05",
+          "atc_confirme": "oui",
+          "nomenclature_algerienne": "oui",
+          "nom_commercial": "TRIAMPEX",
+          "forme_pharmaceutique": "GELULE",
+          "dosage": "10 MG",
+          "sources_excel": "ANPP، ANSM، dzair-pharma.net",
+          "remarques": "Produit et dosage confirmés via la nomenclature officielle (août 2026)"
+        }
+      ],
+      "corpus_metadata": {
+        "relative_path": "ramipril",
+        "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril",
+        "total_files": 6,
+        "source_files": [
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+            "relative_path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 788
+          },
+          {
+            "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+            "relative_path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+            "type": "csv",
+            "extension": "csv",
+            "size_bytes": 1346
+          },
+          {
+            "filename": "info.pdf",
+            "relative_path": "ramipril/info.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/info.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 435011
+          },
+          {
+            "filename": "notice-ramplir.pdf",
+            "relative_path": "ramipril/notice-ramplir.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/notice-ramplir.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 1908842
+          },
+          {
+            "filename": "ramplir-dailymed.pdf",
+            "relative_path": "ramipril/ramplir-dailymed.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/ramplir-dailymed.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 990800
+          },
+          {
+            "filename": "rcpramplir.pdf",
+            "relative_path": "ramipril/rcpramplir.pdf",
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rcpramplir.pdf",
+            "type": "pdf",
+            "extension": "pdf",
+            "size_bytes": 3793246
+          }
+        ],
+        "brand_folders": []
+      },
+      "documents_reference": {
+        "rcp": [
+          {
+            "fichier": "rcpramplir.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rcpramplir.pdf"
+          },
+          {
+            "fichier": "ramplir-dailymed.pdf",
+            "source": "DailyMed",
+            "pays": "États-Unis",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/ramplir-dailymed.pdf"
+          }
+        ],
+        "notice": [
+          {
+            "fichier": "notice-ramplir.pdf",
+            "source": "ANSM",
+            "pays": "France",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/notice-ramplir.pdf"
+          }
+        ],
+        "info": [
+          {
+            "fichier": "info.pdf",
+            "source": "ANSM/ANPP",
+            "pays": "France/Algérie",
+            "exists_on_disk": true,
+            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/info.pdf"
+          }
+        ]
+      },
+      "sources_officielles": [
+        {
+          "source": "MIPH",
+          "pays": "Algérie",
+          "url": "https://www.miph.gov.dz/nomenclature",
+          "info": "Nomenclature N°30, C09AA05"
+        },
+        {
+          "source": "ANSM / Base données publique",
+          "pays": "France",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr",
+          "info": "RCP et Notice ramipril (Triatec)"
+        },
+        {
+          "source": "DailyMed / NLM-FDA",
+          "pays": "États-Unis",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ramipril",
+          "info": "Label Ramipril capsules (Altace)"
+        },
+        {
+          "source": "ANPP / pharmnet-dz",
+          "pays": "Algérie",
+          "url": "https://www.pharmnet-dz.com",
+          "info": "Fiches spécialités ramipril"
+        },
+        {
+          "source": "dzair-pharma.net",
+          "pays": "Algérie",
+          "url": "https://www.dzair-pharma.net",
+          "info": "Page DCI ramipril"
+        }
+      ]
+    }
+  ],
+  "validation_log": []
+}
