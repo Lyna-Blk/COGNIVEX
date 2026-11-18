@@ -36,8 +36,8 @@ except ImportError:
 
 # -- Configuration -------------------------------------------------------------
 CORPUS_ROOT   = Path(__file__).parent / "data" / "corpus"
-REPORT_JSON   = Path(__file__).parent / "data" / "corpus_audit_report.json"
-REPORT_TXT    = Path(__file__).parent / "data" / "corpus_audit_report.txt"
+REPORT_JSON   = Path(__file__).parent / "data" / "processed" / "corpus_audit_report.json"
+REPORT_TXT    = Path(__file__).parent / "data" / "processed" / "corpus_audit_report.txt"
 
 MIN_CHARS_PER_PAGE    = 200    # pages below this are "noise/near-empty"
 MIN_CHARS_TOTAL       = 100    # whole document below this -> flag for OCR
