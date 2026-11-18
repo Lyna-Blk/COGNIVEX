@@ -1,0 +1,76 @@
+# DCI 19 — CLARITHROMYCINE
+
+## 02. Recherche dans les sources réglementaires algériennes
+
+### 1. Objectif de la recherche
+
+Rechercher les documents et informations réglementaires algériens relatifs à la clarithromycine, notamment :
+
+- Les RCP (Résumé des Caractéristiques du Produit).
+- Les notices destinées aux patients.
+- Les produits pharmaceutiques enregistrés en Algérie.
+- Les différentes formes pharmaceutiques et les dosages disponibles dans la nomenclature nationale.
+
+### 2. Sources réglementaires consultées
+
+**Source 1 — Ministère de l’Industrie Pharmaceutique (MIPH)**
+
+Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+Utilité :
+Consulter les versions de la nomenclature nationale et rechercher les produits contenant la clarithromycine.
+
+Résultat :
+La nomenclature nationale consultée dans le Journal officiel n° 75 du 13 novembre 2025 mentionne plusieurs entrées relatives à la clarithromycine :
+
+- 13 E 215 : comprimés et comprimés pelliculés, 500 mg.
+- 13 E 244 : comprimés et comprimés pelliculés, 250 mg.
+- 13 E 297 : suspension orale ou poudre pour suspension buvable, 250 mg/5 ml.
+- 13 E 323 : granulés pour suspension buvable, 125 mg/5 ml.
+
+Source complémentaire :
+https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+
+**Source 2 — Agence Nationale des Produits Pharmaceutiques (ANPP)**
+
+Lien :
+https://rcp.anpp.dz/
+
+Utilité :
+Rechercher et consulter les RCP des médicaments enregistrés en Algérie.
+
+Recherche à effectuer :
+- DCI : CLARITHROMYCINE.
+- Effectuer également une recherche par nom commercial lorsque les produits seront identifiés.
+
+Résultat de la première consultation :
+La page de recherche a été consultée. Aucun résultat exploitable n'a été récupéré lors de cette première consultation. Une recherche directe par DCI et par nom commercial reste à effectuer.
+
+**Source 3 — Liste des médicaments enregistrés en Algérie (MIPH)**
+
+Lien :
+https://www.miph.gov.dz/fr/liste-des-medicaments-enregistres-en-algerie/
+
+Utilité :
+Rechercher les produits contenant la clarithromycine dans les listes annuelles des médicaments enregistrés.
+
+Statut :
+Les listes annuelles doivent être examinées pour identifier les produits et leurs informations d'enregistrement.
+
+### 3. Documents réglementaires algériens
+
+- RCP algérien : à rechercher et à télécharger.
+- Notice algérienne : à rechercher et à télécharger.
+- Décision d'enregistrement : à rechercher si disponible.
+
+### 4. Informations restant à vérifier
+
+- Les noms commerciaux des produits enregistrés.
+- Les titulaires des décisions d'enregistrement.
+- Les numéros et dates d'enregistrement.
+- La disponibilité des RCP et notices algériens.
+
+### 5. Remarque
+
+L'absence de document récupéré lors d'une première recherche ne signifie pas que le document n'existe pas. Les recherches doivent être poursuivies dans les bases réglementaires officielles et par nom commercial.

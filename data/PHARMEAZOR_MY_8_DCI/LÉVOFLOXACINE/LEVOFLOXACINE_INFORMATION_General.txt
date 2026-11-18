@@ -1,0 +1,42 @@
+# DCI 21 — LEVOFLOXACINE
+
+## 1. Identification de la substance active
+
+- DCI : Lévofloxacine
+- Code ATC : J01MA12
+- Classe thérapeutique : Antibiotiques à usage systémique
+- Classe pharmacologique : Quinolones antibactériennes
+- Sous-classe : Fluoroquinolones
+- Nature de l'activité : Antibiotique bactéricide
+- Mécanisme général : Inhibition de l'ADN-gyrase et de la topoisomérase IV bactériennes.
+- Voies d'administration : Voie orale et voie intraveineuse.
+
+### Code DCI identifié dans les sources algériennes
+
+- 13 K 228 : Lévofloxacine, comprimé pelliculé sécable, 500 mg sous forme hémihydratée.
+
+Remarque : Ce code a été identifié dans le Journal officiel algérien n° 32 du 12 juin 2014. Il devra être vérifié dans la dernière édition de la nomenclature nationale avant de confirmer son statut actuel et l'exhaustivité des dosages et formes.
+
+## 2. Description générale
+
+La lévofloxacine est un antibiotique de synthèse appartenant à la famille des fluoroquinolones. Elle correspond à l'énantiomère actif de l'ofloxacine.
+
+Elle possède une activité bactéricide en inhibant deux enzymes essentielles à la réplication de l'ADN bactérien : l'ADN-gyrase et la topoisomérase IV.
+
+Elle présente une activité contre plusieurs bactéries Gram positives et Gram négatives, ainsi que certains microorganismes responsables d'infections respiratoires.
+
+Son utilisation doit tenir compte de la sensibilité bactérienne, des recommandations thérapeutiques et des restrictions de prescription applicables aux fluoroquinolones en raison de leurs effets indésirables potentiellement graves.
+
+## 3. Sources documentaires initiales
+
+1. Ministère de l'Industrie Pharmaceutique (Algérie) — Nomenclature nationale :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+2. Journal officiel de la République algérienne — N° 32 du 12 juin 2014 :
+https://www.joradp.dz/FTP/jo-francais/2014/F2014032.pdf
+
+3. WHO Collaborating Centre for Drug Statistics Methodology — ATC/DDD Index :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12
+
+4. FDA — LEVAQUIN (levofloxacin), Prescribing Information :
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/020634s066,020635s072,021721s033lbl.pdf

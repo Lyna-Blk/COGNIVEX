@@ -1,0 +1,44 @@
+# PRODUIT 1 — FLAGYL
+
+## 1. Identification du produit
+
+- Nom commercial : FLAGYL
+- DCI : Métronidazole
+- Substance active : Métronidazole (sous forme de benzoate)
+- Dosage : 125 mg/5 ml
+- Forme pharmaceutique : Suspension buvable
+- Laboratoire titulaire : BIOPHARM
+- Pays : Algérie
+- Conditionnement : Flacon de 120 ml
+- Code DCI : 13 F 040
+- Numéro d'enregistrement indiqué : 263/13 F 040/96/25
+- Origine : Fabrication nationale
+- Statut indiqué dans la base consultée : Enregistré
+
+## 2. Sources et liens
+
+**Source 1 — Fiche du médicament**
+
+- Site : Dawa / Pharmakode
+- Lien : https://dawa.pharmakode.dz/medicament/flagyl-125-mg-5-ml-suspension-buvable_35731ab5-ac29-4e3b-ac62-78402da66205
+- Informations relevées : dosage, forme, conditionnement, laboratoire, origine, code DCI et numéro d'enregistrement.
+
+**Source 2 — Laboratoire fabricant**
+
+- Organisme : BIOPHARM
+- Lien : https://www.biopharmdz.com/produits/119
+- Informations relevées : FLAGYL 4 %, métronidazole 125 mg/5 ml, suspension buvable en flacon de 120 ml.
+
+**Source 3 — Référentiel pharmaceutique algérien**
+
+- Site : Pharm'Net
+- Lien : https://pharmnet-dz.com/m-864-flagyl-125mg-5ml-susp-buv-fl-120-ml--cuillere-mesure-de-5ml/d-852-metronidazole
+- Informations relevées : présentation, laboratoire, code DCI et données d'enregistrement.
+
+## 3. Remarques
+
+Les données commerciales et réglementaires sont rapportées par les bases pharmaceutiques consultées et la page du laboratoire.
+
+La présence dans une nomenclature ou une base de données ne garantit pas la disponibilité actuelle en pharmacie.
+
+Le RCP algérien spécifique à cette spécialité reste à rechercher.

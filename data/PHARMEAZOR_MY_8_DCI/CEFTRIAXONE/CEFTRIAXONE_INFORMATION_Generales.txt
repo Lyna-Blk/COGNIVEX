@@ -1,0 +1,32 @@
+# DCI 17 — CEFTRIAXONE
+
+## 1. Identification de la substance active
+
+- **DCI :** Ceftriaxone
+- **Code ATC :** J01DD04
+- **Classe pharmacothérapeutique :** Antibiotique antibactérien de la famille des céphalosporines de troisième génération.
+- **Groupe ATC :** J01DD — Céphalosporines de troisième génération.
+
+## 2. Source de vérification du code ATC
+
+- **Organisme :** Organisation mondiale de la Santé (OMS) — WHO Collaborating Centre for Drug Statistics Methodology.
+- **Base de données :** ATC/DDD Index.
+- **Code confirmé :** J01DD04.
+- **Lien :** https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04&showdescription=no
+
+## 3. Sources documentaires
+
+- **Source officielle algérienne :** Ministère de l’Industrie Pharmaceutique (MIPH).
+- **Nomenclature nationale :** https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+- **Source complémentaire :** https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04&showdescription=no
+
+## 4. Informations restant à compléter
+
+- Mécanisme d’action :
+- Spectre antibactérien :
+- Pharmacocinétique :
+- Indications thérapeutiques :
+- Effets indésirables :
+- Précautions et contre-indications :
+
+*Remarque : les informations cliniques et pharmacologiques seront complétées à partir de sources scientifiques et réglementaires vérifiables.*

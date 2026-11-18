@@ -1,0 +1,85 @@
+# DCI 21 — LEVOFLOXACINE
+
+## 03. Références des articles scientifiques
+
+### Article 1 — Pharmacologie et utilisation thérapeutique
+
+**Titre :** Levofloxacin: a therapeutic review.
+
+- Auteurs : Wimer SM, Schoonover L, Garrison MW.
+- Revue : Clinical Therapeutics.
+- Année : 1998.
+- Volume : 20(6).
+- Pages : 1049–1070.
+- PMID : 9916602.
+- DOI : 10.1016/S0149-2918(98)80104-5.
+- Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/9916602/
+
+**Utilité pour le projet :**
+Étudier la pharmacologie, la pharmacocinétique, l'activité antibactérienne, les interactions médicamenteuses, les effets indésirables et la place thérapeutique de la lévofloxacine.
+
+### Article 2 — Pharmacocinétique et utilisation clinique
+
+**Titre :** Levofloxacin: a review of its use as a high-dose, short-course treatment for bacterial infection.
+
+- Auteurs : Anderson VR, Perry CM.
+- Revue : Drugs.
+- Année : 2008.
+- Volume : 68(4).
+- Pages : 535–565.
+- PMID : 18318569.
+- DOI : 10.2165/00003495-200868040-00011.
+- Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/18318569/
+
+**Utilité pour le projet :**
+Étudier les propriétés pharmacologiques, les schémas posologiques, l'efficacité clinique et les utilisations thérapeutiques de la lévofloxacine.
+
+### Article 3 — Mécanisme d'action et pharmacocinétique
+
+**Titre :** Levofloxacin.
+
+- Source : StatPearls, NCBI Bookshelf.
+- Auteurs : consulter la section bibliographique de la version en ligne.
+- Lien : https://www.ncbi.nlm.nih.gov/books/NBK545180/
+
+**Utilité pour le projet :**
+Consulter une synthèse sur le mécanisme d'action, le spectre antibactérien, la pharmacocinétique, les effets indésirables et les mécanismes de résistance.
+
+Remarque : il s'agit d'un chapitre de référence biomédicale, et non d'un article de revue scientifique classique.
+
+## 04. Sources réglementaires et pharmacologiques complémentaires
+
+### Source 1 — FDA
+
+**Document :** LEVAQUIN (levofloxacin), Prescribing Information.
+
+Lien :
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020634s069lbl.pdf
+
+Utilité :
+- Mécanisme d'action.
+- Résistance bactérienne.
+- Spectre antibactérien.
+- Pharmacocinétique.
+- Indications et précautions.
+
+### Source 2 — Organisation mondiale de la Santé
+
+**Document :** WHO Prequalification — Levofloxacin 500 mg tablets, WHOPAR Part 4.
+
+Année : 2025.
+
+Lien :
+https://extranet.who.int/prequal/sites/default/files/whopar_files/TB373Part4v2.pdf
+
+Utilité :
+- Propriétés pharmacodynamiques.
+- Mécanisme d'action.
+- Activité contre Mycobacterium tuberculosis.
+- Résistance aux fluoroquinolones.
+
+### Remarque méthodologique
+
+Les articles scientifiques servent à comprendre les propriétés pharmacologiques et les données cliniques de la lévofloxacine.
+
+Les documents de la FDA et de l'OMS sont des sources réglementaires ou institutionnelles complémentaires. Ils ne remplacent pas le RCP algérien du médicament étudié.
