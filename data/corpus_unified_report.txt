@@ -1,0 +1,399 @@
+
+========================================================================
+  COGNIVEX — RAPPORT CORPUS UNIFIÉ
+========================================================================
+    Généré le : 2026-11-18T22:42:23.352736+00:00
+    Corpus    : C:\Users\Administrator\COGNIVEX\data\corpus
+    Excel     : C:\Users\Administrator\COGNIVEX\data\reference\Feuille de calcul sans titre (1).xlsx
+
+
+------------------------------------------------------------------------
+  BILAN GLOBAL
+------------------------------------------------------------------------
+    DCIs traités               : 8
+    Total lignes Excel         : 95
+    Total noms commerciaux     : 57
+    Total fichiers corpus      : 58
+    Problèmes de validation    : 0
+
+------------------------------------------------------------------------
+  DCI : AMLODIPINE (C08CA01)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°27 présent      : OUI
+    ANPP RCP trouvé      : OUI
+    ANPP Notice trouvée  : OUI
+    Source référence     : MIPH/ANPP + DailyMed
+
+    Lignes Excel (27) : [533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559]
+
+    Noms commerciaux (16) :
+      - AMLODAL                        : COMPRIME 5MG (l.533) | COMPRIME 5MG (l.535) | COMPRIME SECABLE 10MG (l.550)
+      - AMLIBON                        : COMPRIME 5MG (l.534) | COMPRIME 10MG (l.549)
+      - AMLODIPINE MM                  : COMPRIME PELLICULE 5MG (l.536)
+      - AMLOMED                        : COMPRIME PELLICULE 5MG (l.537)
+      - AMLODIPAL                      : GELULE 5MG (l.538)
+      - AMLODIPINE BEKER               : GELULE 5MG (l.539) | GELULE 10MG (l.552)
+      - AMLOR                          : GELULE 5MG (l.540) | GELULE 10MG (l.553)
+      - DIMLOR                         : GELULE 5MG (l.541) | GELULE 10MG (l.554)
+      - DIPICARD                       : GELULE 5MG (l.542) | GELULE 10MG (l.555)
+      - HUMLOR                         : GELULE 5MG (l.543) | GELULE 10MG (l.556)
+      - LOTENSE                        : GELULE 5MG (l.544) | GELULE 10MG (l.557)
+      - LOWVASC                        : GELULE 5MG (l.545)
+      - MIBRAL                         : GELULE 5MG (l.546) | GELULE 10MG (l.558)
+      - AMLOPINE                       : GELULE 5MG (l.547)
+      - TENSODIPINE                    : GELULE 5MG (l.548) | GELULE 10MG (l.559)
+      - AMLOCARDINE                    : GELULE 10MG (l.551)
+
+    Fichiers corpus (11) :
+      [DCI]   source-amdolipine rcp.pdf  (PDF, 2328 KB)
+      [DCI]   source-amdolipine-daily med -rcp.pdf  (PDF, 530 KB)
+      [DCI]   source-amlodopine-notice.pdf  (PDF, 1231 KB)
+      [DCI]   Source-info -amlodipline.pdf  (PDF, 419 KB)
+      [DOSS]  amlodipine/amlibon/  (2 fichiers)
+               └─ source-generique.pdf  (PDF, 1677 KB)
+               └─ source-interaction.pdf  (PDF, 1680 KB)
+      [DOSS]  amlodipine/amlodal/  (2 fichiers)
+               └─ source -generique.pdf  (PDF, 1523 KB)
+               └─ source amlodal interaction.pdf  (PDF, 1507 KB)
+      [DOSS]  amlodipine/mibral/  (3 fichiers)
+               └─ RCP-MIBRL.pdf  (PDF, 430 KB)
+               └─ source-mibral generique.pdf  (PDF, 3038 KB)
+               └─ source-mibral interactiob.pdf  (PDF, 1698 KB)
+
+    Documents de référence :
+      [RCP   ] ANPP         (Algérie        ) ✓          source-amdolipine rcp.pdf
+      [RCP   ] DailyMed     (États-Unis     ) ✓          source-amdolipine-daily med -rcp.pdf
+      [RCP   ] ANPP         (Algérie        ) ✓          mibral/RCP-MIBRL.pdf
+      [NOTICE] ANPP         (Algérie        ) ✓          source-amlodopine-notice.pdf
+      [INFO  ] ANPP/MIPH    (Algérie        ) ✓          Source-info -amlodipline.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°27, C08CA01
+                   URL: https://www.miph.gov.dz/nomenclature
+      [Algérie        ] ANPP / pharmnet-dz — RCP et Notice amlodipine
+                   URL: https://www.pharmnet-dz.com
+      [États-Unis     ] DailyMed / NLM-FDA — Label amlodipine besylate
+                   URL: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine
+      [Algérie        ] dzair-pharma.net — Vérification noms commerciaux
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  DCI : CLINDAMYCINE (J01FF01)
+------------------------------------------------------------------------
+    Classe               : Antibiotiques
+    MIPH N°26 présent      : OUI
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : MIPH + ANSM
+
+    Lignes Excel (7) : [526, 527, 528, 529, 530, 531, 532]
+
+    Noms commerciaux (6) :
+      - CLINARAM                       : GELULE 150MG (l.526)
+      - ACNESTOP                       : GEL DERMIQUE 1% (10MG/ML) (l.527)
+      - DENACINE EMULGEL               : GEL DERMIQUE 1% (10MG/ML) (l.528)
+      - CLEAN-ACNE                     : GEL POUR APPLICATION LOCALE 1% (10MG/ML) (l.529) | SOLUTION POUR APPLICATION LOCALE 1% (10MG/ML) (l.531)
+      - DERMA-T                        : SOLUTION DERMIQUE 1% (10MG/ML) (l.530)
+      - DENACINE                       : SOLUTION POUR APPLICATION LOCALE 1% (10MG/ML) (l.532)
+
+    Fichiers corpus (8) :
+      [DCI]   source-ansm-notice.pdf  (PDF, 1220 KB)
+      [DCI]   source-ansm_info.pdf  (PDF, 474 KB)
+      [DCI]   source_ansm-rcp.pdf  (PDF, 1368 KB)
+      [DOSS]  clindamycine/acnestop/  (2 fichiers)
+               └─ source-ansm-generique.pdf  (PDF, 1483 KB)
+               └─ source-ansmi- interaction.pdf  (PDF, 1490 KB)
+      [DOSS]  clindamycine/clinaram/  (1 fichiers)
+               └─ source_ansm_interaction dwadz.pdf  (PDF, 1384 KB)
+      [DOSS]  clindamycine/derma-t/  (2 fichiers)
+               └─ source-ansm-interaction.pdf  (PDF, 1431 KB)
+               └─ source-ansm_generique.pdf  (PDF, 1424 KB)
+
+    Documents de référence :
+      [RCP   ] ANSM         (France         ) ✓          source_ansm-rcp.pdf
+      [NOTICE] ANSM         (France         ) ✓          source-ansm-notice.pdf
+      [INFO  ] ANSM         (France         ) ✓          source-ansm_info.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°26, J01FF01
+                   URL: https://www.miph.gov.dz/nomenclature
+      [France         ] ANSM / Base données publique — RCP et Notice clindamycine
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [Algérie        ] dzair-pharma.net — Vérification noms commerciaux
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  DCI : ÉNALAPRIL (C09AA02)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°31 présent      : OUI
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : MIPH/ANPP + ANSM
+
+    Lignes Excel (2) : [587, 588]
+
+    Noms commerciaux (1) :
+      - ENALAPRIL MYLAN                : COMPRIME SECABLE 5MG (l.587) | COMPRIME SECABLE 20MG (l.588)
+
+    Fichiers corpus (6) :
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv  (CSV, 0 KB)
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv  (CSV, 0 KB)
+      [DCI]   dwa--dz.pdf  (PDF, 271 KB)
+      [DCI]   info-enalapril.pdf  (PDF, 429 KB)
+      [DCI]   notice-enalapril.pdf  (PDF, 1785 KB)
+      [DCI]   rcp-enalapril.pdf  (PDF, 3639 KB)
+
+    Documents de référence :
+      [RCP   ] ANSM         (France         ) ✓          rcp-enalapril.pdf
+      [NOTICE] ANSM         (France         ) ✓          notice-enalapril.pdf
+      [INFO  ] ANSM/ANPP    (France/Algérie ) ✓          info-enalapril.pdf
+      [INFO  ] DwaDZ        (Algérie        ) ✓          dwa--dz.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°31, C09AA02
+                   URL: https://www.miph.gov.dz/nomenclature
+      [France         ] ANSM / Base données publique — RCP et Notice énalapril maléate
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [Algérie        ] ANPP / pharmnet-dz — Fiche Enalapril Mylan
+                   URL: https://www.pharmnet-dz.com
+      [Algérie        ] dzair-pharma.net — Page DCI énalapril maléate
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  DCI : GENTAMICINE (J01GB03)
+------------------------------------------------------------------------
+    Classe               : Antibiotiques
+    MIPH N°25 présent      : OUI
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : MIPH + ANSM + DailyMed
+
+    Lignes Excel (20) : [506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525]
+
+    Noms commerciaux (16) :
+      - GENTAMYCINE                    : COLLYRE EN SOLUTION 3MG/ML (l.506)
+      - GENTA 160                      : SOLUTION INJECTABLE IM/IV 160 MG/2 ML (l.507)
+      - GENTAMICINE CHAUVIN O,3%       : POMMADE OPHTALMIQUE 0,003 (l.508)
+      - GENTA 10                       : SOLUTION INJECTABLE IM/IV 10MG/ML (l.509)
+      - S-GENTA                        : SOLUTION INJECTABLE IM/IV 10MG/ML (l.510) | SOLUTION INJECTABLE IM/IV 20MG/ML (40MG/2ML) (l.515)
+      - GENTHERAXINE                   : COLLYRE EN SOLUTION 3MG/ML (l.511) | SOLUTION INJECTABLE IM/IV 20MG/ML (40MG/2ML) (l.514) | SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.521)
+      - GENTA 40                       : SOLUTION INJECTABLE IM/IV 20MG/ML (40MG/2ML) (l.512)
+      - GENTAXYN                       : SOLUTION INJECTABLE IM/IV 20MG/ML (40MG/2ML) (l.513) | SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.520)
+      - EPIGENT                        : SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.516)
+      - GENTA 80                       : SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.517)
+      - GENTACINE                      : SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.518)
+      - GENTAMYCINE GEO                : SOLUTION INJECTABLE IM/IV 40MG/ML (80MG/2ML) (l.519)
+      - APIGEN                         : COLLYRE EN SOLUTION 3MG/ML (l.522)
+      - GENTADAR                       : COLLYRE EN SOLUTION 3MG/ML** (l.523)
+      - GENTALEX                       : COLLYRE EN SOLUTION 3MG/ML (l.524)
+      - GENTOCIL                       : COLLYRE EN SOLUTION 3MG/ML (0,3%) (l.525)
+
+    Fichiers corpus (12) :
+      [DCI]   daily med genta.pdf  (PDF, 5269 KB)
+      [DOSS]  gentamicine/genta_80/  (7 fichiers)
+               └─ source_ansm_ autre medicament mem dci_dwadz.pdf  (PDF, 1714 KB)
+               └─ source_ansm_fiche_info.pdf  (PDF, 432 KB)
+               └─ source_ansm_interaction_medicament.pdf  (PDF, 1718 KB)
+               └─ source_ansm_noticc.pdf  (PDF, 1405 KB)
+               └─ source_ansm_rcp.pdf  (PDF, 2719 KB)
+               └─ sourcedwadz--.png  (PNG, 160 KB)
+               └─ sourcedwadz-.png  (PNG, 120 KB)
+      [DOSS]  gentamicine/gentacine/  (2 fichiers)
+               └─ source_ansm_generiques.pdf  (PDF, 1699 KB)
+               └─ source_ansm_interaction_avc_autre_mid.pdf  (PDF, 1702 KB)
+      [DOSS]  gentamicine/s_genta/  (2 fichiers)
+               └─ source_ansm_generique.pdf  (PDF, 1631 KB)
+               └─ source_interaction_s genta.pdf  (PDF, 1634 KB)
+
+    Documents de référence :
+      [RCP   ] ANSM         (France         ) ✓          genta_80/source_ansm_rcp.pdf
+      [RCP   ] DailyMed     (États-Unis     ) ✓          daily med genta.pdf
+      [NOTICE] ANSM         (France         ) ✓          genta_80/source_ansm_noticc.pdf
+      [INFO  ] ANSM         (France         ) ✓          genta_80/source_ansm_fiche_info.pdf
+      [INFO  ] ANSM         (France         ) ✓          genta_80/source_ansm_interaction_medicament.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°25, J01GB03
+                   URL: https://www.miph.gov.dz/nomenclature
+      [France         ] ANSM / Base données publique — RCP et Notice gentamicine sulfate
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [États-Unis     ] DailyMed / NLM-FDA — Label Gentamicin Sulfate Injection
+                   URL: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gentamicin
+      [Algérie        ] dzair-pharma.net — Vérification noms commerciaux
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  DCI : LOSARTAN (C09CA01)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°32 présent      : OUI
+    ANPP RCP trouvé      : OUI
+    ANPP Notice trouvée  : OUI
+    Source référence     : MIPH/ANPP + ANSM + DailyMed
+
+    Lignes Excel (12) : [589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600]
+
+    Noms commerciaux (8) :
+      - COZZAR                         : COMPRIME PELLICULE 50MG (l.589) | COMPRIME PELLICULE 100MG (l.592)
+      - LOZARTAN GEO                   : COMPRIME PELLICULE 50MG (l.590)
+      - BEKTAL                         : COMPRIME PELLICULE 100MG (l.591) | COMPRIME PELLICULE SECABLE 50MG (l.595)
+      - LAZARTAN                       : COMPRIME PELLICULE 100MG (l.593) | COMPRIME PELLICULE SECABLE 50MG (l.597)
+      - ANGIZAR                        : COMPRIME PELLICULE SECABLE 50MG (l.594)
+      - HYSARTAN                       : COMPRIME PELLICULE SECABLE 50MG (l.596) | COMPRIME PELLICULE SECABLE 100MG (l.599)
+      - NORTA                          : COMPRIME PELLICULE SECABLE 50MG (l.598)
+      - NORTA FORT                     : COMPRIME PELLICULE SECABLE 100MG (l.600)
+
+    Fichiers corpus (8) :
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv  (CSV, 0 KB)
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv  (CSV, 0 KB)
+      [DCI]   dailymed-losartan.pdf  (PDF, 886 KB)
+      [DCI]   info-losartan.pdf  (PDF, 471 KB)
+      [DCI]   LOSartan anpp.pdf  (PDF, 437 KB)
+      [DCI]   notice-losartan.pdf  (PDF, 1777 KB)
+      [DCI]   rcp-losartan.pdf  (PDF, 4000 KB)
+      [DOSS]  losartan/cozzar/  (1 fichiers)
+               └─ cozaar interaction.pdf  (PDF, 1700 KB)
+
+    Documents de référence :
+      [RCP   ] ANPP         (Algérie        ) ✓          LOSartan anpp.pdf
+      [RCP   ] ANSM         (France         ) ✓          rcp-losartan.pdf
+      [RCP   ] DailyMed     (États-Unis     ) ✓          dailymed-losartan.pdf
+      [NOTICE] ANSM         (France         ) ✓          notice-losartan.pdf
+      [INFO  ] ANPP/ANSM    (Algérie/France ) ✓          info-losartan.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°32, C09CA01
+                   URL: https://www.miph.gov.dz/nomenclature
+      [Algérie        ] ANPP / pharmnet-dz — RCP losartan (COZZAR, ANGIZAR…)
+                   URL: https://www.pharmnet-dz.com
+      [France         ] ANSM / Base données publique — RCP et Notice losartan potassique
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [États-Unis     ] DailyMed / NLM-FDA — Label losartan potassium
+                   URL: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=losartan
+
+------------------------------------------------------------------------
+  DCI : NIFÉDIPINE (C08CA05)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°28 présent      : NON
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : DailyMed (ANSM en complément)
+
+    Lignes Excel (1) : [560]
+
+    Noms commerciaux (0) :
+
+    Fichiers corpus (1) :
+      [DCI]   dailymed-nifedipine.pdf  (PDF, 476 KB)
+
+    Documents de référence :
+      [RCP   ] DailyMed     (États-Unis     ) ✓          dailymed-nifedipine.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°28 — NON PRESENTE
+                   URL: https://www.miph.gov.dz/nomenclature
+      [États-Unis     ] DailyMed / NLM-FDA — Label nifedipine (Adalat CC, Procardia XL)
+                   URL: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nifedipine
+      [France         ] ANSM / Base données publique — Adalate 10 mg capsules et LP
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+
+------------------------------------------------------------------------
+  DCI : PÉRINDOPRIL (C09AA04)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°29 présent      : OUI
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : MIPH/ANPP + ANSM
+
+    Lignes Excel (6) : [561, 562, 563, 564, 565, 566]
+
+    Noms commerciaux (3) :
+      - COVERSYL                       : COMPRIME PELLICULE 10MG (l.561) | COMPRIME PELLICULE SECABLE 5MG (l.562)
+      - PERINDOSYL                     : COMPRIME 4MG (l.563) | COMPRIME PELLICULE 8MG (l.565)
+      - PERINDOPRIL BEKER              : COMPRIME 8MG (l.564) | COMPRIME SECABLE 4MG (l.566)
+
+    Fichiers corpus (6) :
+      [DOSS]  perindopril/coversyl/  (2 fichiers)
+               └─ source interaction.pdf  (PDF, 1945 KB)
+               └─ source-generique-.pdf  (PDF, 1941 KB)
+      [DOSS]  perindopril/perindopril/  (3 fichiers)
+               └─ generique.pdf  (PDF, 1991 KB)
+               └─ interaction.pdf  (PDF, 1995 KB)
+               └─ source rcp. prindoprile.pdf  (PDF, 830 KB)
+      [DOSS]  perindopril/perindosyl/  (1 fichiers)
+               └─ iteraction-source.pdf  (PDF, 1906 KB)
+
+    Documents de référence :
+      [RCP   ] ANPP         (Algérie        ) ✓          perindopril/source rcp. prindoprile.pdf
+      [INFO  ] ANPP/pharmnet-dz (Algérie        ) ✓          coversyl/source-generique-.pdf
+      [INFO  ] ANPP         (Algérie        ) ✓          perindopril/generique.pdf
+      [INFO  ] ANPP         (Algérie        ) ✓          perindosyl/iteraction-source.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°29, C09AA04
+                   URL: https://www.miph.gov.dz/nomenclature
+      [Algérie        ] ANPP / pharmnet-dz — Fiches COVERSYL 5/10 mg, PERINDOPRIL BEKER 4/8 mg
+                   URL: https://www.pharmnet-dz.com
+      [France         ] ANSM / Base données publique — RCP périndopril erbumine/arginine
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [Algérie        ] dzair-pharma.net — Vérification noms commerciaux
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  DCI : RAMIPRIL (C09AA05)
+------------------------------------------------------------------------
+    Classe               : Antihypertenseurs
+    MIPH N°30 présent      : OUI
+    ANPP RCP trouvé      : NON — document ANPP non trouvé
+    ANPP Notice trouvée  : NON — document ANPP non trouvé
+    Source référence     : MIPH/ANPP + ANSM + DailyMed
+
+    Lignes Excel (20) : [567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586]
+
+    Noms commerciaux (7) :
+      - RAMINORM                       : COMPRIME 5MG (l.567) | COMPRIME 10MG (l.570)
+      - TANATRIL                       : COMPRIME 1,25MG (l.568) | COMPRIME SECABLE 2.5MG (l.573) | COMPRIME SECABLE 5MG (l.577) | COMPRIME SECABLE 10MG (l.580)
+      - TRIATEC                        : COMPRIME 1,25MG (l.569) | COMPRIME SECABLE 2.5MG (l.581) | COMPRIME SECABLE 5MG (l.582) | COMPRIME SECABLE 10MG (l.583)
+      - RAMIPRIL BEKER                 : COMPRIME SECABLE 2.5MG (l.571) | COMPRIME SECABLE 5MG (l.574) | COMPRIME SECABLE 10MG (l.578)
+      - RAMITRIM                       : COMPRIME SECABLE 2.5MG (l.572) | COMPRIME SECABLE 5MG (l.576) | COMPRIME SECABLE 10MG (l.579)
+      - RAMIPRIL PHYSIOPHARM           : COMPRIME SECABLE 5MG (l.575)
+      - TRIAMPEX                       : GELULE 2.5MG (l.584) | GELULE 5MG (l.585) | GELULE 10 MG (l.586)
+
+    Fichiers corpus (6) :
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv  (CSV, 0 KB)
+      [DCI]   Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv  (CSV, 1 KB)
+      [DCI]   info.pdf  (PDF, 424 KB)
+      [DCI]   notice-ramplir.pdf  (PDF, 1864 KB)
+      [DCI]   ramplir-dailymed.pdf  (PDF, 967 KB)
+      [DCI]   rcpramplir.pdf  (PDF, 3704 KB)
+
+    Documents de référence :
+      [RCP   ] ANSM         (France         ) ✓          rcpramplir.pdf
+      [RCP   ] DailyMed     (États-Unis     ) ✓          ramplir-dailymed.pdf
+      [NOTICE] ANSM         (France         ) ✓          notice-ramplir.pdf
+      [INFO  ] ANSM/ANPP    (France/Algérie ) ✓          info.pdf
+
+    Sources officielles :
+      [Algérie        ] MIPH — Nomenclature N°30, C09AA05
+                   URL: https://www.miph.gov.dz/nomenclature
+      [France         ] ANSM / Base données publique — RCP et Notice ramipril (Triatec)
+                   URL: https://base-donnees-publique.medicaments.gouv.fr
+      [États-Unis     ] DailyMed / NLM-FDA — Label Ramipril capsules (Altace)
+                   URL: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ramipril
+      [Algérie        ] ANPP / pharmnet-dz — Fiches spécialités ramipril
+                   URL: https://www.pharmnet-dz.com
+      [Algérie        ] dzair-pharma.net — Page DCI ramipril
+                   URL: https://www.dzair-pharma.net
+
+------------------------------------------------------------------------
+  VALIDATION
+------------------------------------------------------------------------
+    [PARFAIT] Aucun problème détecté — JSON unifié cohérent avec corpus et Excel.
+
+========================================================================
+  FIN DU RAPPORT
+========================================================================
