@@ -1,188 +1,53 @@
 
 ========================================================================
-  COGNIVEX — AUDIT GLOBAL COMPLET
+  COGNIVEX CORPUS RAG AUDIT REPORT
 ========================================================================
-    Generated : 2026-11-18T22:48:57.855698+00:00
-    Corpus    : C:\Users\Administrator\COGNIVEX\data\corpus
-    Markdown  : C:\Users\Administrator\COGNIVEX\data\corpus_medicaments.md
+    Generated : 2026-11-19T20:27:08.695583+00:00
+    Corpus    : C:/Users/Administrator/COGNIVEX/src/data/corpus
 
 
 ------------------------------------------------------------------------
-  METADONNEES CORPUS
+  SUMMARY
 ------------------------------------------------------------------------
-    DCIs catalogues   : 8
-    Brands catalogues : 13
-    Total fichiers    : 58
+    Total files scanned       : 0
+    Total PDFs analysed       : 0
 
-    amlodipine       brands=3  files=11  [amlibon, amlodal, mibral]
-    clindamycine     brands=3  files=8  [acnestop, clinaram, derma-t]
-    enalapril        brands=0  files=6  [(aucune)]
-    gentamicine      brands=3  files=12  [genta_80, gentacine, s_genta]
-    losartan         brands=1  files=8  [cozzar]
-    nifedipine       brands=0  files=1  [(aucune)]
-    perindopril      brands=3  files=6  [coversyl, perindopril, perindosyl]
-    ramipril         brands=0  files=6  [(aucune)]
+    [READY]  Valid for RAG ingestion  : 0
+    [OCR]    Need OCR processing      : 0
+    [ERROR]  Empty / Corrupt PDFs     : 0
+    [NOISE]  Have header/footer noise : 0
+    [IMAGE]  Non-PDF files (PNG/CSV)  : 0
+    [DUPE]   Duplicate file groups    : 0
 
 ------------------------------------------------------------------------
-  AUDIT PDF — BILAN
+  VALID FILES READY FOR RAG INGESTION
 ------------------------------------------------------------------------
-    Total fichiers scannes      : 58
-    Total PDFs analyses         : 50
-
-    [READY]  Valides pour RAG       : 2
-    [OCR]    Necessitent OCR        : 48
-    [ERROR]  Vides / Corrompus      : 0
-    [NOISE]  Bruit en-tete/pied     : 2
-    [IMAGE]  Non-PDF (CSV/PNG...)   : 8
-    [DUPE]   Groupes doublons       : 0
+    (none)
 
 ------------------------------------------------------------------------
-  FICHIERS VALIDES POUR RAG
+  FILES NEEDING OCR (image-only or partial scans)
 ------------------------------------------------------------------------
-    [OK]    amlodipine/mibral/RCP-MIBRL.pdf
-    [OK]    losartan/LOSartan anpp.pdf
+    (none)
 
 ------------------------------------------------------------------------
-  FICHIERS NECESSITANT OCR
+  EMPTY OR CORRUPTED PDFs
 ------------------------------------------------------------------------
-    [OCR]  amlodipine/amlibon/source-generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/amlibon/source-interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/amlodal/source -generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/amlodal/source amlodal interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/mibral/source-mibral generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/mibral/source-mibral interactiob.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/source-amdolipine rcp.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/source-amdolipine-daily med -rcp.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/source-amlodopine-notice.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  amlodipine/Source-info -amlodipline.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/acnestop/source-ansm-generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/acnestop/source-ansmi- interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/clinaram/source_ansm_interaction dwadz.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/derma-t/source-ansm-interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/derma-t/source-ansm_generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/source-ansm-notice.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/source-ansm_info.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  clindamycine/source_ansm-rcp.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  enalapril/dwa--dz.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  enalapril/info-enalapril.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  enalapril/notice-enalapril.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  enalapril/rcp-enalapril.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/daily med genta.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/genta_80/source_ansm_fiche_info.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/genta_80/source_ansm_interaction_medicament.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/genta_80/source_ansm_noticc.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/genta_80/source_ansm_rcp.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/gentacine/source_ansm_generiques.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/s_genta/source_ansm_generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  gentamicine/s_genta/source_interaction_s genta.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  losartan/cozzar/cozaar interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  losartan/dailymed-losartan.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  losartan/info-losartan.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  losartan/notice-losartan.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  losartan/rcp-losartan.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  nifedipine/dailymed-nifedipine.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/coversyl/source interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/coversyl/source-generique-.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/perindopril/generique.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/perindopril/interaction.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/perindopril/source rcp. prindoprile.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  perindopril/perindosyl/iteraction-source.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  ramipril/info.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  ramipril/notice-ramplir.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  ramipril/ramplir-dailymed.pdf
-           => Seulement 0 caracteres extraits - PDF image
-    [OCR]  ramipril/rcpramplir.pdf
-           => Seulement 0 caracteres extraits - PDF image
+    (none)
 
 ------------------------------------------------------------------------
-  FICHIERS VIDES OU CORROMPUS
+  FILES WITH HEADER/FOOTER NOISE ARTIFACTS
 ------------------------------------------------------------------------
-    (aucun)
+    (none)
 
 ------------------------------------------------------------------------
-  BRUIT EN-TETE / PIED DE PAGE
+  DUPLICATE FILE GROUPS
 ------------------------------------------------------------------------
-    [NOISE]  amlodipine/mibral/RCP-MIBRL.pdf
-             Bloc repete : "ANNEXE I  
-RESUME DES CARACTERISTIQUES DU PRODUIT" (x13)
-             Bloc repete : "Email : contact@ldmgroupe.com" (x13)
-             Bloc repete : "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x13)
-    [NOISE]  losartan/LOSartan anpp.pdf
-             Bloc repete : "ANNEXE I 
-    RESUME DES CARACTERISTIQUES DU PRODUIT" (x23)
-             Bloc repete : "Email : contact@ldmgroupe.com" (x23)
-             Bloc repete : "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x23)
+    (none)
 
 ------------------------------------------------------------------------
-  DOUBLONS
+  NON-PDF FILES (may need separate ingestion pipeline)
 ------------------------------------------------------------------------
-    (aucun)
-
-------------------------------------------------------------------------
-  FICHIERS NON-PDF
-------------------------------------------------------------------------
-    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv  (387 octets)
-    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv  (305 octets)
-    [ PNG]  gentamicine/genta_80/sourcedwadz--.png  (164,863 octets)
-    [ PNG]  gentamicine/genta_80/sourcedwadz-.png  (123,766 octets)
-    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv  (764 octets)
-    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv  (744 octets)
-    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv  (788 octets)
-    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv  (1,346 octets)
-
-------------------------------------------------------------------------
-  VALIDATION CROISEE — corpus_medicaments.md
-------------------------------------------------------------------------
-    [PARFAIT] Aucune erreur detectee. Le markdown est coherent avec le corpus.
 
 ========================================================================
-  FIN DU RAPPORT
+  END OF REPORT
 ========================================================================
