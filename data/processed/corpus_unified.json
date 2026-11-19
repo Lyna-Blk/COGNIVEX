@@ -1,14 +1,13 @@
 {
   "_meta": {
-    "generated_at": "2026-11-18T22:42:23.350790+00:00",
+    "generated_at": "2026-11-19T19:55:44.003710+00:00",
     "corpus_root": "C:/Users/Administrator/COGNIVEX/data/corpus",
     "excel_source": "C:/Users/Administrator/COGNIVEX/data/reference/Feuille de calcul sans titre (1).xlsx",
     "total_dci_count": 8,
     "total_excel_rows": 95,
     "total_noms_commerciaux": 57,
     "total_corpus_files": 58,
-    "validation_issues": 0,
-    "last_audit_scan": "2026-11-18T22:48:42.370977+00:00"
+    "validation_issues": 0
   },
   "corpus": [
     {
@@ -789,9 +788,8 @@
         ],
         "brand_folders": [
           {
-            "brand_name": "amlibon",
+            "brand_folder": "amlibon",
             "relative_path": "amlodipine/amlibon",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon",
             "file_count": 2,
             "files": [
               {
@@ -813,9 +811,8 @@
             ]
           },
           {
-            "brand_name": "amlodal",
+            "brand_folder": "amlodal",
             "relative_path": "amlodipine/amlodal",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal",
             "file_count": 2,
             "files": [
               {
@@ -837,9 +834,8 @@
             ]
           },
           {
-            "brand_name": "mibral",
+            "brand_folder": "mibral",
             "relative_path": "amlodipine/mibral",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral",
             "file_count": 3,
             "files": [
               {
@@ -1206,9 +1202,8 @@
         ],
         "brand_folders": [
           {
-            "brand_name": "acnestop",
+            "brand_folder": "acnestop",
             "relative_path": "clindamycine/acnestop",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop",
             "file_count": 2,
             "files": [
               {
@@ -1230,9 +1225,8 @@
             ]
           },
           {
-            "brand_name": "clinaram",
+            "brand_folder": "clinaram",
             "relative_path": "clindamycine/clinaram",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram",
             "file_count": 1,
             "files": [
               {
@@ -1246,9 +1240,8 @@
             ]
           },
           {
-            "brand_name": "derma-t",
+            "brand_folder": "derma-t",
             "relative_path": "clindamycine/derma-t",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t",
             "file_count": 2,
             "files": [
               {
@@ -1414,7 +1407,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 387
+            "size_bytes": 388
           },
           {
             "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
@@ -1422,7 +1415,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 305
+            "size_bytes": 306
           },
           {
             "filename": "dwa--dz.pdf",
@@ -2130,9 +2123,8 @@
         ],
         "brand_folders": [
           {
-            "brand_name": "genta_80",
+            "brand_folder": "genta_80",
             "relative_path": "gentamicine/genta_80",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80",
             "file_count": 7,
             "files": [
               {
@@ -2194,9 +2186,8 @@
             ]
           },
           {
-            "brand_name": "gentacine",
+            "brand_folder": "gentacine",
             "relative_path": "gentamicine/gentacine",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine",
             "file_count": 2,
             "files": [
               {
@@ -2218,9 +2209,8 @@
             ]
           },
           {
-            "brand_name": "s_genta",
+            "brand_folder": "s_genta",
             "relative_path": "gentamicine/s_genta",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta",
             "file_count": 2,
             "files": [
               {
@@ -2676,7 +2666,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 764
+            "size_bytes": 768
           },
           {
             "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
@@ -2684,7 +2674,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 744
+            "size_bytes": 747
           },
           {
             "filename": "dailymed-losartan.pdf",
@@ -2729,9 +2719,8 @@
         ],
         "brand_folders": [
           {
-            "brand_name": "cozzar",
+            "brand_folder": "cozzar",
             "relative_path": "losartan/cozzar",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/cozzar",
             "file_count": 1,
             "files": [
               {
@@ -3108,9 +3097,8 @@
         "source_files": [],
         "brand_folders": [
           {
-            "brand_name": "coversyl",
+            "brand_folder": "coversyl",
             "relative_path": "perindopril/coversyl",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl",
             "file_count": 2,
             "files": [
               {
@@ -3132,9 +3120,8 @@
             ]
           },
           {
-            "brand_name": "perindopril",
+            "brand_folder": "perindopril",
             "relative_path": "perindopril/perindopril",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril",
             "file_count": 3,
             "files": [
               {
@@ -3164,9 +3151,8 @@
             ]
           },
           {
-            "brand_name": "perindosyl",
+            "brand_folder": "perindosyl",
             "relative_path": "perindopril/perindosyl",
-            "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl",
             "file_count": 1,
             "files": [
               {
@@ -3796,7 +3782,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 788
+            "size_bytes": 791
           },
           {
             "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
@@ -3804,7 +3790,7 @@
             "absolute_path": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
             "type": "csv",
             "extension": "csv",
-            "size_bytes": 1346
+            "size_bytes": 1355
           },
           {
             "filename": "info.pdf",

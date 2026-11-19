@@ -2,7 +2,7 @@
 ========================================================================
   COGNIVEX — RAPPORT CORPUS UNIFIÉ
 ========================================================================
-    Généré le : 2026-11-18T22:42:23.352736+00:00
+    Généré le : 2026-11-19T19:55:44.012023+00:00
     Corpus    : C:\Users\Administrator\COGNIVEX\data\corpus
     Excel     : C:\Users\Administrator\COGNIVEX\data\reference\Feuille de calcul sans titre (1).xlsx
 
