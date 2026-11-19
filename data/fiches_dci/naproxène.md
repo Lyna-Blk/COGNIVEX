@@ -1,15 +1,23 @@
 # DCI : NAPROXÈNE
+
 - **Code ATC :** M01AE02
 
 - Présence dans la nomenclature MIPH : oui
-- Version consultée et date : nomenclature MIPH, août 2026 — consultée le 11/11/2026
+
+- Version consultée et date : Nomenclature MIPH (août 2026)
+
 - Noms commerciaux, laboratoires, formes et dosages :
-  NEXORPAN  — comprimé — 275 mg ;
-  NAPROLGIC  — comprimé pelliculé — 275 mg et 550 mg ;
-  NAPROX  — comprimé pelliculé — 275 mg et 550 mg ;
-  NAPROXENE PHYSIOPHARM  — comprimé pelliculé — 275 mg et 550 mg ;
-  NEXOPAIN comprimé pelliculé — 275 mg et comprimé pelliculé sécable — 550 mg ;
-  NHUPAIN  — comprimé pelliculé — 275 mg et comprimé pelliculé sécable — 550 mg.
+  - NEXORPAN — COMPRIME — 275MG
+  - NAPROLGIC — COMPRIME PELLICULE — 275MG
+  - NAPROX — COMPRIME PELLICULE — 275MG
+  - NAPROXENE PHYSIOPHARM — COMPRIME PELLICULE — 275MG
+  - NEXOPAIN — COMPRIME PELLICULE — 275MG
+  - NHUPAIN — COMPRIME PELLICULE — 275MG
+  - NAPROX — COMPRIME PELLICULE — 550MG
+  - NAPROXENE PHYSIOPHARM — COMPRIME PELLICULE — 550MG
+  - NEXOPAIN — COMPRIME PELLICULE SECABLE — 550MG
+  - NHUPAIN — COMPRIME PELLICULE SECABLE — 550MG
+  - NAPROLGIC — COMPRIME PELLICULE SECABLE — 550MG
 
 ## Documents de référence
 - RCP algérien : document ANPP non trouvé 
