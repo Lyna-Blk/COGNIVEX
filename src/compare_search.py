@@ -1,7 +1,7 @@
 """
 ÉTAPE 3 — Comparer recherche par MOTS-CLÉS (BM25) et recherche SÉMANTIQUE (embeddings).
 
-Pour chaque question de questions.py :
+Pour chaque question chargée depuis docs/evaluation/questions_llm.md :
   - top-K par mots-clés (BM25, implémenté ici, sans dépendance)
   - top-K par le sens (ChromaDB + embeddings)
   - hit@K : est-ce qu'au moins un des K résultats vient d'un dossier DCI attendu ?
@@ -10,15 +10,81 @@ Sortie : affichage console + docs/evaluation/comparaison_recherche.md
 Lancer depuis la racine du projet :
     python src/compare_search.py              # mots-clés + sémantique
     python src/compare_search.py --bm25-only  # mots-clés seulement (ne demande pas chromadb)
+    python src/compare_search.py --extra      # ajoute les 7 questions de démonstration
 """
 import math
 import re
 import sys
 from collections import Counter
 
-from rag_config import (COLLECTION_NAME, EMBEDDING_MODEL, EVAL_DIR, ROOT, TOP_K,
+from rag_config import (COLLECTION_NAME, EMBEDDING_MODEL, EVAL_DIR, QUESTIONS_FILE, ROOT, TOP_K,
                         VECTOR_DB_DIR, charger_chunks, normalize, query_prefix, texte_indexe)
-from questions import QUESTIONS
+
+
+def charger_questions(avec_extra: bool = False) -> list[dict]:
+    """Lit les questions et les DCI attendues directement depuis le Markdown."""
+    if not QUESTIONS_FILE.is_file():
+        raise FileNotFoundError(f"Fichier de questions introuvable : {QUESTIONS_FILE}")
+
+    blocs = []
+    courant = None
+    attendu = None
+    for ligne in QUESTIONS_FILE.read_text(encoding="utf-8-sig").splitlines():
+        titre = re.match(r"^##\s*(\d+)\s*\.\s*(.+?)\s*$", ligne.strip())
+        meta = re.match(r"^<!--\s*attendu:\s*(.*?)\s*-->$", ligne.strip(), re.I)
+        if titre:
+            courant = {"numero": int(titre.group(1)), "titre": titre.group(2), "lignes": [], "attendu": None}
+            blocs.append(courant)
+        elif meta and courant is not None:
+            valeur = meta.group(1).strip()
+            courant["attendu"] = None if valeur.upper() == "ABSENT" else [x.strip() for x in valeur.split(";") if x.strip()]
+        elif courant is not None:
+            courant["lignes"].append(ligne.strip())
+
+    questions = []
+    for b in blocs:
+        paragraphe = []
+        for l in b["lignes"]:
+            if l:
+                paragraphe.append(l)
+            elif paragraphe:
+                break
+        if paragraphe:
+            questions.append({
+                "id": f"Q{b['numero']}",
+                "type": b["titre"],
+                "texte": " ".join(paragraphe),
+                "attendu": b["attendu"],
+            })
+
+    if avec_extra:
+        questions.extend(QUESTIONS_EXTRA)
+    return questions
+
+
+QUESTIONS_EXTRA = [
+    {"id": "C1", "type": "Extra — mots communs",
+     "texte": "Quelle est la dose maximale journalière de tramadol chez l'adulte ?",
+     "attendu": ["tramadol"]},
+    {"id": "C2", "type": "Extra — mots communs",
+     "texte": "Quelles sont les contre-indications du céfixime ?",
+     "attendu": ["céfixime"]},
+    {"id": "S1", "type": "Extra — paraphrase",
+     "texte": "Quel anti-inflammatoire est déconseillé en cas d'allergie aux sulfamides ?",
+     "attendu": ["célécoxib"]},
+    {"id": "S2", "type": "Extra — paraphrase",
+     "texte": "Puis-je conduire une voiture si je prends un antidouleur ? Risque de m'endormir ?",
+     "attendu": ["tramadol", "néfopam", "paracétamol + codéine"]},
+    {"id": "S3", "type": "Extra — paraphrase",
+     "texte": "Un antalgique opioïde faible peut-il créer une accoutumance chez le patient ?",
+     "attendu": ["tramadol", "paracétamol + codéine"]},
+    {"id": "S4", "type": "Extra — paraphrase",
+     "texte": "Mon enfant a une infection de l'oreille, quel antibiotique de la famille des pénicillines est recommandé ?",
+     "attendu": ["amoxicilline"]},
+    {"id": "S5", "type": "Extra — paraphrase",
+     "texte": "Mal de ventre et selles liquides après la prise de l'antibiotique, est-ce normal ?",
+     "attendu": ["amoxicilline", "amoxicilline + acide clavulanique", "céfixime", "céfuroxime"]},
+]
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -43,7 +109,7 @@ class BM25:
         self.k1, self.b = k1, b
         self.docs = [Counter(tokens(d)) for d in documents]
         self.len = [sum(c.values()) for c in self.docs]
-        self.avg = sum(self.len) / len(self.len)
+        self.avg = (sum(self.len) / len(self.len)) if self.len else 0
         df = Counter(t for c in self.docs for t in c)
         n = len(self.docs)
         self.idf = {t: math.log(1 + (n - f + 0.5) / (f + 0.5)) for t, f in df.items()}
@@ -51,6 +117,8 @@ class BM25:
     def search(self, question: str, k: int):
         q = tokens(question)
         scores = []
+        if not self.docs or self.avg == 0:
+            return []
         for i, c in enumerate(self.docs):
             s = 0.0
             for t in q:
@@ -73,9 +141,38 @@ class RechercheSemantique:
 
     def search(self, question: str, k: int):
         emb = self.modele.encode([query_prefix() + question], normalize_embeddings=True)
-        res = self.collection.query(query_embeddings=emb.tolist(), n_results=k)
-        # distance cosinus -> similarité (1 = identique)
-        return [(self.index[cid], 1 - dist) for cid, dist in zip(res["ids"][0], res["distances"][0])]
+
+        # ChromaDB peut contenir d'anciens chunks après une modification du corpus.
+        # On récupère plus de candidats et on ignore les IDs absents du corpus actuel.
+        total = self.collection.count()
+        if total == 0:
+            return []
+
+        n_demande = min(total, max(k * 5, k))
+        res = self.collection.query(query_embeddings=emb.tolist(), n_results=n_demande)
+
+        ids = res.get("ids", [[]])[0]
+        distances = res.get("distances", [[]])[0]
+
+        resultats = []
+        ids_inconnus = 0
+        for cid, dist in zip(ids, distances):
+            indice = self.index.get(cid)
+            if indice is None:
+                ids_inconnus += 1
+                continue
+            resultats.append((indice, 1 - dist))
+            if len(resultats) >= k:
+                break
+
+        if ids_inconnus:
+            print(
+                f"\\n[AVERTISSEMENT] {ids_inconnus} ID(s) ChromaDB ne correspondent "
+                "pas aux chunks actuels. Pour une comparaison complète, "
+                "reconstruisez la base avec : python src/build_vector_db.py"
+            )
+
+        return resultats
 
 
 # ------------------------------------------------------------ affichage / rapport
@@ -96,6 +193,11 @@ def symbole(h):
 
 def main():
     bm25_seulement = "--bm25-only" in sys.argv
+    avec_extra = "--extra" in sys.argv
+    try:
+        questions = charger_questions(avec_extra=avec_extra)
+    except (FileNotFoundError, OSError) as e:
+        sys.exit(str(e))
     try:
         chunks = charger_chunks()
     except FileNotFoundError as e:
@@ -109,7 +211,7 @@ def main():
         sem = RechercheSemantique(chunks)
 
     lignes_resume, details = [], []
-    for q in QUESTIONS:
+    for q in questions:
         r_mots = mots.search(q["texte"], TOP_K)
         r_sem = sem.search(q["texte"], TOP_K) if sem else []
         h_mots, h_sem = hit(r_mots, chunks, q["attendu"]), hit(r_sem, chunks, q["attendu"])
@@ -136,7 +238,7 @@ def main():
         print(f"{q['id']:3s} [{q['type']:12s}] mots-clés {symbole(h_mots)}  sémantique {symbole(h_sem) if sem else 'n/a'}  | attendu : {attendu}")
 
     # synthèse chiffrée (uniquement les questions dont la réponse est dans le corpus)
-    dans = [q for q in QUESTIONS if q["attendu"]]
+    dans = [q for q in questions if q["attendu"]]
     def taux(methode):
         ok = sum(hit(methode(q["texte"], TOP_K), chunks, q["attendu"]) for q in dans)
         return f"{ok}/{len(dans)}"
@@ -149,6 +251,7 @@ def main():
     sortie = EVAL_DIR / "comparaison_recherche.md"
     rapport = [
         "# Comparaison : recherche par mots-clés vs recherche sémantique", "",
+        f"- Questions évaluées : {len(questions)}" + (" (avec questions extra)" if avec_extra else ""),
         f"- Chunks : {len(chunks)} (build_chunks.py : 120 mots max, chevauchement 20 mots)",
         f"- Mots-clés : BM25 (sans accents, sans mots vides) — Sémantique : `{EMBEDDING_MODEL}` + ChromaDB (cosinus)" if sem
         else "- Mots-clés : BM25 (sans accents, sans mots vides) — recherche sémantique non exécutée dans ce rapport",
