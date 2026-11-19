@@ -3,8 +3,14 @@ source: "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE E
 dci: "amoxicilline"
 brand: "AMOXICILLINE EG"
 method: "RapidOCR direct image"
-processed: "2026-11-19T20:48:06.953786+00:00"
-chars: 69
+processed: "2026-11-19T22:51:24.542511+00:00"
+chars: 62
 ---
 
-[RapidOCR not available — could not process AMOXICILLINE EG_250.webp]
+AmoxicillineEG
+Amcocline
+250mg/5ml
+100ml
+Suapenn buble
+dro
+IPV

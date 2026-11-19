@@ -3,8 +3,14 @@ source: "C:/Users/Administrator/COGNIVEX/data/corpus/ketoprofene/documents_compl
 dci: "ketoprofene"
 brand: "documents_complementaires_non_reference"
 method: "RapidOCR direct image"
-processed: "2026-11-19T20:48:06.973116+00:00"
-chars: 64
+processed: "2026-11-19T22:51:48.949412+00:00"
+chars: 79
 ---
 
-[RapidOCR not available — could not process image_profenid.webp]
+Profenid
+100mg
+ketoprofen
+suppositories
+rectaluse
+12suppositories
+sanofiaventis
