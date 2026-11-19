@@ -23,10 +23,8 @@
   Laboratoires titulaires (d'après les RCP du corpus ; l'Excel ne les indique pas) : EG LABO - LABORATOIRES EUROGENERICS ; LABORATOIRE GLAXOSMITHKLINE
 
 ## Documents de référence
-- RCP : AMOXICILLINE EG LABO 125 mg/5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 10/06/2025, consulté le 18/11/2026, fichier : `RCP_AMOXICILLINE EG_125.pdf`
 - RCP : AMOXICILLINE EG LABO 250 mg / 5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 10/06/2025, consulté le 18/11/2026, fichier : `RCP_AMOXICILLINE EG_250.pdf`
 - RCP : CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 18/09/2026, consulté le 18/11/2026, fichier : `RCP_CLAMOXYL_250 _mg5__ml.pdf`
-- Notice : AMOXICILLINE EG LABO 125 mg/5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 10/06/2025, consulté le 18/11/2026, fichier : `Notice_AMOXICILLINE EG_125.pdf`
 - Notice : AMOXICILLINE EG LABO 250 mg / 5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 10/06/2025, consulté le 18/11/2026, fichier : `Notice_AMOXICILLINE EG_250.pdf`
 - Notice : CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable, Base de Données Publique des Médicaments (ANSM) (France), date du document : 18/09/2026, consulté le 18/11/2026, fichier : `Notice_CLAMOXYL_250 _mg5__ml.pdf`
 - Autre document (article bon usage) : PRACTICE GUIDELINE | MARCH 01 2013, Article « bon usage » (source à préciser) (France (à confirmer)), date du document : date non trouvée, consulté le 18/11/2026, fichier : `Article_AMOXICILLINE.pdf`
@@ -38,8 +36,7 @@
 - Résultat : document ANPP non trouvé
 
 ## Sources consultées
-Au moins 3 sources distinctes, dont au moins une officielle.
-- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
+- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — https://www.miph.gov.dz/fr/ — août 2026
 - ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de AMOXICILLINE EG LABO 125 mg/5 ml, poudre pour suspension buvable ; AMOXICILLINE EG LABO 250 mg / 5 ml, poudre pour suspension buvable (mise à jour ANSM : 10/06/2025) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable (mise à jour ANSM : 18/09/2026) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026

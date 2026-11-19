@@ -1,0 +1,836 @@
+{
+  "_meta": {
+    "generated_at": "2026-11-19T17:03:31.632599+00:00",
+    "corpus_root": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus",
+    "total_files": 42,
+    "total_pdf": 33,
+    "valid_for_rag": 33,
+    "needs_ocr": 0,
+    "empty_or_corrupt": 0,
+    "noisy": 29,
+    "non_pdf": 9,
+    "duplicate_groups": 0
+  },
+  "valid_for_rag": [
+    "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
+    "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
+    "amoxicilline/Article_AMOXICILLINE.pdf",
+    "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
+    "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+    "céfixime/Article__CEFIXIME.pdf",
+    "céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
+    "céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
+    "céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
+    "céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
+    "céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
+    "céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
+    "céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
+    "célécoxib/Article_CÉLÉCOXIB.pdf",
+    "célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
+    "célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
+    "néfopam/Article_NÉFOPAM.pdf",
+    "néfopam/Notice_NEFOPAM.pdf",
+    "néfopam/RCP_NEFOPAM.pdf",
+    "paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
+    "paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
+    "paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
+    "paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
+    "paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
+    "tramadol/Article_TRAMADOL.pdf",
+    "tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
+    "tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
+    "tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
+    "tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf"
+  ],
+  "needs_ocr": [],
+  "empty_or_corrupt": [],
+  "noisy_files": [
+    "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
+    "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
+    "amoxicilline/Article_AMOXICILLINE.pdf",
+    "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
+    "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+    "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+    "céfixime/Article__CEFIXIME.pdf",
+    "céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
+    "céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
+    "céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
+    "céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
+    "céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
+    "céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
+    "célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
+    "célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
+    "néfopam/Article_NÉFOPAM.pdf",
+    "néfopam/Notice_NEFOPAM.pdf",
+    "néfopam/RCP_NEFOPAM.pdf",
+    "paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
+    "paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
+    "paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
+    "paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
+    "tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
+    "tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
+    "tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
+    "tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf"
+  ],
+  "non_pdf_files": [
+    "amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
+    "amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+    "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+    "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
+    "céfixime/CEFIXIME ALMUS 200 mg.webp",
+    "céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
+    "néfopam/NEFOPAM.webp",
+    "néfopam/NEFOPAM_ARROW_20_mg_2_ml.png"
+  ],
+  "duplicate_groups": [],
+  "files": [
+    {
+      "path": "amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
+      "extension": "webp",
+      "size_bytes": 14530,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
+      "extension": "pdf",
+      "size_bytes": 388863,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 12,
+      "total_chars": 24313,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 6:39 PM\nBase de Données Publique des Médicaments\" (x12)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
+      "extension": "pdf",
+      "size_bytes": 567052,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 20,
+      "total_chars": 34510,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 6:39 PM\nBase de Données Publique des Médicaments\" (x20)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline/Article_AMOXICILLINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Article_AMOXICILLINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 17910424,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 119,
+      "total_chars": 238253,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 11:21 PM\nThe Diagnosis and Management of Acute Otitis Media | Pediatri\" (x119)",
+        "\"This site uses cookies. By continuing to use our website, you are agreeing to ou\" (x93)",
+        "\"assessment\" (x17)",
+        "\"Aggregate\" (x15)",
+        "\"Intentional\" (x15)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (26 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
+      "extension": "webp",
+      "size_bytes": 38582,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
+      "extension": "pdf",
+      "size_bytes": 413846,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 12,
+      "total_chars": 25563,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 6:42 PM\nBase de Données Publique des Médicaments\" (x12)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
+      "extension": "pdf",
+      "size_bytes": 563098,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 21,
+      "total_chars": 35892,
+      "image_only_pages": 0,
+      "short_pages": 1,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 6:41 PM\nBase de Données Publique des Médicaments\" (x21)",
+        "\"Très rare\" (x5)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)",
+        "1 page(s) have fewer than 200 chars"
+      ]
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+      "extension": "jpg",
+      "size_bytes": 17496,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+      "extension": "jpg",
+      "size_bytes": 5844,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 451844,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 14,
+      "total_chars": 29030,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:36 PM\nBase de Données Publique des Médicaments\" (x14)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 607960,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 21,
+      "total_chars": 40228,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:35 PM\nBase de Données Publique des Médicaments\" (x21)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
+      "extension": "jpeg",
+      "size_bytes": 54831,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 417164,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 13,
+      "total_chars": 26094,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:11 PM\nBase de Données Publique des Médicaments\" (x13)",
+        "\"Sans objet.\" (x5)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)"
+      ]
+    },
+    {
+      "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 631138,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 23,
+      "total_chars": 41772,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:10 PM\nBase de Données Publique des Médicaments\" (x23)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfixime/Article__CEFIXIME.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/Article__CEFIXIME.pdf",
+      "extension": "pdf",
+      "size_bytes": 2341690,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 97,
+      "total_chars": 219333,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"Google Scholar\nCrossref\nPubMed\nWorldCat\" (x125)",
+        "\"Other Considerations\" (x12)",
+        "\"Rationale for Recommendation and Implementation\" (x9)",
+        "\"Benefits, Harms, and Certainty of Evidence\" (x8)",
+        "\"Google Scholar\nPubMed\nWorldCat\" (x6)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (6 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfixime/CEFIXIME ALMUS 200 mg.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/CEFIXIME ALMUS 200 mg.webp",
+      "extension": "webp",
+      "size_bytes": 18492,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 355943,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 9,
+      "total_chars": 17579,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:22 PM\nBase de Données Publique des Médicaments\" (x9)",
+        "\"Sans objet.\" (x6)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 428434,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 12,
+      "total_chars": 20705,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:21 PM\nBase de Données Publique des Médicaments\" (x12)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
+      "extension": "pdf",
+      "size_bytes": 49255,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 2,
+      "total_chars": 3445,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": []
+    },
+    {
+      "path": "céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
+      "extension": "pdf",
+      "size_bytes": 521452,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 14,
+      "total_chars": 26924,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:37 PM\nBase de Données Publique des Médicaments\" (x14)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 389250,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 10,
+      "total_chars": 18918,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:36 PM\nBase de Données Publique des Médicaments\" (x10)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
+      "extension": "pdf",
+      "size_bytes": 596235,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 23,
+      "total_chars": 42672,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:36 PM\nBase de Données Publique des Médicaments\" (x23)",
+        "\"par jour\" (x6)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
+      "extension": "pdf",
+      "size_bytes": 520445,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 19,
+      "total_chars": 33073,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 7:34 PM\nBase de Données Publique des Médicaments\" (x19)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
+      "extension": "webp",
+      "size_bytes": 13658,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "célécoxib/Article_CÉLÉCOXIB.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/Article_CÉLÉCOXIB.pdf",
+      "extension": "pdf",
+      "size_bytes": 136841,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 2,
+      "total_chars": 3450,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": []
+    },
+    {
+      "path": "célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 424463,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 14,
+      "total_chars": 29760,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:19 PM\nBase de Données Publique des Médicaments\" (x14)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
+      "extension": "pdf",
+      "size_bytes": 612188,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 25,
+      "total_chars": 60355,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:19 PM\nBase de Données Publique des Médicaments\" (x25)",
+        "\"Affections\" (x9)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)"
+      ]
+    },
+    {
+      "path": "néfopam/Article_NÉFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/Article_NÉFOPAM.pdf",
+      "extension": "pdf",
+      "size_bytes": 480211,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 13,
+      "total_chars": 30877,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 11:26 PM\nNefopam prescribing preferences in French hospitals: results \" (x13)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "néfopam/NEFOPAM.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/NEFOPAM.webp",
+      "extension": "webp",
+      "size_bytes": 6624,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "néfopam/NEFOPAM_ARROW_20_mg_2_ml.png",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.png",
+      "extension": "png",
+      "size_bytes": 245756,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "non_pdf"
+    },
+    {
+      "path": "néfopam/Notice_NEFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/Notice_NEFOPAM.pdf",
+      "extension": "pdf",
+      "size_bytes": 339800,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 8,
+      "total_chars": 12658,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:46 PM\nBase de Données Publique des Médicaments\" (x8)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "néfopam/RCP_NEFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/RCP_NEFOPAM.pdf",
+      "extension": "pdf",
+      "size_bytes": 366327,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 9,
+      "total_chars": 13317,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:46 PM\nBase de Données Publique des Médicaments\" (x9)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 117719,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 2,
+      "total_chars": 3642,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": []
+    },
+    {
+      "path": "paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 445495,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 15,
+      "total_chars": 30271,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:08 PM\nBase de Données Publique des Médicaments\" (x15)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 612955,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 23,
+      "total_chars": 42518,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:07 PM\nBase de Données Publique des Médicaments\" (x23)",
+        "\"Affections\" (x9)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (2 unique blocks)"
+      ]
+    },
+    {
+      "path": "paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 401812,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 12,
+      "total_chars": 26301,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:49 PM\nBase de Données Publique des Médicaments\" (x12)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
+      "extension": "pdf",
+      "size_bytes": 522098,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 18,
+      "total_chars": 35511,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/17/26, 2:49 PM\nBase de Données Publique des Médicaments\" (x18)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "tramadol/Article_TRAMADOL.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/Article_TRAMADOL.pdf",
+      "extension": "pdf",
+      "size_bytes": 109489,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 2,
+      "total_chars": 3658,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": false,
+      "noise_samples": [],
+      "issues": []
+    },
+    {
+      "path": "tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
+      "extension": "pdf",
+      "size_bytes": 387681,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 12,
+      "total_chars": 29355,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:36 PM\nBase de Données Publique des Médicaments\" (x12)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
+      "extension": "pdf",
+      "size_bytes": 445308,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 17,
+      "total_chars": 40633,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:35 PM\nBase de Données Publique des Médicaments\" (x17)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
+      "extension": "pdf",
+      "size_bytes": 425232,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 15,
+      "total_chars": 36242,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:38 PM\nBase de Données Publique des Médicaments\" (x14)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    },
+    {
+      "path": "tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf",
+      "extension": "pdf",
+      "size_bytes": 471609,
+      "hash_sha256": null,
+      "is_duplicate": false,
+      "status": "ok",
+      "page_count": 19,
+      "total_chars": 44526,
+      "image_only_pages": 0,
+      "short_pages": 0,
+      "has_noise": true,
+      "noise_samples": [
+        "\"11/18/26, 8:36 PM\nBase de Données Publique des Médicaments\" (x19)"
+      ],
+      "issues": [
+        "Repeated header/footer noise detected (1 unique blocks)"
+      ]
+    }
+  ]
+}

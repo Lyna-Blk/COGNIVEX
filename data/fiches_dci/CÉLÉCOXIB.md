@@ -42,12 +42,8 @@
   Laboratoires titulaires (d'après les RCP du corpus ; l'Excel ne les indique pas) : Laboratoires de Diagnostic Maghrébins –LDM- Oued Hamimime ; VIATRIS UP
 
 ## Documents de référence
-- RCP : CEBREX 100 mg, gélule, RCP au format algérien — laboratoire LDM (Constantine) (Algérie), date du document : Avril 2024, fichier : `CEBREX 100.pdf`
-- RCP : CEBREX 200 mg, gélule, RCP au format algérien — laboratoire LDM (Constantine) (Algérie), date du document : Avril 2024, fichier : `CEBREX 200.pdf`
 - RCP : CELEBREX 100 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `RCP_CELEBREX_100_mg.pdf`
-- RCP : CELEBREX 200 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `RCP_CELEBREX_200_mg.pdf`
 - Notice : CELEBREX 100 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `Notice_CELEBREX_100_mg.pdf`
-- Notice : CELEBREX 200 mg, gélule, Base de Données Publique des Médicaments (ANSM) (France), date du document : 12/09/2025, consulté le 18/11/2026, fichier : `Notice_CELEBREX_200_mg.pdf`
 - Autre document (article bon usage) : Here's how you know, Article « bon usage » (source à préciser) (France (à confirmer)), date du document : date non trouvée, consulté le 18/11/2026, fichier : `Article_CÉLÉCOXIB.pdf`
 
 ## Recherche ANPP
@@ -57,8 +53,7 @@
 - Résultat : document ANPP non trouvé
 
 ## Sources consultées
-Au moins 3 sources distinctes, dont au moins une officielle.
-- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
+- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — https://www.miph.gov.dz/fr/ — août 2026
 - ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
 - RCP au format algérien — laboratoire LDM (Constantine) — RCP de CEBREX 100 mg, gélule ; CEBREX 200 mg, gélule (texte daté : Avril 2024) — Algérie — [provenance exacte et lien à confirmer : ANPP ou site du laboratoire] — [date de consultation à compléter]
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de CELEBREX 100 mg, gélule ; CELEBREX 200 mg, gélule (mise à jour ANSM : 12/09/2025) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
