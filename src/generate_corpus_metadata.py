@@ -1,12 +1,12 @@
 """
-generate_corpus_metadata.py   (merged version)
-----------------------------------------------
+generate_corpus_metadata.py   (merged & updated version)
+--------------------------------------------------------
 ONE script that builds data/processed/corpus_metadata.json from:
-  1. data/corpus/                  source files (DCI / brand folders)
-  2. data/processed_corpus/        OCR / cleaned .md outputs
-  3. data/fiches_dci/              DCI fiches (ATC code, brands, sources...)
-  4. data/processed/corpus_audit_report.json
-  5. data/processed/ocr_pipeline_log.json
+1. data/corpus/                  source files (DCI / brand folders)
+2. data/processed_corpus/        OCR / cleaned .md outputs
+3. data/fiches_dci/              DCI fiches (ATC code, brands, sources...)
+4. data/processed/corpus_audit_report.json
+5. data/processed/ocr_pipeline_log.json
 
 Run from the project root:
     .\\.venv\\Scripts\\python.exe src\\generate_corpus_metadata.py
@@ -39,7 +39,7 @@ IMAGE_EXTS = {"png", "jpg", "jpeg", "webp", "bmp", "tif", "tiff", "avif"}
 # Authority of the sources written inside a fiche (higher = more reliable)
 SOURCE_LEVELS = {
     "anpp": 4, "miph": 4,
-    "ansm": 3, "who": 3, "ema": 3, "dailymed": 3,
+    "ansm": 3, "who": 3, "oms": 3, "ema": 3, "dailymed": 3,
     "dzair pharma": 1, "dzair-pharma": 1, "pharmnet": 1, "dwa dz": 1,
 }
 
@@ -87,7 +87,7 @@ def is_junk(path: Path) -> bool:
 
 
 # ----------------------------------------------------------------------------
-# Fiche DCI parsing (from Ibtihel's script)
+# Fiche DCI parsing (supports both list and Markdown-table fiches)
 # ----------------------------------------------------------------------------
 def extract_field(content: str, label_pattern: str):
     m = re.search(
@@ -101,59 +101,123 @@ def extract_field(content: str, label_pattern: str):
 
 
 def parse_fiche(content: str) -> dict:
-    code_atc = extract_field(content, r"Code\s+ATC") or "Non renseigné"
-    present_miph = (extract_field(content, r"Pr[ée]sence\s+dans\s+la\s+nomenclature\s+MIPH")
-                    or "Non renseigné")
-    version_miph = (extract_field(content, r"Version\s+consult[ée]e\s+et\s+date")
-                    or "Non renseigné")
+    content = content.replace("\r\n", "\n").replace("\r", "\n")
 
-    # products
-    products, seen = [], set()
-    sec = re.search(
-        r"^\s*-\s*\**\s*Noms\s+commerciaux[^\n]*\n(.*?)(?=^\s*-\s*\*\*|^\s*##\s+|\Z)",
-        content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL,
+    code_atc = extract_field(content, r"Code\s+ATC") or "Non renseigné"
+    present_miph = (
+        extract_field(content, r"Pr[ée]sence\s+dans\s+la\s+nomenclature\s+MIPH")
+        or "Non renseigné"
     )
-    block = sec.group(1) if sec else content
-    skip_words = ("code atc", "presence dans la nomenclature", "version consultee",
-                  "noms commerciaux", "requetes en majuscules", "methode et date",
-                  "resultat", "source", "miph", "anpp", "ansm", "rcp", "notice")
-    for brand_raw, form_raw, dosage_raw in re.findall(
-        r"^\s*-\s+(.+?)\s+[—–-]\s+(.+?)\s+[—–-]\s+(.+?)\s*$", block, flags=re.MULTILINE,
-    ):
-        brand, form, dosage = brand_raw.strip(), form_raw.strip(), dosage_raw.strip()
-        if "[" in brand or "]" in brand:
-            continue
-        if any(k in normalize_key(brand) for k in skip_words):
-            continue
-        key = (normalize_key(brand), normalize_key(form), normalize_key(dosage))
+    version_miph = (
+        extract_field(content, r"Version\s+consult[ée]e\s+et\s+date")
+        or "Non renseigné"
+    )
+
+    products, seen = [], set()
+    skip_words = (
+        "code atc", "presence dans la nomenclature", "version consultee",
+        "noms commerciaux", "requetes en majuscules", "methode et date",
+        "resultat", "source", "miph", "anpp", "ansm", "rcp", "notice",
+        "nom commercial", "specialite", "marque", "forme", "dosage", "laboratoire"
+    )
+
+    def clean_cell(val: str) -> str:
+        v = re.sub(r"\*+", "", val or "").strip()
+        v = re.sub(r"\s+", " ", v)
+        return v
+
+    def add_product(brand: str, form: str, dosage: str, lab: str = ""):
+        brand = clean_cell(brand)
+        form = clean_cell(form)
+        dosage = clean_cell(dosage)
+        lab = clean_cell(lab)
+
+        if not brand or not form:
+            return
+        if brand.startswith("[") and brand.endswith("]"):
+            return
+        nb = normalize_key(brand)
+        if not nb or any(k in nb for k in skip_words):
+            return
+
+        key = (nb, normalize_key(form), normalize_key(dosage))
         if key not in seen:
             seen.add(key)
-            products.append({"brand": brand, "form": form, "dosage": dosage})
+            item = {"brand": brand, "form": form, "dosage": dosage}
+            if lab and lab not in {"-", "—", "–", "/", "N/A", "Non renseigné"}:
+                item["laboratoire"] = lab
+            products.append(item)
 
-    # sources
+    lines = content.splitlines()
+
+    # 1) Parse ALL Markdown tables in the fiche
+    for line in lines:
+        s = line.strip()
+        if "|" not in s:
+            continue
+        inner = s[1:-1] if (s.startswith("|") and s.endswith("|")) else s
+        cells = [c.strip() for c in inner.split("|")]
+        if len(cells) < 3:
+            continue
+        if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+            continue
+        lab = cells[3] if len(cells) >= 4 else ""
+        add_product(cells[0], cells[1], cells[2], lab)
+
+    # 2) Parse bullet-list products: - BRAND — FORM — DOSAGE (— LAB)
+    for line in lines:
+        m = re.match(r"^\s*[-*]\s+(.+)$", line)
+        if not m:
+            continue
+        body = re.sub(r"\*+", "", m.group(1)).strip()
+        parts = [p.strip() for p in re.split(r"\s+[—–-]\s+", body) if p.strip()]
+        if len(parts) >= 3:
+            lab = parts[3] if len(parts) >= 4 else ""
+            add_product(parts[0], parts[1], parts[2], lab)
+
+    # 3) Extract section under "## Sources consultées" line by line
     sources = []
-    ss = re.search(r"^##\s*Sources\s+consult[ée]es\s*$(.*?)(?=^##\s+|\Z)",
-                   content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL)
-    if ss:
-        for line in re.findall(r"^\s*-\s+(.+)$", ss.group(1), flags=re.MULTILINE):
-            c = line.strip()
-            if c and not (c.startswith("[") and c.endswith("]")):
-                sources.append(c)
+    in_sources = False
+    for line in lines:
+        s = line.strip()
+        if re.match(r"^##\s+Sources\s+consult[ée]es\b", s, flags=re.IGNORECASE):
+            in_sources = True
+            continue
+        if in_sources and re.match(r"^##\s+", s):
+            break
+        if in_sources:
+            m = re.match(r"^[-*]\s+(.+)$", s)
+            if m:
+                item = m.group(1).strip()
+                if item.startswith("[") and item.endswith("]"):
+                    item = item[1:-1].strip()
+                item = re.sub(r"\*+", "", item).strip()
+                if item and not normalize_key(item).startswith(("source 1", "source 2", "source 3", "exemple")):
+                    sources.append(item)
 
-    # remarks
-    remarques = ""
-    ps = re.search(r"^##\s*Pr[ée]cision\s*$(.*?)(?=^##\s+|\Z)",
-                   content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL)
-    if ps:
-        lines = [re.sub(r"^\s*-\s*", "", l).strip() for l in ps.group(1).splitlines() if l.strip()]
-        remarques = " | ".join(lines)
+    # 4) Extract section under "## Précision" line by line
+    remarques_list = []
+    in_precision = False
+    for line in lines:
+        s = line.strip()
+        if re.match(r"^##\s+Pr[ée]cision\b", s, flags=re.IGNORECASE):
+            in_precision = True
+            continue
+        if in_precision and re.match(r"^##\s+", s):
+            break
+        if in_precision and s and not re.match(r"^-{3,}$", s):
+            clean_l = re.sub(r"^[-*]\s+", "", s)
+            clean_l = re.sub(r"\*+", "", clean_l).strip()
+            if clean_l:
+                remarques_list.append(clean_l)
+    remarques = " | ".join(remarques_list)
 
-    # authority level
+    # 5) Authority level
     level = 0
-    for src in sources:
-        ns = normalize_key(src)
+    for txt in list(sources) + [present_miph, version_miph]:
+        nt = normalize_key(txt)
         for name, lv in SOURCE_LEVELS.items():
-            if normalize_key(name) in ns and lv > level:
+            if normalize_key(name) in nt and lv > level:
                 level = lv
 
     return {
@@ -202,7 +266,7 @@ def find_fiche(fiches: list, dci_name: str):
 
 
 # ----------------------------------------------------------------------------
-# Provenance guess from file name / folder (adjust tiers if your team decides otherwise)
+# Provenance guess from file name / folder
 # 1 = most reliable ... 6 = least
 # ----------------------------------------------------------------------------
 def classify_source(rel: str) -> dict:
@@ -294,7 +358,7 @@ def build_file_record(src: Path, audit_map: dict, log_map: dict) -> dict:
     elif ext == "csv" and expected_same.exists():
         processed = expected_same
     elif ext == "md":
-        processed = src                      # already text
+        processed = src
     elif isinstance(lg.get("output"), str):
         cand = Path(lg["output"].replace("\\", "/"))
         if not cand.is_absolute():
@@ -318,7 +382,7 @@ def build_file_record(src: Path, audit_map: dict, log_map: dict) -> dict:
         "authority_tier": prov["authority_tier"],
         "size_bytes": src.stat().st_size,
         "hash_sha256": aud.get("hash_sha256") or sha256_of(src),
-        "is_duplicate": False,               # filled after hashing (see below)
+        "is_duplicate": False,
         "page_count": pages,
         "audit_status": aud.get("status", "unknown"),
         "audit_issues": aud.get("issues", []),
@@ -357,7 +421,6 @@ def generate_metadata():
             else:
                 buckets[parts[0]]["brands"]["/".join(parts[1:-1])].append(rec)
 
-    # real duplicate detection by hash
     by_hash = defaultdict(list)
     for r in all_records:
         by_hash[r["hash_sha256"]].append(r)
