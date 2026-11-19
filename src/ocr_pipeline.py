@@ -1,19 +1,19 @@
 """
-ocr_pipeline.py  (v3 — pymupdf4llm + RapidOCR backend)
----------------------------------------------------------
-Full OCR + Cleaning pipeline for COGNIVEX data/corpus/
+ocr_pipeline.py  (v4 — PyMuPDF fitz + RapidOCR direct backend)
+----------------------------------------------------------------
+OCR + Cleaning pipeline for COGNIVEX data/corpus/ without pymupdf4llm.
 
-  - 59 image-only PDFs  → pymupdf4llm.to_markdown() with RapidOCR → .md
-  - 39 PNG screenshots  → RapidOCR direct → .md
-  -  2 text-based PDFs  → pymupdf4llm.to_markdown() + noise strip → .md
-  -  6 CSVs             → copied as-is (structured data)
+- Scanned / image-heavy PDFs -> renders pages via fitz + RapidOCR -> .md
+- Image files (.png/.jpg/...) -> RapidOCR direct -> .md
+- Text-based PDFs            -> fitz text extraction + noise strip -> .md
+- CSV files                  -> copied as-is (structured data)
 
 Output mirror : data/processed_corpus/   (originals are NEVER modified)
 Resumes safely: already-processed files are skipped automatically.
-Output format : Markdown (.md) — better structured for RAG chunking.
+Output format : Markdown (.md)
 
 Usage:
-    python ocr_pipeline.py
+    python src/ocr_pipeline.py
 """
 
 import sys
@@ -25,16 +25,14 @@ from pathlib import Path
 from datetime import datetime, timezone
 from collections import defaultdict
 
-# ── Dependency guard ──────────────────────────────────────────────────────────
+# -- Dependency guard ----------------------------------------------------------
 try:
     import pymupdf as fitz
 except ImportError:
-    import fitz
-
-try:
-    import pymupdf4llm
-except ImportError:
-    sys.exit("[ERROR] pymupdf4llm not installed. Run: python -m pip install pymupdf4llm")
+    try:
+        import fitz
+    except ImportError:
+        sys.exit("[ERROR] PyMuPDF is not installed. Run: python -m pip install pymupdf")
 
 try:
     from PIL import Image
@@ -48,20 +46,25 @@ try:
     HAS_RAPID = True
 except ImportError:
     HAS_RAPID = False
-    print("[WARN] rapidocr_onnxruntime not found — will fall back to embedded text only.")
+    print("[WARN] rapidocr_onnxruntime not found — will fall back to embedded PDF text only.")
 
-# ── Paths ─────────────────────────────────────────────────────────────────────
-ROOT           = Path(__file__).parent
-CORPUS_ROOT    = ROOT / "data" / "corpus"
-PROCESSED_ROOT = ROOT / "data" / "processed_corpus"
-AUDIT_JSON     = ROOT / "data" / "corpus_audit_report.json"
-META_JSON      = ROOT / "data" / "corpus_metadata.json"
-LOG_JSON       = ROOT / "data" / "ocr_pipeline_log.json"
+# -- Paths ---------------------------------------------------------------------
+PROJECT_ROOT   = Path(__file__).resolve().parent.parent
+CORPUS_ROOT    = PROJECT_ROOT / "data" / "corpus"
+PROCESSED_ROOT = PROJECT_ROOT / "data" / "processed_corpus"
+PROCESSED_DIR  = PROJECT_ROOT / "data" / "processed"
+AUDIT_JSON     = PROCESSED_DIR / "corpus_audit_report.json"
+META_JSON      = PROCESSED_DIR / "corpus_metadata.json"
+LOG_JSON       = PROCESSED_DIR / "ocr_pipeline_log.json"
 
-# ── Settings ──────────────────────────────────────────────────────────────────
-PDF_RENDER_DPI = 200     # DPI for rendering PDF pages to images for OCR
+if not AUDIT_JSON.exists() and (PROJECT_ROOT / "data" / "corpus_audit_report.json").exists():
+    AUDIT_JSON = PROJECT_ROOT / "data" / "corpus_audit_report.json"
 
-# ── Noise patterns to strip from the 2 valid text PDFs ───────────────────────
+# -- Settings ------------------------------------------------------------------
+PDF_RENDER_DPI        = 200
+MIN_PAGE_TEXT_CHARS   = 80     # pages with fewer chars get OCR'd if RapidOCR is active
+
+# -- Noise patterns to strip ---------------------------------------------------
 NOISE_PATTERNS = [
     r"ANNEXE\s+I\s*\n?\s*RESUME DES CARACTERISTIQUES DU PRODUIT",
     r"Email\s*:\s*contact@ldmgroupe\.com",
@@ -71,7 +74,9 @@ NOISE_PATTERNS = [
     r"ldmgroupe\.com",
 ]
 
-# ── Console helpers ───────────────────────────────────────────────────────────
+IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tif", ".tiff"}
+
+# -- Console helpers -----------------------------------------------------------
 def banner(msg):
     print("\n" + "=" * 60)
     print("  " + msg)
@@ -87,49 +92,90 @@ def warn(msg):
     print("  [!!]  " + msg)
 
 def progress(current, total, label):
+    if total <= 0:
+        return
     pct = int(current / total * 40)
     bar = "#" * pct + "-" * (40 - pct)
     print(f"\r  [{bar}] {current}/{total}  {label[:45]:<45}", end="", flush=True)
 
 
 # =============================================================================
-# OCR helpers
+# OCR & extraction helpers
 # =============================================================================
 
-def ocr_pdf_to_markdown(pdf_path: Path) -> str:
-    """
-    Use pymupdf4llm to extract/OCR a PDF to clean Markdown.
-    With rapidocr_onnxruntime installed, it automatically uses
-    RapidOCR for image-only pages (no Tesseract needed).
-    """
-    doc = fitz.open(str(pdf_path))
-    md  = pymupdf4llm.to_markdown(doc, show_progress=False)
-    doc.close()
-    return md
+def ocr_np_image(img_rgb: np.ndarray) -> str:
+    if not HAS_RAPID:
+        return ""
+    result, _ = _rapid_engine(img_rgb)
+    if not result:
+        return ""
+    return "\n".join(item[1].strip() for item in result if len(item) > 1 and item[1].strip())
 
 
 def ocr_image_to_text(img_path: Path) -> str:
-    """
-    Run RapidOCR directly on a PNG/image file.
-    Returns joined text lines.
-    """
     if not HAS_RAPID:
         return f"[RapidOCR not available — could not process {img_path.name}]"
-
-    img = np.array(Image.open(img_path).convert("RGB"))
-    result, _ = _rapid_engine(img)
-    if not result:
-        return ""
-    # result is list of [box, text, confidence]
-    return "\n".join(item[1] for item in result if item[1].strip())
+    with Image.open(img_path) as im:
+        img = np.array(im.convert("RGB"))
+    return ocr_np_image(img)
 
 
-def extract_pdf_text_clean(pdf_path: Path, noise_patterns: list) -> str:
+def render_page_to_rgb(page) -> np.ndarray:
+    pix = page.get_pixmap(dpi=PDF_RENDER_DPI)
+    img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)
+    if pix.n == 4:
+        return np.array(Image.fromarray(img, mode="RGBA").convert("RGB"))
+    if pix.n == 1:
+        return np.array(Image.fromarray(img, mode="L").convert("RGB"))
+    return img
+
+
+def pdf_to_markdown_fitz(pdf_path: Path, force_ocr_all: bool = False) -> tuple[str, str]:
     """
-    For the 2 text-based PDFs: extract via pymupdf4llm then strip noise.
+    Extracts Markdown-like text from a PDF using PyMuPDF (fitz) + RapidOCR
+    for scanned/low-text pages. Returns (markdown_text, method_used).
     """
-    md    = ocr_pdf_to_markdown(pdf_path)
-    clean = md
+    doc = fitz.open(str(pdf_path))
+    pages_md = []
+    ocr_pages = 0
+    text_pages = 0
+
+    try:
+        for page_num, page in enumerate(doc, start=1):
+            embedded = page.get_text("text").strip()
+            use_ocr = HAS_RAPID and (force_ocr_all or len(embedded) < MIN_PAGE_TEXT_CHARS)
+
+            if use_ocr:
+                try:
+                    rgb = render_page_to_rgb(page)
+                    ocr_text = ocr_np_image(rgb).strip()
+                except Exception as e:
+                    ocr_text = f"[OCR page error: {e}]"
+                chosen = ocr_text if len(ocr_text) >= len(embedded) else embedded
+                if ocr_text:
+                    ocr_pages += 1
+                else:
+                    text_pages += 1
+            else:
+                chosen = embedded
+                text_pages += 1
+
+            pages_md.append(f"## Page {page_num}\n\n{chosen}".strip())
+    finally:
+        doc.close()
+
+    if ocr_pages > 0 and text_pages > 0:
+        method = "fitz + RapidOCR (hybrid)"
+    elif ocr_pages > 0:
+        method = "fitz + RapidOCR (scanned)"
+    else:
+        method = "fitz embedded text"
+
+    return "\n\n---\n\n".join(pages_md).strip(), method
+
+
+def clean_noise(text: str, noise_patterns: list) -> str:
+    clean = text
     for pat in noise_patterns:
         clean = re.sub(pat, "", clean, flags=re.IGNORECASE | re.MULTILINE)
     clean = re.sub(r"\n{3,}", "\n\n", clean)
@@ -172,7 +218,7 @@ def write_md(out_path: Path, text: str, meta: dict):
 def make_meta(src_path: Path, rel: str, method: str) -> dict:
     parts = Path(rel).parts
     return {
-        "source":    str(src_path),
+        "source":    src_path.resolve().as_posix(),
         "dci":       parts[0] if len(parts) > 0 else "unknown",
         "brand":     parts[1] if len(parts) > 1 else "root",
         "method":    method,
@@ -185,31 +231,34 @@ def make_meta(src_path: Path, rel: str, method: str) -> dict:
 # =============================================================================
 
 def stage_ocr_pdfs(needs_ocr: list, log: dict) -> dict:
-    step(f"Stage 1/3 — OCR {len(needs_ocr)} image-only PDFs via pymupdf4llm + RapidOCR")
+    step(f"Stage 1/3 — OCR {len(needs_ocr)} scanned/low-text PDFs via fitz + RapidOCR")
     processed = skipped = errors = 0
 
     for idx, rel in enumerate(needs_ocr, 1):
         src_path = CORPUS_ROOT / rel
-        out_path = PROCESSED_ROOT / (rel.rsplit(".", 1)[0] + ".md")
+        out_path = PROCESSED_ROOT / Path(rel).with_suffix(".md")
         progress(idx, len(needs_ocr), Path(rel).name)
 
-        # Resume: skip if already processed successfully
+        if not src_path.exists():
+            warn(f"\n  Missing source file: {rel}")
+            log["files"][rel] = {"status": "error", "error": "Source file not found"}
+            errors += 1
+            continue
+
         if out_path.exists() and out_path.stat().st_size > 100:
             skipped += 1
-            log["files"][rel] = {"status": "skipped_existing", "output": str(out_path)}
+            log["files"][rel] = {"status": "skipped_existing", "output": out_path.resolve().as_posix()}
             continue
 
         t0 = time.time()
         try:
-            md   = ocr_pdf_to_markdown(src_path)
-            meta = make_meta(src_path, rel,
-                             "pymupdf4llm + RapidOCR (onnxruntime)" if HAS_RAPID
-                             else "pymupdf4llm (no OCR engine)")
+            md, method = pdf_to_markdown_fitz(src_path, force_ocr_all=True)
+            meta = make_meta(src_path, rel, method)
             write_md(out_path, md, meta)
             elapsed = round(time.time() - t0, 1)
             log["files"][rel] = {
                 "status":  "ocr_ok",
-                "output":  str(out_path),
+                "output":  out_path.resolve().as_posix(),
                 "chars":   len(md),
                 "seconds": elapsed,
             }
@@ -224,30 +273,36 @@ def stage_ocr_pdfs(needs_ocr: list, log: dict) -> dict:
     return log
 
 
-def stage_ocr_pngs(non_pdf_files: list, log: dict) -> dict:
-    png_files = [f for f in non_pdf_files if f.lower().endswith(".png")]
-    step(f"Stage 2/3 — OCR {len(png_files)} PNG screenshots via RapidOCR")
+def stage_ocr_images(non_pdf_files: list, log: dict) -> dict:
+    img_files = [f for f in non_pdf_files if Path(f).suffix.lower() in IMAGE_EXTS]
+    step(f"Stage 2/3 — OCR {len(img_files)} image files via RapidOCR")
     processed = skipped = errors = 0
 
-    for idx, rel in enumerate(png_files, 1):
+    for idx, rel in enumerate(img_files, 1):
         src_path = CORPUS_ROOT / rel
-        out_path = PROCESSED_ROOT / (rel.rsplit(".", 1)[0] + ".md")
-        progress(idx, len(png_files), Path(rel).name)
+        out_path = PROCESSED_ROOT / Path(rel).with_suffix(".md")
+        progress(idx, len(img_files), Path(rel).name)
+
+        if not src_path.exists():
+            warn(f"\n  Missing source file: {rel}")
+            log["files"][rel] = {"status": "error", "error": "Source file not found"}
+            errors += 1
+            continue
 
         if out_path.exists() and out_path.stat().st_size > 50:
             skipped += 1
-            log["files"][rel] = {"status": "skipped_existing", "output": str(out_path)}
+            log["files"][rel] = {"status": "skipped_existing", "output": out_path.resolve().as_posix()}
             continue
 
         t0 = time.time()
         try:
             text = ocr_image_to_text(src_path)
-            meta = make_meta(src_path, rel, "RapidOCR (onnxruntime) direct image")
+            meta = make_meta(src_path, rel, "RapidOCR direct image")
             write_md(out_path, text, meta)
             elapsed = round(time.time() - t0, 1)
             log["files"][rel] = {
                 "status":  "ocr_ok",
-                "output":  str(out_path),
+                "output":  out_path.resolve().as_posix(),
                 "chars":   len(text),
                 "seconds": elapsed,
             }
@@ -258,33 +313,50 @@ def stage_ocr_pngs(non_pdf_files: list, log: dict) -> dict:
             errors += 1
 
     print()
-    ok(f"PNGs — processed: {processed}  skipped: {skipped}  errors: {errors}")
+    ok(f"Images — processed: {processed}  skipped: {skipped}  errors: {errors}")
     return log
 
 
 def stage_clean_valid_pdfs(valid_for_rag: list, audit: dict, log: dict) -> dict:
     step(f"Stage 3/3 — Extract + denoise {len(valid_for_rag)} text-based PDFs")
-    for rel in valid_for_rag:
+    processed = skipped = errors = 0
+
+    for idx, rel in enumerate(valid_for_rag, 1):
         src_path = CORPUS_ROOT / rel
-        out_path = PROCESSED_ROOT / (rel.rsplit(".", 1)[0] + ".md")
-        print(f"  Processing: {rel}")
+        out_path = PROCESSED_ROOT / Path(rel).with_suffix(".md")
+        progress(idx, len(valid_for_rag), Path(rel).name)
+
+        if not src_path.exists():
+            warn(f"\n  Missing source file: {rel}")
+            log["files"][rel] = {"status": "error", "error": "Source file not found"}
+            errors += 1
+            continue
+
+        if out_path.exists() and out_path.stat().st_size > 100:
+            skipped += 1
+            log["files"][rel] = {"status": "skipped_existing", "output": out_path.resolve().as_posix()}
+            continue
 
         noise = build_noise_patterns_from_audit(audit, rel)
         try:
-            clean = extract_pdf_text_clean(src_path, noise)
-            meta  = make_meta(src_path, rel,
-                              f"pymupdf4llm Markdown + noise strip ({len(noise)} patterns)")
+            raw_md, method = pdf_to_markdown_fitz(src_path, force_ocr_all=False)
+            clean = clean_noise(raw_md, noise)
+            meta = make_meta(src_path, rel, f"{method} + noise strip ({len(noise)} patterns)")
             write_md(out_path, clean, meta)
-            ok(f"{Path(rel).name}  ->  {len(clean):,} clean chars")
             log["files"][rel] = {
                 "status":                 "cleaned_ok",
-                "output":                 str(out_path),
+                "output":                 out_path.resolve().as_posix(),
                 "clean_chars":            len(clean),
                 "noise_patterns_applied": len(noise),
             }
+            processed += 1
         except Exception as e:
-            warn(f"ERROR on {rel}: {e}")
+            warn(f"\n  ERROR on {rel}: {e}")
             log["files"][rel] = {"status": "error", "error": str(e)}
+            errors += 1
+
+    print()
+    ok(f"Valid PDFs — processed: {processed}  skipped (cached): {skipped}  errors: {errors}")
     return log
 
 
@@ -294,41 +366,49 @@ def stage_copy_csvs(non_pdf_files: list, log: dict) -> dict:
     for rel in csv_files:
         src = CORPUS_ROOT / rel
         dst = PROCESSED_ROOT / rel
+        if not src.exists():
+            warn(f"Missing CSV: {rel}")
+            continue
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dst)
         ok(f"Copied: {rel}")
-        log["files"][rel] = {"status": "copied", "output": str(dst)}
+        log["files"][rel] = {"status": "copied", "output": dst.resolve().as_posix()}
     return log
 
 
 # =============================================================================
-# corpus_metadata.json update
+# corpus_metadata.json update (safe if not generated yet)
 # =============================================================================
 
 def update_metadata(log: dict):
     step("Updating corpus_metadata.json with processed text paths...")
-    meta    = json.loads(META_JSON.read_text(encoding="utf-8"))
+    if not META_JSON.exists():
+        warn(f"{META_JSON} not found yet — skipping metadata update.")
+        return
+
+    meta = json.loads(META_JSON.read_text(encoding="utf-8"))
     updated = 0
 
     for dci_entry in meta.get("corpus", []):
         for f in dci_entry.get("source_files", []):
-            rel = f["relative_path"]
-            if rel in log["files"] and "output" in log["files"][rel]:
+            rel = f.get("relative_path") or f.get("path")
+            if rel and rel in log["files"] and "output" in log["files"][rel]:
                 f["processed_text_path"] = log["files"][rel]["output"]
-                f["ocr_status"]          = log["files"][rel]["status"]
+                f["ocr_status"] = log["files"][rel]["status"]
                 updated += 1
         for brand in dci_entry.get("brands", []):
             for f in brand.get("files", []):
-                rel = f["relative_path"]
-                if rel in log["files"] and "output" in log["files"][rel]:
+                rel = f.get("relative_path") or f.get("path")
+                if rel and rel in log["files"] and "output" in log["files"][rel]:
                     f["processed_text_path"] = log["files"][rel]["output"]
-                    f["ocr_status"]          = log["files"][rel]["status"]
+                    f["ocr_status"] = log["files"][rel]["status"]
                     updated += 1
 
-    meta["_meta"]["ocr_pipeline_run"]      = datetime.now(timezone.utc).isoformat()
-    meta["_meta"]["processed_files"]       = updated
-    meta["_meta"]["processed_corpus_root"] = str(PROCESSED_ROOT.resolve())
-    meta["_meta"]["ocr_engine"]            = "pymupdf4llm + RapidOCR (onnxruntime)"
+    meta.setdefault("_meta", {})
+    meta["_meta"]["ocr_pipeline_run"] = datetime.now(timezone.utc).isoformat()
+    meta["_meta"]["processed_files"] = updated
+    meta["_meta"]["processed_corpus_root"] = PROCESSED_ROOT.resolve().as_posix()
+    meta["_meta"]["ocr_engine"] = "PyMuPDF (fitz) + RapidOCR"
 
     META_JSON.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     ok(f"Updated {updated} file entries in corpus_metadata.json")
@@ -347,16 +427,16 @@ def verify_outputs(log: dict):
         for v in log["files"].values()
         if isinstance(v, dict)
     )
-    ok(f"Markdown files produced : {len(md_files)}")
-    ok(f"CSV files copied        : {len(csv_files)}")
+    ok(f"Markdown files produced    : {len(md_files)}")
+    ok(f"CSV files copied           : {len(csv_files)}")
     ok(f"Total characters extracted : {total_chars:,}")
 
-    # Spot-check 3 files
     samples = [p for p in md_files if p.stat().st_size > 200][:3]
     if samples:
-        print("\n  --- Spot-check (first 150 chars of 3 files) ---")
+        print("\n  --- Spot-check (snippet of 3 files) ---")
         for p in samples:
-            snippet = p.read_text(encoding="utf-8")[200:350].replace("\n", " ").strip()
+            content = p.read_text(encoding="utf-8")
+            snippet = content[200:350].replace("\n", " ").strip()
             print(f"  {p.name}: {repr(snippet[:120])}")
 
 
@@ -365,38 +445,41 @@ def verify_outputs(log: dict):
 # =============================================================================
 
 def main():
-    banner("COGNIVEX OCR + Cleaning Pipeline  (pymupdf4llm + RapidOCR)")
+    banner("COGNIVEX OCR + Cleaning Pipeline  (fitz + RapidOCR)")
     print(f"  Corpus root   : {CORPUS_ROOT}")
     print(f"  Output root   : {PROCESSED_ROOT}")
+    print(f"  Audit JSON    : {AUDIT_JSON}")
     print(f"  OCR engine    : {'RapidOCR (onnxruntime)' if HAS_RAPID else 'NOT AVAILABLE'}")
     print(f"  Output format : Markdown (.md)")
     print(f"  Resume mode   : ON")
 
+    if not CORPUS_ROOT.exists():
+        sys.exit(f"[ERROR] Corpus directory not found: {CORPUS_ROOT}")
+
     if not AUDIT_JSON.exists():
-        sys.exit(f"[ERROR] Run audit_corpus.py first — {AUDIT_JSON} not found.")
+        sys.exit(f"[ERROR] Run `python src/audit_corpus.py` first — {AUDIT_JSON} not found.")
 
     audit      = json.loads(AUDIT_JSON.read_text(encoding="utf-8"))
     needs_ocr  = audit.get("needs_ocr", [])
     valid_pdfs = audit.get("valid_for_rag", [])
     non_pdf    = audit.get("non_pdf_files", [])
 
-    # Load or create pipeline log (supports resume)
     if LOG_JSON.exists():
-        log     = json.loads(LOG_JSON.read_text(encoding="utf-8"))
-        already = sum(1 for v in log["files"].values()
-                      if v.get("status") not in ("error",))
+        log = json.loads(LOG_JSON.read_text(encoding="utf-8"))
+        already = sum(1 for v in log.get("files", {}).values() if v.get("status") != "error")
         print(f"\n  Resuming — {already} files already done, skipping them.")
     else:
         log = {"started_at": datetime.now(timezone.utc).isoformat(), "files": {}}
 
+    log.setdefault("files", {})
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_ROOT.mkdir(parents=True, exist_ok=True)
     t_total = time.time()
 
-    # Run all stages, saving log after each
     log = stage_ocr_pdfs(needs_ocr, log)
     LOG_JSON.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    log = stage_ocr_pngs(non_pdf, log)
+    log = stage_ocr_images(non_pdf, log)
     LOG_JSON.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
 
     log = stage_clean_valid_pdfs(valid_pdfs, audit, log)
@@ -408,7 +491,6 @@ def main():
     update_metadata(log)
     verify_outputs(log)
 
-    # Final summary
     elapsed = round(time.time() - t_total, 1)
     statuses = defaultdict(int)
     for v in log["files"].values():
@@ -416,7 +498,8 @@ def main():
 
     total_chars = sum(
         v.get("chars", v.get("clean_chars", 0))
-        for v in log["files"].values() if isinstance(v, dict)
+        for v in log["files"].values()
+        if isinstance(v, dict)
     )
 
     banner("PIPELINE COMPLETE")
