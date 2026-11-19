@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-11-19T22:59:59.581552+00:00",
+    "generated_at": "2026-11-19T23:12:43.775819+00:00",
     "corpus_root": "data/corpus",
     "processed_corpus_root": "data/processed_corpus",
     "fiches_dci_root": "data/fiches_dci",
@@ -100,6 +100,18 @@
             "brand": "ASPEGIC ADULTE",
             "form": "POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE",
             "dosage": "1G"
+          },
+          {
+            "brand": "Australian Commission on Safety and Quality in Health Care",
+            "form": "notice d’ASTRIX 100 mg, capsule",
+            "dosage": "Australie",
+            "laboratoire": "https://www.safetyandquality.gov.au/medicine-finder/astrix-100"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code ATC B01AC06",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=B01AC06",
+            "laboratoire": "11/11/2026"
           }
         ]
       },
@@ -156,10 +168,123 @@
         "code_atc": "C08CA01",
         "present_dans_miph": "Oui — N° 27 (Classe : Antihypertenseurs)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP recense l'amlodipine principalement sous forme de **gélule 5 mg et 10 mg** et de **comprimé 5 mg/10 mg**, avec un large éventail de génériques locaux (MIBRAL, AMLODAL, AMLIBON, AMLOR, etc.). DailyMed présente l'amlodipine bésylate en comprimé 2,5 mg / 5 mg / 10 mg selon les spécialités américaines (Norvasc et génériques), avec un profil de sécurité identique mais des excipients différents. La forme gélule largement utilisée en Algérie n'est pas référencée dans les sources américaines. La primauté est accordée aux données MIPH/ANPP pour toute utilisation clinique en Algérie.",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°27 — amlodipine C08CA01, présence confirmée, 18 spécialités enregistrées — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANPP / pharmnet-dz — RCP et Notice amlodipine (MIBRAL, AMLIBON, AMLODAL, AMLOR…) — Algérie — https://www.pharmnet-dz.com — Novembre 2026",
+          "DailyMed / NLM-FDA — Label amlodipine besylate (5 mg / 10 mg tablets) — États-Unis — https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine — Novembre 2026",
+          "dzair-pharma.net — Vérification noms commerciaux et dosages algériens — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP recense l'amlodipine principalement sous forme de gélule 5 mg et 10 mg et de comprimé 5 mg/10 mg, avec un large éventail de génériques locaux (MIBRAL, AMLODAL, AMLIBON, AMLOR, etc.). DailyMed présente l'amlodipine bésylate en comprimé 2,5 mg / 5 mg / 10 mg selon les spécialités américaines (Norvasc et génériques), avec un profil de sécurité identique mais des excipients différents. La forme gélule largement utilisée en Algérie n'est pas référencée dans les sources américaines. La primauté est accordée aux données MIPH/ANPP pour toute utilisation clinique en Algérie.",
+        "produits": [
+          {
+            "brand": "AMLIBON",
+            "form": "Comprimé",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "AMLODAL",
+            "form": "Comprimé / Comprimé sécable",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "AMLODIPINE MM",
+            "form": "Comprimé pelliculé",
+            "dosage": "5 mg"
+          },
+          {
+            "brand": "AMLOMED",
+            "form": "Comprimé pelliculé",
+            "dosage": "5 mg"
+          },
+          {
+            "brand": "AMLODIPAL",
+            "form": "Gélule",
+            "dosage": "5 mg"
+          },
+          {
+            "brand": "AMLODIPINE BEKER",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg",
+            "laboratoire": "Beker Pharma"
+          },
+          {
+            "brand": "AMLOR",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg",
+            "laboratoire": "Pfizer / Sanofi"
+          },
+          {
+            "brand": "DIMLOR",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "DIPICARD",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "HUMLOR",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "LOTENSE",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "LOWVASC",
+            "form": "Gélule",
+            "dosage": "5 mg"
+          },
+          {
+            "brand": "MIBRAL",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg",
+            "laboratoire": "LDM Groupe"
+          },
+          {
+            "brand": "AMLOPINE",
+            "form": "Gélule",
+            "dosage": "5 mg"
+          },
+          {
+            "brand": "TENSODIPINE",
+            "form": "Gélule",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "AMLOCARDINE",
+            "form": "Gélule",
+            "dosage": "10 mg"
+          },
+          {
+            "brand": "Produit : Amlodipine",
+            "form": "Source : DailyMed (NLM/FDA)",
+            "dosage": "États-Unis",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "Produit : MIBRAL (amlodipine bésylate)",
+            "form": "Source : ANPP",
+            "dosage": "Algérie",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[DailyMed / NLM-FDA",
+            "form": "Label amlodipine besylate (5 mg / 10 mg tablets)",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Vérification noms commerciaux et dosages algériens",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 11,
@@ -506,6 +631,18 @@
             "brand": "HIMOXYL",
             "form": "POUDRE POUR SOLUTION BUVABLE",
             "dosage": "250MG/5ML"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "American Academy of Pediatrics",
+            "form": "Article scientifique sur la prise en charge de l'otite moyenne aiguë chez l'enfant et l'utilisation de l'amoxicilline.",
+            "dosage": "États-Unis",
+            "laboratoire": "https://publications.aap.org/pediatrics/"
           }
         ]
       },
@@ -715,6 +852,12 @@
             "brand": "CLAVODEX DUO",
             "form": "COMPRIMÉ PELLICULÉ",
             "dosage": "875MG/125MG"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
           }
         ]
       },
@@ -1278,6 +1421,18 @@
             "brand": "WINEX",
             "form": "GÉLULE",
             "dosage": "400MG"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "FDA",
+            "form": "U.S. Food and Drug Administration",
+            "dosage": "Cross Discipline Team Leader Review résumant les études cliniques publiées sur l'efficacité du céfixime dans les infections urinaires et respiratoires.",
+            "laboratoire": "États-Unis"
           }
         ]
       },
@@ -1473,6 +1628,18 @@
             "brand": "ZYNAX",
             "form": "GRANULÉS POUR SUSPENSION BUVABLE",
             "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "Conseil National de l'Ordre des Pharmaciens (CNOP)",
+            "form": "Information ANSM",
+            "dosage": "Information sur le changement de graduation de la seringue doseuse de ZINNAT 125 mg/5 ml chez l'enfant, de kg vers ml, et recommandations pour prévenir les erreurs de dosage.",
+            "laboratoire": "France"
           }
         ]
       },
@@ -1801,6 +1968,18 @@
             "brand": "PEDEXA",
             "form": "GÉLULE",
             "dosage": "200MG"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "PubMed",
+            "form": "Revue systématique comparant les traitements antibiotiques de première intention de l'otite moyenne aiguë chez l'enfant.",
+            "dosage": "États-Unis",
+            "laboratoire": "https://pubmed.ncbi.nlm.nih.gov/"
           }
         ]
       },
@@ -1896,10 +2075,57 @@
         "code_atc": "J01FF01",
         "present_dans_miph": "Oui — N° 26 (Classe : Antibiotiques)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP enregistre la clindamycine sous deux segments : forme **orale (gélule 150 mg — CLINARAM)** et formes **topiques** (gel/solution 1 % — ACNESTOP, DERMA-T, DENACINE, CLEAN-ACNE). L'ANSM (France) recense également des formes injectables et vaginales (Dalacine® 300 mg/2 mL) non présentes dans la nomenclature algérienne à la date consultée. Le RCP ANSM est utilisé comme référence technique en l'absence de RCP ANPP disponible en ligne, mais les données algériennes (MIPH) prévalent pour les indications et présentations autorisées en Algérie.",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°26 — clindamycine J01FF01, présence confirmée, 7 spécialités enregistrées — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANSM / Base de données publique des médicaments — RCP et Notice clindamycine (Dalacine®, Zindacline®…) — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "dzair-pharma.net — Vérification noms commerciaux clindamycine en Algérie — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP enregistre la clindamycine sous deux segments : forme orale (gélule 150 mg — CLINARAM) et formes topiques (gel/solution 1 % — ACNESTOP, DERMA-T, DENACINE, CLEAN-ACNE). L'ANSM (France) recense également des formes injectables et vaginales (Dalacine® 300 mg/2 mL) non présentes dans la nomenclature algérienne à la date consultée. Le RCP ANSM est utilisé comme référence technique en l'absence de RCP ANPP disponible en ligne, mais les données algériennes (MIPH) prévalent pour les indications et présentations autorisées en Algérie.",
+        "produits": [
+          {
+            "brand": "CLINARAM",
+            "form": "Gélule",
+            "dosage": "150 mg"
+          },
+          {
+            "brand": "ACNESTOP",
+            "form": "Gel dermique",
+            "dosage": "1 % (10 mg/g)"
+          },
+          {
+            "brand": "DENACINE EMULGEL",
+            "form": "Gel dermique",
+            "dosage": "1 % (10 mg/g)"
+          },
+          {
+            "brand": "CLEAN-ACNE",
+            "form": "Gel / Solution pour application locale",
+            "dosage": "1 % (10 mg/g)"
+          },
+          {
+            "brand": "DERMA-T",
+            "form": "Solution dermique",
+            "dosage": "1 % (10 mg/g)"
+          },
+          {
+            "brand": "DENACINE",
+            "form": "Solution pour application locale",
+            "dosage": "1 % (10 mg/g)"
+          },
+          {
+            "brand": "Produit : Clindamycine",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Vérification noms commerciaux clindamycine en Algérie",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 8,
@@ -2236,7 +2462,7 @@
           },
           {
             "brand": "VOLTUM",
-            "form": "COMPRIME  GASTRO-RESISTANT",
+            "form": "COMPRIME GASTRO-RESISTANT",
             "dosage": "50MG"
           },
           {
@@ -2311,7 +2537,7 @@
           },
           {
             "brand": "CLOFENAL",
-            "form": "GELULE A MICROGRANULES  GASTRO-RESISTANT",
+            "form": "GELULE A MICROGRANULES GASTRO-RESISTANT",
             "dosage": "50MG"
           },
           {
@@ -2388,6 +2614,12 @@
             "brand": "DICLOFAR",
             "form": "SUPPOSITOIRE",
             "dosage": "50MG"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code ATC M01AB05",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=M01AB05",
+            "laboratoire": "11/11/2026"
           }
         ]
       },
@@ -2509,10 +2741,40 @@
         "code_atc": "C09AA02",
         "present_dans_miph": "Oui — N° 31 (Classe : Antihypertenseurs)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre l'énalapril uniquement sous la marque **ENALAPRIL MYLAN** en comprimé sécable 5 mg et 20 mg. L'ANSM recense un spectre plus large incluant Renitec® 5 mg, 20 mg et des génériques en 2,5 mg, 5 mg, 10 mg et 20 mg. Le dosage 10 mg présent en France n'est pas répertorié dans la nomenclature algérienne à la date consultée. Les données MIPH (5 mg et 20 mg uniquement) prévalent pour l'Algérie.",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°31 — énalapril C09AA02, présence confirmée, 2 présentations (Enalapril Mylan 5 mg et 20 mg) — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANSM / Base de données publique des médicaments — RCP et Notice énalapril maléate (Renitec®, génériques) — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "ANPP / pharmnet-dz — Fiche Enalapril Mylan enregistré en Algérie — Algérie — https://www.pharmnet-dz.com — Novembre 2026",
+          "dzair-pharma.net — Page DCI énalapril maléate — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre l'énalapril uniquement sous la marque ENALAPRIL MYLAN en comprimé sécable 5 mg et 20 mg. L'ANSM recense un spectre plus large incluant Renitec® 5 mg, 20 mg et des génériques en 2,5 mg, 5 mg, 10 mg et 20 mg. Le dosage 10 mg présent en France n'est pas répertorié dans la nomenclature algérienne à la date consultée. Les données MIPH (5 mg et 20 mg uniquement) prévalent pour l'Algérie.",
+        "produits": [
+          {
+            "brand": "ENALAPRIL MYLAN",
+            "form": "Comprimé sécable",
+            "dosage": "5 mg",
+            "laboratoire": "Mylan SAS (France)"
+          },
+          {
+            "brand": "ENALAPRIL MYLAN",
+            "form": "Comprimé sécable",
+            "dosage": "20 mg",
+            "laboratoire": "Mylan SAS (France)"
+          },
+          {
+            "brand": "Produit : Énalapril",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Page DCI énalapril maléate",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 6,
@@ -2658,10 +2920,123 @@
         "code_atc": "J01GB03",
         "present_dans_miph": "Oui — N° 25 (Classe : Antibiotiques)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°25 — gentamicine J01GB03, présence confirmée, multiples formes (injectables + ophtalmiques) — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANSM / Base de données publique des médicaments — RCP et Notice gentamicine sulfate (Gentalline®, génériques) — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "DailyMed / NLM-FDA — Label Gentamicin Sulfate Injection — États-Unis — https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gentamicin — Novembre 2026",
+          "dzair-pharma.net — Vérification noms commerciaux gentamicine en Algérie — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
         "remarques": "Une source étrangère (ANSM, DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP recense la gentamicine sous de nombreuses spécialités locales couvrant trois gammes de dosage injectable (10 mg/mL, 20 mg/mL, 40 mg/mL) ainsi que des formes ophtalmiques (collyre 3 mg/mL, pommade 0,3 %). L'ANSM recense principalement Gentalline® 10 mg/mL et 40 mg/mL en injectable, et DailyMed présente les formes injectables standard (40 mg/mL). Les marques locales (EPIGENT, GENTAXYN, GENTHERAXINE, etc.) ainsi que la concentration 20 mg/mL sont spécifiques au marché algérien. Les données MIPH/ANPP prévalent.",
-        "produits": []
+        "produits": [
+          {
+            "brand": "GENTA 10",
+            "form": "Solution injectable IM/IV",
+            "dosage": "10 mg/mL"
+          },
+          {
+            "brand": "S-GENTA",
+            "form": "Solution injectable IM/IV",
+            "dosage": "10 mg/mL / 20 mg/mL (40 mg/2 mL)"
+          },
+          {
+            "brand": "GENTA 40",
+            "form": "Solution injectable IM/IV",
+            "dosage": "20 mg/mL (40 mg/2 mL)"
+          },
+          {
+            "brand": "GENTAXYN",
+            "form": "Solution injectable IM/IV",
+            "dosage": "20 mg/mL / 40 mg/mL"
+          },
+          {
+            "brand": "GENTHERAXINE",
+            "form": "Solution injectable IM/IV",
+            "dosage": "20 mg/mL / 40 mg/mL"
+          },
+          {
+            "brand": "EPIGENT",
+            "form": "Solution injectable IM/IV",
+            "dosage": "40 mg/mL (80 mg/2 mL)"
+          },
+          {
+            "brand": "GENTA 80",
+            "form": "Solution injectable IM/IV",
+            "dosage": "40 mg/mL (80 mg/2 mL)"
+          },
+          {
+            "brand": "GENTACINE",
+            "form": "Solution injectable IM/IV",
+            "dosage": "40 mg/mL (80 mg/2 mL)"
+          },
+          {
+            "brand": "GENTAMYCINE GEO",
+            "form": "Solution injectable IM/IV",
+            "dosage": "40 mg/mL (80 mg/2 mL)",
+            "laboratoire": "GEO Pharma"
+          },
+          {
+            "brand": "GENTAMICINE CHAUVIN 0,3 %",
+            "form": "Pommade ophtalmique",
+            "dosage": "3 mg/g",
+            "laboratoire": "Chauvin"
+          },
+          {
+            "brand": "APIGEN",
+            "form": "Collyre en solution",
+            "dosage": "3 mg/mL"
+          },
+          {
+            "brand": "GENTADAR",
+            "form": "Collyre en solution",
+            "dosage": "3 mg/mL"
+          },
+          {
+            "brand": "GENTALEX",
+            "form": "Collyre en solution",
+            "dosage": "3 mg/mL"
+          },
+          {
+            "brand": "GENTHERAXINE",
+            "form": "Collyre en solution",
+            "dosage": "3 mg/mL"
+          },
+          {
+            "brand": "GENTOCIL",
+            "form": "Collyre en solution",
+            "dosage": "3 mg/mL (0,3 %)"
+          },
+          {
+            "brand": "Produit : Gentamicine sulfate (GENTA 80)",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "Produit : Gentamicin sulfate",
+            "form": "Source : DailyMed (NLM/FDA)",
+            "dosage": "États-Unis",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "Produit : Gentamicine (GENTA 80)",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[DailyMed / NLM-FDA",
+            "form": "Label Gentamicin Sulfate Injection",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gentamicin"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Vérification noms commerciaux gentamicine en Algérie",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 12,
@@ -3226,6 +3601,12 @@
             "brand": "XYDOL ENFANTS ET NOURRISSONS",
             "form": "SUSPENSION BUVABLE",
             "dosage": "20MG/ML"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code ATC",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=M02AA13",
+            "laboratoire": "11/11/2026"
           }
         ]
       },
@@ -3531,6 +3912,12 @@
             "brand": "PROFENID",
             "form": "SUPPOSITOIRE",
             "dosage": "100MG"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code ATC",
+            "dosage": "international",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=M02AA10"
           }
         ]
       },
@@ -3648,10 +4035,76 @@
         "code_atc": "C09CA01",
         "present_dans_miph": "Oui — N° 32 (Classe : Antihypertenseurs)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (ANSM, DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP enregistre le losartan principalement en **comprimé pelliculé 50 mg et 100 mg** (sécable ou non), avec plusieurs génériques locaux (ANGIZAR, BEKTAL, HYSARTAN, LAZARTAN, NORTA…). L'ANSM (France) répertorie également Cozaar® 50 mg et 100 mg et de nombreux génériques, avec des RCP conformes aux normes européennes (EMA). DailyMed présente le losartan potassium en comprimé 25 mg / 50 mg / 100 mg. Les dosages 25 mg présents aux États-Unis ne sont pas systématiquement enregistrés en Algérie. Les données MIPH/ANPP prévalent pour la pratique clinique algérienne.",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°32 — losartan C09CA01, présence confirmée, 8 spécialités enregistrées — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANPP / pharmnet-dz — RCP losartan (COZZAR, ANGIZAR, HYSARTAN…) — Algérie — https://www.pharmnet-dz.com — Novembre 2026",
+          "ANSM / Base de données publique des médicaments — RCP et Notice losartan potassique — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "DailyMed / NLM-FDA — Label losartan potassium — États-Unis — https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=losartan — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (ANSM, DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH/ANPP enregistre le losartan principalement en comprimé pelliculé 50 mg et 100 mg (sécable ou non), avec plusieurs génériques locaux (ANGIZAR, BEKTAL, HYSARTAN, LAZARTAN, NORTA…). L'ANSM (France) répertorie également Cozaar® 50 mg et 100 mg et de nombreux génériques, avec des RCP conformes aux normes européennes (EMA). DailyMed présente le losartan potassium en comprimé 25 mg / 50 mg / 100 mg. Les dosages 25 mg présents aux États-Unis ne sont pas systématiquement enregistrés en Algérie. Les données MIPH/ANPP prévalent pour la pratique clinique algérienne.",
+        "produits": [
+          {
+            "brand": "COZZAR",
+            "form": "Comprimé pelliculé",
+            "dosage": "50 mg / 100 mg",
+            "laboratoire": "MSD France"
+          },
+          {
+            "brand": "ANGIZAR",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "50 mg"
+          },
+          {
+            "brand": "BEKTAL",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "50 mg / 100 mg"
+          },
+          {
+            "brand": "HYSARTAN",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "50 mg / 100 mg"
+          },
+          {
+            "brand": "LAZARTAN",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "50 mg / 100 mg"
+          },
+          {
+            "brand": "LOZARTAN GEO",
+            "form": "Comprimé pelliculé",
+            "dosage": "50 mg",
+            "laboratoire": "GEO Pharma"
+          },
+          {
+            "brand": "NORTA",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "50 mg"
+          },
+          {
+            "brand": "NORTA FORT",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "100 mg"
+          },
+          {
+            "brand": "Produit : Losartan",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "Produit : Losartan potassium",
+            "form": "Source : DailyMed (NLM/FDA)",
+            "dosage": "États-Unis",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[DailyMed / NLM-FDA",
+            "form": "Label losartan potassium",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=losartan"
+          }
+        ]
       },
       "stats": {
         "total_files": 8,
@@ -3861,6 +4314,12 @@
             "brand": "MELOX",
             "form": "COMPRIME",
             "dosage": "7,5MG"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code M01AC06",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=M01AC06",
+            "laboratoire": "consulté le 11/11/2026"
           }
         ]
       },
@@ -4086,6 +4545,24 @@
             "brand": "NAPROLGIC",
             "form": "COMPRIME PELLICULE SECABLE",
             "dosage": "550MG"
+          },
+          {
+            "brand": "Document étranger complémentaire : naproxène sodique 275 mg et 550 mg, comprimés",
+            "form": "DailyMed, États-Unis",
+            "dosage": "Medication Guide et informations professionnelles (Full Prescribing Information) dans le même document",
+            "laboratoire": "`Naproxene_sodique_275_550mg_DailyMed_USA.pdf`."
+          },
+          {
+            "brand": "DailyMed",
+            "form": "informations professionnelles et Medication Guide pour naproxène sodique 275 mg et 550 mg",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58caec51-74aa-44b8-9638-f7cca096a54a"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code M01AE02",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=M01AE02",
+            "laboratoire": "consulté le 11/11/2026"
           }
         ]
       },
@@ -4293,6 +4770,18 @@
             "brand": "ANTAPAM",
             "form": "SOLUTION INJECTABLE IV /IM",
             "dosage": "20MG/2ML"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "PubMed",
+            "form": "Revue systématique comparant les traitements antibiotiques de première intention de l'otite moyenne aiguë chez l'enfant.",
+            "dosage": "États-Unis",
+            "laboratoire": "https://pubmed.ncbi.nlm.nih.gov/"
           }
         ]
       },
@@ -4420,10 +4909,27 @@
         "code_atc": "C08CA05",
         "present_dans_miph": "Non — N° 28 — Produit non trouvé dans les sources officielles algériennes à la date de consultation (août 2026) ; code ATC non disponible dans la nomenclature",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026",
-        "authority_level": 0,
-        "sources": [],
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°28 — nifédipine C08CA05, non présente (produit non trouvé, code ATC non disponible) — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "DailyMed / NLM-FDA — Label nifedipine (Adalat® CC, Procardia® XL) — États-Unis — https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nifedipine — Novembre 2026",
+          "ANSM / Base de données publique des médicaments — Adalate® 10 mg capsules et LP — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026"
+        ],
         "remarques": "Une source étrangère (DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nifédipine n'est pas référencée dans la nomenclature MIPH (version août 2026). DailyMed présente des formes à libération prolongée (30 mg, 60 mg, 90 mg) et des capsules à libération immédiate (10 mg, 20 mg). L'ANSM référence Adalate® en capsules 10 mg et formes LP 20 mg/30 mg. En l'absence d'enregistrement algérien confirmé, les données DailyMed/ANSM constituent la seule référence technique disponible pour ce médicament dans le présent corpus, sous réserve de mise à jour de la nomenclature MIPH.",
-        "produits": []
+        "produits": [
+          {
+            "brand": "Produit : Nifedipine",
+            "form": "Source : DailyMed (NLM/FDA)",
+            "dosage": "États-Unis",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[DailyMed / NLM-FDA",
+            "form": "Label nifedipine (Adalat® CC, Procardia® XL)",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nifedipine"
+          }
+        ]
       },
       "stats": {
         "total_files": 1,
@@ -4926,6 +5432,18 @@
             "brand": "MIGRAMOL PEDIATRIQUE",
             "form": "SUSPENSION BUVABLE",
             "dosage": "120MG/5ML (2,4G/100ML)"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code N02BE01",
+            "dosage": "https://atcddd.fhi.no/atc_ddd_index/?code=N02BE01",
+            "laboratoire": "consulté le 11/11/2026"
+          },
+          {
+            "brand": "DwaDZ",
+            "form": "notice de PANADOL 1G",
+            "dosage": "source secondaire",
+            "laboratoire": "https://www.dzair-pharma.net/medicament/enregistrement/291/panadol-1g-1000mg-comprime-pellicule-secable"
           }
         ]
       },
@@ -5130,6 +5648,18 @@
             "brand": "PLANADIX CONFORT +",
             "form": "COMPRIMÉ",
             "dosage": "500MG/30MG"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "PubMed",
+            "form": "Revue systématique comparant les traitements antibiotiques de première intention de l'otite moyenne aiguë chez l'enfant.",
+            "dosage": "États-Unis",
+            "laboratoire": "https://pubmed.ncbi.nlm.nih.gov/"
           }
         ]
       },
@@ -5270,10 +5800,62 @@
         "code_atc": "C09AA04",
         "present_dans_miph": "Oui — N° 29 (Classe : Antihypertenseurs)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre le périndopril en **4 mg, 5 mg, 8 mg et 10 mg**, sous forme de comprimé/comprimé pelliculé (COVERSYL, PERINDOSYL, PERINDOPRIL BEKER). L'ANSM distingue deux sels — erbumine (Coversyl® 4 mg/8 mg) et arginine (Coversyl® 5 mg/10 mg) — ainsi que des associations fixes (périndopril + indapamide, périndopril + amlodipine). Les associations fixes ne sont pas systématiquement répertoriées dans la nomenclature algérienne à la date consultée. Les données MIPH/ANPP prévalent pour l'Algérie.",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°29 — périndopril C09AA04, présence confirmée, 6 présentations enregistrées (COVERSYL, PERINDOSYL, PERINDOPRIL BEKER) — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANPP / pharmnet-dz — Fiches spécialités (COVERSYL 5 mg, 10 mg ; PERINDOPRIL BEKER 4 mg, 8 mg) — Algérie — https://www.pharmnet-dz.com — Novembre 2026",
+          "ANSM / Base de données publique des médicaments — RCP périndopril erbumine/arginine (Coversyl®, génériques) — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "dzair-pharma.net — Vérification noms commerciaux périndopril en Algérie — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (ANSM) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre le périndopril en 4 mg, 5 mg, 8 mg et 10 mg, sous forme de comprimé/comprimé pelliculé (COVERSYL, PERINDOSYL, PERINDOPRIL BEKER). L'ANSM distingue deux sels — erbumine (Coversyl® 4 mg/8 mg) et arginine (Coversyl® 5 mg/10 mg) — ainsi que des associations fixes (périndopril + indapamide, périndopril + amlodipine). Les associations fixes ne sont pas systématiquement répertoriées dans la nomenclature algérienne à la date consultée. Les données MIPH/ANPP prévalent pour l'Algérie.",
+        "produits": [
+          {
+            "brand": "COVERSYL",
+            "form": "Comprimé pelliculé",
+            "dosage": "10 mg",
+            "laboratoire": "Servier"
+          },
+          {
+            "brand": "COVERSYL",
+            "form": "Comprimé pelliculé sécable",
+            "dosage": "5 mg",
+            "laboratoire": "Servier"
+          },
+          {
+            "brand": "PERINDOSYL",
+            "form": "Comprimé",
+            "dosage": "4 mg"
+          },
+          {
+            "brand": "PERINDOSYL",
+            "form": "Comprimé pelliculé",
+            "dosage": "8 mg"
+          },
+          {
+            "brand": "PERINDOPRIL BEKER",
+            "form": "Comprimé sécable",
+            "dosage": "4 mg",
+            "laboratoire": "Beker Pharma"
+          },
+          {
+            "brand": "PERINDOPRIL BEKER",
+            "form": "Comprimé",
+            "dosage": "8 mg",
+            "laboratoire": "Beker Pharma"
+          },
+          {
+            "brand": "Produit : Périndopril (COVERSYL / PERINDOPRIL BEKER)",
+            "form": "Source : ANPP",
+            "dosage": "Algérie",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Vérification noms commerciaux périndopril en Algérie",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 6,
@@ -5556,6 +6138,18 @@
             "brand": "CYCLADOL",
             "form": "COMPRIME SECABLE",
             "dosage": "20MG"
+          },
+          {
+            "brand": "OMS, index ATC/DDD",
+            "form": "code M01AC01",
+            "dosage": "source officielle internationale",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=M01AC01"
+          },
+          {
+            "brand": "ANMDMR",
+            "form": "notice de PIROXICAM SINTOFARM",
+            "dosage": "Roumanie",
+            "laboratoire": "https://www.anm.ro/_/_PRO/pro_1491_16.03.09.pdf"
           }
         ]
       },
@@ -5728,10 +6322,80 @@
         "code_atc": "C09AA05",
         "present_dans_miph": "Oui — N° 30 (Classe : Antihypertenseurs)",
         "version_nomenclature": "Nomenclature nationale algérienne — version août 2026 (confirmée via ANPP / dzair-pharma.net)",
-        "authority_level": 0,
-        "sources": [],
-        "remarques": "Une source étrangère (ANSM, DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre le ramipril sous de nombreuses spécialités locales en **comprimé sécable** (1,25 mg à 10 mg) et en **gélule** (TRIAMPEX — spécificité algérienne). L'ANSM recense Triatec® en comprimé sécable 1,25 mg, 2,5 mg, 5 mg et 10 mg, et de nombreux génériques. DailyMed présente Altace® (ramipril) uniquement en gélule de 1,25 mg à 10 mg, sans forme comprimé. La forme comprimé sécable, largement utilisée en Algérie, prévaut dans la nomenclature MIPH et est à privilégier pour les prescriptions et analyses cliniques algériennes. | --",
-        "produits": []
+        "authority_level": 4,
+        "sources": [
+          "MIPH — Nomenclature nationale N°30 — ramipril C09AA05, présence confirmée, 7 spécialités (TRIATEC, TANATRIL, RAMINORM, RAMIPRIL BEKER, RAMIPRIL PHYSIOPHARM, RAMITRIM, TRIAMPEX) — Algérie — https://www.miph.gov.dz/nomenclature — Août 2026",
+          "ANSM / Base de données publique des médicaments — RCP et Notice ramipril (Triatec®, génériques) — France — https://base-donnees-publique.medicaments.gouv.fr — Novembre 2026",
+          "DailyMed / NLM-FDA — Label Ramipril capsules (Altace®) — États-Unis — https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ramipril — Novembre 2026",
+          "ANPP / pharmnet-dz — Fiches spécialités ramipril enregistrées en Algérie — Algérie — https://www.pharmnet-dz.com — Novembre 2026",
+          "dzair-pharma.net — Page DCI ramipril — Algérie — https://www.dzair-pharma.net — Novembre 2026"
+        ],
+        "remarques": "Une source étrangère (ANSM, DailyMed) complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : La nomenclature MIPH enregistre le ramipril sous de nombreuses spécialités locales en comprimé sécable (1,25 mg à 10 mg) et en gélule (TRIAMPEX — spécificité algérienne). L'ANSM recense Triatec® en comprimé sécable 1,25 mg, 2,5 mg, 5 mg et 10 mg, et de nombreux génériques. DailyMed présente Altace® (ramipril) uniquement en gélule de 1,25 mg à 10 mg, sans forme comprimé. La forme comprimé sécable, largement utilisée en Algérie, prévaut dans la nomenclature MIPH et est à privilégier pour les prescriptions et analyses cliniques algériennes.",
+        "produits": [
+          {
+            "brand": "TRIATEC",
+            "form": "Comprimé sécable",
+            "dosage": "1,25 mg / 2,5 mg / 5 mg / 10 mg",
+            "laboratoire": "Sanofi Aventis Algérie"
+          },
+          {
+            "brand": "TANATRIL",
+            "form": "Comprimé sécable",
+            "dosage": "1,25 mg / 2,5 mg / 5 mg / 10 mg",
+            "laboratoire": "Pharmalliance / Pharmascience"
+          },
+          {
+            "brand": "RAMINORM",
+            "form": "Comprimé",
+            "dosage": "10 mg"
+          },
+          {
+            "brand": "RAMIPRIL BEKER",
+            "form": "Comprimé sécable",
+            "dosage": "5 mg / 10 mg",
+            "laboratoire": "Beker Pharma"
+          },
+          {
+            "brand": "RAMIPRIL PHYSIOPHARM",
+            "form": "Comprimé sécable",
+            "dosage": "5 mg",
+            "laboratoire": "Physiopharm"
+          },
+          {
+            "brand": "RAMITRIM",
+            "form": "Comprimé sécable",
+            "dosage": "5 mg / 10 mg"
+          },
+          {
+            "brand": "TRIAMPEX",
+            "form": "Gélule",
+            "dosage": "2,5 mg / 5 mg / 10 mg"
+          },
+          {
+            "brand": "Produit : Ramipril",
+            "form": "Source : DailyMed (NLM/FDA)",
+            "dosage": "États-Unis",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "Produit : Ramipril",
+            "form": "Source : ANSM (Base de données publique des médicaments)",
+            "dosage": "France",
+            "laboratoire": "Novembre 2026"
+          },
+          {
+            "brand": "[DailyMed / NLM-FDA",
+            "form": "Label Ramipril capsules (Altace®)",
+            "dosage": "États-Unis",
+            "laboratoire": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ramipril"
+          },
+          {
+            "brand": "[dzair-pharma.net",
+            "form": "Page DCI ramipril",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzair-pharma.net"
+          }
+        ]
       },
       "stats": {
         "total_files": 6,
@@ -6054,6 +6718,18 @@
             "brand": "ZODID",
             "form": "GÉLULE",
             "dosage": "50MG"
+          },
+          {
+            "brand": "Dzair Pharma",
+            "form": "Code et classification ATC du médicament.",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.dzairpharma.com/"
+          },
+          {
+            "brand": "PubMed",
+            "form": "Revue systématique comparant les traitements antibiotiques de première intention de l'otite moyenne aiguë chez l'enfant.",
+            "dosage": "États-Unis",
+            "laboratoire": "https://pubmed.ncbi.nlm.nih.gov/"
           }
         ]
       },
