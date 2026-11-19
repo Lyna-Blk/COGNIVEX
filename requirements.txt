@@ -1,1 +1,6 @@
 requests
+pdfplumber
+openpyxl
+# OCR (optionnel, seulement pour les PDF scannés) :
+# pytesseract
+# Pillow

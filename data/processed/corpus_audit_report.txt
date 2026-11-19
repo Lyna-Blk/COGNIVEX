@@ -1,0 +1,192 @@
+
+========================================================================
+  COGNIVEX CORPUS RAG AUDIT REPORT
+========================================================================
+    Generated : 2026-11-19T17:03:31.632599+00:00
+    Corpus    : C:/Users/Hp/Desktop/COGNIVEX/data/corpus
+
+
+------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------
+    Total files scanned       : 42
+    Total PDFs analysed       : 33
+
+    [READY]  Valid for RAG ingestion  : 33
+    [OCR]    Need OCR processing      : 0
+    [ERROR]  Empty / Corrupt PDFs     : 0
+    [NOISE]  Have header/footer noise : 29
+    [IMAGE]  Non-PDF files (PNG/CSV)  : 9
+    [DUPE]   Duplicate file groups    : 0
+
+------------------------------------------------------------------------
+  VALID FILES READY FOR RAG INGESTION
+------------------------------------------------------------------------
+    [OK]  amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf
+    [OK]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
+    [OK]  amoxicilline/Article_AMOXICILLINE.pdf
+    [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf
+    [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf
+    [OK]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
+    [OK]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
+    [OK]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
+    [OK]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
+    [OK]  céfixime/Article__CEFIXIME.pdf
+    [OK]  céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf
+    [OK]  céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf
+    [OK]  céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf
+    [OK]  céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf
+    [OK]  céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf
+    [OK]  céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf
+    [OK]  céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf
+    [OK]  célécoxib/Article_CÉLÉCOXIB.pdf
+    [OK]  célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf
+    [OK]  célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf
+    [OK]  néfopam/Article_NÉFOPAM.pdf
+    [OK]  néfopam/Notice_NEFOPAM.pdf
+    [OK]  néfopam/RCP_NEFOPAM.pdf
+    [OK]  paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf
+    [OK]  paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf
+    [OK]  paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf
+    [OK]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf
+    [OK]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf
+    [OK]  tramadol/Article_TRAMADOL.pdf
+    [OK]  tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf
+    [OK]  tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf
+    [OK]  tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf
+    [OK]  tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf
+
+------------------------------------------------------------------------
+  FILES NEEDING OCR (image-only or partial scans)
+------------------------------------------------------------------------
+    (none)
+
+------------------------------------------------------------------------
+  EMPTY OR CORRUPTED PDFs
+------------------------------------------------------------------------
+    (none)
+
+------------------------------------------------------------------------
+  FILES WITH HEADER/FOOTER NOISE ARTIFACTS
+------------------------------------------------------------------------
+    [NOISE]  amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf
+             Repeated block: "11/18/26, 6:39 PM
+Base de Données Publique des Médicaments" (x12)
+    [NOISE]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
+             Repeated block: "11/18/26, 6:39 PM
+Base de Données Publique des Médicaments" (x20)
+    [NOISE]  amoxicilline/Article_AMOXICILLINE.pdf
+             Repeated block: "11/18/26, 11:21 PM
+The Diagnosis and Management of Acute Otitis Media | Pediatri" (x119)
+             Repeated block: "This site uses cookies. By continuing to use our website, you are agreeing to ou" (x93)
+             Repeated block: "assessment" (x17)
+    [NOISE]  amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf
+             Repeated block: "11/18/26, 6:42 PM
+Base de Données Publique des Médicaments" (x12)
+    [NOISE]  amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf
+             Repeated block: "11/18/26, 6:41 PM
+Base de Données Publique des Médicaments" (x21)
+             Repeated block: "Très rare" (x5)
+    [NOISE]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
+             Repeated block: "11/17/26, 2:36 PM
+Base de Données Publique des Médicaments" (x14)
+    [NOISE]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
+             Repeated block: "11/17/26, 2:35 PM
+Base de Données Publique des Médicaments" (x21)
+    [NOISE]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
+             Repeated block: "11/18/26, 7:11 PM
+Base de Données Publique des Médicaments" (x13)
+             Repeated block: "Sans objet." (x5)
+    [NOISE]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
+             Repeated block: "11/18/26, 7:10 PM
+Base de Données Publique des Médicaments" (x23)
+    [NOISE]  céfixime/Article__CEFIXIME.pdf
+             Repeated block: "Google Scholar
+Crossref
+PubMed
+WorldCat" (x125)
+             Repeated block: "Other Considerations" (x12)
+             Repeated block: "Rationale for Recommendation and Implementation" (x9)
+    [NOISE]  céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf
+             Repeated block: "11/18/26, 7:22 PM
+Base de Données Publique des Médicaments" (x9)
+             Repeated block: "Sans objet." (x6)
+    [NOISE]  céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf
+             Repeated block: "11/18/26, 7:21 PM
+Base de Données Publique des Médicaments" (x12)
+    [NOISE]  céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf
+             Repeated block: "11/18/26, 7:37 PM
+Base de Données Publique des Médicaments" (x14)
+    [NOISE]  céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf
+             Repeated block: "11/18/26, 7:36 PM
+Base de Données Publique des Médicaments" (x10)
+    [NOISE]  céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf
+             Repeated block: "11/18/26, 7:36 PM
+Base de Données Publique des Médicaments" (x23)
+             Repeated block: "par jour" (x6)
+    [NOISE]  céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf
+             Repeated block: "11/18/26, 7:34 PM
+Base de Données Publique des Médicaments" (x19)
+    [NOISE]  célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf
+             Repeated block: "11/18/26, 8:19 PM
+Base de Données Publique des Médicaments" (x14)
+    [NOISE]  célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf
+             Repeated block: "11/18/26, 8:19 PM
+Base de Données Publique des Médicaments" (x25)
+             Repeated block: "Affections" (x9)
+    [NOISE]  néfopam/Article_NÉFOPAM.pdf
+             Repeated block: "11/18/26, 11:26 PM
+Nefopam prescribing preferences in French hospitals: results " (x13)
+    [NOISE]  néfopam/Notice_NEFOPAM.pdf
+             Repeated block: "11/17/26, 2:46 PM
+Base de Données Publique des Médicaments" (x8)
+    [NOISE]  néfopam/RCP_NEFOPAM.pdf
+             Repeated block: "11/17/26, 2:46 PM
+Base de Données Publique des Médicaments" (x9)
+    [NOISE]  paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf
+             Repeated block: "11/18/26, 8:08 PM
+Base de Données Publique des Médicaments" (x15)
+    [NOISE]  paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf
+             Repeated block: "11/18/26, 8:07 PM
+Base de Données Publique des Médicaments" (x23)
+             Repeated block: "Affections" (x9)
+    [NOISE]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf
+             Repeated block: "11/17/26, 2:49 PM
+Base de Données Publique des Médicaments" (x12)
+    [NOISE]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf
+             Repeated block: "11/17/26, 2:49 PM
+Base de Données Publique des Médicaments" (x18)
+    [NOISE]  tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf
+             Repeated block: "11/18/26, 8:36 PM
+Base de Données Publique des Médicaments" (x12)
+    [NOISE]  tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf
+             Repeated block: "11/18/26, 8:35 PM
+Base de Données Publique des Médicaments" (x17)
+    [NOISE]  tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf
+             Repeated block: "11/18/26, 8:38 PM
+Base de Données Publique des Médicaments" (x14)
+    [NOISE]  tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf
+             Repeated block: "11/18/26, 8:36 PM
+Base de Données Publique des Médicaments" (x19)
+
+------------------------------------------------------------------------
+  DUPLICATE FILE GROUPS
+------------------------------------------------------------------------
+    (none)
+
+------------------------------------------------------------------------
+  NON-PDF FILES (may need separate ingestion pipeline)
+------------------------------------------------------------------------
+    [WEBP]  amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp  (14,530 bytes)
+    [WEBP]  amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp  (38,582 bytes)
+    [ JPG]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg  (17,496 bytes)
+    [ JPG]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg  (5,844 bytes)
+    [JPEG]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg  (54,831 bytes)
+    [WEBP]  céfixime/CEFIXIME ALMUS 200 mg.webp  (18,492 bytes)
+    [WEBP]  céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp  (13,658 bytes)
+    [WEBP]  néfopam/NEFOPAM.webp  (6,624 bytes)
+    [ PNG]  néfopam/NEFOPAM_ARROW_20_mg_2_ml.png  (245,756 bytes)
+
+========================================================================
+  END OF REPORT
+========================================================================
