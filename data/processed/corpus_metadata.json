@@ -1,0 +1,2097 @@
+[
+  {
+    "dci": "ATÉNOLOL",
+    "code_atc": "C07AB03",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/aténolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour l'Aténolol (Tenormine 100 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Tenormine 100 mg).",
+    "produits": [
+      {
+        "brand": "DAGHTAN 50",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "50MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "CARDINOL BGL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DAGHTAN 100",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "CARDINOL BGL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "50MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TENORMED",
+        "form": "COMPRIME SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "AZITHROMYCINE",
+    "code_atc": "J01FA10",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/azithromycine.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Azithromycin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/2276/smpc — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Azithromycin 250 mg ; Azithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA10) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA10 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Azithromycin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "MYCINAD",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZITROMICINE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZOTRIX",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZIMYCINE",
+        "form": "GELULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "BINOZYT",
+        "form": "GELULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZETRON",
+        "form": "GELULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZYTER",
+        "form": "COLLYRE EN SOLUTION EN RECIPIENT UNIDOSE",
+        "dosage": "15 MG/G",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "BINOZYT",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZETRON",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZITROMICINE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZIMAC",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZITHRAL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZITHROM HUP",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZITHROMYCINE BEKER",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "AZITHROMYCINE NS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MYCINAD",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZITHROMAX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZITHROMYCINE BGL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZOTRIX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZOMAX",
+        "form": "POUDRE POUR SOLUTION BUVABLE",
+        "dosage": "200MG/5ML(40MG/ML)",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZOTRIX",
+        "form": "POUDRE POUR SOLUTION BUVABLE",
+        "dosage": "200MG/5ML(40MG/ML)",
+        "file_paths": [
+          "data/corpus/azithromycine/azithromycine_Notice_EMC.pdf",
+          "data/corpus/azithromycine/azithromycine_RCP_EMC.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "BISOPROLOL",
+    "code_atc": "C07AB07",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/bisoprolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Extraction du RCP officiel et de la disponibilité du Detensiel — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement de la Notice de référence du DETENSIEL — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Le RCP officiel algérien de l'ANPP (Detensiel 10 mg) constitue la référence principale, complété par la notice officielle ANSM (France) pour les informations destinées aux patients, les deux documents concordant parfaitement sur les données cliniques et thérapeutiques.",
+    "produits": [
+      {
+        "brand": "BISOPROLOL HUP",
+        "form": "COMPRIME",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL BEKER",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL MM",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BIPROTENS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL BEKER",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL MM",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOSEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOTAB",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BONACOR",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BYZOLEX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CIRBESA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DETENPRESS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DETENSIEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PRODOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PROMIVOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "RIZOPROL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BIPROTENS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOSEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOTAB",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BONACOR",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CIRBESA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DIPROLOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PRODOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "RIZOPROL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CARDENSIEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "2,5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BYZOLEX 5",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "CEFTRIAXONE",
+    "code_atc": "J01DD04",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/ceftriaxone.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — RCP de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — Notice de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01DD04) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "CETRIAL",
+        "form": "PDRE P.PREPARATION INJ IV",
+        "dosage": "1G/FL",
+        "file_paths": [
+          "data/corpus/ceftriaxone/ceftriaxone_Notice_ANSM.pdf",
+          "data/corpus/ceftriaxone/ceftriaxone_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "CETRIAXONE HUP",
+        "form": "PDRE. ET SOLV. P. SOL. INJ. IV",
+        "dosage": "1G/FL. DE PDRE.",
+        "file_paths": [
+          "data/corpus/ceftriaxone/ceftriaxone_Notice_ANSM.pdf",
+          "data/corpus/ceftriaxone/ceftriaxone_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ZAFOTRIAXONE",
+        "form": "POUDRE POUR SOLUTION INJECTABLE IV/IM",
+        "dosage": "1G/FL. DE PDRE.",
+        "file_paths": [
+          "data/corpus/ceftriaxone/ceftriaxone_Notice_ANSM.pdf",
+          "data/corpus/ceftriaxone/ceftriaxone_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "CIPROFLOXACINE",
+    "code_atc": "J01MA02",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/ciprofloxacine.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Ciprofloxacin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7257/smpc — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Ciprofloxacin 250 mg film-coated tablets ; Ciprofloxacin 500 mg film-coated tablets ; Ciprofloxacin 750 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Ciprofloxacin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "OZAFLOX",
+        "form": "COMPRIME ENROBE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROFLOXAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROTEK",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "FLOCINE250",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LOXANAD",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPRO 500",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPRODAR",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROTEK",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LOXANAD",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MEFLOX",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "QUINOX",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROFLOXACINE BEKER",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "750MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIFLOXACINE",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROFLOXACINE BEKER",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROFLOXAL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "FLOCINE500",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CILOXAN",
+        "form": "POMMADE OPHTALMIQUE",
+        "dosage": "0,003",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "OTOCINE",
+        "form": "SOL AURICULAIRE STERILE",
+        "dosage": "2MG/ML (1MG/0,5ML)",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "OTOFLOX",
+        "form": "SOL AURICULAIRE STERILE",
+        "dosage": "2MG/ML (1MG/0,5ML)",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "QUINOX LP",
+        "form": "COMPRIME A LIBERATION PROLONGEE",
+        "dosage": "1G",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPRO",
+        "form": "COLLYRE EN SOLUTION",
+        "dosage": "0.3%",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPRODAR",
+        "form": "COLLYRE EN SOLUTION",
+        "dosage": "0.3%",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CIPROTEK",
+        "form": "COLLYRE EN SOLUTION",
+        "dosage": "0.3%",
+        "file_paths": [
+          "data/corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "data/corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "CLARITHROMYCINE",
+    "code_atc": "J01FA09",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/clarithromycine.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Clarithromycin 500 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7072/smpc — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Clarithromycin 250 mg ; Clarithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA09) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Clarithromycin 500 mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "MEDOCLAR",
+        "form": "COMPRIME",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZECLAR",
+        "form": "COMPRIME",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MEDOCLAR",
+        "form": "COMPRIME",
+        "dosage": "250 MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ORADRO",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ARICLARE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARIDAR 500",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARITAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARITHRO",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARITHROMYCINE NS",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "RITOCINE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ORADRO",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARIDAR 250",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "RITOCINE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZECLAR",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARITHRO",
+        "form": "GRANULE POUR SUSPENSION BUV",
+        "dosage": "50MG/ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARITHRO",
+        "form": "GRANULE POUR SUSPENSION BUV",
+        "dosage": "25MG/ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "ZECLAR 25",
+        "form": "GRANULE POUR SUSPENSION BUVABLE",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "HUCLAR",
+        "form": "GRANULE POUR SUSPENSION BUVABLE EN FLACON",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARIDAR 250",
+        "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+        "dosage": "250MG/5ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "HUCLAR",
+        "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+        "dosage": "250MG/5ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "CLARIDAR 125",
+        "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "data/corpus/clarithromycine/clarithromycine_RCP_EMC.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "COTRIMOXAZOLE",
+    "code_atc": "J01EE01",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/cotrimoxazole.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — RCP de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — Notice de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01EE01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de BACTRIM FORTE, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "COTRIMOXAL",
+        "form": "COMPRIME",
+        "dosage": "400MG/80MG",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "PRIMAZOL",
+        "form": "COMPRIME",
+        "dosage": "400MG/80MG",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "COTRIMOXAL FORTE",
+        "form": "COMPRIME AVEC BARRE DE CASSEURE",
+        "dosage": "800MG/160MG",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "C-ZOLE",
+        "form": "SOLUTION INJECTABLE POUR PER IV",
+        "dosage": "80 MG/400MG ( 16MG/ML/80 MG/ML)",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "BACTISOL",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "200MG/40MG/5ML",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "COTRIM",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "200MG/40MG/5ML",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "COTRIMAZOLE",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "200MG/40MG/5Ml",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DIPRIM",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "200MG/40MG/5Ml",
+        "file_paths": [
+          "data/corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "data/corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "DOXYCYCLINE",
+    "code_atc": "J01AA02",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/doxycycline.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — RCP de référence (DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — Notice de référence (DOXYCYCLINE SANDOZ 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01AA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "XYLINE",
+        "form": "COMPRIME SECABLE",
+        "dosage": "100 MG",
+        "file_paths": [
+          "data/corpus/doxycycline/doxycycline_Notice_ANSM.pdf",
+          "data/corpus/doxycycline/doxycycline_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DOTUR",
+        "form": "COMPRIME SECABLE",
+        "dosage": "100 MG",
+        "file_paths": [
+          "data/corpus/doxycycline/doxycycline_Notice_ANSM.pdf",
+          "data/corpus/doxycycline/doxycycline_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DOXYNUP",
+        "form": "COMPRIME ORODISPERSIBLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/doxycycline/doxycycline_Notice_ANSM.pdf",
+          "data/corpus/doxycycline/doxycycline_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "HYDROCHLOROTHIAZIDE",
+    "code_atc": "C03AA03",
+    "present_dans_miph": "non",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/hydrochlorothiazide.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (vérification de la présence de la DCI) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Vérification de disponibilité / recherche de référence — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "DCI non répertoriée dans la nomenclature nationale MIPH, et aucun document officiel (RCP ou notice) retrouvé sur les bases de données algériennes (ANPP) ou étrangères (ANSM)",
+    "produits": []
+  },
+  {
+    "dci": "INDAPAMIDE",
+    "code_atc": "C03BA11",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/indapamide.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Fludex 1,5 mg LP).",
+    "produits": [
+      {
+        "brand": "ADEX LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLUDEX LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLUMIDE LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "INDAPAMIDE BEKER LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "LÉVOFLOXACINE",
+    "code_atc": "J01MA12",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/lévofloxacine.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/smpc — 18/11/2026",
+      "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/pil — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA12) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Levofloxacin 500mg tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "LEVOWORLD",
+        "form": "COLLYRE",
+        "dosage": "5MG/ML",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "VIVAXIN",
+        "form": "COLLYRE",
+        "dosage": "5MG/ML",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LOXAMOX",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "750MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LOXAMOX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MATADOR 250",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MATADOR 500",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "MATADOR 750",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "750MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LEVOFLOX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LEVOQUIN",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LEVOWORLD",
+        "form": "GOUTTES OCULAIRES ET AURICULAIRES EN SOLUTION",
+        "dosage": "5MG/ML",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LEVOQUIN",
+        "form": "SOLUTION POUR PERFUSION",
+        "dosage": "5MG/ML",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      },
+      {
+        "brand": "LEVOFLOXACINE RAZES",
+        "form": "SOLUTION POUR PERFUSION",
+        "dosage": "5MG/ML",
+        "file_paths": [
+          "data/corpus/lévofloxacine/lévofloxacine_Notice_EMC.pdf",
+          "data/corpus/lévofloxacine/lévofloxacine_RCP_EMC.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "MÉTHYLDOPA",
+    "code_atc": "C02AB02",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/méthyldopa.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour la Méthyldopa (Aldomet 250 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Aldomet 250 mg)",
+    "produits": [
+      {
+        "brand": "ALDOMET",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DOPAMET",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METHYCARE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "MÉTRONIDAZOLE",
+    "code_atc": "J01XD01",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/métronidazole.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+      "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — RCP de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "ANSM — Base de données publique des médicaments — Notice de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+      "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01XD01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01XD01 — 18/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de FLAGYL 500 mg, comprimé pelliculé (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+    "produits": [
+      {
+        "brand": "MEDAZOL",
+        "form": "COMPRIME",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METROGYL",
+        "form": "COMPRIME",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RONIDAZ 500",
+        "form": "COMPRIME",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "BIODAZOLE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLAGYNEX",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METAZOLE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "MEDOGYL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE MM",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "IMUZOLE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLAZOL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "IMUZOLE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RONIDAZ 250",
+        "form": "COMPRIME SECABLE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METROGYL",
+        "form": "COMPRIME SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE HUP",
+        "form": "COMPRIME SECABLE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDQZAZOLE MM",
+        "form": "COPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METROZEX",
+        "form": "GEL DERMIQUE",
+        "dosage": "0,0075",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ROSADOZE",
+        "form": "GEL DERMIQUE",
+        "dosage": "0,0075",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ROZEX",
+        "form": "GEL DERMIQUE",
+        "dosage": "0,0075",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE BEKER",
+        "form": "GELULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE BEKER",
+        "form": "GELULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FONGYMEX",
+        "form": "OVULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METROFAGYL",
+        "form": "OVULE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLAGYL",
+        "form": "OVULE VAGINALE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "IMUZOLE",
+        "form": "OVULE VAGINALE",
+        "dosage": "500MG",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "BIODAZOLE",
+        "form": "SOLUTION INJECTABLE",
+        "dosage": "5MG/ML (500MG/100ML)",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE BIEFFE MEDITAL",
+        "form": "SOLUTION INJECTABLE",
+        "dosage": "5MG/ML (500MG/100ML)",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "MEDROGYL",
+        "form": "SOLUTION INJECTABLE IV",
+        "dosage": "5MG/ML (500MG/100ML)",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METRONIDAZOLE RAZES 0,5%",
+        "form": "SOLUTION INJECTABLE POUR PERFUSION",
+        "dosage": "5MG/ML (500MG/100ML)",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLAZOL",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METAGYL",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLAGYL",
+        "form": "SUSPENSION BUVABLE",
+        "dosage": "125MG/5ML",
+        "file_paths": [
+          "data/corpus/métronidazole/métronidazole_Notice_ANSM.pdf",
+          "data/corpus/métronidazole/métronidazole_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "NÉBIVOLOL",
+    "code_atc": "C07AB12",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/nébivolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour le Nébivolol (Temerit 5 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Temerit 5 mg).",
+    "produits": [
+      {
+        "brand": "TEMERIVOL",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "NEBCAR",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "NEBCAR",
+        "form": "COMPRIME SECABLE",
+        "dosage": "2,5 MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TEMERIT",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "SPIRONOLACTONE",
+    "code_atc": "C03DA01",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/spironolactone.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour la Spironolactone (Aldactone 75 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Aldactone 75 mg).",
+    "produits": [
+      {
+        "brand": "ALDACTONE",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "75MG",
+        "file_paths": [
+          "data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
+          "data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SPIRONOLONE",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "75MG",
+        "file_paths": [
+          "data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
+          "data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "VALSARTAN",
+    "code_atc": "C09CA03",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/valsartan.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité du RCP/Notice officiel — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — RCP et Notice de référence (indications, posologie, contre-indications) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP algérien disponible en ligne ; les formes et dosages commercialisés en Algérie (comprimés de 40 mg, 80 mg, 160 mg et 320 mg selon la nomenclature MIPH) prévalent sur les présentations supplémentaires décrites dans le RCP ANSM (notamment la forme solution buvable pédiatrique non répertoriée dans la nomenclature algérienne).",
+    "produits": [
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR 40",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "40MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ARBITAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DIVALAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "HUREG HUP",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAROVAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALASTAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VESTAG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VIASART",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ARBITAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DIVALAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "HUREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RETA 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALASTAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALEX 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VESTAG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VIASART",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "320MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALCARD ALEMBIC MAMI",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "320MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RETA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALEX 80",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VAREG",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSIS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VAREG",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSIS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  }
+]

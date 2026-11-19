@@ -1,0 +1,47 @@
+# DCI 17 — CEFTRIAXONE
+## Articles scientifiques
+
+### Article 1
+
+- **Titre :** Clinical implications of differences in the pharmacokinetic and pharmacodynamic profiles of ceftriaxone and cefotaxime: A narrative review.
+- **Auteurs :** Mateusz Szymański, Małgorzata Maria Skiba, Małgorzata Piasecka.
+- **Revue :** Advances in Clinical and Experimental Medicine.
+- **Année :** 2026.
+- **Volume / Pages :** 35(3), 555–562.
+- **DOI :** 10.17219/acem/205018
+- **PMID :** non vérifié.
+- **Type :** Revue narrative (48 études incluses selon l'article).
+- **Objectif :** Comparer les profils pharmacocinétiques et pharmacodynamiques de la ceftriaxone et du céfotaxime, deux céphalosporines de 3e génération.
+- **Résumé :** Les deux antibiotiques agissent en se fixant aux protéines de liaison de la pénicilline (PLP), ce qui perturbe la synthèse de la paroi bactérienne. Malgré un spectre proche, leurs différences pharmacocinétiques peuvent influencer le choix et la durée du traitement ainsi que la sélection de résistances chez les bacilles à Gram négatif.
+- **Pertinence pour le projet :** Source récente pour le mécanisme d'action et la pharmacocinétique de la ceftriaxone.
+- **Lien :** https://advances.umw.edu.pl/en/article/2026/35/3/555
+
+### Article 2
+
+- **Titre :** Pharmacokinetics of ceftriaxone, gentamicin, meropenem and vancomycin in liver cirrhosis: a systematic review.
+- **Auteurs :** M. H. Comce, R. A. Weersink, U. Beuers, R. M. van Hest, M. A. Lantinga.
+- **Revue :** Journal of Antimicrobial Chemotherapy.
+- **Année :** 2024 (publication en ligne le 18/09/2024).
+- **Volume / Pages :** non vérifié.
+- **DOI :** 10.1093/jac/dkae310
+- **PMID :** non vérifié.
+- **Type :** Revue systématique (recherche PubMed, Embase, Cochrane, CINAHL).
+- **Objectif :** Évaluer comment la cirrhose modifie la pharmacocinétique de plusieurs antibiotiques dont la ceftriaxone.
+- **Résumé :** Les auteurs constatent que les données sont rares et qu'il n'existe pas de recommandations posologiques fondées sur des preuves pour les patients cirrhotiques.
+- **Pertinence pour le projet :** Précautions en cas d'insuffisance hépatique ; illustre la nécessité de dire « les sources ne suffisent pas » plutôt que d'inventer une dose.
+- **Lien :** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11531807/
+
+### Article 3
+
+- **Titre :** Ceftriaxone: a review of its antibacterial activity, pharmacological properties and therapeutic use.
+- **Auteurs :** non vérifié.
+- **Revue :** Drugs.
+- **Année :** 1984 (juin).
+- **Volume / Pages :** 27(6), 469–527.
+- **DOI :** non vérifié.
+- **PMID :** non vérifié.
+- **Type :** Revue (article ancien, de référence historique).
+- **Objectif :** Présenter l'activité antibactérienne, les propriétés pharmacologiques et l'usage thérapeutique de la ceftriaxone.
+- **Résumé :** La liaison aux protéines plasmatiques dépend de la concentration, d'où une pharmacocinétique non linéaire. L'élimination rénale se fait par filtration glomérulaire (le probénécide ne la modifie pas). Les concentrations biliaires sont élevées et le passage dans le lait maternel est faible. L'efficacité est décrite dans la gonococcie non compliquée.
+- **Pertinence pour le projet :** Pharmacocinétique, élimination, allaitement. À recouper avec le RCP (document plus récent) en cas de différence.
+- **Lien :** https://scilit.com/publications/8de1d2b7bcf30d591632e807d264790c

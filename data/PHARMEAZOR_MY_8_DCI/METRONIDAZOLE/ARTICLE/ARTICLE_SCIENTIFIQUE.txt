@@ -1,48 +1,47 @@
-# DCI 23 — COTRIMOXAZOLE
+# DCI 24 — MÉTRONIDAZOLE
+## Articles scientifiques
 
-## 04. Références bibliographiques et articles scientifiques
+### Article 1
 
-### Article 1 — Revue générale : activité antibactérienne et efficacité clinique
+- **Titre :** Therapeutic uses of metronidazole and its side effects: an update.
+- **Auteurs :** A. Hernández Ceruelos, L. C. Romero-Quezada, J. C. Ruvalcaba Ledezma, L. López Contreras.
+- **Revue :** European Review for Medical and Pharmacological Sciences.
+- **Année :** 2019.
+- **Volume / Pages :** 23(1), 397–401.
+- **DOI :** 10.26355/eurrev_201901_16788
+- **PMID :** 30657582
+- **Type :** Revue de la littérature.
+- **Objectif :** Faire le point sur les usages thérapeutiques du métronidazole et ses effets indésirables.
+- **Résumé :** Antibiotique très utilisé (trichomonose, amibiase, giardiase, infections anaérobies, maladie de Crohn, prophylaxie chirurgicale). Bien toléré en général (nausées, douleurs abdominales, diarrhée) ; de rares cas de neurotoxicité grave, de neuropathie optique ou périphérique et d'encéphalopathie sont rapportés. Les effets génotoxiques observés chez l'animal restent controversés chez l'humain.
+- **Pertinence pour le projet :** Indications, effets indésirables et précautions.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/30657582/
 
-Wormser GP, Keusch GT, Heel RC. Co-trimoxazole (trimethoprim-sulfamethoxazole): an updated review of its antibacterial activity and clinical efficacy. *Drugs*. 1982;24(6):459–518.
+### Article 2
 
-- PMID : 6759092
-- Lien : https://pubmed.ncbi.nlm.nih.gov/6759092/
-- Intérêt : revue générale sur l’activité antibactérienne, le spectre et l’efficacité clinique du cotrimoxazole.
+- **Titre :** Metronidazole. A therapeutic review and update.
+- **Auteurs :** non vérifié.
+- **Revue :** Drugs.
+- **Année :** 1997 (novembre).
+- **Volume / Pages :** 54(5), 679–708.
+- **DOI :** 10.2165/00003495-199754050-00003
+- **PMID :** 9360057
+- **Type :** Revue.
+- **Objectif :** Actualiser les connaissances sur l'usage thérapeutique du métronidazole.
+- **Résumé :** Le métronidazole joue un rôle important dans les infections à anaérobies, la colite à Clostridium difficile et l'éradication d'Helicobacter pylori (en association). Les auteurs soulignent son faible coût, son profil d'effets indésirables acceptable et l'absence de perte d'activité antimicrobienne.
+- **Pertinence pour le projet :** Indications cliniques et place thérapeutique.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/9360057/
 
-### Article 2 — Pharmacocinétique, utilisations cliniques et effets indésirables
+### Article 3
 
-Kielhofner MA. Trimethoprim-sulfamethoxazole: pharmacokinetics, clinical uses, and adverse reactions. *Texas Heart Institute Journal*. 1990;17(2):86–93.
-
-- PMID : 15227389
-- PMCID : PMC326458
-- Lien : https://pmc.ncbi.nlm.nih.gov/articles/PMC326458/
-- Intérêt : pharmacocinétique des deux composants, utilisations cliniques et effets indésirables.
-
-### Article 3 — Réévaluation de la place thérapeutique du cotrimoxazole
-
-Trimethoprim-sulfamethoxazole revisited. *Archives of Internal Medicine*. 2003;163(4):402.
-- PMID : 12588198
-- DOI : 10.1001/archinte.163.4.402
-- Lien : https://pubmed.ncbi.nlm.nih.gov/12588198/
-- Intérêt : évolution de la place du cotrimoxazole en thérapeutique et importance de la résistance bactérienne dans le choix du traitement.
-
-### Article 4 — Pharmacologie clinique des antibiotiques
-
-Clinical Pharmacology of Antibiotics. *Clinical Microbiology Reviews*. 2019.
-- Lien : https://pmc.ncbi.nlm.nih.gov/articles/PMC6625637/
-- Intérêt : mécanisme d’action du sulfaméthoxazole et du triméthoprime, inhibition successive de la synthèse des folates et pharmacocinétique.
-
-### Article 5 — Sécurité du cotrimoxazole : revue systématique et méta-analyse
-
-Preyra R, Ez Eddin L, Ahmadi F, Jafari A, Muanda FT. Safety of sulfamethoxazole-trimethoprim for the treatment of bacterial infection in outpatient settings: A systematic review and meta-analysis with active comparator disproportionality analysis. *British Journal of Clinical Pharmacology*. 2025;91(6):1632–1648.
-
-- PMID : 40441678
-- DOI : 10.1111/bcp.70051
-- PMCID : PMC12122145
-- Lien : https://pubmed.ncbi.nlm.nih.gov/40441678/
-- Intérêt : évaluation des effets indésirables du cotrimoxazole chez les patients adultes en ambulatoire.
-
-### Remarque méthodologique
-
-Les références ci-dessus sont des sources scientifiques internationales. Elles complètent les documents réglementaires algériens, mais ne les remplacent pas. Les recommandations thérapeutiques et les indications autorisées en Algérie doivent être vérifiées dans les documents réglementaires nationaux disponibles.
+- **Titre :** Metronidazole: drug of choice for anaerobic infections — an overview.
+- **Auteurs :** Virendra Kushwaha, Pooja Agrawal, Vipul Shukla, Brijesh Pathak.
+- **Revue :** World Journal of Pharmaceutical Research.
+- **Année :** 2022.
+- **Volume / Pages :** 11(13), 130–141.
+- **DOI :** non vérifié.
+- **PMID :** non indexé / non vérifié.
+- **Type :** Revue (revue de niveau modeste : à recouper avec les sources officielles).
+- **Objectif :** Présenter le métronidazole dans les infections à anaérobies et à protozoaires.
+- **Résumé :** Le métronidazole est un promédicament activé par réduction de son groupe nitro chez les organismes anaérobies, ce qui produit un radical toxique pour la bactérie. Les effets indésirables les plus fréquents sont digestifs ; des convulsions et des neuropathies périphériques sont rares et surviennent surtout lors de traitements prolongés.
+- **Pertinence pour le projet :** Mécanisme d'action.
+- **Lien :** https://www.wisdomlib.org/uploads/journals/wjpr/volume-11,-october-issue-13_20393.pdf
