@@ -21,8 +21,7 @@
 - Résultat : document ANPP non trouvé
 
 ## Sources consultées
-Au moins 3 sources distinctes, dont au moins une officielle.
-- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
+- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — https://www.miph.gov.dz/fr/ — août 2026
 - ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de NEFOPAM ARROW 20 mg/2 ml, solution injectable (mise à jour ANSM : 11/03/2026) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 17/11/2026
 - ANSM — RCP et notice du médicament. — France — https://ansm.sante.fr/ — [à compléter : date de consultation]

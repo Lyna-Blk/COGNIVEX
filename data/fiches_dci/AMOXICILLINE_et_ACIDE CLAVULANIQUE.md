@@ -25,10 +25,9 @@
 - Résultat : document ANPP non trouvé
 
 ## Sources consultées
-Au moins 3 sources distinctes, dont au moins une officielle.
 - Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
 - ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
-- Base de Données Publique des Médicaments (ANSM) — RCP et notice de AMOXICILLINE ACIDE CLAVULANIQUE ALMUS 100 mg/12,5 mg par mL ENFANTS, poudre pour suspension buvable (rapport amoxicilline/acide clavulanique : 8/1) (mise à jour ANSM : 05/12/2025) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 17/11/2026
+- Base de Données Publique des Médicaments (ANSM) — RCP et notice de AMOXICILLINE ACIDE CLAVULANIQUE ALMUS 100 mg/12,5 mg par mL ENFANTS, poudre pour suspension buvable (rapport amoxicilline/acide clavulanique : 8/1) (mise à jour ANSM : 05/12/2025) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 1 g/200 mg, poudre pour solution injectable/pour perfusion (I.V.) (mise à jour ANSM : 21/02/2023) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
 - ANSM — RCP et notice du médicament. — France — https://ansm.sante.fr/ — [à compléter : date de consultation]
 - Dzair Pharma — Code et classification ATC du médicament. — Algérie — https://www.dzairpharma.com/ — [à compléter : date de consultation]

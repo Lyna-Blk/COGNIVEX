@@ -34,8 +34,7 @@
 - Résultat : document ANPP non trouvé
 
 ## Sources consultées
-Au moins 3 sources distinctes, dont au moins une officielle.
-- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — [lien officiel à compléter] — août 2026
+- Nomenclature nationale des produits pharmaceutiques (MIPH, version août 2026) — présence, noms commerciaux, formes, dosages, code ATC (via le fichier Excel du cours) — Algérie — https://www.miph.gov.dz/fr/ — août 2026
 - ANPP — recherche du RCP et de la notice algériens (document ANPP non trouvé) — Algérie — https://anpp.dz — 17/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de DAFALGAN CODEINE, comprimé pelliculé (mise à jour ANSM : 31/07/2026) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 18/11/2026
 - Base de Données Publique des Médicaments (ANSM) — RCP et notice de PARACETAMOL CODEINE ARROW 500 mg/30 mg, comprimé effervescent sécable (mise à jour ANSM : 21/12/2023) — France — https://base-donnees-publique.medicaments.gouv.fr/ — consulté le 17/11/2026
