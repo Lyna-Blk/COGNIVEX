@@ -1,0 +1,831 @@
+[
+  {
+    "dci": "ATÉNOLOL",
+    "code_atc": "C07AB03",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/aténolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour l'Aténolol (Tenormine 100 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Tenormine 100 mg).",
+    "produits": [
+      {
+        "brand": "DAGHTAN 50",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "50MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "CARDINOL BGL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DAGHTAN 100",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "CARDINOL BGL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "50MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TENORMED",
+        "form": "COMPRIME SECABLE",
+        "dosage": "100MG",
+        "file_paths": [
+          "data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+          "data/corpus/aténolol/aténolol_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "BISOPROLOL",
+    "code_atc": "C07AB07",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/bisoprolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Extraction du RCP officiel et de la disponibilité du Detensiel — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement de la Notice de référence du DETENSIEL — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Le RCP officiel algérien de l'ANPP (Detensiel 10 mg) constitue la référence principale, complété par la notice officielle ANSM (France) pour les informations destinées aux patients, les deux documents concordant parfaitement sur les données cliniques et thérapeutiques.",
+    "produits": [
+      {
+        "brand": "BISOPROLOL HUP",
+        "form": "COMPRIME",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL BEKER",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL MM",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BIPROTENS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL BEKER",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOPROLOL MM",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOSEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOTAB",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BONACOR",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BYZOLEX",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CIRBESA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DETENPRESS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DETENSIEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PRODOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PROMIVOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "RIZOPROL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "10MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BIPROTENS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOSEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BISOTAB",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BONACOR",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CIRBESA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "DIPROLOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "PRODOL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "RIZOPROL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "CARDENSIEL",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "2,5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      },
+      {
+        "brand": "BYZOLEX 5",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+          "data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "HYDROCHLOROTHIAZIDE",
+    "code_atc": "C03AA03",
+    "present_dans_miph": "non",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/hydrochlorothiazide.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (vérification de la présence de la DCI) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Vérification de disponibilité / recherche de référence — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "DCI non répertoriée dans la nomenclature nationale MIPH, et aucun document officiel (RCP ou notice) retrouvé sur les bases de données algériennes (ANPP) ou étrangères (ANSM)",
+    "produits": []
+  },
+  {
+    "dci": "INDAPAMIDE",
+    "code_atc": "C03BA11",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/indapamide.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Fludex 1,5 mg LP).",
+    "produits": [
+      {
+        "brand": "ADEX LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLUDEX LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "FLUMIDE LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "INDAPAMIDE BEKER LP",
+        "form": "COMPRIME PELLICULE A LIBERATION PROLONGEE",
+        "dosage": "1,5MG",
+        "file_paths": [
+          "data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+          "data/corpus/indapamide/indapamide_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "MÉTHYLDOPA",
+    "code_atc": "C02AB02",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/méthyldopa.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour la Méthyldopa (Aldomet 250 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Aldomet 250 mg)",
+    "produits": [
+      {
+        "brand": "ALDOMET",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DOPAMET",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "METHYCARE",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "250MG",
+        "file_paths": [
+          "data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+          "data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "NÉBIVOLOL",
+    "code_atc": "C07AB12",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/nébivolol.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour le Nébivolol (Temerit 5 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Temerit 5 mg).",
+    "produits": [
+      {
+        "brand": "TEMERIVOL",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "NEBCAR",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "NEBCAR",
+        "form": "COMPRIME SECABLE",
+        "dosage": "2,5 MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TEMERIT",
+        "form": "COMPRIME QUADRI-SECABLE",
+        "dosage": "5MG",
+        "file_paths": [
+          "data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+          "data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "SPIRONOLACTONE",
+    "code_atc": "C03DA01",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/spironolactone.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes et dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité des monographies officielles — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — Téléchargement du RCP et de la Notice de référence pour la Spironolactone (Aldactone 75 mg) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Aldactone 75 mg).",
+    "produits": [
+      {
+        "brand": "ALDACTONE",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "75MG",
+        "file_paths": [
+          "data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
+          "data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SPIRONOLONE",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "75MG",
+        "file_paths": [
+          "data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
+          "data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "dci": "VALSARTAN",
+    "code_atc": "C09CA03",
+    "present_dans_miph": "oui",
+    "version_nomenclature": "Nomenclature MIPH (août 2026)",
+    "authority_level": 3,
+    "markdown_file": "data/fiches_dci/valsartan.md",
+    "sources": [
+      "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages) — Algérie — https://www.miph.gov.dz — 17/11/2026",
+      "ANPP (Agence Nationale des Produits Pharmaceutiques) — Vérification de la disponibilité du RCP/Notice officiel — Algérie — https://anpp.dz — 17/11/2026",
+      "ANSM (Base de données publique des médicaments) — RCP et Notice de référence (indications, posologie, contre-indications) — France — https://base-donnees-publique.medicaments.gouv.fr — 17/11/2026"
+    ],
+    "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : Aucun RCP algérien disponible en ligne ; les formes et dosages commercialisés en Algérie (comprimés de 40 mg, 80 mg, 160 mg et 320 mg selon la nomenclature MIPH) prévalent sur les présentations supplémentaires décrites dans le RCP ANSM (notamment la forme solution buvable pédiatrique non répertoriée dans la nomenclature algérienne).",
+    "produits": [
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR 40",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "40MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ARBITAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DIVALAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "HUREG HUP",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAROVAL",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALASTAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VESTAG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VIASART",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "ARBITAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "DIVALAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "HUREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RETA 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TABUVAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "TAREG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALACLOR 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALASTAN",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALEX 160",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VESTAG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VIASART",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "SARTEG",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "320MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALCARD ALEMBIC MAMI",
+        "form": "COMPRIME PELLICULE",
+        "dosage": "320MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "RETA",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALEX 80",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VAREG",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSIS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "80MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VAREG",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      },
+      {
+        "brand": "VALSIS",
+        "form": "COMPRIME PELLICULE SECABLE",
+        "dosage": "160MG",
+        "file_paths": [
+          "data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+          "data/corpus/valsartan/valsartan_RCP_ANSM.pdf"
+        ]
+      }
+    ]
+  }
+]
