@@ -1,231 +1,475 @@
-import json
+"""
+generate_corpus_metadata.py   (merged version)
+----------------------------------------------
+ONE script that builds data/processed/corpus_metadata.json from:
+  1. data/corpus/                  source files (DCI / brand folders)
+  2. data/processed_corpus/        OCR / cleaned .md outputs
+  3. data/fiches_dci/              DCI fiches (ATC code, brands, sources...)
+  4. data/processed/corpus_audit_report.json
+  5. data/processed/ocr_pipeline_log.json
+
+Run from the project root:
+    .\\.venv\\Scripts\\python.exe src\\generate_corpus_metadata.py
+"""
+
 import re
+import json
+import hashlib
 import unicodedata
 from pathlib import Path
-from urllib.parse import urlparse
+from datetime import datetime, timezone
+from collections import defaultdict
 
-from openpyxl import load_workbook
+# ----------------------------------------------------------------------------
+# Paths (script lives in src/)
+# ----------------------------------------------------------------------------
+PROJECT_ROOT   = Path(__file__).resolve().parent.parent
+CORPUS_ROOT    = PROJECT_ROOT / "data" / "corpus"
+PROCESSED_ROOT = PROJECT_ROOT / "data" / "processed_corpus"
+FICHES_ROOT    = PROJECT_ROOT / "data" / "fiches_dci"
+PROCESSED_DIR  = PROJECT_ROOT / "data" / "processed"
 
+AUDIT_JSON = PROCESSED_DIR / "corpus_audit_report.json"
+LOG_JSON   = PROCESSED_DIR / "ocr_pipeline_log.json"
+META_JSON  = PROCESSED_DIR / "corpus_metadata.json"
 
-ROOT = Path(__file__).resolve().parent
-EXCEL_FILE = ROOT / "data" / "reference" / "Liste 40 medicaments.xlsx"
-CORPUS_DIR = ROOT / "data" / "corpus"
-OUTPUT_FILE = ROOT / "data" / "processed" / "corpus_metadataFinal.json"
+JUNK_NAMES = {".ds_store", "thumbs.db", "desktop.ini"}
+IMAGE_EXTS = {"png", "jpg", "jpeg", "webp", "bmp", "tif", "tiff", "avif"}
 
-IGNORED_DIRS = {
-    "fiches_dci",
-    "processed",
-    "reference",
-    "documents_complementaires_non_reference",
-}
-
-# أضيفي هنا الأسماء اللي تختلف بين Excel واسم dossier في corpus، إذا لزم.
-FOLDER_ALIASES = {
-    # "acide acetylsalicylique": "acide-acetylsalicylique",
-}
-
-# هذا المستوى يتعبّى فقط إذا كان مصدر Excel معروفًا.
-# 0 يعني أن مستوى المصدر غير محدد، ماشي أنه مصدر غير موثوق.
+# Authority of the sources written inside a fiche (higher = more reliable)
 SOURCE_LEVELS = {
-    "anpp": 3,
-    "miph": 3,
-    "who": 3,
-    "ema": 3,
-    "dailymed": 3,
-    "dzair pharma": 1,
-    "pharmnet": 1,
-    "dwa dz": 1,
+    "anpp": 4, "miph": 4,
+    "ansm": 3, "who": 3, "ema": 3, "dailymed": 3,
+    "dzair pharma": 1, "dzair-pharma": 1, "pharmnet": 1, "dwa dz": 1,
 }
 
 
-def normalize(value):
-    """يسهّل مقارنة الأسماء رغم اختلاف accents والشرطات والمسافات."""
-    if value is None:
-        return ""
-    text = unicodedata.normalize("NFKD", str(value))
-    text = "".join(char for char in text if not unicodedata.combining(char))
-    text = text.casefold()
-    text = re.sub(r"[^a-z0-9]+", " ", text)
-    return " ".join(text.split())
+# ----------------------------------------------------------------------------
+# Helpers
+# ----------------------------------------------------------------------------
+def normalize_key(name: str) -> str:
+    """Accent/case/punctuation-insensitive key. '+' and 'et' are treated the same."""
+    s = unicodedata.normalize("NFKD", str(name or ""))
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    s = s.casefold().replace("+", " et ")
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return " ".join(s.split())
 
 
-def text_value(value, fallback="Non renseigné dans l’Excel"):
-    if value is None or str(value).strip() == "":
-        return fallback
-    return str(value).strip()
+def load_json_safe(path: Path, default):
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
 
 
-def find_column(headers, possible_names):
-    """يقبل بعض الاختلافات البسيطة في أسماء أعمدة Excel."""
-    normalized_headers = {normalize(name): index for index, name in enumerate(headers)}
-    for name in possible_names:
-        index = normalized_headers.get(normalize(name))
-        if index is not None:
-            return index
-    return None
+def sha256_of(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 
-def find_dci_folder(dci):
-    wanted = normalize(dci)
-    alias = FOLDER_ALIASES.get(wanted)
+def rel_to_project(path: Path) -> str:
+    """Project-relative POSIX path (portable between teammates)."""
+    try:
+        return path.resolve().relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
 
-    if alias:
-        candidate = CORPUS_DIR / alias
-        return candidate if candidate.is_dir() else None
 
-    for folder in CORPUS_DIR.iterdir():
-        if not folder.is_dir() or normalize(folder.name) in {
-            normalize(name) for name in IGNORED_DIRS
-        }:
+def is_junk(path: Path) -> bool:
+    n = path.name.lower()
+    return n in JUNK_NAMES or n.startswith("~$") or n.startswith(".")
+
+
+# ----------------------------------------------------------------------------
+# Fiche DCI parsing (from Ibtihel's script)
+# ----------------------------------------------------------------------------
+def extract_field(content: str, label_pattern: str):
+    m = re.search(
+        rf"^\s*-\s*\**\s*{label_pattern}\s*\**\s*:\s*(.+)$",
+        content, flags=re.MULTILINE | re.IGNORECASE,
+    )
+    if not m:
+        return None
+    val = m.group(1).strip()
+    return re.sub(r"^\*\*|\*\*$", "", val).strip()
+
+
+def parse_fiche(content: str) -> dict:
+    code_atc = extract_field(content, r"Code\s+ATC") or "Non renseigné"
+    present_miph = (extract_field(content, r"Pr[ée]sence\s+dans\s+la\s+nomenclature\s+MIPH")
+                    or "Non renseigné")
+    version_miph = (extract_field(content, r"Version\s+consult[ée]e\s+et\s+date")
+                    or "Non renseigné")
+
+    # products
+    products, seen = [], set()
+    sec = re.search(
+        r"^\s*-\s*\**\s*Noms\s+commerciaux[^\n]*\n(.*?)(?=^\s*-\s*\*\*|^\s*##\s+|\Z)",
+        content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL,
+    )
+    block = sec.group(1) if sec else content
+    skip_words = ("code atc", "presence dans la nomenclature", "version consultee",
+                  "noms commerciaux", "requetes en majuscules", "methode et date",
+                  "resultat", "source", "miph", "anpp", "ansm", "rcp", "notice")
+    for brand_raw, form_raw, dosage_raw in re.findall(
+        r"^\s*-\s+(.+?)\s+[—–-]\s+(.+?)\s+[—–-]\s+(.+?)\s*$", block, flags=re.MULTILINE,
+    ):
+        brand, form, dosage = brand_raw.strip(), form_raw.strip(), dosage_raw.strip()
+        if "[" in brand or "]" in brand:
             continue
-        if normalize(folder.name) == wanted:
-            return folder
+        if any(k in normalize_key(brand) for k in skip_words):
+            continue
+        key = (normalize_key(brand), normalize_key(form), normalize_key(dosage))
+        if key not in seen:
+            seen.add(key)
+            products.append({"brand": brand, "form": form, "dosage": dosage})
 
-    return None
+    # sources
+    sources = []
+    ss = re.search(r"^##\s*Sources\s+consult[ée]es\s*$(.*?)(?=^##\s+|\Z)",
+                   content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL)
+    if ss:
+        for line in re.findall(r"^\s*-\s+(.+)$", ss.group(1), flags=re.MULTILINE):
+            c = line.strip()
+            if c and not (c.startswith("[") and c.endswith("]")):
+                sources.append(c)
 
+    # remarks
+    remarques = ""
+    ps = re.search(r"^##\s*Pr[ée]cision\s*$(.*?)(?=^##\s+|\Z)",
+                   content, flags=re.MULTILINE | re.IGNORECASE | re.DOTALL)
+    if ps:
+        lines = [re.sub(r"^\s*-\s*", "", l).strip() for l in ps.group(1).splitlines() if l.strip()]
+        remarques = " | ".join(lines)
 
-def get_product_pdfs(dci, brand):
-    """يربط PDF بالمنتج إذا ظهر DCI والاسم التجاري في مسار الملف."""
-    dci_folder = find_dci_folder(dci)
-    if dci_folder is None:
-        return []
+    # authority level
+    level = 0
+    for src in sources:
+        ns = normalize_key(src)
+        for name, lv in SOURCE_LEVELS.items():
+            if normalize_key(name) in ns and lv > level:
+                level = lv
 
-    wanted_brand = normalize(brand)
-    pdfs = []
-
-    for path in dci_folder.rglob("*.pdf"):
-        path_text = normalize(" ".join(path.parts))
-
-        # اربطي الملف بالاسم التجاري إذا كان موجودًا في المسار.
-        # إذا ما كانش الاسم التجاري معروفًا، ما ننسبوش PDF عشوائيًا.
-        if wanted_brand and wanted_brand in path_text:
-            pdfs.append(path.relative_to(ROOT).as_posix())
-
-    return pdfs
-
-
-def extract_url(source_text):
-    """يستخرج رابطًا فقط إذا كان مكتوبًا فعلًا في Excel."""
-    match = re.search(r"https?://[^\s,;]+", source_text or "", flags=re.IGNORECASE)
-    if not match:
-        return "Non renseignée dans l’Excel"
-    return match.group(0).rstrip(".)]}")
-
-
-def get_authority_level(source_text):
-    """يرجع مستوى معروفًا فقط إذا ذُكر مصدر معروف في Excel."""
-    source = normalize(source_text)
-
-    for name, level in SOURCE_LEVELS.items():
-        if normalize(name) in source:
-            return level
-
-    return 0
-
-
-def main():
-    if not EXCEL_FILE.is_file():
-        raise FileNotFoundError(
-            f"Excel introuvable : {EXCEL_FILE}\n"
-            "ضعيه في data/reference/Liste 40 medicaments.xlsx"
-        )
-
-    workbook = load_workbook(EXCEL_FILE, read_only=True, data_only=True)
-    sheet = workbook.active
-    rows = sheet.iter_rows(values_only=True)
-
-    first_row = next(rows, None)
-    if not first_row:
-        raise ValueError("ملف Excel فارغ.")
-
-    headers = [
-        str(value).strip() if value is not None else ""
-        for value in first_row
-    ]
-
-    columns = {
-        "dci": find_column(headers, ["DCI (nom de la substance)", "DCI"]),
-        "atc_indicatif": find_column(headers, ["Code ATC (indicatif)", "Code ATC"]),
-        "atc_confirme": find_column(headers, ["ATC confirmé"]),
-        "presence": find_column(
-            headers,
-            ["Présent dans la nomenclature algérienne ?"],
-        ),
-        "brand": find_column(headers, ["N,C", "Nom commercial", "Nom commercial (N,C)"]),
-        "form": find_column(headers, ["Forme"]),
-        "dosage": find_column(headers, ["Dosage"]),
-        "sources": find_column(headers, ["Sources", "Source"]),
-        "remarques": find_column(headers, ["Remarques", "Remarque"]),
-        "classe": find_column(headers, ["Classe"]),
-        "number": find_column(headers, ["N°", "N"]),
+    return {
+        "code_atc": code_atc,
+        "present_dans_miph": present_miph,
+        "version_nomenclature": version_miph,
+        "authority_level": level,
+        "sources": sources,
+        "remarques": remarques,
+        "produits": products,
     }
 
-    if columns["dci"] is None:
-        raise ValueError(
-            "ما لقيتش عمود DCI. تحققي من عنوان العمود في Excel."
-        )
 
-    records = []
-
-    for excel_row_number, row in enumerate(rows, start=2):
-
-        def get(field):
-            index = columns.get(field)
-            if index is None or index >= len(row):
-                return None
-            return row[index]
-
-        dci_raw = get("dci")
-        if dci_raw is None or not str(dci_raw).strip():
+def index_fiches(fiches_dir: Path) -> list:
+    fiches = []
+    if not fiches_dir.exists():
+        return fiches
+    for md in sorted(fiches_dir.rglob("*.md")):
+        if not md.is_file() or is_junk(md):
             continue
+        content = md.read_text(encoding="utf-8", errors="replace")
+        sections = [l.lstrip("#").strip() for l in content.splitlines()
+                    if re.match(r"^#{1,4}\s+\S+", l)]
+        title = re.search(r"^#\s*DCI\s*:\s*(.+)$", content, flags=re.MULTILINE | re.IGNORECASE)
+        keys = {normalize_key(md.stem)}
+        if title:
+            keys.add(normalize_key(title.group(1)))
+        fiches.append({
+            "stem": md.stem,
+            "path": rel_to_project(md),
+            "chars": len(content),
+            "sections": sections,
+            "keys": keys,
+            "parsed": parse_fiche(content),
+            "matched": False,
+        })
+    return fiches
 
-        dci = str(dci_raw).strip().upper()
-        brand = text_value(get("brand"))
-        form = text_value(get("form"))
-        dosage = text_value(get("dosage"))
-        source_text = text_value(get("sources"))
 
-        pdf_paths = get_product_pdfs(dci, brand)
+def find_fiche(fiches: list, dci_name: str):
+    key = normalize_key(dci_name)
+    for f in fiches:
+        if key in f["keys"]:
+            return f
+    return None
 
-        # اسم الملف الأول في الحقل المطلوب، وجميع الملفات في الحقل الإضافي.
-        file_path = pdf_paths[0] if pdf_paths else "Aucun PDF associé dans le corpus"
 
-        records.append({
-            "dci": dci,
-            "brand": brand,
-            "form": form,
-            "dosage": dosage,
-            "file_path": file_path,
-            "file_paths": pdf_paths,
-            "source_name": source_text,
-            "source_url": extract_url(source_text),
-            "collection_date": "À compléter : date réelle de consultation",
-            "authority_level": get_authority_level(source_text),
+# ----------------------------------------------------------------------------
+# Provenance guess from file name / folder (adjust tiers if your team decides otherwise)
+# 1 = most reliable ... 6 = least
+# ----------------------------------------------------------------------------
+def classify_source(rel: str) -> dict:
+    p = Path(rel)
+    name = p.name.lower()
+    parts = [x.lower() for x in p.parts]
+    ext = p.suffix.lower().lstrip(".")
 
-            # معلومات أخرى موجودة في Excel
-            "atc_indicatif": text_value(get("atc_indicatif")),
-            "atc_confirme": text_value(get("atc_confirme")),
-            "present_dans_nomenclature": text_value(get("presence")),
-            "classe": text_value(get("classe")),
-            "remarques": text_value(get("remarques")),
-            "numero_ligne_excel": excel_row_number,
+    if "documents_complementaires_non_reference" in parts:
+        return {"source_type": "complementary_non_reference", "authority_tier": 5}
+    if "anpp" in name or "anmdmr" in name:
+        return {"source_type": "dz_official", "authority_tier": 1}
+    if "dailymed" in name or "daily med" in name:
+        return {"source_type": "us_dailymed", "authority_tier": 3}
+    if ext == "csv":
+        return {"source_type": "nomenclature_export", "authority_tier": 2}
+    if name.startswith("source") or ext == "md" or "dwadz" in name or name.startswith("dwa"):
+        return {"source_type": "dz_professional_site", "authority_tier": 4}
+    if name.startswith("article"):
+        return {"source_type": "scientific_article", "authority_tier": 6}
+    if "ansm" in name:
+        return {"source_type": "fr_institutional", "authority_tier": 3}
+    if ext in IMAGE_EXTS:
+        return {"source_type": "product_image", "authority_tier": 6}
+    return {"source_type": "label_country_unverified", "authority_tier": 2}
+
+
+def guess_doc_type(name: str, ext: str) -> str:
+    n = name.lower()
+    if ext == "csv":
+        return "nomenclature"
+    if ext in IMAGE_EXTS:
+        return "image"
+    if n.startswith("rcp") or "_rcp" in n or " rcp" in n or "-rcp" in n or "rcp-" in n or "rcp." in n:
+        return "rcp"
+    if "notice" in n:
+        return "notice"
+    if n.startswith("article"):
+        return "article"
+    if "interaction" in n or "iteraction" in n or "interactiob" in n:
+        return "interaction_page"
+    if "generique" in n:
+        return "generics_page"
+    if n.startswith("source") or ext == "md":
+        return "web_page"
+    return "other"
+
+
+def read_text_chars(md_path: Path) -> int:
+    """Characters of the real text, without the front-matter header."""
+    try:
+        text = md_path.read_text(encoding="utf-8", errors="replace")
+    except Exception:
+        return 0
+    if text.startswith("---"):
+        parts = text.split("\n---\n", 1)
+        if len(parts) == 2:
+            text = parts[1]
+    return len(text.strip())
+
+
+def text_quality(ext: str, chars: int, pages, has_text_file: bool) -> str:
+    if not has_text_file:
+        return "no_text"
+    if ext == "csv":
+        return "structured_data"
+    if ext in IMAGE_EXTS:
+        return "image_short_text" if chars < 300 else "ok"
+    if pages:
+        return "low_text" if chars / pages < 100 else "ok"
+    return "low_text" if chars < 500 else "ok"
+
+
+# ----------------------------------------------------------------------------
+# One record per source file
+# ----------------------------------------------------------------------------
+def build_file_record(src: Path, audit_map: dict, log_map: dict) -> dict:
+    rel = src.relative_to(CORPUS_ROOT).as_posix()
+    aud = audit_map.get(rel, {})
+    lg = log_map.get(rel, {})
+    ext = src.suffix.lower().lstrip(".")
+
+    expected_md = PROCESSED_ROOT / Path(rel).with_suffix(".md")
+    expected_same = PROCESSED_ROOT / Path(rel)
+
+    processed = None
+    if expected_md.exists():
+        processed = expected_md
+    elif ext == "csv" and expected_same.exists():
+        processed = expected_same
+    elif ext == "md":
+        processed = src                      # already text
+    elif isinstance(lg.get("output"), str):
+        cand = Path(lg["output"].replace("\\", "/"))
+        if not cand.is_absolute():
+            cand = PROJECT_ROOT / cand
+        if cand.exists():
+            processed = cand
+
+    chars = 0
+    if processed is not None and processed.suffix.lower() == ".md":
+        chars = read_text_chars(processed)
+
+    pages = aud.get("page_count")
+    prov = classify_source(rel)
+
+    return {
+        "filename": src.name,
+        "relative_path": rel,
+        "extension": ext,
+        "doc_type": guess_doc_type(src.name, ext),
+        "source_type": prov["source_type"],
+        "authority_tier": prov["authority_tier"],
+        "size_bytes": src.stat().st_size,
+        "hash_sha256": aud.get("hash_sha256") or sha256_of(src),
+        "is_duplicate": False,               # filled after hashing (see below)
+        "page_count": pages,
+        "audit_status": aud.get("status", "unknown"),
+        "audit_issues": aud.get("issues", []),
+        "ocr_status": lg.get("status", "processed" if processed else "unprocessed"),
+        "processed_path": rel_to_project(processed) if processed else None,
+        "extracted_chars": chars,
+        "text_quality": text_quality(ext, chars, pages, processed is not None),
+    }
+
+
+# ----------------------------------------------------------------------------
+# Main
+# ----------------------------------------------------------------------------
+def generate_metadata():
+    audit_data = load_json_safe(AUDIT_JSON, {})
+    log_data = load_json_safe(LOG_JSON, {"files": {}})
+
+    audit_map = {e["path"]: e for e in audit_data.get("files", [])
+                 if isinstance(e, dict) and e.get("path")}
+    log_map = log_data.get("files", {}) if isinstance(log_data.get("files"), dict) else {}
+
+    fiches = index_fiches(FICHES_ROOT)
+
+    buckets = defaultdict(lambda: {"source_files": [], "brands": defaultdict(list)})
+    root_files, all_records = [], []
+
+    if CORPUS_ROOT.exists():
+        for src in sorted(p for p in CORPUS_ROOT.rglob("*") if p.is_file() and not is_junk(p)):
+            rec = build_file_record(src, audit_map, log_map)
+            all_records.append(rec)
+            parts = src.relative_to(CORPUS_ROOT).parts
+            if len(parts) == 1:
+                root_files.append(rec)
+            elif len(parts) == 2:
+                buckets[parts[0]]["source_files"].append(rec)
+            else:
+                buckets[parts[0]]["brands"]["/".join(parts[1:-1])].append(rec)
+
+    # real duplicate detection by hash
+    by_hash = defaultdict(list)
+    for r in all_records:
+        by_hash[r["hash_sha256"]].append(r)
+    duplicate_groups = []
+    for h, group in by_hash.items():
+        if len(group) > 1:
+            duplicate_groups.append([g["relative_path"] for g in group])
+            for g in group[1:]:
+                g["is_duplicate"] = True
+
+    corpus_entries = []
+    dcis_with_fiche = 0
+    for dci_name in sorted(buckets, key=normalize_key):
+        b = buckets[dci_name]
+        fiche = find_fiche(fiches, dci_name)
+        if fiche:
+            fiche["matched"] = True
+            dcis_with_fiche += 1
+            p = fiche["parsed"]
+            fiche_obj = {
+                "exists": True,
+                "path": fiche["path"],
+                "chars": fiche["chars"],
+                "sections": fiche["sections"],
+                "code_atc": p["code_atc"],
+                "present_dans_miph": p["present_dans_miph"],
+                "version_nomenclature": p["version_nomenclature"],
+                "authority_level": p["authority_level"],
+                "sources": p["sources"],
+                "remarques": p["remarques"],
+                "produits": p["produits"],
+            }
+        else:
+            fiche_obj = {"exists": False, "path": None, "chars": 0, "sections": [],
+                         "code_atc": None, "produits": []}
+
+        brands = [{"brand": n, "files": b["brands"][n]} for n in sorted(b["brands"], key=normalize_key)]
+        files = b["source_files"] + [f for br in brands for f in br["files"]]
+
+        corpus_entries.append({
+            "dci": dci_name,
+            "normalized_dci": normalize_key(dci_name),
+            "fiche_dci": fiche_obj,
+            "stats": {
+                "total_files": len(files),
+                "files_with_text": sum(1 for f in files if f["processed_path"]),
+                "low_text_files": sum(1 for f in files if f["text_quality"] == "low_text"),
+                "brand_count": len(brands),
+                "total_chars": sum(f["extracted_chars"] for f in files),
+            },
+            "source_files": b["source_files"],
+            "brands": brands,
         })
 
-    workbook.close()
+    orphaned = [{"dci_stem": f["stem"], "path": f["path"], "chars": f["chars"],
+                 "code_atc": f["parsed"]["code_atc"]}
+                for f in fiches if not f["matched"]]
 
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text(
-        json.dumps(records, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    total_chars = sum(r["extracted_chars"] for r in all_records)
+    low_text = [r["relative_path"] for r in all_records if r["text_quality"] == "low_text"]
 
-    print(f"JSON créé : {OUTPUT_FILE.relative_to(ROOT)}")
-    print(f"Lignes de médicaments exportées : {len(records)}")
-    print(f"Lignes avec PDF associé : "
-          f"{sum(bool(record['file_paths']) for record in records)}")
-    print(f"Lignes sans PDF associé : "
-          f"{sum(not record['file_paths'] for record in records)}")
+    metadata = {
+        "_meta": {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "corpus_root": rel_to_project(CORPUS_ROOT),
+            "processed_corpus_root": rel_to_project(PROCESSED_ROOT),
+            "fiches_dci_root": rel_to_project(FICHES_ROOT),
+            "total_dcis": len(corpus_entries),
+            "dcis_with_fiche": dcis_with_fiche,
+            "dcis_without_fiche": len(corpus_entries) - dcis_with_fiche,
+            "orphaned_fiches_count": len(orphaned),
+            "root_files_count": len(root_files),
+            "total_source_files": len(all_records),
+            "total_processed_files": sum(1 for r in all_records if r["processed_path"]),
+            "total_extracted_chars": total_chars,
+            "low_text_files_count": len(low_text),
+            "duplicate_groups_count": len(duplicate_groups),
+        },
+        "low_text_files": low_text,
+        "duplicate_groups": duplicate_groups,
+        "corpus": corpus_entries,
+        "root_files": root_files,
+        "orphaned_fiches_dci": orphaned,
+    }
+
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    META_JSON.write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    m = metadata["_meta"]
+    print("=" * 60)
+    print("  COGNIVEX Unified Corpus Metadata Generated")
+    print("=" * 60)
+    print(f"  Output file            : {META_JSON}")
+    print(f"  Total DCIs             : {m['total_dcis']}")
+    print(f"  DCIs with fiche        : {m['dcis_with_fiche']}")
+    print(f"  DCIs without fiche     : {m['dcis_without_fiche']}")
+    print(f"  Orphaned fiches        : {m['orphaned_fiches_count']}")
+    print(f"  Source files indexed   : {m['total_source_files']}")
+    print(f"  Files with text linked : {m['total_processed_files']}")
+    print(f"  Low-text files (check) : {m['low_text_files_count']}")
+    print(f"  Duplicate groups       : {m['duplicate_groups_count']}")
+    print(f"  Total extracted chars  : {m['total_extracted_chars']:,}")
+    print("=" * 60)
+    if low_text:
+        print("  Low-text files:")
+        for p in low_text:
+            print("   -", p)
+    if orphaned:
+        print("  Orphaned fiches (no corpus folder):")
+        for o in orphaned:
+            print("   -", o["dci_stem"])
 
 
 if __name__ == "__main__":
-    main()
+    generate_metadata()

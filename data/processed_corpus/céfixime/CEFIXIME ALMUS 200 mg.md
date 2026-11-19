@@ -3,8 +3,24 @@ source: "C:/Users/Administrator/COGNIVEX/data/corpus/céfixime/CEFIXIME ALMUS 20
 dci: "céfixime"
 brand: "CEFIXIME ALMUS 200 mg.webp"
 method: "RapidOCR direct image"
-processed: "2026-11-19T20:48:06.964616+00:00"
-chars: 71
+processed: "2026-11-19T22:51:34.186404+00:00"
+chars: 143
 ---
 
-[RapidOCR not available — could not process CEFIXIME ALMUS 200 mg.webp]
+200mg
+8
+31009
+30045769
+COMPEUMES
+CEFIXIME
+BIOGARAN
+BIOGARAN200 mg
+COMPRIMES
+PELLICULES
+VOIEORALE
+ADULTEET
+MATIN
+SOIR
+DUREE
+PLUSDE12ANS
+ENFANTDE

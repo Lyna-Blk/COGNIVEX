@@ -3,8 +3,19 @@ source: "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavul
 dci: "amoxicilline + acide clavulanique"
 brand: "AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS"
 method: "RapidOCR direct image"
-processed: "2026-11-19T20:48:06.957954+00:00"
-chars: 88
+processed: "2026-11-19T22:51:28.764223+00:00"
+chars: 185
 ---
 
-[RapidOCR not available — could not process AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg]
+Amoxicilline/
+Acide
+clavulanique
+ALMUS'
+12,5mgparmL
+Nourrissons
+(rapportamoxiciline/acide clavulanique:8/1)
+112Doses-graduations
+30mL
+Poudre pour
+suspension buvable en flacon
+Voie orale

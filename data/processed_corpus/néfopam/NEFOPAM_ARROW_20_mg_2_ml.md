@@ -3,8 +3,18 @@ source: "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/NEFOPAM_ARROW_20_m
 dci: "néfopam"
 brand: "NEFOPAM_ARROW_20_mg_2_ml.png"
 method: "RapidOCR direct image"
-processed: "2026-11-19T20:48:06.980330+00:00"
-chars: 73
+processed: "2026-11-19T22:51:54.108409+00:00"
+chars: 144
 ---
 
-[RapidOCR not available — could not process NEFOPAM_ARROW_20_mg_2_ml.png]
+Nefopamarrow
+Adulte
+Chlorhydratedenefopam
+Enfant+de15ans
+20.mg/2
+mL
+Solutroninjectable
+5
+Ampoulesde2mL
+Voie intramusculaire ouintraveineuse
+HTOM

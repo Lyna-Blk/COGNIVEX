@@ -452,6 +452,8 @@ def main():
     print(f"  OCR engine    : {'RapidOCR (onnxruntime)' if HAS_RAPID else 'NOT AVAILABLE'}")
     print(f"  Output format : Markdown (.md)")
     print(f"  Resume mode   : ON")
+    if not HAS_RAPID:
+        sys.exit("[ERROR] RapidOCR is not installed.")
 
     if not CORPUS_ROOT.exists():
         sys.exit(f"[ERROR] Corpus directory not found: {CORPUS_ROOT}")
@@ -519,3 +521,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+       
