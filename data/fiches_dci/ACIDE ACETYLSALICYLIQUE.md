@@ -1,9 +1,23 @@
-# DCI : ACIDE ACÉTYLSALICYLIQUE
-- **Code ATC :** B01AC06 (faible dose utilisée comme antiagrégant plaquettaire)
+# DCI : ACIDE ACETYLSALICYLIQUE
+
+- **Code ATC :** N02BA01
 
 - Présence dans la nomenclature MIPH : oui
-- Version consultée et date : 11/11/2026
-- Noms commerciaux, laboratoires, formes et dosages : ASPIRINE Cardio — BIOPHARM — gélule — 100 mg 
+
+- Version consultée et date : Nomenclature MIPH (août 2026)
+
+- Noms commerciaux, laboratoires, formes et dosages :
+  - ACEPRAL — COMPRIME — 500MG
+  - ACEPRAL CARDIO — COMPRIME — 100MG
+  - ASPEC — COMPRIME SECABLE — 100MG
+  - ASPICARD — COMPRIME SECABLE — 100MG
+  - ASPINOVA — COMPRIME — 100MG
+  - ASPIRINE CARDIO — GELULE — 100MG
+  - KARDEGIC — POUDRE POUR SOLUTION BUVABLE — 75 MG
+  - KARDEGIC — POUDRE POUR SOLUTION BUVABLE — 160 MG
+  - ASPEGIC ENFANTS — POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE — 250MG
+  - ASPEGIC — POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE — 500MG
+  - ASPEGIC ADULTE — POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE — 1G
 
 ## Documents de référence
 - RCP : ASPIRINE Cardio 100 mg, gélule — ANPP, Algérie `RCP_ASPIRINE-Cardio_100mg`

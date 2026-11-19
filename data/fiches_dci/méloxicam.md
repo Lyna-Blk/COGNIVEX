@@ -1,9 +1,14 @@
 # DCI : MÉLOXICAM
+
 - **Code ATC :** M01AC06
 
 - Présence dans la nomenclature MIPH : oui
-- Version consultée et date : nomenclature MIPH, août 2026 — consultée le 11/11/2026
-- Noms commerciaux, laboratoires, formes et dosages : MELOX — laboratoire à confirmer — comprimé — 7,5 mg et 15 mg
+
+- Version consultée et date : Nomenclature MIPH (août 2026)
+
+- Noms commerciaux, laboratoires, formes et dosages :
+  - MELOX — COMPRIME — 15MG
+  - MELOX — COMPRIME — 7,5MG
 
 ## Documents de référence
 - RCP : MELOXICAM BIOGARAN 7,5 mg, comprimé — ANSM, France — 03/11/2026— `RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf`
