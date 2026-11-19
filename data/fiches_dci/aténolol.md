@@ -7,22 +7,20 @@
 - Version consultée et date : Nomenclature MIPH (août 2026)
 
 - Noms commerciaux, laboratoires, formes et dosages :
-  - DAGHTAN 50 — COMPRIME PELLICULE — 50MG
-  - CARDINOL BGL — COMPRIME PELLICULE SECABLE — 100MG
-  - DAGHTAN 100 — COMPRIME PELLICULE SECABLE — 100MG
-  - CARDINOL BGL — COMPRIME PELLICULE SECABLE — 50MG
-  - TENORMED — COMPRIME SECABLE — 100MG
+  - DAGHTAN 50 — COMPRIME PELLICULE — 50MG
+  - CARDINOL BGL — COMPRIME PELLICULE SECABLE — 100MG
+  - DAGHTAN 100 — COMPRIME PELLICULE SECABLE — 100MG
+  - CARDINOL BGL — COMPRIME PELLICULE SECABLE — 50MG
+  - TENORMED — COMPRIME SECABLE — 100MG
 
 
 ## Documents de référence
-- RCP : TENORMINE 100 mg, comprimé pelliculé sécable, ANSM / France, 13/03/2026, `aténolol_RCP_ANSM.pdf`
-- Notice : TENORMINE 100 mg, comprimé pelliculé sécable, ANSM / France, 03/11/2026, `aténolol_Notice_ANSM.pdf`
+- RCP : TENORMINE 100 mg, comprimé pelliculé sécable, ANSM / France, 13/03/2026, aténolol_RCP_ANSM.pdf
+- Notice : TENORMINE 100 mg, comprimé pelliculé sécable, ANSM / France, 03/11/2026, aténolol_Notice_ANSM.pdf
 
 
 ## Recherche ANPP
 - Requêtes en majuscules : ATÉNOLOL
-
-- Méthode et date : [...]
 
 - Méthode et date : Recherche par DCI sur le portail officiel de l'ANPP (anpp.dz) et consultation de la nomenclature MIPH, le 17/11/2026.
 
@@ -40,4 +38,4 @@ Au moins 3 sources distinctes, dont au moins une officielle.
 ## Précision
 - Une source étrangère complète la source algérienne et ne la remplace pas.
 
-- En cas de différence, la source algérienne prévaut : Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Tenormine 100 mg).
+- Aucun RCP direct n'étant répertorié sur le portail de l'ANPP pour cette DCI, les spécialités et dosages commercialisés en Algérie selon la nomenclature MIPH constituent la référence administrative de base, complétés rigoureusement par les données cliniques, pharmacologiques et de sécurité de la monographie européenne et française de référence (Tenormine 100 mg).
