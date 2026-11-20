@@ -3,16 +3,16 @@ audit_corpus.py
 ---------------
 Audits every file inside data/corpus/ for RAG-ingestion quality:
 
-  1. PDF extractability  - real text vs. scanned image-only PDF
-  2. Character count     - flags empty / near-empty documents
-  3. Corruption check    - catches unreadable / malformed PDFs
-  4. Duplicate detection - SHA-256 hash + size across all folders
-  5. Noise artifacts     - detects repeated headers/footers, very short pages
+1. PDF extractability  - real text vs. scanned image-only PDF
+2. Character count     - flags empty / near-empty documents
+3. Corruption check    - catches unreadable / malformed PDFs
+4. Duplicate detection - SHA-256 hash + size across all folders
+5. Noise artifacts     - detects repeated headers/footers, very short pages
 
 Outputs
-  - Live progress to stdout
-  - data/corpus_audit_report.json   (machine-readable)
-  - data/corpus_audit_report.txt    (human-readable summary)
+- Live progress to stdout
+- data/processed/corpus_audit_report.json   (machine-readable)
+- data/processed/corpus_audit_report.txt    (human-readable summary)
 """
 
 import os
@@ -35,9 +35,10 @@ except ImportError:
         sys.exit("[ERROR] PyMuPDF is not installed. Run: python -m pip install pymupdf")
 
 # -- Configuration -------------------------------------------------------------
-CORPUS_ROOT   = Path(__file__).parent / "data" / "corpus"
-REPORT_JSON   = Path(__file__).parent / "data" / "processed" / "corpus_audit_report.json"
-REPORT_TXT    = Path(__file__).parent / "data" / "processed" / "corpus_audit_report.txt"
+PROJECT_ROOT  = Path(__file__).resolve().parent.parent
+CORPUS_ROOT   = PROJECT_ROOT / "data" / "corpus"
+REPORT_JSON   = PROJECT_ROOT / "data" / "processed" / "corpus_audit_report.json"
+REPORT_TXT    = PROJECT_ROOT / "data" / "processed" / "corpus_audit_report.txt"
 
 MIN_CHARS_PER_PAGE    = 200    # pages below this are "noise/near-empty"
 MIN_CHARS_TOTAL       = 100    # whole document below this -> flag for OCR
@@ -58,6 +59,8 @@ def sha256(path: Path) -> str:
 
 
 def collect_all_files(root: Path) -> list:
+    if not root.exists():
+        return []
     return sorted(p for p in root.rglob("*") if p.is_file())
 
 
@@ -163,6 +166,9 @@ def run_audit():
     print("\n" + "=" * 56)
     print("   COGNIVEX Corpus RAG Audit Tool")
     print("=" * 56 + "\n")
+
+    if not CORPUS_ROOT.exists():
+        print(f"[WARNING] Corpus directory not found: {CORPUS_ROOT}\n")
 
     all_files   = collect_all_files(CORPUS_ROOT)
     total_files = len(all_files)
