@@ -1,0 +1,36 @@
+# PRODUIT 2 — COTRIMOXAL
+
+## 1. Identification du produit
+
+- Nom commercial : COTRIMOXAL
+- DCI : Cotrimoxazole
+- Substances actives : Sulfaméthoxazole + Triméthoprime
+- Dosage : 400 mg / 80 mg
+- Forme pharmaceutique : Comprimé
+- Laboratoire titulaire : Société Pharmaceutique Algérienne (SOPHAL)
+- Pays : Algérie
+- Conditionnement : Boîte de 20 comprimés
+- Code DCI : 13 M 092
+- Numéro d'enregistrement : 039/13 M 092/99/18
+- Date d'enregistrement initial : 13/07/1999
+- Date d'enregistrement final indiquée : 30/05/2018
+
+## 2. Sources et liens
+
+**Source 1 — Fiche du médicament**
+
+- Site : Tibdz
+- Lien : https://tibdz.com/medicines/3156-COTRIMOXAL?lang=fr
+- Informations relevées : dosage, forme, laboratoire, conditionnement, code DCI et numéro d'enregistrement.
+
+**Source 2 — Nomenclature officielle**
+
+- Document : Journal officiel de la République algérienne, n° 75, 13 novembre 2025.
+- Lien : https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+- Information pertinente : code DCI 13 M 092 correspondant au cotrimoxazole en comprimé dosé à 400 mg/80 mg.
+
+## 3. Remarques
+
+Les données détaillées d'enregistrement proviennent de la fiche Tibdz, qui indique une base de données du Ministère de la Santé algérien. La nomenclature officielle confirme le code DCI, la forme et le dosage.
+
+La présence dans la base ne garantit pas la disponibilité actuelle en pharmacie.

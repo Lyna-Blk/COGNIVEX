@@ -1,0 +1,108 @@
+COGNIVEX - CURRENT STATE AUDIT
+=======================================================
+
+GIT STATUS
+M data/PHARMEAZOR_MY_8_DCI/CEFTRIAXONE/ARTICLE/ARTICLE_SCIENTIFIQUE.txt
+ M data/PHARMEAZOR_MY_8_DCI/CEFTRIAXONE/Produit/CETRIAL.txt
+ M data/PHARMEAZOR_MY_8_DCI/CEFTRIAXONE/SOURCE.txt
+ M data/PHARMEAZOR_MY_8_DCI/CLARITHROMYCINE/ARTICLE/ARTICLE_SCIENTIFIQUE.txt
+ M data/PHARMEAZOR_MY_8_DCI/METRONIDAZOLE/ARTICLE/ARTICLE_SCIENTIFIQUE.txt
+?? README_TRAITEMENT_8_DCI.md
+?? audit_current.py
+?? data/audit_articles_complet.txt
+?? data/audit_report.txt
+?? data/backup_ancienne_version/
+?? data/corpus/
+?? data/documents_complementaires_non_reference/
+?? data/fiches_dci/
+?? data/processed/
+?? generate_corpus_metadata.py
+?? process_my_dci.py
+
+METADATA
+Records: 16
+DCIs: ATÉNOLOL, AZITHROMYCINE, BISOPROLOL, CEFTRIAXONE, CIPROFLOXACINE, CLARITHROMYCINE, COTRIMOXAZOLE, DOXYCYCLINE, HYDROCHLOROTHIAZIDE, INDAPAMIDE, LÉVOFLOXACINE, MÉTHYLDOPA, MÉTRONIDAZOLE, NÉBIVOLOL, SPIRONOLACTONE, VALSARTAN
+
+ARTICLES
+
+Azithromycine: 6640 bytes
+  First line: # DCI 18 — AZITHROMYCINE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 8
+  Read error markers: 0
+
+CEFTRIAXONE: 3460 bytes
+  First line: # DCI 17 — CEFTRIAXONE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 5
+  Read error markers: 0
+
+CIPROFLOXACINE: 3678 bytes
+  First line: # DCI 20 — CIPROFLOXACINE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 8
+  Read error markers: 0
+
+CLARITHROMYCINE: 2988 bytes
+  First line: # DCI 19 — CLARITHROMYCINE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 5
+  Read error markers: 0
+
+COTRIMOXAZOLE: 2799 bytes
+  First line: # DCI 23 — COTRIMOXAZOLE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 8
+  Read error markers: 0
+
+DOXYCYCLINE: 4791 bytes
+  First line: # DCI 22 — DOXYCYCLINE
+  Replacement characters: 0
+  Suspicious question-mark lines: 2
+  Duplicate article: No
+  Sections: 11
+  Read error markers: 0
+
+LÉVOFLOXACINE: 3012 bytes
+  First line: # DCI 21 — LEVOFLOXACINE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 9
+  Read error markers: 0
+
+METRONIDAZOLE: 3107 bytes
+  First line: # DCI 24 — MÉTRONIDAZOLE
+  Replacement characters: 0
+  Suspicious question-mark lines: 0
+  Duplicate article: No
+  Sections: 5
+  Read error markers: 0
+
+PROCESS SCRIPT
+Line 39: EXCEL = DATA / "Liste 40 medicaments.xlsx"
+Line 44: # N° dans "Liste 40 medicaments.xlsx" -> nom de fiche (minuscule, accentue, comme les fiches du groupe)
+Line 344: df = pd.read_excel(EXCEL)
+
+REQUIREMENTS
+requests
+
+FILE COUNTS
+Azithromycine: products=3, PDFs=2, SOURCE=yes
+CEFTRIAXONE: products=3, PDFs=2, SOURCE=yes
+CIPROFLOXACINE: products=3, PDFs=2, SOURCE=yes
+CLARITHROMYCINE: products=3, PDFs=2, SOURCE=yes
+COTRIMOXAZOLE: products=3, PDFs=2, SOURCE=yes
+DOXYCYCLINE: products=3, PDFs=2, SOURCE=yes
+LÉVOFLOXACINE: products=3, PDFs=2, SOURCE=yes
+METRONIDAZOLE: products=3, PDFs=2, SOURCE=yes

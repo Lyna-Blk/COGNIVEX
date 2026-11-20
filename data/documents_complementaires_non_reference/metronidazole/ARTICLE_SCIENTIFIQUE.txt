@@ -1,0 +1,47 @@
+# DCI 24 — MÉTRONIDAZOLE
+## Articles scientifiques
+
+### Article 1
+
+- **Titre :** Therapeutic uses of metronidazole and its side effects: an update.
+- **Auteurs :** A. Hernández Ceruelos, L. C. Romero-Quezada, J. C. Ruvalcaba Ledezma, L. López Contreras.
+- **Revue :** European Review for Medical and Pharmacological Sciences.
+- **Année :** 2019.
+- **Volume / Pages :** 23(1), 397–401.
+- **DOI :** 10.26355/eurrev_201901_16788
+- **PMID :** 30657582
+- **Type :** Revue de la littérature.
+- **Objectif :** Faire le point sur les usages thérapeutiques du métronidazole et ses effets indésirables.
+- **Résumé :** Antibiotique très utilisé (trichomonose, amibiase, giardiase, infections anaérobies, maladie de Crohn, prophylaxie chirurgicale). Bien toléré en général (nausées, douleurs abdominales, diarrhée) ; de rares cas de neurotoxicité grave, de neuropathie optique ou périphérique et d'encéphalopathie sont rapportés. Les effets génotoxiques observés chez l'animal restent controversés chez l'humain.
+- **Pertinence pour le projet :** Indications, effets indésirables et précautions.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/30657582/
+
+### Article 2
+
+- **Titre :** Metronidazole. A therapeutic review and update.
+- **Auteurs :** non vérifié.
+- **Revue :** Drugs.
+- **Année :** 1997 (novembre).
+- **Volume / Pages :** 54(5), 679–708.
+- **DOI :** 10.2165/00003495-199754050-00003
+- **PMID :** 9360057
+- **Type :** Revue.
+- **Objectif :** Actualiser les connaissances sur l'usage thérapeutique du métronidazole.
+- **Résumé :** Le métronidazole joue un rôle important dans les infections à anaérobies, la colite à Clostridium difficile et l'éradication d'Helicobacter pylori (en association). Les auteurs soulignent son faible coût, son profil d'effets indésirables acceptable et l'absence de perte d'activité antimicrobienne.
+- **Pertinence pour le projet :** Indications cliniques et place thérapeutique.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/9360057/
+
+### Article 3
+
+- **Titre :** Metronidazole: drug of choice for anaerobic infections — an overview.
+- **Auteurs :** Virendra Kushwaha, Pooja Agrawal, Vipul Shukla, Brijesh Pathak.
+- **Revue :** World Journal of Pharmaceutical Research.
+- **Année :** 2022.
+- **Volume / Pages :** 11(13), 130–141.
+- **DOI :** non vérifié.
+- **PMID :** non indexé / non vérifié.
+- **Type :** Revue (revue de niveau modeste : à recouper avec les sources officielles).
+- **Objectif :** Présenter le métronidazole dans les infections à anaérobies et à protozoaires.
+- **Résumé :** Le métronidazole est un promédicament activé par réduction de son groupe nitro chez les organismes anaérobies, ce qui produit un radical toxique pour la bactérie. Les effets indésirables les plus fréquents sont digestifs ; des convulsions et des neuropathies périphériques sont rares et surviennent surtout lors de traitements prolongés.
+- **Pertinence pour le projet :** Mécanisme d'action.
+- **Lien :** https://www.wisdomlib.org/uploads/journals/wjpr/volume-11,-october-issue-13_20393.pdf

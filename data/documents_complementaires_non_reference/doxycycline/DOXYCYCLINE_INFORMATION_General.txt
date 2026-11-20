@@ -1,0 +1,304 @@
+# DCI 22 — DOXYCYCLINE
+
+## 1. Identification de la substance active
+
+- DCI : Doxycycline
+- Code ATC : J01AA02
+- Classe thérapeutique : Antibiotiques à usage systémique
+- Classe pharmacologique : Tétracyclines
+- Sous-classe : Tétracyclines à longue durée d'action
+- Nature de l'activité : Antibiotique principalement bactériostatique
+- Mécanisme général : Inhibition de la synthèse des protéines bactériennes par liaison à la sous-unité ribosomale 30S.
+- Voie d'administration : Principalement voie orale ; d'autres formes peuvent exister selon les spécialités.
+
+### Code DCI identifié dans les sources algériennes
+
+- 13 C 020 : DOXYCYCLINE, présentations de 100 mg sous forme de gélules ou de comprimés.
+
+Autre code retrouvé dans une ancienne référence réglementaire :
+- 13 C 444 : DOXYCYCLINE monohydratée exprimée en doxycycline, comprimé dispersible, 100 mg.
+
+Remarque : le code 13 C 020 est associé aux présentations actuellement répertoriées dans les bases algériennes consultées. Le code 13 C 444 doit être vérifié dans la dernière nomenclature officielle avant toute utilisation comme référence actuelle.
+
+## 2. Description générale
+
+La doxycycline est un antibiotique semi-synthétique appartenant à la famille des tétracyclines.
+
+Elle exerce principalement une activité bactériostatique en inhibant la synthèse des protéines bactériennes. Elle se fixe sur la sous-unité ribosomale 30S et empêche l'incorporation de nouveaux acides aminés dans la chaîne protéique.
+
+Elle possède un spectre antibactérien relativement large, comprenant plusieurs bactéries Gram positives, Gram négatives et des microorganismes atypiques.
+
+Elle est utilisée dans différentes infections bactériennes, ainsi que dans certaines indications spécifiques comme l'acné, la maladie de Lyme et certaines infections à Chlamydia, selon les recommandations et les autorisations applicables.
+
+## 3. Sources documentaires initiales
+
+1. Ministère de l'Industrie Pharmaceutique (Algérie) — Nomenclature nationale :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+2. Journal officiel de la République algérienne — N° 11 du 24 février 2016 :
+https://www.joradp.dz/FTP/JO-FRANCAIS/2016/F2016011.pdf
+
+3. WHO Collaborating Centre for Drug Statistics Methodology — ATC/DDD Index :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02
+
+4. PubChem — Doxycycline :
+https://pubchem.ncbi.nlm.nih.gov/compound/54671203
+
+5. DailyMed — Doxycycline, informations réglementaires américaines :
+https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=doxycycline
+# 4. MÉCANISME D'ACTION
+
+La doxycycline est un antibiotique de la famille des tétracyclines. Elle exerce principalement une activité bactériostatique.
+
+Son mécanisme d'action repose sur l'inhibition de la synthèse des protéines bactériennes :
+
+1. La doxycycline pénètre dans la cellule bactérienne.
+2. Elle se fixe de manière réversible sur la sous-unité ribosomale 30S.
+3. Elle empêche la fixation de l'aminoacyl-ARNt sur le complexe ribosomal.
+4. Elle bloque ainsi l'incorporation des acides aminés dans la chaîne polypeptidique.
+5. La synthèse des protéines bactériennes est inhibée, ce qui limite la croissance et la multiplication des bactéries.
+
+La résistance bactérienne peut apparaître notamment par :
+- La diminution de l'accumulation intracellulaire de l'antibiotique.
+- Les pompes d'efflux.
+- Les protéines de protection ribosomale.
+- Certains mécanismes enzymatiques d'inactivation.
+
+Une résistance croisée avec d'autres tétracyclines est possible.
+
+# 5. SPECTRE ANTIBACTÉRIEN
+
+La doxycycline possède un spectre antibactérien relativement large. Son activité dépend toutefois de la sensibilité du microorganisme et des mécanismes locaux de résistance.
+
+### 5.1 Bactéries Gram positives
+
+Des microorganismes potentiellement sensibles comprennent :
+- Staphylococcus aureus, selon la sensibilité de la souche.
+- Streptococcus pneumoniae, selon la sensibilité de la souche.
+- Listeria monocytogenes.
+- Bacillus anthracis.
+
+### 5.2 Bactéries Gram négatives
+
+Des microorganismes pouvant être sensibles comprennent :
+- Escherichia coli.
+- Haemophilus influenzae.
+- Brucella spp.
+- Bartonella spp.
+- Vibrio cholerae.
+- Shigella spp.
+- Yersinia pestis.
+- Certaines espèces de Klebsiella.
+
+### 5.3 Microorganismes atypiques et autres agents
+
+La doxycycline possède également une activité contre certains microorganismes particuliers, notamment :
+- Chlamydia trachomatis.
+- Mycoplasma pneumoniae.
+- Rickettsia spp.
+- Borrelia burgdorferi.
+- Certaines espèces de Mycoplasma et d'autres microorganismes intracellulaires.
+
+### 5.4 Remarque sur le spectre
+
+La liste ci-dessus est indicative et ne signifie pas que toutes les souches des espèces citées sont sensibles.
+
+La sensibilité doit être évaluée selon les recommandations microbiologiques et les données d'antibiogramme disponibles.
+
+La doxycycline ne doit pas être utilisée automatiquement contre une bactérie sans tenir compte de la résistance locale et de l'indication clinique.
+
+# 6. PHARMACOCINÉTIQUE
+
+La pharmacocinétique de la doxycycline comprend l'absorption, la distribution, le métabolisme et l'élimination.
+
+### 6.1 Absorption
+
+- La doxycycline est administrée principalement par voie orale.
+- Elle est presque complètement absorbée après administration orale.
+- La prise alimentaire influence généralement moins son absorption que celle de certaines autres tétracyclines.
+- Les préparations contenant du calcium, du magnésium, de l'aluminium, du fer ou du bismuth peuvent diminuer son absorption par formation de complexes.
+
+### 6.2 Distribution
+
+- La doxycycline présente une bonne diffusion dans les tissus.
+- Elle possède une liposolubilité élevée.
+- Elle se lie aux protéines plasmatiques.
+- Elle peut atteindre différents tissus et liquides biologiques.
+- Elle traverse le placenta et peut être présente dans le lait maternel.
+
+### 6.3 Métabolisme
+
+La doxycycline subit un métabolisme limité. Une partie importante du médicament est éliminée sous forme active.
+
+### 6.4 Élimination
+
+- L'élimination s'effectue par voie rénale et par voie digestive.
+- Une partie du médicament est excrétée dans les urines.
+- Une autre partie est éliminée dans les selles, notamment par voie biliaire et intestinale.
+- Contrairement à certaines autres tétracyclines, son élimination est moins dépendante de la fonction rénale.
+
+### 6.5 Demi-vie
+
+La demi-vie plasmatique est relativement longue, généralement de l'ordre de 18 à 22 heures chez l'adulte, selon les conditions étudiées.
+
+# 7. INDICATIONS THÉRAPEUTIQUES
+
+La doxycycline est utilisée dans le traitement de certaines infections bactériennes causées par des microorganismes sensibles.
+
+Les indications possibles comprennent notamment :
+
+### 7.1 Infections respiratoires
+
+- Certaines infections respiratoires bactériennes.
+- Certaines pneumonies atypiques.
+- Certaines infections causées par des bactéries sensibles.
+
+### 7.2 Infections sexuellement transmissibles
+
+- Certaines infections à Chlamydia trachomatis.
+- Certaines infections génitales bactériennes selon les recommandations thérapeutiques.
+
+### 7.3 Infections transmises par des vecteurs
+
+- Certaines rickettsioses.
+- La maladie de Lyme.
+- Certaines infections à Bartonella.
+
+### 7.4 Autres indications
+
+- Brucellose, dans certaines associations thérapeutiques.
+- Acné inflammatoire.
+- Prévention du paludisme dans certaines situations.
+- Certaines infections spécifiques pour lesquelles la doxycycline constitue une option thérapeutique.
+
+### 7.5 Remarque
+
+Les indications dépendent de la spécialité, de son dosage, de sa forme pharmaceutique, des recommandations médicales et de son autorisation de mise sur le marché.
+
+Cette liste constitue une synthèse pharmacologique générale et ne représente pas nécessairement la liste des indications autorisées pour DOTUR, XYLINE ou DOXYNUP en Algérie.
+
+# 8. EFFETS INDÉSIRABLES
+
+Les effets indésirables associés à la doxycycline peuvent être classés selon leur nature.
+
+### 8.1 Effets gastro-intestinaux
+
+- Nausées.
+- Vomissements.
+- Diarrhée.
+- Douleurs abdominales.
+- Dyspepsie.
+- Œsophagite et ulcération œsophagienne, notamment en cas de prise avec une quantité insuffisante d'eau ou juste avant le coucher.
+
+### 8.2 Effets dermatologiques
+
+- Photosensibilité.
+- Éruption cutanée.
+- Prurit.
+- Urticaire.
+- Réactions cutanées sévères, rarement.
+
+### 8.3 Effets hématologiques
+
+Des réactions hématologiques rares ont été rapportées, notamment :
+- Anémie hémolytique.
+- Thrombocytopénie.
+- Neutropénie.
+
+### 8.4 Autres effets indésirables
+
+- Candidose et prolifération de microorganismes non sensibles.
+- Céphalées.
+- Hypertension intracrânienne bénigne, rarement.
+- Augmentation des enzymes hépatiques ou atteinte hépatique, rarement.
+- Diarrhée associée à Clostridioides difficile.
+
+# 9. CONTRE-INDICATIONS ET PRÉCAUTIONS D'EMPLOI
+
+### 9.1 Contre-indications
+
+- Hypersensibilité connue à la doxycycline ou à une autre tétracycline.
+- Autres contre-indications éventuelles selon le RCP de la spécialité concernée.
+
+### 9.2 Grossesse
+
+L'utilisation pendant la grossesse nécessite une évaluation médicale du rapport bénéfice-risque.
+
+Les tétracyclines peuvent affecter le développement dentaire et osseux du fœtus, particulièrement pendant certaines périodes de développement.
+
+### 9.3 Allaitement
+
+La doxycycline passe dans le lait maternel. Son utilisation pendant l'allaitement doit être évaluée selon les recommandations applicables et le RCP de la spécialité.
+
+### 9.4 Enfants
+
+L'utilisation chez les enfants doit tenir compte de l'âge, de l'indication, de la durée du traitement et des recommandations spécifiques.
+
+Les tétracyclines peuvent entraîner une coloration permanente des dents et affecter le développement osseux pendant certaines périodes de croissance.
+
+### 9.5 Photosensibilité
+
+Les patients doivent limiter l'exposition au soleil et aux rayons ultraviolets pendant le traitement en raison du risque de réaction de photosensibilité.
+
+### 9.6 Précautions d'administration
+
+- Avaler les comprimés avec une quantité suffisante d'eau.
+- Éviter de prendre le médicament immédiatement avant de se coucher.
+- Respecter les instructions relatives à la prise alimentaire et aux interactions avec les minéraux.
+- Consulter un professionnel de santé en cas de diarrhée sévère ou persistante.
+
+# 10. INTERACTIONS MÉDICAMENTEUSES
+
+Certaines associations peuvent modifier l'absorption ou les effets de la doxycycline.
+
+### 10.1 Médicaments et produits diminuant l'absorption
+
+Les produits suivants peuvent diminuer l'absorption digestive de la doxycycline :
+- Antiacides contenant de l'aluminium.
+- Préparations contenant du magnésium.
+- Préparations contenant du calcium.
+- Sels de fer.
+- Produits contenant du bismuth.
+
+### 10.2 Médicaments modifiant la concentration de doxycycline
+
+Certains inducteurs enzymatiques peuvent diminuer sa demi-vie :
+- Carbamazépine.
+- Phénytoïne.
+- Barbituriques.
+
+### 10.3 Autres interactions
+
+- Les anticoagulants oraux peuvent nécessiter une surveillance et une adaptation de leur posologie.
+- L'association avec la pénicilline doit être évaluée selon le contexte thérapeutique.
+- L'association avec les rétinoïdes systémiques peut augmenter le risque d'hypertension intracrânienne.
+- L'association avec le méthoxyflurane est à éviter en raison d'un risque de toxicité rénale grave rapporté avec les tétracyclines.
+
+### 10.4 Remarque
+
+Les interactions doivent être vérifiées dans le RCP de la spécialité concernée et évaluées par un professionnel de santé.
+
+# 11. RÉFÉRENCES BIBLIOGRAPHIQUES
+
+1. DailyMed. Doxycycline Hyclate Tablets — Prescribing Information. Révision 2025.
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cec4368f-2852-443d-9d6f-7ba95807021b
+
+2. U.S. Food and Drug Administration (FDA). DORYX — Prescribing Information. Révision 2025.
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/050795s037lbl.pdf
+
+3. Electronic Medicines Compendium (emc). Doxycycline 100 mg Capsules — Summary of Product Characteristics.
+https://www.medicines.org.uk/emc/medicine/103815/spc
+
+4. DailyMed. Doxycycline — Microbiology and Antimicrobial Activity.
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=55873d3e-09c4-4726-acfe-5da581589575
+
+5. World Health Organization Collaborating Centre for Drug Statistics Methodology. ATC/DDD Index — J01AA02.
+https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02
+
+## Note méthodologique
+
+Les informations de ce document sont issues de références pharmacologiques et réglementaires internationales.
+
+Elles servent à compléter la description générale de la DCI DOXYCYCLINE. Elles ne remplacent pas le RCP algérien spécifique de chaque spécialité.
+
+Les indications, les contre-indications et les conditions d'utilisation doivent être vérifiées dans les documents réglementaires applicables en Algérie.
