@@ -1,0 +1,92 @@
+# DCI 18 — AZITHROMYCINE
+## Articles scientifiques
+
+### Article 1
+
+- **Titre :** Azithromycin: mechanisms of action and their relevance for clinical applications.
+- **Auteurs :** Michael J. Parnham, Vesna Erakovic Haber, Evangelos J. Giamarellos-Bourboulis, Gianpaolo Perletti, Geert M. Verleden, Robin Vos.
+- **Revue :** Pharmacology & Therapeutics.
+- **Année :** 2014.
+- **Volume / Pages :** 143(2), 225–245.
+- **DOI :** 10.1016/j.pharmthera.2014.03.003
+- **PMID :** 24631273.
+- **Type :** Revue scientifique.
+- **Objectif :** Examiner les mécanismes d’action de l’azithromycine et leur importance dans ses applications cliniques.
+- **Résumé :** L’article décrit l’inhibition de la synthèse des protéines bactériennes, la distribution tissulaire et intracellulaire de l’azithromycine ainsi que ses effets immunomodulateurs. Il aborde également son efficacité clinique et le risque de développement de résistances bactériennes.
+- **Pertinence pour le projet :** Source importante pour le mécanisme d’action, la pharmacocinétique et les propriétés pharmacologiques.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/24631273/
+
+### Article 2
+
+- **Titre :** Mechanism of action, resistance, synergism, and clinical implications of azithromycin.
+- **Auteurs :** Mohsen Heidary, Ahmad Ebrahimi Samangani, Abolfazl Kargari, Aliakbar Kiani Nejad, Ilya Yashmi, Moloudsadat Motahar, Elahe Taki, Saeed Khoshnood.
+- **Revue :** Journal of Clinical Laboratory Analysis.
+- **Année :** 2022.
+- **Volume / Pages :** 36(6), e24427.
+- **DOI :** 10.1002/jcla.24427
+- **PMID :** 35447019.
+- **PMCID :** PMC9169196.
+- **Type :** Revue scientifique.
+- **Objectif :** Présenter les mécanismes d’action, les mécanismes de résistance et les effets synergiques de l’azithromycine.
+- **Résumé :** Cette revue examine l’inhibition de la synthèse protéique bactérienne, les effets anti-inflammatoires et immunomodulateurs, ainsi que les mécanismes de résistance. Elle souligne l’importance du bon usage des antibiotiques et de la surveillance de la résistance bactérienne.
+- **Pertinence pour le projet :** Source utile pour le mécanisme d’action, le spectre antibactérien, la résistance et les implications cliniques.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/35447019/
+- **Texte intégral :** https://pmc.ncbi.nlm.nih.gov/articles/PMC9169196/
+
+### Article 3
+
+- **Titre :** Development of a population pharmacokinetic model characterizing the tissue distribution of azithromycin in healthy subjects.
+- **Auteurs :** Songmao Zheng, Peter Matzneller, Markus Zeitlinger, Stephan Schmidt.
+- **Revue :** Antimicrobial Agents and Chemotherapy.
+- **Année :** 2014.
+- **Volume / Pages :** 58(11), 6675–6684.
+- **DOI :** 10.1128/AAC.02904-14
+- **PMID :** 25155592.
+- **PMCID :** PMC4249372.
+- **Type :** Étude pharmacocinétique et modélisation pharmacocinétique.
+- **Objectif :** Développer un modèle pharmacocinétique permettant de caractériser la distribution tissulaire de l’azithromycine.
+- **Résumé :** L’étude a évalué les concentrations d’azithromycine dans le plasma, les cellules sanguines et les espaces interstitiels de différents tissus chez des volontaires sains. Les résultats montrent que la distribution tissulaire et la libération du médicament à partir des compartiments cellulaires jouent un rôle important dans son profil pharmacocinétique.
+- **Pertinence pour le projet :** Source utile pour la distribution, la pharmacocinétique et la persistance tissulaire de l’azithromycine.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/25155592/
+- **Texte intégral :** https://pmc.ncbi.nlm.nih.gov/articles/PMC4249372/
+
+### Article 4
+
+- **Titre :** Blood, tissue, and intracellular concentrations of azithromycin during and after end of therapy.
+- **Auteurs :** P. Matzneller, S. Krasniqi, M. Kinzig, F. Sörgel, S. Hüttner, E. Lackner, M. Müller, M. Zeitlinger.
+- **Revue :** Antimicrobial Agents and Chemotherapy.
+- **Année :** 2013.
+- **Volume / Pages :** 57(4), 1736–1742.
+- **DOI :** 10.1128/AAC.02011-12
+- **PMID :** 23357769.
+- **PMCID :** PMC3623349.
+- **Type :** Étude clinique pharmacocinétique.
+- **Objectif :** Étudier les concentrations sanguines, tissulaires et intracellulaires de l’azithromycine pendant et après le traitement.
+- **Résumé :** L’étude a mesuré les concentrations d’azithromycine dans le plasma, les globules blancs et les tissus mous chez des volontaires sains. Les concentrations les plus élevées ont été observées dans les globules blancs. Les auteurs soulignent également le risque potentiel lié à la persistance de concentrations subinhibitrices et à l’émergence de résistances bactériennes.
+- **Pertinence pour le projet :** Source utile pour la pharmacocinétique, la distribution tissulaire et la résistance bactérienne.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/23357769/
+- **Texte intégral :** https://pmc.ncbi.nlm.nih.gov/articles/PMC3623349/
+
+### Article 5
+
+- **Titre :** Influential predictors of azithromycin pharmacokinetics: a systematic review of population pharmacokinetics.
+- **Auteurs :** Janthima Methaneethorn, Zheng Jiao, Rowan AlEjielat, Totsapol Jirasomprasert.
+- **Revue :** Annals of Medicine.
+- **Année :** 2025.
+- **Volume :** 57(1).
+- **Article ID :** 2496792.
+- **DOI :** 10.1080/07853890.2025.2496792
+- **PMID :** 40372973.
+- **PMCID :** PMC12082735.
+- **Type :** Revue systématique des études pharmacocinétiques de population.
+- **Objectif :** Identifier les facteurs influençant les paramètres pharmacocinétiques de l’azithromycine.
+- **Résumé :** Cette revue systématique a inclus quinze études. Elle examine notamment les variations du volume de distribution et de la clairance selon l’âge, la grossesse et certaines caractéristiques cliniques. Les auteurs soulignent les limites de validation externe de plusieurs modèles pharmacocinétiques.
+- **Pertinence pour le projet :** Source récente pour la pharmacocinétique et les facteurs pouvant influencer l’exposition à l’azithromycine.
+- **Lien PubMed :** https://pubmed.ncbi.nlm.nih.gov/40372973/
+- **Texte intégral :** https://pmc.ncbi.nlm.nih.gov/articles/PMC12082735/
+
+---
+
+## Remarque documentaire
+
+Les références ci-dessus ont été identifiées dans PubMed. Les liens vers PMC donnent accès au texte intégral pour les articles concernés. La disponibilité du texte intégral doit être vérifiée individuellement avant de considérer un PDF comme téléchargé.

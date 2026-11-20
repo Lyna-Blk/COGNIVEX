@@ -1,0 +1,43 @@
+# DCI 19 — CLARITHROMYCINE
+
+## 1. Identification de la substance active
+
+- **DCI :** Clarithromycine
+- **Code ATC :** J01FA09
+- **Classe thérapeutique :** Antibiotiques à usage systémique
+- **Classe pharmacologique :** Macrolides
+- **Sous-groupe :** Dérivés semi-synthétiques de l’érythromycine
+- **Nature de l’activité :** Antibiotique généralement bactériostatique, pouvant exercer une activité bactéricide selon le microorganisme et les conditions d’utilisation
+- **Voies d’administration :** Voie orale pour les formes recensées dans la nomenclature algérienne consultée
+
+### Codes DCI recensés dans la nomenclature algérienne
+
+- **13 E 215 :** Clarithromycine — comprimés et comprimés pelliculés, 500 mg
+- **13 E 244 :** Clarithromycine — comprimés et comprimés pelliculés, 250 mg
+- **13 E 297 :** Clarithromycine — formes pour suspension buvable, 250 mg/5 ml
+- **13 E 323 :** Clarithromycine — granulés pour suspension buvable, 125 mg/5 ml
+
+## 2. Description générale
+
+La clarithromycine est un antibiotique semi-synthétique appartenant à la famille des macrolides. Elle est dérivée de l’érythromycine A et possède une activité antibactérienne contre plusieurs bactéries sensibles.
+
+Son mécanisme d’action repose principalement sur la liaison à la sous-unité 50S du ribosome bactérien, ce qui inhibe la synthèse des protéines nécessaires à la croissance et à la multiplication des bactéries.
+
+La clarithromycine est utilisée dans le traitement de certaines infections bactériennes, notamment des infections respiratoires et cutanées, ainsi que dans certaines associations thérapeutiques destinées à l’éradication de Helicobacter pylori.
+
+## 3. Sources documentaires initiales
+
+1. **Ministère de l’Industrie Pharmaceutique (Algérie) — Nomenclature nationale des produits pharmaceutiques :**  
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+2. **Journal officiel de la République algérienne — Journal officiel n° 75 du 13 novembre 2025 :**  
+https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+
+3. **WHO Collaborating Centre for Drug Statistics Methodology — ATC/DDD Index, J01FA09 :**  
+https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09
+
+4. **PubChem — Clarithromycin, CID 84029 :**  
+https://pubchem.ncbi.nlm.nih.gov/compound/84029
+
+5. **Electronic Medicines Compendium — Clarithromycin 500 mg, Summary of Product Characteristics :**  
+https://www.medicines.org.uk/emc/product/7072/smpc

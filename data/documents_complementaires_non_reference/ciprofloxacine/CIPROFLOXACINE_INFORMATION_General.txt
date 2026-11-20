@@ -1,0 +1,226 @@
+# DCI 20 — CIPROFLOXACINE
+
+## 1. Identification de la substance active
+
+- DCI : Ciprofloxacine
+- Code ATC : J01MA02
+- Classe thérapeutique : Antibiotiques à usage systémique
+- Classe pharmacologique : Quinolones antibactériennes
+- Sous-classe : Fluoroquinolones
+- Nature de l’activité : Antibiotique bactéricide
+- Mécanisme général : Inhibition de l'ADN-gyrase et de la topoisomérase IV bactériennes.
+- Voies d’administration : Voie orale et voie intraveineuse pour les formes systémiques ; voie ophtalmique ou auriculaire pour certaines préparations spécifiques.
+
+### Codes DCI recensés dans la nomenclature algérienne
+
+- 13 K 252 : Ciprofloxacine — comprimé pelliculé, 250 mg.
+- 13 K 253 : Ciprofloxacine — comprimé pelliculé ou comprimé enrobé, 500 mg.
+- 13 K 254 : Ciprofloxacine — comprimé ou comprimé enrobé, 750 mg.
+
+Remarque : ces codes et dosages sont ceux identifiés dans le Journal officiel algérien n° 75 du 13 novembre 2025. D'autres formes pharmaceutiques peuvent être présentes dans les éditions ultérieures de la nomenclature.
+
+## 2. Description générale
+
+La ciprofloxacine est un antibiotique de synthèse appartenant à la famille des fluoroquinolones. Elle possède une activité bactéricide en inhibant deux enzymes essentielles à la réplication et à la réparation de l'ADN bactérien : l'ADN-gyrase et la topoisomérase IV.
+
+Elle agit contre plusieurs bactéries Gram négatives et certaines bactéries Gram positives. Son utilisation dépend de la sensibilité du microorganisme, du type d'infection et des recommandations thérapeutiques applicables.
+
+En raison du risque d'effets indésirables graves associés aux fluoroquinolones, son utilisation doit respecter les indications et les précautions figurant dans le RCP du médicament concerné.
+
+## 3. Sources documentaires initiales
+
+1. Ministère de l'Industrie Pharmaceutique (Algérie) — Nomenclature nationale :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+2. Journal officiel de la République algérienne — N° 75 du 13 novembre 2025 :
+https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+
+3. WHO Collaborating Centre for Drug Statistics Methodology — ATC/DDD Index, J01MA02 :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02
+
+4. FDA — CIPRO (ciprofloxacin), Prescribing Information :
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/019537s095%2C020780s050lbl.pdf
+## 4. Mécanisme d'action
+
+La ciprofloxacine est un antibiotique bactéricide appartenant à la famille des fluoroquinolones.
+
+Son mécanisme d'action repose sur l'inhibition de deux enzymes bactériennes essentielles :
+
+- ADN-gyrase (topoisomérase II) : intervient dans le déroulement et la réplication de l'ADN bactérien.
+- Topoisomérase IV : participe à la séparation des chromosomes bactériens après leur réplication.
+
+L'inhibition de ces enzymes perturbe la réplication, la transcription, la réparation et la recombinaison de l'ADN bactérien.
+
+Cette action entraîne la mort de la bactérie.
+
+## 5. Spectre antibactérien
+
+La ciprofloxacine possède principalement une activité contre de nombreuses bactéries Gram négatives et certaines bactéries Gram positives.
+
+### 5.1. Bactéries Gram négatives
+
+Exemples :
+- Escherichia coli
+- Klebsiella pneumoniae
+- Enterobacter cloacae
+- Proteus mirabilis
+- Pseudomonas aeruginosa
+- Haemophilus influenzae
+- Salmonella Typhi
+- Shigella spp.
+- Neisseria gonorrhoeae
+
+### 5.2. Bactéries Gram positives
+
+Exemples :
+- Staphylococcus aureus (souches sensibles à la méticilline)
+- Staphylococcus epidermidis (souches sensibles à la méticilline)
+- Staphylococcus saprophyticus
+- Streptococcus pneumoniae
+- Streptococcus pyogenes
+- Enterococcus faecalis
+
+### 5.3. Limites du spectre
+
+- L'activité contre les bactéries Gram positives est variable.
+- La ciprofloxacine n'est pas un traitement de premier choix de la pneumonie à Streptococcus pneumoniae.
+- L'activité contre les bactéries anaérobies est insuffisante pour assurer seule leur prise en charge.
+- L'efficacité dépend de la sensibilité de la souche bactérienne et des résistances locales.
+
+## 6. Pharmacocinétique
+
+### 6.1. Absorption
+
+- Administration orale possible sous forme de comprimés ou de suspension.
+- Biodisponibilité absolue orale : environ 70 %.
+- Concentration plasmatique maximale atteinte généralement en 1 à 2 heures.
+- L'alimentation peut retarder le pic plasmatique sans modifier significativement l'absorption totale.
+- Les produits contenant des cations polyvalents (magnésium, aluminium, fer, zinc ou calcium) peuvent diminuer l'absorption.
+
+### 6.2. Distribution
+
+- Liaison aux protéines plasmatiques : environ 20 à 40 %.
+- Large distribution dans les tissus et les liquides biologiques.
+- Présence dans les poumons, les reins, la peau, les os, les muscles, la prostate et les sécrétions bronchiques.
+- Passage dans le liquide céphalorachidien en concentrations généralement faibles.
+
+### 6.3. Métabolisme
+
+- Métabolisation hépatique partielle.
+- Formation de plusieurs métabolites possédant une activité antibactérienne inférieure à celle de la molécule inchangée.
+- La ciprofloxacine inhibe le cytochrome CYP1A2, ce qui peut augmenter les concentrations de certains médicaments.
+
+### 6.4. Élimination
+
+- Élimination principalement rénale, notamment sous forme inchangée.
+- Élimination également par les voies biliaires et fécales.
+- Demi-vie d'élimination plasmatique : environ 4 heures chez les sujets ayant une fonction rénale normale.
+- Une adaptation de la posologie peut être nécessaire en cas d'insuffisance rénale.
+
+## 7. Indications thérapeutiques
+
+Les indications dépendent du produit autorisé, du contexte clinique, de la sensibilité bactérienne et des recommandations applicables.
+
+Les principales indications documentées dans le RCP américain de référence comprennent :
+
+- Certaines infections urinaires.
+- Certaines infections de la prostate, notamment les prostatites bactériennes chroniques.
+- Certaines infections cutanées et des tissus mous.
+- Certaines infections ostéoarticulaires.
+- Certaines infections intra-abdominales, en association avec le métronidazole.
+- Certaines diarrhées bactériennes.
+- La fièvre typhoïde.
+- Certaines infections respiratoires dues à des bactéries sensibles.
+- Certaines situations particulières de prophylaxie ou de traitement de l'anthrax et de la peste.
+
+**Restriction importante :** les fluoroquinolones sont associées à des effets indésirables graves. Leur utilisation doit être réservée aux situations où elles sont appropriées, en tenant compte des alternatives thérapeutiques et des recommandations officielles.
+
+Cette liste est issue d'un document réglementaire américain et ne constitue pas la liste des indications autorisées en Algérie.
+
+## 8. Effets indésirables
+
+### 8.1. Effets indésirables fréquents
+
+- Nausées.
+- Diarrhée.
+- Vomissements.
+- Élévation des enzymes hépatiques.
+- Éruptions cutanées.
+
+### 8.2. Effets indésirables graves
+
+- Tendinite et rupture tendineuse.
+- Neuropathie périphérique, parfois irréversible.
+- Effets neurologiques et psychiatriques : confusion, agitation, troubles du sommeil ou convulsions.
+- Réactions allergiques graves, notamment anaphylaxie.
+- Atteinte hépatique.
+- Allongement de l'intervalle QT et troubles du rythme cardiaque.
+- Diarrhée associée à Clostridioides difficile.
+- Troubles de la glycémie, notamment hypoglycémie ou hyperglycémie.
+- Photosensibilité.
+- Risque d'anévrisme ou de dissection aortique chez certains patients.
+
+Certains effets indésirables peuvent être prolongés, invalidants et potentiellement irréversibles.
+
+## 9. Précautions d'emploi et contre-indications
+
+### 9.1. Contre-indications
+
+- Hypersensibilité à la ciprofloxacine ou à une autre quinolone.
+- Association avec la tizanidine, en raison d'une interaction médicamenteuse importante.
+
+### 9.2. Précautions d'emploi
+
+- Antécédents de tendinopathie ou de rupture tendineuse.
+- Patients âgés et patients recevant des corticostéroïdes, en raison du risque tendineux.
+- Épilepsie ou antécédents de troubles neurologiques.
+- Insuffisance rénale : adaptation éventuelle de la posologie.
+- Antécédents de troubles du rythme ou d'allongement du QT.
+- Troubles de la glycémie, notamment chez les patients diabétiques.
+- Exposition au soleil et aux rayonnements UV en raison du risque de photosensibilité.
+- Antécédents d'anévrisme ou de maladie vasculaire aortique.
+- Myasthénie grave : risque d'aggravation de la faiblesse musculaire.
+- Grossesse et allaitement : évaluation individuelle du rapport bénéfice-risque.
+
+### 9.3. Interactions médicamenteuses importantes
+
+- Tizanidine : association contre-indiquée.
+- Théophylline : risque d'augmentation des concentrations et de toxicité.
+- Warfarine : risque d'augmentation de l'effet anticoagulant.
+- Antidiabétiques : risque de perturbation de la glycémie.
+- Antiacides contenant du magnésium ou de l'aluminium, fer, zinc et calcium : diminution possible de l'absorption.
+- Certains médicaments métabolisés par le CYP1A2 : augmentation possible de leurs concentrations.
+
+## 10. Références bibliographiques et réglementaires
+
+### Source réglementaire étrangère de référence
+
+FDA — CIPRO (ciprofloxacin hydrochloride), Prescribing Information, révision septembre 2024.
+
+Lien :
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/019537s095%2C020780s050lbl.pdf
+
+Sections consultées :
+- Mechanism of Action.
+- Pharmacokinetics.
+- Microbiology.
+- Indications and Usage.
+- Adverse Reactions.
+- Contraindications.
+- Warnings and Precautions.
+- Drug Interactions.
+
+### Article scientifique
+
+Shariati A, Arshadi M, Khosrojerdi MA, et al. The resistance mechanisms of bacteria against ciprofloxacin and new approaches for enhancing the efficacy of this antibiotic. Frontiers in Public Health. 2022;10:1025633.
+
+DOI : 10.3389/fpubh.2022.1025633
+
+Lien :
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9815622/
+
+### Note méthodologique
+
+Les informations pharmacologiques et cliniques présentées dans cette section sont générales et proviennent de références scientifiques et réglementaires étrangères.
+
+Elles ne remplacent pas le RCP algérien du produit concerné. Les indications, les contre-indications, les précautions d'emploi et les effets indésirables doivent être vérifiés dans le RCP applicable en Algérie.

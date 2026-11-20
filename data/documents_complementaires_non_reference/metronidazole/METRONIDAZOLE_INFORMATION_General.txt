@@ -1,0 +1,333 @@
+# DCI 24 — METRONIDAZOLE
+
+## 1. Identification de la DCI
+
+- Dénomination commune internationale (DCI) : Métronidazole
+- Dénomination anglaise : Metronidazole
+- Classe pharmacologique : Antibiotique et antiparasitaire de la famille des nitro-5-imidazolés.
+- Famille chimique : Dérivés du 5-nitroimidazole.
+- Code ATC :
+  - J01XD01 : formes systémiques parentérales.
+  - P01AB01 : formes orales et rectales.
+- Principales formes pharmaceutiques identifiées dans la nomenclature algérienne :
+  - Comprimé 250 mg.
+  - Comprimé 500 mg.
+  - Suspension buvable 125 mg/5 ml.
+  - Suspension buvable 200 mg/5 ml.
+
+## 2. Description générale
+
+Le métronidazole est un médicament antibactérien et antiprotozoaire appartenant à la famille des nitroimidazolés.
+
+Il possède une activité principalement contre les bactéries anaérobies et certains protozoaires.
+
+Son mécanisme d'action repose sur la réduction du groupement nitro dans les microorganismes sensibles. Cette activation produit des composés réactifs qui endommagent l'ADN et inhibent la synthèse des acides nucléiques, entraînant la mort cellulaire.
+
+Le métronidazole est utilisé dans le traitement de certaines infections bactériennes anaérobies et parasitaires, selon les indications autorisées pour chaque présentation.
+
+## 3. Sources documentaires initiales
+
+### 3.1. Sources réglementaires algériennes
+
+**Source 1 — Ministère de l'Industrie Pharmaceutique (MIPH)**
+
+- Document : Nomenclature nationale des produits pharmaceutiques à usage de la médecine humaine.
+- Lien : https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+- Utilité : vérifier les codes DCI, les formes pharmaceutiques et les dosages enregistrés en Algérie.
+
+**Source 2 — Journal officiel de la République algérienne**
+
+- Document : Journal officiel n° 75 du 13 novembre 2025.
+- Lien : https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+- Informations relevées :
+  - 13 F 039 : Métronidazole, comprimé 250 mg.
+  - 13 F 040 : Métronidazole, suspension buvable 125 mg/5 ml.
+  - 13 F 199 : Métronidazole, comprimé 500 mg.
+  - 13 F 225 : Métronidazole, suspension buvable 200 mg/5 ml.
+
+**Source 3 — Liste des médicaments enregistrés en Algérie**
+
+- Organisme : Ministère de l'Industrie Pharmaceutique.
+- Lien : https://www.miph.gov.dz/fr/liste-des-medicaments-enregistres-en-algerie/
+- Utilité : rechercher les spécialités pharmaceutiques contenant du métronidazole.
+
+### 3.2. Sources internationales
+
+**Source 4 — Organisation mondiale de la Santé (OMS)**
+
+- Classification ATC/DDD.
+- Lien : https://atcddd.fhi.no/atc_ddd_index/?code=J01XD
+- Utilité : vérifier la classification ATC selon la voie d'administration.
+
+**Source 5 — Electronic Medicines Compendium (eMC)**
+
+- Document : Metronidazole 200 mg Tablets — Summary of Product Characteristics.
+- Lien : https://www.medicines.org.uk/emc/product/12348/smpc
+- Utilité : référence pour les propriétés pharmacologiques, les indications, les contre-indications et les effets indésirables.
+
+**Source 6 — Electronic Medicines Compendium (eMC)**
+
+- Document : Metronidazole 400 mg Film-Coated Tablets — Summary of Product Characteristics.
+- Lien : https://www.medicines.org.uk/emc/product/13522/smpc
+- Utilité : référence complémentaire pour les caractéristiques pharmaceutiques et cliniques.
+
+### Remarque méthodologique
+
+Les codes de la nomenclature algérienne identifient les présentations pharmaceutiques nationales. La classification ATC varie selon la voie d'administration : J01XD01 concerne les formes parentérales, tandis que P01AB01 concerne les formes orales et rectales.
+
+Les informations cliniques détaillées seront développées dans les sections suivantes et confrontées aux documents réglementaires disponibles.
+## 4. Mécanisme d'action
+
+Le métronidazole est un antibiotique et antiprotozoaire de la famille des 5-nitroimidazolés.
+
+Son activité dépend de sa réduction intracellulaire dans les microorganismes sensibles, notamment les bactéries anaérobies et certains protozoaires.
+
+Après pénétration dans la cellule :
+
+1. Le groupement nitro du métronidazole est réduit par des systèmes de transport d'électrons.
+2. Cette réduction produit des métabolites réactifs.
+3. Ces métabolites interagissent avec l'ADN et provoquent des lésions de sa structure.
+4. La synthèse des acides nucléiques est perturbée, entraînant la mort du microorganisme.
+
+Le métronidazole exerce ainsi une activité bactéricide contre les bactéries anaérobies sensibles et une activité antiparasitaire contre certains protozoaires.
+
+## 5. Spectre antimicrobien
+
+Le métronidazole possède principalement une activité contre les bactéries anaérobies et certains protozoaires.
+
+### 5.1. Bactéries anaérobies
+
+Exemples de microorganismes généralement sensibles :
+
+- *Bacteroides fragilis* et certaines espèces apparentées.
+- *Clostridium* spp.
+- *Fusobacterium* spp.
+- *Prevotella* spp.
+- *Porphyromonas* spp.
+- Certaines espèces de *Peptostreptococcus*.
+
+### 5.2. Protozoaires
+
+Le métronidazole possède une activité contre certains protozoaires, notamment :
+
+- *Trichomonas vaginalis*.
+- *Giardia duodenalis* (également appelé *Giardia lamblia*).
+- *Entamoeba histolytica*.
+
+### 5.3. Limites du spectre
+
+- Le métronidazole n'est généralement pas actif contre les bactéries aérobies.
+- Il n'est pas considéré comme un antibiotique à large spectre.
+- La sensibilité peut varier selon les espèces et les souches.
+- Certaines bactéries anaérobies peuvent présenter une résistance.
+
+## 6. Pharmacocinétique
+
+### 6.1. Absorption
+
+Après administration orale, le métronidazole est rapidement et presque complètement absorbé au niveau du tractus gastro-intestinal.
+
+La biodisponibilité orale est généralement élevée, proche de 100 %.
+
+Les concentrations plasmatiques maximales sont habituellement atteintes en environ 1 à 2 heures.
+
+### 6.2. Distribution
+
+Le métronidazole se distribue largement dans les tissus et les liquides biologiques.
+
+Il peut notamment atteindre :
+
+- Le foie.
+- Les poumons.
+- Les reins.
+- La salive.
+- Le liquide séminal.
+- Le liquide céphalorachidien.
+- Le lait maternel.
+
+Il traverse également la barrière placentaire.
+
+### 6.3. Métabolisme
+
+Le métronidazole est principalement métabolisé au niveau hépatique par oxydation et glucuroconjugaison.
+
+Certains métabolites possèdent également une activité pharmacologique.
+
+### 6.4. Élimination
+
+L'élimination se fait principalement par voie rénale, sous forme de médicament inchangé et de métabolites.
+
+Une partie est également éliminée dans les selles.
+
+### 6.5. Demi-vie
+
+La demi-vie plasmatique moyenne chez l'adulte ayant une fonction hépatique normale est d'environ 8 heures.
+
+Elle peut être prolongée en cas d'insuffisance hépatique.
+
+## 7. Indications thérapeutiques
+
+Le métronidazole est utilisé dans le traitement de certaines infections dues à des bactéries anaérobies et à des protozoaires sensibles.
+
+Les principales indications décrites dans les références internationales comprennent :
+
+### 7.1. Infections bactériennes anaérobies
+
+- Certaines infections intra-abdominales.
+- Certaines infections gynécologiques et pelviennes.
+- Certaines infections dentaires et bucco-dentaires.
+- Certaines infections cutanées et des tissus mous à bactéries anaérobies.
+- Certaines infections du système nerveux central dues à des bactéries anaérobies sensibles.
+
+### 7.2. Infections parasitaires
+
+- Trichomonase.
+- Giardiase.
+- Amibiase intestinale et hépatique.
+
+### 7.3. Autres utilisations
+
+Le métronidazole peut également être utilisé dans certaines stratégies thérapeutiques contre *Helicobacter pylori*, en association avec d'autres médicaments.
+
+**Remarque :** les indications dépendent de la forme pharmaceutique, de la spécialité et des autorisations réglementaires nationales. Cette liste ne constitue pas la liste officielle des indications autorisées en Algérie.
+
+## 8. Effets indésirables
+
+Les effets indésirables du métronidazole peuvent être digestifs, neurologiques, cutanés ou hématologiques.
+
+### 8.1. Troubles gastro-intestinaux
+
+- Nausées.
+- Vomissements.
+- Diarrhée.
+- Douleurs abdominales.
+- Perte d'appétit.
+- Goût métallique ou désagréable dans la bouche.
+
+### 8.2. Troubles neurologiques
+
+- Céphalées.
+- Vertiges.
+- Dans certains cas, neuropathie périphérique.
+- Rarement, convulsions ou encéphalopathie, notamment lors de traitements prolongés ou à forte exposition.
+
+### 8.3. Réactions cutanées
+
+- Éruption cutanée.
+- Prurit.
+- Urticaire.
+- Rarement, réactions cutanées graves.
+
+### 8.4. Troubles hématologiques
+
+- Leucopénie.
+- Neutropénie réversible dans certains cas.
+- Rarement, autres anomalies hématologiques.
+
+### 8.5. Troubles hépatiques
+
+- Augmentation des enzymes hépatiques.
+- Rarement, atteinte hépatique médicamenteuse.
+
+Une réaction neurologique inhabituelle, une réaction allergique grave ou une éruption cutanée sévère nécessite une évaluation médicale rapide.
+
+## 9. Contre-indications et précautions d'emploi
+
+### 9.1. Contre-indications
+
+Selon les références réglementaires internationales, les principales contre-indications ou situations nécessitant une vérification spécifique comprennent :
+
+- Hypersensibilité au métronidazole, aux autres dérivés des nitroimidazolés ou à un excipient.
+- Antécédents de réaction allergique grave au médicament.
+- Association avec certains médicaments, notamment le disulfirame, selon les RCP consultés.
+
+Les contre-indications exactes doivent être vérifiées dans le RCP de chaque spécialité.
+
+### 9.2. Précautions d'emploi
+
+Une attention particulière est nécessaire chez :
+
+- Les patients présentant une insuffisance hépatique sévère.
+- Les patients ayant des antécédents de troubles neurologiques.
+- Les patients présentant une neuropathie périphérique.
+- Les patients recevant un traitement prolongé.
+- Les patients présentant des anomalies hématologiques.
+
+Une surveillance clinique et biologique peut être nécessaire lors de traitements prolongés.
+
+### 9.3. Grossesse et allaitement
+
+Le passage du métronidazole à travers le placenta et dans le lait maternel doit être pris en considération.
+
+L'utilisation pendant la grossesse et l'allaitement doit être évaluée par un professionnel de santé selon le contexte clinique et les recommandations applicables.
+
+### 9.4. Alcool
+
+Les notices recommandent généralement d'éviter la consommation d'alcool pendant le traitement et pendant la période indiquée après son arrêt.
+
+La durée exacte de cette précaution doit être vérifiée dans la notice de la spécialité utilisée.
+
+## 10. Interactions médicamenteuses
+
+Le métronidazole peut interagir avec plusieurs médicaments :
+
+### 10.1. Warfarine et autres anticoagulants coumariniques
+
+Le métronidazole peut augmenter l'effet anticoagulant et le risque hémorragique. Une surveillance de l'INR peut être nécessaire.
+
+### 10.2. Disulfirame
+
+L'association avec le disulfirame peut entraîner des réactions neuropsychiatriques. Elle est généralement contre-indiquée selon les RCP consultés.
+
+### 10.3. Lithium
+
+Le métronidazole peut augmenter les concentrations plasmatiques du lithium et favoriser sa toxicité.
+
+### 10.4. Phénytoïne
+
+Une interaction peut modifier les concentrations plasmatiques du métronidazole et de la phénytoïne.
+
+### 10.5. Phénobarbital
+
+Le phénobarbital peut accélérer le métabolisme du métronidazole et diminuer ses concentrations plasmatiques.
+
+### 10.6. Ciclosporine
+
+Le métronidazole peut augmenter les concentrations plasmatiques de la ciclosporine. Une surveillance peut être nécessaire.
+
+### 10.7. 5-fluorouracile
+
+Le métronidazole peut augmenter l'exposition au 5-fluorouracile et favoriser sa toxicité.
+
+Une vérification des interactions médicamenteuses est nécessaire avant l'administration, particulièrement chez les patients polymédiqués.
+
+## 11. Références bibliographiques et réglementaires
+
+1. ANSM. FLAGYL 500 mg, Résumé des caractéristiques du produit.
+   https://base-donnees-publique.medicaments.gouv.fr/
+
+2. ANSM. FLAGYL 500 mg, Notice destinée au patient.
+   https://base-donnees-publique.medicaments.gouv.fr/
+
+3. Edwards DI. Mechanism of antimicrobial action of metronidazole. Journal of Antimicrobial Chemotherapy. 1979;5(5):499–502.
+   https://pubmed.ncbi.nlm.nih.gov/387703/
+
+4. Löfmark S, Edlund C, Nord CE. Pharmacokinetics and pharmacodynamics of the nitroimidazole antimicrobials. Clinical Pharmacokinetics. 1999;36(2):93–109.
+   https://pubmed.ncbi.nlm.nih.gov/10384859/
+
+5. Alauzet C, Lozniewski A, Marchandin H. Metronidazole resistance and nim genes in anaerobes: A review. Anaerobe. 2019;55:40–53.
+   https://pubmed.ncbi.nlm.nih.gov/30316817/
+
+6. Shahzad I, Alasmari MS, Zamir A, Rasool MF, Alqahtani F. Clinical pharmacokinetics of metronidazole: a systematic review and meta-analysis. Antimicrobial Agents and Chemotherapy. 2025;69(9):e01904-24.
+   https://pubmed.ncbi.nlm.nih.gov/40741956/
+
+7. DailyMed. Metronidazole — Drug Label Information.
+   https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metronidazole
+
+### Note méthodologique
+
+Les informations pharmacologiques et cliniques présentées dans ce document proviennent de références scientifiques et réglementaires internationales.
+
+Les RCP français et les documents américains constituent des références documentaires et ne remplacent pas les RCP officiellement approuvés en Algérie.
+
+Les indications, contre-indications, précautions et interactions doivent être vérifiées selon la spécialité et la réglementation algérienne en vigueur.

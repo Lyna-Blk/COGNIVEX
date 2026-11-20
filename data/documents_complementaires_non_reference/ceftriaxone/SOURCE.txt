@@ -1,0 +1,41 @@
+# DCI 17 — CEFTRIAXONE
+
+## 02. Recherche dans les sources réglementaires
+
+### 1. Sources algériennes
+
+**Source 1 — Ministère de l'Industrie Pharmaceutique (MIPH)**
+
+Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+Résultat :
+Produits identifiés (nomenclature, version du 31/08/2026) :
+- ZAFOTRIAXONE 1 g/flacon — IMGSA — n° d'enregistrement 556/13B019/21.
+- CETRIAXONE HUP 1 g/flacon — HUPP PHARMA — n° d'enregistrement 380/13B019/02/19.
+- CETRIAL 1 g/flacon — laboratoire et n° d'enregistrement À CONFIRMER (nom retrouvé uniquement dans un listing secondaire).
+
+**Source 2 — Agence Nationale des Produits Pharmaceutiques (ANPP)**
+
+Lien :
+https://rcp.anpp.dz/
+
+Résultat :
+Aucune recherche ANPP n'était consignée dans ce dossier. Recherche par DCI (CEFTRIAXONE) et par noms commerciaux à effectuer et à noter ici avec la date.
+
+### 2. Sources étrangères (complémentaires, ne remplacent pas la source algérienne)
+
+**Source 3 — ANSM, Base de données publique des médicaments (France)**
+
+Documents présents dans RCP_et_notice : RCP et notice de CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable (pages imprimées le 18/11/2026).
+Lien :
+https://base-donnees-publique.medicaments.gouv.fr
+
+**Source 4 — OMS, WHO Collaborating Centre for Drug Statistics Methodology**
+
+Vérification du code ATC J01DD04 :
+https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04&showdescription=no
+
+### 3. Remarque
+
+Le RCP/notice Panpharma est une référence française : il ne remplace pas un RCP algérien. En cas de différence, la source algérienne prévaut.

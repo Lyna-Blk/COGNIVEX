@@ -1,0 +1,114 @@
+# DCI 20 — CIPROFLOXACINE
+
+## 02. Recherche dans les sources réglementaires algériennes
+
+### 1. Objectif de la recherche
+
+Rechercher les documents réglementaires algériens relatifs à la ciprofloxacine, notamment :
+
+- La nomenclature nationale des produits pharmaceutiques.
+- Les RCP (Résumés des caractéristiques du produit).
+- Les notices destinées aux patients.
+- La liste des médicaments enregistrés en Algérie.
+- Les formes pharmaceutiques et dosages autorisés.
+- Les noms commerciaux et les laboratoires titulaires des décisions d'enregistrement.
+
+### 2. Sources réglementaires prioritaires
+
+**Source 1 — Ministère de l'Industrie Pharmaceutique (MIPH)**
+
+Nom : Nomenclature nationale des produits pharmaceutiques.
+
+Lien :
+https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/
+
+Informations à rechercher :
+- Ciprofloxacine.
+- Codes DCI.
+- Dosages et formes pharmaceutiques.
+- Noms commerciaux.
+- Laboratoires concernés.
+
+Résultat initial :
+Le portail officiel propose plusieurs éditions de la nomenclature nationale. La recherche détaillée dans les fichiers de la dernière édition reste à effectuer.
+
+**Source 2 — Journal officiel de la République algérienne**
+
+Document : Journal officiel n° 75 du 13 novembre 2025.
+
+Lien :
+https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf
+
+Résultats identifiés :
+- Code 13 K 253 : Ciprofloxacine, comprimé pelliculé ou comprimé enrobé, 500 mg.
+- Code 13 K 254 : Ciprofloxacine, comprimé ou comprimé enrobé, 750 mg.
+- Les présentations de 500 mg et 750 mg figurent avec une délivrance uniquement sur prescription hospitalière.
+
+Autre référence officielle :
+Journal officiel n° 33 du 15 juin 2014.
+
+Lien :
+https://douane.gov.dz/IMG/pdf/arrete_du_27_mars_2013.pdf
+
+Résultats identifiés :
+- Code 13 K 252 : Ciprofloxacine, comprimé pelliculé, 250 mg.
+- Code 13 K 253 : Ciprofloxacine, comprimé pelliculé, 500 mg.
+
+Remarque : les codes et dosages doivent être vérifiés dans la dernière édition de la nomenclature nationale avant de considérer cette liste comme exhaustive.
+
+**Source 3 — Agence Nationale des Produits Pharmaceutiques (ANPP)**
+
+Nom : Portail de recherche et de consultation des RCP.
+
+Lien :
+https://rcp.anpp.dz/
+
+Recherche à effectuer :
+- Ciprofloxacine.
+- CIPROFLOXACINE 250 mg.
+- CIPROFLOXACINE 500 mg.
+- CIPROFLOXACINE 750 mg.
+- Noms commerciaux identifiés.
+
+Résultat initial :
+Le portail permet une recherche par DCI, nom commercial ou établissement pharmaceutique. Aucun résultat spécifique n'a été confirmé lors de la consultation initiale.
+
+**Source 4 — Liste des médicaments enregistrés en Algérie**
+
+Nom : Liste des médicaments enregistrés en Algérie.
+
+Lien :
+https://www.miph.gov.dz/fr/liste-des-medicaments-enregistres-en-algerie/
+
+Informations à rechercher :
+- Noms commerciaux de la ciprofloxacine.
+- Dosages.
+- Formes pharmaceutiques.
+- Laboratoires titulaires.
+- Numéros et dates d'enregistrement, lorsqu'ils sont disponibles.
+
+Résultat initial :
+Le portail officiel propose des listes par année. Les fichiers doivent être consultés et recherchés avec le nom de la DCI et ses noms commerciaux.
+
+### 3. Sources complémentaires
+
+**Source 5 — Conseil de l'Ordre des Pharmaciens, région de Batna**
+
+Lien :
+https://sorpbatna.wordpress.com/2018/10/28/suite-aux-effets-indesirables-des-quinolones-lagence-europeenne-des-medicaments-ema-appelle-a-une-restriction-dusage/
+
+Utilité :
+Source secondaire contenant des exemples de spécialités de ciprofloxacine figurant dans la nomenclature algérienne. À utiliser comme piste de recherche et non comme preuve réglementaire actuelle.
+
+### 4. Informations restant à compléter
+
+- Liste complète des produits enregistrés contenant la ciprofloxacine.
+- RCP algériens disponibles.
+- Notices algériennes disponibles.
+- Noms commerciaux et laboratoires.
+- Numéros d'enregistrement et dates de validité.
+- Formes pharmaceutiques supplémentaires éventuelles.
+
+### 5. Remarque méthodologique
+
+Les sources officielles algériennes sont prioritaires. Les documents étrangers ou les bases de données secondaires pourront être utilisés uniquement comme références complémentaires, en précisant clairement leur origine.
