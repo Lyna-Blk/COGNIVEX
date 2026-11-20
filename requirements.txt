@@ -1,10 +1,6 @@
 requests
-pandas
+pdfplumber
 openpyxl
-pypdf
-python-dotenv
-langchain
-langchain-community
-langchain-groq
-chromadb
-sentence-transformers
+# OCR (optionnel, seulement pour les PDF scannés) :
+# pytesseract
+# Pillow
