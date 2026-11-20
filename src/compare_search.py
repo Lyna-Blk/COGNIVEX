@@ -1,16 +1,18 @@
 """
 ÉTAPE 3 — Comparer recherche par MOTS-CLÉS (BM25) et recherche SÉMANTIQUE (embeddings).
 
-Pour chaque question chargée depuis docs/evaluation/questions_llm.md :
+Pour chaque question de docs/evaluation/questions_llm.md :
   - top-K par mots-clés (BM25, implémenté ici, sans dépendance)
   - top-K par le sens (ChromaDB + embeddings)
-  - hit@K : est-ce qu'au moins un des K résultats vient d'un dossier DCI attendu ?
+Aucune "réponse attendue" n'est nécessaire : le même code marche pour n'importe quelle
+question et n'importe quel médicament du corpus. On compare les deux méthodes en regardant
+les extraits retrouvés, les médicaments (DCI) retrouvés et le chevauchement des résultats.
+
 Sortie : affichage console + docs/evaluation/comparaison_recherche.md
 
 Lancer depuis la racine du projet :
     python src/compare_search.py              # mots-clés + sémantique
     python src/compare_search.py --bm25-only  # mots-clés seulement (ne demande pas chromadb)
-    python src/compare_search.py --extra      # ajoute les 7 questions de démonstration
 """
 import math
 import re
@@ -20,26 +22,31 @@ from collections import Counter
 from rag_config import (COLLECTION_NAME, EMBEDDING_MODEL, EVAL_DIR, QUESTIONS_FILE, ROOT, TOP_K,
                         VECTOR_DB_DIR, charger_chunks, normalize, query_prefix, texte_indexe)
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
-def charger_questions(avec_extra: bool = False) -> list[dict]:
-    """Lit les questions et les DCI attendues directement depuis le Markdown."""
+RAPPORT_FILE = EVAL_DIR / "comparaison_recherche.md"
+
+
+# ------------------------------------------------------------ lecture des questions
+def charger_questions() -> list[dict]:
+    """
+    Lit docs/evaluation/questions_llm.md.
+    Format :  "## N. Titre"  puis la question (1er paragraphe sous le titre).
+    Les paragraphes suivants (remarques de l'équipe) et les commentaires <!-- ... --> sont ignorés.
+    """
     if not QUESTIONS_FILE.is_file():
         raise FileNotFoundError(f"Fichier de questions introuvable : {QUESTIONS_FILE}")
 
-    blocs = []
-    courant = None
-    attendu = None
+    blocs, courant = [], None
     for ligne in QUESTIONS_FILE.read_text(encoding="utf-8-sig").splitlines():
-        titre = re.match(r"^##\s*(\d+)\s*\.\s*(.+?)\s*$", ligne.strip())
-        meta = re.match(r"^<!--\s*attendu:\s*(.*?)\s*-->$", ligne.strip(), re.I)
+        ligne = ligne.strip()
+        titre = re.match(r"^##\s*(\d+)\s*\.\s*(.+?)\s*$", ligne)
         if titre:
-            courant = {"numero": int(titre.group(1)), "titre": titre.group(2), "lignes": [], "attendu": None}
+            courant = {"numero": int(titre.group(1)), "titre": titre.group(2), "lignes": []}
             blocs.append(courant)
-        elif meta and courant is not None:
-            valeur = meta.group(1).strip()
-            courant["attendu"] = None if valeur.upper() == "ABSENT" else [x.strip() for x in valeur.split(";") if x.strip()]
-        elif courant is not None:
-            courant["lignes"].append(ligne.strip())
+        elif courant is not None and not re.match(r"^<!--.*-->$", ligne):
+            courant["lignes"].append(ligne)
 
     questions = []
     for b in blocs:
@@ -50,45 +57,11 @@ def charger_questions(avec_extra: bool = False) -> list[dict]:
             elif paragraphe:
                 break
         if paragraphe:
-            questions.append({
-                "id": f"Q{b['numero']}",
-                "type": b["titre"],
-                "texte": " ".join(paragraphe),
-                "attendu": b["attendu"],
-            })
-
-    if avec_extra:
-        questions.extend(QUESTIONS_EXTRA)
+            questions.append({"id": f"Q{b['numero']}", "type": b["titre"], "texte": " ".join(paragraphe)})
     return questions
 
 
-QUESTIONS_EXTRA = [
-    {"id": "C1", "type": "Extra — mots communs",
-     "texte": "Quelle est la dose maximale journalière de tramadol chez l'adulte ?",
-     "attendu": ["tramadol"]},
-    {"id": "C2", "type": "Extra — mots communs",
-     "texte": "Quelles sont les contre-indications du céfixime ?",
-     "attendu": ["céfixime"]},
-    {"id": "S1", "type": "Extra — paraphrase",
-     "texte": "Quel anti-inflammatoire est déconseillé en cas d'allergie aux sulfamides ?",
-     "attendu": ["célécoxib"]},
-    {"id": "S2", "type": "Extra — paraphrase",
-     "texte": "Puis-je conduire une voiture si je prends un antidouleur ? Risque de m'endormir ?",
-     "attendu": ["tramadol", "néfopam", "paracétamol + codéine"]},
-    {"id": "S3", "type": "Extra — paraphrase",
-     "texte": "Un antalgique opioïde faible peut-il créer une accoutumance chez le patient ?",
-     "attendu": ["tramadol", "paracétamol + codéine"]},
-    {"id": "S4", "type": "Extra — paraphrase",
-     "texte": "Mon enfant a une infection de l'oreille, quel antibiotique de la famille des pénicillines est recommandé ?",
-     "attendu": ["amoxicilline"]},
-    {"id": "S5", "type": "Extra — paraphrase",
-     "texte": "Mal de ventre et selles liquides après la prise de l'antibiotique, est-ce normal ?",
-     "attendu": ["amoxicilline", "amoxicilline + acide clavulanique", "céfixime", "céfuroxime"]},
-]
-
-if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8")
-
+# ------------------------------------------------------------ recherche par mots-clés (BM25)
 STOPWORDS = set("""
 a au aux avec ce ces dans de des du elle en et il ils je la le les leur lui ma mais me mes moi mon
 ne nos notre nous on ou par pas pour qu que qui sa se ses si son sur ta te tes toi ton tu un une
@@ -97,7 +70,6 @@ comment quand ou ce cette cet ete fait faire sans plus tout tous
 """.split())
 
 
-# ------------------------------------------------------------ recherche par mots-clés (BM25)
 def tokens(texte: str) -> list[str]:
     mots = normalize(texte).split()
     # retire les mots vides et le 's' final (pluriel) pour rapprocher "contre-indications"/"contre-indication"
@@ -115,10 +87,10 @@ class BM25:
         self.idf = {t: math.log(1 + (n - f + 0.5) / (f + 0.5)) for t, f in df.items()}
 
     def search(self, question: str, k: int):
-        q = tokens(question)
-        scores = []
         if not self.docs or self.avg == 0:
             return []
+        q = tokens(question)
+        scores = []
         for i, c in enumerate(self.docs):
             s = 0.0
             for t in q:
@@ -142,36 +114,25 @@ class RechercheSemantique:
     def search(self, question: str, k: int):
         emb = self.modele.encode([query_prefix() + question], normalize_embeddings=True)
 
-        # ChromaDB peut contenir d'anciens chunks après une modification du corpus.
-        # On récupère plus de candidats et on ignore les IDs absents du corpus actuel.
+        # La base peut contenir d'anciens chunks si le corpus a changé depuis sa construction :
+        # on demande plus de candidats et on ignore les IDs absents de chunks.jsonl.
         total = self.collection.count()
         if total == 0:
             return []
+        res = self.collection.query(query_embeddings=emb.tolist(), n_results=min(total, k * 5))
 
-        n_demande = min(total, max(k * 5, k))
-        res = self.collection.query(query_embeddings=emb.tolist(), n_results=n_demande)
-
-        ids = res.get("ids", [[]])[0]
-        distances = res.get("distances", [[]])[0]
-
-        resultats = []
-        ids_inconnus = 0
-        for cid, dist in zip(ids, distances):
+        resultats, inconnus = [], 0
+        for cid, dist in zip(res["ids"][0], res["distances"][0]):
             indice = self.index.get(cid)
             if indice is None:
-                ids_inconnus += 1
+                inconnus += 1
                 continue
-            resultats.append((indice, 1 - dist))
+            resultats.append((indice, 1 - dist))  # distance cosinus -> similarité (1 = identique)
             if len(resultats) >= k:
                 break
-
-        if ids_inconnus:
-            print(
-                f"\\n[AVERTISSEMENT] {ids_inconnus} ID(s) ChromaDB ne correspondent "
-                "pas aux chunks actuels. Pour une comparaison complète, "
-                "reconstruisez la base avec : python src/build_vector_db.py"
-            )
-
+        if inconnus:
+            print(f"\n[AVERTISSEMENT] {inconnus} ID(s) ChromaDB ne correspondent pas aux chunks actuels. "
+                  "Reconstruisez la base : python src/build_vector_db.py (ou le notebook).")
         return resultats
 
 
@@ -180,53 +141,48 @@ def extrait(chunk, n=130):
     return " ".join(chunk["text"].split())[:n].replace("|", "/")
 
 
-def hit(resultats, chunks, attendu):
-    if attendu is None:
-        return None
-    voulus = {normalize(a) for a in attendu}
-    return any(normalize(chunks[i]["dci"]) in voulus for i, _ in resultats)
-
-
-def symbole(h):
-    return "—" if h is None else ("✅" if h else "❌")
+def resume_dci(resultats, chunks):
+    """Médicaments (DCI) retrouvés dans le top-K, ex. 'DICLOFENAC ×3, PARACETAMOL ×2'."""
+    if not resultats:
+        return "aucun résultat"
+    compte = Counter(chunks[i]["dci"] for i, _ in resultats)
+    return ", ".join(f"{d} ×{n}" for d, n in compte.most_common())
 
 
 def main():
     bm25_seulement = "--bm25-only" in sys.argv
-    avec_extra = "--extra" in sys.argv
     try:
-        questions = charger_questions(avec_extra=avec_extra)
-    except (FileNotFoundError, OSError) as e:
-        sys.exit(str(e))
-    try:
+        questions = charger_questions()
         chunks = charger_chunks()
-    except FileNotFoundError as e:
+    except (FileNotFoundError, ValueError) as e:
         sys.exit(str(e))
 
     mots = BM25([texte_indexe(c) for c in chunks])
     sem = None
     if not bm25_seulement:
         if not VECTOR_DB_DIR.exists():
-            sys.exit("Base vectorielle introuvable : lancez d'abord  python src/build_vector_db.py")
+            sys.exit("Base vectorielle introuvable : lancez d'abord  python src/build_vector_db.py (ou le notebook)")
         sem = RechercheSemantique(chunks)
 
-    lignes_resume, details = [], []
+    resume, details = [], []
     for q in questions:
         r_mots = mots.search(q["texte"], TOP_K)
         r_sem = sem.search(q["texte"], TOP_K) if sem else []
-        h_mots, h_sem = hit(r_mots, chunks, q["attendu"]), hit(r_sem, chunks, q["attendu"])
-        attendu = ", ".join(q["attendu"]) if q["attendu"] else "(absent du corpus)"
+        communs = len({i for i, _ in r_mots} & {i for i, _ in r_sem}) if sem else None
         top_mots = f"{r_mots[0][1]:.2f}" if r_mots else "—"
         top_sem = f"{r_sem[0][1]:.2f}" if r_sem else "—"
-        lignes_resume.append(f"| {q['id']} | {q['type']} | {attendu} | {symbole(h_mots)} | "
-                             f"{symbole(h_sem) if sem else 'n/a'} | {top_mots} | {top_sem if sem else 'n/a'} |")
 
-        bloc = [f"### {q['id']} — {q['type']}", f"**Question :** {q['texte']}", f"**Attendu :** {attendu}", ""]
+        resume.append(f"| {q['id']} | {q['type']} | {resume_dci(r_mots, chunks)} | "
+                      f"{resume_dci(r_sem, chunks) if sem else 'n/a'} | "
+                      f"{f'{communs}/{TOP_K}' if sem else 'n/a'} | {top_mots} | {top_sem if sem else 'n/a'} |")
+
+        bloc = [f"### {q['id']} — {q['type']}", f"**Question :** {q['texte']}", ""]
         for nom, res, score_nom in (("Mots-clés (BM25)", r_mots, "score BM25"),
                                     ("Sémantique (embeddings)", r_sem, "similarité cosinus")):
             if nom.startswith("Sémantique") and not sem:
                 continue
-            bloc += [f"**{nom}**", "", f"| # | {score_nom} | DCI | produit | doc | page | extrait |", "|---|---|---|---|---|---|---|"]
+            bloc += [f"**{nom}**", "", f"| # | {score_nom} | DCI | produit | doc | page | extrait |",
+                     "|---|---|---|---|---|---|---|"]
             if not res:
                 bloc.append("| – | – | aucun résultat (aucun mot de la question dans les documents) | | | | |")
             for rang, (i, s) in enumerate(res, 1):
@@ -235,36 +191,29 @@ def main():
             bloc.append("")
         details.append("\n".join(bloc))
 
-        print(f"{q['id']:3s} [{q['type']:12s}] mots-clés {symbole(h_mots)}  sémantique {symbole(h_sem) if sem else 'n/a'}  | attendu : {attendu}")
-
-    # synthèse chiffrée (uniquement les questions dont la réponse est dans le corpus)
-    dans = [q for q in questions if q["attendu"]]
-    def taux(methode):
-        ok = sum(hit(methode(q["texte"], TOP_K), chunks, q["attendu"]) for q in dans)
-        return f"{ok}/{len(dans)}"
-    synth = [f"- hit@{TOP_K} mots-clés : **{taux(mots.search)}**"]
-    if sem:
-        synth.append(f"- hit@{TOP_K} sémantique : **{taux(sem.search)}**")
-    print("\n" + "\n".join(synth).replace("**", ""))
+        print(f"\n{q['id']} — {q['type']}")
+        print(f"   mots-clés  : {resume_dci(r_mots, chunks)}")
+        if sem:
+            print(f"   sémantique : {resume_dci(r_sem, chunks)}   (chunks communs : {communs}/{TOP_K})")
 
     EVAL_DIR.mkdir(parents=True, exist_ok=True)
-    sortie = EVAL_DIR / "comparaison_recherche.md"
     rapport = [
         "# Comparaison : recherche par mots-clés vs recherche sémantique", "",
-        f"- Questions évaluées : {len(questions)}" + (" (avec questions extra)" if avec_extra else ""),
+        f"- Questions : {len(questions)} (docs/evaluation/questions_llm.md)",
         f"- Chunks : {len(chunks)} (build_chunks.py : 120 mots max, chevauchement 20 mots)",
         f"- Mots-clés : BM25 (sans accents, sans mots vides) — Sémantique : `{EMBEDDING_MODEL}` + ChromaDB (cosinus)" if sem
         else "- Mots-clés : BM25 (sans accents, sans mots vides) — recherche sémantique non exécutée dans ce rapport",
-        f"- Top-K = {TOP_K}. *hit@K* = au moins un des K résultats vient d'un dossier DCI attendu.", "",
-        "## Synthèse", "", *synth, "",
-        "| Question | Type | Attendu | Mots-clés | Sémantique | Score top-1 mots-clés | Score top-1 sémantique |",
-        "|---|---|---|---|---|---|---|", *lignes_resume, "",
-        "> Pour les questions « hors corpus », il n'y a pas de bonne réponse : on regarde si le score "
-        "du meilleur résultat est faible (le système doit alors refuser plutôt qu'inventer).", "",
+        f"- Top-K = {TOP_K} résultats par méthode. Aucune réponse de référence : on compare les extraits retrouvés.", "",
+        "## Synthèse", "",
+        "| Question | Type | DCI retrouvées (mots-clés) | DCI retrouvées (sens) | Chunks communs | Score top-1 mots-clés | Score top-1 sens |",
+        "|---|---|---|---|---|---|---|", *resume, "",
+        "> Les scores ne sont pas comparables entre les deux méthodes (BM25 n'est pas borné, le cosinus va de 0 à 1) "
+        "et un score élevé ne prouve pas que la réponse est dans le corpus : pour juger, lire les extraits "
+        "dans le détail ci-dessous.", "",
         "## Détail des résultats", "", *details,
     ]
-    sortie.write_text("\n".join(rapport), encoding="utf-8")
-    print(f"\nRapport écrit : {sortie.relative_to(ROOT)}")
+    RAPPORT_FILE.write_text("\n".join(rapport), encoding="utf-8")
+    print(f"\nRapport écrit : {RAPPORT_FILE.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
