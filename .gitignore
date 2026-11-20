@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# COGNIVEX generated files
+data/vectorstore/
+data/backup_ancienne_version/
+*.bak
+cleanup_audit.txt
+PROJECT_STRUCTURE.txt
+tracked_files.txt
+
