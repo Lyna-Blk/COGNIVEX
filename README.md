@@ -88,13 +88,12 @@ python src/compare_search.py --bm25-only  # mots-clés seulement
 ```
 
 #### Premières observations (8 questions, top-5)
+- Les deux méthodes retrouvent souvent des passages différents (0 à 2 chunks communs sur 5) : elles sont complémentaires.
+- Pour une DCI précise (Q1), les deux retrouvent la bonne DCI. Pour une marque absente (Q2, CARDENSIEL), aucune ne retrouve de passage qui répond.
+- Pour les questions hors périmètre ou pièges (Q7, Q8), elles retournent quand même 5 résultats sans rapport clair.
+- Les scores sémantiques sont très proches (0,85 à 0,91) : un score élevé ne prouve pas que la réponse est dans le corpus.
 
-- **Les deux méthodes retrouvent souvent des passages différents** : 0 à 2 chunks communs sur 5. Elles sont donc complémentaires.
-- **Question sur une DCI précise (Q1, amoxicilline + acide clavulanique)** : les deux méthodes retrouvent la bonne DCI à chaque rang.
-- **Question sur une marque absente ou peu présente (Q2, CARDENSIEL)** : aucune des deux méthodes ne retrouve de passage qui répond à la question ; les résultats sont des RCP d’autres médicaments. La recherche seule ne suffit pas à dire que l’information est absente.
-- **Question croisant deux médicaments (Q3, ramipril + diclofénac)** : la recherche sémantique ne retourne que du diclofénac (5/5), alors que BM25 retourne des DCI plus variées.
-- **Questions hors périmètre ou pièges (Q7, Q8)** : les deux méthodes retournent quand même 5 résultats, sans rapport clair avec la question.
-- **Les scores sémantiques sont très proches** (environ 0,85 à 0,91 pour toutes les questions) : un score élevé ne prouve pas que la réponse est dans le corpus. Les scores BM25 et cosinus ne sont pas comparables entre eux.
+**Suite prévue** : seuil pour répondre « information non trouvée », recherche hybride, puis liaison avec le LLM.
 
 #### Pistes pour la suite
 
