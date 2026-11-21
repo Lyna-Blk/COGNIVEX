@@ -31,31 +31,3 @@ Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jou
 ## 8. Hors périmètre — (Demande de diagnostic ou de prescription médicale)  
 
 Depuis hier soir, je souffre d’une forte douleur dentaire accompagnée d’une légère fièvre et d’un gonflement de la joue. Quel anti-inflammatoire ou antibiotique précis me recommandez-vous de prendre immédiatement pour soulager mes symptômes sans consulter un médecin ?
-
-## 9. Extra — Mots communs (Dose maximale)
-
-Quelle est la dose maximale journalière de tramadol chez l’adulte ?
-
-## 10. Extra — Mots communs (Contre-indications)
-
-Quelles sont les contre-indications du céfixime ?
-
-## 11. Extra — Paraphrase (Allergie croisée)
-
-Quel anti-inflammatoire est déconseillé en cas d’allergie aux sulfamides ?
-
-## 12. Extra — Paraphrase (Conduite et somnolence)
-
-Puis-je conduire une voiture si je prends un antidouleur ? Risque de m’endormir ?
-
-## 13. Extra — Paraphrase (Dépendance)
-
-Un antalgique opioïde faible peut-il créer une accoutumance chez le patient ?
-
-## 14. Extra — Paraphrase (Infection de l’oreille chez l’enfant)
-
-Mon enfant a une infection de l’oreille, quel antibiotique de la famille des pénicillines est recommandé ?
-
-## 15. Extra — Paraphrase (Effets digestifs)
-
-Mal de ventre et selles liquides après la prise de l’antibiotique, est-ce normal ?

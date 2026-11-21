@@ -1,0 +1,606 @@
+---
+source: "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf"
+dci: "paracétamol + codéine"
+brand: "DAFALGAN_CODEINE"
+method: "fitz embedded text + noise strip (7 patterns)"
+processed: "2026-11-19T20:48:13.561460+00:00"
+chars: 29670
+---
+
+## Page 1
+
+Dernière mise à jour le 03/11/2026
+DAFALGAN CODEINE, comprimé pelliculé
+ANSM - Mis à jour le : 31/07/2026
+Dénomination du médicament
+DAFALGAN CODEINE, comprimé pelliculé
+Paracétamol 500 mg / Codéine 30 mg
+Encadré
+Veuillez lire attentivement cette notice avant de prendre ce médicament car elle contient des
+informations importantes pour vous.
+· Gardez cette notice. Vous pourriez avoir besoin de la relire.
+· Si vous avez d’autres questions, interrogez votre médecin ou votre pharmacien.
+· Ce médicament vous a été personnellement prescrit. Ne le donnez pas à d’autres personnes. Il pourrait
+leur être nocif, même si les signes de leur maladie sont identiques aux vôtres.
+· Si vous ressentez un quelconque effet indésirable, parlez-en à votre médecin ou votre pharmacien. Ceci
+s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice. Voir rubrique 4.
+Que contient cette notice ?
+1. Qu'est-ce que DAFALGAN CODEINE, comprimé pelliculé et dans quels cas est-il utilisé ?
+2. Quelles sont les informations à connaître avant de prendre DAFALGAN CODEINE, comprimé pelliculé
+?
+3. Comment prendre DAFALGAN CODEINE, comprimé pelliculé ?
+4. Quels sont les effets indésirables éventuels ?
+5. Comment conserver DAFALGAN CODEINE, comprimé pelliculé ?
+6. Informations supplémentaires.
+Fiche info
+RCP
+Notice
+Bon usage
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+1/15
+
+---
+
+## Page 2
+
+1. QU’EST-CE QUE DAFALGAN CODEINE, comprimé pelliculé ET DANS
+QUELS CAS EST-IL UTILISE ?
+Classe pharmacothérapeutique : Opioïdes en association avec des analgésiques non opioïdes - Code ATC
+: N02AJ06.
+Ce médicament contient du paracétamol et de la codéine : c'est un antalgique (calme la douleur).
+La codéine appartient à un groupe de médicaments appelés les antalgiques opioïdes qui agissent pour
+soulager la douleur. Elle peut être utilisée seule ou en association avec d’autres antalgiques comme le
+paracétamol.
+Ce médicament peut être utilisé chez les adultes et les enfants de plus de 12 ans sur une courte durée
+pour des douleurs modérées non soulagées par d’autres antalgiques comme le paracétamol ou
+l’ibuprofène utilisés seuls.
+Vous devez vous adresser à votre médecin si vous ne ressentez aucune amélioration ou si vous vous
+sentez moins bien après 3 jours.
+2. QUELLES SONT LES INFORMATIONS A CONNAITRE AVANT DE
+PRENDRE DAFALGAN CODEINE, comprimé pelliculé ?
+Ne prenez jamais DAFALGAN CODEINE, comprimé pelliculé :
+· Si vous êtes allergique aux substances actives ou à l’un des autres composants contenus dans ce
+médicament, mentionnés dans la rubrique 6.
+· Si vous prenez de l’oxybate de sodium.
+· Si vous êtes un enfant de moins de 12 ans.
+· Si vous êtes un enfant ou adolescent (0-18 ans) après ablation des amygdales ou des végétations dans le
+cadre d’un syndrome d’apnée obstructive du sommeil.
+· Si vous avez une maladie grave du foie.
+· Si vous êtes asthmatique.
+· Si vous avez une insuffisance respiratoire.
+· Si vous avez un diagnostic connu de métaboliseur ultra-rapide de la codéine en morphine.
+· Si vous allaitez.
+En cas de doute, il est indispensable de demander l’avis de votre médecin ou de votre pharmacien.
+Avertissements et précautions
+Adressez-vous à votre médecin ou votre pharmacien avant de prendre DAFALGAN CODEINE, comprimé
+pelliculé :
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+2/15
+
+---
+
+## Page 3
+
+· Si vous êtes un adulte de moins de 50 kg,
+· Si vous prenez d’autres médicaments contenant du paracétamol, de la codéine ou tout autre
+médicament pouvant provoquer une dépression respiratoire (médicaments obtenus avec ou sans
+ordonnance),
+· Si vous avez une maladie du foie ou des reins,
+· Si vous êtes une personne âgée,
+· Si vous consommez régulièrement de l’alcool ou que vous avez arrêté de boire de l’alcool récemment,
+· En cas de malnutrition chronique, jeûne, amaigrissement, anorexie ou cachexie (faibles réserves ou
+déficit en glutathion hépatique),
+· En cas de déshydratation,
+· En cas de déficience en Glucose-6-Phosphate Déshydrogénase (G6PD) (pouvant conduire à une anémie
+hémolytique),
+· En cas de syndrome de Gilbert (jaunisse familiale non hémolytique),
+· Si vous avez une maladie respiratoire (dont l'asthme),
+· En cas d'encombrement bronchique (toux avec expectoration),
+· En cas d'opération de la vésicule biliaire,
+· En cas d'hypertension intracrânienne. Ce médicament risque d'augmenter l'importance de cette
+hypertension,
+· Si vous êtes ou avez déjà été dépendant aux opioïdes, à l'alcool, à des médicaments délivrés sur
+ordonnance ou à des substances illicites,
+· Si vous avez un trouble mental (par ex. dépression majeure),
+· Si vous ressentez une douleur ou une augmentation de la sensibilité à la douleur (hyperalgésie) qui ne
+répond pas à une dose plus élevée de votre médicament.
+Contactez votre médecin si vous présentez une douleur abdominale haute sévère irradiant possiblement
+dans le dos, des nausées, des vomissements ou de la fièvre car il pourrait s’agir de symptômes associés à
+une inflammation du pancréas (pancréatite) et des voies biliaires.
+Si vous souffrez d’une hépatite virale aiguë ou en cas de découverte d’une hépatite virale aiguë pendant
+votre traitement avec DAFALGAN CODEINE, comprimé pelliculé, parlez-en à votre médecin. Votre
+traitement pourrait être suspendu par votre médecin.
+Au long cours, l’utilisation incorrecte et/ou à fortes doses de ce médicament chez des patients atteints
+de maux de tête chroniques peut entraîner ou aggraver des maux de tête. Vous ne devez pas augmenter
+votre dose d'antalgiques mais consultez votre médecin.
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+3/15
+
+---
+
+## Page 4
+
+Pendant le traitement par DAFALGAN CODEINE, comprimé pelliculé, informez immédiatement votre
+médecin :
+· Si vous avez des maladies graves, y compris une insuffisance rénale grave ou un sepsis (lorsque des
+bactéries et leurs toxines circulent dans le sang, entraînant des lésions au niveau des organes), ou si vous
+êtes atteint de malnutrition, d’alcoolisme chronique ou si vous prenez également de la flucloxacilline (un
+antibiotique). Une affection grave appelée acidose métabolique (une anomalie du sang et des fluides) a
+été signalée chez les patients qui prennent régulièrement du paracétamol pendant une période
+prolongée ou qui prennent du paracétamol en association avec de la flucloxacilline. Les symptômes de
+l’acidose métabolique peuvent inclure : de graves difficultés respiratoires avec une respiration rapide et
+profonde, une somnolence, une envie de vomir (nausée) et des vomissements.
+En cas de surdosage ou de prise par erreur d'une dose trop élevée, consultez immédiatement votre
+médecin.
+Ne pas utiliser de façon prolongée sans avis du médecin en particulier si les troubles persistent au bout
+de 3 jours et/ou en cas de survenue de tout autre signe après la prise du médicament.
+Ne pas dépasser les posologies indiquées et consulter rapidement le médecin en cas de surdosage
+accidentel.
+La codéine est transformée en morphine dans le foie par une enzyme. La morphine est la substance qui
+soulage la douleur. Certaines personnes ont un taux d’enzyme variable et cela peut les affecter de
+différente manière. Pour certaines personnes, la morphine n’est pas produite ou produite en petite
+quantité, et ne soulagera pas assez la douleur. Pour certaines personnes, appelées métaboliseurs rapides
+ou ultra-rapides, une quantité importante de morphine est produite pouvant être à l’origine d’effets
+indésirables graves. Si vous remarquez un des effets indésirables suivants, vous devez arrêter ce
+médicament et demander immédiatement l’avis de votre médecin : respiration lente ou superficielle,
+confusion, somnolence, rétrécissement de la pupille, constipation, manque d’appétit ou si vous ne vous
+sentez pas bien.
+Troubles respiratoires liés au sommeil
+DAFALGAN CODEINE, comprimé pelliculé peut causer des troubles respiratoires liés au sommeil tels
+qu’une apnée du sommeil (pauses respiratoires pendant le sommeil) et une hypoxémie (faible taux
+d’oxygène dans le sang) liée au sommeil. Les symptômes peuvent inclure des pauses respiratoires au
+cours du sommeil, des réveils nocturnes liés à un essoufflement, des difficultés à maintenir l’état de
+sommeil ou une somnolence excessive pendant la journée. Si vous ou une autre personne observez ces
+symptômes, contactez votre médecin. Une réduction de la dose peut être envisagée par votre médecin.
+Tolérance, dépendance et addiction
+Ce médicament contient de la codéine, qui est un médicament opioïde. Il peut provoquer une dépendance et/ou une addiction.
+L’utilisation répétée d’opioïdes peut entraîner une diminution de l’efficacité du médicament (vous vous y
+habituez, c’est ce qu’on appelle la tolérance). L’utilisation répétée de DAFALGAN CODEINE, comprimé
+pelliculé peut également entraîner une dépendance, un abus et une addiction, ce qui peut aboutir à un
+surdosage potentiellement mortel. Le risque de survenue de ces effets indésirables peut augmenter avec
+une dose plus élevée et une durée d’utilisation plus longue.
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+4/15
+
+---
+
+## Page 5
+
+La dépendance ou l’addiction peuvent vous donner l’impression que vous ne contrôlez plus la quantité
+de médicament que vous devez prendre ou la fréquence à laquelle vous devez le prendre.
+Le risque de développer une dépendance ou une addiction varie d’une personne à l’autre. Vous pouvez
+présenter un risque plus important de dépendance ou d’addiction à DAFALGAN CODEINE, comprimé
+pelliculé si :
+- vous ou un membre de votre famille avez déjà consommé de façon abusive de l’alcool ou avez été
+dépendant(e) à l’alcool, à des médicaments prescrits sur ordonnance ou à des substances illicites
+(« addiction ») ;
+- vous êtes fumeur ;
+- vous avez déjà présenté des troubles de l’humeur (dépression, anxiété ou trouble de la personnalité)
+ou avez déjà été traité(e) par un psychiatre pour d’autres troubles de la santé mentale.
+Si vous remarquez l’un des signes suivants pendant que vous prenez DAFALGAN CODEINE, comprimé
+pelliculé, il pourrait s’agir d’un signe que vous avez développé une dépendance ou une addiction :
+- vous avez besoin de prendre ce médicament pendant une durée plus longue que celle
+recommandée par votre médecin ;
+- vous avez besoin de prendre une dose supérieure à la dose recommandée ;
+- vous avez peut-être l’impression que vous devez continuer à prendre votre médicament, même
+quand cela n’aide pas à soulager votre ;
+- vous utilisez ce médicament pour des raisons autres que celles pour lesquelles il vous a été prescrit,
+par exemple « pour rester calme » ou « pour vous aider à dormir » ;
+- vous avez tenté à plusieurs reprises et sans succès d’arrêter ou de contrôler l’utilisation de ce
+médicament ;
+- lorsque vous arrêtez de prendre ce médicament, vous vous sentez mal et vous vous sentez mieux
+lorsque vous le prenez à nouveau (« symptômes de sevrage »).
+Si vous remarquez l’un de ces signes, parlez-en à votre médecin pour déterminer la meilleure stratégie de
+traitement pour vous, y compris le moment approprié pour arrêter de le prendre et comment vous
+pouvez l’arrêter en toute sécurité (voir rubrique 3, Si vous arrêtez de prendre DAFALGAN CODEINE,
+comprimé pelliculé).
+Enfants et adolescents
+Ce médicament ne doit pas être utilisé chez les enfants de moins de 12 ans. Demandez conseil à votre
+médecin ou votre pharmacien.
+Ne renouvelez pas ce traitement chez votre enfant sans nouvel avis médical. Ce traitement doit
+s’accompagner d’une surveillance de votre enfant ; en cas de somnolence qui vous semblerait excessive,
+ne lui donnez pas de dose supplémentaire.
+L’utilisation chez les enfants et les adolescents après une chirurgie :
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+5/15
+
+---
+
+## Page 6
+
+La codéine ne doit pas être utilisée après ablation des amygdales ou des végétations dans le cadre d’un
+syndrome d’apnée obstructive du sommeil.
+L’utilisation chez les enfants avec des problèmes respiratoires :
+La codéine n’est pas recommandée chez les enfants avec des problèmes respiratoires car les symptômes
+de toxicité de la morphine sont aggravés chez ces enfants.
+EN CAS DE DOUTE NE PAS HESITER A DEMANDER L'AVIS DE VOTRE MEDECIN OU DE VOTRE
+PHARMACIEN.
+Autres médicaments et DAFALGAN CODEINE, comprimé pelliculé
+Informez votre médecin ou pharmacien si vous prenez, avez récemment pris ou pourriez prendre tout
+autre médicament.
+Ce médicament contient du paracétamol et de la codéine.
+Vérifiez que vous ne prenez pas d'autres médicaments contenant du paracétamol ou de la codéine, y
+compris si ce sont des médicaments obtenus sans prescription.
+Ne les associez pas, afin de ne pas dépasser la dose quotidienne recommandée.
+(Voir rubrique 3 « Comment prendre DAFALGAN CODEINE, comprimé pelliculé ? »).
+LIE AU PARACETAMOL
+Consultez votre médecin ou votre pharmacien :
+· si vous prenez des médicaments potentiellement toxiques pour le foie. La toxicité du paracétamol
+pourrait être augmentée.
+· si un dosage du taux d'acide urique ou de sucre dans le sang vous a été prescrit ou à votre enfant car
+ce médicament peut en fausser les résultats.
+· si vous prenez un médicament qui ralentit la coagulation (anticoagulants oraux). A fortes doses,
+DAFALGAN CODEINE, comprimé pelliculé peut augmenter l'action de votre anticoagulant. Si
+nécessaire, votre médecin adaptera la posologie de votre anticoagulant.
+· si vous prenez de la flucloxacilline (antibiotique), en raison d'un risque grave d'anomalie du sang et
+des fluides (appelée acidose métabolique) qui doit faire l'objet d'un traitement d’urgence (voir
+rubrique 2).
+LIE A LA CODEINE
+Ne prenez jamais DAFALGAN CODEINE, comprimé pelliculé en même temps que de l’oxybate de
+sodium.
+Ce médicament doit être évité en association avec :
+- bupropion
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+6/15
+
+---
+
+## Page 7
+
+- cinacalcet
+- duloxétine
+- fluoxétine
+- morphiniques agonistes antagonistes
+- morphiniques antagonistes partiels
+- paroxétine
+- quinidine
+- terbinafine
+L’association de DAFALGAN CODEINE, comprimé pelliculé avec les médicaments suivants doit être prise
+en compte :
+- analgésiques morphiniques vrais
+- antitussifs morphine-like
+- antitussifs morphiniques vrais
+- autres analgésiques morphiniques agonistes
+- autres médicaments sédatifs
+- barbituriques
+- benzodiazépines et apparentés
+- gabapentine ou prégabaline pour traiter l’épilepsie ou la douleur liée à des problèmes nerveux (douleurs
+neuropathiques)
+- médicaments atropiniques
+- méthadone
+DAFALGAN CODEINE, comprimé pelliculé avec de l’alcool
+La consommation de boissons alcoolisées pendant le traitement est déconseillée.
+Grossesse, allaitement et fertilité
+Si vous êtes enceinte ou que vous allaitez, si vous pensez être enceinte ou planifiez une grossesse,
+demandez conseil à votre médecin ou pharmacien avant de prendre ce médicament.
+Grossesse et allaitement
+Au besoin, DAFALGAN CODEINE, comprimé pelliculé peut être utilisé pendant la grossesse aux doses
+recommandées par votre médecin. Vous devez utiliser la dose la plus faible possible qui permette de
+soulager la douleur et/ou la fièvre et la prendre pendant la durée la plus courte possible. Contactez votre
+médecin ou votre sage-femme si la douleur et/ou la fièvre ne diminuent pas ou si vous devez prendre le
+médicament plus fréquemment.
+En fin de grossesse, la prise de codéine peut entraîner une toxicité chez le nouveau-né. Par conséquent, il
+convient de toujours demander l'avis de votre médecin avant de prendre ce médicament et de ne jamais
+dépasser la dose recommandée.
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+7/15
+
+---
+
+## Page 8
+
+Ne prenez pas ce médicament si vous allaitez car il contient de la codéine. La codéine et la morphine
+(issue de la codéine) passent dans le lait maternel.
+Fertilité
+Il est possible que le paracétamol puisse altérer la fertilité des femmes, de façon réversible à l'arrêt du
+traitement.
+Conduite de véhicules et utilisation de machines
+L'attention est appelée notamment chez les conducteurs de véhicules et les utilisateurs de machines, sur
+les risques de somnolence dus à la présence de codéine dans ce médicament. Ce phénomène s'atténue
+après plusieurs prises, il peut être utile de commencer ce traitement le soir. Ce phénomène est accentué
+par la prise de boissons alcoolisées.
+DAFALGAN CODEINE, comprimé pelliculé contient moins de 1 mmol (23 mg) de sodium par comprimé
+pelliculé, c.-à-d. qu’il est essentiellement « sans sodium ».
+3. COMMENT PRENDRE DAFALGAN CODEINE, comprimé pelliculé ?
+Veillez à toujours prendre ce médicament en suivant exactement les indications de votre médecin ou
+pharmacien. Vérifiez auprès de votre médecin ou pharmacien en cas de doute.
+Avant de débuter le traitement et régulièrement au cours du traitement, votre
+médecin discutera avec vous de ce que vous pouvez attendre de l’utilisation de
+DAFALGAN CODEINE, comprimé pelliculé, quand et pendant combien de temps
+vous devez le prendre, quand contacter votre médecin, et quand vous devez arrêter
+de le prendre (voir également, « Si vous arrêtez de prendre DAFALGAN CODEINE,
+comprimé pelliculé »).
+Posologie
+Réservé à l'adulte et à l'enfant de plus de 12 ans.
+La posologie sera déterminée par votre médecin, selon l'intensité de la douleur ; la dose efficace la plus
+faible doit généralement être utilisée, pour la durée la plus courte possible.
+A titre d’information, la posologie usuelle dépend de l'âge et du poids du patient (voir tableau
+posologique ci-dessous) :
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+8/15
+
+---
+
+## Page 9
+
+* Sauf avis médical.
+Chez l'adulte
+1 comprimé pelliculé, à renouveler si nécessaire au bout de 6 heures.
+Eventuellement, prendre 2 comprimés en une prise en cas de douleur intense, sans dépasser 6
+comprimés pelliculés par jour (sauf avis médical).
+Chez l’enfant et l’adolescent
+Enfants âgés de moins de 12 ans
+DAFALGAN CODEINE, comprimé pelliculé ne doit pas être administré aux enfants de moins de 12 ans,
+du fait du risque de problèmes respiratoires sévères.
+Enfants âgés de plus de 12 ans
+Se conformer strictement à la prescription médicale.
+Des prises régulières permettent d’éviter que la douleur ne revienne.
+Il est impératif de respecter la posologie, qui dépend du poids de l'enfant. Dans le tableau ci-dessus, les
+âges sont mentionnés à titre d'information. Elle sera déterminée par votre médecin en fonction du poids
+et de l’intensité de la douleur.
+Poids
+(âge
+approximatif)
+Dose maximale
+par administration
+Intervalle
+entre deux
+doses
+Dose journalière
+maximale
+31 à 50 kg
+(environ 12 à
+15 ans)
+1 comprimé
+soit
+500 mg paracétamol
++ 30 mg codéine
+6 heures
+minimum
+4 comprimés par
+jour
+soit
+2 g paracétamol
++ 120 mg codéine
+> 50 kg
+(environ 15 à
+18 ans)
+1 (à 2) comprimé(s)
+soit
+500 mg à 1 g
+paracétamol
++ 30 à 60 mg
+codéine
+6 heures
+minimum
+6 comprimés par
+jour
+soit
+3 g paracétamol
++ 180 mg codéine
+Adulte
+1 (à 2) comprimé(s)
+Soit
+500 mg à 1 g
+paracétamol
++ 30 à 60 mg
+codéine
+6 heures
+minimum
+6 comprimés par
+jour*
+soit
+3 g paracétamol
++ 180 mg codéine
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+9/15
+
+---
+
+## Page 10
+
+Sujet âgé
+La posologie initiale est habituellement diminuée de moitié par rapport à la posologie conseillée chez l'adulte. Votre médecin pourra
+éventuellement augmenter la posologie en fonction de votre tolérance et de vos besoins.
+Adulte pesant moins de 50 kg, malnutrition chronique, déshydratation, personnes âgées : demandez
+conseil à votre médecin ou votre pharmacien.
+Insuffisance hépatique, alcoolisme chronique et syndrome de Gilbert : ne jamais dépasser 2000 mg (2 g)
+de paracétamol par jour.
+Insuffisance rénale : En cas de maladie des reins (insuffisance rénale), il existe un risque d’accumulation
+de codéine et de paracétamol. La posologie doit être adaptée en fonction du degré d’insuffisance
+rénale. Consultez votre médecin avant de prendre ce médicament.
+Chez un enfant insuffisant rénal, une surveillance rapprochée doit être mise en place. En cas de signes
+qui vous paraissent inhabituels (par exemple somnolence, ou difficultés à respirer), contactez un
+médecin.
+Si vous avez l’impression que l’effet de ce médicament est trop fort ou trop faible, ne dépassez pas les
+doses, demandez conseil à votre médecin ou votre pharmacien.
+Doses maximales recommandées
+Attention : Pour éviter un risque de surdosage, vérifiez l'absence de codéine et de paracétamol dans la
+composition d'autres médicaments, y compris pour les médicaments obtenus sans ordonnance.
+Respectez les doses maximales recommandées ou la dose prescrite par votre médecin : une dose plus
+élevée ne soulagera pas plus votre douleur, mais peut avoir des conséquences graves sur votre foie.
+Mode et voie d’administration
+Voie orale.
+Les comprimés sont à avaler tels quels avec un verre d'eau.
+Durée du traitement
+DAFALGAN CODEINE, comprimé pelliculé doit être utilisé pendant la durée la plus courte nécessaire
+pour soulager les symptômes. La durée de traitement ne devra pas dépasser 3 jours. Si la douleur n’est
+pas soulagée efficacement pendant la prise du médicament, vous devez demander conseil à un
+médecin.
+Si vous avez pris plus de DAFALGAN CODEINE, comprimé pelliculé que vous n’auriez dû :
+Chez l'enfant l'intoxication par le paracétamol et la codéine peuvent être graves. En cas de surdosage ou
+d'intoxication accidentelle, prévenir en urgence un médecin.
+Les principaux signes du surdosage en codéine sont la somnolence et des difficultés respiratoires.
+Consultez immédiatement votre médecin ou votre pharmacien.
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+10/15
+
+---
+
+## Page 11
+
+Si vous oubliez de prendre DAFALGAN CODEINE, comprimé pelliculé :
+Ne prenez pas de dose double pour compenser la dose simple que vous avez oubliée de prendre.
+Poursuivez le traitement conformément à la prescription médicale.
+N'augmentez pas la dose et respectez le délai entre les prises.
+Si vous arrêtez de prendre DAFALGAN CODEINE, comprimé pelliculé :
+En cas de traitement prolongé l'arrêt brutal de ce médicament peut entraîner un syndrome de sevrage.
+Si vous avez d’autres questions sur l’utilisation de ce médicament, demandez plus d’informations à votre
+médecin, à votre pharmacien ou à votre infirmier/ère.
+4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ?
+Comme tous les médicaments, ce médicament peut provoquer des effets indésirables, mais ils ne
+surviennent pas systématiquement chez tout le monde.
+LIES A LA PRESENCE DE CODEINE
+Effets indésirables à fréquence indéterminée : la fréquence ne peut pas être estimée à partir des
+données disponibles
+· sensation d'endormissement, euphorie, trouble de l'humeur, hallucination,
+· fatigue, œdème,
+· rétrécissement de la pupille, contraction musculaire, destruction des cellules des muscles, picotement,
+fourmillements, syncope, tremblements, vertige, difficulté à uriner, atteinte des reins,
+· constipation, nausées, vomissements,
+· somnolence, états vertigineux,
+· réactions d'hypersensibilité (démangeaison, urticaire, éruption cutanée étendue),
+· gênes respiratoires,
+· douleurs abdominales en particulier chez les patients cholécystectomisés (sans vésicule biliaire),
+· colique biliaire, inflammation du foie, inflammation du pancréas,
+· problème affectant une valve dans les intestins (dysfonction du sphincter d’Oddi),
+· état confusionnel,
+· abus, dépendance en cas d’utilisation prolongée,
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+11/15
+
+---
+
+## Page 12
+
+· syndrome de sevrage à l’arrêt brutal du traitement et chez le nouveau-né de mère intoxiquée à la
+codéine pendant la grossesse.
+LIES A LA PRESENCE DE PARACETAMOL
+Effets indésirables rares : peuvent affecter jusqu'à 1 personne sur 1 000
+· rougeur de la peau, éruption cutanée, urticaire. Il faut immédiatement arrêter le traitement, avertir
+votre médecin et ne plus jamais reprendre de médicaments contenant du paracétamol.
+· taches de sang sur la peau (purpura). Il faut immédiatement arrêter le traitement, avertir votre
+médecin. Le traitement pourra être réintroduit uniquement selon l’avis de votre médecin.
+· diarrhées, douleurs abdominales.
+Effets indésirables très rares : peuvent affecter jusqu'à 1 personne sur 10 000
+· réactions cutanées graves. Il faut immédiatement arrêter le traitement, avertir votre médecin et ne plus
+jamais reprendre de médicaments contenant du paracétamol.
+· modifications biologiques nécessitant un contrôle du bilan sanguin : taux anormalement bas de
+certains globules blancs (leucopénie, neutropénie) ou de certaines cellules du sang comme les plaquettes
+(thrombopénie) pouvant se traduire par des saignements de nez ou des gencives. Dans ce cas, consultez
+un médecin.
+Effets indésirables à fréquence indéterminée : la fréquence ne peut pas être estimée à partir des
+données disponibles
+· éruption ou rougeur cutanée ou réaction allergique pouvant se manifester par un brusque gonflement
+du visage et du cou pouvant entraîner une difficulté à respirer (œdème de Quincke) ou par un malaise
+brutal avec chute de la pression artérielle (choc anaphylactique). Il faut immédiatement arrêter le
+traitement, avertir votre médecin et ne plus jamais reprendre de médicaments contenant du
+paracétamol.
+· anomalie du bilan hépatique.
+· éruption cutanée en plaques rouges arrondies avec démangeaison et sensation de brûlure laissant des
+tâches colorées et pouvant apparaître aux mêmes endroits en cas de reprise du médicament (érythème
+pigmenté fixe), difficulté à respirer (bronchospasme), notamment si vous avez déjà présenté des
+difficultés à respirer avec d’autre médicaments tels que les anti-inflammatoires non stéroïdiens ou l’acide
+acétylsalicylique. Dans ce cas, consultez un médecin.
+· une affection grave qui peut rendre le sang plus acide (appelée acidose métabolique), chez les patients
+atteints d’une maladie grave et utilisant du paracétamol (voir rubrique 2).
+Déclaration des effets secondaires
+Si vous ressentez un quelconque effet indésirable, parlez-en à votre médecin, votre pharmacien ou votre
+infirmier/ère. Ceci s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice.
+Vous pouvez également déclarer les effets indésirables directement via le système national de
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+12/15
+
+---
+
+## Page 13
+
+déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau
+des Centres Régionaux de Pharmacovigilance -Site internet: https://signalement.social-sante.gouv.fr/.
+En signalant les effets indésirables, vous contribuez à fournir davantage d’informations sur la sécurité du
+médicament.
+5. COMMENT CONSERVER DAFALGAN CODEINE, comprimé pelliculé ?
+Tenir ce médicament hors de la vue et de la portée des enfants.
+Conservez ce médicament dans un espace de stockage sûr et sécurisé, auquel les autres n’ont pas accès.
+Ce médicament peut avoir des effets nocifs graves et entraîner le décès des personnes auxquelles il n’est
+pas destiné.
+N’utilisez pas ce médicament après la date de péremption indiquée sur l’emballage après. La date de
+péremption fait référence au dernier jour de ce mois.
+Ne jetez aucun médicament au tout-à-l’égout ou avec les ordures ménagères. Demandez à votre
+pharmacien d’éliminer les médicaments que vous n’utilisez plus. Ces mesures contribueront à protéger
+l’environnement.
+6. CONTENU DE L’EMBALLAGE ET AUTRES INFORMATIONS
+Ce que contient DAFALGAN CODEINE, comprimé pelliculé
+· Les substances actives sont :
+Paracétamol......................................................................................................................... 500 mg
+Phosphate de codéine hémihydraté......................................................................................... 30 mg
+Pour un comprimé pelliculé.
+· Les autres composants sont :
+Povidone, cellulose microcristalline, croscarmellose sodique*, stéarate de magnésium, agent filmogène
+blanc (hypromellose (E464), dioxyde de titane (E171), propylène glycol (E1520)). *Voir rubrique 2.
+Qu’est-ce que DAFALGAN CODEINE, comprimé pelliculé et contenu de l’emballage
+extérieur
+Comprimé pelliculé. Boîte de 16, 40 ou 100 comprimés sous plaquette thermoformée.
+Titulaire de l’autorisation de mise sur le marché
+UPSA SAS
+3, RUE JOSEPH MONIER
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+13/15
+
+---
+
+## Page 14
+
+92500 RUEIL-MALMAISON
+Exploitant de l’autorisation de mise sur le marché
+UPSA SAS
+3, RUE JOSEPH MONIER
+92500 RUEIL-MALMAISON
+Fabricant
+UPSA SAS
+304, AVENUE DU DOCTEUR JEAN BRU
+47000 AGEN
+ou
+UPSA SAS
+979, AVENUE DES PYRENEES
+47520 LE PASSAGE
+Noms du médicament dans les Etats membres de l'Espace Economique Européen
+Sans objet.
+La dernière date à laquelle cette notice a été révisée est :
+[à compléter ultérieurement par le titulaire]
+Autres
+Des informations détaillées sur ce médicament sont disponibles sur le site Internet de l’ANSM (France).
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+14/15
+
+---
+
+## Page 15
+
+legifrance.gouv.fr
+gouvernement.fr
+service-public.fr
+data.gouv.fr
+Nos partenaires
+Sauf mention contraire, tous les contenus de ce site sont sous licence etalab-2.0
+MINISTÈRE
+DU TRAVAIL, DE LA SANTÉ,
+DES SOLIDARITÉS
+ET DES FAMILLES
+
+https://base-donnees-publique.medicaments.gouv.fr/medicament/66003374/extrait#tab-notice
+15/15

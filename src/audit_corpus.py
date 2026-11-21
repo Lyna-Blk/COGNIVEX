@@ -1,542 +1,392 @@
+"""
+audit_corpus.py
+---------------
+Audits every file inside data/corpus/ for RAG-ingestion quality:
 
-import json
-import re
-import unicodedata
+1. PDF extractability  - real text vs. scanned image-only PDF
+2. Character count     - flags empty / near-empty documents
+3. Corruption check    - catches unreadable / malformed PDFs
+4. Duplicate detection - SHA-256 hash + size across all folders
+5. Noise artifacts     - detects repeated headers/footers, very short pages
+
+Outputs
+- Live progress to stdout
+- data/processed/corpus_audit_report.json   (machine-readable)
+- data/processed/corpus_audit_report.txt    (human-readable summary)
+"""
+
+import os
 import sys
+import json
+import hashlib
+import re
+import textwrap
 from pathlib import Path
+from collections import defaultdict
+from datetime import datetime, timezone
 
-from openpyxl import load_workbook
+# -- Dependency guard ----------------------------------------------------------
+try:
+    import pymupdf as fitz          # PyMuPDF >= 1.24  (import name changed)
+except ImportError:
+    try:
+        import fitz                 # older PyMuPDF
+    except ImportError:
+        sys.exit("[ERROR] PyMuPDF is not installed. Run: python -m pip install pymupdf")
 
+# -- Configuration -------------------------------------------------------------
+PROJECT_ROOT  = Path(__file__).resolve().parent.parent
+CORPUS_ROOT   = PROJECT_ROOT / "data" / "corpus"
+REPORT_JSON   = PROJECT_ROOT / "data" / "processed" / "corpus_audit_report.json"
+REPORT_TXT    = PROJECT_ROOT / "data" / "processed" / "corpus_audit_report.txt"
 
-# ============================================================
-# PROJECT PATHS
-# ============================================================
-
-# This script is inside src/, so parent.parent = COGNIVEX/
-ROOT = Path(__file__).resolve().parent.parent
-
-EXCEL_FILE = (
-    ROOT
-    / "data"
-    / "reference"
-    / "Liste 40 medicaments.xlsx"
-)
-
-CORPUS_DIR = ROOT / "data" / "corpus"
-
-OUTPUT_FILE = (
-    ROOT
-    / "data"
-    / "processed"
-    / "corpus_metadataFinal.json"
-)
+MIN_CHARS_PER_PAGE    = 200    # pages below this are "noise/near-empty"
+MIN_CHARS_TOTAL       = 100    # whole document below this -> flag for OCR
+NOISE_REPEAT_THRESH   = 5      # a text block repeated >= N times = header/footer noise
+IMAGE_PAGE_RATIO_WARN = 0.5    # >50% image-only pages -> flag for OCR
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
+# =============================================================================
+# Helpers
+# =============================================================================
 
-IGNORED_DIRS = {
-    "fiches_dci",
-    "processed",
-    "reference",
-    "documents_complementaires_non_reference",
-}
-
-FOLDER_ALIASES = {
-    # Add aliases if Excel DCI names differ from corpus folder names.
-    # "acide acetylsalicylique": "acide-acetylsalicylique",
-}
-
-SOURCE_LEVELS = {
-    "anpp": 3,
-    "miph": 3,
-    "who": 3,
-    "ema": 3,
-    "dailymed": 3,
-    "dzair pharma": 1,
-    "pharmnet": 1,
-    "dwa dz": 1,
-}
+def sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 
-# ============================================================
-# HELPER FUNCTIONS
-# ============================================================
-
-def normalize(value):
-    """
-    Normalize text:
-    - Remove accents
-    - Ignore uppercase/lowercase
-    - Replace punctuation with spaces
-    - Remove extra spaces
-    """
-
-    if value is None:
-        return ""
-
-    text = unicodedata.normalize("NFKD", str(value))
-
-    text = "".join(
-        char
-        for char in text
-        if not unicodedata.combining(char)
-    )
-
-    text = text.casefold()
-
-    text = re.sub(r"[^a-z0-9]+", " ", text)
-
-    return " ".join(text.split())
-
-
-def text_value(value, fallback="Non renseigné dans l’Excel"):
-
-    if value is None or str(value).strip() == "":
-        return fallback
-
-    return str(value).strip()
-
-
-def find_column(headers, possible_names):
-    """
-    Find an Excel column using possible header names.
-    """
-
-    normalized_headers = {
-        normalize(name): index
-        for index, name in enumerate(headers)
-    }
-
-    for name in possible_names:
-
-        index = normalized_headers.get(normalize(name))
-
-        if index is not None:
-            return index
-
-    return None
-
-
-# ============================================================
-# FIND DCI FOLDER
-# ============================================================
-
-def find_dci_folder(dci):
-
-    if not CORPUS_DIR.is_dir():
-        return None
-
-    wanted = normalize(dci)
-
-    alias = FOLDER_ALIASES.get(wanted)
-
-    if alias:
-
-        candidate = CORPUS_DIR / alias
-
-        if candidate.is_dir():
-            return candidate
-
-    ignored = {
-        normalize(name)
-        for name in IGNORED_DIRS
-    }
-
-    for folder in CORPUS_DIR.iterdir():
-
-        if not folder.is_dir():
-            continue
-
-        if normalize(folder.name) in ignored:
-            continue
-
-        if normalize(folder.name) == wanted:
-            return folder
-
-    return None
-
-
-# ============================================================
-# FIND PRODUCT PDF FILES
-# ============================================================
-
-def get_product_pdfs(dci, brand):
-    """
-    Associate PDFs with a product only if the commercial name
-    appears in the PDF path.
-    """
-
-    dci_folder = find_dci_folder(dci)
-
-    if dci_folder is None:
+def collect_all_files(root: Path) -> list:
+    if not root.exists():
         return []
-
-    wanted_brand = normalize(brand)
-
-    if not wanted_brand:
-        return []
-
-    pdfs = []
-
-    for path in dci_folder.rglob("*"):
-
-        if not path.is_file():
-            continue
-
-        if path.suffix.lower() != ".pdf":
-            continue
-
-        path_text = normalize(" ".join(path.parts))
-
-        if wanted_brand in path_text:
-
-            pdfs.append(
-                path.relative_to(ROOT).as_posix()
-            )
-
-    return sorted(pdfs)
+    return sorted(p for p in root.rglob("*") if p.is_file())
 
 
-# ============================================================
-# EXTRACT URL
-# ============================================================
+# =============================================================================
+# PDF Analysis
+# =============================================================================
 
-def extract_url(source_text):
+def analyze_pdf(path: Path) -> dict:
     """
-    Extract a URL only if it is actually written in Excel.
+    Returns a rich dict describing a PDF's RAG-readiness.
     """
-
-    match = re.search(
-        r"https?://[^\s,;]+",
-        source_text or "",
-        flags=re.IGNORECASE
-    )
-
-    if not match:
-        return "Non renseignée dans l’Excel"
-
-    return match.group(0).rstrip(".)]}")
-
-
-# ============================================================
-# SOURCE AUTHORITY LEVEL
-# ============================================================
-
-def get_authority_level(source_text):
-    """
-    Return a configured source level if the source is recognized.
-    0 means unknown, not necessarily unreliable.
-    """
-
-    source = normalize(source_text)
-
-    for name, level in SOURCE_LEVELS.items():
-
-        if normalize(name) in source:
-            return level
-
-    return 0
-
-
-# ============================================================
-# MAIN FUNCTION
-# ============================================================
-
-def main():
-
-    print("\n" + "=" * 60)
-    print("       COGNIVEX - CORPUS METADATA GENERATOR")
-    print("=" * 60)
-
-    # --------------------------------------------------------
-    # 1. CHECK PROJECT PATHS
-    # --------------------------------------------------------
-
-    print("\n[1/5] Checking project directories...")
-
-    print("Project root:", PROJECT_ROOT)
-    print("Excel file:", EXCEL_FILE)
-    print("Corpus directory:", CORPUS_DIR)
-    print("Output file:", OUTPUT_FILE)
-
-    if not EXCEL_FILE.is_file():
-
-        raise FileNotFoundError(
-            "\nExcel introuvable !\n"
-            f"Chemin recherché : {EXCEL_FILE}\n"
-            "Vérifie que le fichier existe dans "
-            "COGNIVEX/data/reference/"
-        )
-
-    if not CORPUS_DIR.is_dir():
-
-        raise FileNotFoundError(
-            "\nCorpus directory introuvable !\n"
-            f"Chemin recherché : {CORPUS_DIR}"
-        )
-
-    print("\n[OK] Excel and corpus directories found.")
-
-    # --------------------------------------------------------
-    # 2. OPEN EXCEL
-    # --------------------------------------------------------
-
-    print("\n[2/5] Reading Excel file...")
-
-    workbook = load_workbook(
-        EXCEL_FILE,
-        read_only=True,
-        data_only=True
-    )
+    result = {
+        "status": "ok",
+        "page_count": 0,
+        "total_chars": 0,
+        "image_only_pages": 0,
+        "short_pages": 0,
+        "has_noise": False,
+        "noise_samples": [],
+        "issues": [],
+    }
 
     try:
+        doc = fitz.open(str(path))
+    except Exception as e:
+        result["status"] = "corrupt"
+        result["issues"].append(f"Cannot open PDF: {e}")
+        return result
 
-        sheet = workbook.active
+    result["page_count"] = len(doc)
+    if len(doc) == 0:
+        result["status"] = "empty"
+        result["issues"].append("PDF has 0 pages")
+        doc.close()
+        return result
 
-        rows = sheet.iter_rows(values_only=True)
+    block_counter = defaultdict(int)
 
-        first_row = next(rows, None)
+    for page in doc:
+        text = page.get_text("text").strip()
+        chars = len(text)
+        result["total_chars"] += chars
 
-        if not first_row:
-            raise ValueError("ملف Excel فارغ.")
+        if chars == 0:
+            result["image_only_pages"] += 1
+        elif chars < MIN_CHARS_PER_PAGE:
+            result["short_pages"] += 1
 
-        headers = [
-            str(value).strip() if value is not None else ""
-            for value in first_row
+        # Collect small text blocks for noise detection
+        for block in page.get_text("blocks"):
+            block_text = block[4].strip() if len(block) > 4 else ""
+            if 5 < len(block_text) < 120:
+                block_counter[block_text] += 1
+
+    doc.close()
+
+    # -- Noise detection -------------------------------------------------------
+    noisy_blocks = {t: n for t, n in block_counter.items() if n >= NOISE_REPEAT_THRESH}
+    if noisy_blocks:
+        result["has_noise"] = True
+        result["noise_samples"] = [
+            '"{}" (x{})'.format(t[:80], n) for t, n in
+            sorted(noisy_blocks.items(), key=lambda x: -x[1])[:5]
         ]
 
-        columns = {
+    # -- Status assignment -----------------------------------------------------
+    total      = result["total_chars"]
+    img_pages  = result["image_only_pages"]
+    n_pages    = result["page_count"]
+    img_ratio  = img_pages / n_pages if n_pages else 0
 
-            "dci": find_column(
-                headers,
-                ["DCI (nom de la substance)", "DCI"]
-            ),
+    if total < MIN_CHARS_TOTAL:
+        result["status"] = "needs_ocr" if img_pages > 0 else "empty"
+        result["issues"].append(
+            "Only {} chars extracted - likely scanned image PDF".format(total) if img_pages
+            else "Only {} chars - document appears empty".format(total)
+        )
+    elif img_ratio >= IMAGE_PAGE_RATIO_WARN:
+        result["status"] = "needs_ocr"
+        result["issues"].append(
+            "{}/{} pages ({:.0%}) have no extractable text - partial scan".format(
+                img_pages, n_pages, img_ratio)
+        )
 
-            "atc_indicatif": find_column(
-                headers,
-                ["Code ATC (indicatif)", "Code ATC"]
-            ),
+    if result["has_noise"]:
+        result["issues"].append(
+            "Repeated header/footer noise detected ({} unique blocks)".format(len(noisy_blocks))
+        )
 
-            "atc_confirme": find_column(
-                headers,
-                ["ATC confirmé"]
-            ),
+    if result["short_pages"] > 0 and result["status"] == "ok":
+        result["issues"].append(
+            "{} page(s) have fewer than {} chars".format(result["short_pages"], MIN_CHARS_PER_PAGE)
+        )
 
-            "presence": find_column(
-                headers,
-                ["Présent dans la nomenclature algérienne ?"]
-            ),
+    return result
 
-            "brand": find_column(
-                headers,
-                [
-                    "N,C",
-                    "Nom commercial",
-                    "Nom commercial (N,C)"
-                ]
-            ),
 
-            "form": find_column(
-                headers,
-                ["Forme"]
-            ),
+# =============================================================================
+# Main Audit
+# =============================================================================
 
-            "dosage": find_column(
-                headers,
-                ["Dosage"]
-            ),
+def run_audit():
+    print("\n" + "=" * 56)
+    print("   COGNIVEX Corpus RAG Audit Tool")
+    print("=" * 56 + "\n")
 
-            "sources": find_column(
-                headers,
-                ["Sources", "Source"]
-            ),
+    if not CORPUS_ROOT.exists():
+        print(f"[WARNING] Corpus directory not found: {CORPUS_ROOT}\n")
 
-            "remarques": find_column(
-                headers,
-                ["Remarques", "Remarque"]
-            ),
+    all_files   = collect_all_files(CORPUS_ROOT)
+    total_files = len(all_files)
+    print("Found {} files in {}\n".format(total_files, CORPUS_ROOT))
 
-            "classe": find_column(
-                headers,
-                ["Classe"]
-            ),
+    # -- Pass 1: Hash map for duplicate detection ------------------------------
+    print("[1/3] Computing file hashes for duplicate detection...")
+    hash_map = defaultdict(list)
+    size_map = defaultdict(list)
 
-            "number": find_column(
-                headers,
-                ["N°", "N"]
-            ),
+    for path in all_files:
+        size = path.stat().st_size
+        size_map[size].append(path)
+
+    candidate_dupes = {p for paths in size_map.values() if len(paths) > 1 for p in paths}
+    file_hashes = {}
+
+    for path in all_files:
+        if path in candidate_dupes:
+            h = sha256(path)
+            file_hashes[path] = h
+            hash_map[h].append(path)
+        else:
+            file_hashes[path] = None
+
+    duplicate_groups = {h: paths for h, paths in hash_map.items() if len(paths) > 1}
+    dupe_files       = {p for paths in duplicate_groups.values() for p in paths[1:]}
+    print("   Duplicate groups found: {}\n".format(len(duplicate_groups)))
+
+    # -- Pass 2: Per-file analysis ---------------------------------------------
+    print("[2/3] Analysing PDF content quality...")
+
+    file_results    = []
+    valid_for_rag   = []
+    needs_ocr       = []
+    empty_or_corrupt= []
+    noisy_files     = []
+    non_pdf_files   = []
+
+    for i, path in enumerate(all_files, 1):
+        rel = path.relative_to(CORPUS_ROOT).as_posix()
+        ext = path.suffix.lower()
+
+        entry = {
+            "path":         rel,
+            "absolute":     path.resolve().as_posix(),
+            "extension":    ext.lstrip("."),
+            "size_bytes":   path.stat().st_size,
+            "hash_sha256":  file_hashes.get(path),
+            "is_duplicate": path in dupe_files,
         }
 
-        if columns["dci"] is None:
+        if ext == ".pdf":
+            print("   [{:>3}/{}] {}".format(i, total_files, rel[:65]), end="\r")
+            pdf_info = analyze_pdf(path)
+            entry.update(pdf_info)
 
-            raise ValueError(
-                "ما لقيتش عمود DCI. "
-                "تحققي من عنوان العمود في Excel."
-            )
+            if pdf_info["status"] == "ok" and not (path in dupe_files):
+                valid_for_rag.append(rel)
+            elif pdf_info["status"] == "needs_ocr":
+                needs_ocr.append(rel)
+            elif pdf_info["status"] in ("empty", "corrupt"):
+                empty_or_corrupt.append(rel)
 
-        print("[OK] Excel headers detected.")
+            if pdf_info.get("has_noise"):
+                noisy_files.append(rel)
+        else:
+            entry["status"] = "non_pdf"
+            non_pdf_files.append(rel)
 
-        # ----------------------------------------------------
-        # 3. READ MEDICINE RECORDS
-        # ----------------------------------------------------
+        file_results.append(entry)
 
-        print("\n[3/5] Processing medicine records...")
+    print(" " * 80, end="\r")
+    print("   Done analysing {} files.\n".format(total_files))
 
-        records = []
+    # -- Pass 3: Duplicate report ----------------------------------------------
+    print("[3/3] Building duplicate report...")
+    dup_report = []
+    for h, paths in duplicate_groups.items():
+        dup_report.append({
+            "hash":       h,
+            "files":      [p.relative_to(CORPUS_ROOT).as_posix() for p in paths],
+            "size_bytes": paths[0].stat().st_size,
+        })
+    print("   Done.\n")
 
-        for excel_row_number, row in enumerate(rows, start=2):
+    # -- Assemble final report -------------------------------------------------
+    report = {
+        "_meta": {
+            "generated_at":     datetime.now(timezone.utc).isoformat(),
+            "corpus_root":      CORPUS_ROOT.resolve().as_posix(),
+            "total_files":      total_files,
+            "total_pdf":        sum(1 for f in file_results if f["extension"] == "pdf"),
+            "valid_for_rag":    len(valid_for_rag),
+            "needs_ocr":        len(needs_ocr),
+            "empty_or_corrupt": len(empty_or_corrupt),
+            "noisy":            len(noisy_files),
+            "non_pdf":          len(non_pdf_files),
+            "duplicate_groups": len(duplicate_groups),
+        },
+        "valid_for_rag":    valid_for_rag,
+        "needs_ocr":        needs_ocr,
+        "empty_or_corrupt": empty_or_corrupt,
+        "noisy_files":      noisy_files,
+        "non_pdf_files":    non_pdf_files,
+        "duplicate_groups": dup_report,
+        "files":            file_results,
+    }
 
-            def get(field):
-
-                index = columns.get(field)
-
-                if index is None or index >= len(row):
-                    return None
-
-                return row[index]
-
-            dci_raw = get("dci")
-
-            if dci_raw is None or not str(dci_raw).strip():
-                continue
-
-            dci = str(dci_raw).strip().upper()
-
-            brand = text_value(get("brand"))
-            form = text_value(get("form"))
-            dosage = text_value(get("dosage"))
-            source_text = text_value(get("sources"))
-
-            # Search for associated PDF files
-            pdf_paths = get_product_pdfs(dci, brand)
-
-            file_path = (
-                pdf_paths[0]
-                if pdf_paths
-                else "Aucun PDF associé dans le corpus"
-            )
-
-            record = {
-
-                "dci": dci,
-
-                "brand": brand,
-
-                "form": form,
-
-                "dosage": dosage,
-
-                "file_path": file_path,
-
-                "file_paths": pdf_paths,
-
-                "source_name": source_text,
-
-                "source_url": extract_url(source_text),
-
-                "collection_date": (
-                    "À compléter : date réelle de consultation"
-                ),
-
-                "authority_level": get_authority_level(
-                    source_text
-                ),
-
-                "atc_indicatif": text_value(
-                    get("atc_indicatif")
-                ),
-
-                "atc_confirme": text_value(
-                    get("atc_confirme")
-                ),
-
-                "present_dans_nomenclature": text_value(
-                    get("presence")
-                ),
-
-                "classe": text_value(
-                    get("classe")
-                ),
-
-                "remarques": text_value(
-                    get("remarques")
-                ),
-
-                "numero_ligne_excel": excel_row_number,
-            }
-
-            records.append(record)
-
-            print(
-                f"   [{len(records)}] {dci} - {brand}"
-            )
-
-    finally:
-
-        workbook.close()
-
-    # --------------------------------------------------------
-    # 4. CREATE OUTPUT DIRECTORY AND EXPORT JSON
-    # --------------------------------------------------------
-
-    print("\n[4/5] Generating JSON metadata...")
-
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True
+    REPORT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    REPORT_JSON.write_text(
+        json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    OUTPUT_FILE.write_text(
-        json.dumps(
-            records,
-            ensure_ascii=False,
-            indent=2
-        ),
-        encoding="utf-8"
-    )
+    # -- Human-readable TXT report ---------------------------------------------
+    lines = []
+    sep   = "=" * 72
+    thin  = "-" * 72
 
-    # --------------------------------------------------------
-    # 5. FINAL SUMMARY
-    # --------------------------------------------------------
+    def h1(t):   lines.append("\n{}\n  {}\n{}".format(sep, t, sep))
+    def h2(t):   lines.append("\n{}\n  {}\n{}".format(thin, t, thin))
+    def li(t):   lines.append("    {}".format(t))
+    def blank():  lines.append("")
 
-    with_pdf = sum(
-        bool(record["file_paths"])
-        for record in records
-    )
+    h1("COGNIVEX CORPUS RAG AUDIT REPORT")
+    li("Generated : {}".format(report["_meta"]["generated_at"]))
+    li("Corpus    : {}".format(report["_meta"]["corpus_root"]))
+    blank()
 
-    without_pdf = len(records) - with_pdf
+    h2("SUMMARY")
+    m = report["_meta"]
+    li("Total files scanned       : {}".format(m["total_files"]))
+    li("Total PDFs analysed       : {}".format(m["total_pdf"]))
+    blank()
+    li("[READY]  Valid for RAG ingestion  : {}".format(m["valid_for_rag"]))
+    li("[OCR]    Need OCR processing      : {}".format(m["needs_ocr"]))
+    li("[ERROR]  Empty / Corrupt PDFs     : {}".format(m["empty_or_corrupt"]))
+    li("[NOISE]  Have header/footer noise : {}".format(m["noisy"]))
+    li("[IMAGE]  Non-PDF files (PNG/CSV)  : {}".format(m["non_pdf"]))
+    li("[DUPE]   Duplicate file groups    : {}".format(m["duplicate_groups"]))
 
-    print("\n[5/5] Generation completed.")
+    h2("VALID FILES READY FOR RAG INGESTION")
+    if valid_for_rag:
+        for f in valid_for_rag:
+            li("[OK]  {}".format(f))
+    else:
+        li("(none)")
 
-    print("\n" + "=" * 60)
-    print("              GENERATION COMPLETE")
-    print("=" * 60)
+    h2("FILES NEEDING OCR (image-only or partial scans)")
+    if needs_ocr:
+        for f in needs_ocr:
+            entry  = next(e for e in file_results if e["path"] == f)
+            issues = "; ".join(entry.get("issues", []))
+            li("[OCR]  {}".format(f))
+            li("       => {}".format(issues))
+    else:
+        li("(none)")
 
-    print(f"Total medicine records : {len(records)}")
+    h2("EMPTY OR CORRUPTED PDFs")
+    if empty_or_corrupt:
+        for f in empty_or_corrupt:
+            entry  = next(e for e in file_results if e["path"] == f)
+            issues = "; ".join(entry.get("issues", []))
+            li("[ERR]  {}".format(f))
+            li("       => {}".format(issues))
+    else:
+        li("(none)")
 
-    print(f"Records with PDF       : {with_pdf}")
+    h2("FILES WITH HEADER/FOOTER NOISE ARTIFACTS")
+    if noisy_files:
+        for f in noisy_files:
+            entry   = next(e for e in file_results if e["path"] == f)
+            samples = entry.get("noise_samples", [])
+            li("[NOISE]  {}".format(f))
+            for s in samples[:3]:
+                li("         Repeated block: {}".format(s))
+    else:
+        li("(none)")
 
-    print(f"Records without PDF    : {without_pdf}")
+    h2("DUPLICATE FILE GROUPS")
+    if dup_report:
+        for grp in dup_report:
+            li("Hash: {}...  Size: {:,} bytes".format(grp["hash"][:16], grp["size_bytes"]))
+            for fp in grp["files"]:
+                li("  - {}".format(fp))
+            blank()
+    else:
+        li("(none)")
 
-    print("\nJSON file created:")
-    print(OUTPUT_FILE)
+    h2("NON-PDF FILES (may need separate ingestion pipeline)")
+    for f in non_pdf_files:
+        entry = next(e for e in file_results if e["path"] == f)
+        li("[{:>4}]  {}  ({:,} bytes)".format(
+            entry["extension"].upper(), f, entry["size_bytes"]))
 
-    print("\n" + "=" * 60)
+    h1("END OF REPORT")
 
+    REPORT_TXT.write_text("\n".join(lines), encoding="utf-8")
 
-# ============================================================
-# EXECUTION
-# ============================================================
+    # -- Console final summary -------------------------------------------------
+    print("=" * 56)
+    print("  AUDIT COMPLETE")
+    print("=" * 56)
+    print("  Total files scanned       : {}".format(m["total_files"]))
+    print("  Total PDFs analysed       : {}".format(m["total_pdf"]))
+    print()
+    print("  [READY]  Valid for RAG ingestion  : {}".format(m["valid_for_rag"]))
+    print("  [OCR]    Need OCR processing      : {}".format(m["needs_ocr"]))
+    print("  [ERROR]  Empty / Corrupt PDFs     : {}".format(m["empty_or_corrupt"]))
+    print("  [NOISE]  Have header/footer noise : {}".format(m["noisy"]))
+    print("  [IMAGE]  Non-PDF files            : {}".format(m["non_pdf"]))
+    print("  [DUPE]   Duplicate file groups    : {}".format(m["duplicate_groups"]))
+    print()
+    print("  Reports saved:")
+    print("    JSON : {}".format(REPORT_JSON))
+    print("    TXT  : {}".format(REPORT_TXT))
+    print("=" * 56)
+
 
 if __name__ == "__main__":
-
-    try:
-        main()
-
-    except Exception as error:
-
-        print("\n[ERROR]", error)
-        sys.exit(1)
-
+    run_audit()
