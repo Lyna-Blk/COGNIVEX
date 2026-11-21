@@ -70,10 +70,6 @@ python -m pip install -r requirements.txt
 
 - [Semaine 1 — Analyse du réponses du LLM sans RAG ](docs/evaluation/analyse_reponses_sans_RAG.md)
 
-### 4. Recherche
-
-- [Semaine 2 — Comparaison recherche par mots-clés / recherche sémantique](docs/evaluation/comparaison_recherche.md)
-- [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 - 
 ## Équipe
 - Lyna Anfel BELKHAIRI
