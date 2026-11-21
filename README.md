@@ -1,52 +1,79 @@
-# Cognivex
+# Cognivex-Pharmaazor
 
-### Intelligent Knowledge-Based Systems
+**Assistant documentaire sur les médicaments référencés en Algérie**  
+Projet RCR — M1 IA — Université Constantine 2 – Abdelhamid Mehri
 
-**About Us**
+## Présentation
 
-Cognivex is a student team working on the development of intelligent knowledge-based systems using Artificial Intelligence, information retrieval, and automated reasoning.
+Pharmaazor est un assistant documentaire qui aide à rechercher des informations sur les médicaments à partir de documents et de sources identifiés.
 
-**Project Overview**
+Le projet vise à retrouver les passages utiles et à indiquer les documents utilisés. Lorsque les sources disponibles ne permettent pas de vérifier une information, le système doit le signaler au lieu de la compléter par une supposition.
 
-Our project focuses on building structured knowledge bases from multiple sources and developing an intelligent platform capable of providing reliable, explainable, and evidence-based answers.
+## Objectifs
 
-**Technologies**
+- Identifier les médicaments par leur DCI et leurs noms commerciaux.
+- Organiser les informations disponibles : forme, dosage et laboratoire.
+- Retrouver les passages pertinents dans les documents collectés.
+- Accompagner les réponses de références vérifiables.
+- Signaler les informations manquantes, les différences entre sources et les limites de la recherche.
+
+## Sources documentaires
+
+Les documents sont conservés avec leurs références lorsque celles-ci sont disponibles : nom de la source, lien, pays et date de consultation.
+
+- **ANPP** : source prioritaire pour les RCP et notices algériens disponibles.
+- **Nomenclature du MIPH** : informations sur les produits enregistrés, notamment leurs noms commerciaux, formes et dosages.
+- **Sources officielles étrangères** : utilisées en complément lorsque le document algérien recherché n’a pas été trouvé. Le pays d’origine est précisé ; elles ne sont pas présentées comme des documents algériens.
+- **Sources secondaires** : identifiées comme telles dans le corpus et dans les réponses.
+
+Lorsqu’un document n’est pas trouvé sur le portail de l’ANPP, l’équipe note les termes recherchés, la méthode et la date de recherche. La mention « document ANPP non trouvé » décrit le résultat de cette recherche ; elle ne prouve pas que le document n’existe pas.
+
+## Limites
+
+Pharmaazor est un outil documentaire. Il ne remplace pas un médecin ou un pharmacien et ne pose pas de diagnostic.
+
+Il ne recommande pas de traitement ni de substitution. Une information absente des sources disponibles ne doit pas être présentée comme vérifiée.
+
+## Format prévu des réponses
+
+Quand les documents le permettent, la réponse présente :
+
+1. Une réponse courte.
+2. Une explication simple.
+3. Le document, la source et le passage utilisés.
+4. Les limites ou les informations qui n’ont pas pu être vérifiées.
+
+## Technologies
 
 - Python
-- Groq API (GPT-OSS-120B) : Large Language Model (LLM).
-- LangChain : RAG pipeline and document processing.
-- ChromaDB : Vector database for storing document embeddings.
-- Sentence Transformers : Text embeddings and semantic search.
+- API Groq avec le modèle imposé `openai/gpt-oss-120b`
 
+## Installation
 
-## Cognivex Project Mission
-Cognivex is a smart assistant for information about medications and safety. The creation of Cognivex was specifically done to assist the user, especially community pharmacists and students of healthcare, in verifying the information before spreading it to patients, thus making the decision on their own and ensuring that nobody gets hurt. The system collects information about medications from Algerian sources and pharmaceuticals in order to create a solid knowledge base written in natural language, where every item has its source, page, and date of publication.
+Depuis le dossier du projet, installez les dépendances :
 
-The above-mentioned system is created for the following reasons:<br>
-1- Identification of medicines in all its possible varieties, both INN and trade name.<br>
-2- Extraction of data from the leaflets and documents obtained.<br>
-3- Identification of useful data in these documents like indications of use, contraindications, precautionary measures, drug-drug interaction and their level of seriousness (in case of necessity).<br>
-4- Building links between medicines, active ingredient and documents and also identifying equivalent medicines in Algeria.<br>
-5- Comparison of different sources and versions of documents (by order of priority), emphasizing contradictions and choosing the most reliable source with reasoning.<br>
-6- Each response should be backed up with an exact quotation from the source document, including the page number and the day the data was taken from the reliable and official ministry approved sources.<br>
-7- Refusal to provide data in case of insufficient sources, rather than inventing data.<br>
+```bash
+python -m pip install -r requirements.txt
+``` 
+## Documentation
 
-## Principles :
-Its principles : <br>
-- **The source is the primary criterion:** without the source, there is no information.<br>
-- **Transparency:** Differences between sources will always be apparent.<br>
-- **Integrity:** "No exchange found" does not mean "no risk."<br>
-- **Limited function:** Pharmaazor is an information tool for documents. It is not a replacement for a doctor or pharmacist, nor does it diagnose or prescribe anything. No real data is used.
-## Question :
-A fictional patient 15 years, with long-term use of [Mibral(antihypertensive )], presents with pain complaints and requests [Doliprane(an analgesic/anti-inflammatory )]. What is the INN of Doliprane? Is it related to Mibral, and at what level of interaction? Are there any precautions to take due to their age? If Doliprane is not available, what alternatives are available in Algeria?
+### 1. Présentation du projet
 
-## Steps to Solve :
+- [Cahier des charges](docs/CDC_Projet_2_Pharmeazor_FINAL.pdf)
 
-## Team Members
+### 2. Questions de test
 
+- [Questions posées au LLM](docs/evaluation/questions_llm.md)
+
+### 3. Évaluation du LLM
+- [Semaine 1 — Réponses du LLM seul (sans RAG)](docs/evaluation/reponses_sans_RAG.md)
+
+- [Semaine 1 — Analyse du réponses du LLM sans RAG ](docs/evaluation/analyse_reponses_sans_RAG.md)
+
+- 
+## Équipe
 - Lyna Anfel BELKHAIRI
 - Ibtihal BOUFENNARA
 - Oumeima DREIBINE
 - Hadil KERSOUHI
 - Aya BECHKRI
-

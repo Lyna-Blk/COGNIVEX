@@ -2,35 +2,41 @@
 ========================================================================
   COGNIVEX CORPUS RAG AUDIT REPORT
 ========================================================================
-    Generated : 2026-11-19T17:03:31.632599+00:00
-    Corpus    : C:/Users/Hp/Desktop/COGNIVEX/data/corpus
+    Generated : 2026-11-19T20:31:52.519576+00:00
+    Corpus    : C:/Users/Administrator/COGNIVEX/data/corpus
 
 
 ------------------------------------------------------------------------
   SUMMARY
 ------------------------------------------------------------------------
-    Total files scanned       : 42
-    Total PDFs analysed       : 33
+    Total files scanned       : 142
+    Total PDFs analysed       : 117
 
-    [READY]  Valid for RAG ingestion  : 33
-    [OCR]    Need OCR processing      : 0
+    [READY]  Valid for RAG ingestion  : 69
+    [OCR]    Need OCR processing      : 48
     [ERROR]  Empty / Corrupt PDFs     : 0
-    [NOISE]  Have header/footer noise : 29
-    [IMAGE]  Non-PDF files (PNG/CSV)  : 9
+    [NOISE]  Have header/footer noise : 50
+    [IMAGE]  Non-PDF files (PNG/CSV)  : 25
     [DUPE]   Duplicate file groups    : 0
 
 ------------------------------------------------------------------------
   VALID FILES READY FOR RAG INGESTION
 ------------------------------------------------------------------------
+    [OK]  acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf
+    [OK]  amlodipine/mibral/RCP-MIBRL.pdf
     [OK]  amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf
     [OK]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
-    [OK]  amoxicilline/Article_AMOXICILLINE.pdf
+    [OK]  amoxicilline/Article_Amoxicilline.pdf
     [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf
     [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
+    [OK]  aténolol/aténolol_Notice_ANSM.pdf
+    [OK]  aténolol/aténolol_RCP_ANSM.pdf
+    [OK]  bisoprolol/bisoprolol_Notice_ANSM.pdf
+    [OK]  bisoprolol/bisoprolol_RCP_ANPP.pdf
     [OK]  céfixime/Article__CEFIXIME.pdf
     [OK]  céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf
     [OK]  céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf
@@ -42,24 +48,149 @@
     [OK]  célécoxib/Article_CÉLÉCOXIB.pdf
     [OK]  célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf
     [OK]  célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf
+    [OK]  diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf
+    [OK]  diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf
+    [OK]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf
+    [OK]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf
+    [OK]  ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf
+    [OK]  ibuprofene/gelfen/RCP_GELFEN_5%.pdf
+    [OK]  indapamide/indapamide_Notice_ANSM.pdf
+    [OK]  indapamide/indapamide_RCP_ANSM.pdf
+    [OK]  ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf
+    [OK]  ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf
+    [OK]  ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf
+    [OK]  losartan/LOSartan anpp.pdf
+    [OK]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
+    [OK]  meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf
+    [OK]  méthyldopa/méthyldopa_Notice_ANSM.pdf
+    [OK]  méthyldopa/méthyldopa_RCP_ANSM.pdf
+    [OK]  naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf
+    [OK]  nébivolol/nébivolol_Notice_ANSM.pdf
+    [OK]  nébivolol/nébivolol_RCP_ANSM.pdf
     [OK]  néfopam/Article_NÉFOPAM.pdf
     [OK]  néfopam/Notice_NEFOPAM.pdf
     [OK]  néfopam/RCP_NEFOPAM.pdf
+    [OK]  paracetamol/documents_complementaires_non_reference/notice_doliprane.pdf
+    [OK]  paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.pdf
+    [OK]  paracetamol/panadol/notice_panadol.pdf
+    [OK]  paracetamol/panadol/RCP_Panadol_1g.pdf
     [OK]  paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf
     [OK]  paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf
     [OK]  paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf
     [OK]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf
     [OK]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf
+    [OK]  piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf
+    [OK]  piroxicam/piroxicam_Notice_ANMDMR.pdf
+    [OK]  piroxicam/RCP_PAINOXAM_20mg.pdf
+    [OK]  spironolactone/spironolactone_Notice_ANSM.pdf
+    [OK]  spironolactone/spironolactone_RCP_ANSM.pdf
     [OK]  tramadol/Article_TRAMADOL.pdf
     [OK]  tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf
     [OK]  tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf
     [OK]  tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf
     [OK]  tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf
+    [OK]  valsartan/valsartan_Notice_ANSM.pdf
+    [OK]  valsartan/valsartan_RCP_ANSM.pdf
 
 ------------------------------------------------------------------------
   FILES NEEDING OCR (image-only or partial scans)
 ------------------------------------------------------------------------
-    (none)
+    [OCR]  amlodipine/amlibon/source-generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlibon/source-interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlodal/source -generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/amlodal/source amlodal interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/mibral/source-mibral generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/mibral/source-mibral interactiob.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amdolipine rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amdolipine-daily med -rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/source-amlodopine-notice.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  amlodipine/Source-info -amlodipline.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/acnestop/source-ansm-generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/acnestop/source-ansmi- interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/clinaram/source_ansm_interaction dwadz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/derma-t/source-ansm-interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/derma-t/source-ansm_generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source-ansm-notice.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source-ansm_info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  clindamycine/source_ansm-rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/dwa--dz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/info-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/notice-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/rcp-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/daily med genta.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_fiche_info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_interaction_medicament.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_noticc.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/genta_80/source_ansm_rcp.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/gentacine/source_ansm_generiques.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/s_genta/source_ansm_generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  gentamicine/s_genta/source_interaction_s genta.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/cozzar/cozaar interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/dailymed-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/info-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/notice-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/rcp-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  nifedipine/dailymed-nifedipine.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/coversyl/source interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/coversyl/source-generique-.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/generique.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindopril/source rcp. prindoprile.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  perindopril/perindosyl/iteraction-source.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/notice-ramplir.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/ramplir-dailymed.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/rcpramplir.pdf
+           => Only 0 chars extracted - likely scanned image PDF
 
 ------------------------------------------------------------------------
   EMPTY OR CORRUPTED PDFs
@@ -69,13 +200,22 @@
 ------------------------------------------------------------------------
   FILES WITH HEADER/FOOTER NOISE ARTIFACTS
 ------------------------------------------------------------------------
+    [NOISE]  acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf
+             Repeated block: "Résumé des caractéristiques du produit" (x17)
+             Repeated block: "ASPIRINE Cardio® 100 mg en gélules" (x17)
+             Repeated block: "Version : 02" (x17)
+    [NOISE]  amlodipine/mibral/RCP-MIBRL.pdf
+             Repeated block: "ANNEXE I  
+RESUME DES CARACTERISTIQUES DU PRODUIT" (x13)
+             Repeated block: "Email : contact@ldmgroupe.com" (x13)
+             Repeated block: "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x13)
     [NOISE]  amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf
              Repeated block: "11/18/26, 6:39 PM
 Base de Données Publique des Médicaments" (x12)
     [NOISE]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
              Repeated block: "11/18/26, 6:39 PM
 Base de Données Publique des Médicaments" (x20)
-    [NOISE]  amoxicilline/Article_AMOXICILLINE.pdf
+    [NOISE]  amoxicilline/Article_Amoxicilline.pdf
              Repeated block: "11/18/26, 11:21 PM
 The Diagnosis and Management of Acute Otitis Media | Pediatri" (x119)
              Repeated block: "This site uses cookies. By continuing to use our website, you are agreeing to ou" (x93)
@@ -134,6 +274,57 @@ Base de Données Publique des Médicaments" (x14)
              Repeated block: "11/18/26, 8:19 PM
 Base de Données Publique des Médicaments" (x25)
              Repeated block: "Affections" (x9)
+    [NOISE]  diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf
+             Repeated block: "17/11/2026 01:18
+Base de Données Publique des Médicaments" (x14)
+    [NOISE]  diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf
+             Repeated block: "RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT" (x28)
+             Repeated block: "Biofenac® comprimé pelliculé gastro-résistant à 25 mg, boite" (x27)
+             Repeated block: "de 30. 
+Biofenac® comprimé pelliculé gastro-résistant à 50 mg, boite" (x27)
+    [NOISE]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf
+             Repeated block: "RÉSUMÉ DES CARACTÉRISTIQUES DU" (x18)
+             Repeated block: "PRODUIT" (x18)
+             Repeated block: "BIOFENAC FAST® /Comprimé pelliculé/ 50mg/" (x18)
+    [NOISE]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf
+             Repeated block: "RÉSUMÉ DES CARACTÉRISTIQUES DU" (x22)
+             Repeated block: "PRODUIT" (x22)
+             Repeated block: "BIOFENAC® comprimé pelliculé LP 75mg" (x22)
+    [NOISE]  ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf
+             Repeated block: "17/11/2026 01:03
+Base de Données Publique des Médicaments" (x8)
+             Repeated block: "Sans objet." (x5)
+    [NOISE]  ibuprofene/gelfen/RCP_GELFEN_5%.pdf
+             Repeated block: "ANNEXE I 
+RESUME DES CARACTERISTIQUES DU PRODUIT" (x8)
+             Repeated block: "Email : contact@ldmgroupe.com" (x8)
+             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x8)
+    [NOISE]  indapamide/indapamide_RCP_ANSM.pdf
+             Repeated block: "Affections" (x5)
+    [NOISE]  ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf
+             Repeated block: "17/11/2026 00:39
+Base de Données Publique des Médicaments" (x8)
+             Repeated block: "Sans objet." (x5)
+    [NOISE]  ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf
+             Repeated block: "ANNEXE I  
+RESUME DES CARACTERISTIQUES DU PRODUIT" (x6)
+             Repeated block: "Email : contact@ldmgroupe.com" (x6)
+             Repeated block: "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x6)
+    [NOISE]  losartan/LOSartan anpp.pdf
+             Repeated block: "ANNEXE I 
+    RESUME DES CARACTERISTIQUES DU PRODUIT" (x23)
+             Repeated block: "Email : contact@ldmgroupe.com" (x23)
+             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x23)
+    [NOISE]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
+             Repeated block: "17/11/2026 02:00
+Base de Données Publique des Médicaments" (x17)
+    [NOISE]  meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf
+             Repeated block: "17/11/2026 02:00
+Base de Données Publique des Médicaments" (x20)
+    [NOISE]  méthyldopa/méthyldopa_Notice_ANSM.pdf
+             Repeated block: "Sans objet." (x5)
+    [NOISE]  nébivolol/nébivolol_RCP_ANSM.pdf
+             Repeated block: "Affections" (x6)
     [NOISE]  néfopam/Article_NÉFOPAM.pdf
              Repeated block: "11/18/26, 11:26 PM
 Nefopam prescribing preferences in French hospitals: results " (x13)
@@ -143,6 +334,11 @@ Base de Données Publique des Médicaments" (x8)
     [NOISE]  néfopam/RCP_NEFOPAM.pdf
              Repeated block: "11/17/26, 2:46 PM
 Base de Données Publique des Médicaments" (x9)
+    [NOISE]  paracetamol/panadol/RCP_Panadol_1g.pdf
+             Repeated block: "ANNEXE I 
+RESUME DES CARACTERISTIQUES DU PRODUIT" (x7)
+             Repeated block: "Email : contact@ldmgroupe.com" (x7)
+             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x7)
     [NOISE]  paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf
              Repeated block: "11/18/26, 8:08 PM
 Base de Données Publique des Médicaments" (x15)
@@ -156,6 +352,17 @@ Base de Données Publique des Médicaments" (x12)
     [NOISE]  paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf
              Repeated block: "11/17/26, 2:49 PM
 Base de Données Publique des Médicaments" (x18)
+    [NOISE]  piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf
+             Repeated block: "RÉSUMÉ DES CARACTÉRISTIQUES DU" (x8)
+             Repeated block: "PRODUIT  
+FENOXAM® Gel pour application cutanée. Tube" (x8)
+             Repeated block: "de 50g." (x8)
+    [NOISE]  piroxicam/RCP_PAINOXAM_20mg.pdf
+             Repeated block: "RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT" (x19)
+             Repeated block: "PAINOXAM ® suppositoire 20 mg, boite de 15" (x19)
+             Repeated block: "Version : 02" (x19)
+    [NOISE]  spironolactone/spironolactone_Notice_ANSM.pdf
+             Repeated block: "Sans objet." (x5)
     [NOISE]  tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf
              Repeated block: "11/18/26, 8:36 PM
 Base de Données Publique des Médicaments" (x12)
@@ -168,6 +375,9 @@ Base de Données Publique des Médicaments" (x14)
     [NOISE]  tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf
              Repeated block: "11/18/26, 8:36 PM
 Base de Données Publique des Médicaments" (x19)
+    [NOISE]  valsartan/valsartan_RCP_ANSM.pdf
+             Repeated block: "Population pédiatrique" (x7)
+             Repeated block: "Hypertension" (x6)
 
 ------------------------------------------------------------------------
   DUPLICATE FILE GROUPS
@@ -184,8 +394,24 @@ Base de Données Publique des Médicaments" (x19)
     [JPEG]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg  (54,831 bytes)
     [WEBP]  céfixime/CEFIXIME ALMUS 200 mg.webp  (18,492 bytes)
     [WEBP]  céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp  (13,658 bytes)
+    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv  (388 bytes)
+    [ CSV]  enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv  (306 bytes)
+    [ PNG]  gentamicine/genta_80/sourcedwadz--.png  (164,863 bytes)
+    [ PNG]  gentamicine/genta_80/sourcedwadz-.png  (123,766 bytes)
+    [WEBP]  ketoprofene/documents_complementaires_non_reference/image_profenid.webp  (10,966 bytes)
+    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv  (768 bytes)
+    [ CSV]  losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv  (747 bytes)
+    [  MD]  naproxene/naprox/source_naprox-275mg_dwadz.md  (724 bytes)
+    [  MD]  naproxene/nhupain/source_nhupain_dwadz.md  (748 bytes)
     [WEBP]  néfopam/NEFOPAM.webp  (6,624 bytes)
     [ PNG]  néfopam/NEFOPAM_ARROW_20_mg_2_ml.png  (245,756 bytes)
+    [  MD]  paracetamol/panadol/source_panadol_dwadz.md  (1,054 bytes)
+    [ JPG]  piroxicam/documents_complementaires_non_reference/image_fenoxam.jpg  (114,866 bytes)
+    [  MD]  piroxicam/documents_complementaires_non_reference/source_fenoxam_pharmnet.md  (826 bytes)
+    [AVIF]  piroxicam/image_painoxam.avif  (10,501 bytes)
+    [  MD]  piroxicam/painoxam/source_painoxam_dwadz.md  (1,128 bytes)
+    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv  (791 bytes)
+    [ CSV]  ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv  (1,355 bytes)
 
 ========================================================================
   END OF REPORT
