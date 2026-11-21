@@ -57,7 +57,12 @@ Quand les documents le permettent, la réponse présente :
 python -m pip install -r requirements.txt
 ```
 
-## Avancement
+## Avancement du projet
+
+| Semaine | Contenu | Statut |
+|---|---|---|
+| Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
+| Semaine 2 | Découpage en chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique | Terminée |
 
 ### Semaine 1 — Préparation du corpus
 
@@ -82,23 +87,40 @@ python src/compare_search.py              # mots-clés + sémantique
 python src/compare_search.py --bm25-only  # mots-clés seulement
 ```
 
-**Premières observations**
+#### Premières observations (8 questions, top-5)
 
-- Les deux méthodes retrouvent souvent des passages différents (0 à 2 chunks communs sur 5) : elles sont complémentaires.
-- Pour une DCI précise (Q1), les deux retrouvent la bonne DCI. Pour une marque absente (Q2, CARDENSIEL), aucune ne retrouve de passage qui répond.
-- Pour les questions hors périmètre ou pièges (Q7, Q8), elles retournent quand même 5 résultats sans rapport clair.
-- Les scores sémantiques sont très proches (0,85 à 0,91) : un score élevé ne prouve pas que la réponse est dans le corpus.
+- **Les deux méthodes retrouvent souvent des passages différents** : 0 à 2 chunks communs sur 5. Elles sont donc complémentaires.
+- **Question sur une DCI précise (Q1, amoxicilline + acide clavulanique)** : les deux méthodes retrouvent la bonne DCI à chaque rang.
+- **Question sur une marque absente ou peu présente (Q2, CARDENSIEL)** : aucune des deux méthodes ne retrouve de passage qui répond à la question ; les résultats sont des RCP d’autres médicaments. La recherche seule ne suffit pas à dire que l’information est absente.
+- **Question croisant deux médicaments (Q3, ramipril + diclofénac)** : la recherche sémantique ne retourne que du diclofénac (5/5), alors que BM25 retourne des DCI plus variées.
+- **Questions hors périmètre ou pièges (Q7, Q8)** : les deux méthodes retournent quand même 5 résultats, sans rapport clair avec la question.
+- **Les scores sémantiques sont très proches** (environ 0,85 à 0,91 pour toutes les questions) : un score élevé ne prouve pas que la réponse est dans le corpus. Les scores BM25 et cosinus ne sont pas comparables entre eux.
 
-**Suite prévue** : seuil pour répondre « information non trouvée », recherche hybride, puis liaison avec le LLM.
+#### Pistes pour la suite
+
+- Ajouter un **seuil** ou une règle de décision pour répondre « information non trouvée dans les sources » quand les passages ne répondent pas à la question.
+- Tester une recherche **hybride** (BM25 + sémantique) et un filtrage par DCI.
+- Relier la recherche au LLM (Groq) avec le format de réponse prévu et les références (document, page).
 
 ## Documentation
 
+### 1. Présentation du projet
+
 - [Cahier des charges](docs/CDC_Projet_2_Pharmeazor_FINAL.pdf)
+
+### 2. Questions de test
+
 - [Questions posées au LLM](docs/evaluation/questions_llm.md)
+
+### 3. Évaluation du LLM
+
 - [Semaine 1 — Réponses du LLM seul (sans RAG)](docs/evaluation/reponses_sans_RAG.md)
 - [Semaine 1 — Analyse des réponses du LLM sans RAG](docs/evaluation/analyse_reponses_sans_RAG.md)
-- [Semaine 2 — Comparaison mots-clés / sémantique](docs/evaluation/comparaison_recherche.md)
-- [Semaine 2 — Notebook embeddings et base vectorielle](notebooks/recherche.ipynb)
+
+### 4. Recherche
+
+- [Semaine 2 — Comparaison recherche par mots-clés / recherche sémantique](docs/evaluation/comparaison_recherche.md)
+- [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 
 ## Équipe
 
@@ -107,5 +129,3 @@ python src/compare_search.py --bm25-only  # mots-clés seulement
 - Oumeima DREIBINE
 - Hadil KERSOUHI
 - Aya BECHKRI
-
-
