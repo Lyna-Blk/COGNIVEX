@@ -66,7 +66,7 @@ python -m pip install -r requirements.txt
 
 ### Semaine 1 — Préparation du corpus
 
-Le corpus (`data/corpus/<DCI>/<marque>/`) n’est jamais modifié ; les résultats sont écrits dans `data/processed/` et `data/processed_corpus/`.
+Le corpus (`data/corpus/`) n’est jamais modifié ; les résultats sont écrits dans `data/processed/` et `data/processed_corpus/`.
 
 | Étape | Script | Rôle |
 |---|---|---|
