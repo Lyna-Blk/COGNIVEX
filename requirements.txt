@@ -2,13 +2,12 @@ requests
 pdfplumber
 pypdf
 openpyxl
-chromadb
 sentence-transformers
 rank_bm25
-numpy
 pytesseract
 Pillow
 openpyxl
-# OCR (optionnel, seulement pour les PDF scannés) :
-# pytesseract
-# Pillow
+chromadb==0.5.3
+chroma-hnswlib==0.7.3
+numpy==1.26.4
+scipy==1.15.3
