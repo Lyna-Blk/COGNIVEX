@@ -3,77 +3,75 @@
   "files": {
     "amlodipine/amlibon/source-generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-generique.md"
     },
     "amlodipine/amlibon/source-interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-interaction.md"
     },
     "amlodipine/amlodal/source -generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source -generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source -generique.md"
     },
     "amlodipine/amlodal/source amlodal interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md"
     },
     "amlodipine/mibral/source-mibral generique.pdf": {
-      "status": "ocr_ok",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral generique.md",
-      "chars": 121,
-      "seconds": 6.2
+      "status": "skipped_existing",
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral generique.md"
     },
     "amlodipine/mibral/source-mibral interactiob.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md"
     },
     "amlodipine/source-amdolipine rcp.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine rcp.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine rcp.md"
     },
     "amlodipine/source-amdolipine-daily med -rcp.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md"
     },
     "amlodipine/source-amlodopine-notice.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/source-amlodopine-notice.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amlodopine-notice.md"
     },
     "amlodipine/Source-info -amlodipline.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/Source-info -amlodipline.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/Source-info -amlodipline.md"
     },
     "clindamycine/acnestop/source-ansm-generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md"
     },
     "clindamycine/acnestop/source-ansmi- interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md"
     },
     "clindamycine/clinaram/source_ansm_interaction dwadz.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md"
     },
     "clindamycine/derma-t/source-ansm-interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md"
     },
     "clindamycine/derma-t/source-ansm_generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md"
     },
     "clindamycine/source-ansm-notice.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/source-ansm-notice.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm-notice.md"
     },
     "clindamycine/source-ansm_info.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/source-ansm_info.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm_info.md"
     },
     "clindamycine/source_ansm-rcp.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/clindamycine/source_ansm-rcp.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source_ansm-rcp.md"
     },
     "enalapril/dwa--dz.pdf": {
       "status": "skipped_existing",
@@ -93,43 +91,43 @@
     },
     "gentamicine/daily med genta.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/daily med genta.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/daily med genta.md"
     },
     "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md"
     },
     "gentamicine/genta_80/source_ansm_fiche_info.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md"
     },
     "gentamicine/genta_80/source_ansm_interaction_medicament.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md"
     },
     "gentamicine/genta_80/source_ansm_noticc.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md"
     },
     "gentamicine/genta_80/source_ansm_rcp.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md"
     },
     "gentamicine/gentacine/source_ansm_generiques.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md"
     },
     "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md"
     },
     "gentamicine/s_genta/source_ansm_generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md"
     },
     "gentamicine/s_genta/source_interaction_s genta.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md"
     },
     "losartan/cozzar/cozaar interaction.pdf": {
       "status": "skipped_existing",
@@ -153,31 +151,31 @@
     },
     "nifedipine/dailymed-nifedipine.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/nifedipine/dailymed-nifedipine.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nifedipine/dailymed-nifedipine.md"
     },
     "perindopril/coversyl/source interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/coversyl/source interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source interaction.md"
     },
     "perindopril/coversyl/source-generique-.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/coversyl/source-generique-.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source-generique-.md"
     },
     "perindopril/perindopril/generique.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/perindopril/generique.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/generique.md"
     },
     "perindopril/perindopril/interaction.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/perindopril/interaction.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/interaction.md"
     },
     "perindopril/perindopril/source rcp. prindoprile.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md"
     },
     "perindopril/perindosyl/iteraction-source.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/perindopril/perindosyl/iteraction-source.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindosyl/iteraction-source.md"
     },
     "ramipril/info.pdf": {
       "status": "skipped_existing",
@@ -197,71 +195,71 @@
     },
     "amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md"
     },
     "amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md"
     },
     "céfixime/CEFIXIME ALMUS 200 mg.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md"
     },
     "céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md"
     },
     "gentamicine/genta_80/sourcedwadz--.png": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md"
     },
     "gentamicine/genta_80/sourcedwadz-.png": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md"
     },
     "ketoprofene/documents_complementaires_non_reference/image_profenid.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md"
     },
     "néfopam/NEFOPAM.webp": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM.md"
     },
     "néfopam/NEFOPAM_ARROW_20_mg_2_ml.png": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md"
     },
     "piroxicam/documents_complementaires_non_reference/image_fenoxam.jpg": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md"
     },
     "acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md"
     },
     "amlodipine/mibral/RCP-MIBRL.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md"
     },
     "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md"
     },
     "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md"
     },
     "amoxicilline/Article_Amoxicilline.pdf": {
       "status": "skipped_existing",
@@ -269,131 +267,131 @@
     },
     "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md"
     },
     "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
     },
     "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
     },
     "aténolol/aténolol_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/aténolol/aténolol_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_Notice_ANSM.md"
     },
     "aténolol/aténolol_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/aténolol/aténolol_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_RCP_ANSM.md"
     },
     "bisoprolol/bisoprolol_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md"
     },
     "bisoprolol/bisoprolol_RCP_ANPP.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md"
     },
     "céfixime/Article__CEFIXIME.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfixime/Article__CEFIXIME.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Article__CEFIXIME.md"
     },
     "céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md"
     },
     "céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md"
     },
     "céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md"
     },
     "céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md"
     },
     "céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md"
     },
     "céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md"
     },
     "céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md"
     },
     "célécoxib/Article_CÉLÉCOXIB.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md"
     },
     "célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md"
     },
     "célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md"
     },
     "diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md"
     },
     "diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md"
     },
     "diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md"
     },
     "diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md"
     },
     "ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md"
     },
     "ibuprofene/gelfen/RCP_GELFEN_5%.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md"
     },
     "indapamide/indapamide_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/indapamide/indapamide_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_Notice_ANSM.md"
     },
     "indapamide/indapamide_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/indapamide/indapamide_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_RCP_ANSM.md"
     },
     "ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md"
     },
     "ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md"
     },
     "ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md"
     },
     "losartan/LOSartan anpp.pdf": {
       "status": "skipped_existing",
@@ -401,151 +399,155 @@
     },
     "meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md"
     },
     "meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md"
     },
     "méthyldopa/méthyldopa_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md"
     },
     "méthyldopa/méthyldopa_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md"
     },
     "naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md"
     },
     "nébivolol/nébivolol_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md"
     },
     "nébivolol/nébivolol_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md"
     },
     "néfopam/Article_NÉFOPAM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/néfopam/Article_NÉFOPAM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Article_NÉFOPAM.md"
     },
     "néfopam/Notice_NEFOPAM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/néfopam/Notice_NEFOPAM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Notice_NEFOPAM.md"
     },
     "néfopam/RCP_NEFOPAM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/néfopam/RCP_NEFOPAM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/RCP_NEFOPAM.md"
     },
     "paracetamol/documents_complementaires_non_reference/notice_doliprane.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md"
     },
     "paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md"
     },
     "paracetamol/panadol/notice_panadol.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracetamol/panadol/notice_panadol.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/notice_panadol.md"
     },
     "paracetamol/panadol/RCP_Panadol_1g.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md"
     },
     "paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md"
     },
     "paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md"
     },
     "paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md"
     },
     "paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md"
     },
     "paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md"
     },
     "piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md"
     },
     "piroxicam/piroxicam_Notice_ANMDMR.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md"
     },
     "piroxicam/RCP_PAINOXAM_20mg.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md"
     },
     "spironolactone/spironolactone_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md"
     },
     "spironolactone/spironolactone_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md"
     },
     "tramadol/Article_TRAMADOL.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/tramadol/Article_TRAMADOL.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/Article_TRAMADOL.md"
     },
     "tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md"
     },
     "tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md"
     },
     "tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md"
     },
     "tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md"
     },
     "valsartan/valsartan_Notice_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/valsartan/valsartan_Notice_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_Notice_ANSM.md"
     },
     "valsartan/valsartan_RCP_ANSM.pdf": {
       "status": "skipped_existing",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/valsartan/valsartan_RCP_ANSM.md"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_RCP_ANSM.md"
     },
     "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv"
     },
     "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv"
     },
     "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv"
     },
     "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv"
     },
     "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv"
     },
     "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv": {
       "status": "copied",
-      "output": "C:/Users/Administrator/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv"
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv"
+    },
+    "amoxicilline/Article_AMOXICILLINE.pdf": {
+      "status": "skipped_existing",
+      "output": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/Article_Amoxicilline.md"
     }
   }
 }

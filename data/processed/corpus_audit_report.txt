@@ -2,20 +2,20 @@
 ========================================================================
   COGNIVEX CORPUS RAG AUDIT REPORT
 ========================================================================
-    Generated : 2026-11-19T20:31:52.519576+00:00
-    Corpus    : C:/Users/Administrator/COGNIVEX/data/corpus
+    Generated : 2026-11-21T17:41:37.709085+00:00
+    Corpus    : C:/Users/Hp/Desktop/COGNIVEX/data/corpus
 
 
 ------------------------------------------------------------------------
   SUMMARY
 ------------------------------------------------------------------------
-    Total files scanned       : 142
-    Total PDFs analysed       : 117
+    Total files scanned       : 128
+    Total PDFs analysed       : 103
 
-    [READY]  Valid for RAG ingestion  : 69
-    [OCR]    Need OCR processing      : 48
+    [READY]  Valid for RAG ingestion  : 68
+    [OCR]    Need OCR processing      : 35
     [ERROR]  Empty / Corrupt PDFs     : 0
-    [NOISE]  Have header/footer noise : 50
+    [NOISE]  Have header/footer noise : 49
     [IMAGE]  Non-PDF files (PNG/CSV)  : 25
     [DUPE]   Duplicate file groups    : 0
 
@@ -26,7 +26,7 @@
     [OK]  amlodipine/mibral/RCP-MIBRL.pdf
     [OK]  amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf
     [OK]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
-    [OK]  amoxicilline/Article_Amoxicilline.pdf
+    [OK]  amoxicilline/Article_AMOXICILLINE.pdf
     [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf
     [OK]  amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf
@@ -59,7 +59,6 @@
     [OK]  ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf
     [OK]  ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf
     [OK]  ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf
-    [OK]  losartan/LOSartan anpp.pdf
     [OK]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
     [OK]  meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf
     [OK]  méthyldopa/méthyldopa_Notice_ANSM.pdf
@@ -131,14 +130,6 @@
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  clindamycine/source_ansm-rcp.pdf
            => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  enalapril/dwa--dz.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  enalapril/info-enalapril.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  enalapril/notice-enalapril.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  enalapril/rcp-enalapril.pdf
-           => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/daily med genta.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf
@@ -159,16 +150,6 @@
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/s_genta/source_interaction_s genta.pdf
            => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  losartan/cozzar/cozaar interaction.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  losartan/dailymed-losartan.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  losartan/info-losartan.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  losartan/notice-losartan.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  losartan/rcp-losartan.pdf
-           => Only 0 chars extracted - likely scanned image PDF
     [OCR]  nifedipine/dailymed-nifedipine.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  perindopril/coversyl/source interaction.pdf
@@ -182,14 +163,6 @@
     [OCR]  perindopril/perindopril/source rcp. prindoprile.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  perindopril/perindosyl/iteraction-source.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  ramipril/info.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  ramipril/notice-ramplir.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  ramipril/ramplir-dailymed.pdf
-           => Only 0 chars extracted - likely scanned image PDF
-    [OCR]  ramipril/rcpramplir.pdf
            => Only 0 chars extracted - likely scanned image PDF
 
 ------------------------------------------------------------------------
@@ -215,7 +188,7 @@ Base de Données Publique des Médicaments" (x12)
     [NOISE]  amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf
              Repeated block: "11/18/26, 6:39 PM
 Base de Données Publique des Médicaments" (x20)
-    [NOISE]  amoxicilline/Article_Amoxicilline.pdf
+    [NOISE]  amoxicilline/Article_AMOXICILLINE.pdf
              Repeated block: "11/18/26, 11:21 PM
 The Diagnosis and Management of Acute Otitis Media | Pediatri" (x119)
              Repeated block: "This site uses cookies. By continuing to use our website, you are agreeing to ou" (x93)
@@ -310,11 +283,6 @@ Base de Données Publique des Médicaments" (x8)
 RESUME DES CARACTERISTIQUES DU PRODUIT" (x6)
              Repeated block: "Email : contact@ldmgroupe.com" (x6)
              Repeated block: "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x6)
-    [NOISE]  losartan/LOSartan anpp.pdf
-             Repeated block: "ANNEXE I 
-    RESUME DES CARACTERISTIQUES DU PRODUIT" (x23)
-             Repeated block: "Email : contact@ldmgroupe.com" (x23)
-             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x23)
     [NOISE]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
              Repeated block: "17/11/2026 02:00
 Base de Données Publique des Médicaments" (x17)

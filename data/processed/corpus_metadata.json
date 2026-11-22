@@ -1,19 +1,22 @@
 {
   "_meta": {
-    "generated_at": "2026-11-19T23:12:43.775819+00:00",
+    "generated_at": "2026-11-21T17:45:28.502658+00:00",
     "corpus_root": "data/corpus",
-    "processed_corpus_root": "data/processed_corpus",
+    "processed_corpus_root": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus",
     "fiches_dci_root": "data/fiches_dci",
     "total_dcis": 31,
     "dcis_with_fiche": 31,
     "dcis_without_fiche": 0,
     "orphaned_fiches_count": 1,
     "root_files_count": 0,
-    "total_source_files": 142,
-    "total_processed_files": 141,
-    "total_extracted_chars": 2944278,
+    "total_source_files": 128,
+    "total_processed_files": 127,
+    "total_extracted_chars": 2657426,
     "low_text_files_count": 1,
-    "duplicate_groups_count": 0
+    "duplicate_groups_count": 0,
+    "ocr_pipeline_run": "2026-11-21T18:18:06.692086+00:00",
+    "processed_files": 122,
+    "ocr_engine": "PyMuPDF (fitz) + RapidOCR"
   },
   "low_text_files": [
     "amlodipine/mibral/source-mibral generique.pdf"
@@ -145,7 +148,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md",
               "extracted_chars": 36901,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md"
             }
           ]
         }
@@ -312,7 +316,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amdolipine rcp.md",
           "extracted_chars": 34084,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine rcp.md"
         },
         {
           "filename": "source-amdolipine-daily med -rcp.pdf",
@@ -332,7 +337,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md",
           "extracted_chars": 4238,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md"
         },
         {
           "filename": "source-amlodopine-notice.pdf",
@@ -352,7 +358,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amlodopine-notice.md",
           "extracted_chars": 18424,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amlodopine-notice.md"
         },
         {
           "filename": "Source-info -amlodipline.pdf",
@@ -372,7 +379,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/Source-info -amlodipline.md",
           "extracted_chars": 4037,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/Source-info -amlodipline.md"
         }
       ],
       "brands": [
@@ -397,7 +405,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlibon/source-generique.md",
               "extracted_chars": 10949,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-generique.md"
             },
             {
               "filename": "source-interaction.pdf",
@@ -417,7 +426,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlibon/source-interaction.md",
               "extracted_chars": 11052,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-interaction.md"
             }
           ]
         },
@@ -442,7 +452,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlodal/source -generique.md",
               "extracted_chars": 9651,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source -generique.md"
             },
             {
               "filename": "source amlodal interaction.pdf",
@@ -462,7 +473,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md",
               "extracted_chars": 10655,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md"
             }
           ]
         },
@@ -487,7 +499,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md",
               "extracted_chars": 33586,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md"
             },
             {
               "filename": "source-mibral generique.pdf",
@@ -504,10 +517,11 @@
               "audit_issues": [
                 "Only 0 chars extracted - likely scanned image PDF"
               ],
-              "ocr_status": "ocr_ok",
+              "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/source-mibral generique.md",
               "extracted_chars": 121,
-              "text_quality": "low_text"
+              "text_quality": "low_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral generique.md"
             },
             {
               "filename": "source-mibral interactiob.pdf",
@@ -527,7 +541,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md",
               "extracted_chars": 11496,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md"
             }
           ]
         }
@@ -655,8 +670,8 @@
       },
       "source_files": [
         {
-          "filename": "Article_Amoxicilline.pdf",
-          "relative_path": "amoxicilline/Article_Amoxicilline.pdf",
+          "filename": "Article_AMOXICILLINE.pdf",
+          "relative_path": "amoxicilline/Article_AMOXICILLINE.pdf",
           "extension": "pdf",
           "doc_type": "article",
           "source_type": "scientific_article",
@@ -672,7 +687,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amoxicilline/Article_Amoxicilline.md",
           "extracted_chars": 220817,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/Article_Amoxicilline.md"
         }
       ],
       "brands": [
@@ -695,7 +711,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md",
               "extracted_chars": 62,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md"
             },
             {
               "filename": "Notice_AMOXICILLINE EG_250.pdf",
@@ -715,7 +732,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md",
               "extracted_chars": 23829,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md"
             },
             {
               "filename": "RCP_AMOXICILLINE EG_250.pdf",
@@ -735,7 +753,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md",
               "extracted_chars": 33714,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md"
             }
           ]
         },
@@ -758,7 +777,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 187,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md"
             },
             {
               "filename": "Notice_CLAMOXYL_250 _mg5__ml.pdf",
@@ -778,7 +798,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 25079,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md"
             },
             {
               "filename": "RCP_CLAMOXYL_250 _mg5__ml.pdf",
@@ -799,7 +820,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 34966,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md"
             }
           ]
         }
@@ -889,7 +911,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md",
               "extracted_chars": 185,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md"
             },
             {
               "filename": "AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
@@ -907,7 +930,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md",
               "extracted_chars": 45,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md"
             },
             {
               "filename": "Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -927,7 +951,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md",
               "extracted_chars": 28468,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
             },
             {
               "filename": "RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -947,7 +972,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md",
               "extracted_chars": 39393,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
             }
           ]
         },
@@ -970,7 +996,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md",
               "extracted_chars": 94,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md"
             },
             {
               "filename": "Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
@@ -990,7 +1017,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md",
               "extracted_chars": 25504,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
             },
             {
               "filename": "RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
@@ -1010,7 +1038,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md",
               "extracted_chars": 40859,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
             }
           ]
         }
@@ -1092,7 +1121,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/aténolol/aténolol_Notice_ANSM.md",
           "extracted_chars": 14229,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_Notice_ANSM.md"
         },
         {
           "filename": "aténolol_RCP_ANSM.pdf",
@@ -1110,7 +1140,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/aténolol/aténolol_RCP_ANSM.md",
           "extracted_chars": 27603,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_RCP_ANSM.md"
         }
       ],
       "brands": []
@@ -1296,7 +1327,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md",
           "extracted_chars": 17795,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md"
         },
         {
           "filename": "bisoprolol_RCP_ANPP.pdf",
@@ -1314,7 +1346,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md",
           "extracted_chars": 24808,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md"
         }
       ],
       "brands": []
@@ -1462,7 +1495,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/Article__CEFIXIME.md",
           "extracted_chars": 214923,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Article__CEFIXIME.md"
         },
         {
           "filename": "CEFIXIME ALMUS 200 mg.webp",
@@ -1480,7 +1514,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md",
           "extracted_chars": 143,
-          "text_quality": "image_short_text"
+          "text_quality": "image_short_text",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md"
         },
         {
           "filename": "Notice_CEFIXIME_ALMUS_200_mg.pdf",
@@ -1500,7 +1535,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md",
           "extracted_chars": 17145,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md"
         },
         {
           "filename": "RCP_CEFIXIME_ALMUS_200_mg.pdf",
@@ -1520,7 +1556,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md",
           "extracted_chars": 20221,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md"
         }
       ],
       "brands": []
@@ -1671,7 +1708,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md",
               "extracted_chars": 3474,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md"
             },
             {
               "filename": "Notice_ZINNAT_125_mg_5_ml.pdf",
@@ -1691,7 +1729,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 26362,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md"
             },
             {
               "filename": "Notice_ZINNAT_250_mg.pdf",
@@ -1711,7 +1750,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md",
               "extracted_chars": 18512,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md"
             },
             {
               "filename": "RCP_ZINNAT_125_mg_5_ml.pdf",
@@ -1731,7 +1771,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 41543,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md"
             },
             {
               "filename": "RCP_ZINNAT_250.pdf",
@@ -1751,7 +1792,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md",
               "extracted_chars": 32316,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md"
             },
             {
               "filename": "ZINNAT_125_mg_5_ml.webp",
@@ -1769,7 +1811,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 253,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md"
             }
           ]
         }
@@ -2007,7 +2050,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md",
           "extracted_chars": 3479,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md"
         }
       ],
       "brands": [
@@ -2032,7 +2076,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md",
               "extracted_chars": 29198,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md"
             },
             {
               "filename": "RCP_CELEBREX_100_mg.pdf",
@@ -2052,7 +2097,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md",
               "extracted_chars": 59214,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md"
             }
           ]
         }
@@ -2153,7 +2199,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source-ansm-notice.md",
           "extracted_chars": 14671,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm-notice.md"
         },
         {
           "filename": "source-ansm_info.pdf",
@@ -2173,7 +2220,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source-ansm_info.md",
           "extracted_chars": 4155,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm_info.md"
         },
         {
           "filename": "source_ansm-rcp.pdf",
@@ -2193,7 +2241,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source_ansm-rcp.md",
           "extracted_chars": 15424,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source_ansm-rcp.md"
         }
       ],
       "brands": [
@@ -2218,7 +2267,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md",
               "extracted_chars": 9260,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md"
             },
             {
               "filename": "source-ansmi- interaction.pdf",
@@ -2238,7 +2288,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md",
               "extracted_chars": 8193,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md"
             }
           ]
         },
@@ -2263,7 +2314,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md",
               "extracted_chars": 7221,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md"
             }
           ]
         },
@@ -2288,7 +2340,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md",
               "extracted_chars": 8075,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md"
             },
             {
               "filename": "source-ansm_generique.pdf",
@@ -2308,7 +2361,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md",
               "extracted_chars": 8065,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md"
             }
           ]
         }
@@ -2653,7 +2707,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md",
               "extracted_chars": 31392,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md"
             },
             {
               "filename": "RCP_BIOFENAC_50mg.pdf",
@@ -2673,7 +2728,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md",
               "extracted_chars": 56731,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md"
             }
           ]
         },
@@ -2698,7 +2754,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md",
               "extracted_chars": 40626,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md"
             },
             {
               "filename": "RCP_BIOFENAC-LP_75mg.pdf",
@@ -2718,7 +2775,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md",
               "extracted_chars": 53301,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md"
             }
           ]
         }
@@ -2777,11 +2835,11 @@
         ]
       },
       "stats": {
-        "total_files": 6,
-        "files_with_text": 6,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
         "brand_count": 0,
-        "total_chars": 67099
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -2800,7 +2858,8 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
@@ -2818,87 +2877,8 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
-        },
-        {
-          "filename": "dwa--dz.pdf",
-          "relative_path": "enalapril/dwa--dz.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "dz_professional_site",
-          "authority_tier": 4,
-          "size_bytes": 277807,
-          "hash_sha256": "db7a85fcb5b18f99e2c0c2653ec38305634e8df286b64086e4f59dda7e8738a6",
-          "is_duplicate": false,
-          "page_count": 2,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/dwa--dz.md",
-          "extracted_chars": 1217,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "info-enalapril.pdf",
-          "relative_path": "enalapril/info-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 440126,
-          "hash_sha256": "683495844cc41d6e7b4ab06c41b0531805699e3d24fb39f3921c3a575afca371",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/info-enalapril.md",
-          "extracted_chars": 3777,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-enalapril.pdf",
-          "relative_path": "enalapril/notice-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1828196,
-          "hash_sha256": "58607240103bdb59f1885e325307cf1c93daa1f06a453e4ebfdfba3be4174572",
-          "is_duplicate": false,
-          "page_count": 13,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/notice-enalapril.md",
-          "extracted_chars": 21790,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcp-enalapril.pdf",
-          "relative_path": "enalapril/rcp-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 3726731,
-          "hash_sha256": "f743f6f86552052ce10b451f3389e31b5750e2eabcc49c7bcea07d33f82b7f2e",
-          "is_duplicate": false,
-          "page_count": 23,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/rcp-enalapril.md",
-          "extracted_chars": 40315,
-          "text_quality": "ok"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv"
         }
       ],
       "brands": []
@@ -3064,7 +3044,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/gentamicine/daily med genta.md",
           "extracted_chars": 26826,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/daily med genta.md"
         }
       ],
       "brands": [
@@ -3089,7 +3070,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md",
               "extracted_chars": 9982,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md"
             },
             {
               "filename": "source_ansm_fiche_info.pdf",
@@ -3109,7 +3091,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md",
               "extracted_chars": 3743,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md"
             },
             {
               "filename": "source_ansm_interaction_medicament.pdf",
@@ -3129,7 +3112,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md",
               "extracted_chars": 9507,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md"
             },
             {
               "filename": "source_ansm_noticc.pdf",
@@ -3149,7 +3133,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md",
               "extracted_chars": 16839,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md"
             },
             {
               "filename": "source_ansm_rcp.pdf",
@@ -3169,7 +3154,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md",
               "extracted_chars": 31889,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md"
             },
             {
               "filename": "sourcedwadz--.png",
@@ -3187,7 +3173,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md",
               "extracted_chars": 599,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md"
             },
             {
               "filename": "sourcedwadz-.png",
@@ -3205,7 +3192,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md",
               "extracted_chars": 499,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md"
             }
           ]
         },
@@ -3230,7 +3218,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md",
               "extracted_chars": 9419,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md"
             },
             {
               "filename": "source_ansm_interaction_avc_autre_mid.pdf",
@@ -3250,7 +3239,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md",
               "extracted_chars": 9437,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md"
             }
           ]
         },
@@ -3275,7 +3265,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md",
               "extracted_chars": 8484,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md"
             },
             {
               "filename": "source_interaction_s genta.pdf",
@@ -3295,7 +3286,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md",
               "extracted_chars": 8956,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md"
             }
           ]
         }
@@ -3640,7 +3632,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md",
               "extracted_chars": 12824,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md"
             },
             {
               "filename": "RCP_GELFEN_5%.pdf",
@@ -3660,7 +3653,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md",
               "extracted_chars": 11510,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md"
             }
           ]
         }
@@ -3737,7 +3731,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/indapamide/indapamide_Notice_ANSM.md",
           "extracted_chars": 18699,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_Notice_ANSM.md"
         },
         {
           "filename": "indapamide_RCP_ANSM.pdf",
@@ -3757,7 +3752,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/indapamide/indapamide_RCP_ANSM.md",
           "extracted_chars": 26218,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_RCP_ANSM.md"
         }
       ],
       "brands": []
@@ -3949,7 +3945,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md",
               "extracted_chars": 79,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md"
             },
             {
               "filename": "notice_profenid.pdf",
@@ -3967,7 +3964,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md",
               "extracted_chars": 10466,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md"
             }
           ]
         },
@@ -3992,7 +3990,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md",
               "extracted_chars": 13264,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md"
             },
             {
               "filename": "RCP_KOPROFEN_2.5%.pdf",
@@ -4012,7 +4011,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md",
               "extracted_chars": 11287,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md"
             }
           ]
         }
@@ -4107,11 +4107,11 @@
         ]
       },
       "stats": {
-        "total_files": 8,
-        "files_with_text": 8,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
-        "brand_count": 1,
-        "total_chars": 144848
+        "brand_count": 0,
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -4130,7 +4130,8 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
@@ -4148,136 +4149,11 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
-        },
-        {
-          "filename": "dailymed-losartan.pdf",
-          "relative_path": "losartan/dailymed-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "us_dailymed",
-          "authority_tier": 3,
-          "size_bytes": 907906,
-          "hash_sha256": "6609951335d96acabcf8ef0e091c6919a83bf3a5b85a558aececf0576ae63e0f",
-          "is_duplicate": false,
-          "page_count": 4,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/dailymed-losartan.md",
-          "extracted_chars": 4986,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "info-losartan.pdf",
-          "relative_path": "losartan/info-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 483029,
-          "hash_sha256": "fe053b6740ba9d7fe7ef26cdf86ff22d2bad47a162de1a5eff2bc4cc280e6b37",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/info-losartan.md",
-          "extracted_chars": 4600,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "LOSartan anpp.pdf",
-          "relative_path": "losartan/LOSartan anpp.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "dz_official",
-          "authority_tier": 1,
-          "size_bytes": 448016,
-          "hash_sha256": "522fabf6044f8cb20f713947608c678c2d8508b56d399082637559b523a4adf1",
-          "is_duplicate": false,
-          "page_count": 23,
-          "audit_status": "ok",
-          "audit_issues": [
-            "Repeated header/footer noise detected (3 unique blocks)"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/LOSartan anpp.md",
-          "extracted_chars": 58234,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-losartan.pdf",
-          "relative_path": "losartan/notice-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1819859,
-          "hash_sha256": "0362391cd326bb54518c22f112dd0c09aa7bd791a88c3192b0f66793c6682cce",
-          "is_duplicate": false,
-          "page_count": 12,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/notice-losartan.md",
-          "extracted_chars": 20763,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcp-losartan.pdf",
-          "relative_path": "losartan/rcp-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 4096095,
-          "hash_sha256": "dab6a8f1147a057811a8407e876561067fae058dd12c416c4928b69c1abbbd00",
-          "is_duplicate": false,
-          "page_count": 25,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/rcp-losartan.md",
-          "extracted_chars": 46102,
-          "text_quality": "ok"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv"
         }
       ],
-      "brands": [
-        {
-          "brand": "cozzar",
-          "files": [
-            {
-              "filename": "cozaar interaction.pdf",
-              "relative_path": "losartan/cozzar/cozaar interaction.pdf",
-              "extension": "pdf",
-              "doc_type": "interaction_page",
-              "source_type": "label_country_unverified",
-              "authority_tier": 2,
-              "size_bytes": 1741133,
-              "hash_sha256": "1a1ad28279c3aeca5acf80f45d76eb8adfbd76b7de3c665d9c93edfe8044c287",
-              "is_duplicate": false,
-              "page_count": 5,
-              "audit_status": "needs_ocr",
-              "audit_issues": [
-                "Only 0 chars extracted - likely scanned image PDF"
-              ],
-              "ocr_status": "skipped_existing",
-              "processed_path": "data/processed_corpus/losartan/cozzar/cozaar interaction.md",
-              "extracted_chars": 10163,
-              "text_quality": "ok"
-            }
-          ]
-        }
-      ]
+      "brands": []
     },
     {
       "dci": "meloxicam",
@@ -4349,7 +4225,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md",
           "extracted_chars": 32581,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md"
         },
         {
           "filename": "RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
@@ -4369,7 +4246,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md",
           "extracted_chars": 48525,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md"
         }
       ],
       "brands": []
@@ -4442,7 +4320,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md",
           "extracted_chars": 10717,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md"
         },
         {
           "filename": "méthyldopa_RCP_ANSM.pdf",
@@ -4460,7 +4339,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md",
           "extracted_chars": 19747,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md"
         }
       ],
       "brands": []
@@ -4590,7 +4470,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md",
           "extracted_chars": 87605,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md"
         }
       ],
       "brands": [
@@ -4713,7 +4594,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md",
           "extracted_chars": 19924,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md"
         },
         {
           "filename": "nébivolol_RCP_ANSM.pdf",
@@ -4733,7 +4615,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md",
           "extracted_chars": 33127,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md"
         }
       ],
       "brands": []
@@ -4811,7 +4694,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/Article_NÉFOPAM.md",
           "extracted_chars": 30081,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Article_NÉFOPAM.md"
         },
         {
           "filename": "NEFOPAM.webp",
@@ -4829,7 +4713,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/NEFOPAM.md",
           "extracted_chars": 116,
-          "text_quality": "image_short_text"
+          "text_quality": "image_short_text",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM.md"
         },
         {
           "filename": "NEFOPAM_ARROW_20_mg_2_ml.png",
@@ -4847,7 +4732,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md",
           "extracted_chars": 144,
-          "text_quality": "image_short_text"
+          "text_quality": "image_short_text",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md"
         },
         {
           "filename": "Notice_NEFOPAM.pdf",
@@ -4867,7 +4753,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/Notice_NEFOPAM.md",
           "extracted_chars": 12331,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Notice_NEFOPAM.md"
         },
         {
           "filename": "RCP_NEFOPAM.pdf",
@@ -4887,7 +4774,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/RCP_NEFOPAM.md",
           "extracted_chars": 12950,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/RCP_NEFOPAM.md"
         }
       ],
       "brands": []
@@ -4957,7 +4845,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nifedipine/dailymed-nifedipine.md",
           "extracted_chars": 3317,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nifedipine/dailymed-nifedipine.md"
         }
       ],
       "brands": []
@@ -5475,7 +5364,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md",
               "extracted_chars": 13945,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md"
             },
             {
               "filename": "RCP_Doliprane_2.4%.pdf",
@@ -5493,7 +5383,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md",
               "extracted_chars": 27420,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md"
             }
           ]
         },
@@ -5516,7 +5407,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/panadol/notice_panadol.md",
               "extracted_chars": 12986,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/notice_panadol.md"
             },
             {
               "filename": "RCP_Panadol_1g.pdf",
@@ -5536,7 +5428,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md",
               "extracted_chars": 16485,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md"
             },
             {
               "filename": "source_panadol_dwadz.md",
@@ -5687,7 +5580,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md",
           "extracted_chars": 3671,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md"
         }
       ],
       "brands": [
@@ -5712,7 +5606,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md",
               "extracted_chars": 29670,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md"
             },
             {
               "filename": "RCP_DAFALGAN_CODEINE.pdf",
@@ -5732,7 +5627,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md",
               "extracted_chars": 41435,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md"
             }
           ]
         },
@@ -5757,7 +5653,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md",
               "extracted_chars": 25817,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md"
             },
             {
               "filename": "RCP_PARACETAMOL_CODEINE.pdf",
@@ -5777,7 +5674,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md",
               "extracted_chars": 34793,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md"
             }
           ]
         }
@@ -5887,7 +5785,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/coversyl/source interaction.md",
               "extracted_chars": 12349,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source interaction.md"
             },
             {
               "filename": "source-generique-.pdf",
@@ -5907,7 +5806,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/coversyl/source-generique-.md",
               "extracted_chars": 12226,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source-generique-.md"
             }
           ]
         },
@@ -5932,7 +5832,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/generique.md",
               "extracted_chars": 12549,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/generique.md"
             },
             {
               "filename": "interaction.pdf",
@@ -5952,7 +5853,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/interaction.md",
               "extracted_chars": 12329,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/interaction.md"
             },
             {
               "filename": "source rcp. prindoprile.pdf",
@@ -5972,7 +5874,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md",
               "extracted_chars": 4714,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md"
             }
           ]
         },
@@ -5997,7 +5900,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindosyl/iteraction-source.md",
               "extracted_chars": 12082,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindosyl/iteraction-source.md"
             }
           ]
         }
@@ -6195,7 +6099,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md",
           "extracted_chars": 15577,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md"
         },
         {
           "filename": "RCP_PAINOXAM_20mg.pdf",
@@ -6215,7 +6120,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md",
           "extracted_chars": 43615,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md"
         }
       ],
       "brands": [
@@ -6238,7 +6144,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md",
               "extracted_chars": 61,
-              "text_quality": "image_short_text"
+              "text_quality": "image_short_text",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md"
             },
             {
               "filename": "RCP_FENOXAM.pdf",
@@ -6258,7 +6165,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md",
               "extracted_chars": 18678,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md"
             },
             {
               "filename": "source_fenoxam_pharmnet.md",
@@ -6398,11 +6306,11 @@
         ]
       },
       "stats": {
-        "total_files": 6,
-        "files_with_text": 6,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
         "brand_count": 0,
-        "total_chars": 74905
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -6421,7 +6329,8 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
@@ -6439,87 +6348,8 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data"
-        },
-        {
-          "filename": "info.pdf",
-          "relative_path": "ramipril/info.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 435011,
-          "hash_sha256": "ac2e58a9cd44de0f86813dba1449842260bc9a9c29b87146e2d356a8cab2d1dc",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/info.md",
-          "extracted_chars": 3827,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-ramplir.pdf",
-          "relative_path": "ramipril/notice-ramplir.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1908842,
-          "hash_sha256": "e14252a23e1cc46515a9f443bf2e6c4babf0f3e35be5ec988232ed1b1e18c8b1",
-          "is_duplicate": false,
-          "page_count": 14,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/notice-ramplir.md",
-          "extracted_chars": 23592,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "ramplir-dailymed.pdf",
-          "relative_path": "ramipril/ramplir-dailymed.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "us_dailymed",
-          "authority_tier": 3,
-          "size_bytes": 990800,
-          "hash_sha256": "5a9e4c2a72d2aac943ca8b3f1a6dba159cfcee5ee30a15ddefb5afa5f8e7fc5b",
-          "is_duplicate": false,
-          "page_count": 4,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/ramplir-dailymed.md",
-          "extracted_chars": 5536,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcpramplir.pdf",
-          "relative_path": "ramipril/rcpramplir.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 3793246,
-          "hash_sha256": "3ec9aeefd70098a4620224cef1445be5682344afb6f20b04ac888aba9f067b19",
-          "is_duplicate": false,
-          "page_count": 27,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/rcpramplir.md",
-          "extracted_chars": 41950,
-          "text_quality": "ok"
+          "text_quality": "structured_data",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv"
         }
       ],
       "brands": []
@@ -6587,7 +6417,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md",
           "extracted_chars": 15263,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md"
         },
         {
           "filename": "spironolactone_RCP_ANSM.pdf",
@@ -6605,7 +6436,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md",
           "extracted_chars": 28739,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md"
         }
       ],
       "brands": []
@@ -6615,7 +6447,7 @@
       "normalized_dci": "tramadol",
       "fiche_dci": {
         "exists": true,
-        "path": "data/fiches_dci/tramadol.md",
+        "path": "data/fiches_dci/TRAMADOL.md",
         "chars": 4253,
         "sections": [
           "DCI : TRAMADOL",
@@ -6757,7 +6589,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/tramadol/Article_TRAMADOL.md",
           "extracted_chars": 3687,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/Article_TRAMADOL.md"
         }
       ],
       "brands": [
@@ -6782,7 +6615,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md",
               "extracted_chars": 28871,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md"
             },
             {
               "filename": "RCP_TRAMADOL_ALMUS.pdf",
@@ -6802,7 +6636,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md",
               "extracted_chars": 39954,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md"
             }
           ]
         },
@@ -6827,7 +6662,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md",
               "extracted_chars": 35699,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md"
             },
             {
               "filename": "RCP_TRAMADOL_ARROW.pdf",
@@ -6847,7 +6683,8 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md",
               "extracted_chars": 43769,
-              "text_quality": "ok"
+              "text_quality": "ok",
+              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md"
             }
           ]
         }
@@ -7074,7 +6911,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/valsartan/valsartan_Notice_ANSM.md",
           "extracted_chars": 23145,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_Notice_ANSM.md"
         },
         {
           "filename": "valsartan_RCP_ANSM.pdf",
@@ -7094,7 +6932,8 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/valsartan/valsartan_RCP_ANSM.md",
           "extracted_chars": 65247,
-          "text_quality": "ok"
+          "text_quality": "ok",
+          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_RCP_ANSM.md"
         }
       ],
       "brands": []

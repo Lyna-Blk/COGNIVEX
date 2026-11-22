@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "generated_at": "2026-11-19T20:31:52.519576+00:00",
-    "corpus_root": "C:/Users/Administrator/COGNIVEX/data/corpus",
-    "total_files": 142,
-    "total_pdf": 117,
-    "valid_for_rag": 69,
-    "needs_ocr": 48,
+    "generated_at": "2026-11-21T17:41:37.709085+00:00",
+    "corpus_root": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus",
+    "total_files": 128,
+    "total_pdf": 103,
+    "valid_for_rag": 68,
+    "needs_ocr": 35,
     "empty_or_corrupt": 0,
-    "noisy": 50,
+    "noisy": 49,
     "non_pdf": 25,
     "duplicate_groups": 0
   },
@@ -16,7 +16,7 @@
     "amlodipine/mibral/RCP-MIBRL.pdf",
     "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
     "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
-    "amoxicilline/Article_Amoxicilline.pdf",
+    "amoxicilline/Article_AMOXICILLINE.pdf",
     "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
     "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -49,7 +49,6 @@
     "ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf",
     "ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf",
     "ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf",
-    "losartan/LOSartan anpp.pdf",
     "meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
     "meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
     "méthyldopa/méthyldopa_Notice_ANSM.pdf",
@@ -101,10 +100,6 @@
     "clindamycine/source-ansm-notice.pdf",
     "clindamycine/source-ansm_info.pdf",
     "clindamycine/source_ansm-rcp.pdf",
-    "enalapril/dwa--dz.pdf",
-    "enalapril/info-enalapril.pdf",
-    "enalapril/notice-enalapril.pdf",
-    "enalapril/rcp-enalapril.pdf",
     "gentamicine/daily med genta.pdf",
     "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
     "gentamicine/genta_80/source_ansm_fiche_info.pdf",
@@ -115,22 +110,13 @@
     "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
     "gentamicine/s_genta/source_ansm_generique.pdf",
     "gentamicine/s_genta/source_interaction_s genta.pdf",
-    "losartan/cozzar/cozaar interaction.pdf",
-    "losartan/dailymed-losartan.pdf",
-    "losartan/info-losartan.pdf",
-    "losartan/notice-losartan.pdf",
-    "losartan/rcp-losartan.pdf",
     "nifedipine/dailymed-nifedipine.pdf",
     "perindopril/coversyl/source interaction.pdf",
     "perindopril/coversyl/source-generique-.pdf",
     "perindopril/perindopril/generique.pdf",
     "perindopril/perindopril/interaction.pdf",
     "perindopril/perindopril/source rcp. prindoprile.pdf",
-    "perindopril/perindosyl/iteraction-source.pdf",
-    "ramipril/info.pdf",
-    "ramipril/notice-ramplir.pdf",
-    "ramipril/ramplir-dailymed.pdf",
-    "ramipril/rcpramplir.pdf"
+    "perindopril/perindosyl/iteraction-source.pdf"
   ],
   "empty_or_corrupt": [],
   "noisy_files": [
@@ -138,7 +124,7 @@
     "amlodipine/mibral/RCP-MIBRL.pdf",
     "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
     "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
-    "amoxicilline/Article_Amoxicilline.pdf",
+    "amoxicilline/Article_AMOXICILLINE.pdf",
     "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
     "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
     "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -163,7 +149,6 @@
     "indapamide/indapamide_RCP_ANSM.pdf",
     "ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf",
     "ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf",
-    "losartan/LOSartan anpp.pdf",
     "meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
     "meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
     "méthyldopa/méthyldopa_Notice_ANSM.pdf",
@@ -216,7 +201,7 @@
   "files": [
     {
       "path": "acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.pdf",
       "extension": "pdf",
       "size_bytes": 355456,
       "hash_sha256": null,
@@ -239,7 +224,7 @@
     },
     {
       "path": "amlodipine/amlibon/source-generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/amlibon/source-generique.pdf",
       "extension": "pdf",
       "size_bytes": 1717648,
       "hash_sha256": null,
@@ -257,7 +242,7 @@
     },
     {
       "path": "amlodipine/amlibon/source-interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlibon/source-interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/amlibon/source-interaction.pdf",
       "extension": "pdf",
       "size_bytes": 1720642,
       "hash_sha256": null,
@@ -275,7 +260,7 @@
     },
     {
       "path": "amlodipine/amlodal/source -generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source -generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/amlodal/source -generique.pdf",
       "extension": "pdf",
       "size_bytes": 1559685,
       "hash_sha256": null,
@@ -293,7 +278,7 @@
     },
     {
       "path": "amlodipine/amlodal/source amlodal interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/amlodal/source amlodal interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/amlodal/source amlodal interaction.pdf",
       "extension": "pdf",
       "size_bytes": 1543690,
       "hash_sha256": null,
@@ -311,7 +296,7 @@
     },
     {
       "path": "amlodipine/mibral/RCP-MIBRL.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/RCP-MIBRL.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/mibral/RCP-MIBRL.pdf",
       "extension": "pdf",
       "size_bytes": 440446,
       "hash_sha256": null,
@@ -333,7 +318,7 @@
     },
     {
       "path": "amlodipine/mibral/source-mibral generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral generique.pdf",
       "extension": "pdf",
       "size_bytes": 3110972,
       "hash_sha256": null,
@@ -351,7 +336,7 @@
     },
     {
       "path": "amlodipine/mibral/source-mibral interactiob.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral interactiob.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/mibral/source-mibral interactiob.pdf",
       "extension": "pdf",
       "size_bytes": 1739145,
       "hash_sha256": null,
@@ -369,7 +354,7 @@
     },
     {
       "path": "amlodipine/source-amdolipine rcp.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine rcp.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/source-amdolipine rcp.pdf",
       "extension": "pdf",
       "size_bytes": 2384314,
       "hash_sha256": null,
@@ -387,7 +372,7 @@
     },
     {
       "path": "amlodipine/source-amdolipine-daily med -rcp.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amdolipine-daily med -rcp.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/source-amdolipine-daily med -rcp.pdf",
       "extension": "pdf",
       "size_bytes": 543184,
       "hash_sha256": null,
@@ -405,7 +390,7 @@
     },
     {
       "path": "amlodipine/source-amlodopine-notice.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/source-amlodopine-notice.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/source-amlodopine-notice.pdf",
       "extension": "pdf",
       "size_bytes": 1261416,
       "hash_sha256": null,
@@ -423,7 +408,7 @@
     },
     {
       "path": "amlodipine/Source-info -amlodipline.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amlodipine/Source-info -amlodipline.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amlodipine/Source-info -amlodipline.pdf",
       "extension": "pdf",
       "size_bytes": 429182,
       "hash_sha256": null,
@@ -441,7 +426,7 @@
     },
     {
       "path": "amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.webp",
       "extension": "webp",
       "size_bytes": 14530,
       "hash_sha256": null,
@@ -450,7 +435,7 @@
     },
     {
       "path": "amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.pdf",
       "extension": "pdf",
       "size_bytes": 388863,
       "hash_sha256": null,
@@ -470,7 +455,7 @@
     },
     {
       "path": "amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.pdf",
       "extension": "pdf",
       "size_bytes": 567052,
       "hash_sha256": null,
@@ -489,8 +474,8 @@
       ]
     },
     {
-      "path": "amoxicilline/Article_Amoxicilline.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/Article_Amoxicilline.pdf",
+      "path": "amoxicilline/Article_AMOXICILLINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/Article_AMOXICILLINE.pdf",
       "extension": "pdf",
       "size_bytes": 17910424,
       "hash_sha256": null,
@@ -514,7 +499,7 @@
     },
     {
       "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.webp",
       "extension": "webp",
       "size_bytes": 38582,
       "hash_sha256": null,
@@ -523,7 +508,7 @@
     },
     {
       "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.pdf",
       "extension": "pdf",
       "size_bytes": 413846,
       "hash_sha256": null,
@@ -543,7 +528,7 @@
     },
     {
       "path": "amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.pdf",
       "extension": "pdf",
       "size_bytes": 563098,
       "hash_sha256": null,
@@ -565,7 +550,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.jpg",
       "extension": "jpg",
       "size_bytes": 17496,
       "hash_sha256": null,
@@ -574,7 +559,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
       "extension": "jpg",
       "size_bytes": 5844,
       "hash_sha256": null,
@@ -583,7 +568,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
       "extension": "pdf",
       "size_bytes": 451844,
       "hash_sha256": null,
@@ -603,7 +588,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
       "extension": "pdf",
       "size_bytes": 607960,
       "hash_sha256": null,
@@ -623,7 +608,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.jpeg",
       "extension": "jpeg",
       "size_bytes": 54831,
       "hash_sha256": null,
@@ -632,7 +617,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
       "extension": "pdf",
       "size_bytes": 417164,
       "hash_sha256": null,
@@ -653,7 +638,7 @@
     },
     {
       "path": "amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
       "extension": "pdf",
       "size_bytes": 631138,
       "hash_sha256": null,
@@ -673,7 +658,7 @@
     },
     {
       "path": "aténolol/aténolol_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/aténolol/aténolol_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 342303,
       "hash_sha256": null,
@@ -689,7 +674,7 @@
     },
     {
       "path": "aténolol/aténolol_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/aténolol/aténolol_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/aténolol/aténolol_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 496571,
       "hash_sha256": null,
@@ -705,7 +690,7 @@
     },
     {
       "path": "bisoprolol/bisoprolol_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/bisoprolol/bisoprolol_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 331134,
       "hash_sha256": null,
@@ -721,7 +706,7 @@
     },
     {
       "path": "bisoprolol/bisoprolol_RCP_ANPP.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/bisoprolol/bisoprolol_RCP_ANPP.pdf",
       "extension": "pdf",
       "size_bytes": 223674,
       "hash_sha256": null,
@@ -737,7 +722,7 @@
     },
     {
       "path": "clindamycine/acnestop/source-ansm-generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansm-generique.pdf",
       "extension": "pdf",
       "size_bytes": 1519028,
       "hash_sha256": null,
@@ -755,7 +740,7 @@
     },
     {
       "path": "clindamycine/acnestop/source-ansmi- interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansmi- interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/acnestop/source-ansmi- interaction.pdf",
       "extension": "pdf",
       "size_bytes": 1526285,
       "hash_sha256": null,
@@ -773,7 +758,7 @@
     },
     {
       "path": "clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/clinaram/source_ansm_interaction dwadz.pdf",
       "extension": "pdf",
       "size_bytes": 1417753,
       "hash_sha256": null,
@@ -791,7 +776,7 @@
     },
     {
       "path": "clindamycine/derma-t/source-ansm-interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm-interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm-interaction.pdf",
       "extension": "pdf",
       "size_bytes": 1466085,
       "hash_sha256": null,
@@ -809,7 +794,7 @@
     },
     {
       "path": "clindamycine/derma-t/source-ansm_generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm_generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/derma-t/source-ansm_generique.pdf",
       "extension": "pdf",
       "size_bytes": 1458529,
       "hash_sha256": null,
@@ -827,7 +812,7 @@
     },
     {
       "path": "clindamycine/source-ansm-notice.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm-notice.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/source-ansm-notice.pdf",
       "extension": "pdf",
       "size_bytes": 1250092,
       "hash_sha256": null,
@@ -845,7 +830,7 @@
     },
     {
       "path": "clindamycine/source-ansm_info.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source-ansm_info.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/source-ansm_info.pdf",
       "extension": "pdf",
       "size_bytes": 486331,
       "hash_sha256": null,
@@ -863,7 +848,7 @@
     },
     {
       "path": "clindamycine/source_ansm-rcp.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/clindamycine/source_ansm-rcp.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/clindamycine/source_ansm-rcp.pdf",
       "extension": "pdf",
       "size_bytes": 1401786,
       "hash_sha256": null,
@@ -881,7 +866,7 @@
     },
     {
       "path": "céfixime/Article__CEFIXIME.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfixime/Article__CEFIXIME.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/Article__CEFIXIME.pdf",
       "extension": "pdf",
       "size_bytes": 2341690,
       "hash_sha256": null,
@@ -905,7 +890,7 @@
     },
     {
       "path": "céfixime/CEFIXIME ALMUS 200 mg.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfixime/CEFIXIME ALMUS 200 mg.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/CEFIXIME ALMUS 200 mg.webp",
       "extension": "webp",
       "size_bytes": 18492,
       "hash_sha256": null,
@@ -914,7 +899,7 @@
     },
     {
       "path": "céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf",
       "extension": "pdf",
       "size_bytes": 355943,
       "hash_sha256": null,
@@ -935,7 +920,7 @@
     },
     {
       "path": "céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf",
       "extension": "pdf",
       "size_bytes": 428434,
       "hash_sha256": null,
@@ -955,7 +940,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.pdf",
       "extension": "pdf",
       "size_bytes": 49255,
       "hash_sha256": null,
@@ -971,7 +956,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.pdf",
       "extension": "pdf",
       "size_bytes": 521452,
       "hash_sha256": null,
@@ -991,7 +976,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.pdf",
       "extension": "pdf",
       "size_bytes": 389250,
       "hash_sha256": null,
@@ -1011,7 +996,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.pdf",
       "extension": "pdf",
       "size_bytes": 596235,
       "hash_sha256": null,
@@ -1032,7 +1017,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.pdf",
       "extension": "pdf",
       "size_bytes": 520445,
       "hash_sha256": null,
@@ -1052,7 +1037,7 @@
     },
     {
       "path": "céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.webp",
       "extension": "webp",
       "size_bytes": 13658,
       "hash_sha256": null,
@@ -1061,7 +1046,7 @@
     },
     {
       "path": "célécoxib/Article_CÉLÉCOXIB.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/célécoxib/Article_CÉLÉCOXIB.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/Article_CÉLÉCOXIB.pdf",
       "extension": "pdf",
       "size_bytes": 136841,
       "hash_sha256": null,
@@ -1077,7 +1062,7 @@
     },
     {
       "path": "célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.pdf",
       "extension": "pdf",
       "size_bytes": 424463,
       "hash_sha256": null,
@@ -1097,7 +1082,7 @@
     },
     {
       "path": "célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.pdf",
       "extension": "pdf",
       "size_bytes": 612188,
       "hash_sha256": null,
@@ -1118,7 +1103,7 @@
     },
     {
       "path": "diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 429770,
       "hash_sha256": null,
@@ -1138,7 +1123,7 @@
     },
     {
       "path": "diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf",
       "extension": "pdf",
       "size_bytes": 646886,
       "hash_sha256": null,
@@ -1162,7 +1147,7 @@
     },
     {
       "path": "diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf",
       "extension": "pdf",
       "size_bytes": 426780,
       "hash_sha256": null,
@@ -1186,7 +1171,7 @@
     },
     {
       "path": "diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf",
       "extension": "pdf",
       "size_bytes": 502361,
       "hash_sha256": null,
@@ -1210,7 +1195,7 @@
     },
     {
       "path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
       "extension": "csv",
       "size_bytes": 388,
       "hash_sha256": null,
@@ -1219,7 +1204,7 @@
     },
     {
       "path": "enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
       "extension": "csv",
       "size_bytes": 306,
       "hash_sha256": null,
@@ -1227,80 +1212,8 @@
       "status": "non_pdf"
     },
     {
-      "path": "enalapril/dwa--dz.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/dwa--dz.pdf",
-      "extension": "pdf",
-      "size_bytes": 277807,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 2,
-      "total_chars": 0,
-      "image_only_pages": 2,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "enalapril/info-enalapril.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/info-enalapril.pdf",
-      "extension": "pdf",
-      "size_bytes": 440126,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 3,
-      "total_chars": 0,
-      "image_only_pages": 3,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "enalapril/notice-enalapril.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/notice-enalapril.pdf",
-      "extension": "pdf",
-      "size_bytes": 1828196,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 13,
-      "total_chars": 0,
-      "image_only_pages": 13,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "enalapril/rcp-enalapril.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/enalapril/rcp-enalapril.pdf",
-      "extension": "pdf",
-      "size_bytes": 3726731,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 23,
-      "total_chars": 0,
-      "image_only_pages": 23,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
       "path": "gentamicine/daily med genta.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/daily med genta.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/daily med genta.pdf",
       "extension": "pdf",
       "size_bytes": 5395502,
       "hash_sha256": null,
@@ -1318,7 +1231,7 @@
     },
     {
       "path": "gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf",
       "extension": "pdf",
       "size_bytes": 1755807,
       "hash_sha256": null,
@@ -1336,7 +1249,7 @@
     },
     {
       "path": "gentamicine/genta_80/source_ansm_fiche_info.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_fiche_info.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_fiche_info.pdf",
       "extension": "pdf",
       "size_bytes": 443391,
       "hash_sha256": null,
@@ -1354,7 +1267,7 @@
     },
     {
       "path": "gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_interaction_medicament.pdf",
       "extension": "pdf",
       "size_bytes": 1759284,
       "hash_sha256": null,
@@ -1372,7 +1285,7 @@
     },
     {
       "path": "gentamicine/genta_80/source_ansm_noticc.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_noticc.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_noticc.pdf",
       "extension": "pdf",
       "size_bytes": 1439233,
       "hash_sha256": null,
@@ -1390,7 +1303,7 @@
     },
     {
       "path": "gentamicine/genta_80/source_ansm_rcp.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_rcp.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/source_ansm_rcp.pdf",
       "extension": "pdf",
       "size_bytes": 2784317,
       "hash_sha256": null,
@@ -1408,7 +1321,7 @@
     },
     {
       "path": "gentamicine/genta_80/sourcedwadz--.png",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz--.png",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz--.png",
       "extension": "png",
       "size_bytes": 164863,
       "hash_sha256": null,
@@ -1417,7 +1330,7 @@
     },
     {
       "path": "gentamicine/genta_80/sourcedwadz-.png",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz-.png",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/genta_80/sourcedwadz-.png",
       "extension": "png",
       "size_bytes": 123766,
       "hash_sha256": null,
@@ -1426,7 +1339,7 @@
     },
     {
       "path": "gentamicine/gentacine/source_ansm_generiques.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_generiques.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_generiques.pdf",
       "extension": "pdf",
       "size_bytes": 1740015,
       "hash_sha256": null,
@@ -1444,7 +1357,7 @@
     },
     {
       "path": "gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.pdf",
       "extension": "pdf",
       "size_bytes": 1742989,
       "hash_sha256": null,
@@ -1462,7 +1375,7 @@
     },
     {
       "path": "gentamicine/s_genta/source_ansm_generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_ansm_generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/s_genta/source_ansm_generique.pdf",
       "extension": "pdf",
       "size_bytes": 1671097,
       "hash_sha256": null,
@@ -1480,7 +1393,7 @@
     },
     {
       "path": "gentamicine/s_genta/source_interaction_s genta.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/gentamicine/s_genta/source_interaction_s genta.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/gentamicine/s_genta/source_interaction_s genta.pdf",
       "extension": "pdf",
       "size_bytes": 1674238,
       "hash_sha256": null,
@@ -1498,7 +1411,7 @@
     },
     {
       "path": "ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 317455,
       "hash_sha256": null,
@@ -1519,7 +1432,7 @@
     },
     {
       "path": "ibuprofene/gelfen/RCP_GELFEN_5%.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ibuprofene/gelfen/RCP_GELFEN_5%.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ibuprofene/gelfen/RCP_GELFEN_5%.pdf",
       "extension": "pdf",
       "size_bytes": 289497,
       "hash_sha256": null,
@@ -1542,7 +1455,7 @@
     },
     {
       "path": "indapamide/indapamide_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/indapamide/indapamide_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 348447,
       "hash_sha256": null,
@@ -1558,7 +1471,7 @@
     },
     {
       "path": "indapamide/indapamide_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/indapamide/indapamide_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/indapamide/indapamide_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 488753,
       "hash_sha256": null,
@@ -1578,7 +1491,7 @@
     },
     {
       "path": "ketoprofene/documents_complementaires_non_reference/image_profenid.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.webp",
       "extension": "webp",
       "size_bytes": 10966,
       "hash_sha256": null,
@@ -1587,7 +1500,7 @@
     },
     {
       "path": "ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf",
       "extension": "pdf",
       "size_bytes": 1165539,
       "hash_sha256": null,
@@ -1603,7 +1516,7 @@
     },
     {
       "path": "ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf",
       "extension": "pdf",
       "size_bytes": 345702,
       "hash_sha256": null,
@@ -1624,7 +1537,7 @@
     },
     {
       "path": "ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf",
       "extension": "pdf",
       "size_bytes": 326749,
       "hash_sha256": null,
@@ -1646,7 +1559,7 @@
     },
     {
       "path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
       "extension": "csv",
       "size_bytes": 768,
       "hash_sha256": null,
@@ -1655,7 +1568,7 @@
     },
     {
       "path": "losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
       "extension": "csv",
       "size_bytes": 747,
       "hash_sha256": null,
@@ -1663,120 +1576,8 @@
       "status": "non_pdf"
     },
     {
-      "path": "losartan/cozzar/cozaar interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/cozzar/cozaar interaction.pdf",
-      "extension": "pdf",
-      "size_bytes": 1741133,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 5,
-      "total_chars": 0,
-      "image_only_pages": 5,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "losartan/dailymed-losartan.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/dailymed-losartan.pdf",
-      "extension": "pdf",
-      "size_bytes": 907906,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 4,
-      "total_chars": 0,
-      "image_only_pages": 4,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "losartan/info-losartan.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/info-losartan.pdf",
-      "extension": "pdf",
-      "size_bytes": 483029,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 3,
-      "total_chars": 0,
-      "image_only_pages": 3,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "losartan/LOSartan anpp.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/LOSartan anpp.pdf",
-      "extension": "pdf",
-      "size_bytes": 448016,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "ok",
-      "page_count": 23,
-      "total_chars": 61727,
-      "image_only_pages": 0,
-      "short_pages": 0,
-      "has_noise": true,
-      "noise_samples": [
-        "\"ANNEXE I \n    RESUME DES CARACTERISTIQUES DU PRODUIT\" (x23)",
-        "\"Email : contact@ldmgroupe.com\" (x23)",
-        "\"CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3\" (x23)"
-      ],
-      "issues": [
-        "Repeated header/footer noise detected (3 unique blocks)"
-      ]
-    },
-    {
-      "path": "losartan/notice-losartan.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/notice-losartan.pdf",
-      "extension": "pdf",
-      "size_bytes": 1819859,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 12,
-      "total_chars": 0,
-      "image_only_pages": 12,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "losartan/rcp-losartan.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/losartan/rcp-losartan.pdf",
-      "extension": "pdf",
-      "size_bytes": 4096095,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 25,
-      "total_chars": 0,
-      "image_only_pages": 25,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
       "path": "meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
       "extension": "pdf",
       "size_bytes": 481677,
       "hash_sha256": null,
@@ -1796,7 +1597,7 @@
     },
     {
       "path": "meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
       "extension": "pdf",
       "size_bytes": 524936,
       "hash_sha256": null,
@@ -1816,7 +1617,7 @@
     },
     {
       "path": "méthyldopa/méthyldopa_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/méthyldopa/méthyldopa_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 281688,
       "hash_sha256": null,
@@ -1836,7 +1637,7 @@
     },
     {
       "path": "méthyldopa/méthyldopa_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/méthyldopa/méthyldopa_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 330835,
       "hash_sha256": null,
@@ -1852,7 +1653,7 @@
     },
     {
       "path": "naproxene/naprox/source_naprox-275mg_dwadz.md",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/naproxene/naprox/source_naprox-275mg_dwadz.md",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/naproxene/naprox/source_naprox-275mg_dwadz.md",
       "extension": "md",
       "size_bytes": 724,
       "hash_sha256": null,
@@ -1861,7 +1662,7 @@
     },
     {
       "path": "naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf",
       "extension": "pdf",
       "size_bytes": 781082,
       "hash_sha256": null,
@@ -1877,7 +1678,7 @@
     },
     {
       "path": "naproxene/nhupain/source_nhupain_dwadz.md",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/naproxene/nhupain/source_nhupain_dwadz.md",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/naproxene/nhupain/source_nhupain_dwadz.md",
       "extension": "md",
       "size_bytes": 748,
       "hash_sha256": null,
@@ -1886,7 +1687,7 @@
     },
     {
       "path": "nifedipine/dailymed-nifedipine.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/nifedipine/dailymed-nifedipine.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/nifedipine/dailymed-nifedipine.pdf",
       "extension": "pdf",
       "size_bytes": 487532,
       "hash_sha256": null,
@@ -1904,7 +1705,7 @@
     },
     {
       "path": "nébivolol/nébivolol_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/nébivolol/nébivolol_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 360400,
       "hash_sha256": null,
@@ -1920,7 +1721,7 @@
     },
     {
       "path": "nébivolol/nébivolol_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/nébivolol/nébivolol_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 412532,
       "hash_sha256": null,
@@ -1940,7 +1741,7 @@
     },
     {
       "path": "néfopam/Article_NÉFOPAM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/Article_NÉFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/Article_NÉFOPAM.pdf",
       "extension": "pdf",
       "size_bytes": 480211,
       "hash_sha256": null,
@@ -1960,7 +1761,7 @@
     },
     {
       "path": "néfopam/NEFOPAM.webp",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/NEFOPAM.webp",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/NEFOPAM.webp",
       "extension": "webp",
       "size_bytes": 6624,
       "hash_sha256": null,
@@ -1969,7 +1770,7 @@
     },
     {
       "path": "néfopam/NEFOPAM_ARROW_20_mg_2_ml.png",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.png",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.png",
       "extension": "png",
       "size_bytes": 245756,
       "hash_sha256": null,
@@ -1978,7 +1779,7 @@
     },
     {
       "path": "néfopam/Notice_NEFOPAM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/Notice_NEFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/Notice_NEFOPAM.pdf",
       "extension": "pdf",
       "size_bytes": 339800,
       "hash_sha256": null,
@@ -1998,7 +1799,7 @@
     },
     {
       "path": "néfopam/RCP_NEFOPAM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/néfopam/RCP_NEFOPAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/néfopam/RCP_NEFOPAM.pdf",
       "extension": "pdf",
       "size_bytes": 366327,
       "hash_sha256": null,
@@ -2018,7 +1819,7 @@
     },
     {
       "path": "paracetamol/documents_complementaires_non_reference/notice_doliprane.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.pdf",
       "extension": "pdf",
       "size_bytes": 1175944,
       "hash_sha256": null,
@@ -2034,7 +1835,7 @@
     },
     {
       "path": "paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.pdf",
       "extension": "pdf",
       "size_bytes": 355706,
       "hash_sha256": null,
@@ -2050,7 +1851,7 @@
     },
     {
       "path": "paracetamol/panadol/notice_panadol.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracetamol/panadol/notice_panadol.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracetamol/panadol/notice_panadol.pdf",
       "extension": "pdf",
       "size_bytes": 1110739,
       "hash_sha256": null,
@@ -2066,7 +1867,7 @@
     },
     {
       "path": "paracetamol/panadol/RCP_Panadol_1g.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracetamol/panadol/RCP_Panadol_1g.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracetamol/panadol/RCP_Panadol_1g.pdf",
       "extension": "pdf",
       "size_bytes": 506859,
       "hash_sha256": null,
@@ -2088,7 +1889,7 @@
     },
     {
       "path": "paracetamol/panadol/source_panadol_dwadz.md",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracetamol/panadol/source_panadol_dwadz.md",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracetamol/panadol/source_panadol_dwadz.md",
       "extension": "md",
       "size_bytes": 1054,
       "hash_sha256": null,
@@ -2097,7 +1898,7 @@
     },
     {
       "path": "paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.pdf",
       "extension": "pdf",
       "size_bytes": 117719,
       "hash_sha256": null,
@@ -2113,7 +1914,7 @@
     },
     {
       "path": "paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.pdf",
       "extension": "pdf",
       "size_bytes": 445495,
       "hash_sha256": null,
@@ -2133,7 +1934,7 @@
     },
     {
       "path": "paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.pdf",
       "extension": "pdf",
       "size_bytes": 612955,
       "hash_sha256": null,
@@ -2154,7 +1955,7 @@
     },
     {
       "path": "paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.pdf",
       "extension": "pdf",
       "size_bytes": 401812,
       "hash_sha256": null,
@@ -2174,7 +1975,7 @@
     },
     {
       "path": "paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.pdf",
       "extension": "pdf",
       "size_bytes": 522098,
       "hash_sha256": null,
@@ -2194,7 +1995,7 @@
     },
     {
       "path": "perindopril/coversyl/source interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/coversyl/source interaction.pdf",
       "extension": "pdf",
       "size_bytes": 1991993,
       "hash_sha256": null,
@@ -2212,7 +2013,7 @@
     },
     {
       "path": "perindopril/coversyl/source-generique-.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/coversyl/source-generique-.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/coversyl/source-generique-.pdf",
       "extension": "pdf",
       "size_bytes": 1988345,
       "hash_sha256": null,
@@ -2230,7 +2031,7 @@
     },
     {
       "path": "perindopril/perindopril/generique.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/generique.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/perindopril/generique.pdf",
       "extension": "pdf",
       "size_bytes": 2039368,
       "hash_sha256": null,
@@ -2248,7 +2049,7 @@
     },
     {
       "path": "perindopril/perindopril/interaction.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/interaction.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/perindopril/interaction.pdf",
       "extension": "pdf",
       "size_bytes": 2043884,
       "hash_sha256": null,
@@ -2266,7 +2067,7 @@
     },
     {
       "path": "perindopril/perindopril/source rcp. prindoprile.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindopril/source rcp. prindoprile.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/perindopril/source rcp. prindoprile.pdf",
       "extension": "pdf",
       "size_bytes": 850219,
       "hash_sha256": null,
@@ -2284,7 +2085,7 @@
     },
     {
       "path": "perindopril/perindosyl/iteraction-source.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/perindopril/perindosyl/iteraction-source.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/perindopril/perindosyl/iteraction-source.pdf",
       "extension": "pdf",
       "size_bytes": 1952177,
       "hash_sha256": null,
@@ -2302,7 +2103,7 @@
     },
     {
       "path": "piroxicam/documents_complementaires_non_reference/image_fenoxam.jpg",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.jpg",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.jpg",
       "extension": "jpg",
       "size_bytes": 114866,
       "hash_sha256": null,
@@ -2311,7 +2112,7 @@
     },
     {
       "path": "piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.pdf",
       "extension": "pdf",
       "size_bytes": 384095,
       "hash_sha256": null,
@@ -2335,7 +2136,7 @@
     },
     {
       "path": "piroxicam/documents_complementaires_non_reference/source_fenoxam_pharmnet.md",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/source_fenoxam_pharmnet.md",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/documents_complementaires_non_reference/source_fenoxam_pharmnet.md",
       "extension": "md",
       "size_bytes": 826,
       "hash_sha256": null,
@@ -2344,7 +2145,7 @@
     },
     {
       "path": "piroxicam/image_painoxam.avif",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/image_painoxam.avif",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/image_painoxam.avif",
       "extension": "avif",
       "size_bytes": 10501,
       "hash_sha256": null,
@@ -2353,7 +2154,7 @@
     },
     {
       "path": "piroxicam/painoxam/source_painoxam_dwadz.md",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/painoxam/source_painoxam_dwadz.md",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/painoxam/source_painoxam_dwadz.md",
       "extension": "md",
       "size_bytes": 1128,
       "hash_sha256": null,
@@ -2362,7 +2163,7 @@
     },
     {
       "path": "piroxicam/piroxicam_Notice_ANMDMR.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/piroxicam_Notice_ANMDMR.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/piroxicam_Notice_ANMDMR.pdf",
       "extension": "pdf",
       "size_bytes": 224948,
       "hash_sha256": null,
@@ -2378,7 +2179,7 @@
     },
     {
       "path": "piroxicam/RCP_PAINOXAM_20mg.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/piroxicam/RCP_PAINOXAM_20mg.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/piroxicam/RCP_PAINOXAM_20mg.pdf",
       "extension": "pdf",
       "size_bytes": 379290,
       "hash_sha256": null,
@@ -2400,7 +2201,7 @@
     },
     {
       "path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
       "extension": "csv",
       "size_bytes": 791,
       "hash_sha256": null,
@@ -2409,7 +2210,7 @@
     },
     {
       "path": "ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
       "extension": "csv",
       "size_bytes": 1355,
       "hash_sha256": null,
@@ -2417,80 +2218,8 @@
       "status": "non_pdf"
     },
     {
-      "path": "ramipril/info.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/info.pdf",
-      "extension": "pdf",
-      "size_bytes": 435011,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 3,
-      "total_chars": 0,
-      "image_only_pages": 3,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "ramipril/notice-ramplir.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/notice-ramplir.pdf",
-      "extension": "pdf",
-      "size_bytes": 1908842,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 14,
-      "total_chars": 0,
-      "image_only_pages": 14,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "ramipril/ramplir-dailymed.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/ramplir-dailymed.pdf",
-      "extension": "pdf",
-      "size_bytes": 990800,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 4,
-      "total_chars": 0,
-      "image_only_pages": 4,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
-      "path": "ramipril/rcpramplir.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/ramipril/rcpramplir.pdf",
-      "extension": "pdf",
-      "size_bytes": 3793246,
-      "hash_sha256": null,
-      "is_duplicate": false,
-      "status": "needs_ocr",
-      "page_count": 27,
-      "total_chars": 0,
-      "image_only_pages": 27,
-      "short_pages": 0,
-      "has_noise": false,
-      "noise_samples": [],
-      "issues": [
-        "Only 0 chars extracted - likely scanned image PDF"
-      ]
-    },
-    {
       "path": "spironolactone/spironolactone_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/spironolactone/spironolactone_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 302982,
       "hash_sha256": null,
@@ -2510,7 +2239,7 @@
     },
     {
       "path": "spironolactone/spironolactone_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/spironolactone/spironolactone_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 442689,
       "hash_sha256": null,
@@ -2526,7 +2255,7 @@
     },
     {
       "path": "tramadol/Article_TRAMADOL.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/tramadol/Article_TRAMADOL.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/Article_TRAMADOL.pdf",
       "extension": "pdf",
       "size_bytes": 109489,
       "hash_sha256": null,
@@ -2542,7 +2271,7 @@
     },
     {
       "path": "tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.pdf",
       "extension": "pdf",
       "size_bytes": 387681,
       "hash_sha256": null,
@@ -2562,7 +2291,7 @@
     },
     {
       "path": "tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.pdf",
       "extension": "pdf",
       "size_bytes": 445308,
       "hash_sha256": null,
@@ -2582,7 +2311,7 @@
     },
     {
       "path": "tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.pdf",
       "extension": "pdf",
       "size_bytes": 425232,
       "hash_sha256": null,
@@ -2602,7 +2331,7 @@
     },
     {
       "path": "tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.pdf",
       "extension": "pdf",
       "size_bytes": 471609,
       "hash_sha256": null,
@@ -2622,7 +2351,7 @@
     },
     {
       "path": "valsartan/valsartan_Notice_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/valsartan/valsartan_Notice_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 388364,
       "hash_sha256": null,
@@ -2638,7 +2367,7 @@
     },
     {
       "path": "valsartan/valsartan_RCP_ANSM.pdf",
-      "absolute": "C:/Users/Administrator/COGNIVEX/data/corpus/valsartan/valsartan_RCP_ANSM.pdf",
+      "absolute": "C:/Users/Hp/Desktop/COGNIVEX/data/corpus/valsartan/valsartan_RCP_ANSM.pdf",
       "extension": "pdf",
       "size_bytes": 570722,
       "hash_sha256": null,
