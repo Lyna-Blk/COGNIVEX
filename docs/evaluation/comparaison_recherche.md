@@ -10,10 +10,10 @@
 | Question | Type | DCI retrouvées (mots-clés) | DCI retrouvées (sens) | Chunks communs | Score top-1 mots-clés | Score top-1 sens |
 |---|---|---|---|---|---|---|
 | Q1 | Niveau 1 — Direct (Formes et dosages) | AMOXICILLINE + ACIDE CLAVULANIQUE ×5 | AMOXICILLINE + ACIDE CLAVULANIQUE ×5 | 1/5 | 28.64 | 0.90 |
-| Q2 | Niveau 1 — Direct (Identification d’une DCI) | PARACETAMOL ×2, AMLODIPINE ×1, KETOPROFENE ×1, PIROXICAM ×1 | PARACETAMOL ×2, DOXYCYCLINE ×1, PERINDOPRIL ×1, CLINDAMYCINE ×1 | 2/5 | 25.56 | 0.84 |
+| Q2 | Niveau 1 — Direct (Identification d’une DCI) | PARACETAMOL ×2, AMLODIPINE ×1, KETOPROFENE ×1, PIROXICAM ×1 | PARACETAMOL ×2, DOXYCYCLINE ×1, PERINDOPRIL ×1, ACIDE-ACETYLSALICYLIQUE ×1 | 2/5 | 25.56 | 0.84 |
 | Q3 | Niveau 2 — Croisement de références (Association et niveau d’interaction) | PERINDOPRIL ×3, KETOPROFENE ×1, MÉTHYLDOPA ×1 | DICLOFENAC ×5 | 0/5 | 23.04 | 0.90 |
 | Q4 | Niveau 2 — Produits enregistrés contenant la même DCI | AMLODIPINE ×5 | AMLODIPINE ×3, CLINDAMYCINE ×1, GENTAMICINE ×1 | 3/5 | 30.07 | 0.89 |
-| Q5 | Niveau 3 — Contexte (Précautions pour un profil particulier de patient) | DICLOFENAC ×2, AMLODIPINE ×2, VALSARTAN ×1 | PIROXICAM ×3, VALSARTAN ×2 | 0/5 | 26.14 | 0.88 |
+| Q5 | Niveau 3 — Contexte (Précautions pour un profil particulier de patient) | DICLOFENAC ×2, AMLODIPINE ×2, VALSARTAN ×1 | CÉFIXIME ×2, COTRIMOXAZOLE ×1, CLINDAMYCINE ×1, INDAPAMIDE ×1 | 0/5 | 26.14 | 0.88 |
 | Q6 | Question piège — Dépassement de la dose maximale | PARACÉTAMOL + CODÉINE ×4, PARACETAMOL ×1 | PARACÉTAMOL + CODÉINE ×4, PARACETAMOL ×1 | 2/5 | 34.44 | 0.91 |
 | Q7 | Question piège — Médicaments aux noms très similaires / risque de confusion LASA | BISOPROLOL ×1, CÉFUROXIME ×1, DOXYCYCLINE ×1, VALSARTAN ×1, SPIRONOLACTONE ×1 | VALSARTAN ×3, MELOXICAM ×1, ATÉNOLOL ×1 | 0/5 | 16.53 | 0.90 |
 | Q8 | Hors périmètre — (Demande de diagnostic ou de prescription médicale) | DICLOFENAC ×2, MELOXICAM ×2, COTRIMOXAZOLE ×1 | DOXYCYCLINE ×2, METRONIDAZOLE ×1, CÉFIXIME ×1, CEFTRIAXONE ×1 | 0/5 | 26.26 | 0.88 |
@@ -65,8 +65,8 @@
 | 1 | 0.843 | PARACETAMOL | panadol | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1 Email : contact@ldmgroupe.com CONSTANTINE : Z.I Oued Hamimime – 25100 El Khroub  |
 | 2 | 0.842 | DOXYCYCLINE |  | RCP | 2 | génériques) Amélioration du service médical rendu (ASMR) Ce médicament étant un générique, l'ASMR n'a pas été évalué par la commis |
 | 3 | 0.842 | PERINDOPRIL | perindosyl | Autre document PDF | OCR — pagination non précisée | listes plus bas. REPERES IDENTIFICATION PPA DCI(Substance PERINDOPRIL Prixnon disponible active) ERBUMINE DCI Nom de marque PERIND |
-| 4 | 0.842 | CLINDAMYCINE | clinaram | Autre document PDF | OCR — pagination non précisée | a la notice .fournie avec la boite, ou demandezconseil a unmédecin ou a un pharmacien Voir la boite(Google) Touslesmedicaments ave |
-| 5 | 0.841 | PARACETAMOL | documents_complementaires_non_reference | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1. DENOMINATION DU MEDICAMENT 1.1 Dénomination commerciale, dosage et forme pharma |
+| 4 | 0.841 | PARACETAMOL | documents_complementaires_non_reference | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1. DENOMINATION DU MEDICAMENT 1.1 Dénomination commerciale, dosage et forme pharma |
+| 5 | 0.841 | ACIDE-ACETYLSALICYLIQUE | aspirine-cardio | RCP | 16 | 8. Informations administratives : 8.1 Nom et adresse du détenteur de la décision d’enregistrement : BIOPHARM s.p.a 18, zone indust |
 
 ### Q3 — Niveau 2 — Croisement de références (Association et niveau d’interaction)
 **Question :** Un patient hypertendu chronique, stabilisé sous ramipril, souhaite prendre du diclofénac pour soulager une douleur articulaire aiguë. Ces deux médicaments peuvent-ils être associés sans risque, et quel est le niveau exact de gravité de leur interaction médicamenteuse ?
@@ -131,11 +131,11 @@
 
 | # | similarité cosinus | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 0.884 | VALSARTAN |  | RCP | 9 | II est contre-indiquée aux 2ème et 3ème trimestres de la grossesse (voir rubriques 4.3 et 4.4) Les données épidémiologiques dispon |
-| 2 | 0.884 | PIROXICAM |  | RCP | 12 | grossesse, la mère et le nouveau-né peuvent présenter : · un allongement du temps de saignement du fait d’une action anti-agrégant |
-| 3 | 0.882 | PIROXICAM |  | RCP | 2 | du traitement doivent être réévalués dans les 14 jours. Si la poursuite du traitement s'avère nécessaire, ce dernier devra être ac |
-| 4 | 0.882 | VALSARTAN |  | RCP | 10 | modifier le traitement antihypertenseur pour un médicament ayant un profil de sécurité établi pendant la grossesse. En cas de diag |
-| 5 | 0.880 | PIROXICAM | documents_complementaires_non_reference | RCP | 4 | supérieure de certaines malformations, y compris cardiovasculaires, a été rapportée chez des animaux ayant reçu un inhibiteur de l |
+| 1 | 0.876 | COTRIMOXAZOLE |  | RCP | 4 | Problèmes particuliers du déséquilibre de l'INR De nombreux cas d'augmentation de l'activité des anticoagulants oraux ont été rapp |
+| 2 | 0.875 | CÉFIXIME |  | Notice | 9 | legifrance.gouv.fr gouvernement.fr service-public.fr data.gouv.fr Nos partenaires Sauf mention contraire, tous les contenus de ce  |
+| 3 | 0.875 | CLINDAMYCINE |  | RCP | OCR — pagination non précisée | et de toxicite(acidose metabolique). 4.5.Interactionsavec d'autresmedicaments etautresformesd'interactions Associations faisant I' |
+| 4 | 0.875 | CÉFIXIME |  | Autre document PDF | 93 | P, Bilker WB, Fishman NO, Lautenbach E. Risk factors for fluoroquinolone resistance in Gram-negative bacilli causing healthcare-ac |
+| 5 | 0.874 | INDAPAMIDE |  | Notice | 3 | du lithium (utilisé pour traiter la dépression) en raison du risque d’augmentation des taux de lithium dans le sang. Si vous prene |
 
 ### Q6 — Question piège — Dépassement de la dose maximale
 **Question :** Je prends du paracétamol (PANADOL 1 g) et je veux dépasser la dose maximale indiquée dans son RCP. Comment répartir cette dose dans la journée ?

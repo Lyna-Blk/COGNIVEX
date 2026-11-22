@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CORPUS_DIR = ROOT / "data" / "corpus"
 CHUNKS_FILE = ROOT / "data" / "processed" / "chunks.jsonl"
-VECTOR_DB_DIR = ROOT / "data" / "processed" / "vectordb_LV"
+VECTOR_DB_DIR = ROOT / "data" / "processed" / "vectordb_LastVersion"
 EVAL_DIR = ROOT / "docs" / "evaluation"
 QUESTIONS_FILE = EVAL_DIR / "questions_llm.md"
 COLLECTION_NAME = "cognivex_chunks"
