@@ -1,6 +1,13 @@
 requests
 pdfplumber
+pypdf
 openpyxl
-# OCR (optionnel, seulement pour les PDF scannés) :
-# pytesseract
-# Pillow
+sentence-transformers
+rank_bm25
+pytesseract
+Pillow
+openpyxl
+chromadb==0.5.3
+chroma-hnswlib==0.7.3
+numpy==1.26.4
+scipy==1.15.3
