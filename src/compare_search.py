@@ -1,19 +1,3 @@
-"""
-ÉTAPE 3 — Comparer recherche par MOTS-CLÉS (BM25) et recherche SÉMANTIQUE (embeddings).
-
-Pour chaque question de docs/evaluation/questions_llm.md :
-  - top-K par mots-clés (BM25, implémenté ici, sans dépendance)
-  - top-K par le sens (ChromaDB + embeddings)
-Aucune "réponse attendue" n'est nécessaire : le même code marche pour n'importe quelle
-question et n'importe quel médicament du corpus. On compare les deux méthodes en regardant
-les extraits retrouvés, les médicaments (DCI) retrouvés et le chevauchement des résultats.
-
-Sortie : affichage console + docs/evaluation/comparaison_recherche.md
-
-Lancer depuis la racine du projet :
-    python src/compare_search.py              # mots-clés + sémantique
-    python src/compare_search.py --bm25-only  # mots-clés seulement (ne demande pas chromadb)
-"""
 import math
 import re
 import sys
@@ -27,14 +11,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 RAPPORT_FILE = EVAL_DIR / "comparaison_recherche.md"
 
-
-# ------------------------------------------------------------ lecture des questions
 def charger_questions() -> list[dict]:
-    """
-    Lit docs/evaluation/questions_llm.md.
-    Format :  "## N. Titre"  puis la question (1er paragraphe sous le titre).
-    Les paragraphes suivants (remarques de l'équipe) et les commentaires <!-- ... --> sont ignorés.
-    """
+   
     if not QUESTIONS_FILE.is_file():
         raise FileNotFoundError(f"Fichier de questions introuvable : {QUESTIONS_FILE}")
 
@@ -60,8 +38,6 @@ def charger_questions() -> list[dict]:
             questions.append({"id": f"Q{b['numero']}", "type": b["titre"], "texte": " ".join(paragraphe)})
     return questions
 
-
-# ------------------------------------------------------------ recherche par mots-clés (BM25)
 STOPWORDS = set("""
 a au aux avec ce ces dans de des du elle en et il ils je la le les leur lui ma mais me mes moi mon
 ne nos notre nous on ou par pas pour qu que qui sa se ses si son sur ta te tes toi ton tu un une
@@ -101,8 +77,6 @@ class BM25:
         ordre = sorted(range(len(scores)), key=lambda i: -scores[i])[:k]
         return [(i, scores[i]) for i in ordre if scores[i] > 0]
 
-
-# ------------------------------------------------------------ recherche sémantique
 class RechercheSemantique:
     def __init__(self, chunks):
         import chromadb
@@ -114,8 +88,6 @@ class RechercheSemantique:
     def search(self, question: str, k: int):
         emb = self.modele.encode([query_prefix() + question], normalize_embeddings=True)
 
-        # La base peut contenir d'anciens chunks si le corpus a changé depuis sa construction :
-        # on demande plus de candidats et on ignore les IDs absents de chunks.jsonl.
         total = self.collection.count()
         if total == 0:
             return []
@@ -135,8 +107,6 @@ class RechercheSemantique:
                   "Reconstruisez la base : python src/build_vector_db.py (ou le notebook).")
         return resultats
 
-
-# ------------------------------------------------------------ affichage / rapport
 def extrait(chunk, n=130):
     return " ".join(chunk["text"].split())[:n].replace("|", "/")
 

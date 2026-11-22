@@ -5,8 +5,9 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parent.parent
+
 CORPUS_DIR = ROOT / "data" / "corpus"
-PROCESSED_CORPUS_DIR = ROOT / "data" / "processed_corpus"
+OCR_DIR = ROOT / "data" / "processed_corpus"
 OUTPUT_FILE = ROOT / "data" / "processed" / "chunks.jsonl"
 
 MAX_WORDS = 120
@@ -20,10 +21,10 @@ def split_text(text):
 
     while start < len(words):
         end = min(start + MAX_WORDS, len(words))
-        chunk = " ".join(words[start:end])
+        morceau = " ".join(words[start:end])
 
-        if chunk.strip():
-            chunks.append(chunk)
+        if morceau.strip():
+            chunks.append(morceau)
 
         if end == len(words):
             break
@@ -43,107 +44,108 @@ def document_type(filename):
     return "Autre document PDF"
 
 
-def read_markdown_pages(markdown_path):
-    text = markdown_path.read_text(encoding="utf-8")
+def lire_ocr(pdf_path):
+    chemin_relatif = pdf_path.relative_to(CORPUS_DIR)
+    fichier_ocr = (OCR_DIR / chemin_relatif).with_suffix(".md")
 
-    # نبحث عن عناوين الصفحات التي ينشئها ocr_pipeline.py
-    page_pattern = re.compile(
-        r"^##\s+Page\s+(\d+)\s*$",
-        flags=re.IGNORECASE | re.MULTILINE,
-    )
-    matches = list(page_pattern.finditer(text))
+    if fichier_ocr.is_file():
+        return fichier_ocr.read_text(encoding="utf-8").strip()
 
-    if not matches:
-        return [(1, text.strip())]
-
-    pages = []
-    for index, match in enumerate(matches):
-        start = match.end()
-        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-        page_text = text[start:end].strip()
-        pages.append((int(match.group(1)), page_text))
-
-    return pages
+    return ""
 
 
 def main():
+    if not CORPUS_DIR.is_dir():
+        raise FileNotFoundError(f"Dossier corpus introuvable : {CORPUS_DIR}")
+
     pdf_files = sorted(CORPUS_DIR.rglob("*.pdf"))
 
     if not pdf_files:
-        print("Aucun fichier PDF trouvé dans data/corpus.")
+        print("Aucun PDF trouvé dans data/corpus.")
         return
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    total_chunks = 0
-    empty_pages = 0
 
-    # نفتح الملف للكتابة من جديد: النتيجة القديمة تتعوض بالنتيجة الجديدة.
+    total_chunks = 0
+    pages_vides = 0
+    documents_ocr = 0
+    documents_non_recuperes = 0
+
     with OUTPUT_FILE.open("w", encoding="utf-8") as output:
         for pdf_path in pdf_files:
-            relative_path = pdf_path.relative_to(CORPUS_DIR)
-            source_pdf_path = pdf_path.relative_to(ROOT).as_posix()
+            chemin_relatif = pdf_path.relative_to(ROOT).as_posix()
+            chemin_corpus = pdf_path.relative_to(CORPUS_DIR)
+            parties = chemin_corpus.parts
 
-            # نفس المسار داخل processed_corpus، مع تبديل .pdf إلى .md
-            markdown_path = (PROCESSED_CORPUS_DIR / relative_path).with_suffix(".md")
+            dci = parties[0].upper() if parties else "A_VERIFIER"
+            brand = parties[1] if len(parties) >= 3 else "A_VERIFIER"
 
-            parts = relative_path.parts
-            dci = parts[0].upper() if parts else "À vérifier"
-            brand = parts[1] if len(parts) >= 3 else "À vérifier"
+            # ID du document basé sur son chemin complet : évite les collisions.
+            document_id = re.sub(
+                r"[^A-Za-z0-9]+",
+                "_",
+                chemin_corpus.with_suffix("").as_posix()
+            ).strip("_")
 
-            pages = []
-            text_source = "PDF original"
+            try:
+                reader = PdfReader(str(pdf_path))
+                pages = [
+                    (numero, page.extract_text() or "")
+                    for numero, page in enumerate(reader.pages, start=1)
+                ]
+            except Exception as erreur:
+                print(f"PDF illisible : {chemin_relatif} — {erreur}")
+                continue
 
-            # نستعمل Markdown إذا كان موجودًا وفيه نص، وإلا نقرأ PDF.
-            if markdown_path.is_file():
-                markdown_pages = read_markdown_pages(markdown_path)
-                if any(page_text.strip() for _, page_text in markdown_pages):
-                    pages = markdown_pages
-                    text_source = "processed_corpus"
+            numeros_vides = [
+                numero for numero, texte in pages if not texte.strip()
+            ]
+            pages_vides += len(numeros_vides)
 
-            if not pages:
-                try:
-                    reader = PdfReader(str(pdf_path))
-                    pages = [
-                        (page_number, page.extract_text() or "")
-                        for page_number, page in enumerate(reader.pages, start=1)
-                    ]
-                except Exception as error:
-                    print(f"PDF non lisible : {source_pdf_path} — {error}")
-                    continue
+            # Si des pages sont vides, on cherche le Markdown OCR du PDF.
+            texte_ocr = lire_ocr(pdf_path) if numeros_vides else ""
 
-            for page_number, text in pages:
-                if not text.strip():
-                    empty_pages += 1
+            if texte_ocr:
+                documents_ocr += 1
+                blocs = [("OCR — pagination non précisée", texte_ocr)]
+
+            else:
+                if numeros_vides:
+                    documents_non_recuperes += 1
                     print(
-                        f"Texte vide : {source_pdf_path}, page {page_number}"
+                        f"OCR introuvable : {chemin_relatif} "
+                        f"(pages vides : {numeros_vides})"
                     )
-                    continue
 
-                for chunk_number, chunk_text in enumerate(split_text(text), start=1):
-                    chunk_id = (
-                        f"{relative_path.with_suffix('').as_posix()}"
-                        f"_p{page_number}_c{chunk_number}"
-                    ).replace("/", "_").replace("\\", "_")
+                # On garde les pages dont le texte est lisible.
+                blocs = [
+                    (str(numero), texte)
+                    for numero, texte in pages
+                    if texte.strip()
+                ]
 
+            for page, texte in blocs:
+                for numero_chunk, morceau in enumerate(split_text(texte), start=1):
                     record = {
-                        "chunk_id": chunk_id,
+                        "chunk_id": f"{document_id}_{page}_{numero_chunk}",
                         "dci": dci,
                         "brand": brand,
                         "document_type": document_type(pdf_path.name),
-                        "file_path": source_pdf_path,
-                        "text_source": text_source,
-                        "page": page_number,
-                        "text": chunk_text,
+                        "file_path": chemin_relatif,
+                        "page": page,
+                        "text": morceau,
                     }
 
                     output.write(json.dumps(record, ensure_ascii=False) + "\n")
                     total_chunks += 1
 
-            print(f"Traité : {source_pdf_path} — texte depuis {text_source}")
+            print(f"Traité : {chemin_relatif}")
 
     print(f"\nPDF trouvés : {len(pdf_files)}")
     print(f"Chunks créés : {total_chunks}")
-    print(f"Pages sans texte extrait : {empty_pages}")
+    print(f"Pages sans texte extrait du PDF : {pages_vides}")
+    print(f"Documents récupérés avec l'OCR : {documents_ocr}")
+    print(f"Documents avec des pages non récupérées : {documents_non_recuperes}")
     print(f"Fichier créé : {OUTPUT_FILE.relative_to(ROOT)}")
 
 
