@@ -1,22 +1,19 @@
 {
   "_meta": {
-    "generated_at": "2026-11-21T17:45:28.502658+00:00",
+    "generated_at": "2026-11-22T15:17:50.578221+00:00",
     "corpus_root": "data/corpus",
-    "processed_corpus_root": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus",
+    "processed_corpus_root": "data/processed_corpus",
     "fiches_dci_root": "data/fiches_dci",
-    "total_dcis": 31,
-    "dcis_with_fiche": 31,
+    "total_dcis": 39,
+    "dcis_with_fiche": 39,
     "dcis_without_fiche": 0,
     "orphaned_fiches_count": 1,
     "root_files_count": 0,
-    "total_source_files": 128,
-    "total_processed_files": 127,
-    "total_extracted_chars": 2657426,
+    "total_source_files": 144,
+    "total_processed_files": 143,
+    "total_extracted_chars": 2949419,
     "low_text_files_count": 1,
-    "duplicate_groups_count": 0,
-    "ocr_pipeline_run": "2026-11-21T18:18:06.692086+00:00",
-    "processed_files": 122,
-    "ocr_engine": "PyMuPDF (fitz) + RapidOCR"
+    "duplicate_groups_count": 0
   },
   "low_text_files": [
     "amlodipine/mibral/source-mibral generique.pdf"
@@ -148,8 +145,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md",
               "extracted_chars": 36901,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/acide-acetylsalicylique/aspirine-cardio/RCP_ASPIRINE-Cardio_100mg.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -316,8 +312,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amdolipine rcp.md",
           "extracted_chars": 34084,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine rcp.md"
+          "text_quality": "ok"
         },
         {
           "filename": "source-amdolipine-daily med -rcp.pdf",
@@ -337,8 +332,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md",
           "extracted_chars": 4238,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amdolipine-daily med -rcp.md"
+          "text_quality": "ok"
         },
         {
           "filename": "source-amlodopine-notice.pdf",
@@ -358,8 +352,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/source-amlodopine-notice.md",
           "extracted_chars": 18424,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/source-amlodopine-notice.md"
+          "text_quality": "ok"
         },
         {
           "filename": "Source-info -amlodipline.pdf",
@@ -379,8 +372,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amlodipine/Source-info -amlodipline.md",
           "extracted_chars": 4037,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/Source-info -amlodipline.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -405,8 +397,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlibon/source-generique.md",
               "extracted_chars": 10949,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-generique.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source-interaction.pdf",
@@ -426,8 +417,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlibon/source-interaction.md",
               "extracted_chars": 11052,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlibon/source-interaction.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -452,8 +442,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlodal/source -generique.md",
               "extracted_chars": 9651,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source -generique.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source amlodal interaction.pdf",
@@ -473,8 +462,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md",
               "extracted_chars": 10655,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/amlodal/source amlodal interaction.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -499,8 +487,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md",
               "extracted_chars": 33586,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/RCP-MIBRL.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source-mibral generique.pdf",
@@ -520,8 +507,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/source-mibral generique.md",
               "extracted_chars": 121,
-              "text_quality": "low_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral generique.md"
+              "text_quality": "low_text"
             },
             {
               "filename": "source-mibral interactiob.pdf",
@@ -541,8 +527,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md",
               "extracted_chars": 11496,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amlodipine/mibral/source-mibral interactiob.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -670,8 +655,8 @@
       },
       "source_files": [
         {
-          "filename": "Article_AMOXICILLINE.pdf",
-          "relative_path": "amoxicilline/Article_AMOXICILLINE.pdf",
+          "filename": "Article_Amoxicilline.pdf",
+          "relative_path": "amoxicilline/Article_Amoxicilline.pdf",
           "extension": "pdf",
           "doc_type": "article",
           "source_type": "scientific_article",
@@ -687,8 +672,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/amoxicilline/Article_Amoxicilline.md",
           "extracted_chars": 220817,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/Article_Amoxicilline.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -711,8 +695,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md",
               "extracted_chars": 62,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/AMOXICILLINE EG_250.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "Notice_AMOXICILLINE EG_250.pdf",
@@ -732,8 +715,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md",
               "extracted_chars": 23829,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/Notice_AMOXICILLINE EG_250.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_AMOXICILLINE EG_250.pdf",
@@ -753,8 +735,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md",
               "extracted_chars": 33714,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/AMOXICILLINE EG/RCP_AMOXICILLINE EG_250.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -777,8 +758,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 187,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/CLAMOXYL_250 _mg5__ml.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "Notice_CLAMOXYL_250 _mg5__ml.pdf",
@@ -798,8 +778,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 25079,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/Notice_CLAMOXYL_250 _mg5__ml.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_CLAMOXYL_250 _mg5__ml.pdf",
@@ -820,8 +799,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md",
               "extracted_chars": 34966,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline/CLAMOXYL_250 _mg5__ml/RCP_CLAMOXYL_250 _mg5__ml.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -911,8 +889,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md",
               "extracted_chars": 185,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_1.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.jpg",
@@ -930,8 +907,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md",
               "extracted_chars": 45,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_2.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -951,8 +927,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md",
               "extracted_chars": 28468,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/Notice_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.pdf",
@@ -972,8 +947,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md",
               "extracted_chars": 39393,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS/RCP_AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS_100_mg.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -996,8 +970,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md",
               "extracted_chars": 94,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/AMOXICILLINE_ACIDE_CLAVULANIQUE_SANDOZ_1 g_200 mg.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
@@ -1017,8 +990,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md",
               "extracted_chars": 25504,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/Notice_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf",
@@ -1038,8 +1010,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md",
               "extracted_chars": 40859,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -1121,8 +1092,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/aténolol/aténolol_Notice_ANSM.md",
           "extracted_chars": 14229,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "aténolol_RCP_ANSM.pdf",
@@ -1140,8 +1110,206 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/aténolol/aténolol_RCP_ANSM.md",
           "extracted_chars": 27603,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/aténolol/aténolol_RCP_ANSM.md"
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "azithromycine",
+      "normalized_dci": "azithromycine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/azithromycine.md",
+        "chars": 3310,
+        "sections": [
+          "DCI : AZITHROMYCINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01FA10",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Azithromycin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/2276/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Azithromycin 250 mg ; Azithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA10) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA10 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Azithromycin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MYCINAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZITROMICINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "AZIMYCINE",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "BINOZYT",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZETRON",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "AZYTER",
+            "form": "COLLYRE EN SOLUTION EN RECIPIENT UNIDOSE",
+            "dosage": "15 MG/G"
+          },
+          {
+            "brand": "BINOZYT",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZETRON",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITROMICINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZIMAC",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHRAL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROM HUP",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROMYCINE BEKER",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROMYCINE NS",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MYCINAD",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITHROMAX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITHROMYCINE BGL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZOMAX",
+            "form": "POUDRE POUR SOLUTION BUVABLE",
+            "dosage": "200MG/5ML(40MG/ML)"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "POUDRE POUR SOLUTION BUVABLE",
+            "dosage": "200MG/5ML(40MG/ML)"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Azithromycin 500mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Azithromycin 250 mg ; Azithromycin 500 mg)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01FA10)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01FA10"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 25198
+      },
+      "source_files": [
+        {
+          "filename": "azithromycine_Notice_EMC.pdf",
+          "relative_path": "azithromycine/azithromycine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 324337,
+          "hash_sha256": "da828f3a2a41594bf4c874145f8c042687b24575ef7c69ea66600f3bf43b97c0",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/azithromycine/azithromycine_Notice_EMC.md",
+          "extracted_chars": 22528,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "azithromycine_RCP_EMC.pdf",
+          "relative_path": "azithromycine/azithromycine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 217870,
+          "hash_sha256": "e385b1d21193182ae7b47605bcb9c0f97496bb7eba3ab06b3e9c5fbfb472a0fb",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/azithromycine/azithromycine_RCP_EMC.md",
+          "extracted_chars": 2670,
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -1327,8 +1495,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md",
           "extracted_chars": 17795,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "bisoprolol_RCP_ANPP.pdf",
@@ -1346,8 +1513,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md",
           "extracted_chars": 24808,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/bisoprolol/bisoprolol_RCP_ANPP.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -1495,8 +1661,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/Article__CEFIXIME.md",
           "extracted_chars": 214923,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Article__CEFIXIME.md"
+          "text_quality": "ok"
         },
         {
           "filename": "CEFIXIME ALMUS 200 mg.webp",
@@ -1514,8 +1679,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md",
           "extracted_chars": 143,
-          "text_quality": "image_short_text",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/CEFIXIME ALMUS 200 mg.md"
+          "text_quality": "image_short_text"
         },
         {
           "filename": "Notice_CEFIXIME_ALMUS_200_mg.pdf",
@@ -1535,8 +1699,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md",
           "extracted_chars": 17145,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/Notice_CEFIXIME_ALMUS_200_mg.md"
+          "text_quality": "ok"
         },
         {
           "filename": "RCP_CEFIXIME_ALMUS_200_mg.pdf",
@@ -1556,8 +1719,104 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md",
           "extracted_chars": 20221,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md"
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "ceftriaxone",
+      "normalized_dci": "ceftriaxone",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/ceftriaxone.md",
+        "chars": 2568,
+        "sections": [
+          "DCI : CEFTRIAXONE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01DD04",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01DD04) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "CETRIAL",
+            "form": "PDRE P.PREPARATION INJ IV",
+            "dosage": "1G/FL"
+          },
+          {
+            "brand": "CETRIAXONE HUP",
+            "form": "PDRE. ET SOLV. P. SOL. INJ. IV",
+            "dosage": "1G/FL. DE PDRE."
+          },
+          {
+            "brand": "ZAFOTRIAXONE",
+            "form": "POUDRE POUR SOLUTION INJECTABLE IV/IM",
+            "dosage": "1G/FL. DE PDRE."
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01DD04)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 77350
+      },
+      "source_files": [
+        {
+          "filename": "ceftriaxone_Notice_ANSM.pdf",
+          "relative_path": "ceftriaxone/ceftriaxone_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 493755,
+          "hash_sha256": "06ed25525791bc775a2ad6b965ed5b79b77fdd92e37d3aa4df56c19b2f887157",
+          "is_duplicate": false,
+          "page_count": 6,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ceftriaxone/ceftriaxone_Notice_ANSM.md",
+          "extracted_chars": 23707,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "ceftriaxone_RCP_ANSM.pdf",
+          "relative_path": "ceftriaxone/ceftriaxone_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 710748,
+          "hash_sha256": "c2a88edb422f3c2316af788cd83323c217de30dcd9bf643e4bcfad581cd3d14b",
+          "is_duplicate": false,
+          "page_count": 12,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ceftriaxone/ceftriaxone_RCP_ANSM.md",
+          "extracted_chars": 53643,
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -1708,8 +1967,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md",
               "extracted_chars": 3474,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Article_ZINNAT_125_mg5_ml.md"
+              "text_quality": "ok"
             },
             {
               "filename": "Notice_ZINNAT_125_mg_5_ml.pdf",
@@ -1729,8 +1987,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 26362,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_125_mg_5_ml.md"
+              "text_quality": "ok"
             },
             {
               "filename": "Notice_ZINNAT_250_mg.pdf",
@@ -1750,8 +2007,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md",
               "extracted_chars": 18512,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/Notice_ZINNAT_250_mg.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_ZINNAT_125_mg_5_ml.pdf",
@@ -1771,8 +2027,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 41543,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_125_mg_5_ml.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_ZINNAT_250.pdf",
@@ -1792,8 +2047,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md",
               "extracted_chars": 32316,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/RCP_ZINNAT_250.md"
+              "text_quality": "ok"
             },
             {
               "filename": "ZINNAT_125_mg_5_ml.webp",
@@ -1811,8 +2065,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md",
               "extracted_chars": 253,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/céfuroxime/ZINNAT/ZINNAT_125_mg_5_ml.md"
+              "text_quality": "image_short_text"
             }
           ]
         }
@@ -2050,8 +2303,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md",
           "extracted_chars": 3479,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/Article_CÉLÉCOXIB.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -2076,8 +2328,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md",
               "extracted_chars": 29198,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/Notice_CELEBREX_100_mg.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_CELEBREX_100_mg.pdf",
@@ -2097,12 +2348,433 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md",
               "extracted_chars": 59214,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/célécoxib/CELEBREX/RCP_CELEBREX_100_mg.md"
+              "text_quality": "ok"
             }
           ]
         }
       ]
+    },
+    {
+      "dci": "ciprofloxacine",
+      "normalized_dci": "ciprofloxacine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/ciprofloxacine.md",
+        "chars": 3749,
+        "sections": [
+          "DCI : CIPROFLOXACINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01MA02",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Ciprofloxacin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7257/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Ciprofloxacin 250 mg film-coated tablets ; Ciprofloxacin 500 mg film-coated tablets ; Ciprofloxacin 750 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Ciprofloxacin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "OZAFLOX",
+            "form": "COMPRIME ENROBE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "FLOCINE250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "LOXANAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CIPRO 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPRODAR",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LOXANAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEFLOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "QUINOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXACINE BEKER",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "CIFLOXACINE",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXACINE BEKER",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXAL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLOCINE500",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CILOXAN",
+            "form": "POMMADE OPHTALMIQUE",
+            "dosage": "0,003"
+          },
+          {
+            "brand": "OTOCINE",
+            "form": "SOL AURICULAIRE STERILE",
+            "dosage": "2MG/ML (1MG/0,5ML)"
+          },
+          {
+            "brand": "OTOFLOX",
+            "form": "SOL AURICULAIRE STERILE",
+            "dosage": "2MG/ML (1MG/0,5ML)"
+          },
+          {
+            "brand": "QUINOX LP",
+            "form": "COMPRIME A LIBERATION PROLONGEE",
+            "dosage": "1G"
+          },
+          {
+            "brand": "CIPRO",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "CIPRODAR",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Ciprofloxacin 500mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Ciprofloxacin 250 mg film-coated tablets ; Ciprofloxacin 500 mg film-coated tablets ; Ciprofloxacin 750 mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01MA02)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 32149
+      },
+      "source_files": [
+        {
+          "filename": "ciprofloxacine_Notice_EMC.pdf",
+          "relative_path": "ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 332168,
+          "hash_sha256": "c65f1d0fcb6ba8800437ca0ff5fa922f0567f7fa0911d0372221375a0ee23f04",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.md",
+          "extracted_chars": 29457,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "ciprofloxacine_RCP_EMC.pdf",
+          "relative_path": "ciprofloxacine/ciprofloxacine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 217521,
+          "hash_sha256": "6cf75e4bd8e4d249fbb61b9d16e780dd42b8bc0f435f832793a3b779c7db87d5",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.md",
+          "extracted_chars": 2692,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "clarithromycine",
+      "normalized_dci": "clarithromycine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/clarithromycine.md",
+        "chars": 3536,
+        "sections": [
+          "DCI : CLARITHROMYCINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01FA09",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Clarithromycin 500 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7072/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Clarithromycin 250 mg ; Clarithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA09) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Clarithromycin 500 mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MEDOCLAR",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZECLAR",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEDOCLAR",
+            "form": "COMPRIME",
+            "dosage": "250 MG"
+          },
+          {
+            "brand": "ORADRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ARICLARE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARIDAR 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITHROMYCINE NS",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "RITOCINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ORADRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CLARIDAR 250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "RITOCINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZECLAR",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "GRANULE POUR SUSPENSION BUV",
+            "dosage": "50MG/ML"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "GRANULE POUR SUSPENSION BUV",
+            "dosage": "25MG/ML"
+          },
+          {
+            "brand": "ZECLAR 25",
+            "form": "GRANULE POUR SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "HUCLAR",
+            "form": "GRANULE POUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "CLARIDAR 250",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "250MG/5ML"
+          },
+          {
+            "brand": "HUCLAR",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "250MG/5ML"
+          },
+          {
+            "brand": "CLARIDAR 125",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Clarithromycin 500 mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Clarithromycin 250 mg ; Clarithromycin 500 mg)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01FA09)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 20150
+      },
+      "source_files": [
+        {
+          "filename": "clarithromycine_Notice_EMC.pdf",
+          "relative_path": "clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 162440,
+          "hash_sha256": "6800df40a7f74d06ac9ab61a2a5d9824f49afb48fbdb33955761a5a9aea84e46",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/clarithromycine/clarithromycine_Notice_EMC.md",
+          "extracted_chars": 17479,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "clarithromycine_RCP_EMC.pdf",
+          "relative_path": "clarithromycine/clarithromycine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 216974,
+          "hash_sha256": "2855920a23b9f7ea0ea6c577ca9439d6eefe3f8eaeb6eb49e3d288e50cffdbbc",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/clarithromycine/clarithromycine_RCP_EMC.md",
+          "extracted_chars": 2671,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
     },
     {
       "dci": "clindamycine",
@@ -2199,8 +2871,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source-ansm-notice.md",
           "extracted_chars": 14671,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm-notice.md"
+          "text_quality": "ok"
         },
         {
           "filename": "source-ansm_info.pdf",
@@ -2220,8 +2891,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source-ansm_info.md",
           "extracted_chars": 4155,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source-ansm_info.md"
+          "text_quality": "ok"
         },
         {
           "filename": "source_ansm-rcp.pdf",
@@ -2241,8 +2911,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/clindamycine/source_ansm-rcp.md",
           "extracted_chars": 15424,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/source_ansm-rcp.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -2267,8 +2936,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md",
               "extracted_chars": 9260,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansm-generique.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source-ansmi- interaction.pdf",
@@ -2288,8 +2956,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md",
               "extracted_chars": 8193,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/acnestop/source-ansmi- interaction.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -2314,8 +2981,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md",
               "extracted_chars": 7221,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/clinaram/source_ansm_interaction dwadz.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -2340,8 +3006,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md",
               "extracted_chars": 8075,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm-interaction.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source-ansm_generique.pdf",
@@ -2361,12 +3026,142 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md",
               "extracted_chars": 8065,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/clindamycine/derma-t/source-ansm_generique.md"
+              "text_quality": "ok"
             }
           ]
         }
       ]
+    },
+    {
+      "dci": "cotrimoxazole",
+      "normalized_dci": "cotrimoxazole",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/cotrimoxazole.md",
+        "chars": 2895,
+        "sections": [
+          "DCI : COTRIMOXAZOLE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01EE01",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01EE01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de BACTRIM FORTE, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "COTRIMOXAL",
+            "form": "COMPRIME",
+            "dosage": "400MG/80MG"
+          },
+          {
+            "brand": "PRIMAZOL",
+            "form": "COMPRIME",
+            "dosage": "400MG/80MG"
+          },
+          {
+            "brand": "COTRIMOXAL FORTE",
+            "form": "COMPRIME AVEC BARRE DE CASSEURE",
+            "dosage": "800MG/160MG"
+          },
+          {
+            "brand": "C-ZOLE",
+            "form": "SOLUTION INJECTABLE POUR PER IV",
+            "dosage": "80 MG/400MG ( 16MG/ML/80 MG/ML)"
+          },
+          {
+            "brand": "BACTISOL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5ML"
+          },
+          {
+            "brand": "COTRIM",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5ML"
+          },
+          {
+            "brand": "COTRIMAZOLE",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5Ml"
+          },
+          {
+            "brand": "DIPRIM",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5Ml"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01EE01)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 61678
+      },
+      "source_files": [
+        {
+          "filename": "cotrimoxazole_Notice_ANSM.pdf",
+          "relative_path": "cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 455989,
+          "hash_sha256": "5354d021b26dd30fb77066c80b576efe55fc0c7464c468dabb5ae45429fd053e",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [
+            "Repeated header/footer noise detected (2 unique blocks)"
+          ],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.md",
+          "extracted_chars": 22313,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "cotrimoxazole_RCP_ANSM.pdf",
+          "relative_path": "cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 606269,
+          "hash_sha256": "420c9a272a974e719fb751c8efb6b6cbb8c3ad626a7762a16995304f5393e1cf",
+          "is_duplicate": false,
+          "page_count": 9,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.md",
+          "extracted_chars": 39365,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
     },
     {
       "dci": "diclofenac",
@@ -2707,8 +3502,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md",
               "extracted_chars": 31392,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/Notice_DICLOFENAC_SANDOZ_50mg_ANSM.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_BIOFENAC_50mg.pdf",
@@ -2728,8 +3522,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md",
               "extracted_chars": 56731,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/biofenac/RCP_BIOFENAC_50mg.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -2754,8 +3547,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md",
               "extracted_chars": 40626,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_BIOFENAC-LP_75mg.pdf",
@@ -2775,12 +3567,115 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md",
               "extracted_chars": 53301,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.md"
+              "text_quality": "ok"
             }
           ]
         }
       ]
+    },
+    {
+      "dci": "doxycycline",
+      "normalized_dci": "doxycycline",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/doxycycline.md",
+        "chars": 2652,
+        "sections": [
+          "DCI : DOXYCYCLINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01AA02",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (DOXYCYCLINE SANDOZ 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01AA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "XYLINE",
+            "form": "COMPRIME SECABLE",
+            "dosage": "100 MG"
+          },
+          {
+            "brand": "DOTUR",
+            "form": "COMPRIME SECABLE",
+            "dosage": "100 MG"
+          },
+          {
+            "brand": "DOXYNUP",
+            "form": "COMPRIME ORODISPERSIBLE",
+            "dosage": "100MG"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01AA02)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 22543
+      },
+      "source_files": [
+        {
+          "filename": "doxycycline_Notice_ANSM.pdf",
+          "relative_path": "doxycycline/doxycycline_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 449513,
+          "hash_sha256": "a448d9c8c5777da6e6e209ad4de3f32c985ac5201f78bffd417ab1193b474b3d",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/doxycycline/doxycycline_Notice_ANSM.md",
+          "extracted_chars": 18766,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "doxycycline_RCP_ANSM.pdf",
+          "relative_path": "doxycycline/doxycycline_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 267698,
+          "hash_sha256": "0b1b40ac87668dd41421a7e34b4edb1c14ac6e766925a3c56c0aeb6ef0234df5",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/doxycycline/doxycycline_RCP_ANSM.md",
+          "extracted_chars": 3777,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
     },
     {
       "dci": "enalapril",
@@ -2858,8 +3753,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (2).csv"
+          "text_quality": "structured_data"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
@@ -2877,8 +3771,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv"
+          "text_quality": "structured_data"
         }
       ],
       "brands": []
@@ -3044,8 +3937,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/gentamicine/daily med genta.md",
           "extracted_chars": 26826,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/daily med genta.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -3070,8 +3962,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md",
               "extracted_chars": 9982,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_ansm_fiche_info.pdf",
@@ -3091,8 +3982,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md",
               "extracted_chars": 3743,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_fiche_info.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_ansm_interaction_medicament.pdf",
@@ -3112,8 +4002,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md",
               "extracted_chars": 9507,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_interaction_medicament.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_ansm_noticc.pdf",
@@ -3133,8 +4022,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md",
               "extracted_chars": 16839,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_noticc.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_ansm_rcp.pdf",
@@ -3154,8 +4042,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md",
               "extracted_chars": 31889,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/source_ansm_rcp.md"
+              "text_quality": "ok"
             },
             {
               "filename": "sourcedwadz--.png",
@@ -3173,8 +4060,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md",
               "extracted_chars": 599,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz--.md"
+              "text_quality": "ok"
             },
             {
               "filename": "sourcedwadz-.png",
@@ -3192,8 +4078,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md",
               "extracted_chars": 499,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/genta_80/sourcedwadz-.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -3218,8 +4103,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md",
               "extracted_chars": 9419,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_generiques.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_ansm_interaction_avc_autre_mid.pdf",
@@ -3239,8 +4123,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md",
               "extracted_chars": 9437,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/gentacine/source_ansm_interaction_avc_autre_mid.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -3265,8 +4148,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md",
               "extracted_chars": 8484,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_ansm_generique.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_interaction_s genta.pdf",
@@ -3286,8 +4168,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md",
               "extracted_chars": 8956,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/gentamicine/s_genta/source_interaction_s genta.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -3632,8 +4513,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md",
               "extracted_chars": 12824,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_GELFEN_5%.pdf",
@@ -3653,8 +4533,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md",
               "extracted_chars": 11510,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ibuprofene/gelfen/RCP_GELFEN_5%.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -3731,8 +4610,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/indapamide/indapamide_Notice_ANSM.md",
           "extracted_chars": 18699,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "indapamide_RCP_ANSM.pdf",
@@ -3752,8 +4630,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/indapamide/indapamide_RCP_ANSM.md",
           "extracted_chars": 26218,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/indapamide/indapamide_RCP_ANSM.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -3945,8 +4822,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md",
               "extracted_chars": 79,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/image_profenid.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "notice_profenid.pdf",
@@ -3964,8 +4840,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md",
               "extracted_chars": 10466,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/documents_complementaires_non_reference/notice_profenid.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -3990,8 +4865,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md",
               "extracted_chars": 13264,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_KOPROFEN_2.5%.pdf",
@@ -4011,12 +4885,172 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md",
               "extracted_chars": 11287,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ketoprofene/koprofen/RCP_KOPROFEN_2.5%.md"
+              "text_quality": "ok"
             }
           ]
         }
       ]
+    },
+    {
+      "dci": "lévofloxacine",
+      "normalized_dci": "levofloxacine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/lévofloxacine.md",
+        "chars": 3016,
+        "sections": [
+          "DCI : LÉVOFLOXACINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01MA12",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/pil — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA12) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Levofloxacin 500mg tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "LEVOWORLD",
+            "form": "COLLYRE",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "VIVAXIN",
+            "form": "COLLYRE",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LOXAMOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "LOXAMOX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MATADOR 250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "MATADOR 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MATADOR 750",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "LEVOFLOX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LEVOQUIN",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LEVOWORLD",
+            "form": "GOUTTES OCULAIRES ET AURICULAIRES EN SOLUTION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LEVOQUIN",
+            "form": "SOLUTION POUR PERFUSION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LEVOFLOXACINE RAZES",
+            "form": "SOLUTION POUR PERFUSION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Levofloxacin 500mg tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Levofloxacin 500mg tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01MA12)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 6499
+      },
+      "source_files": [
+        {
+          "filename": "levofloxacine_Notice_EMC.pdf",
+          "relative_path": "lévofloxacine/levofloxacine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 257928,
+          "hash_sha256": "9c04889bde7f05356cea92873f832a342f6ebacbc1d4ac7c42f8f3a217b1cb5d",
+          "is_duplicate": false,
+          "page_count": 4,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/lévofloxacine/levofloxacine_Notice_EMC.md",
+          "extracted_chars": 3474,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "levofloxacine_RCP_EMC.pdf",
+          "relative_path": "lévofloxacine/levofloxacine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 255105,
+          "hash_sha256": "5d65f372d33dae6db46d5f288847b7a0b6d34a8d4af231a639213a43f547e38a",
+          "is_duplicate": false,
+          "page_count": 4,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/lévofloxacine/levofloxacine_RCP_EMC.md",
+          "extracted_chars": 3025,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
     },
     {
       "dci": "losartan",
@@ -4130,8 +5164,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (1).csv"
+          "text_quality": "structured_data"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
@@ -4149,8 +5182,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv"
+          "text_quality": "structured_data"
         }
       ],
       "brands": []
@@ -4225,8 +5257,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md",
           "extracted_chars": 32581,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.md"
+          "text_quality": "ok"
         },
         {
           "filename": "RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf",
@@ -4246,8 +5277,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md",
           "extracted_chars": 48525,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -4320,8 +5350,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md",
           "extracted_chars": 10717,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "méthyldopa_RCP_ANSM.pdf",
@@ -4339,8 +5368,263 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md",
           "extracted_chars": 19747,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md"
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "metronidazole",
+      "normalized_dci": "metronidazole",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/metronidazole.md",
+        "chars": 3902,
+        "sections": [
+          "DCI : MÉTRONIDAZOLE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01XD01",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01XD01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01XD01 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de FLAGYL 500 mg, comprimé pelliculé (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MEDAZOL",
+            "form": "COMPRIME",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROGYL",
+            "form": "COMPRIME",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "RONIDAZ 500",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "BIODAZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLAGYNEX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METAZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEDOGYL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAZOLE MM",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "FLAZOL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "RONIDAZ 250",
+            "form": "COMPRIME SECABLE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROGYL",
+            "form": "COMPRIME SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAZOLE HUP",
+            "form": "COMPRIME SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDQZAZOLE MM",
+            "form": "COPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROZEX",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "ROSADOZE",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "ROZEX",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "METRONIDAZOLE BEKER",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METRONIDAZOLE BEKER",
+            "form": "GELULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FONGYMEX",
+            "form": "OVULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METROFAGYL",
+            "form": "OVULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLAGYL",
+            "form": "OVULE VAGINALE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "OVULE VAGINALE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "BIODAZOLE",
+            "form": "SOLUTION INJECTABLE",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "METRONIDAZOLE BIEFFE MEDITAL",
+            "form": "SOLUTION INJECTABLE",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "MEDROGYL",
+            "form": "SOLUTION INJECTABLE IV",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "METRONIDAZOLE RAZES 0,5%",
+            "form": "SOLUTION INJECTABLE POUR PERFUSION",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "FLAZOL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "METAGYL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "FLAGYL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01XD01)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01XD01"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 46426
+      },
+      "source_files": [
+        {
+          "filename": "metronidazole_Notice_ANSM.pdf",
+          "relative_path": "metronidazole/metronidazole_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 449737,
+          "hash_sha256": "62eaf493770ed3efd7d2e4d50cc5cc0344186d5d479d41bfbe30cdf670c81816",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [
+            "Repeated header/footer noise detected (1 unique blocks)"
+          ],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/metronidazole/metronidazole_Notice_ANSM.md",
+          "extracted_chars": 21525,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "metronidazole_RCP_ANSM.pdf",
+          "relative_path": "metronidazole/metronidazole_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 534056,
+          "hash_sha256": "ff9c240d7d179609dada21ca5fe266269187f713ac1b4faff0262a510a8c5afa",
+          "is_duplicate": false,
+          "page_count": 7,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/metronidazole/metronidazole_RCP_ANSM.md",
+          "extracted_chars": 24901,
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -4470,8 +5754,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md",
           "extracted_chars": 87605,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -4594,8 +5877,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md",
           "extracted_chars": 19924,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "nébivolol_RCP_ANSM.pdf",
@@ -4615,8 +5897,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md",
           "extracted_chars": 33127,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nébivolol/nébivolol_RCP_ANSM.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -4694,8 +5975,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/Article_NÉFOPAM.md",
           "extracted_chars": 30081,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Article_NÉFOPAM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "NEFOPAM.webp",
@@ -4713,8 +5993,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/NEFOPAM.md",
           "extracted_chars": 116,
-          "text_quality": "image_short_text",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM.md"
+          "text_quality": "image_short_text"
         },
         {
           "filename": "NEFOPAM_ARROW_20_mg_2_ml.png",
@@ -4732,8 +6011,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md",
           "extracted_chars": 144,
-          "text_quality": "image_short_text",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/NEFOPAM_ARROW_20_mg_2_ml.md"
+          "text_quality": "image_short_text"
         },
         {
           "filename": "Notice_NEFOPAM.pdf",
@@ -4753,8 +6031,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/Notice_NEFOPAM.md",
           "extracted_chars": 12331,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/Notice_NEFOPAM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "RCP_NEFOPAM.pdf",
@@ -4774,8 +6051,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/néfopam/RCP_NEFOPAM.md",
           "extracted_chars": 12950,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/néfopam/RCP_NEFOPAM.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -4845,8 +6121,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/nifedipine/dailymed-nifedipine.md",
           "extracted_chars": 3317,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/nifedipine/dailymed-nifedipine.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -5364,8 +6639,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md",
               "extracted_chars": 13945,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/notice_doliprane.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_Doliprane_2.4%.pdf",
@@ -5383,8 +6657,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md",
               "extracted_chars": 27420,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/documents_complementaires_non_reference/RCP_Doliprane_2.4%.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -5407,8 +6680,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/panadol/notice_panadol.md",
               "extracted_chars": 12986,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/notice_panadol.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_Panadol_1g.pdf",
@@ -5428,8 +6700,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md",
               "extracted_chars": 16485,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracetamol/panadol/RCP_Panadol_1g.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_panadol_dwadz.md",
@@ -5580,8 +6851,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md",
           "extracted_chars": 3671,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/Article_PARACÉTAMOL_CODÉINE.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -5606,8 +6876,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md",
               "extracted_chars": 29670,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/Notice_DAFALGAN_CODEINE.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_DAFALGAN_CODEINE.pdf",
@@ -5627,8 +6896,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md",
               "extracted_chars": 41435,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/DAFALGAN_CODEINE/RCP_DAFALGAN_CODEINE.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -5653,8 +6921,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md",
               "extracted_chars": 25817,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/Notice_PARACETAMOL_CODEINE.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_PARACETAMOL_CODEINE.pdf",
@@ -5674,8 +6941,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md",
               "extracted_chars": 34793,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/paracétamol + codéine/PARACETAMOL CODEINE ARROW/RCP_PARACETAMOL_CODEINE.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -5785,8 +7051,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/coversyl/source interaction.md",
               "extracted_chars": 12349,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source interaction.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source-generique-.pdf",
@@ -5806,8 +7071,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/coversyl/source-generique-.md",
               "extracted_chars": 12226,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/coversyl/source-generique-.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -5832,8 +7096,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/generique.md",
               "extracted_chars": 12549,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/generique.md"
+              "text_quality": "ok"
             },
             {
               "filename": "interaction.pdf",
@@ -5853,8 +7116,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/interaction.md",
               "extracted_chars": 12329,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/interaction.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source rcp. prindoprile.pdf",
@@ -5874,8 +7136,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md",
               "extracted_chars": 4714,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindopril/source rcp. prindoprile.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -5900,8 +7161,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/perindopril/perindosyl/iteraction-source.md",
               "extracted_chars": 12082,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/perindopril/perindosyl/iteraction-source.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -6099,8 +7359,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md",
           "extracted_chars": 15577,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/piroxicam_Notice_ANMDMR.md"
+          "text_quality": "ok"
         },
         {
           "filename": "RCP_PAINOXAM_20mg.pdf",
@@ -6120,8 +7379,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md",
           "extracted_chars": 43615,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/RCP_PAINOXAM_20mg.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -6144,8 +7402,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md",
               "extracted_chars": 61,
-              "text_quality": "image_short_text",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/image_fenoxam.md"
+              "text_quality": "image_short_text"
             },
             {
               "filename": "RCP_FENOXAM.pdf",
@@ -6165,8 +7422,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md",
               "extracted_chars": 18678,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/piroxicam/documents_complementaires_non_reference/RCP_FENOXAM.md"
+              "text_quality": "ok"
             },
             {
               "filename": "source_fenoxam_pharmnet.md",
@@ -6329,8 +7585,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (3).csv"
+          "text_quality": "structured_data"
         },
         {
           "filename": "Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
@@ -6348,8 +7603,7 @@
           "ocr_status": "copied",
           "processed_path": "data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
           "extracted_chars": 0,
-          "text_quality": "structured_data",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv"
+          "text_quality": "structured_data"
         }
       ],
       "brands": []
@@ -6417,8 +7671,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md",
           "extracted_chars": 15263,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "spironolactone_RCP_ANSM.pdf",
@@ -6436,8 +7689,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md",
           "extracted_chars": 28739,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/spironolactone/spironolactone_RCP_ANSM.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -6447,7 +7699,7 @@
       "normalized_dci": "tramadol",
       "fiche_dci": {
         "exists": true,
-        "path": "data/fiches_dci/TRAMADOL.md",
+        "path": "data/fiches_dci/tramadol.md",
         "chars": 4253,
         "sections": [
           "DCI : TRAMADOL",
@@ -6589,8 +7841,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/tramadol/Article_TRAMADOL.md",
           "extracted_chars": 3687,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/Article_TRAMADOL.md"
+          "text_quality": "ok"
         }
       ],
       "brands": [
@@ -6615,8 +7866,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md",
               "extracted_chars": 28871,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/Notice_TRAMADOL_ALMUS.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_TRAMADOL_ALMUS.pdf",
@@ -6636,8 +7886,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md",
               "extracted_chars": 39954,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ALMUS/RCP_TRAMADOL_ALMUS.md"
+              "text_quality": "ok"
             }
           ]
         },
@@ -6662,8 +7911,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md",
               "extracted_chars": 35699,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/Notice_TRAMADOL_ARROW.md"
+              "text_quality": "ok"
             },
             {
               "filename": "RCP_TRAMADOL_ARROW.pdf",
@@ -6683,8 +7931,7 @@
               "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md",
               "extracted_chars": 43769,
-              "text_quality": "ok",
-              "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/tramadol/TRAMADOL ARROW/RCP_TRAMADOL_ARROW.md"
+              "text_quality": "ok"
             }
           ]
         }
@@ -6911,8 +8158,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/valsartan/valsartan_Notice_ANSM.md",
           "extracted_chars": 23145,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_Notice_ANSM.md"
+          "text_quality": "ok"
         },
         {
           "filename": "valsartan_RCP_ANSM.pdf",
@@ -6932,8 +8178,7 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/valsartan/valsartan_RCP_ANSM.md",
           "extracted_chars": 65247,
-          "text_quality": "ok",
-          "processed_text_path": "C:/Users/Hp/Desktop/COGNIVEX/data/processed_corpus/valsartan/valsartan_RCP_ANSM.md"
+          "text_quality": "ok"
         }
       ],
       "brands": []
