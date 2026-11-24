@@ -120,7 +120,10 @@ python src/compare_search.py --bm25-only  # mots-clés seulement
 
 ### 4. Recherche
 
-- [Semaine 2 — Comparaison recherche par mots-clés / recherche sémantique](docs/evaluation/comparaison_recherche.md)
+- [Comparaison BM25 et recherche sémantique — expérience 1 (120/20)](docs/evaluation/comparaison_recherche_exp1.md)
+- [Comparaison BM25 et recherche sémantique — expérience 2 (240/40)](docs/evaluation/comparaison_recherche_exp2.md)
+- [Comparaison BM25 et recherche sémantique — expérience 3 (500/75)](docs/evaluation/comparaison_recherche_exp3.md)
+- [Synthèse de la comparaison des tailles de chunks](docs/evaluation/comparaison_tailles_chunks.md)
 - [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 
 ## Équipe

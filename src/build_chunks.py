@@ -1,21 +1,21 @@
 import json
 import re
-from pathlib import Path
 from pypdf import PdfReader
 
-
-ROOT = Path(__file__).resolve().parent.parent
-
-CORPUS_DIR = ROOT / "data" / "corpus"
-OCR_DIR = ROOT / "data" / "processed_corpus"
-OUTPUT_FILE = ROOT / "data" / "processed" / "chunks.jsonl"
-
-MAX_WORDS = 120
-OVERLAP_WORDS = 20
+from rag_config import (
+    ROOT,
+    CORPUS_DIR,
+    OCR_DIR,
+    CHUNKS_FILE as OUTPUT_FILE,
+    MAX_WORDS,
+    OVERLAP_WORDS,
+    nettoyer_texte,
+)
 
 
 def split_text(text):
-    words = text.split()
+    texte = nettoyer_texte(text)
+    words = texte.split()
     chunks = []
     start = 0
 
