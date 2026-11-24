@@ -70,6 +70,19 @@ python -m pip install -r requirements.txt
 
 - [Semaine 1 — Analyse du réponses du LLM sans RAG ](docs/evaluation/analyse_reponses_sans_RAG.md)
 
+### 4. Recherche dans le corpus (semaine 2)
+
+Découpage des documents, embeddings sémantiques (TF-IDF + SVD, calculés localement) et comparaison avec la recherche BM25 :
+
+```bash
+.\.venv\Scripts\python.exe src\build_vector_store.py
+.\.venv\Scripts\python.exe src\compare_search.py
+```
+
+- [Semaine 2 — Résultats de la comparaison](docs/evaluation/resultats_comparaison.md)
+- [Semaine 2 — Comparaison mots-clés et recherche sémantique](docs/evaluation/comparaison_recherche.md)
+- [Semaine 2 — Analyse de la comparaison](docs/evaluation/analyse_comparaison_recherche.md)
+
 
 ## Équipe
 - Lyna Anfel BELKHAIRI

@@ -1,0 +1,20 @@
+{
+  "method": "tfidf-svd",
+  "description": "Embeddings sémantiques latents (TF-IDF + SVD), vecteurs normalisés",
+  "created": "2026-11-20T22:42:18.271155+00:00",
+  "n_chunks": 3586,
+  "n_terms": 15000,
+  "dimension": 192,
+  "normalized": true,
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "by_kind": {
+    "fiche": 161,
+    "rcp": 1364,
+    "document": 548,
+    "notice": 781,
+    "article": 549,
+    "complementaire": 183
+  },
+  "n_dci": 46
+}
