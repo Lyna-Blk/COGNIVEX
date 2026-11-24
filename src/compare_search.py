@@ -3,13 +3,26 @@ import re
 import sys
 from collections import Counter
 
-from rag_config import (COLLECTION_NAME, EMBEDDING_MODEL, EVAL_DIR, QUESTIONS_FILE, ROOT, TOP_K,
-                        VECTOR_DB_DIR, charger_chunks, normalize, query_prefix, texte_indexe)
-
+from rag_config import (
+    COLLECTION_NAME,
+    EMBEDDING_MODEL,
+    EVAL_DIR,
+    QUESTIONS_FILE,
+    ROOT,
+    TOP_K,
+    VECTOR_DB_DIR,
+    EXPERIENCE,
+    MAX_WORDS,
+    OVERLAP_WORDS,
+    charger_chunks,
+    normalize,
+    query_prefix,
+    texte_indexe,
+) 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-RAPPORT_FILE = EVAL_DIR / "comparaison_recherche.md"
+RAPPORT_FILE = EVAL_DIR / f"comparaison_recherche_exp{EXPERIENCE}.md"
 
 def charger_questions() -> list[dict]:
    
@@ -170,7 +183,9 @@ def main():
     rapport = [
         "# Comparaison : recherche par mots-clés vs recherche sémantique", "",
         f"- Questions : {len(questions)} (docs/evaluation/questions_llm.md)",
-        f"- Chunks : {len(chunks)} (build_chunks.py : 120 mots max, chevauchement 20 mots)",
+        f"- Expérience : {EXPERIENCE}",
+f"- Chunks chargés : {len(chunks)}",
+f"- Découpage : {MAX_WORDS} mots max, chevauchement de {OVERLAP_WORDS} mots",
         f"- Mots-clés : BM25 (sans accents, sans mots vides) — Sémantique : `{EMBEDDING_MODEL}` + ChromaDB (cosinus)" if sem
         else "- Mots-clés : BM25 (sans accents, sans mots vides) — recherche sémantique non exécutée dans ce rapport",
         f"- Top-K = {TOP_K} résultats par méthode. Aucune réponse de référence : on compare les extraits retrouvés.", "",
