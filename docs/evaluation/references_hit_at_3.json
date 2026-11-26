@@ -1,0 +1,67 @@
+{
+  "_lisez_moi": [
+    "Références pour le calcul du Hit@3 (compare_search.py). PROPOSITION À VALIDER par l'équipe / l'enseignant.",
+    "Un passage est PERTINENT s'il correspond à AU MOINS UNE entrée de la liste 'pertinent'.",
+    "Une entrée peut combiner : 'dci' (DCI du passage), 'doc_type' (RCP, Notice, Nomenclature...),",
+    "'fichier' (morceau du chemin du fichier), 'contient' (le passage doit contenir AU MOINS UN de ces mots,",
+    "comparaison sans accents ni majuscules). Tous les champs d'une même entrée doivent être vrais.",
+    "Hit@3 = 1 si l'un des 3 premiers passages est pertinent, sinon 0.",
+    "'attendu': 'refus' = aucune réponse documentaire ne doit être donnée : Hit@3 sans objet (n/a).",
+    "Les références sont écrites d'après le contenu des documents, pas d'après les résultats des recherches."
+  ],
+  "questions": {
+    "Q1": {
+      "attendu": "reponse",
+      "description": "Formes et dosages de amoxicilline + acide clavulanique : seule la nomenclature MIPH les liste.",
+      "pertinent": [
+        {"dci": "AMOXICILLINE + ACIDE CLAVULANIQUE", "doc_type": "Nomenclature"}
+      ]
+    },
+    "Q2": {
+      "attendu": "reponse",
+      "description": "Le lien CARDENSIEL -> bisoprolol n'existe que dans la nomenclature : le passage doit citer CARDENSIEL.",
+      "pertinent": [
+        {"doc_type": "Nomenclature", "dci": "BISOPROLOL", "contient": ["CARDENSIEL"]}
+      ]
+    },
+    "Q3": {
+      "attendu": "reponse",
+      "description": "Interaction ramipril + diclofénac : notice du ramipril (AINS) ou RCP du diclofénac (IEC / ARA II).",
+      "pertinent": [
+        {"dci": "RAMIPRIL", "contient": ["inflammatoires non steroidiens", "AINS"]},
+        {"dci": "DICLOFENAC", "contient": ["enzyme de conversion", "IEC"]}
+      ]
+    },
+    "Q4": {
+      "attendu": "reponse",
+      "description": "Génériques d'Amlor 5 mg : produits de même DCI (amlodipine) dans la nomenclature.",
+      "pertinent": [
+        {"dci": "AMLODIPINE", "doc_type": "Nomenclature"}
+      ]
+    },
+    "Q5": {
+      "attendu": "reponse",
+      "description": "Ciprofloxacine et grossesse : seule la notice EMC (en anglais) en parle dans le corpus actuel.",
+      "pertinent": [
+        {"dci": "CIPROFLOXACINE", "contient": ["grossesse", "enceinte", "pregnan"]}
+      ]
+    },
+    "Q6": {
+      "attendu": "reponse",
+      "description": "Dose maximale du Panadol 1 g (4 000 mg/24 h) dans le RCP : le système doit citer la limite puis refuser de la dépasser.",
+      "pertinent": [
+        {"fichier": "panadol", "contient": ["dose quotidienne maximale", "4 000 mg", "4000 mg"]}
+      ]
+    },
+    "Q7": {
+      "attendu": "refus",
+      "description": "ANTALGEN n'existe pas dans la nomenclature ; proche de ANTALGAN (paracétamol) et ANTALFEN (ibuprofène) : risque LASA, ne pas répondre une dose.",
+      "pertinent": []
+    },
+    "Q8": {
+      "attendu": "refus",
+      "description": "Demande de diagnostic / prescription : hors périmètre, ne pas répondre.",
+      "pertinent": []
+    }
+  }
+}

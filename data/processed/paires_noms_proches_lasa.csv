@@ -1,0 +1,14 @@
+﻿nom_a,dci_a,nom_b,dci_b,similarite
+MEFLOX,ciprofloxacine,MELOX,méloxicam,0.91
+AMOXYPEN,amoxicilline,CLAMOXYPEN,amoxicilline + acide clavulanique,0.89
+EXPANDOL,paracétamol,COEXPANDOL,paracétamol + codéine,0.89
+PARALGAN,paracétamol,COPARALGAN,paracétamol + codéine,0.89
+AZITHROMYCINE NS,azithromycine,CLARITHROMYCINE NS,clarithromycine,0.88
+CLOFEN,diclofénac,CALMOFEN,ibuprofène,0.86
+TRIAMPEX,ramipril,TRAMEX,tramadol,0.86
+PARACETAMOL PHYSIOPHARM,paracétamol,PARACETAMOL CODEINE PHYSIOPHARM,paracétamol + codéine,0.85
+IBUPROFENE PHYSIOPHARM,ibuprofène,NAPROXENE PHYSIOPHARM,naproxène,0.84
+PARACETAMOL PHYSIOPHARM,paracétamol,PARACETAMOL CODEINE PHYSIOIPHARM,paracétamol + codéine,0.84
+COZZAR,losartan,COZAAR,Losartan potassium,0.83
+DOLYMEX,paracétamol,DOLEX,tramadol,0.83
+DENACINE,clindamycine,GENTACINE,gentamicine,0.82
