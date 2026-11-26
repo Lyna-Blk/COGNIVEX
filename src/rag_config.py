@@ -16,10 +16,7 @@ COLLECTION_NAME = "cognivex_chunks"
 EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
 TOP_K = 5
 
-# Expérience de découpage. On peut la changer sans modifier le fichier :
-#   Windows PowerShell :  $env:COGNIVEX_EXP=2 ; python src/compare_search.py
-# 240/40 est le choix provisoire de comparaison_tailles_chunks.md. Avec 500 mots, un passage
-# dépasse souvent les 512 jetons de multilingual-e5-small et la fin du passage est ignorée.
+# Experience de decoupage
 EXPERIENCE = int(os.getenv("COGNIVEX_EXP", "2"))
 
 CHUNK_SETTINGS = {
@@ -32,13 +29,14 @@ MAX_WORDS = CHUNK_SETTINGS[EXPERIENCE]["max_words"]
 OVERLAP_WORDS = CHUNK_SETTINGS[EXPERIENCE]["overlap_words"]
 
 CHUNKS_FILE = ROOT / "data" / "processed" / f"chunks_exp{EXPERIENCE}.jsonl"
+
 EMBEDDINGS_FILE = (
     ROOT / "data" / "processed" / "embeddings"
     / f"embeddings_exp{EXPERIENCE}.npy"
 )
+
 VECTOR_DB_DIR = ROOT / "data" / "processed" / f"vectordb_exp{EXPERIENCE}"
 
-# Fichiers de référence (Semaine 2 : normalisation des noms commerciaux et Hit@3)
 REFERENCE_XLSX = ROOT / "data" / "reference" / "Liste 40 medicaments final.xlsx"
 PRODUITS_FILE = ROOT / "data" / "processed" / "produits_details.json"
 METADATA_FILE = ROOT / "data" / "processed" / "corpus_metadata.json"
@@ -48,13 +46,13 @@ REFERENCES_FILE = EVAL_DIR / "references_hit_at_3.json"
 NETTOYER_BRUIT = True
 MIN_CHUNK_CHARS = 30
 
-# Pour la recherche hybride (recherche_hybride.py)
-POOL_HYBRIDE = 30      # nombre de candidats pris à chaque méthode avant la fusion
-RRF_K = 60             # constante classique de Reciprocal Rank Fusion
+# Recherche hybride
+POOL_HYBRIDE = 30
+RRF_K = 60
 
 
 def motif_ocr(expression: str) -> str:
-    """Construit un motif tolérant aux espaces insérés par l'OCR."""
+    """Construit un motif tolerant aux espaces inseres par l'OCR."""
     caracteres = [
         re.escape(caractere)
         for caractere in expression
@@ -65,47 +63,50 @@ def motif_ocr(expression: str) -> str:
 
 _DATE = r"\d{1,2}/\d{1,2}/\d{2,4},\s+\d{1,2}:\d{2}\s*[AP]M"
 
+# NETTOYAGE DU BRUIT OCR
+
 _BRUIT = [
-    # En-tête YAML ajouté par ocr_pipeline.py (contient un chemin Windows : du bruit pour BM25)
     re.compile(
         r'---\s*source:\s*"[^"]*"\s*dci:\s*"[^"]*"\s*brand:\s*"[^"]*"\s*'
         r'method:\s*"[^"]*"\s*processed:\s*"[^"]*"\s*chars:\s*\d+\s*---',
         re.I,
     ),
-    # Métadonnées techniques ajoutées par l'OCR
+
     re.compile(
         r'\bdoc:\s*"[^"]*"\s+processed:\s*"[^"]*"\s+'
         r'chars:\s*\d+\s*---',
         re.I,
     ),
+
     re.compile(
         r"<!--\s*(?:Start|End) of picture text\s*-->",
         re.I,
     ),
 
-    # Horodatage des pages web récupérées, y compris chiffres espacés par l'OCR
     re.compile(
         r"\b\d{1,2}/\d{1,2}/\d{4},?\s*"
         r"\d\s*\d\s*:\s*\d\s*\d\b",
         re.I,
     ),
 
-    # Boutons et menus répétitifs de DwaDZ
     re.compile(
         r"Voir\s*la\s*bo[iî]te\s*\(\s*Google\s*[)）]",
         re.I,
     ),
-   re.compile(
-    r"Tous\s*les\s*m[eé]dicaments\s*avec\s*cette\s*DC[I1l]"
-    r"\s*(?:Retour\s*←?)?",
-    re.I,
-),
+
+    re.compile(
+        r"Tous\s*les\s*m[eé]dicaments\s*avec\s*cette\s*DC[I1l]"
+        r"\s*(?:Retour\s*←?)?",
+        re.I,
+    ),
+
     re.compile(
         motif_ocr("Toutes les presentations de")
         + r"\s*[A-Z0-9_-]+\s*"
         + motif_ocr("Retour"),
         re.I,
     ),
+
     re.compile(motif_ocr("Voir plus"), re.I),
     re.compile(motif_ocr("Trouver une pharma"), re.I),
     re.compile(motif_ocr("Cartes du monde"), re.I),
@@ -115,37 +116,34 @@ _BRUIT = [
     re.compile(motif_ocr("Partager cette fiche"), re.I),
     re.compile(motif_ocr("Suivre la page"), re.I),
 
-    # Domaines répétés : on enlève le domaine, pas les informations du médicament
-    re.compile(
-        motif_ocr("pharmaveille-dz.vercel.app"),
-        re.I,
-    ),
-    re.compile(
-        motif_ocr("dzair-pharma.net"),
-        re.I,
-    ),
+    re.compile(motif_ocr("pharmaveille-dz.vercel.app"), re.I),
+    re.compile(motif_ocr("dzair-pharma.net"), re.I),
     re.compile(
         motif_ocr("base-donnees-publique.medicaments.gouv.fr"),
         re.I,
     ),
 
-    # En-têtes et onglets répétitifs de la base française
     re.compile(
         _DATE + r"\s+Base de Données Publique des Médicaments",
         re.I,
     ),
+
     re.compile(
         r"Base de Données Publique(?: des(?: Médicaments)?)?",
         re.I,
     ),
-    re.compile(r"Fiche info RCP Notice(?: Bon usage)?", re.I),
 
-    # Liens de navigation et pied de page de Légifrance
+    re.compile(
+        r"Fiche info RCP Notice(?: Bon usage)?",
+        re.I,
+    ),
+
     re.compile(
         r"legifrance\s*\.\s*gouv\s*\.\s*fr"
         r"[\s\S]{0,350}?Nos\s*partenaires",
         re.I,
     ),
+
     re.compile(
         r"Sauf\s*mention\s*contraire\s*,?\s*tous\s*les\s*contenus\s*"
         r"de\s*ce\s*site\s*sont\s*sous\s*licence\s*"
@@ -154,25 +152,23 @@ _BRUIT = [
         re.I,
     ),
 
-    # Références répétées du code, de la version et de la pagination des RCP
     re.compile(
         r"\bCode\s*:\s*[A-Z0-9./-]+\s+Version\s*:\s*\d+\s+"
         r"Page\s*\d+\s+sur\s*\d+\s+Version\s*:\s*\d+",
         re.I,
     ),
 
-    # Balises HTML laissées par l'extraction OCR
     re.compile(r"<br\s*/?>", re.I),
 ]
 
 
 def passage_prefix() -> str:
-    """Préfixe demandé par les modèles E5 pour les passages."""
+    """Prefixe demande par les modeles E5 pour les passages."""
     return "passage: " if "e5" in EMBEDDING_MODEL.lower() else ""
 
 
 def query_prefix() -> str:
-    """Préfixe demandé par les modèles E5 pour les questions."""
+    """Prefixe demande par les modeles E5 pour les questions."""
     return "query: " if "e5" in EMBEDDING_MODEL.lower() else ""
 
 
@@ -187,30 +183,33 @@ def texte_indexe(chunk: dict) -> str:
         )
         if valeur
     )
+
     return f"{contexte}\n{chunk['text']}"
 
 
 def normalize(text: str) -> str:
-    """Met en minuscules et enlève accents et ponctuation."""
+    """Met en minuscules et enleve accents et ponctuation."""
     text = unicodedata.normalize("NFKD", str(text))
+
     text = "".join(
         caractere
         for caractere in text
         if not unicodedata.combining(caractere)
     )
+
     text = re.sub(r"[^a-z0-9]+", " ", text.casefold())
+
     return " ".join(text.split())
 
 
 def canon_dci(nom: str) -> str:
-    """Clé commune pour comparer les noms de DCI du dossier corpus, de l'Excel et des chunks :
-    'cotrimoxazole (sulfaméthoxazole + triméthoprime)' -> 'cotrimoxazole' ;
-    'ACIDE-ACETYLSALICYLIQUE' -> 'acide acetylsalicylique' ; 'Diclofénac' -> 'diclofenac'."""
+    """Normalise le nom de la DCI."""
     return normalize(re.sub(r"\(.*?\)", " ", str(nom)))
 
+# FONCTION DE NETTOYAGE UTILISEE DANS BUILD_CHUNKS
 
 def nettoyer_texte(texte: str) -> str:
-    # Retire les marqueurs de texte barré parfois ajoutés par l'OCR.
+    # Retire les marqueurs de texte barre parfois ajoutes par l'OCR.
     texte = texte.replace("~~", "")
 
     for motif in _BRUIT:
@@ -218,6 +217,7 @@ def nettoyer_texte(texte: str) -> str:
 
     return " ".join(texte.split())
 
+# CHARGEMENT DES CHUNKS
 
 def charger_chunks() -> list[dict]:
     if not CHUNKS_FILE.is_file():
@@ -269,7 +269,8 @@ def charger_chunks() -> list[dict]:
 
     return chunks
 
-# ───────────────────────── provenance (tableau de provenance) ─────────────────────────
+# PROVENANCE DES DOCUMENTS
+
 TYPES_SOURCE = {
     "dz_official": "Algérie — officielle (ANPP / MIPH)",
     "label_country_unverified": "RCP / notice de produit (pays non vérifié)",
@@ -287,45 +288,72 @@ _PROVENANCE: dict[str, tuple[str, int]] | None = None
 
 
 def _cle_chemin(chemin: str) -> str:
-    """'data/corpus/amlodipine/x.pdf' ou 'data/processed_corpus/amlodipine/x.md' -> 'amlodipine/x'."""
+    """Normalise le chemin du document."""
     p = unicodedata.normalize("NFC", chemin).replace("\\", "/")
+
     for prefixe in ("data/corpus/", "data/processed_corpus/"):
         if p.startswith(prefixe):
             p = p[len(prefixe):]
+
     return os.path.splitext(p)[0].lower()
 
 
 def _charger_provenance() -> dict[str, tuple[str, int]]:
     global _PROVENANCE
+
     if _PROVENANCE is None:
         _PROVENANCE = {}
+
         if METADATA_FILE.is_file():
-            meta = json.loads(METADATA_FILE.read_text(encoding="utf-8"))
+            meta = json.loads(
+                METADATA_FILE.read_text(encoding="utf-8")
+            )
+
             for entree in meta.get("corpus", []):
                 fichiers = list(entree.get("source_files", []))
+
                 for marque in entree.get("brands", []):
                     fichiers += marque.get("files", [])
+
                 for f in fichiers:
                     _PROVENANCE[_cle_chemin(f["relative_path"])] = (
-                        f.get("source_type", "non_classe"), int(f.get("authority_tier", 9)))
+                        f.get("source_type", "non_classe"),
+                        int(f.get("authority_tier", 9)),
+                    )
+
     return _PROVENANCE
 
 
 def provenance(chunk: dict) -> tuple[str, int]:
-    """(type de source lisible, niveau d'autorité 1 = le plus fiable) d'un passage."""
+    """Retourne le type de source et son niveau d'autorite."""
+
     if chunk.get("doc_type") == "Nomenclature":
         return "Algérie — nomenclature MIPH (août 2026)", 1
-    type_source, niveau = _charger_provenance().get(_cle_chemin(chunk.get("fichier", "")), (None, 9))
-    if type_source is None:  # document absent des métadonnées : déduction prudente d'après le nom
+
+    type_source, niveau = _charger_provenance().get(
+        _cle_chemin(chunk.get("fichier", "")),
+        (None, 9),
+    )
+
+    if type_source is None:
         nom = chunk.get("fichier", "").lower()
+
         if "anpp" in nom:
             type_source, niveau = "dz_official", 1
-        elif any(m in nom for m in ("dwadz", "dwa-", "dwa_", "dzair", "source")):
+
+        elif any(
+            m in nom
+            for m in ("dwadz", "dwa-", "dwa_", "dzair", "source")
+        ):
             type_source, niveau = "dz_professional_site", 4
+
         elif "dailymed" in nom:
             type_source, niveau = "us_dailymed", 3
+
         elif "ansm" in nom:
             type_source, niveau = "fr_institutional", 3
+
         else:
             type_source = "non_classe"
+
     return TYPES_SOURCE.get(type_source, type_source), niveau
