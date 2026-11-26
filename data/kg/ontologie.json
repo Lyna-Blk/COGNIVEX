@@ -1,0 +1,58 @@
+{
+  "classes": {
+    "ClasseTherapeutique": "Classe thérapeutique",
+    "DCI": "Dénomination commune internationale",
+    "CodeATC": "Code de classification ATC",
+    "Produit": "Médicament commercialisé : référence ou générique",
+    "Presentation": "Forme pharmaceutique et dosage",
+    "Laboratoire": "Laboratoire fabricant",
+    "Document": "RCP, notice ou autre document",
+    "TypeSource": "Type et niveau d'autorité de la source",
+    "Partenaire": "Substance ou classe citée dans une interaction"
+  },
+  "relations": {
+    "aPourDCI": [
+      "Produit",
+      "DCI"
+    ],
+    "aPourATC": [
+      "DCI",
+      "CodeATC"
+    ],
+    "appartientAClasse": [
+      "DCI",
+      "ClasseTherapeutique"
+    ],
+    "aPourPresentation": [
+      "Produit",
+      "Presentation"
+    ],
+    "fabriquePar": [
+      "Produit",
+      "Laboratoire"
+    ],
+    "decritDCI": [
+      "Document",
+      "DCI"
+    ],
+    "decritProduit": [
+      "Document",
+      "Produit"
+    ],
+    "provientDeSource": [
+      "Document",
+      "TypeSource"
+    ],
+    "interagitAvec": [
+      "DCI",
+      "Partenaire"
+    ],
+    "partenaireEstDCI": [
+      "Partenaire",
+      "DCI"
+    ]
+  },
+  "inferee": {
+    "estEquivalentDe": "Produit-Produit : produits ayant la même DCI. Cette relation est calculée à partir de aPourDCI."
+  }
+}
