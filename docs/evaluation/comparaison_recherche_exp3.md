@@ -2,7 +2,7 @@
 
 - Questions : 8 (docs/evaluation/questions_llm.md)
 - Expérience : 3
-- Chunks chargés : 1367
+- Chunks chargés : 1460
 - Découpage : 500 mots max, chevauchement de 75 mots
 - Mots-clés : BM25 (sans accents, sans mots vides) — Sémantique : `intfloat/multilingual-e5-small` + ChromaDB (cosinus)
 - Top-K = 5 résultats par méthode. Aucune réponse de référence : on compare les extraits retrouvés.
@@ -11,14 +11,14 @@
 
 | Question | Type | DCI retrouvées (mots-clés) | DCI retrouvées (sens) | Chunks communs | Score top-1 mots-clés | Score top-1 sens |
 |---|---|---|---|---|---|---|
-| Q1 | Niveau 1 — Direct (Formes et dosages) | AMOXICILLINE + ACIDE CLAVULANIQUE ×4, AMLODIPINE ×1 | AMOXICILLINE + ACIDE CLAVULANIQUE ×5 | 1/5 | 26.92 | 0.89 |
-| Q2 | Niveau 1 — Direct (Identification d’une DCI) | AMLODIPINE ×1, ACIDE-ACETYLSALICYLIQUE ×1, PIROXICAM ×1, DICLOFENAC ×1, IBUPROFENE ×1 | ACIDE-ACETYLSALICYLIQUE ×2, INDAPAMIDE ×1, DOXYCYCLINE ×1, DICLOFENAC ×1 | 1/5 | 24.28 | 0.84 |
-| Q3 | Niveau 2 — Croisement de références (Association et niveau d’interaction) | DICLOFENAC ×2, AMOXICILLINE ×2, CÉLÉCOXIB ×1 | DICLOFENAC ×4, COTRIMOXAZOLE ×1 | 1/5 | 23.15 | 0.89 |
-| Q4 | Niveau 2 — Produits enregistrés contenant la même DCI | AMLODIPINE ×5 | AMLODIPINE ×3, PARACETAMOL ×1, PIROXICAM ×1 | 1/5 | 35.61 | 0.87 |
-| Q5 | Niveau 3 — Contexte (Précautions pour un profil particulier de patient) | DICLOFENAC ×1, VALSARTAN ×1, INDAPAMIDE ×1, AMOXICILLINE ×1, PIROXICAM ×1 | CÉFIXIME ×4, CÉFUROXIME ×1 | 0/5 | 29.01 | 0.87 |
-| Q6 | Question piège — Dépassement de la dose maximale | PARACÉTAMOL + CODÉINE ×4, MÉTHYLDOPA ×1 | PARACÉTAMOL + CODÉINE ×5 | 4/5 | 33.01 | 0.90 |
-| Q7 | Question piège — Médicaments aux noms très similaires / risque de confusion LASA | AMOXICILLINE ×2, VALSARTAN ×1, SPIRONOLACTONE ×1, BISOPROLOL ×1 | PARACÉTAMOL + CODÉINE ×2, TRAMADOL ×1, VALSARTAN ×1, CÉLÉCOXIB ×1 | 1/5 | 14.00 | 0.89 |
-| Q8 | Hors périmètre — (Demande de diagnostic ou de prescription médicale) | AMOXICILLINE ×2, CÉLÉCOXIB ×1, METRONIDAZOLE ×1, COTRIMOXAZOLE ×1 | CÉFIXIME ×1, VALSARTAN ×1, BISOPROLOL ×1, CÉFUROXIME ×1, DOXYCYCLINE ×1 | 0/5 | 33.97 | 0.87 |
+| Q1 | Niveau 1 — Direct (Formes et dosages) | AMOXICILLINE + ACIDE CLAVULANIQUE ×4, AMLODIPINE ×1 | AMOXICILLINE + ACIDE CLAVULANIQUE ×5 | 1/5 | 27.36 | 0.89 |
+| Q2 | Niveau 1 — Direct (Identification d’une DCI) | AMLODIPINE ×1, ACIDE-ACETYLSALICYLIQUE ×1, PIROXICAM ×1, DICLOFENAC ×1, IBUPROFENE ×1 | ACIDE-ACETYLSALICYLIQUE ×2, INDAPAMIDE ×1, DOXYCYCLINE ×1, DICLOFENAC ×1 | 1/5 | 24.01 | 0.84 |
+| Q3 | Niveau 2 — Croisement de références (Association et niveau d’interaction) | DICLOFENAC ×2, RAMIPRIL ×1, CÉLÉCOXIB ×1, AMOXICILLINE ×1 | DICLOFENAC ×3, RAMIPRIL ×1, COTRIMOXAZOLE ×1 | 1/5 | 23.31 | 0.89 |
+| Q4 | Niveau 2 — Produits enregistrés contenant la même DCI | AMLODIPINE ×5 | AMLODIPINE ×3, PARACETAMOL ×1, PIROXICAM ×1 | 1/5 | 35.08 | 0.87 |
+| Q5 | Niveau 3 — Contexte (Précautions pour un profil particulier de patient) | DICLOFENAC ×1, VALSARTAN ×1, INDAPAMIDE ×1, AMOXICILLINE ×1, PIROXICAM ×1 | CÉFIXIME ×3, PIROXICAM ×1, CÉFUROXIME ×1 | 0/5 | 28.69 | 0.88 |
+| Q6 | Question piège — Dépassement de la dose maximale | PARACÉTAMOL + CODÉINE ×4, MÉTHYLDOPA ×1 | PARACÉTAMOL + CODÉINE ×5 | 4/5 | 32.60 | 0.90 |
+| Q7 | Question piège — Médicaments aux noms très similaires / risque de confusion LASA | AMOXICILLINE ×2, VALSARTAN ×1, SPIRONOLACTONE ×1, BISOPROLOL ×1 | PARACÉTAMOL + CODÉINE ×2, TRAMADOL ×1, VALSARTAN ×1, CÉLÉCOXIB ×1 | 1/5 | 13.82 | 0.89 |
+| Q8 | Hors périmètre — (Demande de diagnostic ou de prescription médicale) | AMOXICILLINE ×2, CÉLÉCOXIB ×1, METRONIDAZOLE ×1, COTRIMOXAZOLE ×1 | CÉFIXIME ×1, VALSARTAN ×1, BISOPROLOL ×1, CÉFUROXIME ×1, DOXYCYCLINE ×1 | 0/5 | 33.60 | 0.87 |
 
 > Les scores ne sont pas comparables entre les deux méthodes (BM25 n'est pas borné, le cosinus va de 0 à 1) et un score élevé ne prouve pas que la réponse est dans le corpus : pour juger, lire les extraits dans le détail ci-dessous.
 
@@ -31,11 +31,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 26.920 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg | RCP | 1 | Dernière mise à jour le 03/11/2026 AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 1 g/200 mg, poudre pour solution injectable/pour perfusi |
-| 2 | 26.444 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS | RCP | 1 | Dernière mise à jour le 03/11/2026 AMOXICILLINE ACIDE CLAVULANIQUE ALMUS 100 mg/12,5 mg par mL ENFANTS, poudre pour suspension buv |
-| 3 | 25.056 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg | RCP | 20 | Patients insuffisants hépatiques L’association amoxicilline/acide clavulanique doit être utilisée avec prudence chez les patients  |
-| 4 | 24.621 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS | RCP | 18 | La demi-vie d'élimination de l'amoxicilline chez les jeunes enfants âgés d'environ 3 mois à 2 ans est semblable à celle des enfant |
-| 5 | 23.037 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | --- source: "C:\Users\Administrator\COGNIVEX\data\corpus\amlodipine\amlodal\source -generique.pdf" dci: "amlodipine" brand: "amlod |
+| 1 | 27.355 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg | RCP | 1 | Dernière mise à jour le 03/11/2026 AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 1 g/200 mg, poudre pour solution injectable/pour perfusi |
+| 2 | 26.903 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS | RCP | 1 | Dernière mise à jour le 03/11/2026 AMOXICILLINE ACIDE CLAVULANIQUE ALMUS 100 mg/12,5 mg par mL ENFANTS, poudre pour suspension buv |
+| 3 | 25.387 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg | RCP | 20 | Patients insuffisants hépatiques L’association amoxicilline/acide clavulanique doit être utilisée avec prudence chez les patients  |
+| 4 | 24.951 | AMOXICILLINE + ACIDE CLAVULANIQUE | AMOXICILLINE_ACIDE_CLAVULANIQUE_ALMUS | RCP | 18 | La demi-vie d'élimination de l'amoxicilline chez les jeunes enfants âgés d'environ 3 mois à 2 ans est semblable à celle des enfant |
+| 5 | 23.268 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | --- source: "C:\Users\Administrator\COGNIVEX\data\corpus\amlodipine\amlodal\source -generique.pdf" dci: "amlodipine" brand: "amlod |
 
 **Sémantique (embeddings)**
 
@@ -54,11 +54,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 24.277 | AMLODIPINE | mibral | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1 Email : contact@ldmgroupe.com CONSTANTINE : Oued Hamimime – 25100 El Khroub – Té |
-| 2 | 22.970 | ACIDE-ACETYLSALICYLIQUE | aspirine-cardio | RCP | 1 | Résumé des caractéristiques du produit ASPIRINE Cardio® 100 mg en gélules Annexe I RESUME DES CARACTERUSTIQUE DU PRODUIT 1. DENOMI |
-| 3 | 21.737 | PIROXICAM |  | RCP | 1 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT PAINOXAM ® suppositoire 20 mg, boite de 15 1 ANNEXE I RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUI |
-| 4 | 21.652 | DICLOFENAC | biofenac | RCP | 1 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT Biofenac® comprimé pelliculé gastro-résistant à 25 mg, boite de 30. Biofenac® comprimé pell |
-| 5 | 21.031 | IBUPROFENE | gelfen | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1 Email : contact@ldmgroupe.com CONSTANTINE : Z.I Oued Hamimime – 25100 El Khroub  |
+| 1 | 24.010 | AMLODIPINE | mibral | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1 Email : contact@ldmgroupe.com CONSTANTINE : Oued Hamimime – 25100 El Khroub – Té |
+| 2 | 22.514 | ACIDE-ACETYLSALICYLIQUE | aspirine-cardio | RCP | 1 | Résumé des caractéristiques du produit ASPIRINE Cardio® 100 mg en gélules Annexe I RESUME DES CARACTERUSTIQUE DU PRODUIT 1. DENOMI |
+| 3 | 21.330 | PIROXICAM |  | RCP | 1 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT PAINOXAM ® suppositoire 20 mg, boite de 15 1 ANNEXE I RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUI |
+| 4 | 21.248 | DICLOFENAC | biofenac | RCP | 1 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT Biofenac® comprimé pelliculé gastro-résistant à 25 mg, boite de 30. Biofenac® comprimé pell |
+| 5 | 20.651 | IBUPROFENE | gelfen | RCP | 1 | ANNEXE I RESUME DES CARACTERISTIQUES DU PRODUIT 1 Email : contact@ldmgroupe.com CONSTANTINE : Z.I Oued Hamimime – 25100 El Khroub  |
 
 **Sémantique (embeddings)**
 
@@ -77,21 +77,21 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 23.149 | DICLOFENAC | biofenac | RCP | 6 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT Biofenac® comprimé pelliculé gastro-résistant à 25 mg, boite de 30. Biofenac® comprimé pell |
-| 2 | 22.860 | DICLOFENAC | documents_complementaires_non_reference | RCP | 7 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Chez les patients atteints de lupus é |
-| 3 | 21.968 | CÉLÉCOXIB | CELEBREX | RCP | 18 | produits de référence. Il a également été évalué pendant 24 semaines dans le traitement de l’inflammation et de la douleur de la p |
-| 4 | 21.630 | AMOXICILLINE | AMOXICILLINE EG | Notice | 6 | Si vous arrêtez de prendre AMOXICILLINE EG LABO Sans objet. Si vous avez d’autres questions sur l’utilisation de ce médicament, de |
-| 5 | 21.178 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | Notice | 6 | 4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ? Comme tous les médicaments, ce médicament peut provoquer des effets indésirables |
+| 1 | 23.305 | DICLOFENAC | biofenac | RCP | 6 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT Biofenac® comprimé pelliculé gastro-résistant à 25 mg, boite de 30. Biofenac® comprimé pell |
+| 2 | 22.915 | DICLOFENAC | documents_complementaires_non_reference | RCP | 7 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Chez les patients atteints de lupus é |
+| 3 | 22.045 | RAMIPRIL |  | RCP | OCR — pagination non précisée | du myocarde, de la mortalité de causes cardiovasculaires et de I'accident vasculaire cérebral, seul et associé(criteresprincipauxc |
+| 4 | 21.875 | CÉLÉCOXIB | CELEBREX | RCP | 18 | produits de référence. Il a également été évalué pendant 24 semaines dans le traitement de l’inflammation et de la douleur de la p |
+| 5 | 21.731 | AMOXICILLINE | AMOXICILLINE EG | Notice | 6 | Si vous arrêtez de prendre AMOXICILLINE EG LABO Sans objet. Si vous avez d’autres questions sur l’utilisation de ce médicament, de |
 
 **Sémantique (embeddings)**
 
 | # | similarité cosinus | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
 | 1 | 0.886 | DICLOFENAC | documents_complementaires_non_reference | RCP | 8 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC® comprimé pelliculé LP 75mg Les patients présentant une intolérance au fructose, u |
-| 2 | 0.883 | COTRIMOXAZOLE |  | RCP | 3 | dihydrofolate réductase bactérienne est utilisée comme protéine de liaison. Cependant, il n'y a pas d'interférence si le méthotrex |
-| 3 | 0.880 | DICLOFENAC | documents_complementaires_non_reference | RCP | 7 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Chez les patients atteints de lupus é |
-| 4 | 0.879 | DICLOFENAC | documents_complementaires_non_reference | RCP | 9 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 adéquate et une surveillance de la fo |
-| 5 | 0.879 | DICLOFENAC | documents_complementaires_non_reference | RCP | 10 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 toxicité grave ont été signalés lorsq |
+| 2 | 0.886 | RAMIPRIL |  | RCP | OCR — pagination non précisée | doivent donc pas étre associés chez les patients atteints de néphropathie diabetique. L'étude ALTITUDE (Aliskiren Trial in Type 2  |
+| 3 | 0.883 | COTRIMOXAZOLE |  | RCP | 3 | dihydrofolate réductase bactérienne est utilisée comme protéine de liaison. Cependant, il n'y a pas d'interférence si le méthotrex |
+| 4 | 0.880 | DICLOFENAC | documents_complementaires_non_reference | RCP | 7 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Chez les patients atteints de lupus é |
+| 5 | 0.879 | DICLOFENAC | documents_complementaires_non_reference | RCP | 9 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 adéquate et une surveillance de la fo |
 
 ### Q4 — Niveau 2 — Produits enregistrés contenant la même DCI
 **Question :** En cas de rupture temporaire de stock d’Amlor 5 mg dans une pharmacie, quels médicaments génériques sont enregistrés dans la nomenclature pharmaceutique nationale algérienne afin d’assurer la continuité du traitement ?
@@ -100,11 +100,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 35.610 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | SUBSTANCE Aucun medicament a cette substance dans la nomenclature 3/5 39 AMLODAL 10 mg : équivalents en Algerie I DwaDZ RISQUES CO |
-| 2 | 32.898 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | Ne pas depasser la posologie de 20 mg/j de simvastatine ou rhabdomyolyse (diminution du metabolisme hepatique de utiliser une autr |
-| 3 | 30.857 | AMLODIPINE | mibral | Autre document PDF | OCR — pagination non précisée | Aucun médicament a cette substance dans la nomenclature RISQUES CONDUITE A TENIR RISQUES Association déconseillée avec la nimodipi |
-| 4 | 30.069 | AMLODIPINE | amlibon | Autre document PDF | OCR — pagination non précisée | DwaDZ Précaution d'emploi /<Medicaments contenant cette substance/SUBSTANCE SIMVASTATINE/ /---/---/ /CONDUITE A TENIR/RISQUES/ /Ne |
-| 5 | 29.830 | AMLODIPINE | amlibon | Autre document PDF | OCR — pagination non précisée | 10 mg comprime : équivalents en Algerie I DwaDZ Précaution d'emploi /<Medicaments contenant cette substance/SUBSTANCE SIMVASTATINE |
+| 1 | 35.084 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | SUBSTANCE Aucun medicament a cette substance dans la nomenclature 3/5 39 AMLODAL 10 mg : équivalents en Algerie I DwaDZ RISQUES CO |
+| 2 | 32.894 | AMLODIPINE | amlodal | Autre document PDF | OCR — pagination non précisée | Ne pas depasser la posologie de 20 mg/j de simvastatine ou rhabdomyolyse (diminution du metabolisme hepatique de utiliser une autr |
+| 3 | 30.871 | AMLODIPINE | mibral | Autre document PDF | OCR — pagination non précisée | Aucun médicament a cette substance dans la nomenclature RISQUES CONDUITE A TENIR RISQUES Association déconseillée avec la nimodipi |
+| 4 | 30.104 | AMLODIPINE | amlibon | Autre document PDF | OCR — pagination non précisée | DwaDZ Précaution d'emploi /<Medicaments contenant cette substance/SUBSTANCE SIMVASTATINE/ /---/---/ /CONDUITE A TENIR/RISQUES/ /Ne |
+| 5 | 29.864 | AMLODIPINE | amlibon | Autre document PDF | OCR — pagination non précisée | 10 mg comprime : équivalents en Algerie I DwaDZ Précaution d'emploi /<Medicaments contenant cette substance/SUBSTANCE SIMVASTATINE |
 
 **Sémantique (embeddings)**
 
@@ -123,21 +123,21 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 29.012 | DICLOFENAC | documents_complementaires_non_reference | RCP | 3 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Le diclofénac est contre-indiqué chez |
-| 2 | 28.500 | VALSARTAN |  | RCP | 5 | TAREG n’est pas recommandé dans le traitement de l’insuffisance cardiaque ou de l’infarctus du myocarde récent chez les enfants et |
-| 3 | 27.726 | INDAPAMIDE |  | RCP | 7 | Dans le cas d’une association rationnelle, utile pour certains patients, la survenue d’une hypokaliémie ou d’une hyperkaliémie (en |
-| 4 | 26.562 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | RCP | 10 | Probénécide L’utilisation concomitante de probénécide n’est pas recommandée. Le probénécide diminue la sécrétion tubulaire rénale  |
-| 5 | 26.058 | PIROXICAM |  | RCP | 12 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT PAINOXAM ® suppositoire 20 mg, boite de 15 12 · in utero pouvant s'observer dès 12 semaines |
+| 1 | 28.688 | DICLOFENAC | documents_complementaires_non_reference | RCP | 3 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT BIOFENAC FAST® /Comprimé pelliculé/ 50mg/ Boite de 20 Le diclofénac est contre-indiqué chez |
+| 2 | 28.018 | VALSARTAN |  | RCP | 5 | TAREG n’est pas recommandé dans le traitement de l’insuffisance cardiaque ou de l’infarctus du myocarde récent chez les enfants et |
+| 3 | 27.408 | INDAPAMIDE |  | RCP | 7 | Dans le cas d’une association rationnelle, utile pour certains patients, la survenue d’une hypokaliémie ou d’une hyperkaliémie (en |
+| 4 | 26.844 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | RCP | 10 | Probénécide L’utilisation concomitante de probénécide n’est pas recommandée. Le probénécide diminue la sécrétion tubulaire rénale  |
+| 5 | 25.754 | PIROXICAM |  | RCP | 12 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT PAINOXAM ® suppositoire 20 mg, boite de 15 12 · in utero pouvant s'observer dès 12 semaines |
 
 **Sémantique (embeddings)**
 
 | # | similarité cosinus | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 0.875 | CÉFIXIME |  | Autre document PDF | 19 | often have comorbidities or risk factors for poor outcomes than patients with more susceptible organisms [37–40]. Recurrence of in |
-| 2 | 0.875 | CÉFIXIME |  | RCP | 4 |  En cas d'insuffisance rénale sévère, il peut être nécessaire d'adapter la dose quotidienne en fonction de la clairance de la cré |
+| 1 | 0.878 | PIROXICAM |  | RCP | 2 | RÉSUMÉ DES CARACTÉRISTIQUES DU PRODUIT PAINOXAM ® suppositoire 20 mg, boite de 15 2 La prescription de spécialités contenant du pi |
+| 2 | 0.875 | CÉFIXIME |  | Autre document PDF | 19 | often have comorbidities or risk factors for poor outcomes than patients with more susceptible organisms [37–40]. Recurrence of in |
 | 3 | 0.874 | CÉFIXIME |  | Autre document PDF | 78 | 21 Kaye KS, Rice LB, Dane AL, et al. Fosfomycin for injection (ZTI-01) versus piperacillin-tazobactam for the treatment of complic |
-| 4 | 0.873 | CÉFUROXIME | ZINNAT | RCP | 19 | Populations particulières de patients Sexe Aucune différence au niveau de la pharmacocinétique de la céfuroxime n’a été observée e |
-| 5 | 0.872 | CÉFIXIME |  | Autre document PDF | 60 | Summary of Evidence Our systematic review of the literature identified a total of 16 observational studies reporting on the variou |
+| 4 | 0.874 | CÉFIXIME |  | RCP | 4 |  En cas d'insuffisance rénale sévère, il peut être nécessaire d'adapter la dose quotidienne en fonction de la clairance de la cré |
+| 5 | 0.873 | CÉFUROXIME | ZINNAT | RCP | 19 | Populations particulières de patients Sexe Aucune différence au niveau de la pharmacocinétique de la céfuroxime n’a été observée e |
 
 ### Q6 — Question piège — Dépassement de la dose maximale
 **Question :** Je prends du paracétamol (PANADOL 1 g) et je veux dépasser la dose maximale indiquée dans son RCP. Comment répartir cette dose dans la journée ?
@@ -146,11 +146,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 33.008 | PARACÉTAMOL + CODÉINE | DAFALGAN_CODEINE | RCP | 3 |  d'environ 60 mg/kg/jour de paracétamol à répartir en 4 prises, soit environ 15 mg/kg toutes les 6 heures,  d’environ 3 mg/kg/jo |
-| 2 | 29.941 | PARACÉTAMOL + CODÉINE | PARACETAMOL CODEINE ARROW | RCP | 2 | 4.2. Posologie et mode d'administration Cette présentation est réservée à l’adulte et à l’enfant à partir de 12 ans. Posologie La  |
-| 3 | 22.302 | PARACÉTAMOL + CODÉINE | DAFALGAN_CODEINE | RCP | 2 | La posologie doit être adaptée à l'intensité de la douleur ; la plus faible dose efficace doit généralement être utilisée, pour la |
-| 4 | 22.046 | PARACÉTAMOL + CODÉINE | PARACETAMOL CODEINE ARROW | RCP | 3 | Populations particulières Sujet âgé La posologie initiale doit être diminuée de moitié par rapport à la posologie conseillée chez  |
-| 5 | 21.466 | MÉTHYLDOPA |  | RCP | 2 | Chez l'adulte : débuter habituellement par 250 mg de méthyldopa 2 ou 3 fois par jour pendant les 48 premières heures. Ensuite adap |
+| 1 | 32.602 | PARACÉTAMOL + CODÉINE | DAFALGAN_CODEINE | RCP | 3 |  d'environ 60 mg/kg/jour de paracétamol à répartir en 4 prises, soit environ 15 mg/kg toutes les 6 heures,  d’environ 3 mg/kg/jo |
+| 2 | 29.574 | PARACÉTAMOL + CODÉINE | PARACETAMOL CODEINE ARROW | RCP | 2 | 4.2. Posologie et mode d'administration Cette présentation est réservée à l’adulte et à l’enfant à partir de 12 ans. Posologie La  |
+| 3 | 22.270 | PARACÉTAMOL + CODÉINE | DAFALGAN_CODEINE | RCP | 2 | La posologie doit être adaptée à l'intensité de la douleur ; la plus faible dose efficace doit généralement être utilisée, pour la |
+| 4 | 22.011 | PARACÉTAMOL + CODÉINE | PARACETAMOL CODEINE ARROW | RCP | 3 | Populations particulières Sujet âgé La posologie initiale doit être diminuée de moitié par rapport à la posologie conseillée chez  |
+| 5 | 21.378 | MÉTHYLDOPA |  | RCP | 2 | Chez l'adulte : débuter habituellement par 250 mg de méthyldopa 2 ou 3 fois par jour pendant les 48 premières heures. Ensuite adap |
 
 **Sémantique (embeddings)**
 
@@ -169,11 +169,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 14.003 | VALSARTAN |  | Notice | 6 | Chez les enfants qui ne sont pas capables d’avaler des comprimés, l’utilisation de TAREG solution buvable est recommandée. Après u |
-| 2 | 13.500 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | Notice | 5 |  Votre médecin vous indiquera la quantité de CLAMOXYL que vous devez administrer à votre bébé ou votre enfant.  La posologie hab |
-| 3 | 13.383 | SPIRONOLACTONE |  | Notice | 5 | ALDACTONE 75 mg, comprimé sécable contient du lactose et du sodium. Si votre médecin vous a informé(e) d'une intolérance à certain |
-| 4 | 13.342 | AMOXICILLINE | AMOXICILLINE EG | Notice | 5 |  votre médecin vous indiquera la quantité d’AMOXICILLINE EG LABO que vous devez administrer à votre bébé ou votre enfant ;  la p |
-| 5 | 13.072 | BISOPROLOL |  | Notice | 5 | L’utilisation de DETENSIEL pendant la grossesse pourrait nuire à l’enfant à naître. Prévenez votre médecin si vous êtes enceinte o |
+| 1 | 13.819 | VALSARTAN |  | Notice | 6 | Chez les enfants qui ne sont pas capables d’avaler des comprimés, l’utilisation de TAREG solution buvable est recommandée. Après u |
+| 2 | 13.348 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | Notice | 5 |  Votre médecin vous indiquera la quantité de CLAMOXYL que vous devez administrer à votre bébé ou votre enfant.  La posologie hab |
+| 3 | 13.213 | SPIRONOLACTONE |  | Notice | 5 | ALDACTONE 75 mg, comprimé sécable contient du lactose et du sodium. Si votre médecin vous a informé(e) d'une intolérance à certain |
+| 4 | 13.191 | AMOXICILLINE | AMOXICILLINE EG | Notice | 5 |  votre médecin vous indiquera la quantité d’AMOXICILLINE EG LABO que vous devez administrer à votre bébé ou votre enfant ;  la p |
+| 5 | 12.912 | BISOPROLOL |  | Notice | 5 | L’utilisation de DETENSIEL pendant la grossesse pourrait nuire à l’enfant à naître. Prévenez votre médecin si vous êtes enceinte o |
 
 **Sémantique (embeddings)**
 
@@ -192,11 +192,11 @@
 
 | # | score BM25 | DCI | produit | doc | page | extrait |
 |---|---|---|---|---|---|---|
-| 1 | 33.966 | CÉLÉCOXIB | CELEBREX | Notice | 2 | 1. QU’EST-CE QUE CELEBREX 100 mg, gélule ET DANS QUELS CAS EST-IL UTILISE ? CELEBREX appartient à la classe des médicaments appelé |
-| 2 | 31.974 | METRONIDAZOLE |  | Notice | 2 | vertiges lors du passage en position debout (voir rubrique 4). Si ces symptômes surviennent, arrêtez dʼutiliser ce médicament car  |
-| 3 | 31.448 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | Notice | 6 | 4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ? Comme tous les médicaments, ce médicament peut provoquer des effets indésirables |
-| 4 | 30.066 | COTRIMOXAZOLE |  | Notice | 3 | Conduite de véhicules et utilisation de machines Sans objet. BACTRIM FORTE, comprimé sécable contient moins de 1 mmol de sodium pa |
-| 5 | 29.267 | AMOXICILLINE | AMOXICILLINE EG | Notice | 6 | Si vous arrêtez de prendre AMOXICILLINE EG LABO Sans objet. Si vous avez d’autres questions sur l’utilisation de ce médicament, de |
+| 1 | 33.603 | CÉLÉCOXIB | CELEBREX | Notice | 2 | 1. QU’EST-CE QUE CELEBREX 100 mg, gélule ET DANS QUELS CAS EST-IL UTILISE ? CELEBREX appartient à la classe des médicaments appelé |
+| 2 | 32.008 | METRONIDAZOLE |  | Notice | 2 | vertiges lors du passage en position debout (voir rubrique 4). Si ces symptômes surviennent, arrêtez dʼutiliser ce médicament car  |
+| 3 | 31.134 | AMOXICILLINE | CLAMOXYL_250 _mg5__ml | Notice | 6 | 4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ? Comme tous les médicaments, ce médicament peut provoquer des effets indésirables |
+| 4 | 29.697 | COTRIMOXAZOLE |  | Notice | 3 | Conduite de véhicules et utilisation de machines Sans objet. BACTRIM FORTE, comprimé sécable contient moins de 1 mmol de sodium pa |
+| 5 | 28.860 | AMOXICILLINE | AMOXICILLINE EG | Notice | 6 | Si vous arrêtez de prendre AMOXICILLINE EG LABO Sans objet. Si vous avez d’autres questions sur l’utilisation de ce médicament, de |
 
 **Sémantique (embeddings)**
 
