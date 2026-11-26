@@ -1,17 +1,17 @@
 {
   "_meta": {
-    "generated_at": "2026-11-19T23:12:43.775819+00:00",
+    "generated_at": "2026-11-22T15:17:50.578221+00:00",
     "corpus_root": "data/corpus",
     "processed_corpus_root": "data/processed_corpus",
     "fiches_dci_root": "data/fiches_dci",
-    "total_dcis": 31,
-    "dcis_with_fiche": 31,
+    "total_dcis": 39,
+    "dcis_with_fiche": 39,
     "dcis_without_fiche": 0,
     "orphaned_fiches_count": 1,
     "root_files_count": 0,
-    "total_source_files": 142,
-    "total_processed_files": 141,
-    "total_extracted_chars": 2944278,
+    "total_source_files": 144,
+    "total_processed_files": 143,
+    "total_extracted_chars": 2949419,
     "low_text_files_count": 1,
     "duplicate_groups_count": 0
   },
@@ -504,7 +504,7 @@
               "audit_issues": [
                 "Only 0 chars extracted - likely scanned image PDF"
               ],
-              "ocr_status": "ocr_ok",
+              "ocr_status": "skipped_existing",
               "processed_path": "data/processed_corpus/amlodipine/mibral/source-mibral generique.md",
               "extracted_chars": 121,
               "text_quality": "low_text"
@@ -1116,6 +1116,205 @@
       "brands": []
     },
     {
+      "dci": "azithromycine",
+      "normalized_dci": "azithromycine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/azithromycine.md",
+        "chars": 3310,
+        "sections": [
+          "DCI : AZITHROMYCINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01FA10",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Azithromycin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/2276/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Azithromycin 250 mg ; Azithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA10) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA10 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Azithromycin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MYCINAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZITROMICINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "AZIMYCINE",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "BINOZYT",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZETRON",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "AZYTER",
+            "form": "COLLYRE EN SOLUTION EN RECIPIENT UNIDOSE",
+            "dosage": "15 MG/G"
+          },
+          {
+            "brand": "BINOZYT",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZETRON",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITROMICINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZIMAC",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHRAL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROM HUP",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROMYCINE BEKER",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "AZITHROMYCINE NS",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MYCINAD",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITHROMAX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZITHROMYCINE BGL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZOMAX",
+            "form": "POUDRE POUR SOLUTION BUVABLE",
+            "dosage": "200MG/5ML(40MG/ML)"
+          },
+          {
+            "brand": "ZOTRIX",
+            "form": "POUDRE POUR SOLUTION BUVABLE",
+            "dosage": "200MG/5ML(40MG/ML)"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Azithromycin 500mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Azithromycin 250 mg ; Azithromycin 500 mg)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01FA10)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01FA10"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 25198
+      },
+      "source_files": [
+        {
+          "filename": "azithromycine_Notice_EMC.pdf",
+          "relative_path": "azithromycine/azithromycine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 324337,
+          "hash_sha256": "da828f3a2a41594bf4c874145f8c042687b24575ef7c69ea66600f3bf43b97c0",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/azithromycine/azithromycine_Notice_EMC.md",
+          "extracted_chars": 22528,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "azithromycine_RCP_EMC.pdf",
+          "relative_path": "azithromycine/azithromycine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 217870,
+          "hash_sha256": "e385b1d21193182ae7b47605bcb9c0f97496bb7eba3ab06b3e9c5fbfb472a0fb",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/azithromycine/azithromycine_RCP_EMC.md",
+          "extracted_chars": 2670,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
       "dci": "bisoprolol",
       "normalized_dci": "bisoprolol",
       "fiche_dci": {
@@ -1520,6 +1719,103 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/céfixime/RCP_CEFIXIME_ALMUS_200_mg.md",
           "extracted_chars": 20221,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "ceftriaxone",
+      "normalized_dci": "ceftriaxone",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/ceftriaxone.md",
+        "chars": 2568,
+        "sections": [
+          "DCI : CEFTRIAXONE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01DD04",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01DD04) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de CEFTRIAXONE PANPHARMA 1 g, poudre pour solution injectable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "CETRIAL",
+            "form": "PDRE P.PREPARATION INJ IV",
+            "dosage": "1G/FL"
+          },
+          {
+            "brand": "CETRIAXONE HUP",
+            "form": "PDRE. ET SOLV. P. SOL. INJ. IV",
+            "dosage": "1G/FL. DE PDRE."
+          },
+          {
+            "brand": "ZAFOTRIAXONE",
+            "form": "POUDRE POUR SOLUTION INJECTABLE IV/IM",
+            "dosage": "1G/FL. DE PDRE."
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01DD04)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01DD04"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 77350
+      },
+      "source_files": [
+        {
+          "filename": "ceftriaxone_Notice_ANSM.pdf",
+          "relative_path": "ceftriaxone/ceftriaxone_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 493755,
+          "hash_sha256": "06ed25525791bc775a2ad6b965ed5b79b77fdd92e37d3aa4df56c19b2f887157",
+          "is_duplicate": false,
+          "page_count": 6,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ceftriaxone/ceftriaxone_Notice_ANSM.md",
+          "extracted_chars": 23707,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "ceftriaxone_RCP_ANSM.pdf",
+          "relative_path": "ceftriaxone/ceftriaxone_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 710748,
+          "hash_sha256": "c2a88edb422f3c2316af788cd83323c217de30dcd9bf643e4bcfad581cd3d14b",
+          "is_duplicate": false,
+          "page_count": 12,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ceftriaxone/ceftriaxone_RCP_ANSM.md",
+          "extracted_chars": 53643,
           "text_quality": "ok"
         }
       ],
@@ -2059,6 +2355,428 @@
       ]
     },
     {
+      "dci": "ciprofloxacine",
+      "normalized_dci": "ciprofloxacine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/ciprofloxacine.md",
+        "chars": 3749,
+        "sections": [
+          "DCI : CIPROFLOXACINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01MA02",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Ciprofloxacin 500mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7257/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Ciprofloxacin 250 mg film-coated tablets ; Ciprofloxacin 500 mg film-coated tablets ; Ciprofloxacin 750 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Ciprofloxacin 500mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "OZAFLOX",
+            "form": "COMPRIME ENROBE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "FLOCINE250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "LOXANAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CIPRO 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPRODAR",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LOXANAD",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEFLOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "QUINOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXACINE BEKER",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "CIFLOXACINE",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXACINE BEKER",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CIPROFLOXAL",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLOCINE500",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CILOXAN",
+            "form": "POMMADE OPHTALMIQUE",
+            "dosage": "0,003"
+          },
+          {
+            "brand": "OTOCINE",
+            "form": "SOL AURICULAIRE STERILE",
+            "dosage": "2MG/ML (1MG/0,5ML)"
+          },
+          {
+            "brand": "OTOFLOX",
+            "form": "SOL AURICULAIRE STERILE",
+            "dosage": "2MG/ML (1MG/0,5ML)"
+          },
+          {
+            "brand": "QUINOX LP",
+            "form": "COMPRIME A LIBERATION PROLONGEE",
+            "dosage": "1G"
+          },
+          {
+            "brand": "CIPRO",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "CIPRODAR",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "CIPROTEK",
+            "form": "COLLYRE EN SOLUTION",
+            "dosage": "0.3%"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Ciprofloxacin 500mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Ciprofloxacin 250 mg film-coated tablets ; Ciprofloxacin 500 mg film-coated tablets ; Ciprofloxacin 750 mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01MA02)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01MA02"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 32149
+      },
+      "source_files": [
+        {
+          "filename": "ciprofloxacine_Notice_EMC.pdf",
+          "relative_path": "ciprofloxacine/ciprofloxacine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 332168,
+          "hash_sha256": "c65f1d0fcb6ba8800437ca0ff5fa922f0567f7fa0911d0372221375a0ee23f04",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ciprofloxacine/ciprofloxacine_Notice_EMC.md",
+          "extracted_chars": 29457,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "ciprofloxacine_RCP_EMC.pdf",
+          "relative_path": "ciprofloxacine/ciprofloxacine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 217521,
+          "hash_sha256": "6cf75e4bd8e4d249fbb61b9d16e780dd42b8bc0f435f832793a3b779c7db87d5",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/ciprofloxacine/ciprofloxacine_RCP_EMC.md",
+          "extracted_chars": 2692,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "clarithromycine",
+      "normalized_dci": "clarithromycine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/clarithromycine.md",
+        "chars": 3536,
+        "sections": [
+          "DCI : CLARITHROMYCINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01FA09",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Clarithromycin 500 mg film-coated tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/7072/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Clarithromycin 250 mg ; Clarithromycin 500 mg) — Royaume-Uni — https://www.medicines.org.uk/emc — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01FA09) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Clarithromycin 500 mg film-coated tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MEDOCLAR",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ZECLAR",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEDOCLAR",
+            "form": "COMPRIME",
+            "dosage": "250 MG"
+          },
+          {
+            "brand": "ORADRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ARICLARE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARIDAR 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "CLARITHROMYCINE NS",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "RITOCINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "ORADRO",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CLARIDAR 250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "RITOCINE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "ZECLAR",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "GRANULE POUR SUSPENSION BUV",
+            "dosage": "50MG/ML"
+          },
+          {
+            "brand": "CLARITHRO",
+            "form": "GRANULE POUR SUSPENSION BUV",
+            "dosage": "25MG/ML"
+          },
+          {
+            "brand": "ZECLAR 25",
+            "form": "GRANULE POUR SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "HUCLAR",
+            "form": "GRANULE POUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "CLARIDAR 250",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "250MG/5ML"
+          },
+          {
+            "brand": "HUCLAR",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "250MG/5ML"
+          },
+          {
+            "brand": "CLARIDAR 125",
+            "form": "POUDRECPOUR SUSPENSION BUVABLE EN FLACON",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Clarithromycin 500 mg film-coated tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Clarithromycin 250 mg ; Clarithromycin 500 mg)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01FA09)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01FA09"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 20150
+      },
+      "source_files": [
+        {
+          "filename": "clarithromycine_Notice_EMC.pdf",
+          "relative_path": "clarithromycine/clarithromycine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 162440,
+          "hash_sha256": "6800df40a7f74d06ac9ab61a2a5d9824f49afb48fbdb33955761a5a9aea84e46",
+          "is_duplicate": false,
+          "page_count": 2,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/clarithromycine/clarithromycine_Notice_EMC.md",
+          "extracted_chars": 17479,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "clarithromycine_RCP_EMC.pdf",
+          "relative_path": "clarithromycine/clarithromycine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 216974,
+          "hash_sha256": "2855920a23b9f7ea0ea6c577ca9439d6eefe3f8eaeb6eb49e3d288e50cffdbbc",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/clarithromycine/clarithromycine_RCP_EMC.md",
+          "extracted_chars": 2671,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
       "dci": "clindamycine",
       "normalized_dci": "clindamycine",
       "fiche_dci": {
@@ -2313,6 +3031,137 @@
           ]
         }
       ]
+    },
+    {
+      "dci": "cotrimoxazole",
+      "normalized_dci": "cotrimoxazole",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/cotrimoxazole.md",
+        "chars": 2895,
+        "sections": [
+          "DCI : COTRIMOXAZOLE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01EE01",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (BACTRIM FORTE, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01EE01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de BACTRIM FORTE, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "COTRIMOXAL",
+            "form": "COMPRIME",
+            "dosage": "400MG/80MG"
+          },
+          {
+            "brand": "PRIMAZOL",
+            "form": "COMPRIME",
+            "dosage": "400MG/80MG"
+          },
+          {
+            "brand": "COTRIMOXAL FORTE",
+            "form": "COMPRIME AVEC BARRE DE CASSEURE",
+            "dosage": "800MG/160MG"
+          },
+          {
+            "brand": "C-ZOLE",
+            "form": "SOLUTION INJECTABLE POUR PER IV",
+            "dosage": "80 MG/400MG ( 16MG/ML/80 MG/ML)"
+          },
+          {
+            "brand": "BACTISOL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5ML"
+          },
+          {
+            "brand": "COTRIM",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5ML"
+          },
+          {
+            "brand": "COTRIMAZOLE",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5Ml"
+          },
+          {
+            "brand": "DIPRIM",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "200MG/40MG/5Ml"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01EE01)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01EE01"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 61678
+      },
+      "source_files": [
+        {
+          "filename": "cotrimoxazole_Notice_ANSM.pdf",
+          "relative_path": "cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 455989,
+          "hash_sha256": "5354d021b26dd30fb77066c80b576efe55fc0c7464c468dabb5ae45429fd053e",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [
+            "Repeated header/footer noise detected (2 unique blocks)"
+          ],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/cotrimoxazole/cotrimoxazole_Notice_ANSM.md",
+          "extracted_chars": 22313,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "cotrimoxazole_RCP_ANSM.pdf",
+          "relative_path": "cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 606269,
+          "hash_sha256": "420c9a272a974e719fb751c8efb6b6cbb8c3ad626a7762a16995304f5393e1cf",
+          "is_duplicate": false,
+          "page_count": 9,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/cotrimoxazole/cotrimoxazole_RCP_ANSM.md",
+          "extracted_chars": 39365,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
     },
     {
       "dci": "diclofenac",
@@ -2725,6 +3574,110 @@
       ]
     },
     {
+      "dci": "doxycycline",
+      "normalized_dci": "doxycycline",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/doxycycline.md",
+        "chars": 2652,
+        "sections": [
+          "DCI : DOXYCYCLINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01AA02",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (DOXYCYCLINE SANDOZ 100 mg, comprimé sécable) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01AA02) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de DOXYCYCLINE ARROW LAB 100 mg, comprimé sécable (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "XYLINE",
+            "form": "COMPRIME SECABLE",
+            "dosage": "100 MG"
+          },
+          {
+            "brand": "DOTUR",
+            "form": "COMPRIME SECABLE",
+            "dosage": "100 MG"
+          },
+          {
+            "brand": "DOXYNUP",
+            "form": "COMPRIME ORODISPERSIBLE",
+            "dosage": "100MG"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01AA02)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01AA02"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 22543
+      },
+      "source_files": [
+        {
+          "filename": "doxycycline_Notice_ANSM.pdf",
+          "relative_path": "doxycycline/doxycycline_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 449513,
+          "hash_sha256": "a448d9c8c5777da6e6e209ad4de3f32c985ac5201f78bffd417ab1193b474b3d",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/doxycycline/doxycycline_Notice_ANSM.md",
+          "extracted_chars": 18766,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "doxycycline_RCP_ANSM.pdf",
+          "relative_path": "doxycycline/doxycycline_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 267698,
+          "hash_sha256": "0b1b40ac87668dd41421a7e34b4edb1c14ac6e766925a3c56c0aeb6ef0234df5",
+          "is_duplicate": false,
+          "page_count": 3,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/doxycycline/doxycycline_RCP_ANSM.md",
+          "extracted_chars": 3777,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
       "dci": "enalapril",
       "normalized_dci": "enalapril",
       "fiche_dci": {
@@ -2777,11 +3730,11 @@
         ]
       },
       "stats": {
-        "total_files": 6,
-        "files_with_text": 6,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
         "brand_count": 0,
-        "total_chars": 67099
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -2819,86 +3772,6 @@
           "processed_path": "data/processed_corpus/enalapril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (5).csv",
           "extracted_chars": 0,
           "text_quality": "structured_data"
-        },
-        {
-          "filename": "dwa--dz.pdf",
-          "relative_path": "enalapril/dwa--dz.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "dz_professional_site",
-          "authority_tier": 4,
-          "size_bytes": 277807,
-          "hash_sha256": "db7a85fcb5b18f99e2c0c2653ec38305634e8df286b64086e4f59dda7e8738a6",
-          "is_duplicate": false,
-          "page_count": 2,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/dwa--dz.md",
-          "extracted_chars": 1217,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "info-enalapril.pdf",
-          "relative_path": "enalapril/info-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 440126,
-          "hash_sha256": "683495844cc41d6e7b4ab06c41b0531805699e3d24fb39f3921c3a575afca371",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/info-enalapril.md",
-          "extracted_chars": 3777,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-enalapril.pdf",
-          "relative_path": "enalapril/notice-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1828196,
-          "hash_sha256": "58607240103bdb59f1885e325307cf1c93daa1f06a453e4ebfdfba3be4174572",
-          "is_duplicate": false,
-          "page_count": 13,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/notice-enalapril.md",
-          "extracted_chars": 21790,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcp-enalapril.pdf",
-          "relative_path": "enalapril/rcp-enalapril.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 3726731,
-          "hash_sha256": "f743f6f86552052ce10b451f3389e31b5750e2eabcc49c7bcea07d33f82b7f2e",
-          "is_duplicate": false,
-          "page_count": 23,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/enalapril/rcp-enalapril.md",
-          "extracted_chars": 40315,
-          "text_quality": "ok"
         }
       ],
       "brands": []
@@ -4019,6 +4892,167 @@
       ]
     },
     {
+      "dci": "lévofloxacine",
+      "normalized_dci": "levofloxacine",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/lévofloxacine.md",
+        "chars": 3016,
+        "sections": [
+          "DCI : LÉVOFLOXACINE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01MA12",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — RCP de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/smpc — 18/11/2026",
+          "eMC — Electronic Medicines Compendium (MHRA) — Notice de référence (Levofloxacin 500mg tablets) — Royaume-Uni — https://www.medicines.org.uk/emc/product/12153/pil — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01MA12) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de Levofloxacin 500mg tablets (eMC — Electronic Medicines Compendium (MHRA)) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "LEVOWORLD",
+            "form": "COLLYRE",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "VIVAXIN",
+            "form": "COLLYRE",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LOXAMOX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "LOXAMOX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MATADOR 250",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "MATADOR 500",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MATADOR 750",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "750MG"
+          },
+          {
+            "brand": "LEVOFLOX",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LEVOQUIN",
+            "form": "COMPRIME PELLICULE SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "LEVOWORLD",
+            "form": "GOUTTES OCULAIRES ET AURICULAIRES EN SOLUTION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LEVOQUIN",
+            "form": "SOLUTION POUR PERFUSION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "LEVOFLOXACINE RAZES",
+            "form": "SOLUTION POUR PERFUSION",
+            "dosage": "5MG/ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "RCP de référence (Levofloxacin 500mg tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "eMC",
+            "form": "Electronic Medicines Compendium (MHRA)",
+            "dosage": "Notice de référence (Levofloxacin 500mg tablets)",
+            "laboratoire": "Royaume-Uni"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01MA12)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01MA12"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 6499
+      },
+      "source_files": [
+        {
+          "filename": "levofloxacine_Notice_EMC.pdf",
+          "relative_path": "lévofloxacine/levofloxacine_Notice_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 257928,
+          "hash_sha256": "9c04889bde7f05356cea92873f832a342f6ebacbc1d4ac7c42f8f3a217b1cb5d",
+          "is_duplicate": false,
+          "page_count": 4,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/lévofloxacine/levofloxacine_Notice_EMC.md",
+          "extracted_chars": 3474,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "levofloxacine_RCP_EMC.pdf",
+          "relative_path": "lévofloxacine/levofloxacine_RCP_EMC.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "label_country_unverified",
+          "authority_tier": 2,
+          "size_bytes": 255105,
+          "hash_sha256": "5d65f372d33dae6db46d5f288847b7a0b6d34a8d4af231a639213a43f547e38a",
+          "is_duplicate": false,
+          "page_count": 4,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/lévofloxacine/levofloxacine_RCP_EMC.md",
+          "extracted_chars": 3025,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
       "dci": "losartan",
       "normalized_dci": "losartan",
       "fiche_dci": {
@@ -4107,11 +5141,11 @@
         ]
       },
       "stats": {
-        "total_files": 8,
-        "files_with_text": 8,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
-        "brand_count": 1,
-        "total_chars": 144848
+        "brand_count": 0,
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -4149,135 +5183,9 @@
           "processed_path": "data/processed_corpus/losartan/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo (4).csv",
           "extracted_chars": 0,
           "text_quality": "structured_data"
-        },
-        {
-          "filename": "dailymed-losartan.pdf",
-          "relative_path": "losartan/dailymed-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "us_dailymed",
-          "authority_tier": 3,
-          "size_bytes": 907906,
-          "hash_sha256": "6609951335d96acabcf8ef0e091c6919a83bf3a5b85a558aececf0576ae63e0f",
-          "is_duplicate": false,
-          "page_count": 4,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/dailymed-losartan.md",
-          "extracted_chars": 4986,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "info-losartan.pdf",
-          "relative_path": "losartan/info-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 483029,
-          "hash_sha256": "fe053b6740ba9d7fe7ef26cdf86ff22d2bad47a162de1a5eff2bc4cc280e6b37",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/info-losartan.md",
-          "extracted_chars": 4600,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "LOSartan anpp.pdf",
-          "relative_path": "losartan/LOSartan anpp.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "dz_official",
-          "authority_tier": 1,
-          "size_bytes": 448016,
-          "hash_sha256": "522fabf6044f8cb20f713947608c678c2d8508b56d399082637559b523a4adf1",
-          "is_duplicate": false,
-          "page_count": 23,
-          "audit_status": "ok",
-          "audit_issues": [
-            "Repeated header/footer noise detected (3 unique blocks)"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/LOSartan anpp.md",
-          "extracted_chars": 58234,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-losartan.pdf",
-          "relative_path": "losartan/notice-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1819859,
-          "hash_sha256": "0362391cd326bb54518c22f112dd0c09aa7bd791a88c3192b0f66793c6682cce",
-          "is_duplicate": false,
-          "page_count": 12,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/notice-losartan.md",
-          "extracted_chars": 20763,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcp-losartan.pdf",
-          "relative_path": "losartan/rcp-losartan.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 4096095,
-          "hash_sha256": "dab6a8f1147a057811a8407e876561067fae058dd12c416c4928b69c1abbbd00",
-          "is_duplicate": false,
-          "page_count": 25,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/losartan/rcp-losartan.md",
-          "extracted_chars": 46102,
-          "text_quality": "ok"
         }
       ],
-      "brands": [
-        {
-          "brand": "cozzar",
-          "files": [
-            {
-              "filename": "cozaar interaction.pdf",
-              "relative_path": "losartan/cozzar/cozaar interaction.pdf",
-              "extension": "pdf",
-              "doc_type": "interaction_page",
-              "source_type": "label_country_unverified",
-              "authority_tier": 2,
-              "size_bytes": 1741133,
-              "hash_sha256": "1a1ad28279c3aeca5acf80f45d76eb8adfbd76b7de3c665d9c93edfe8044c287",
-              "is_duplicate": false,
-              "page_count": 5,
-              "audit_status": "needs_ocr",
-              "audit_issues": [
-                "Only 0 chars extracted - likely scanned image PDF"
-              ],
-              "ocr_status": "skipped_existing",
-              "processed_path": "data/processed_corpus/losartan/cozzar/cozaar interaction.md",
-              "extracted_chars": 10163,
-              "text_quality": "ok"
-            }
-          ]
-        }
-      ]
+      "brands": []
     },
     {
       "dci": "meloxicam",
@@ -4460,6 +5368,262 @@
           "ocr_status": "skipped_existing",
           "processed_path": "data/processed_corpus/méthyldopa/méthyldopa_RCP_ANSM.md",
           "extracted_chars": 19747,
+          "text_quality": "ok"
+        }
+      ],
+      "brands": []
+    },
+    {
+      "dci": "metronidazole",
+      "normalized_dci": "metronidazole",
+      "fiche_dci": {
+        "exists": true,
+        "path": "data/fiches_dci/metronidazole.md",
+        "chars": 3902,
+        "sections": [
+          "DCI : MÉTRONIDAZOLE",
+          "Documents de référence",
+          "Recherche ANPP",
+          "Sources consultées",
+          "Précision"
+        ],
+        "code_atc": "J01XD01",
+        "present_dans_miph": "oui",
+        "version_nomenclature": "Nomenclature MIPH (août 2026)",
+        "authority_level": 4,
+        "sources": [
+          "MIPH (Ministère de l'Industrie Pharmaceutique) — Nomenclature nationale des produits pharmaceutiques (noms commerciaux, formes, dosages, codes DCI) — Algérie — https://www.miph.gov.dz/fr/nomenclature-nationale-des-produits-pharmaceutiques/ — 18/11/2026",
+          "ANPP (Agence Nationale des Produits Pharmaceutiques) — Recherche de RCP algérien par DCI et par nom commercial — Algérie — https://rcp.anpp.dz — 18/11/2026",
+          "Journal officiel de la République algérienne n° 75 du 13/11/2025 — Codes DCI, formes et dosages enregistrés — Algérie — https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — RCP de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "ANSM — Base de données publique des médicaments — Notice de référence (FLAGYL 500 mg, comprimé pelliculé) — France — https://base-donnees-publique.medicaments.gouv.fr — 18/11/2026",
+          "WHO Collaborating Centre for Drug Statistics Methodology — Vérification du code ATC (J01XD01) — International — https://atcddd.fhi.no/atc_ddd_index/?code=J01XD01 — 18/11/2026"
+        ],
+        "remarques": "Une source étrangère complète la source algérienne et ne la remplace pas. | En cas de différence, la source algérienne prévaut : aucun RCP algérien (ANPP) n'a pu être récupéré ; le RCP/notice de FLAGYL 500 mg, comprimé pelliculé (ANSM — Base de données publique des médicaments) sert de référence documentaire étrangère complémentaire. Les spécialités et dosages commercialisés en Algérie proviennent de la nomenclature MIPH.",
+        "produits": [
+          {
+            "brand": "MEDAZOL",
+            "form": "COMPRIME",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROGYL",
+            "form": "COMPRIME",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "RONIDAZ 500",
+            "form": "COMPRIME",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "BIODAZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLAGYNEX",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METAZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "MEDOGYL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAZOLE MM",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "FLAZOL",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "COMPRIME PELLICULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "RONIDAZ 250",
+            "form": "COMPRIME SECABLE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROGYL",
+            "form": "COMPRIME SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDAZOLE HUP",
+            "form": "COMPRIME SECABLE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METRONIDQZAZOLE MM",
+            "form": "COPRIME PELLICULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METROZEX",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "ROSADOZE",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "ROZEX",
+            "form": "GEL DERMIQUE",
+            "dosage": "0,0075"
+          },
+          {
+            "brand": "METRONIDAZOLE BEKER",
+            "form": "GELULE",
+            "dosage": "250MG"
+          },
+          {
+            "brand": "METRONIDAZOLE BEKER",
+            "form": "GELULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FONGYMEX",
+            "form": "OVULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "METROFAGYL",
+            "form": "OVULE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "FLAGYL",
+            "form": "OVULE VAGINALE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "IMUZOLE",
+            "form": "OVULE VAGINALE",
+            "dosage": "500MG"
+          },
+          {
+            "brand": "BIODAZOLE",
+            "form": "SOLUTION INJECTABLE",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "METRONIDAZOLE BIEFFE MEDITAL",
+            "form": "SOLUTION INJECTABLE",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "MEDROGYL",
+            "form": "SOLUTION INJECTABLE IV",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "METRONIDAZOLE RAZES 0,5%",
+            "form": "SOLUTION INJECTABLE POUR PERFUSION",
+            "dosage": "5MG/ML (500MG/100ML)"
+          },
+          {
+            "brand": "FLAZOL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "METAGYL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "FLAGYL",
+            "form": "SUSPENSION BUVABLE",
+            "dosage": "125MG/5ML"
+          },
+          {
+            "brand": "Journal officiel de la République algérienne n° 75 du 13/11/2025",
+            "form": "Codes DCI, formes et dosages enregistrés",
+            "dosage": "Algérie",
+            "laboratoire": "https://www.joradp.dz/FTP/jo-francais/2025/F2025075.pdf"
+          },
+          {
+            "brand": "WHO Collaborating Centre for Drug Statistics Methodology",
+            "form": "Vérification du code ATC (J01XD01)",
+            "dosage": "International",
+            "laboratoire": "https://atcddd.fhi.no/atc_ddd_index/?code=J01XD01"
+          }
+        ]
+      },
+      "stats": {
+        "total_files": 2,
+        "files_with_text": 2,
+        "low_text_files": 0,
+        "brand_count": 0,
+        "total_chars": 46426
+      },
+      "source_files": [
+        {
+          "filename": "metronidazole_Notice_ANSM.pdf",
+          "relative_path": "metronidazole/metronidazole_Notice_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "notice",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 449737,
+          "hash_sha256": "62eaf493770ed3efd7d2e4d50cc5cc0344186d5d479d41bfbe30cdf670c81816",
+          "is_duplicate": false,
+          "page_count": 5,
+          "audit_status": "ok",
+          "audit_issues": [
+            "Repeated header/footer noise detected (1 unique blocks)"
+          ],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/metronidazole/metronidazole_Notice_ANSM.md",
+          "extracted_chars": 21525,
+          "text_quality": "ok"
+        },
+        {
+          "filename": "metronidazole_RCP_ANSM.pdf",
+          "relative_path": "metronidazole/metronidazole_RCP_ANSM.pdf",
+          "extension": "pdf",
+          "doc_type": "rcp",
+          "source_type": "fr_institutional",
+          "authority_tier": 3,
+          "size_bytes": 534056,
+          "hash_sha256": "ff9c240d7d179609dada21ca5fe266269187f713ac1b4faff0262a510a8c5afa",
+          "is_duplicate": false,
+          "page_count": 7,
+          "audit_status": "ok",
+          "audit_issues": [],
+          "ocr_status": "cleaned_ok",
+          "processed_path": "data/processed_corpus/metronidazole/metronidazole_RCP_ANSM.md",
+          "extracted_chars": 24901,
           "text_quality": "ok"
         }
       ],
@@ -6398,11 +7562,11 @@
         ]
       },
       "stats": {
-        "total_files": 6,
-        "files_with_text": 6,
+        "total_files": 2,
+        "files_with_text": 2,
         "low_text_files": 0,
         "brand_count": 0,
-        "total_chars": 74905
+        "total_chars": 0
       },
       "source_files": [
         {
@@ -6440,86 +7604,6 @@
           "processed_path": "data/processed_corpus/ramipril/Commercialname-ActivesubstanceDCI-Pharmaceuticalfo.csv",
           "extracted_chars": 0,
           "text_quality": "structured_data"
-        },
-        {
-          "filename": "info.pdf",
-          "relative_path": "ramipril/info.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 435011,
-          "hash_sha256": "ac2e58a9cd44de0f86813dba1449842260bc9a9c29b87146e2d356a8cab2d1dc",
-          "is_duplicate": false,
-          "page_count": 3,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/info.md",
-          "extracted_chars": 3827,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "notice-ramplir.pdf",
-          "relative_path": "ramipril/notice-ramplir.pdf",
-          "extension": "pdf",
-          "doc_type": "notice",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 1908842,
-          "hash_sha256": "e14252a23e1cc46515a9f443bf2e6c4babf0f3e35be5ec988232ed1b1e18c8b1",
-          "is_duplicate": false,
-          "page_count": 14,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/notice-ramplir.md",
-          "extracted_chars": 23592,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "ramplir-dailymed.pdf",
-          "relative_path": "ramipril/ramplir-dailymed.pdf",
-          "extension": "pdf",
-          "doc_type": "other",
-          "source_type": "us_dailymed",
-          "authority_tier": 3,
-          "size_bytes": 990800,
-          "hash_sha256": "5a9e4c2a72d2aac943ca8b3f1a6dba159cfcee5ee30a15ddefb5afa5f8e7fc5b",
-          "is_duplicate": false,
-          "page_count": 4,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/ramplir-dailymed.md",
-          "extracted_chars": 5536,
-          "text_quality": "ok"
-        },
-        {
-          "filename": "rcpramplir.pdf",
-          "relative_path": "ramipril/rcpramplir.pdf",
-          "extension": "pdf",
-          "doc_type": "rcp",
-          "source_type": "label_country_unverified",
-          "authority_tier": 2,
-          "size_bytes": 3793246,
-          "hash_sha256": "3ec9aeefd70098a4620224cef1445be5682344afb6f20b04ac888aba9f067b19",
-          "is_duplicate": false,
-          "page_count": 27,
-          "audit_status": "needs_ocr",
-          "audit_issues": [
-            "Only 0 chars extracted - likely scanned image PDF"
-          ],
-          "ocr_status": "skipped_existing",
-          "processed_path": "data/processed_corpus/ramipril/rcpramplir.md",
-          "extracted_chars": 41950,
-          "text_quality": "ok"
         }
       ],
       "brands": []

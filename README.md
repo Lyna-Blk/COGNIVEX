@@ -47,6 +47,9 @@ Quand les documents le permettent, la réponse présente :
 
 - Python
 - API Groq avec le modèle imposé `openai/gpt-oss-120b`
+- PyMuPDF, pypdf, RapidOCR : lecture des PDF et OCR
+- `sentence-transformers` (`intfloat/multilingual-e5-small`) et ChromaDB : recherche sémantique
+- BM25 : recherche par mots-clés
 
 ## Installation
 
@@ -55,6 +58,51 @@ Depuis le dossier du projet, installez les dépendances :
 ```bash
 python -m pip install -r requirements.txt
 ``` 
+
+## Avancement du projet
+
+| Semaine | Contenu | Statut |
+|---|---|---|
+| Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
+| Semaine 2 | Découpage en chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique | Terminée |
+
+### Semaine 1 — Préparation du corpus
+
+Le corpus (`data/corpus/`) n’est jamais modifié ; les résultats sont écrits dans `data/processed/` et `data/processed_corpus/`.
+
+| Étape | Script | Rôle |
+|---|---|---|
+| 1. Audit | `src/audit_corpus.py` | Détecte les PDF scannés, vides ou corrompus, les doublons (SHA-256) et le bruit (en-têtes/pieds de page répétés). Écrit `corpus_audit_report.json` et `.txt`. |
+| 2. OCR et nettoyage | `src/ocr_pipeline.py` | OCR (RapidOCR) des PDF scannés et des images, extraction et nettoyage des PDF avec texte. Produit un Markdown par document, avec un titre `## Page N` pour citer la page. Reprend là où il s’est arrêté. |
+| 3. Métadonnées | `src/generate_corpus_metadata.py` | Regroupe par DCI les fiches DCI, les fichiers, le type de source, le niveau d’autorité et la qualité du texte dans `corpus_metadata.json`. |
+
+### Semaine 2 — Recherche par mots-clés et recherche sémantique
+
+| Étape | Fichier | Rôle |
+|---|---|---|
+| 1. Chunks | `src/build_chunks.py` | Découpe le texte page par page en passages de 120 mots (chevauchement 20) avec DCI, marque, type de document, fichier et page. Sortie : `chunks.jsonl` (**4 411 chunks**). |
+| 2. Embeddings | `notebooks/recherche.ipynb` | Calcule les embeddings (`multilingual-e5-small`, 384 dimensions) et monte la base ChromaDB (cosinus). |
+| 3. Comparaison | `src/compare_search.py` | Pose les 8 questions de `questions_llm.md` à BM25 et à la recherche sémantique (top-5) et écrit le rapport de comparaison. |
+
+```bash
+python src/compare_search.py              # mots-clés + sémantique
+python src/compare_search.py --bm25-only  # mots-clés seulement
+```
+
+#### Premières observations (8 questions, top-5)
+- Les deux méthodes retrouvent souvent des passages différents (0 à 2 chunks communs sur 5) : elles sont complémentaires.
+- Pour une DCI précise (Q1), les deux retrouvent la bonne DCI. Pour une marque absente (Q2, CARDENSIEL), aucune ne retrouve de passage qui répond.
+- Pour les questions hors périmètre ou pièges (Q7, Q8), elles retournent quand même 5 résultats sans rapport clair.
+- Les scores sémantiques sont très proches (0,85 à 0,91) : un score élevé ne prouve pas que la réponse est dans le corpus.
+
+**Suite prévue** : seuil pour répondre « information non trouvée », recherche hybride, puis liaison avec le LLM.
+
+#### Pistes pour la suite
+
+- Ajouter un **seuil** ou une règle de décision pour répondre « information non trouvée dans les sources » quand les passages ne répondent pas à la question.
+- Tester une recherche **hybride** (BM25 + sémantique) et un filtrage par DCI.
+- Relier la recherche au LLM (Groq) avec le format de réponse prévu et les références (document, page).
+
 ## Documentation
 
 ### 1. Présentation du projet
@@ -70,19 +118,13 @@ python -m pip install -r requirements.txt
 
 - [Semaine 1 — Analyse du réponses du LLM sans RAG ](docs/evaluation/analyse_reponses_sans_RAG.md)
 
-### 4. Recherche dans le corpus (semaine 2)
+### 4. Recherche
 
-Découpage des documents, embeddings sémantiques (TF-IDF + SVD, calculés localement) et comparaison avec la recherche BM25 :
-
-```bash
-.\.venv\Scripts\python.exe src\build_vector_store.py
-.\.venv\Scripts\python.exe src\compare_search.py
-```
-
-- [Semaine 2 — Résultats de la comparaison](docs/evaluation/resultats_comparaison.md)
-- [Semaine 2 — Comparaison mots-clés et recherche sémantique](docs/evaluation/comparaison_recherche.md)
-- [Semaine 2 — Analyse de la comparaison](docs/evaluation/analyse_comparaison_recherche.md)
-
+- [Comparaison BM25 et recherche sémantique — expérience 1 (120/20)](docs/evaluation/comparaison_recherche_exp1.md)
+- [Comparaison BM25 et recherche sémantique — expérience 2 (240/40)](docs/evaluation/comparaison_recherche_exp2.md)
+- [Comparaison BM25 et recherche sémantique — expérience 3 (500/75)](docs/evaluation/comparaison_recherche_exp3.md)
+- [Synthèse de la comparaison des tailles de chunks](docs/evaluation/comparaison_tailles_chunks.md)
+- [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 
 ## Équipe
 - Lyna Anfel BELKHAIRI
