@@ -1,32 +1,7 @@
-"""
-build_knowledge_graph.py
-------------------------
-Step 2 of Week 3: Build the medication knowledge graph.
-
-Reads  : data/knowledge_graph/dci_dict.json
-Writes : data/knowledge_graph/graph.json      (NetworkX node-link format)
-         data/knowledge_graph/graph.graphml   (for Gephi/Cytoscape visualisation)
-         data/knowledge_graph/graph_summary.md (human-readable report)
-
-Ontology
---------
-Node types:
-  - DCI             : active substance (e.g. paracétamol)
-  - Medicament      : brand product with dosage/form (e.g. DOLIPRANE 500mg cp)
-  - ClasseThera     : therapeutic class (e.g. Antalgiques et anti-inflammatoires)
-  - CodeATC         : ATC code node (e.g. N02BE01)
-
-Edge types (relation):
-  - EST_GENERIQUE_DE   : Medicament → DCI
-  - APPARTIENT_A       : DCI → ClasseThera
-  - A_CODE_ATC         : DCI → CodeATC
-  - MEME_CLASSE_QUE    : DCI → DCI (same therapeutic class)
-  - EQUIVALENT_A       : Medicament → Medicament (same DCI + dosage + form)
-"""
-
+import csv
 import json
 from pathlib import Path
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = ROOT / "data" / "knowledge_graph" / "dci_dict.json"
@@ -34,6 +9,9 @@ OUT_DIR   = ROOT / "data" / "knowledge_graph"
 OUT_JSON  = OUT_DIR / "graph.json"
 OUT_GML   = OUT_DIR / "graph.graphml"
 OUT_MD    = OUT_DIR / "graph_summary.md"
+OUT_NODES = OUT_DIR / "nodes.csv"
+OUT_RELS  = OUT_DIR / "relations.csv"
+OUT_ONTO  = OUT_DIR / "ontology.md"
 
 
 def main():
@@ -251,6 +229,101 @@ def main():
 
     OUT_MD.write_text("\n".join(md), encoding="utf-8")
     print(f"[build_graph] ✓ graph_summary.md saved")
+
+    # ── nodes.csv ─────────────────────────────────────────────────────────────
+    node_cols = {"id", "type", "label"}
+    for _, attrs in G.nodes(data=True):
+        node_cols.update(attrs.keys())
+    node_fields = ["id", "type", "label"] + sorted(node_cols - {"id", "type", "label"})
+
+    with open(OUT_NODES, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=node_fields, extrasaction="ignore")
+        w.writeheader()
+        for node_id, attrs in G.nodes(data=True):
+            w.writerow({"id": node_id, **attrs})
+    print(f"[build_graph] ✓ nodes.csv saved ({G.number_of_nodes()} rows)")
+
+    # ── relations.csv ─────────────────────────────────────────────────────────
+    rel_cols = {"relation", "classe", "source"}
+    for _, _, attrs in G.edges(data=True):
+        rel_cols.update(attrs.keys())
+    rel_fields = ["source_id", "target_id", "relation", "source_type", "target_type"] \
+                 + sorted(rel_cols - {"relation"})
+
+    with open(OUT_RELS, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=rel_fields, extrasaction="ignore")
+        w.writeheader()
+        for u, v, attrs in G.edges(data=True):
+            w.writerow({
+                "source_id":   u,
+                "target_id":   v,
+                "source_type": G.nodes[u].get("type", ""),
+                "target_type": G.nodes[v].get("type", ""),
+                **attrs,
+            })
+    print(f"[build_graph] ✓ relations.csv saved ({G.number_of_edges()} rows)")
+
+    # ── ontology.md ───────────────────────────────────────────────────────────
+    node_desc = {
+        "DCI":         "Substance active (paracétamol, amoxicilline...)",
+        "Medicament":  "Produit commercial : nom + forme + dosage",
+        "ClasseThera": "Classe thérapeutique (Antalgiques, Antibiotiques...)",
+        "CodeATC":     "Code de classification ATC (ex: N02BE01)",
+    }
+    rel_desc = {
+        "EST_GENERIQUE_DE": "Le médicament est un générique/brand de cette DCI",
+        "APPARTIENT_A":     "La DCI appartient à cette classe thérapeutique",
+        "A_CODE_ATC":       "La DCI possède ce code ATC",
+        "MEME_CLASSE_QUE":  "Deux DCI de la même classe (bidirectionnelle)",
+        "EQUIVALENT_A":     "Même DCI + même forme + même dosage (bidirectionnelle)",
+    }
+
+    # properties per node type
+    props_by_type = defaultdict(set)
+    examples = {}
+    for nid, attrs in G.nodes(data=True):
+        t = attrs.get("type", "?")
+        props_by_type[t].update(k for k in attrs if k != "type")
+        examples.setdefault(t, nid)
+
+    # (type_source, relation, type_cible) -> count
+    triples = Counter()
+    for u, v, d in G.edges(data=True):
+        triples[(G.nodes[u].get("type"), d.get("relation"), G.nodes[v].get("type"))] += 1
+
+    onto = ["# Ontologie — Graphe de connaissances DCI\n",
+            f"Généré automatiquement : **{G.number_of_nodes()}** noeuds, "
+            f"**{G.number_of_edges()}** relations.\n",
+            "\n## Types de noeuds\n",
+            "| Type | Description | Nombre | Propriétés | Exemple |",
+            "|---|---|---|---|---|"]
+    for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
+        props = ", ".join(sorted(props_by_type[t]))
+        onto.append(f"| {t} | {node_desc.get(t, '')} | {c} | {props} | `{examples.get(t, '')}` |")
+
+    onto += ["\n## Types de relations\n",
+             "| Relation | Domaine → Co-domaine | Description | Nombre |",
+             "|---|---|---|---|"]
+    for (ts, r, tt), c in sorted(triples.items(), key=lambda x: -x[1]):
+        onto.append(f"| {r} | {ts} → {tt} | {rel_desc.get(r, '')} | {c} |")
+
+    onto += ["\n## Schéma\n",
+             "```",
+             "Medicament --EST_GENERIQUE_DE--> DCI",
+             "Medicament <--EQUIVALENT_A-->    Medicament",
+             "DCI        --APPARTIENT_A-->     ClasseThera",
+             "DCI        --A_CODE_ATC-->       CodeATC",
+             "DCI        <--MEME_CLASSE_QUE--> DCI",
+             "```",
+             "\n## Fichiers exportés\n",
+             "- `graph.json` : node-link JSON (NetworkX)",
+             "- `graph.graphml` : pour Gephi / Cytoscape",
+             "- `nodes.csv` / `relations.csv` : tables plates (Excel, Neo4j, pandas)",
+             "- `graph_summary.md` : statistiques"]
+
+    OUT_ONTO.write_text("\n".join(onto), encoding="utf-8")
+    print(f"[build_graph] ✓ ontology.md saved")
+
     print(f"\n{'─'*60}")
     print(f"  Nodes  : {G.number_of_nodes()}")
     for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):

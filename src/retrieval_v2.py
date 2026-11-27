@@ -184,6 +184,10 @@ def search_bm25(query: str, top_k: int = 5, dci_filter: str = None) -> list:
         ascii_ = nfkd.encode("ascii", "ignore").decode("ascii").lower()
         return re.findall(r"[a-z0-9]+", ascii_)
 
+    def strip_accents(s):
+        """Remove accents for comparison: paracétamol → paracetamol"""
+        return unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode("ascii").lower()
+
     bm25  = _get_bm25()
     chunks = _get_chunks()
 
@@ -191,11 +195,12 @@ def search_bm25(query: str, top_k: int = 5, dci_filter: str = None) -> list:
     scores = bm25.get_scores(tokens)
 
     # Build (score, chunk) pairs, applying DCI filter if needed
+    filter_norm = strip_accents(dci_filter) if dci_filter else None
     scored = []
     for i, (score, chunk) in enumerate(zip(scores, chunks)):
-        if dci_filter:
-            chunk_dci = (chunk.get("dci_normalized") or chunk.get("dci", "")).lower()
-            if dci_filter.lower() not in chunk_dci:
+        if filter_norm:
+            chunk_dci = strip_accents(chunk.get("dci_normalized") or chunk.get("dci", ""))
+            if filter_norm not in chunk_dci:
                 continue
         if score > 0:
             scored.append((score, chunk))
@@ -313,7 +318,8 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
 
     # ── 1. Normalize query (scan word-by-word to handle long teacher questions)
     norm_result = extract_dci_from_text(query, dci_dict)
-    dci_norm    = norm_result.get("dci_normalized") if norm_result["found"] else None
+    # normalize_query returns key "dci" (not "dci_normalized") — use it as filter
+    dci_norm    = norm_result.get("dci") if norm_result["found"] else None
 
     # ── 1b. Bilingual expansion: add English equivalents of French terms
     #        so BM25 can match English RCP/Notice documents too
@@ -328,9 +334,12 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
         bm25_results = search_bm25(expanded, top_k=top_k, dci_filter=dci_norm)
 
     # ── 3. Semantic ───────────────────────────────────────────────────────────
+    # For ChromaDB filter, use accent-stripped version for reliable matching
+    import unicodedata as _ud
+    dci_norm_ascii = _ud.normalize("NFKD", dci_norm).encode("ascii","ignore").decode("ascii").lower() if dci_norm else None
     sem_results = []
     if method in ("semantic", "hybrid"):
-        sem_results = search_semantic(expanded, top_k=top_k, dci_filter=dci_norm)
+        sem_results = search_semantic(expanded, top_k=top_k, dci_filter=dci_norm_ascii)
 
     hybrid_results = merge_results_rrf(bm25_results, sem_results, top_k=top_k)
 

@@ -1,6 +1,6 @@
 # Semaine 3 — Comparaison BM25 : avant/après normalisation
 
-**Date :** 2026-11-27 17:49  
+**Date :** 2026-11-27 17:55  
 
 **Chunks originaux (Semaine 2) :** 1460 chunks  
 **Chunks enrichis (Semaine 3) :** 1460 chunks (+ `dci_normalized`, `atc`, `classe`)
@@ -48,14 +48,14 @@
 | **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 46.0059 |  | 20 |
 | **BM25** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 45.1555 |  | 18 |
 | **BM25** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 42.3227 |  | 19 |
-| **SEMANTIC** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.8928 | Notice | 12 |
-| **SEMANTIC** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.8923 | RCP | 16 |
-| **SEMANTIC** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.891 | RCP | 17 |
+| **SEMANTIC** | 1 | AMOXICILLINE | 0.8681 | RCP | 13 |
+| **SEMANTIC** | 2 | AMOXICILLINE | 0.8641 | RCP | 9 |
+| **SEMANTIC** | 3 | AMOXICILLINE | 0.8634 | RCP | 16 |
 | **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 20 |
-| **HYBRID** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 | Notice | 12 |
+| **HYBRID** | 2 | AMOXICILLINE | 0.016393 | RCP | 13 |
 | **HYBRID** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016129 |  | 18 |
 
-**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Result is confirmed.
+**Observation :** OLD=AMOXICILLINE + ACIDE CLAVULANIQUE → BM25=AMOXICILLINE + ACIDE CLAVULANIQUE → SEMANTIC=AMOXICILLINE → HYBRID=AMOXICILLINE + ACIDE CLAVULANIQUE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q2 — 2. Niveau 1 — Direct (Identification d’une DCI)
@@ -70,17 +70,17 @@
 | **OLD** | 1 | AMLODIPINE | 29.841 | RCP | 1 |
 | **OLD** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.13 | RCP | 1 |
 | **OLD** | 3 | PIROXICAM | 27.996 | RCP | 1 |
-| **BM25** | 1 | AMLODIPINE | 29.8364 |  | 1 |
-| **BM25** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.0575 |  | 1 |
-| **BM25** | 3 | PIROXICAM | 27.9823 |  | 1 |
+| **BM25** | 1 | BISOPROLOL | 19.5011 |  | 1 |
+| **BM25** | 2 | BISOPROLOL | 18.2895 |  | 1 |
+| **BM25** | 3 | BISOPROLOL | 16.7052 |  | 6 |
 | **SEMANTIC** | 1 | BISOPROLOL | 0.8695 | Notice | 2 |
 | **SEMANTIC** | 2 | BISOPROLOL | 0.8648 | RCP | 2 |
 | **SEMANTIC** | 3 | BISOPROLOL | 0.8618 | RCP | 3 |
-| **HYBRID** | 1 | AMLODIPINE | 0.016393 |  | 1 |
+| **HYBRID** | 1 | BISOPROLOL | 0.016393 |  | 1 |
 | **HYBRID** | 2 | BISOPROLOL | 0.016393 | Notice | 2 |
-| **HYBRID** | 3 | ACIDE-ACETYLSALICYLIQUE | 0.016129 |  | 1 |
+| **HYBRID** | 3 | BISOPROLOL | 0.016129 |  | 1 |
 
-**Observation :** OLD=AMLODIPINE → BM25=AMLODIPINE → SEMANTIC=BISOPROLOL → HYBRID=AMLODIPINE. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=AMLODIPINE → BM25=BISOPROLOL → SEMANTIC=BISOPROLOL → HYBRID=BISOPROLOL. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q3 — 3. Niveau 2 — Croisement de références (Association et niveau d’interaction)
@@ -95,17 +95,17 @@
 | **OLD** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 49.028 | RCP | 6 |
 | **OLD** | 2 | DICLOFENAC | 48.041 | RCP | 8 |
 | **OLD** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 47.721 | RCP | 5 |
-| **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 48.9955 |  | 6 |
-| **BM25** | 2 | DICLOFENAC | 48.9588 |  | 10 |
-| **BM25** | 3 | DICLOFENAC | 48.629 |  | 4 |
+| **BM25** | 1 | RAMIPRIL | 42.8981 |  | OCR — pagination non précisée |
+| **BM25** | 2 | RAMIPRIL | 41.8284 |  | OCR — pagination non précisée |
+| **BM25** | 3 | RAMIPRIL | 40.7793 |  | OCR — pagination non précisée |
 | **SEMANTIC** | 1 | RAMIPRIL | 0.8849 | RCP | OCR — pagination non précisée |
-| **SEMANTIC** | 2 | DICLOFENAC | 0.8847 | RCP | 8 |
-| **SEMANTIC** | 3 | COTRIMOXAZOLE | 0.8841 | RCP | 3 |
-| **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 6 |
+| **SEMANTIC** | 2 | RAMIPRIL | 0.8699 | RCP | OCR — pagination non précisée |
+| **SEMANTIC** | 3 | RAMIPRIL | 0.8694 | RCP | OCR — pagination non précisée |
+| **HYBRID** | 1 | RAMIPRIL | 0.016393 |  | OCR — pagination non précisée |
 | **HYBRID** | 2 | RAMIPRIL | 0.016393 | RCP | OCR — pagination non précisée |
-| **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 10 |
+| **HYBRID** | 3 | RAMIPRIL | 0.016129 |  | OCR — pagination non précisée |
 
-**Observation :** OLD=AMOXICILLINE + ACIDE CLAVULANIQUE → BM25=AMOXICILLINE + ACIDE CLAVULANIQUE → SEMANTIC=RAMIPRIL → HYBRID=AMOXICILLINE + ACIDE CLAVULANIQUE. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=AMOXICILLINE + ACIDE CLAVULANIQUE → BM25=RAMIPRIL → SEMANTIC=RAMIPRIL → HYBRID=RAMIPRIL. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q4 — 4. Niveau 2 — Produits enregistrés contenant la même DCI
@@ -145,17 +145,17 @@
 | **OLD** | 1 | PIROXICAM | 46.814 | RCP | 12 |
 | **OLD** | 2 | COTRIMOXAZOLE | 45.839 | Notice | 2 |
 | **OLD** | 3 | INDAPAMIDE | 45.393 | RCP | 7 |
-| **BM25** | 1 | DICLOFENAC | 50.6175 |  | 3 |
-| **BM25** | 2 | CÉFUROXIME | 49.2998 |  | 2 |
-| **BM25** | 3 | AMLODIPINE | 48.4319 |  | 2 |
-| **SEMANTIC** | 1 | CÉFIXIME | 0.8842 | Autre document PDF | 78 |
-| **SEMANTIC** | 2 | CÉFIXIME | 0.8826 | Autre document PDF | 63 |
-| **SEMANTIC** | 3 | CÉFIXIME | 0.8819 | Autre document PDF | 57 |
-| **HYBRID** | 1 | DICLOFENAC | 0.016393 |  | 3 |
-| **HYBRID** | 2 | CÉFIXIME | 0.016393 | Autre document PDF | 78 |
-| **HYBRID** | 3 | CÉFUROXIME | 0.016129 |  | 2 |
+| **BM25** | 1 | CIPROFLOXACINE | 39.0972 |  | 1 |
+| **BM25** | 2 | CIPROFLOXACINE | 30.8777 |  | 1 |
+| **BM25** | 3 | CIPROFLOXACINE | 29.5875 |  | 2 |
+| **SEMANTIC** | 1 | CIPROFLOXACINE | 0.877 | Notice | 1 |
+| **SEMANTIC** | 2 | CIPROFLOXACINE | 0.8763 | Notice | 1 |
+| **SEMANTIC** | 3 | CIPROFLOXACINE | 0.8737 | Notice | 1 |
+| **HYBRID** | 1 | CIPROFLOXACINE | 0.032522 |  | 1 |
+| **HYBRID** | 2 | CIPROFLOXACINE | 0.016393 |  | 1 |
+| **HYBRID** | 3 | CIPROFLOXACINE | 0.016129 | Notice | 1 |
 
-**Observation :** OLD=PIROXICAM → BM25=DICLOFENAC → SEMANTIC=CÉFIXIME → HYBRID=DICLOFENAC. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=PIROXICAM → BM25=CIPROFLOXACINE → SEMANTIC=CIPROFLOXACINE → HYBRID=CIPROFLOXACINE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q6 — 6. Question piège — Dépassement de la dose maximale
@@ -173,14 +173,14 @@
 | **BM25** | 1 | PARACÉTAMOL + CODÉINE | 72.7843 |  | 3 |
 | **BM25** | 2 | PARACÉTAMOL + CODÉINE | 67.1049 |  | 2 |
 | **BM25** | 3 | PARACETAMOL | 54.9814 |  | 2 |
-| **SEMANTIC** | 1 | PARACÉTAMOL + CODÉINE | 0.8896 | RCP | 2 |
-| **SEMANTIC** | 2 | PARACÉTAMOL + CODÉINE | 0.8872 | RCP | 3 |
-| **SEMANTIC** | 3 | PARACETAMOL | 0.8866 | RCP | 7 |
-| **HYBRID** | 1 | PARACÉTAMOL + CODÉINE | 0.032522 |  | 2 |
-| **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 |  | 3 |
-| **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 | RCP | 3 |
+| **SEMANTIC** | 1 | PARACETAMOL | 0.8866 | RCP | 7 |
+| **SEMANTIC** | 2 | PARACETAMOL | 0.8843 | Notice | 1 |
+| **SEMANTIC** | 3 | PARACETAMOL | 0.8837 | RCP | 9 |
+| **HYBRID** | 1 | PARACÉTAMOL + CODÉINE | 0.016393 |  | 3 |
+| **HYBRID** | 2 | PARACETAMOL | 0.016393 | RCP | 7 |
+| **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 |  | 2 |
 
-**Observation :** All methods agree: **PARACÉTAMOL + CODÉINE**. Result is confirmed.
+**Observation :** OLD=PARACÉTAMOL + CODÉINE → BM25=PARACÉTAMOL + CODÉINE → SEMANTIC=PARACETAMOL → HYBRID=PARACÉTAMOL + CODÉINE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q7 — 7. Question piège — Médicaments aux noms très similaires / risque de confusion LASA
@@ -198,14 +198,14 @@
 | **BM25** | 1 | PARACETAMOL | 30.1346 |  | 1 |
 | **BM25** | 2 | PARACÉTAMOL + CODÉINE | 28.1233 |  | 8 |
 | **BM25** | 3 | PARACÉTAMOL + CODÉINE | 27.7048 |  | 6 |
-| **SEMANTIC** | 1 | PARACÉTAMOL + CODÉINE | 0.908 | RCP | 2 |
-| **SEMANTIC** | 2 | PARACÉTAMOL + CODÉINE | 0.9045 | Notice | 9 |
-| **SEMANTIC** | 3 | PARACÉTAMOL + CODÉINE | 0.9012 | RCP | 2 |
+| **SEMANTIC** | 1 | PARACETAMOL | 0.8881 | RCP | 2 |
+| **SEMANTIC** | 2 | PARACETAMOL | 0.8871 | RCP | 6 |
+| **SEMANTIC** | 3 | PARACETAMOL | 0.8812 | RCP | 3 |
 | **HYBRID** | 1 | PARACETAMOL | 0.016393 |  | 1 |
-| **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 | RCP | 2 |
+| **HYBRID** | 2 | PARACETAMOL | 0.016393 | RCP | 2 |
 | **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 |  | 8 |
 
-**Observation :** OLD=TRAMADOL → BM25=PARACETAMOL → SEMANTIC=PARACÉTAMOL + CODÉINE → HYBRID=PARACETAMOL. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=TRAMADOL → BM25=PARACETAMOL → SEMANTIC=PARACETAMOL → HYBRID=PARACETAMOL. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q8 — 8. Hors périmètre — (Demande de diagnostic ou de prescription médicale)
@@ -220,17 +220,17 @@
 | **OLD** | 1 | CÉLÉCOXIB | 56.819 | Notice | 2 |
 | **OLD** | 2 | METRONIDAZOLE | 50.392 | Notice | 2 |
 | **OLD** | 3 | DOXYCYCLINE | 48.767 | Notice | 2 |
-| **BM25** | 1 | CÉLÉCOXIB | 59.8256 |  | 2 |
-| **BM25** | 2 | DICLOFENAC | 51.3532 |  | 6 |
-| **BM25** | 3 | METRONIDAZOLE | 50.4169 |  | 2 |
-| **SEMANTIC** | 1 | INDAPAMIDE | 0.8753 | Notice | 6 |
-| **SEMANTIC** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.873 | Notice | 8 |
-| **SEMANTIC** | 3 | VALSARTAN | 0.873 | Notice | 7 |
-| **HYBRID** | 1 | CÉLÉCOXIB | 0.016393 |  | 2 |
-| **HYBRID** | 2 | INDAPAMIDE | 0.016393 | Notice | 6 |
-| **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 6 |
+| **BM25** | 1 | CLINDAMYCINE | 42.5266 |  | OCR — pagination non précisée |
+| **BM25** | 2 | CLINDAMYCINE | 38.9699 |  | OCR — pagination non précisée |
+| **BM25** | 3 | CLINDAMYCINE | 38.6931 |  | OCR — pagination non précisée |
+| **SEMANTIC** | 1 | CLINDAMYCINE | 0.8719 | Notice | OCR — pagination non précisée |
+| **SEMANTIC** | 2 | CLINDAMYCINE | 0.861 | Notice | OCR — pagination non précisée |
+| **SEMANTIC** | 3 | CLINDAMYCINE | 0.8544 | Autre document PDF | OCR — pagination non précisée |
+| **HYBRID** | 1 | CLINDAMYCINE | 0.032522 |  | OCR — pagination non précisée |
+| **HYBRID** | 2 | CLINDAMYCINE | 0.032002 |  | OCR — pagination non précisée |
+| **HYBRID** | 3 | CLINDAMYCINE | 0.016393 | Notice | OCR — pagination non précisée |
 
-**Observation :** OLD=CÉLÉCOXIB → BM25=CÉLÉCOXIB → SEMANTIC=INDAPAMIDE → HYBRID=CÉLÉCOXIB. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=CÉLÉCOXIB → BM25=CLINDAMYCINE → SEMANTIC=CLINDAMYCINE → HYBRID=CLINDAMYCINE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ---

@@ -1,0 +1,758 @@
+﻿id,type,label,atc,classe,dans_nomenclature,dci,dci_normalized,dosage,forme,nom_commercial,nom_normalized,numero,prefix_4,source
+DCI::paracétamol,DCI,paracétamol,N02BE01,Antalgiques et anti-inflammatoires,True,,paracetamol,,,,,1,,Liste_MIPH_2026
+CLASSE::Antalgiques et anti-inflammatoires,ClasseThera,Antalgiques et anti-inflammatoires,,,,,,,,,,,,
+ATC::N02BE01,CodeATC,N02BE01,,,,,,,,,,,N02B,
+MED::doli_bien::compri::500mg,Medicament,DOLI-BIEN,,,True,paracétamol,,500MG,COMPRIME,DOLI-BIEN,doli bien,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolyc::compri::500mg,Medicament,DOLYC,,,True,paracétamol,,500MG,COMPRIME,DOLYC,dolyc,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetal::compri::500mg,Medicament,PARACETAL,,,True,paracétamol,,500MG,COMPRIME,PARACETAL,paracetal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::compri::500mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,500MG,COMPRIME,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rosadol::compri::500mg,Medicament,ROSADOL,,,True,paracétamol,,500MG,COMPRIME,ROSADOL,rosadol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::antalgan::compri::500mg,Medicament,ANTALGAN,,,True,paracétamol,,500MG,COMPRIME,ANTALGAN,antalgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::compri::500mg,Medicament,PARALGAN,,,True,paracétamol,,500MG,COMPRIME,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doli_bien::compri::1000mg,Medicament,DOLI-BIEN,,,True,paracétamol,,1000MG,COMPRIME,DOLI-BIEN,doli bien,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolyc::compri::1000mg,Medicament,DOLYC,,,True,paracétamol,,1000MG,COMPRIME,DOLYC,dolyc,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::compri::1000mg,Medicament,EXPANDOL,,,True,paracétamol,,1000MG,COMPRIME,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::compri::1000mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,1000MG,COMPRIME,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rosadol::compri::1000mg,Medicament,ROSADOL,,,True,paracétamol,,1000MG,COMPRIME,ROSADOL,rosadol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::antalgan::compri::1000mg,Medicament,ANTALGAN,,,True,paracétamol,,1000MG,COMPRIME,ANTALGAN,antalgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolidol_flash::compri::1g,Medicament,DOLIDOL FLASH,,,True,paracétamol,,1G,COMPRIME EFFERVESSANT,DOLIDOL FLASH,dolidol flash,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::efferalgan::compri::1g,Medicament,EFFERALGAN,,,True,paracétamol,,1G,COMPRIME EFFERVESSANT,EFFERALGAN,efferalgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::panadol_1g::compri::1000mg,Medicament,PANADOL 1G,,,True,paracétamol,,1000MG,COMPRIME PELLICULE SECABLE,PANADOL 1G,panadol 1g,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::efferalgan::compri::500mg,Medicament,EFFERALGAN,,,True,paracétamol,,500MG,COMPRIME SECABLE,EFFERALGAN,efferalgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::compri::500mg,Medicament,EXPANDOL,,,True,paracétamol,,500MG,COMPRIME SECABLE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::migramol::compri::500mg,Medicament,MIGRAMOL,,,True,paracétamol,,500MG,COMPRIME SECABLE,MIGRAMOL,migramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::migramol::compri::1000mg,Medicament,MIGRAMOL,,,True,paracétamol,,1000MG,COMPRIME SECABLE,MIGRAMOL,migramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::compri::1000mg,Medicament,PARALGAN,,,True,paracétamol,,1000MG,COMPRIME SECABLE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetol::compri::1000mg,Medicament,PARACETOL,,,True,paracétamol,,1000MG,COMPRIME SECABLE,PARACETOL,paracetol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paramol::compri::1000mg,Medicament,PARAMOL,,,True,paracétamol,,1000MG,COMPRIME SECABLE,PARAMOL,paramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::comrpi::1000mg,Medicament,DOLIPRANE,,,True,paracétamol,,1000MG,COMRPIME,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_biocare::granul::300mg,Medicament,PARACETAMOL BIOCARE,,,True,paracétamol,,300MG,GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE,PARACETAMOL BIOCARE,paracetamol biocare,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_biocare::granul::500mg,Medicament,PARACETAMOL BIOCARE,,,True,paracétamol,,500MG,GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE,PARACETAMOL BIOCARE,paracetamol biocare,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_biocare::granul::1000_mg,Medicament,PARACETAMOL BIOCARE,,,True,paracétamol,,1000 MG,GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE,PARACETAMOL BIOCARE,paracetamol biocare,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::poudre::1000_mg,Medicament,PARALGAN,,,True,paracétamol,,1000 MG,POUDRE POUR SOL BUV EN SACHET-DOSE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::poudre::200_mg,Medicament,EXPANDOL,,,True,paracétamol,,200 MG,POUDRE POUR SOLUTION BUVABLE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::poudre::100mg,Medicament,EXPANDOL,,,True,paracétamol,,100MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::poudre::100mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,100MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::poudre::100mg,Medicament,PARALGAN,,,True,paracétamol,,100MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::poudre::100mg,Medicament,SAPRAMOL,,,True,paracétamol,,100MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::poudre::150mg,Medicament,EXPANDOL,,,True,paracétamol,,150MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_biocare::poudre::150mg,Medicament,PARACETAMOL BIOCARE,,,True,paracétamol,,150MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL BIOCARE,paracetamol biocare,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::poudre::150mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,150MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::poudre::150mg,Medicament,SAPRAMOL,,,True,paracétamol,,150MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::poudre::200mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,200MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::poudre::200mg,Medicament,PARALGAN,,,True,paracétamol,,200MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::poudre::200mg,Medicament,SAPRAMOL,,,True,paracétamol,,200MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::poudre::300mg,Medicament,DOLIPRANE,,,True,paracétamol,,300MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::poudre::300_mg,Medicament,EXPANDOL,,,True,paracétamol,,300 MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::poudre::300mg,Medicament,PARALGAN,,,True,paracétamol,,300MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::planadix::poudre::300_mg,Medicament,PLANADIX,,,True,paracétamol,,300 MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PLANADIX,planadix,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::poudre::300mg,Medicament,SAPRAMOL,,,True,paracétamol,,300MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::expandol::poudre::500mg,Medicament,EXPANDOL,,,True,paracétamol,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,EXPANDOL,expandol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::poudre::500mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::poudre::500mg,Medicament,PARALGAN,,,True,paracétamol,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::planadix::poudre::500mg,Medicament,PLANADIX,,,True,paracétamol,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PLANADIX,planadix,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::poudre::500mg,Medicament,SAPRAMOL,,,True,paracétamol,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_physiopharm::poudre::1000_mg,Medicament,PARACETAMOL PHYSIOPHARM,,,True,paracétamol,,1000 MG,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,PARACETAMOL PHYSIOPHARM,paracetamol physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::isomol::soluti::100mg_5m,Medicament,ISOMOL,,,True,paracétamol,,100MG/5ML,SOLUTION BUVABLE,ISOMOL,isomol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::acetadol::soluti::0,03",Medicament,ACETADOL,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,ACETADOL,acetadol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::doli_bien::soluti::0,03",Medicament,DOLI-BIEN,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,DOLI-BIEN,doli bien,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::dolpriv::soluti::0,03",Medicament,DOLPRIV,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,DOLPRIV,dolpriv,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::efferalgan_pediatrique::soluti::0,03",Medicament,EFFERALGAN PEDIATRIQUE,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,EFFERALGAN PEDIATRIQUE,efferalgan pediatrique,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::isomol::soluti::0,03",Medicament,ISOMOL,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,ISOMOL,isomol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::pediamol::soluti::0,03",Medicament,PEDIAMOL,,,True,paracétamol,,"0,03",SOLUTION BUVABLE,PEDIAMOL,pediamol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapramol::soluti::10mg_ml_,Medicament,SAPRAMOL,,,True,paracétamol,,10MG/ML (500MG/50ML) (1000MG/100ML),SOLUTION INJECTABLE. P. PERF. IV,SAPRAMOL,sapramol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetal::soluti::10mg_ml_,Medicament,PARACETAL,,,True,paracétamol,,10MG/ML (1000MG/100ML),SOLUTION INJECTABLE. P. PERF. IV.,PARACETAL,paracetal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_pharmaghreb::soluti::10mg_ml_,Medicament,PARACETAMOL PHARMAGHREB,,,True,paracétamol,,10MG/ML (500MG/50ML) (1000MG/100ML),SOLUTION INJECTABLE. P. PERF. IV.,PARACETAMOL PHARMAGHREB,paracetamol pharmaghreb,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::permidol::soluti::10mg_ml,Medicament,PERMIDOL,,,True,paracétamol,,10MG/ML,SOLUTION INJECTABLE. P. PERF. IV.,PERMIDOL,permidol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::suppos::100mg,Medicament,DOLIPRANE,,,True,paracétamol,,100MG,SUPPOSITOIRE,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolymex::suppos::100mg,Medicament,DOLYMEX,,,True,paracétamol,,100MG,SUPPOSITOIRE,DOLYMEX,dolymex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_dbf::suppos::100mg,Medicament,PARACETAMOL DBF,,,True,paracétamol,,100MG,SUPPOSITOIRE,PARACETAMOL DBF,paracetamol dbf,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::parol::suppos::100mg,Medicament,PAROL,,,True,paracétamol,,100MG,SUPPOSITOIRE,PAROL,parol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::suppfadol_100::suppos::100mg,Medicament,SUPPFADOL 100,,,True,paracétamol,,100MG,SUPPOSITOIRE,SUPPFADOL 100,suppfadol 100,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::suppos::150mg,Medicament,DOLIPRANE,,,True,paracétamol,,150MG,SUPPOSITOIRE,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_dbf::suppos::150mg,Medicament,PARACETAMOL DBF,,,True,paracétamol,,150MG,SUPPOSITOIRE,PARACETAMOL DBF,paracetamol dbf,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::parol::suppos::n,Medicament,PAROL,,,True,paracétamol,,n,SUPPOSITOIRE,PAROL,parol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::suppfadol_150::suppos::150mg,Medicament,SUPPFADOL 150,,,True,paracétamol,,150MG,SUPPOSITOIRE,SUPPFADOL 150,suppfadol 150,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::suppos::200mg,Medicament,DOLIPRANE,,,True,paracétamol,,200MG,SUPPOSITOIRE,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolymex::suppos::200mg,Medicament,DOLYMEX,,,True,paracétamol,,200MG,SUPPOSITOIRE,DOLYMEX,dolymex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_dbf::suppos::200mg,Medicament,PARACETAMOL DBF,,,True,paracétamol,,200MG,SUPPOSITOIRE,PARACETAMOL DBF,paracetamol dbf,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::parol::suppos::200mg,Medicament,PAROL,,,True,paracétamol,,200MG,SUPPOSITOIRE,PAROL,parol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::suppfadol_200::suppos::200mg,Medicament,SUPPFADOL 200,,,True,paracétamol,,200MG,SUPPOSITOIRE,SUPPFADOL 200,suppfadol 200,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane::suppos::300mg,Medicament,DOLIPRANE,,,True,paracétamol,,300MG,SUPPOSITOIRE,DOLIPRANE,doliprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolymex::suppos::300mg,Medicament,DOLYMEX,,,True,paracétamol,,300MG,SUPPOSITOIRE,DOLYMEX,dolymex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paracetamol_dbf::suppos::300mg,Medicament,PARACETAMOL DBF,,,True,paracétamol,,300MG,SUPPOSITOIRE,PARACETAMOL DBF,paracetamol dbf,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::parol::suppos::300mg,Medicament,PAROL,,,True,paracétamol,,300MG,SUPPOSITOIRE,PAROL,parol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::suppfadol_300::suppos::300mg,Medicament,SUPPFADOL 300,,,True,paracétamol,,300MG,SUPPOSITOIRE,SUPPFADOL 300,suppfadol 300,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::suppfadol_170::suppos::170mg,Medicament,SUPPFADOL 170,,,True,paracétamol,,170MG,SUPPOSITOIRE,SUPPFADOL 170,suppfadol 170,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::planadix_liquiz::sus_bu::200mg_st,Medicament,PLANADIX LIQUIZ,,,True,paracétamol,,200MG/STICK,SUS BUV EN STICK UNIDOSE,PLANADIX LIQUIZ,planadix liquiz,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::planadix_liquiz::sus_bu::300mg_st,Medicament,PLANADIX LIQUIZ,,,True,paracétamol,,300MG/STICK,SUS BUV EN STICK UNIDOSE,PLANADIX LIQUIZ,planadix liquiz,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::paralgan::suspen::120mg_5m,Medicament,PARALGAN,,,True,paracétamol,,"120MG/5ML (2,4G/100ML)",SUSPENSION BUVABLE,PARALGAN,paralgan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolibon::suspen::120mg_5m,Medicament,DOLIBON,,,True,paracétamol,,"120MG/5ML (2,4G/100ML)",SUSPENSION BUVABLE,DOLIBON,dolibon,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::doliprane_2_4::suspen::120mg_5m,Medicament,"DOLIPRANE 2,4%",,,True,paracétamol,,"120MG/5ML (2,4G/100ML)",SUSPENSION BUVABLE,"DOLIPRANE 2,4%",doliprane 2 4,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolymex::suspen::120mg_5m,Medicament,DOLYMEX,,,True,paracétamol,,"120MG/5ML (2,4G/100ML)",SUSPENSION BUVABLE,DOLYMEX,dolymex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::migramol_pediatrique::suspen::120mg_5m,Medicament,MIGRAMOL PEDIATRIQUE,,,True,paracétamol,,"120MG/5ML (2,4G/100ML)",SUSPENSION BUVABLE,MIGRAMOL PEDIATRIQUE,migramol pediatrique,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::ibuprofène,DCI,ibuprofène,M01AE01,Antalgiques et anti-inflammatoires,True,,ibuprofene,,,,,2,,Liste_MIPH_2026
+ATC::M01AE01,CodeATC,M01AE01,,,,,,,,,,,M01A,
+MED::rovil_caps::capsul::400mg,Medicament,ROVIL CAPS,,,True,ibuprofène,,400MG,CAPSULE MOLLE,ROVIL CAPS,rovil caps,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rovil_caps::capsul::200mg,Medicament,ROVIL CAPS,,,True,ibuprofène,,200MG,CAPSULE MOLLE,ROVIL CAPS,rovil caps,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapofen::compri::400mg,Medicament,SAPOFEN,,,True,ibuprofène,,400MG,COMPRIME,SAPOFEN,sapofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::adfen::compri::400mg,Medicament,ADFEN,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,ADFEN,adfen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::calmofen::compri::400mg,Medicament,CALMOFEN,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,CALMOFEN,calmofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::hubifen::compri::400mg,Medicament,HUBIFEN,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,HUBIFEN,hubifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofal::compri::400mg,Medicament,IBUPROFAL,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,IBUPROFAL,ibuprofal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofene_beker::compri::400mg,Medicament,IBUPROFENE BEKER,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,IBUPROFENE BEKER,ibuprofene beker,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::narufene::compri::400mg,Medicament,NARUFENE,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,NARUFENE,narufene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::neofen::compri::400mg,Medicament,NEOFEN,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,NEOFEN,neofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::prof::compri::400_mg,Medicament,PROF,,,True,ibuprofène,,400 MG,COMPRIME PELLICULE,PROF,prof,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ubactive_400mg::compri::400mg,Medicament,UBACTIVE 400MG,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,UBACTIVE 400MG,ubactive 400mg,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::xydol_400::compri::400mg,Medicament,XYDOL 400,,,True,ibuprofène,,400MG,COMPRIME PELLICULE,XYDOL 400,xydol 400,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::adfen::compri::200mg,Medicament,ADFEN,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,ADFEN,adfen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::calmofen::compri::200mg,Medicament,CALMOFEN,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,CALMOFEN,calmofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::hubifen::compri::200mg,Medicament,HUBIFEN,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,HUBIFEN,hubifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofal::compri::200mg,Medicament,IBUPROFAL,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,IBUPROFAL,ibuprofal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofene_physiopharm::compri::200mg,Medicament,IBUPROFENE PHYSIOPHARM,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,IBUPROFENE PHYSIOPHARM,ibuprofene physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofne_beker::compri::200mg,Medicament,IBUPROFNE BEKER,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,IBUPROFNE BEKER,ibuprofne beker,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::neupren::compri::200mg,Medicament,NEUPREN,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,NEUPREN,neupren,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapomex::compri::200mg,Medicament,SAPOMEX,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,SAPOMEX,sapomex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::upfen::compri::200mg,Medicament,UPFEN,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,UPFEN,upfen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::xydol_200::compri::200mg,Medicament,XYDOL 200,,,True,ibuprofène,,200MG,COMPRIME PELLICULE,XYDOL 200,xydol 200,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::butafen::compri::600mg,Medicament,BUTAFEN,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,BUTAFEN,butafen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::hubifen::compri::600mg,Medicament,HUBIFEN,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,HUBIFEN,hubifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprane::compri::600mg,Medicament,IBUPRANE,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,IBUPRANE,ibuprane,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofal::compri::600mg,Medicament,IBUPROFAL,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,IBUPROFAL,ibuprofal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibuprofene_beker::compri::600mg,Medicament,IBUPROFENE BEKER,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,IBUPROFENE BEKER,ibuprofene beker,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::narufene::compri::600mg,Medicament,NARUFENE,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,NARUFENE,narufene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::neofen::compri::600mg,Medicament,NEOFEN,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,NEOFEN,neofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapofen_600::compri::600mg,Medicament,SAPOFEN 600,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,SAPOFEN 600,sapofen 600,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapomex::compri::600mg,Medicament,SAPOMEX,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,SAPOMEX,sapomex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ubactive_600mg::compri::600mg,Medicament,UBACTIVE 600MG,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,UBACTIVE 600MG,ubactive 600mg,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::xydol_600::compri::600mg,Medicament,XYDOL 600,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,XYDOL 600,xydol 600,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::neupren::compri::600mg,Medicament,NEUPREN,,,True,ibuprofène,,600MG,COMPRIME PELLICULE,NEUPREN,neupren,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ubactive_200mg::compri::200mg,Medicament,UBACTIVE 200MG,,,True,ibuprofène,,200MG,COMPRIME PELLICULE SECABLE,UBACTIVE 200MG,ubactive 200mg,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::gelfen_5::gel::5%_(_5g_,Medicament,GELFEN 5%,,,True,ibuprofène,,5% ( 5G/100 G ),GEL,GELFEN 5%,gelfen 5,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::antalfen::gel_de::5%_(_5g_,Medicament,ANTALFEN,,,True,ibuprofène,,5% ( 5G/100 G ),GEL DERMIQUE,ANTALFEN,antalfen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibumal::gelule::200mg,Medicament,IBUMAL,,,True,ibuprofène,,200MG,GELULE,IBUMAL,ibumal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::butafen::gelule::200mg,Medicament,BUTAFEN,,,True,ibuprofène,,200MG,GELULE A MICRO-GRANULES,BUTAFEN,butafen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::sapbufen::granul::600mg,Medicament,SAPBUFEN,,,True,ibuprofène,,600MG,GRANULES P/SOL. BUV. EN SACHET ADULTE,SAPBUFEN,sapbufen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::butafen_lp::microg::400mg,Medicament,BUTAFEN LP,,,True,ibuprofène,,400MG,MICROGRANULE EN GELLULE LIBERATION PROLONGEE,BUTAFEN LP,butafen lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::advifen::suspen::20mg_ml,Medicament,ADVIFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,ADVIFEN,advifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::algifen::suspen::20mg_ml,Medicament,ALGIFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,ALGIFEN,algifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::antalfen::suspen::20mg_ml,Medicament,ANTALFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,ANTALFEN,antalfen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ardil::suspen::20mg_ml,Medicament,ARDIL,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,ARDIL,ardil,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::calmofen::suspen::20mg_ml,Medicament,CALMOFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,CALMOFEN,calmofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ibufen::suspen::20mg_ml,Medicament,IBUFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,IBUFEN,ibufen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::lamifene::suspen::20mg_ml,Medicament,LAMIFENE,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,LAMIFENE,lamifene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::narufene_2::suspen::20mg_ml,Medicament,NARUFENE 2%,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,NARUFENE 2%,narufene 2,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::neupren::suspen::20mg_ml,Medicament,NEUPREN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,NEUPREN,neupren,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::pacifene::suspen::20mg_ml,Medicament,PACIFENE,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,PACIFENE,pacifene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::polyphene::suspen::20mg_ml,Medicament,POLYPHENE,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,POLYPHENE,polyphene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rumifen::suspen::20mg_ml,Medicament,RUMIFEN,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,RUMIFEN,rumifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::xydol_enfants_et_nourrissons::suspen::20mg_ml,Medicament,XYDOL ENFANTS ET NOURRISSONS,,,True,ibuprofène,,20MG/ML,SUSPENSION BUVABLE,XYDOL ENFANTS ET NOURRISSONS,xydol enfants et nourrissons,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::diclofénac,DCI,diclofénac,M01AB05,Antalgiques et anti-inflammatoires,True,,diclofenac,,,,,3,,Liste_MIPH_2026
+ATC::M01AB05,CodeATC,M01AB05,,,,,,,,,,,M01A,
+"MED::tabiflex_cool::emulsi::0,01",Medicament,TABIFLEX COOL,,,True,diclofénac,,"0,01",EMULSION GEL,TABIFLEX COOL,tabiflex cool,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltum::gel::0,02",Medicament,VOLTUM,,,True,diclofénac,,"0,02",GEL,VOLTUM,voltum,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::biofenac::gel_de::0,01",Medicament,BIOFENAC,,,True,diclofénac,,"0,01",GEL DERMIQUE,BIOFENAC,biofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::clogel::gel_de::0,01",Medicament,CLOGEL,,,True,diclofénac,,"0,01",GEL DERMIQUE,CLOGEL,clogel,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::deflamac::gel_de::0,01",Medicament,DEFLAMAC,,,True,diclofénac,,"0,01",GEL DERMIQUE,DEFLAMAC,deflamac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::oxyfenac::gel_de::0,01",Medicament,OXYFENAC,,,True,diclofénac,,"0,01",GEL DERMIQUE,OXYFENAC,oxyfenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::phlogoren::gel_de::0,01",Medicament,PHLOGOREN,,,True,diclofénac,,"0,01",GEL DERMIQUE,PHLOGOREN,phlogoren,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltamex::gel_de::0,01",Medicament,VOLTAMEX,,,True,diclofénac,,"0,01",GEL DERMIQUE,VOLTAMEX,voltamex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltarene_emulgel::gel_de::0,01",Medicament,VOLTARENE EMULGEL,,,True,diclofénac,,"0,01",GEL DERMIQUE,VOLTARENE EMULGEL,voltarene emulgel,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltenac::gel_de::0,01",Medicament,VOLTENAC,,,True,diclofénac,,"0,01",GEL DERMIQUE,VOLTENAC,voltenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::votrex_rapid::compri::50mg,Medicament,VOTREX RAPID,,,True,diclofénac,,50MG,COMPRIME ENROBE,VOTREX RAPID,votrex rapid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltarene_dolo::compri::12,5mg",Medicament,VOLTARENE DOLO,,,True,diclofénac,,"12,5MG",COMPRIME PELLICULE,VOLTARENE DOLO,voltarene dolo,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rapidus::compri::50mg,Medicament,RAPIDUS,,,True,diclofénac,,50MG,COMPRIME PELLICULE,RAPIDUS,rapidus,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::biofenac_fast::compri::50mg,Medicament,BIOFENAC FAST,,,True,diclofénac,,50MG,COMPRIME PELLICULE,BIOFENAC FAST,biofenac fast,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofast::compri::50mg,Medicament,DICLOFAST,,,True,diclofénac,,50MG,COMPRIME PELLICULE,DICLOFAST,diclofast,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::efirap::compri::50mg,Medicament,EFIRAP,,,True,diclofénac,,50MG,COMPRIME PELLICULE,EFIRAP,efirap,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::catafenac::compri::50mg,Medicament,CATAFENAC,,,True,diclofénac,,50MG,COMPRIME PELLICULE,CATAFENAC,catafenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::votrex_rapid::granul::50mg_sac,Medicament,VOTREX RAPID,,,True,diclofénac,,50MG/SACHET,GRANULES P/SOL. BUV. EN SACHET ADULTE,VOTREX RAPID,votrex rapid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::biofenac_fast::poudre::50mg_sac,Medicament,BIOFENAC FAST,,,True,diclofénac,,50MG/SACHET,POUDRE POUR SOLUTION BUVABLE EN SACHET DOSE,BIOFENAC FAST,biofenac fast,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dicloced::collyr::1mg_ml,Medicament,DICLOCED,,,True,diclofénac,,1MG/ML,COLLYRE EN SOLUTION,DICLOCED,dicloced,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclogesic::collyr::0.1%,Medicament,DICLOGESIC,,,True,diclofénac,,0.1%,COLLYRE EN SOLUTION,DICLOGESIC,diclogesic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::voltarene::collyr::0,001",Medicament,VOLTARENE,,,True,diclofénac,,"0,001",COLLYRE EN SOLUTION,VOLTARENE,voltarene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::xinac::collyr::0,001",Medicament,XINAC,,,True,diclofénac,,"0,001",COLLYRE EN SOLUTION,XINAC,xinac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::voltum::comp.g::25mg,Medicament,VOLTUM,,,True,diclofénac,,25MG,COMP.GASTRORESIST.,VOLTUM,voltum,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::voltum::compri::50mg,Medicament,VOLTUM,,,True,diclofénac,,50MG,COMPRIME  GASTRO-RESISTANT,VOLTUM,voltum,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclogesic_retard::compri::100mg,Medicament,DICLOGESIC RETARD,,,True,diclofénac,,100MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,DICLOGESIC RETARD,diclogesic retard,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::rofenac_lp::compri::100mg,Medicament,ROFENAC LP,,,True,diclofénac,,100MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,ROFENAC LP,rofenac lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::biofenac_lp::compri::75mg,Medicament,BIOFENAC LP,,,True,diclofénac,,75MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,BIOFENAC LP,biofenac lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofal_lp::compri::75mg,Medicament,DICLOFAL LP,,,True,diclofénac,,75MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,DICLOFAL LP,diclofal lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dicloflex_lp_75_mg::compri::75mg,Medicament,DICLOFLEX LP 75 MG,,,True,diclofénac,,75MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,DICLOFLEX LP 75 MG,dicloflex lp 75 mg,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclorene_lp_75::compri::75mg,Medicament,DICLORENE LP 75,,,True,diclofénac,,75MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,DICLORENE LP 75,diclorene lp 75,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::biofenac::compri::50mg,Medicament,BIOFENAC,,,True,diclofénac,,50MG,COMPRIME PELLICULE GASTRO-RESISTANT,BIOFENAC,biofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofen::compri::50mg,Medicament,CLOFEN,,,True,diclofénac,,50MG,COMPRIME PELLICULE GASTRO-RESISTANT,CLOFEN,clofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofal::compri::50mg,Medicament,DICLOFAL,,,True,diclofénac,,50MG,COMPRIME PELLICULE GASTRO-RESISTANT,DICLOFAL,diclofal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::geofenac::compri::50mg,Medicament,GEOFENAC,,,True,diclofénac,,50MG,COMPRIME PELLICULE GASTRO-RESISTANT,GEOFENAC,geofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::xinac_50::compri::50mg,Medicament,XINAC-50,,,True,diclofénac,,50MG,COMPRIME PELLICULE GASTRO-RESISTANT,XINAC-50,xinac 50,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::divido::gelule::75mg,Medicament,DIVIDO,,,True,diclofénac,,75MG,GELULE A DOUBLE LIBERATION,DIVIDO,divido,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal_lp::gelule::75mg,Medicament,CLOFENAL LP,,,True,diclofénac,,75MG,GELULE A LIBERATION PROLONGE,CLOFENAL LP,clofenal lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::dolan_lp_75::gelule::75mg,Medicament,DOLAN LP 75,,,True,diclofénac,,75MG,GELULE A LIBERATION PROLONGE,DOLAN LP 75,dolan lp 75,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal::gelule::50mg,Medicament,CLOFENAL,,,True,diclofénac,,50MG,GELULE A MICROGRANULES  GASTRO-RESISTANT,CLOFENAL,clofenal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal_lp::gelule::100mg,Medicament,CLOFENAL LP,,,True,diclofénac,,100MG,GELULE GASTRO-RESISTANTES LIBERATION PROLONGE,CLOFENAL LP,clofenal lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::flovenac_lp::microg::100mg,Medicament,FLOVENAC LP,,,True,diclofénac,,100MG,MICROGRANULE EN GELLULE LIBERATION PROLONGEE,FLOVENAC LP,flovenac lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclamid::soluti::25mg_ml_,Medicament,DICLAMID,,,True,diclofénac,,25MG/ML (75MG/3ML),SOLUTION INJECTABLE,DICLAMID,diclamid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::geofenac::soluti::25mg_ml_,Medicament,GEOFENAC,,,True,diclofénac,,25MG/ML (75MG/3ML),SOLUTION INJECTABLE,GEOFENAC,geofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal::soluti::25mg_ml_,Medicament,CLOFENAL,,,True,diclofénac,,25MG/ML (75MG/3ML),SOLUTION INJECTABLE IM,CLOFENAL,clofenal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclothera::soluti::25mg_ml_,Medicament,DICLOTHERA,,,True,diclofénac,,25MG/ML (75MG/3ML),SOLUTION INJECTABLE IM,DICLOTHERA,diclothera,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::voltafene::soluti::25mg_ml_,Medicament,VOLTAFENE,,,True,diclofénac,,25MG/ML (75MG/3ML),SOLUTION INJECTABLE IM,VOLTAFENE,voltafene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal_enfant::suppos::25mg,Medicament,CLOFENAL ENFANT,,,True,diclofénac,,25MG,SUPPOSITOIRE,CLOFENAL ENFANT,clofenal enfant,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofar::suppos::25mg,Medicament,DICLOFAR,,,True,diclofénac,,25MG,SUPPOSITOIRE,DICLOFAR,diclofar,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::biofenac::suppos::100mg,Medicament,BIOFENAC,,,True,diclofénac,,100MG,SUPPOSITOIRE,BIOFENAC,biofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::clofenal::suppos::100mg,Medicament,CLOFENAL,,,True,diclofénac,,100MG,SUPPOSITOIRE,CLOFENAL,clofenal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofenac::suppos::100mg,Medicament,DICLOFENAC,,,True,diclofénac,,100MG,SUPPOSITOIRE,DICLOFENAC,diclofenac,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofenac_dbf::suppos::100mg,Medicament,DICLOFENAC DBF,,,True,diclofénac,,100MG,SUPPOSITOIRE,DICLOFENAC DBF,diclofenac dbf,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::voltamex::suppos::100mg,Medicament,VOLTAMEX,,,True,diclofénac,,100MG,SUPPOSITOIRE,VOLTAMEX,voltamex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::diclofar::suppos::50mg,Medicament,DICLOFAR,,,True,diclofénac,,50MG,SUPPOSITOIRE,DICLOFAR,diclofar,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::kétoprofène,DCI,kétoprofène,M01AE03,Antalgiques et anti-inflammatoires,True,,ketoprofene,,,,,4,,Liste_MIPH_2026
+ATC::M01AE03,CodeATC,M01AE03,,,,,,,,,,,M01A,
+MED::profenid_lp::compri::200mg,Medicament,PROFENID LP,,,True,kétoprofène,,200MG,COMPRIME . ENRO. LP,PROFENID LP,profenid lp,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::evofenid::compri::100mg,Medicament,EVOFENID,,,True,kétoprofène,,100MG,COMPRIME PELLICULE,EVOFENID,evofenid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::profek::compri::100mg,Medicament,PROFEK,,,True,kétoprofène,,100MG,COMPRIME PELLICULE,PROFEK,profek,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::profenid::compri::100mg,Medicament,PROFENID,,,True,kétoprofène,,100MG,COMPRIME PELLICULE,PROFENID,profenid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::prohefen::compri::100mg,Medicament,PROHEFEN,,,True,kétoprofène,,100MG,COMPRIME PELLICULE,PROHEFEN,prohefen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::geprofen::gel_de::0,025",Medicament,GEPROFEN,,,True,kétoprofène,,"0,025",GEL DERMIQUE,GEPROFEN,geprofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::ketofen::gel_de::0,025",Medicament,KETOFEN,,,True,kétoprofène,,"0,025",GEL DERMIQUE,KETOFEN,ketofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::ketomex::gel_de::0,025",Medicament,KETOMEX,,,True,kétoprofène,,"0,025",GEL DERMIQUE,KETOMEX,ketomex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::ketonyx::gel_de::0,025",Medicament,KETONYX,,,True,kétoprofène,,"0,025",GEL DERMIQUE,KETONYX,ketonyx,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::ketum::gel_de::0,025",Medicament,KETUM,,,True,kétoprofène,,"0,025",GEL DERMIQUE,KETUM,ketum,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::koprofen::gel_de::0,025",Medicament,KOPROFEN,,,True,kétoprofène,,"0,025",GEL DERMIQUE,KOPROFEN,koprofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::k_profen::gel_de::0,025",Medicament,K-PROFEN,,,True,kétoprofène,,"0,025",GEL DERMIQUE,K-PROFEN,k profen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::saifen::gel_de::0.025,Medicament,SAIFEN,,,True,kétoprofène,,0.025,GEL DERMIQUE,SAIFEN,saifen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::profen::gel_de::0,025",Medicament,PROFEN,,,True,kétoprofène,,"0,025",GEL DERMIQUE,PROFEN,profen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ketotop::patch::30mg,Medicament,KETOTOP,,,True,kétoprofène,,30MG,PATCH,KETOTOP,ketotop,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::harufen::patch::30mg,Medicament,HARUFEN,,,True,kétoprofène,,30MG,PATCH,HARUFEN,harufen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::flexen::pdre._::100mg_fl,Medicament,FLEXEN,,,True,kétoprofène,,100MG/FL. DE PDRE.,PDRE. ET SOLV. P. SOL. INJ.,FLEXEN,flexen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::bioprofen::soluti::100mg_2m,Medicament,BIOPROFEN,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,BIOPROFEN,bioprofen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ketoflex::soluti::100mg_2m,Medicament,KETOFLEX,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,KETOFLEX,ketoflex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ketonal::soluti::100mg_2m,Medicament,KETONAL,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,KETONAL,ketonal,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ketoneed::soluti::100mg_2m,Medicament,KETONEED,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,KETONEED,ketoneed,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::profenid::soluti::100mg_2m,Medicament,PROFENID,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,PROFENID,profenid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::prohefen::soluti::100mg_2m,Medicament,PROHEFEN,,,True,kétoprofène,,100MG/2ML,SOLUTION INJECTABLE IM,PROHEFEN,prohefen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::ketomex::suppos::100mg,Medicament,KETOMEX,,,True,kétoprofène,,100MG,SUPPOSITOIRE,KETOMEX,ketomex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::profenid::suppos::100mg,Medicament,PROFENID,,,True,kétoprofène,,100MG,SUPPOSITOIRE,PROFENID,profenid,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::naproxène,DCI,naproxène,M01AE02,Antalgiques et anti-inflammatoires,True,,naproxene,,,,,5,,Liste_MIPH_2026
+ATC::M01AE02,CodeATC,M01AE02,,,,,,,,,,,M01A,
+MED::nexorpan::compri::275mg,Medicament,NEXORPAN,,,True,naproxène,,275MG,COMPRIME,NEXORPAN,nexorpan,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naprolgic::compri::275mg,Medicament,NAPROLGIC,,,True,naproxène,,275MG,COMPRIME PELLICULE,NAPROLGIC,naprolgic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naprox::compri::275mg,Medicament,NAPROX,,,True,naproxène,,275MG,COMPRIME PELLICULE,NAPROX,naprox,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naproxene_physiopharm::compri::275mg,Medicament,NAPROXENE PHYSIOPHARM,,,True,naproxène,,275MG,COMPRIME PELLICULE,NAPROXENE PHYSIOPHARM,naproxene physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::nexopain::compri::275mg,Medicament,NEXOPAIN,,,True,naproxène,,275MG,COMPRIME PELLICULE,NEXOPAIN,nexopain,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::nhupain::compri::275mg,Medicament,NHUPAIN,,,True,naproxène,,275MG,COMPRIME PELLICULE,NHUPAIN,nhupain,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naprox::compri::550mg,Medicament,NAPROX,,,True,naproxène,,550MG,COMPRIME PELLICULE,NAPROX,naprox,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naproxene_physiopharm::compri::550mg,Medicament,NAPROXENE PHYSIOPHARM,,,True,naproxène,,550MG,COMPRIME PELLICULE,NAPROXENE PHYSIOPHARM,naproxene physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::nexopain::compri::550mg,Medicament,NEXOPAIN,,,True,naproxène,,550MG,COMPRIME PELLICULE SECABLE,NEXOPAIN,nexopain,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::nhupain::compri::550mg,Medicament,NHUPAIN,,,True,naproxène,,550MG,COMPRIME PELLICULE SECABLE,NHUPAIN,nhupain,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::naprolgic::compri::550mg,Medicament,NAPROLGIC,,,True,naproxène,,550MG,COMPRIME PELLICULE SECABLE,NAPROLGIC,naprolgic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::ACIDE ACETYLSALICYLIQUE,DCI,ACIDE ACETYLSALICYLIQUE,N02BA01,Antalgiques et anti-inflammatoires,True,,acide acetylsalicylique,,,,,6,,Liste_MIPH_2026
+ATC::N02BA01,CodeATC,N02BA01,,,,,,,,,,,N02B,
+MED::acepral::compri::500mg,Medicament,ACEPRAL,,,True,ACIDE ACETYLSALICYLIQUE,,500MG,COMPRIME,ACEPRAL,acepral,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::acepral_cardio::compri::100mg,Medicament,ACEPRAL CARDIO,,,True,ACIDE ACETYLSALICYLIQUE,,100MG,COMPRIME,ACEPRAL CARDIO,acepral cardio,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspec::compri::100mg,Medicament,ASPEC,,,True,ACIDE ACETYLSALICYLIQUE,,100MG,COMPRIME SECABLE,ASPEC,aspec,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspicard::compri::100mg,Medicament,ASPICARD,,,True,ACIDE ACETYLSALICYLIQUE,,100MG,COMPRIME SECABLE,ASPICARD,aspicard,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspinova::compri::100mg,Medicament,ASPINOVA,,,True,ACIDE ACETYLSALICYLIQUE,,100MG,COMPRIME,ASPINOVA,aspinova,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspirine_cardio::gelule::100mg,Medicament,ASPIRINE CARDIO,,,True,ACIDE ACETYLSALICYLIQUE,,100MG,GELULE,ASPIRINE CARDIO,aspirine cardio,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::kardegic::poudre::75_mg,Medicament,KARDEGIC,,,True,ACIDE ACETYLSALICYLIQUE,,75 MG,POUDRE POUR SOLUTION BUVABLE,KARDEGIC,kardegic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::kardegic::poudre::160_mg,Medicament,KARDEGIC,,,True,ACIDE ACETYLSALICYLIQUE,,160 MG,POUDRE POUR SOLUTION BUVABLE,KARDEGIC,kardegic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspegic_enfants::poudre::250mg,Medicament,ASPEGIC ENFANTS,,,True,ACIDE ACETYLSALICYLIQUE,,250MG,POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE,ASPEGIC ENFANTS,aspegic enfants,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspegic::poudre::500mg,Medicament,ASPEGIC,,,True,ACIDE ACETYLSALICYLIQUE,,500MG,POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE,ASPEGIC,aspegic,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::aspegic_adulte::poudre::1g,Medicament,ASPEGIC ADULTE,,,True,ACIDE ACETYLSALICYLIQUE,,1G,POUDRE POUR SOLUTION BUVABLE EN SACHET-DOSE,ASPEGIC ADULTE,aspegic adulte,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::méloxicam,DCI,méloxicam,M01AC06,Antalgiques et anti-inflammatoires,True,,meloxicam,,,,,7,,Liste_MIPH_2026
+ATC::M01AC06,CodeATC,M01AC06,,,,,,,,,,,M01A,
+MED::melox::compri::15mg,Medicament,MELOX,,,True,méloxicam,,15MG,COMPRIME,MELOX,melox,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::melox::compri::7,5mg",Medicament,MELOX,,,True,méloxicam,,"7,5MG",COMPRIME,MELOX,melox,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::piroxicam,DCI,piroxicam,M01AC01,Antalgiques et anti-inflammatoires,True,,piroxicam,,,,,8,,Liste_MIPH_2026
+ATC::M01AC01,CodeATC,M01AC01,,,,,,,,,,,M01A,
+MED::felcam_fast::compri::20mg,Medicament,FELCAM FAST,,,True,piroxicam,,20MG,COMPRIME DISPERSIBLE SECABLE,FELCAM FAST,felcam fast,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::fenoxam::compri::20mg,Medicament,FENOXAM,,,True,piroxicam,,20MG,COMPRIME DISPERSIBLE SECABLE,FENOXAM,fenoxam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::orthocam::compri::20mg,Medicament,ORTHOCAM,,,True,piroxicam,,20MG,COMPRIME DISPERSIBLE SECABLE,ORTHOCAM,orthocam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::felcam::gel::0,005",Medicament,FELCAM,,,True,piroxicam,,"0,005",GEL,FELCAM,felcam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::orthocam::gel_de::0,005",Medicament,ORTHOCAM,,,True,piroxicam,,"0,005",GEL DERMIQUE,ORTHOCAM,orthocam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::piroxene::gel_de::0,005",Medicament,PIROXENE,,,True,piroxicam,,"0,005",GEL DERMIQUE,PIROXENE,piroxene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::piroxicam_novagenerics::gel_de::0,005",Medicament,PIROXICAM NOVAGENERICS,,,True,piroxicam,,"0,005",GEL DERMIQUE,PIROXICAM NOVAGENERICS,piroxicam novagenerics,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::prixam::gel_de::0,005",Medicament,PRIXAM,,,True,piroxicam,,"0,005",GEL DERMIQUE,PRIXAM,prixam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+"MED::fenoxam::gel_po::0,005",Medicament,FENOXAM,,,True,piroxicam,,"0,005",GEL POUR APPLICATION CUTANEE,FENOXAM,fenoxam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::fradene::gelule::20mg,Medicament,FRADENE,,,True,piroxicam,,20MG,GELULE,FRADENE,fradene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::piroxicam_novagenerics::gelule::20mg,Medicament,PIROXICAM NOVAGENERICS,,,True,piroxicam,,20MG,GELULE,PIROXICAM NOVAGENERICS,piroxicam novagenerics,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::piroxicam_physiopharm::gelule::20mg,Medicament,PIROXICAM PHYSIOPHARM,,,True,piroxicam,,20MG,GELULE,PIROXICAM PHYSIOPHARM,piroxicam physiopharm,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::preldene::gelule::20mg,Medicament,PRELDENE,,,True,piroxicam,,20MG,GELULE,PRELDENE,preldene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::roxicam::gelule::20mg,Medicament,ROXICAM,,,True,piroxicam,,20MG,GELULE,ROXICAM,roxicam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::prixam::sol._i::20mg_ml,Medicament,PRIXAM,,,True,piroxicam,,20MG/ML,SOL. INJ. IM,PRIXAM,prixam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::fradene::soluti::20mg_ml,Medicament,FRADENE,,,True,piroxicam,,20MG/ML,SOLUTION INJECTABLE IM,FRADENE,fradene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::piroxen::soluti::20mg_ml,Medicament,PIROXEN,,,True,piroxicam,,20MG/ML,SOLUTION INJECTABLE IM,PIROXEN,piroxen,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::piroxiden::soluti::20mg_ml,Medicament,PIROXIDEN,,,True,piroxicam,,20MG/ML,SOLUTION INJECTABLE IM,PIROXIDEN,piroxiden,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::preldene::soluti::20mg_ml,Medicament,PRELDENE,,,True,piroxicam,,20MG/ML,SOLUTION INJECTABLE IM,PRELDENE,preldene,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::painoxam::suppos::20mg,Medicament,PAINOXAM,,,True,piroxicam,,20MG,SUPPOSITOIRE,PAINOXAM,painoxam,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::piromex::suppos::20mg,Medicament,PIROMEX,,,True,piroxicam,,20MG,SUPPOSITOIRE,PIROMEX,piromex,,,MIPH، ANPP، ANSM، dzair-pharma.net
+MED::cycladol::compri::20mg,Medicament,CYCLADOL,,,True,piroxicam,,20MG,COMPRIME SECABLE,CYCLADOL,cycladol,,,MIPH، ANPP، ANSM، dzair-pharma.net
+DCI::célécoxib,DCI,célécoxib,M01AH01,Antalgiques et anti-inflammatoires,True,,celecoxib,,,,,9,,Liste_MIPH_2026
+ATC::M01AH01,CodeATC,M01AH01,,,,,,,,,,,M01A,
+MED::arbrex::gelule::100mg,Medicament,ARBREX,,,True,célécoxib,,100MG,GELULE,ARBREX,arbrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::arbrex::gelule::200mg,Medicament,ARBREX,,,True,célécoxib,,200MG,GELULE,ARBREX,arbrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cebrex_100::gelule::100mg,Medicament,CEBREX 100,,,True,célécoxib,,100MG,GELULE,CEBREX 100,cebrex 100,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cebrex_200::gelule::200mg,Medicament,CEBREX 200,,,True,célécoxib,,200MG,GELULE,CEBREX 200,cebrex 200,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celebrex::gelule::100mg,Medicament,CELEBREX,,,True,célécoxib,,100MG,GELULE,CELEBREX,celebrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celebrex::gelule::200mg,Medicament,CELEBREX,,,True,célécoxib,,200MG,GELULE,CELEBREX,celebrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecobrex_hup::gelule::100mg,Medicament,CELECOBREX HUP,,,True,célécoxib,,100MG,GELULE,CELECOBREX HUP,celecobrex hup,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecobrex_hup::gelule::200mg,Medicament,CELECOBREX HUP,,,True,célécoxib,,200MG,GELULE,CELECOBREX HUP,celecobrex hup,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecomex::gelule::100mg,Medicament,CELECOMEX,,,True,célécoxib,,100MG,GELULE,CELECOMEX,celecomex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecomex::gelule::200mg,Medicament,CELECOMEX,,,True,célécoxib,,200MG,GELULE,CELECOMEX,celecomex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecox::gelule::100mg,Medicament,CELECOX,,,True,célécoxib,,100MG,GELULE,CELECOX,celecox,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecoxib_beker::gelule::100mg,Medicament,CELECOXIB BEKER,,,True,célécoxib,,100MG,GELULE,CELECOXIB BEKER,celecoxib beker,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecoxib_beker::gelule::200mg,Medicament,CELECOXIB BEKER,,,True,célécoxib,,200MG,GELULE,CELECOXIB BEKER,celecoxib beker,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celecoxib_physiopharm::gelule::200mg,Medicament,CELECOXIB PHYSIOPHARM,,,True,célécoxib,,200MG,GELULE,CELECOXIB PHYSIOPHARM,celecoxib physiopharm,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celexal::gelule::200mg,Medicament,CELEXAL,,,True,célécoxib,,200MG,GELULE,CELEXAL,celexal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celvex::gelule::100mg,Medicament,CELVEX,,,True,célécoxib,,100MG,GELULE,CELVEX,celvex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::celvex::gelule::200mg,Medicament,CELVEX,,,True,célécoxib,,200MG,GELULE,CELVEX,celvex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cirexa::gelule::100mg,Medicament,CIREXA,,,True,célécoxib,,100MG,GELULE,CIREXA,cirexa,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cirexa::gelule::200mg,Medicament,CIREXA,,,True,célécoxib,,200MG,GELULE,CIREXA,cirexa,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coxibrex::gelule::100mg,Medicament,COXIBREX,,,True,célécoxib,,100MG,GELULE,COXIBREX,coxibrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coxibrex::gelule::200mg,Medicament,COXIBREX,,,True,célécoxib,,200MG,GELULE,COXIBREX,coxibrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coxitab::gelule::100mg,Medicament,COXITAB,,,True,célécoxib,,100MG,GELULE,COXITAB,coxitab,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coxitab::gelule::200mg,Medicament,COXITAB,,,True,célécoxib,,200MG,GELULE,COXITAB,coxitab,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::inicox_100::gelule::100mg,Medicament,INICOX 100,,,True,célécoxib,,100MG,GELULE,INICOX 100,inicox 100,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::inicox_200::gelule::200mg,Medicament,INICOX 200,,,True,célécoxib,,200MG,GELULE,INICOX 200,inicox 200,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::medibrex::gelule::100mg,Medicament,MEDIBREX,,,True,célécoxib,,100MG,GELULE,MEDIBREX,medibrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::medibrex::gelule::200mg,Medicament,MEDIBREX,,,True,célécoxib,,200MG,GELULE,MEDIBREX,medibrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::notorex::gelule::200mg,Medicament,NOTOREX,,,True,célécoxib,,200MG,GELULE,NOTOREX,notorex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::novabrex::gelule::100mg,Medicament,NOVABREX,,,True,célécoxib,,100MG,GELULE,NOVABREX,novabrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::novabrex::gelule::200mg,Medicament,NOVABREX,,,True,célécoxib,,200MG,GELULE,NOVABREX,novabrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::rumabrex::gelule::100mg,Medicament,RUMABREX,,,True,célécoxib,,100MG,GELULE,RUMABREX,rumabrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::rumabrex::gelule::200mg,Medicament,RUMABREX,,,True,célécoxib,,200MG,GELULE,RUMABREX,rumabrex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::pedexa::gelule::200mg,Medicament,PEDEXA,,,True,célécoxib,,200MG,GELULE,PEDEXA,pedexa,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::tramadol,DCI,tramadol,N02AX02,Antalgiques et anti-inflammatoires,True,,tramadol,,,,,10,,Liste_MIPH_2026
+ATC::N02AX02,CodeATC,N02AX02,,,,,,,,,,,N02A,
+MED::dolex::gelule::50mg,Medicament,DOLEX,,,True,tramadol,,50MG,GELULE,DOLEX,dolex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::doltram::gelule::50mg,Medicament,DOLTRAM,,,True,tramadol,,50MG,GELULE,DOLTRAM,doltram,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::supramadol::gelule::50mg,Medicament,SUPRAMADOL,,,True,tramadol,,50MG,GELULE,SUPRAMADOL,supramadol,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::supramadol::soluti::50mg_ml,Medicament,SUPRAMADOL,,,True,tramadol,,50MG/ML,SOLUTION INJECTABLE IM/IV,SUPRAMADOL,supramadol,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadine::suppos::100mg,Medicament,TRAMADINE,,,True,tramadol,,100MG,SUPPOSITOIRE,TRAMADINE,tramadine,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadis::soluti::50mg_ml_,Medicament,TRAMADIS,,,True,tramadol,,50MG/ML (100MG/2ML),SOLUTION INJECTABLE IV/ POUR PERFUSION IV,TRAMADIS,tramadis,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadis::gelule::50mg,Medicament,TRAMADIS,,,True,tramadol,,50MG,GELULE,TRAMADIS,tramadis,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadol_beker::gelule::50mg,Medicament,TRAMADOL BEKER,,,True,tramadol,,50MG,GELULE,TRAMADOL BEKER,tramadol beker,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadol_beker_lp::compri::100mg,Medicament,TRAMADOL BEKER LP,,,True,tramadol,,100MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,TRAMADOL BEKER LP,tramadol beker lp,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadol_ls::gelule::50mg,Medicament,TRAMADOL LS,,,True,tramadol,,50MG,GELULE,TRAMADOL LS,tramadol ls,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadol_ls::suppos::100mg,Medicament,TRAMADOL LS,,,True,tramadol,,100MG,SUPPOSITOIRE,TRAMADOL LS,tramadol ls,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramadol_novagenerics::gelule::50mg,Medicament,TRAMADOL NOVAGENERICS,,,True,tramadol,,50MG,GELULE,TRAMADOL NOVAGENERICS,tramadol novagenerics,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramal::gelule::50mg,Medicament,TRAMAL,,,True,tramadol,,50MG,GELULE,TRAMAL,tramal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramex::gelule::50mg,Medicament,TRAMEX,,,True,tramadol,,50MG,GELULE,TRAMEX,tramex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::tramceta_lp::compri::300_mg,Medicament,TRAMCETA LP,,,True,tramadol,,300 MG,COMPRIME PELLICULE A LIBERATION PROLONGEE,TRAMCETA LP,tramceta lp,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zodid::gelule::50mg,Medicament,ZODID,,,True,tramadol,,50MG,GELULE,ZODID,zodid,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::paracétamol + codéine,DCI,paracétamol + codéine,N02AA59,Antalgiques et anti-inflammatoires,True,,paracetamol + codeine,,,,,11,,Liste_MIPH_2026
+ATC::N02AA59,CodeATC,N02AA59,,,,,,,,,,,N02A,
+MED::codofebril::compri::500_mg_3,Medicament,CODOFEBRIL,,,True,paracétamol + codéine,,500 MG/30 MG,COMPRIME EFFERVESCENT SECABLE,CODOFEBRIL,codofebril,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::codol::compri::400mg_20,Medicament,CODOL,,,True,paracétamol + codéine,,400MG/20MG,COMPRIME,CODOL,codol,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::co_dolyc::compri::500mg_30,Medicament,CO-DOLYC,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME,CO-DOLYC,co dolyc,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coexpandol::compri::400mg_20,Medicament,COEXPANDOL,,,True,paracétamol + codéine,,400MG/20MG,COMPRIME,COEXPANDOL,coexpandol,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coparalgan::compri::400mg_20,Medicament,COPARALGAN,,,True,paracétamol + codéine,,400MG/20MG,COMPRIME SECABLE,COPARALGAN,coparalgan,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::coparamol_fort::compri::500mg_30,Medicament,COPARAMOL FORT,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME,COPARAMOL FORT,coparamol fort,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::dafalgan_codeine::compri::500mg_30,Medicament,DAFALGAN CODEINE,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME PELLICULE,DAFALGAN CODEINE,dafalgan codeine,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::efferalgan_codeine::compri::500mg_30,Medicament,EFFERALGAN CODEINE,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME PELLICULE,EFFERALGAN CODEINE,efferalgan codeine,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::parac_co::compri::400mg_20,Medicament,PARAC-CO,,,True,paracétamol + codéine,,400MG/20MG,COMPRIME,PARAC-CO,parac co,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::paracetamol_codeine_physioipharm::compri::500mg_30,Medicament,PARACETAMOL CODEINE PHYSIOIPHARM,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME,PARACETAMOL CODEINE PHYSIOIPHARM,paracetamol codeine physioipharm,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::paracetamol_codeine_physiopharm::compri::400mg_20,Medicament,PARACETAMOL CODEINE PHYSIOPHARM,,,True,paracétamol + codéine,,400MG/20MG,COMPRIME,PARACETAMOL CODEINE PHYSIOPHARM,paracetamol codeine physiopharm,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::planadix_confort_+::compri::500mg_30,Medicament,PLANADIX CONFORT +,,,True,paracétamol + codéine,,500MG/30MG,COMPRIME,PLANADIX CONFORT +,planadix confort +,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::néfopam,DCI,néfopam,N02BG06,Antalgiques et anti-inflammatoires,True,,nefopam,,,,,12,,Liste_MIPH_2026
+ATC::N02BG06,CodeATC,N02BG06,,,,,,,,,,,N02B,
+MED::antapam::soluti::20mg_2ml,Medicament,ANTAPAM,,,True,néfopam,,20MG/2ML,SOLUTION INJECTABLE IV /IM,ANTAPAM,antapam,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::amoxicilline,DCI,amoxicilline,J01CA04,Antibiotiques,True,,amoxicilline,,,,,13,,Liste_MIPH_2026
+CLASSE::Antibiotiques,ClasseThera,Antibiotiques,,,,,,,,,,,,
+ATC::J01CA04,CodeATC,J01CA04,,,,,,,,,,,J01C,
+MED::amodex_ge::poudre::250mg_5m,Medicament,AMODEX-Gé,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,AMODEX-Gé,amodex ge,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoxicilline_eg::poudre::125mg_5m,Medicament,AMOXICILLINE EG,,,True,amoxicilline,,125MG/5ML,POUDRE POUR SOLUTION BUVABLE,AMOXICILLINE EG,amoxicilline eg,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoxicilline_eg::poudre::250mg_5m,Medicament,AMOXICILLINE EG,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,AMOXICILLINE EG,amoxicilline eg,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoximex::poudre::250mg_5m,Medicament,AMOXIMEX,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,AMOXIMEX,amoximex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoxypen::pdre._::1g_fl._d,Medicament,AMOXYPEN,,,True,amoxicilline,,1G/FL. DE PDRE.,PDRE. P. SOL. INJ. IM (solvant LIDOCAINE) ET IM/IV (sans solvant),AMOXYPEN,amoxypen,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoxypen::poudre::500mg_fl,Medicament,AMOXYPEN,,,True,amoxicilline,,500MG/FL. DE PDRE.,POUDRE EN SOLUTION INJECTABLE,AMOXYPEN,amoxypen,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::amoxypen::poudre::250mg_5m,Medicament,AMOXYPEN,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,AMOXYPEN,amoxypen,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::biopamox::gelule::500mg,Medicament,BIOPAMOX,,,True,amoxicilline,,500MG,GELULE,BIOPAMOX,biopamox,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::biopamox::granul::1g_sache,Medicament,BIOPAMOX,,,True,amoxicilline,,1G/SACHET,GRANULE POUR SUSPENSION BUVABLE EN SACHET,BIOPAMOX,biopamox,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::biopamox::poudre::250mg_5m,Medicament,BIOPAMOX,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,BIOPAMOX,biopamox,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::biopamox::poudre::1g_fl,Medicament,BIOPAMOX,,,True,amoxicilline,,1G/FL,POUDRE POUR SOLUTION INJECTABLE,BIOPAMOX,biopamox,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::clamoxyl::poudre::250mg_5m,Medicament,CLAMOXYL,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,CLAMOXYL,clamoxyl,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::himoxyl::poudre::1g_sache,Medicament,HIMOXYL,,,True,amoxicilline,,1G/SACHET,POUDRE POUR SUSPENSSION BUVABLE EN SACHET DOSE,HIMOXYL,himoxyl,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::himoxyl::poudre::250mg_5m,Medicament,HIMOXYL,,,True,amoxicilline,,250MG/5ML,POUDRE POUR SOLUTION BUVABLE,HIMOXYL,himoxyl,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::amoxicilline + acide clavulanique,DCI,amoxicilline + acide clavulanique,J01CR02,Antibiotiques,True,,amoxicilline + acide clavulanique,,,,,14,,Liste_MIPH_2026
+ATC::J01CR02,CodeATC,J01CR02,,,,,,,,,,,J01C,
+MED::amoclon_es::poudre::600mg_42,Medicament,AMOCLON ES,,,True,amoxicilline + acide clavulanique,,600MG/42.9MG/5ML,POUDRE POUR SUSPENSSION BUVABLE,AMOCLON ES,amoclon es,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::bioclav::poudre::1g_200mg,Medicament,BIOCLAV,,,True,amoxicilline + acide clavulanique,,1G/200MG,POUDRE POUR SOLUTION INJECTABLE/POUR PERFUSION (IV),BIOCLAV,bioclav,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::clamoxypen::poudre::1g_200mg,Medicament,CLAMOXYPEN,,,True,amoxicilline + acide clavulanique,,1G/200MG,POUDRE POUR SOLUTION INJECTABLE IV,CLAMOXYPEN,clamoxypen,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::clavodex_duo::compri::875mg_12,Medicament,CLAVODEX DUO,,,True,amoxicilline + acide clavulanique,,875MG/125MG,COMPRIME PELLICULE,CLAVODEX DUO,clavodex duo,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::céfixime,DCI,céfixime,J01DD08,Antibiotiques,True,,cefixime,,,,,15,,Liste_MIPH_2026
+ATC::J01DD08,CodeATC,J01DD08,,,,,,,,,,,J01D,
+MED::betixim::gelule::400mg,Medicament,BETIXIM,,,True,céfixime,,400MG,GELULE,BETIXIM,betixim,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefiken::compri::200mg,Medicament,CEFIKEN,,,True,céfixime,,200MG,COMPRIME PELLICULE,CEFIKEN,cefiken,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefimax::compri::200mg,Medicament,CEFIMAX,,,True,céfixime,,200MG,COMPRIME PELLICULE,CEFIMAX,cefimax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefimax::poudre::40mg_5ml,Medicament,CEFIMAX,,,True,céfixime,,40MG/5ML,POUDRE POUR SUSPENSION BUVABLE,CEFIMAX,cefimax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefimax::poudre::100mg_5m,Medicament,CEFIMAX,,,True,céfixime,,100MG/5ML,POUDRE POUR SUSPENSION BUVABLE,CEFIMAX,cefimax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::megacef::poudre::200_mg,Medicament,MEGACEF,,,True,céfixime,,200 MG,POUDRE POUR SUSPENSSION BUVABLE,MEGACEF,megacef,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::megacef::poudre::400_mg,Medicament,MEGACEF,,,True,céfixime,,400 MG,POUDRE POUR SUSPENSSION BUVABLE,MEGACEF,megacef,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::orokal::compri::200mg,Medicament,OROKAL,,,True,céfixime,,200MG,COMPRIME PELLICULE,OROKAL,orokal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::orokal::gelule::400mg,Medicament,OROKAL,,,True,céfixime,,400MG,GELULE,OROKAL,orokal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::orokal::poudre::40mg_5ml,Medicament,OROKAL,,,True,céfixime,,40MG/5ML,POUDRE POUR SUSPENSION BUVABLE,OROKAL,orokal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::orokal::poudre::100mg_5m,Medicament,OROKAL,,,True,céfixime,,100MG/5ML,POUDRE POUR SUSPENSION BUVABLE,OROKAL,orokal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::oroken::compri::200mg,Medicament,OROKEN,,,True,céfixime,,200MG,COMPRIME PELLICULE,OROKEN,oroken,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::oroken_enf::poudre::100mg_5m,Medicament,OROKEN ENF,,,True,céfixime,,100MG/5ML,POUDRE POUR SUSPENSION BUVABLE,OROKEN ENF,oroken enf,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::winex::gelule::200mg,Medicament,WINEX,,,True,céfixime,,200MG,GELULE,WINEX,winex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::winex::gelule::400mg,Medicament,WINEX,,,True,céfixime,,400MG,GELULE,WINEX,winex,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::céfuroxime,DCI,céfuroxime,J01DC02,Antibiotiques,True,,cefuroxime,,,,,16,,Liste_MIPH_2026
+ATC::J01DC02,CodeATC,J01DC02,,,,,,,,,,,J01D,
+MED::cefucare::compri::250mg,Medicament,CEFUCARE,,,True,céfuroxime,,250MG,COMPRIME,CEFUCARE,cefucare,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefrozine::compri::250mg,Medicament,CEFROZINE,,,True,céfuroxime,,250MG,COMPRIME PELLICULE,CEFROZINE,cefrozine,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::cefrozine::compri::500mg,Medicament,CEFROZINE,,,True,céfuroxime,,500MG,COMPRIME PELLICULE,CEFROZINE,cefrozine,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::daroxime::compri::250mg,Medicament,DAROXIME,,,True,céfuroxime,,250MG,COMPRIME,DAROXIME,daroxime,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::u_cef::compri::250mg,Medicament,U-CEF,,,True,céfuroxime,,250MG,COMPRIME PELLICULE,U-CEF,u cef,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::u_cef::compri::500mg,Medicament,U-CEF,,,True,céfuroxime,,500MG,COMPRIME PELLICULE,U-CEF,u cef,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinetal::compri::250mg,Medicament,ZINETAL,,,True,céfuroxime,,250MG,COMPRIME PELLICULE,ZINETAL,zinetal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinetal::compri::500mg,Medicament,ZINETAL,,,True,céfuroxime,,500MG,COMPRIME PELLICULE,ZINETAL,zinetal,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinnat::compri::250mg,Medicament,ZINNAT,,,True,céfuroxime,,250MG,COMPRIME,ZINNAT,zinnat,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinnat::granul::125mg_5m,Medicament,ZINNAT,,,True,céfuroxime,,125MG/5ML,GRANULES POUR SUSPENSION BUVABLE,ZINNAT,zinnat,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinoximor::compri::250mg,Medicament,ZINOXIMOR,,,True,céfuroxime,,250MG,COMPRIME PELLICULE,ZINOXIMOR,zinoximor,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zinoximor_500::compri::500mg,Medicament,ZINOXIMOR 500,,,True,céfuroxime,,500MG,COMPRIME PELLICULE,ZINOXIMOR 500,zinoximor 500,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zynax::compri::250mg,Medicament,ZYNAX,,,True,céfuroxime,,250MG,COMPRIME PELLICULE,ZYNAX,zynax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zynax::compri::500mg,Medicament,ZYNAX,,,True,céfuroxime,,500MG,COMPRIME PELLICULE,ZYNAX,zynax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+MED::zynax::granul::125mg_5m,Medicament,ZYNAX,,,True,céfuroxime,,125MG/5ML,GRANULES POUR SUSPENSION BUVABLE,ZYNAX,zynax,,,ANPP، ANSM، dzair-pharma.net ، Dzair-Pharma
+DCI::ceftriaxone,DCI,ceftriaxone,J01DD04,Antibiotiques,True,,ceftriaxone,,,,,17,,Liste_MIPH_2026
+ATC::J01DD04,CodeATC,J01DD04,,,,,,,,,,,J01D,
+MED::cetrial::poudre::1g_flaco,Medicament,CETRIAL,,,True,ceftriaxone,,1G/FLACON,POUDRE POUR SOLUTION INJECTABLE IV,CETRIAL,cetrial,,,MIPH، nomenclature nationale (juillet 2025)، OMS
+MED::cetriaxone_hup::poudre::1g_flaco,Medicament,CETRIAXONE HUP,,,True,ceftriaxone,,1G/FLACON,POUDRE ET SOLVANT POUR SOLUTION INJECTABLE,CETRIAXONE HUP,cetriaxone hup,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zafotriaxone::poudre::1g_flaco,Medicament,ZAFOTRIAXONE,,,True,ceftriaxone,,1G/FLACON,POUDRE POUR SOLUTION INJECTABLE,ZAFOTRIAXONE,zafotriaxone,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::azithromycine,DCI,azithromycine,J01FA10,Antibiotiques,True,,azithromycine,,,,,18,,Liste_MIPH_2026
+ATC::J01FA10,CodeATC,J01FA10,,,,,,,,,,,J01F,
+MED::mycinad::compri::250mg,Medicament,MYCINAD,,,True,azithromycine,,250MG,COMPRIME PELLICULE,MYCINAD,mycinad,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zitromicine::compri::250mg,Medicament,ZITROMICINE,,,True,azithromycine,,250MG,COMPRIME PELLICULE,ZITROMICINE,zitromicine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zotrix::compri::250mg,Medicament,ZOTRIX,,,True,azithromycine,,250MG,COMPRIME PELLICULE,ZOTRIX,zotrix,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azimycine::gelule::250mg,Medicament,AZIMYCINE,,,True,azithromycine,,250MG,GELULE,AZIMYCINE,azimycine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::binozyt::gelule::250mg,Medicament,BINOZYT,,,True,azithromycine,,250MG,GELULE,BINOZYT,binozyt,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zetron::gelule::250mg,Medicament,ZETRON,,,True,azithromycine,,250MG,GELULE,ZETRON,zetron,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azyter::collyr::15_mg_g,Medicament,AZYTER,,,True,azithromycine,,15 MG/G,COLLYRE EN SOLUTION EN RECIPIENT UNIDOSE,AZYTER,azyter,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::binozyt::compri::500mg,Medicament,BINOZYT,,,True,azithromycine,,500MG,COMPRIME PELLICULE,BINOZYT,binozyt,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zetron::compri::500mg,Medicament,ZETRON,,,True,azithromycine,,500MG,COMPRIME PELLICULE,ZETRON,zetron,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zitromicine::compri::500mg,Medicament,ZITROMICINE,,,True,azithromycine,,500MG,COMPRIME PELLICULE,ZITROMICINE,zitromicine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azimac::compri::500mg,Medicament,AZIMAC,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,AZIMAC,azimac,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azithral::compri::500mg,Medicament,AZITHRAL,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,AZITHRAL,azithral,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azithrom_hup::compri::500mg,Medicament,AZITHROM HUP,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,AZITHROM HUP,azithrom hup,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azithromycine_beker::compri::500mg,Medicament,AZITHROMYCINE BEKER,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,AZITHROMYCINE BEKER,azithromycine beker,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::azithromycine_ns::compri::500mg,Medicament,AZITHROMYCINE NS,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,AZITHROMYCINE NS,azithromycine ns,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::mycinad::compri::500mg,Medicament,MYCINAD,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,MYCINAD,mycinad,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zithromax::compri::500mg,Medicament,ZITHROMAX,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,ZITHROMAX,zithromax,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zithromycine_bgl::compri::500mg,Medicament,ZITHROMYCINE BGL,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,ZITHROMYCINE BGL,zithromycine bgl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zotrix::compri::500mg,Medicament,ZOTRIX,,,True,azithromycine,,500MG,COMPRIME PELLICULE SECABLE,ZOTRIX,zotrix,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zomax::poudre::200mg_5m,Medicament,ZOMAX,,,True,azithromycine,,200MG/5ML(40MG/ML),POUDRE POUR SOLUTION BUVABLE,ZOMAX,zomax,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zotrix::poudre::200mg_5m,Medicament,ZOTRIX,,,True,azithromycine,,200MG/5ML(40MG/ML),POUDRE POUR SOLUTION BUVABLE,ZOTRIX,zotrix,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::clarithromycine,DCI,clarithromycine,J01FA09,Antibiotiques,True,,clarithromycine,,,,,19,,Liste_MIPH_2026
+ATC::J01FA09,CodeATC,J01FA09,,,,,,,,,,,J01F,
+MED::medoclar::compri::500mg,Medicament,MEDOCLAR,,,True,clarithromycine,,500MG,COMPRIME,MEDOCLAR,medoclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zeclar::compri::500mg,Medicament,ZECLAR,,,True,clarithromycine,,500MG,COMPRIME,ZECLAR,zeclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::medoclar::compri::250_mg,Medicament,MEDOCLAR,,,True,clarithromycine,,250 MG,COMPRIME,MEDOCLAR,medoclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::oradro::compri::500mg,Medicament,ORADRO,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,ORADRO,oradro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ariclare::compri::500mg,Medicament,ARICLARE,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,ARICLARE,ariclare,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::claridar_500::compri::500mg,Medicament,CLARIDAR 500,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,CLARIDAR 500,claridar 500,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::clarital::compri::500mg,Medicament,CLARITAL,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,CLARITAL,clarital,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::clarithro::compri::500mg,Medicament,CLARITHRO,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,CLARITHRO,clarithro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::clarithromycine_ns::compri::500mg,Medicament,CLARITHROMYCINE NS,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,CLARITHROMYCINE NS,clarithromycine ns,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ritocine::compri::500mg,Medicament,RITOCINE,,,True,clarithromycine,,500MG,COMPRIME PELLICULE,RITOCINE,ritocine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::oradro::compri::250mg,Medicament,ORADRO,,,True,clarithromycine,,250MG,COMPRIME PELLICULE,ORADRO,oradro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::claridar_250::compri::250mg,Medicament,CLARIDAR 250,,,True,clarithromycine,,250MG,COMPRIME PELLICULE,CLARIDAR 250,claridar 250,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ritocine::compri::250mg,Medicament,RITOCINE,,,True,clarithromycine,,250MG,COMPRIME PELLICULE,RITOCINE,ritocine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zeclar::compri::250mg,Medicament,ZECLAR,,,True,clarithromycine,,250MG,COMPRIME PELLICULE,ZECLAR,zeclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::clarithro::granul::50mg_ml,Medicament,CLARITHRO,,,True,clarithromycine,,50MG/ML,GRANULE POUR SUSPENSION BUV,CLARITHRO,clarithro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::clarithro::granul::25mg_ml,Medicament,CLARITHRO,,,True,clarithromycine,,25MG/ML,GRANULE POUR SUSPENSION BUV,CLARITHRO,clarithro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::zeclar_25::granul::125mg_5m,Medicament,ZECLAR 25,,,True,clarithromycine,,125MG/5ML,GRANULE POUR SUSPENSION BUVABLE,ZECLAR 25,zeclar 25,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::huclar::granul::125mg_5m,Medicament,HUCLAR,,,True,clarithromycine,,125MG/5ML,GRANULE POUR SUSPENSION BUVABLE EN FLACON,HUCLAR,huclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::claridar_250::poudre::250mg_5m,Medicament,CLARIDAR 250,,,True,clarithromycine,,250MG/5ML,POUDRECPOUR SUSPENSION BUVABLE EN FLACON,CLARIDAR 250,claridar 250,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::huclar::poudre::250mg_5m,Medicament,HUCLAR,,,True,clarithromycine,,250MG/5ML,POUDRECPOUR SUSPENSION BUVABLE EN FLACON,HUCLAR,huclar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::claridar_125::poudre::125mg_5m,Medicament,CLARIDAR 125,,,True,clarithromycine,,125MG/5ML,POUDRECPOUR SUSPENSION BUVABLE EN FLACON,CLARIDAR 125,claridar 125,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::ciprofloxacine,DCI,ciprofloxacine,J01MA02,Antibiotiques,True,,ciprofloxacine,,,,,20,,Liste_MIPH_2026
+ATC::J01MA02,CodeATC,J01MA02,,,,,,,,,,,J01M,
+MED::ozaflox::compri::500mg,Medicament,OZAFLOX,,,True,ciprofloxacine,,500MG,COMPRIME ENROBE SECABLE,OZAFLOX,ozaflox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprofloxal::compri::250mg,Medicament,CIPROFLOXAL,,,True,ciprofloxacine,,250MG,COMPRIME PELLICULE,CIPROFLOXAL,ciprofloxal,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprotek::compri::250mg,Medicament,CIPROTEK,,,True,ciprofloxacine,,250MG,COMPRIME PELLICULE,CIPROTEK,ciprotek,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flocine250::compri::250mg,Medicament,FLOCINE250,,,True,ciprofloxacine,,250MG,COMPRIME PELLICULE,FLOCINE250,flocine250,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::loxanad::compri::250mg,Medicament,LOXANAD,,,True,ciprofloxacine,,250MG,COMPRIME PELLICULE,LOXANAD,loxanad,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cipro_500::compri::500mg,Medicament,CIPRO 500,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,CIPRO 500,cipro 500,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprodar::compri::500mg,Medicament,CIPRODAR,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,CIPRODAR,ciprodar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprotek::compri::500mg,Medicament,CIPROTEK,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,CIPROTEK,ciprotek,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::loxanad::compri::500mg,Medicament,LOXANAD,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,LOXANAD,loxanad,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::meflox::compri::500mg,Medicament,MEFLOX,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,MEFLOX,meflox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::quinox::compri::500mg,Medicament,QUINOX,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE,QUINOX,quinox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprofloxacine_beker::compri::750mg,Medicament,CIPROFLOXACINE BEKER,,,True,ciprofloxacine,,750MG,COMPRIME PELLICULE,CIPROFLOXACINE BEKER,ciprofloxacine beker,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cifloxacine::compri::500mg,Medicament,CIFLOXACINE,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE SECABLE,CIFLOXACINE,cifloxacine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprofloxacine_beker::compri::500mg,Medicament,CIPROFLOXACINE BEKER,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE SECABLE,CIPROFLOXACINE BEKER,ciprofloxacine beker,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprofloxal::compri::500mg,Medicament,CIPROFLOXAL,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE SECABLE,CIPROFLOXAL,ciprofloxal,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flocine500::compri::500mg,Medicament,FLOCINE500,,,True,ciprofloxacine,,500MG,COMPRIME PELLICULE SECABLE,FLOCINE500,flocine500,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciloxan::pommad::0.003,Medicament,CILOXAN,,,True,ciprofloxacine,,0.003,POMMADE OPHTALMIQUE,CILOXAN,ciloxan,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::otocine::sol_au::2mg_ml_(,Medicament,OTOCINE,,,True,ciprofloxacine,,"2MG/ML (1MG/0,5ML)",SOL AURICULAIRE STERILE,OTOCINE,otocine,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::otoflox::sol_au::2mg_ml_(,Medicament,OTOFLOX,,,True,ciprofloxacine,,"2MG/ML (1MG/0,5ML)",SOL AURICULAIRE STERILE,OTOFLOX,otoflox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::quinox_lp::compri::1g,Medicament,QUINOX LP,,,True,ciprofloxacine,,1G,COMPRIME A LIBERATION PROLONGEE,QUINOX LP,quinox lp,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cipro::collyr::0.3%,Medicament,CIPRO,,,True,ciprofloxacine,,0.3%,COLLYRE EN SOLUTION,CIPRO,cipro,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprodar::collyr::0.3%,Medicament,CIPRODAR,,,True,ciprofloxacine,,0.3%,COLLYRE EN SOLUTION,CIPRODAR,ciprodar,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ciprotek::collyr::0.3%,Medicament,CIPROTEK,,,True,ciprofloxacine,,0.3%,COLLYRE EN SOLUTION,CIPROTEK,ciprotek,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::lévofloxacine,DCI,lévofloxacine,J01MA12,Antibiotiques,True,,levofloxacine,,,,,21,,Liste_MIPH_2026
+ATC::J01MA12,CodeATC,J01MA12,,,,,,,,,,,J01M,
+MED::levoworld::collyr::5mg_ml,Medicament,LEVOWORLD,,,True,lévofloxacine,,5MG/ML,COLLYRE,LEVOWORLD,levoworld,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::vivaxin::collyr::5mg_ml,Medicament,VIVAXIN,,,True,lévofloxacine,,5MG/ML,COLLYRE,VIVAXIN,vivaxin,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::loxamox::compri::750mg,Medicament,LOXAMOX,,,True,lévofloxacine,,750MG,COMPRIME PELLICULE,LOXAMOX,loxamox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::loxamox::compri::500mg,Medicament,LOXAMOX,,,True,lévofloxacine,,500MG,COMPRIME PELLICULE SECABLE,LOXAMOX,loxamox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::matador_250::compri::250mg,Medicament,MATADOR 250,,,True,lévofloxacine,,250MG,COMPRIME PELLICULE,MATADOR 250,matador 250,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::matador_500::compri::500mg,Medicament,MATADOR 500,,,True,lévofloxacine,,500MG,COMPRIME PELLICULE,MATADOR 500,matador 500,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::matador_750::compri::750mg,Medicament,MATADOR 750,,,True,lévofloxacine,,750MG,COMPRIME PELLICULE,MATADOR 750,matador 750,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::levoflox::compri::500mg,Medicament,LEVOFLOX,,,True,lévofloxacine,,500MG,COMPRIME PELLICULE SECABLE,LEVOFLOX,levoflox,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::levoquin::compri::500mg,Medicament,LEVOQUIN,,,True,lévofloxacine,,500MG,COMPRIME PELLICULE SECABLE,LEVOQUIN,levoquin,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::levoworld::goutte::5mg_ml,Medicament,LEVOWORLD,,,True,lévofloxacine,,5MG/ML,GOUTTES OCULAIRES ET AURICULAIRES EN SOLUTION,LEVOWORLD,levoworld,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::levoquin::soluti::5mg_ml,Medicament,LEVOQUIN,,,True,lévofloxacine,,5MG/ML,SOLUTION POUR PERFUSION,LEVOQUIN,levoquin,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::levofloxacine_razes::soluti::5mg_ml,Medicament,LEVOFLOXACINE RAZES,,,True,lévofloxacine,,5MG/ML,SOLUTION POUR PERFUSION,LEVOFLOXACINE RAZES,levofloxacine razes,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::doxycycline,DCI,doxycycline,J01AA02,Antibiotiques,True,,doxycycline,,,,,22,,Liste_MIPH_2026
+ATC::J01AA02,CodeATC,J01AA02,,,,,,,,,,,J01A,
+MED::xyline::compri::100_mg,Medicament,XYLINE,,,True,doxycycline,,100 MG,COMPRIME SECABLE,XYLINE,xyline,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::dotur::compri::100_mg,Medicament,DOTUR,,,True,doxycycline,,100 MG,COMPRIME SECABLE,DOTUR,dotur,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::doxynup::compri::100mg,Medicament,DOXYNUP,,,True,doxycycline,,100MG,COMPRIME ORODISPERSIBLE,DOXYNUP,doxynup,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::cotrimoxazole (sulfaméthoxazole + triméthoprime),DCI,cotrimoxazole (sulfaméthoxazole + triméthoprime),J01EE01,Antibiotiques,True,,cotrimoxazole sulfamethoxazole + trimethoprime,,,,,23,,Liste_MIPH_2026
+ATC::J01EE01,CodeATC,J01EE01,,,,,,,,,,,J01E,
+MED::cotrimoxal::compri::400mg_80,Medicament,COTRIMOXAL,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,400MG/80MG,COMPRIME,COTRIMOXAL,cotrimoxal,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::primazol::compri::400mg_80,Medicament,PRIMAZOL,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,400MG/80MG,COMPRIME,PRIMAZOL,primazol,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cotrimoxal_forte::compri::800mg_16,Medicament,COTRIMOXAL FORTE,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,800MG/160MG,COMPRIME AVEC BARRE DE CASSEURE,COTRIMOXAL FORTE,cotrimoxal forte,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::c_zole::soluti::80_mg_40,Medicament,C-ZOLE,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,80 MG/400MG ( 16MG/ML/80 MG/ML),SOLUTION INJECTABLE POUR PER IV,C-ZOLE,c zole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::bactisol::suspen::200mg_40,Medicament,BACTISOL,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,200MG/40MG/5ML,SUSPENSION BUVABLE,BACTISOL,bactisol,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cotrim::suspen::200mg_40,Medicament,COTRIM,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,200MG/40MG/5ML,SUSPENSION BUVABLE,COTRIM,cotrim,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::cotrimazole::suspen::200mg_40,Medicament,COTRIMAZOLE,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,200MG/40MG/5Ml,SUSPENSION BUVABLE,COTRIMAZOLE,cotrimazole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::diprim::suspen::200mg_40,Medicament,DIPRIM,,,True,cotrimoxazole (sulfaméthoxazole + triméthoprime),,200MG/40MG/5Ml,SUSPENSION BUVABLE,DIPRIM,diprim,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::métronidazole,DCI,métronidazole,J01XD01,Antibiotiques,True,,metronidazole,,,,,24,,Liste_MIPH_2026
+ATC::J01XD01,CodeATC,J01XD01,,,,,,,,,,,J01X,
+MED::medazol::compri::250mg,Medicament,MEDAZOL,,,True,métronidazole,,250MG,COMPRIME,MEDAZOL,medazol,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metrogyl::compri::250mg,Medicament,METROGYL,,,True,métronidazole,,250MG,COMPRIME,METROGYL,metrogyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ronidaz_500::compri::500mg,Medicament,RONIDAZ 500,,,True,métronidazole,,500MG,COMPRIME,RONIDAZ 500,ronidaz 500,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidal::compri::250mg,Medicament,METRONIDAL,,,True,métronidazole,,250MG,COMPRIME PELLICULE,METRONIDAL,metronidal,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::biodazole::compri::500mg,Medicament,BIODAZOLE,,,True,métronidazole,,500MG,COMPRIME PELLICULE,BIODAZOLE,biodazole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flagynex::compri::500mg,Medicament,FLAGYNEX,,,True,métronidazole,,500MG,COMPRIME PELLICULE,FLAGYNEX,flagynex,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metazole::compri::500mg,Medicament,METAZOLE,,,True,métronidazole,,500MG,COMPRIME PELLICULE,METAZOLE,metazole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::medogyl::compri::500mg,Medicament,MEDOGYL,,,True,métronidazole,,500MG,COMPRIME PELLICULE,MEDOGYL,medogyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidal::compri::500mg,Medicament,METRONIDAL,,,True,métronidazole,,500MG,COMPRIME PELLICULE,METRONIDAL,metronidal,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_mm::compri::500mg,Medicament,METRONIDAZOLE MM,,,True,métronidazole,,500MG,COMPRIME PELLICULE,METRONIDAZOLE MM,metronidazole mm,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::imuzole::compri::250mg,Medicament,IMUZOLE,,,True,métronidazole,,250MG,COMPRIME PELLICULE,IMUZOLE,imuzole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flazol::compri::500mg,Medicament,FLAZOL,,,True,métronidazole,,500MG,COMPRIME PELLICULE,FLAZOL,flazol,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::imuzole::compri::500mg,Medicament,IMUZOLE,,,True,métronidazole,,500MG,COMPRIME PELLICULE,IMUZOLE,imuzole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::ronidaz_250::compri::250mg,Medicament,RONIDAZ 250,,,True,métronidazole,,250MG,COMPRIME SECABLE,RONIDAZ 250,ronidaz 250,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metrogyl::compri::500mg,Medicament,METROGYL,,,True,métronidazole,,500MG,COMPRIME SECABLE,METROGYL,metrogyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_hup::compri::500mg,Medicament,METRONIDAZOLE HUP,,,True,métronidazole,,500MG,COMPRIME SECABLE,METRONIDAZOLE HUP,metronidazole hup,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidqzazole_mm::coprim::250mg,Medicament,METRONIDQZAZOLE MM,,,True,métronidazole,,250MG,COPRIME PELLICULE,METRONIDQZAZOLE MM,metronidqzazole mm,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metrozex::gel_de::0.0075,Medicament,METROZEX,,,True,métronidazole,,0.0075,GEL DERMIQUE,METROZEX,metrozex,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::rosadoze::gel_de::0.0075,Medicament,ROSADOZE,,,True,métronidazole,,0.0075,GEL DERMIQUE,ROSADOZE,rosadoze,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::rozex::gel_de::0.0075,Medicament,ROZEX,,,True,métronidazole,,0.0075,GEL DERMIQUE,ROZEX,rozex,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_beker::gelule::250mg,Medicament,METRONIDAZOLE BEKER,,,True,métronidazole,,250MG,GELULE,METRONIDAZOLE BEKER,metronidazole beker,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_beker::gelule::500mg,Medicament,METRONIDAZOLE BEKER,,,True,métronidazole,,500MG,GELULE,METRONIDAZOLE BEKER,metronidazole beker,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::fongymex::ovule::500mg,Medicament,FONGYMEX,,,True,métronidazole,,500MG,OVULE,FONGYMEX,fongymex,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metrofagyl::ovule::500mg,Medicament,METROFAGYL,,,True,métronidazole,,500MG,OVULE,METROFAGYL,metrofagyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flagyl::ovule_::500mg,Medicament,FLAGYL,,,True,métronidazole,,500MG,OVULE VAGINALE,FLAGYL,flagyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::imuzole::ovule_::500mg,Medicament,IMUZOLE,,,True,métronidazole,,500MG,OVULE VAGINALE,IMUZOLE,imuzole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::biodazole::soluti::5mg_ml_(,Medicament,BIODAZOLE,,,True,métronidazole,,5MG/ML (500MG/100ML),SOLUTION INJECTABLE,BIODAZOLE,biodazole,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_bieffe_medital::soluti::5mg_ml_(,Medicament,METRONIDAZOLE BIEFFE MEDITAL,,,True,métronidazole,,5MG/ML (500MG/100ML),SOLUTION INJECTABLE,METRONIDAZOLE BIEFFE MEDITAL,metronidazole bieffe medital,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::medrogyl::soluti::5mg_ml_(,Medicament,MEDROGYL,,,True,métronidazole,,5MG/ML (500MG/100ML),SOLUTION INJECTABLE IV,MEDROGYL,medrogyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metronidazole_razes_0_5::soluti::5mg_ml_(,Medicament,"METRONIDAZOLE RAZES 0,5%",,,True,métronidazole,,5MG/ML (500MG/100ML),SOLUTION INJECTABLE POUR PERFUSION,"METRONIDAZOLE RAZES 0,5%",metronidazole razes 0 5,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flazol::suspen::125mg_5m,Medicament,FLAZOL,,,True,métronidazole,,125MG/5ML,SUSPENSION BUVABLE,FLAZOL,flazol,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::metagyl::suspen::125mg_5m,Medicament,METAGYL,,,True,métronidazole,,125MG/5ML,SUSPENSION BUVABLE,METAGYL,metagyl,,,MIPH، JORADP، OMS، algerie-docto.com
+MED::flagyl::suspen::125mg_5m,Medicament,FLAGYL,,,True,métronidazole,,125MG/5ML,SUSPENSION BUVABLE,FLAGYL,flagyl,,,MIPH، JORADP، OMS، algerie-docto.com
+DCI::gentamicine,DCI,gentamicine,J01GB03,Antibiotiques,True,,gentamicine,,,,,25,,Liste_MIPH_2026
+ATC::J01GB03,CodeATC,J01GB03,,,,,,,,,,,J01G,
+MED::gentamycine::collyr::3mg_ml,Medicament,GENTAMYCINE,,,True,gentamicine,,3MG/ML,COLLYRE EN SOLUTION,GENTAMYCINE,gentamycine,,,ANPP، ANSM، dzair-pharma.net
+MED::genta_160::soluti::160_mg_2,Medicament,GENTA 160,,,True,gentamicine,,160 MG/2 ML,SOLUTION INJECTABLE IM/IV,GENTA 160,genta 160,,,ANPP، ANSM، dzair-pharma.net
+"MED::gentamicine_chauvin_o_3::pommad::0,003",Medicament,"GENTAMICINE CHAUVIN O,3%",,,True,gentamicine,,"0,003",POMMADE OPHTALMIQUE,"GENTAMICINE CHAUVIN O,3%",gentamicine chauvin o 3,,,ANPP، ANSM، dzair-pharma.net
+MED::genta_10::soluti::10mg_ml,Medicament,GENTA 10,,,True,gentamicine,,10MG/ML,SOLUTION INJECTABLE IM/IV,GENTA 10,genta 10,,,ANPP، ANSM، dzair-pharma.net
+MED::s_genta::soluti::10mg_ml,Medicament,S-GENTA,,,True,gentamicine,,10MG/ML,SOLUTION INJECTABLE IM/IV,S-GENTA,s genta,,,ANPP، ANSM، dzair-pharma.net
+MED::gentheraxine::collyr::3mg_ml,Medicament,GENTHERAXINE,,,True,gentamicine,,3MG/ML,COLLYRE EN SOLUTION,GENTHERAXINE,gentheraxine,,,ANPP، ANSM، dzair-pharma.net
+MED::genta_40::soluti::20mg_ml_,Medicament,GENTA 40,,,True,gentamicine,,20MG/ML (40MG/2ML),SOLUTION INJECTABLE IM/IV,GENTA 40,genta 40,,,ANPP، ANSM، dzair-pharma.net
+MED::gentaxyn::soluti::20mg_ml_,Medicament,GENTAXYN,,,True,gentamicine,,20MG/ML (40MG/2ML),SOLUTION INJECTABLE IM/IV,GENTAXYN,gentaxyn,,,ANPP، ANSM، dzair-pharma.net
+MED::gentheraxine::soluti::20mg_ml_,Medicament,GENTHERAXINE,,,True,gentamicine,,20MG/ML (40MG/2ML),SOLUTION INJECTABLE IM/IV,GENTHERAXINE,gentheraxine,,,ANPP، ANSM، dzair-pharma.net
+MED::s_genta::soluti::20mg_ml_,Medicament,S-GENTA,,,True,gentamicine,,20MG/ML (40MG/2ML),SOLUTION INJECTABLE IM/IV,S-GENTA,s genta,,,ANPP، ANSM، dzair-pharma.net
+MED::epigent::soluti::40mg_ml_,Medicament,EPIGENT,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,EPIGENT,epigent,,,ANPP، ANSM، dzair-pharma.net
+MED::genta_80::soluti::40mg_ml_,Medicament,GENTA 80,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,GENTA 80,genta 80,,,ANPP، ANSM، dzair-pharma.net
+MED::gentacine::soluti::40mg_ml_,Medicament,GENTACINE,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,GENTACINE,gentacine,,,ANPP، ANSM، dzair-pharma.net
+MED::gentamycine_geo::soluti::40mg_ml_,Medicament,GENTAMYCINE GEO,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,GENTAMYCINE GEO,gentamycine geo,,,ANPP، ANSM، dzair-pharma.net
+MED::gentaxyn::soluti::40mg_ml_,Medicament,GENTAXYN,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,GENTAXYN,gentaxyn,,,ANPP، ANSM، dzair-pharma.net
+MED::gentheraxine::soluti::40mg_ml_,Medicament,GENTHERAXINE,,,True,gentamicine,,40MG/ML (80MG/2ML),SOLUTION INJECTABLE IM/IV,GENTHERAXINE,gentheraxine,,,ANPP، ANSM، dzair-pharma.net
+MED::apigen::collyr::3mg_ml,Medicament,APIGEN,,,True,gentamicine,,3MG/ML,COLLYRE EN SOLUTION,APIGEN,apigen,,,ANPP، ANSM، dzair-pharma.net
+MED::gentadar::collyr::3mg_ml**,Medicament,GENTADAR,,,True,gentamicine,,3MG/ML**,COLLYRE EN SOLUTION,GENTADAR,gentadar,,,ANPP، ANSM، dzair-pharma.net
+MED::gentalex::collyr::3mg_ml,Medicament,GENTALEX,,,True,gentamicine,,3MG/ML,COLLYRE EN SOLUTION,GENTALEX,gentalex,,,ANPP، ANSM، dzair-pharma.net
+MED::gentocil::collyr::3mg_ml_(,Medicament,GENTOCIL,,,True,gentamicine,,"3MG/ML (0,3%)",COLLYRE EN SOLUTION,GENTOCIL,gentocil,,,ANPP، ANSM، dzair-pharma.net
+DCI::clindamycine,DCI,clindamycine,J01FF01,Antibiotiques,True,,clindamycine,,,,,26,,Liste_MIPH_2026
+ATC::J01FF01,CodeATC,J01FF01,,,,,,,,,,,J01F,
+MED::clinaram::gelule::150mg,Medicament,CLINARAM,,,True,clindamycine,,150MG,GELULE,CLINARAM,clinaram,,,ANPP، ANSM، dzair-pharma.net
+MED::acnestop::gel_de::1%_(10mg,Medicament,ACNESTOP,,,True,clindamycine,,1% (10MG/ML),GEL DERMIQUE,ACNESTOP,acnestop,,,ANPP، ANSM، dzair-pharma.net
+MED::denacine_emulgel::gel_de::1%_(10mg,Medicament,DENACINE EMULGEL,,,True,clindamycine,,1% (10MG/ML),GEL DERMIQUE,DENACINE EMULGEL,denacine emulgel,,,ANPP، ANSM، dzair-pharma.net
+MED::clean_acne::gel_po::1%_(10mg,Medicament,CLEAN-ACNE,,,True,clindamycine,,1% (10MG/ML),GEL POUR APPLICATION LOCALE,CLEAN-ACNE,clean acne,,,ANPP، ANSM، dzair-pharma.net
+MED::derma_t::soluti::1%_(10mg,Medicament,DERMA-T,,,True,clindamycine,,1% (10MG/ML),SOLUTION DERMIQUE,DERMA-T,derma t,,,ANPP، ANSM، dzair-pharma.net
+MED::clean_acne::soluti::1%_(10mg,Medicament,CLEAN-ACNE,,,True,clindamycine,,1% (10MG/ML),SOLUTION POUR APPLICATION LOCALE,CLEAN-ACNE,clean acne,,,ANPP، ANSM، dzair-pharma.net
+MED::denacine::soluti::1%_(10mg,Medicament,DENACINE,,,True,clindamycine,,1% (10MG/ML),SOLUTION POUR APPLICATION LOCALE,DENACINE,denacine,,,ANPP، ANSM، dzair-pharma.net
+DCI::amlodipine,DCI,amlodipine,C08CA01,Antihypertenseurs,True,,amlodipine,,,,,27,,Liste_MIPH_2026
+CLASSE::Antihypertenseurs,ClasseThera,Antihypertenseurs,,,,,,,,,,,,
+ATC::C08CA01,CodeATC,C08CA01,,,,,,,,,,,C08C,
+MED::amlodal::compri::5mg,Medicament,AMLODAL,,,True,amlodipine,,5MG,COMPRIME,AMLODAL,amlodal,,,ANPP، ANSM، dzair-pharma.net
+MED::amlibon::compri::5mg,Medicament,AMLIBON,,,True,amlodipine,,5MG,COMPRIME,AMLIBON,amlibon,,,ANPP، ANSM، dzair-pharma.net
+MED::amlodipine_mm::compri::5mg,Medicament,AMLODIPINE MM,,,True,amlodipine,,5MG,COMPRIME PELLICULE,AMLODIPINE MM,amlodipine mm,,,ANPP، ANSM، dzair-pharma.net
+MED::amlomed::compri::5mg,Medicament,AMLOMED,,,True,amlodipine,,5MG,COMPRIME PELLICULE,AMLOMED,amlomed,,,ANPP، ANSM، dzair-pharma.net
+MED::amlodipal::gelule::5mg,Medicament,AMLODIPAL,,,True,amlodipine,,5MG,GELULE,AMLODIPAL,amlodipal,,,ANPP، ANSM، dzair-pharma.net
+MED::amlodipine_beker::gelule::5mg,Medicament,AMLODIPINE BEKER,,,True,amlodipine,,5MG,GELULE,AMLODIPINE BEKER,amlodipine beker,,,ANPP، ANSM، dzair-pharma.net
+MED::amlor::gelule::5mg,Medicament,AMLOR,,,True,amlodipine,,5MG,GELULE,AMLOR,amlor,,,ANPP، ANSM، dzair-pharma.net
+MED::dimlor::gelule::5mg,Medicament,DIMLOR,,,True,amlodipine,,5MG,GELULE,DIMLOR,dimlor,,,ANPP، ANSM، dzair-pharma.net
+MED::dipicard::gelule::5mg,Medicament,DIPICARD,,,True,amlodipine,,5MG,GELULE,DIPICARD,dipicard,,,ANPP، ANSM، dzair-pharma.net
+MED::humlor::gelule::5mg,Medicament,HUMLOR,,,True,amlodipine,,5MG,GELULE,HUMLOR,humlor,,,ANPP، ANSM، dzair-pharma.net
+MED::lotense::gelule::5mg,Medicament,LOTENSE,,,True,amlodipine,,5MG,GELULE,LOTENSE,lotense,,,ANPP، ANSM، dzair-pharma.net
+MED::lowvasc::gelule::5mg,Medicament,LOWVASC,,,True,amlodipine,,5MG,GELULE,LOWVASC,lowvasc,,,ANPP، ANSM، dzair-pharma.net
+MED::mibral::gelule::5mg,Medicament,MIBRAL,,,True,amlodipine,,5MG,GELULE,MIBRAL,mibral,,,ANPP، ANSM، dzair-pharma.net
+MED::amlopine::gelule::5mg,Medicament,AMLOPINE,,,True,amlodipine,,5MG,GELULE,AMLOPINE,amlopine,,,ANPP، ANSM، dzair-pharma.net
+MED::tensodipine::gelule::5mg,Medicament,TENSODIPINE,,,True,amlodipine,,5MG,GELULE,TENSODIPINE,tensodipine,,,ANPP، ANSM، dzair-pharma.net
+MED::amlibon::compri::10mg,Medicament,AMLIBON,,,True,amlodipine,,10MG,COMPRIME,AMLIBON,amlibon,,,ANPP، ANSM، dzair-pharma.net
+MED::amlodal::compri::10mg,Medicament,AMLODAL,,,True,amlodipine,,10MG,COMPRIME SECABLE,AMLODAL,amlodal,,,ANPP، ANSM، dzair-pharma.net
+MED::amlocardine::gelule::10mg,Medicament,AMLOCARDINE,,,True,amlodipine,,10MG,GELULE,AMLOCARDINE,amlocardine,,,ANPP، ANSM، dzair-pharma.net
+MED::amlodipine_beker::gelule::10mg,Medicament,AMLODIPINE BEKER,,,True,amlodipine,,10MG,GELULE,AMLODIPINE BEKER,amlodipine beker,,,ANPP، ANSM، dzair-pharma.net
+MED::amlor::gelule::10mg,Medicament,AMLOR,,,True,amlodipine,,10MG,GELULE,AMLOR,amlor,,,ANPP، ANSM، dzair-pharma.net
+MED::dimlor::gelule::10mg,Medicament,DIMLOR,,,True,amlodipine,,10MG,GELULE,DIMLOR,dimlor,,,ANPP، ANSM، dzair-pharma.net
+MED::dipicard::gelule::10mg,Medicament,DIPICARD,,,True,amlodipine,,10MG,GELULE,DIPICARD,dipicard,,,ANPP، ANSM، dzair-pharma.net
+MED::humlor::gelule::10mg,Medicament,HUMLOR,,,True,amlodipine,,10MG,GELULE,HUMLOR,humlor,,,ANPP، ANSM، dzair-pharma.net
+MED::lotense::gelule::10mg,Medicament,LOTENSE,,,True,amlodipine,,10MG,GELULE,LOTENSE,lotense,,,ANPP، ANSM، dzair-pharma.net
+MED::mibral::gelule::10mg,Medicament,MIBRAL,,,True,amlodipine,,10MG,GELULE,MIBRAL,mibral,,,ANPP، ANSM، dzair-pharma.net
+MED::tensodipine::gelule::10mg,Medicament,TENSODIPINE,,,True,amlodipine,,10MG,GELULE,TENSODIPINE,tensodipine,,,ANPP، ANSM، dzair-pharma.net
+DCI::nifédipine,DCI,nifédipine,C08CA05,Antihypertenseurs,False,,nifedipine,,,,,28,,Liste_MIPH_2026
+ATC::C08CA05,CodeATC,C08CA05,,,,,,,,,,,C08C,
+DCI::périndopril,DCI,périndopril,C09AA04,Antihypertenseurs,True,,perindopril,,,,,29,,Liste_MIPH_2026
+ATC::C09AA04,CodeATC,C09AA04,,,,,,,,,,,C09A,
+MED::coversyl::compri::10mg,Medicament,COVERSYL,,,True,périndopril,,10MG,COMPRIME PELLICULE,COVERSYL,coversyl,,,ANPP، ANSM، dzair-pharma.net
+MED::coversyl::compri::5mg,Medicament,COVERSYL,,,True,périndopril,,5MG,COMPRIME PELLICULE SECABLE,COVERSYL,coversyl,,,ANPP، ANSM، dzair-pharma.net
+MED::perindosyl::compri::4mg,Medicament,PERINDOSYL,,,True,périndopril,,4MG,COMPRIME,PERINDOSYL,perindosyl,,,ANPP، ANSM، dzair-pharma.net
+MED::perindopril_beker::compri::8mg,Medicament,PERINDOPRIL BEKER,,,True,périndopril,,8MG,COMPRIME,PERINDOPRIL BEKER,perindopril beker,,,ANPP، ANSM، dzair-pharma.net
+MED::perindosyl::compri::8mg,Medicament,PERINDOSYL,,,True,périndopril,,8MG,COMPRIME PELLICULE,PERINDOSYL,perindosyl,,,ANPP، ANSM، dzair-pharma.net
+MED::perindopril_beker::compri::4mg,Medicament,PERINDOPRIL BEKER,,,True,périndopril,,4MG,COMPRIME SECABLE,PERINDOPRIL BEKER,perindopril beker,,,ANPP، ANSM، dzair-pharma.net
+DCI::ramipril,DCI,ramipril,C09AA05,Antihypertenseurs,True,,ramipril,,,,,30,,Liste_MIPH_2026
+ATC::C09AA05,CodeATC,C09AA05,,,,,,,,,,,C09A,
+MED::raminorm::compri::5mg,Medicament,RAMINORM,,,True,ramipril,,5MG,COMPRIME,RAMINORM,raminorm,,,ANPP، ANSM، dzair-pharma.net
+"MED::tanatril::compri::1,25mg",Medicament,TANATRIL,,,True,ramipril,,"1,25MG",COMPRIME,TANATRIL,tanatril,,,ANPP، ANSM، dzair-pharma.net
+"MED::triatec::compri::1,25mg",Medicament,TRIATEC,,,True,ramipril,,"1,25MG",COMPRIME,TRIATEC,triatec,,,ANPP، ANSM، dzair-pharma.net
+MED::raminorm::compri::10mg,Medicament,RAMINORM,,,True,ramipril,,10MG,COMPRIME,RAMINORM,raminorm,,,ANPP، ANSM، dzair-pharma.net
+MED::ramipril_beker::compri::2.5mg,Medicament,RAMIPRIL BEKER,,,True,ramipril,,2.5MG,COMPRIME SECABLE,RAMIPRIL BEKER,ramipril beker,,,ANPP، ANSM، dzair-pharma.net
+MED::ramitrim::compri::2.5mg,Medicament,RAMITRIM,,,True,ramipril,,2.5MG,COMPRIME SECABLE,RAMITRIM,ramitrim,,,ANPP، ANSM، dzair-pharma.net
+MED::tanatril::compri::2.5mg,Medicament,TANATRIL,,,True,ramipril,,2.5MG,COMPRIME SECABLE,TANATRIL,tanatril,,,ANPP، ANSM، dzair-pharma.net
+MED::ramipril_beker::compri::5mg,Medicament,RAMIPRIL BEKER,,,True,ramipril,,5MG,COMPRIME SECABLE,RAMIPRIL BEKER,ramipril beker,,,ANPP، ANSM، dzair-pharma.net
+MED::ramipril_physiopharm::compri::5mg,Medicament,RAMIPRIL PHYSIOPHARM,,,True,ramipril,,5MG,COMPRIME SECABLE,RAMIPRIL PHYSIOPHARM,ramipril physiopharm,,,ANPP، ANSM، dzair-pharma.net
+MED::ramitrim::compri::5mg,Medicament,RAMITRIM,,,True,ramipril,,5MG,COMPRIME SECABLE,RAMITRIM,ramitrim,,,ANPP، ANSM، dzair-pharma.net
+MED::tanatril::compri::5mg,Medicament,TANATRIL,,,True,ramipril,,5MG,COMPRIME SECABLE,TANATRIL,tanatril,,,ANPP، ANSM، dzair-pharma.net
+MED::ramipril_beker::compri::10mg,Medicament,RAMIPRIL BEKER,,,True,ramipril,,10MG,COMPRIME SECABLE,RAMIPRIL BEKER,ramipril beker,,,ANPP، ANSM، dzair-pharma.net
+MED::ramitrim::compri::10mg,Medicament,RAMITRIM,,,True,ramipril,,10MG,COMPRIME SECABLE,RAMITRIM,ramitrim,,,ANPP، ANSM، dzair-pharma.net
+MED::tanatril::compri::10mg,Medicament,TANATRIL,,,True,ramipril,,10MG,COMPRIME SECABLE,TANATRIL,tanatril,,,ANPP، ANSM، dzair-pharma.net
+MED::triatec::compri::2.5mg,Medicament,TRIATEC,,,True,ramipril,,2.5MG,COMPRIME SECABLE,TRIATEC,triatec,,,ANPP، ANSM، dzair-pharma.net
+MED::triatec::compri::5mg,Medicament,TRIATEC,,,True,ramipril,,5MG,COMPRIME SECABLE,TRIATEC,triatec,,,ANPP، ANSM، dzair-pharma.net
+MED::triatec::compri::10mg,Medicament,TRIATEC,,,True,ramipril,,10MG,COMPRIME SECABLE,TRIATEC,triatec,,,ANPP، ANSM، dzair-pharma.net
+MED::triampex::gelule::2.5mg,Medicament,TRIAMPEX,,,True,ramipril,,2.5MG,GELULE,TRIAMPEX,triampex,,,ANPP، ANSM، dzair-pharma.net
+MED::triampex::gelule::5mg,Medicament,TRIAMPEX,,,True,ramipril,,5MG,GELULE,TRIAMPEX,triampex,,,ANPP، ANSM، dzair-pharma.net
+MED::triampex::gelule::10_mg,Medicament,TRIAMPEX,,,True,ramipril,,10 MG,GELULE,TRIAMPEX,triampex,,,ANPP، ANSM، dzair-pharma.net
+DCI::énalapril,DCI,énalapril,C09AA02,Antihypertenseurs,True,,enalapril,,,,,31,,Liste_MIPH_2026
+ATC::C09AA02,CodeATC,C09AA02,,,,,,,,,,,C09A,
+MED::enalapril_mylan::compri::5mg,Medicament,ENALAPRIL MYLAN,,,True,énalapril,,5MG,COMPRIME SECABLE,ENALAPRIL MYLAN,enalapril mylan,,,ANPP، ANSM، dzair-pharma.net
+MED::enalapril_mylan::compri::20mg,Medicament,ENALAPRIL MYLAN,,,True,énalapril,,20MG,COMPRIME SECABLE,ENALAPRIL MYLAN,enalapril mylan,,,ANPP، ANSM، dzair-pharma.net
+DCI::losartan,DCI,losartan,C09CA01,Antihypertenseurs,True,,losartan,,,,,32,,Liste_MIPH_2026
+ATC::C09CA01,CodeATC,C09CA01,,,,,,,,,,,C09C,
+MED::cozzar::compri::50mg,Medicament,COZZAR,,,True,losartan,,50MG,COMPRIME PELLICULE,COZZAR,cozzar,,,ANPP، ANSM، dzair-pharma.net
+MED::lozartan_geo::compri::50mg,Medicament,LOZARTAN GEO,,,True,losartan,,50MG,COMPRIME PELLICULE,LOZARTAN GEO,lozartan geo,,,ANPP، ANSM، dzair-pharma.net
+MED::bektal::compri::100mg,Medicament,BEKTAL,,,True,losartan,,100MG,COMPRIME PELLICULE,BEKTAL,bektal,,,ANPP، ANSM، dzair-pharma.net
+MED::cozzar::compri::100mg,Medicament,COZZAR,,,True,losartan,,100MG,COMPRIME PELLICULE,COZZAR,cozzar,,,ANPP، ANSM، dzair-pharma.net
+MED::lazartan::compri::100mg,Medicament,LAZARTAN,,,True,losartan,,100MG,COMPRIME PELLICULE,LAZARTAN,lazartan,,,ANPP، ANSM، dzair-pharma.net
+MED::angizar::compri::50mg,Medicament,ANGIZAR,,,True,losartan,,50MG,COMPRIME PELLICULE SECABLE,ANGIZAR,angizar,,,ANPP، ANSM، dzair-pharma.net
+MED::bektal::compri::50mg,Medicament,BEKTAL,,,True,losartan,,50MG,COMPRIME PELLICULE SECABLE,BEKTAL,bektal,,,ANPP، ANSM، dzair-pharma.net
+MED::hysartan::compri::50mg,Medicament,HYSARTAN,,,True,losartan,,50MG,COMPRIME PELLICULE SECABLE,HYSARTAN,hysartan,,,ANPP، ANSM، dzair-pharma.net
+MED::lazartan::compri::50mg,Medicament,LAZARTAN,,,True,losartan,,50MG,COMPRIME PELLICULE SECABLE,LAZARTAN,lazartan,,,ANPP، ANSM، dzair-pharma.net
+MED::norta::compri::50mg,Medicament,NORTA,,,True,losartan,,50MG,COMPRIME PELLICULE SECABLE,NORTA,norta,,,ANPP، ANSM، dzair-pharma.net
+MED::hysartan::compri::100mg,Medicament,HYSARTAN,,,True,losartan,,100MG,COMPRIME PELLICULE SECABLE,HYSARTAN,hysartan,,,ANPP، ANSM، dzair-pharma.net
+MED::norta_fort::compri::100mg,Medicament,NORTA FORT,,,True,losartan,,100MG,COMPRIME PELLICULE SECABLE,NORTA FORT,norta fort,,,ANPP، ANSM، dzair-pharma.net
+DCI::valsartan,DCI,valsartan,C09CA03,Antihypertenseurs,True,,valsartan,,,,,33,,Liste_MIPH_2026
+ATC::C09CA03,CodeATC,C09CA03,,,,,,,,,,,C09C,
+MED::tabuvan::compri::160mg,Medicament,TABUVAN,,,True,valsartan,,160MG,COMPRIME PELLICULE,TABUVAN,tabuvan,,,ANPP، dzair-pharma.net
+MED::valaclor_40::compri::40mg,Medicament,VALACLOR 40,,,True,valsartan,,40MG,COMPRIME PELLICULE,VALACLOR 40,valaclor 40,,,ANPP، dzair-pharma.net
+MED::arbitan::compri::80mg,Medicament,ARBITAN,,,True,valsartan,,80MG,COMPRIME PELLICULE,ARBITAN,arbitan,,,ANPP، dzair-pharma.net
+MED::divalan::compri::80mg,Medicament,DIVALAN,,,True,valsartan,,80MG,COMPRIME PELLICULE,DIVALAN,divalan,,,ANPP، dzair-pharma.net
+MED::hureg_hup::compri::80mg,Medicament,HUREG HUP,,,True,valsartan,,80MG,COMPRIME PELLICULE,HUREG HUP,hureg hup,,,ANPP، dzair-pharma.net
+MED::sarteg::compri::80mg,Medicament,SARTEG,,,True,valsartan,,80MG,COMPRIME PELLICULE,SARTEG,sarteg,,,ANPP، dzair-pharma.net
+MED::tabuvan::compri::80mg,Medicament,TABUVAN,,,True,valsartan,,80MG,COMPRIME PELLICULE,TABUVAN,tabuvan,,,ANPP، dzair-pharma.net
+MED::tareg::compri::80mg,Medicament,TAREG,,,True,valsartan,,80MG,COMPRIME PELLICULE,TAREG,tareg,,,ANPP، dzair-pharma.net
+MED::taroval::compri::80mg,Medicament,TAROVAL,,,True,valsartan,,80MG,COMPRIME PELLICULE,TAROVAL,taroval,,,ANPP، dzair-pharma.net
+MED::valaclor::compri::80mg,Medicament,VALACLOR,,,True,valsartan,,80MG,COMPRIME PELLICULE,VALACLOR,valaclor,,,ANPP، dzair-pharma.net
+MED::valastan::compri::80mg,Medicament,VALASTAN,,,True,valsartan,,80MG,COMPRIME PELLICULE,VALASTAN,valastan,,,ANPP، dzair-pharma.net
+MED::valsan::compri::80mg,Medicament,VALSAN,,,True,valsartan,,80MG,COMPRIME PELLICULE,VALSAN,valsan,,,ANPP، dzair-pharma.net
+MED::vestag::compri::80mg,Medicament,VESTAG,,,True,valsartan,,80MG,COMPRIME PELLICULE,VESTAG,vestag,,,ANPP، dzair-pharma.net
+MED::viasart::compri::80mg,Medicament,VIASART,,,True,valsartan,,80MG,COMPRIME PELLICULE,VIASART,viasart,,,ANPP، dzair-pharma.net
+MED::arbitan::compri::160mg,Medicament,ARBITAN,,,True,valsartan,,160MG,COMPRIME PELLICULE,ARBITAN,arbitan,,,ANPP، dzair-pharma.net
+MED::divalan::compri::160mg,Medicament,DIVALAN,,,True,valsartan,,160MG,COMPRIME PELLICULE,DIVALAN,divalan,,,ANPP، dzair-pharma.net
+MED::hureg::compri::160mg,Medicament,HUREG,,,True,valsartan,,160MG,COMPRIME PELLICULE,HUREG,hureg,,,ANPP، dzair-pharma.net
+MED::reta_160::compri::160mg,Medicament,RETA 160,,,True,valsartan,,160MG,COMPRIME PELLICULE,RETA 160,reta 160,,,ANPP، dzair-pharma.net
+MED::sarteg::compri::160mg,Medicament,SARTEG,,,True,valsartan,,160MG,COMPRIME PELLICULE,SARTEG,sarteg,,,ANPP، dzair-pharma.net
+MED::tareg::compri::160mg,Medicament,TAREG,,,True,valsartan,,160MG,COMPRIME PELLICULE,TAREG,tareg,,,ANPP، dzair-pharma.net
+MED::valaclor_160::compri::160mg,Medicament,VALACLOR 160,,,True,valsartan,,160MG,COMPRIME PELLICULE,VALACLOR 160,valaclor 160,,,ANPP، dzair-pharma.net
+MED::valastan::compri::160mg,Medicament,VALASTAN,,,True,valsartan,,160MG,COMPRIME PELLICULE,VALASTAN,valastan,,,ANPP، dzair-pharma.net
+MED::valex_160::compri::160mg,Medicament,VALEX 160,,,True,valsartan,,160MG,COMPRIME PELLICULE,VALEX 160,valex 160,,,ANPP، dzair-pharma.net
+MED::vestag::compri::160mg,Medicament,VESTAG,,,True,valsartan,,160MG,COMPRIME PELLICULE,VESTAG,vestag,,,ANPP، dzair-pharma.net
+MED::viasart::compri::160mg,Medicament,VIASART,,,True,valsartan,,160MG,COMPRIME PELLICULE,VIASART,viasart,,,ANPP، dzair-pharma.net
+MED::sarteg::compri::320mg,Medicament,SARTEG,,,True,valsartan,,320MG,COMPRIME PELLICULE,SARTEG,sarteg,,,ANPP، ANSM، dzair-pharma.net
+MED::valcard_alembic_mami::compri::320mg,Medicament,VALCARD ALEMBIC MAMI,,,True,valsartan,,320MG,COMPRIME PELLICULE,VALCARD ALEMBIC MAMI,valcard alembic mami,,,ANPP، ANSM، dzair-pharma.net
+MED::reta::compri::80mg,Medicament,RETA,,,True,valsartan,,80MG,COMPRIME PELLICULE SECABLE,RETA,reta,,,ANPP، ANSM، dzair-pharma.net
+MED::valex_80::compri::80mg,Medicament,VALEX 80,,,True,valsartan,,80MG,COMPRIME PELLICULE SECABLE,VALEX 80,valex 80,,,ANPP، ANSM، dzair-pharma.net
+MED::vareg::compri::80mg,Medicament,VAREG,,,True,valsartan,,80MG,COMPRIME PELLICULE SECABLE,VAREG,vareg,,,ANPP، ANSM، dzair-pharma.net
+MED::valsis::compri::80mg,Medicament,VALSIS,,,True,valsartan,,80MG,COMPRIME PELLICULE SECABLE,VALSIS,valsis,,,ANPP، ANSM، dzair-pharma.net
+MED::vareg::compri::160mg,Medicament,VAREG,,,True,valsartan,,160MG,COMPRIME PELLICULE SECABLE,VAREG,vareg,,,ANPP، ANSM، dzair-pharma.net
+MED::valsis::compri::160mg,Medicament,VALSIS,,,True,valsartan,,160MG,COMPRIME PELLICULE SECABLE,VALSIS,valsis,,,ANPP، ANSM، dzair-pharma.net
+DCI::bisoprolol,DCI,bisoprolol,C07AB07,Antihypertenseurs,True,,bisoprolol,,,,,34,,Liste_MIPH_2026
+ATC::C07AB07,CodeATC,C07AB07,,,,,,,,,,,C07A,
+MED::bisoprolol_hup::compri::5mg,Medicament,BISOPROLOL HUP,,,True,bisoprolol,,5MG,COMPRIME,BISOPROLOL HUP,bisoprolol hup,,,ANPP، ANSM، dzair-pharma.net
+MED::bisoprolol_beker::compri::5mg,Medicament,BISOPROLOL BEKER,,,True,bisoprolol,,5MG,COMPRIME PELLICULE,BISOPROLOL BEKER,bisoprolol beker,,,ANPP، ANSM، dzair-pharma.net
+MED::bisoprolol_mm::compri::5mg,Medicament,BISOPROLOL MM,,,True,bisoprolol,,5MG,COMPRIME PELLICULE,BISOPROLOL MM,bisoprolol mm,,,ANPP، ANSM، dzair-pharma.net
+MED::biprotens::compri::10mg,Medicament,BIPROTENS,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BIPROTENS,biprotens,,,ANPP، ANSM، dzair-pharma.net
+MED::bisoprolol_beker::compri::10mg,Medicament,BISOPROLOL BEKER,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BISOPROLOL BEKER,bisoprolol beker,,,ANPP، ANSM، dzair-pharma.net
+MED::bisoprolol_mm::compri::10mg,Medicament,BISOPROLOL MM,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BISOPROLOL MM,bisoprolol mm,,,ANPP، ANSM، dzair-pharma.net
+MED::bisosel::compri::10mg,Medicament,BISOSEL,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BISOSEL,bisosel,,,ANPP، ANSM، dzair-pharma.net
+MED::bisotab::compri::10mg,Medicament,BISOTAB,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BISOTAB,bisotab,,,ANPP، ANSM، dzair-pharma.net
+MED::bonacor::compri::10mg,Medicament,BONACOR,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BONACOR,bonacor,,,ANPP، ANSM، dzair-pharma.net
+MED::byzolex::compri::10mg,Medicament,BYZOLEX,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,BYZOLEX,byzolex,,,ANPP، ANSM، dzair-pharma.net
+MED::cirbesa::compri::10mg,Medicament,CIRBESA,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,CIRBESA,cirbesa,,,ANPP، ANSM، dzair-pharma.net
+MED::detenpress::compri::10mg,Medicament,DETENPRESS,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,DETENPRESS,detenpress,,,ANPP، ANSM، dzair-pharma.net
+MED::detensiel::compri::10mg,Medicament,DETENSIEL,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,DETENSIEL,detensiel,,,ANPP، ANSM، dzair-pharma.net
+MED::prodol::compri::10mg,Medicament,PRODOL,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,PRODOL,prodol,,,ANPP، ANSM، dzair-pharma.net
+MED::promivol::compri::10mg,Medicament,PROMIVOL,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,PROMIVOL,promivol,,,ANPP، ANSM، dzair-pharma.net
+MED::rizoprol::compri::10mg,Medicament,RIZOPROL,,,True,bisoprolol,,10MG,COMPRIME PELLICULE SECABLE,RIZOPROL,rizoprol,,,ANPP، ANSM، dzair-pharma.net
+MED::biprotens::compri::5mg,Medicament,BIPROTENS,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,BIPROTENS,biprotens,,,ANPP، ANSM، dzair-pharma.net
+MED::bisosel::compri::5mg,Medicament,BISOSEL,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,BISOSEL,bisosel,,,ANPP، ANSM، dzair-pharma.net
+MED::bisotab::compri::5mg,Medicament,BISOTAB,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,BISOTAB,bisotab,,,ANPP، ANSM، dzair-pharma.net
+MED::bonacor::compri::5mg,Medicament,BONACOR,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,BONACOR,bonacor,,,ANPP، ANSM، dzair-pharma.net
+MED::cirbesa::compri::5mg,Medicament,CIRBESA,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,CIRBESA,cirbesa,,,ANPP، ANSM، dzair-pharma.net
+MED::diprolol::compri::5mg,Medicament,DIPROLOL,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,DIPROLOL,diprolol,,,ANPP، ANSM، dzair-pharma.net
+MED::prodol::compri::5mg,Medicament,PRODOL,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,PRODOL,prodol,,,ANPP، ANSM، dzair-pharma.net
+MED::rizoprol::compri::5mg,Medicament,RIZOPROL,,,True,bisoprolol,,5MG,COMPRIME PELLICULE SECABLE,RIZOPROL,rizoprol,,,ANPP، ANSM، dzair-pharma.net
+"MED::cardensiel::compri::2,5mg",Medicament,CARDENSIEL,,,True,bisoprolol,,"2,5MG",COMPRIME PELLICULE SECABLE,CARDENSIEL,cardensiel,,,ANPP، ANSM، dzair-pharma.net
+MED::byzolex_5::compri::5mg,Medicament,BYZOLEX 5,,,True,bisoprolol,,5MG,COMPRIME QUADRI-SECABLE,BYZOLEX 5,byzolex 5,,,ANPP، ANSM، dzair-pharma.net
+DCI::aténolol,DCI,aténolol,C07AB03,Antihypertenseurs,True,,atenolol,,,,,35,,Liste_MIPH_2026
+ATC::C07AB03,CodeATC,C07AB03,,,,,,,,,,,C07A,
+MED::daghtan_50::compri::50mg,Medicament,DAGHTAN 50,,,True,aténolol,,50MG,COMPRIME PELLICULE,DAGHTAN 50,daghtan 50,,,ANPP، ANSM، dzair-pharma.net
+MED::cardinol_bgl::compri::100mg,Medicament,CARDINOL BGL,,,True,aténolol,,100MG,COMPRIME PELLICULE SECABLE,CARDINOL BGL,cardinol bgl,,,ANPP، ANSM، dzair-pharma.net
+MED::daghtan_100::compri::100mg,Medicament,DAGHTAN 100,,,True,aténolol,,100MG,COMPRIME PELLICULE SECABLE,DAGHTAN 100,daghtan 100,,,ANPP، ANSM، dzair-pharma.net
+MED::cardinol_bgl::compri::50mg,Medicament,CARDINOL BGL,,,True,aténolol,,50MG,COMPRIME PELLICULE SECABLE,CARDINOL BGL,cardinol bgl,,,ANPP، ANSM، dzair-pharma.net
+MED::tenormed::compri::100mg,Medicament,TENORMED,,,True,aténolol,,100MG,COMPRIME SECABLE,TENORMED,tenormed,,,ANPP، ANSM، dzair-pharma.net
+DCI::nébivolol,DCI,nébivolol,C07AB12,Antihypertenseurs,True,,nebivolol,,,,,36,,Liste_MIPH_2026
+ATC::C07AB12,CodeATC,C07AB12,,,,,,,,,,,C07A,
+MED::temerivol::compri::5mg,Medicament,TEMERIVOL,,,True,nébivolol,,5MG,COMPRIME QUADRI-SECABLE,TEMERIVOL,temerivol,,,ANPP، ANSM، dzair-pharma.net
+MED::nebcar::compri::5mg,Medicament,NEBCAR,,,True,nébivolol,,5MG,COMPRIME QUADRI-SECABLE,NEBCAR,nebcar,,,ANPP، ANSM، dzair-pharma.net
+"MED::nebcar::compri::2,5_mg",Medicament,NEBCAR,,,True,nébivolol,,"2,5 MG",COMPRIME SECABLE,NEBCAR,nebcar,,,ANPP، ANSM، dzair-pharma.net
+MED::temerit::compri::5mg,Medicament,TEMERIT,,,True,nébivolol,,5MG,COMPRIME QUADRI-SECABLE,TEMERIT,temerit,,,ANPP، ANSM، dzair-pharma.net
+DCI::hydrochlorothiazide,DCI,hydrochlorothiazide,C03AA03,Antihypertenseurs,False,,hydrochlorothiazide,,,,,37,,Liste_MIPH_2026
+ATC::C03AA03,CodeATC,C03AA03,,,,,,,,,,,C03A,
+DCI::indapamide,DCI,indapamide,C03BA11,Antihypertenseurs,True,,indapamide,,,,,38,,Liste_MIPH_2026
+ATC::C03BA11,CodeATC,C03BA11,,,,,,,,,,,C03B,
+"MED::adex_lp::compri::1,5mg",Medicament,ADEX LP,,,True,indapamide,,"1,5MG",COMPRIME PELLICULE A LIBERATION PROLONGEE,ADEX LP,adex lp,,,ANPP، ANSM، dzair-pharma.net
+"MED::fludex_lp::compri::1,5mg",Medicament,FLUDEX LP,,,True,indapamide,,"1,5MG",COMPRIME PELLICULE A LIBERATION PROLONGEE,FLUDEX LP,fludex lp,,,ANPP، ANSM، dzair-pharma.net
+"MED::flumide_lp::compri::1,5mg",Medicament,FLUMIDE LP,,,True,indapamide,,"1,5MG",COMPRIME PELLICULE A LIBERATION PROLONGEE,FLUMIDE LP,flumide lp,,,ANPP، ANSM، dzair-pharma.net
+"MED::indapamide_beker_lp::compri::1,5mg",Medicament,INDAPAMIDE BEKER LP,,,True,indapamide,,"1,5MG",COMPRIME PELLICULE A LIBERATION PROLONGEE,INDAPAMIDE BEKER LP,indapamide beker lp,,,ANPP، ANSM، dzair-pharma.net
+DCI::spironolactone,DCI,spironolactone,C03DA01,Antihypertenseurs,True,,spironolactone,,,,,39,,Liste_MIPH_2026
+ATC::C03DA01,CodeATC,C03DA01,,,,,,,,,,,C03D,
+MED::aldactone::compri::75mg,Medicament,ALDACTONE,,,True,spironolactone,,75MG,COMPRIME PELLICULE SECABLE,ALDACTONE,aldactone,,,ANPP، ANSM، dzair-pharma.net
+MED::spironolone::compri::75mg,Medicament,SPIRONOLONE,,,True,spironolactone,,75MG,COMPRIME PELLICULE SECABLE,SPIRONOLONE,spironolone,,,ANPP، ANSM، dzair-pharma.net
+DCI::méthyldopa,DCI,méthyldopa,C02AB01,Antihypertenseurs,True,,methyldopa,,,,,40,,Liste_MIPH_2026
+ATC::C02AB01,CodeATC,C02AB01,,,,,,,,,,,C02A,
+MED::aldomet::compri::250mg,Medicament,ALDOMET,,,True,méthyldopa,,250MG,COMPRIME PELLICULE,ALDOMET,aldomet,,,ANPP، ANSM، dzair-pharma.net
+MED::dopamet::compri::250mg,Medicament,DOPAMET,,,True,méthyldopa,,250MG,COMPRIME PELLICULE,DOPAMET,dopamet,,,ANPP، ANSM، dzair-pharma.net
+MED::methycare::compri::250mg,Medicament,METHYCARE,,,True,méthyldopa,,250MG,COMPRIME PELLICULE,METHYCARE,methycare,,,ANPP، ANSM، dzair-pharma.net
