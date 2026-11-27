@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 CORPUS_DIR = ROOT / "data" / "corpus"
 OCR_DIR = ROOT / "data" / "processed_corpus"
-EVAL_DIR = ROOT / "docs" / "evaluation"
+SEMAINE = os.getenv("COGNIVEX_SEMAINE", "semaine 2")
+EVAL_DIR = ROOT / "docs" / "evaluation" / SEMAINE
 QUESTIONS_FILE = EVAL_DIR / "questions_llm.md"
 
 COLLECTION_NAME = "cognivex_chunks"
