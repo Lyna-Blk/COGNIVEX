@@ -64,8 +64,8 @@ python -m pip install -r requirements.txt
 | Semaine | Contenu | Statut |
 |---|---|---|
 | Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
-| Semaine 2 | Chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique / hybride, normalisation des noms commerciaux | À valider (retour de l'enseignant) |
-| Semaine 3 | Graphe de connaissances : ontologie minimale, extraction, peuplement | Préparée (à soumettre quand la recherche est validée) |
+| Semaine 2 | Chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique / hybride, normalisation des noms commerciaux | Terminée |
+| Semaine 3 | Graphe de connaissances : ontologie minimale, extraction, peuplement | Terminée |
 
 ### Semaine 1 — Préparation du corpus
 
@@ -95,23 +95,60 @@ python src/compare_search.py                      # BM25 + sémantique + hybride
 python src/compare_search.py --bm25-only          # sans modèle (rapport *_bm25.md)
 python src/compare_search.py --question "Amlor 5 mg"   # une question libre
 ```
-
 ### Semaine 3 — Graphe de connaissances (après validation de la recherche)
 
+Le graphe relie les produits (noms commerciaux), leurs présentations, les DCI, les codes ATC, les laboratoires et les documents sources. Les interactions sont extraites des pages DwaDZ du corpus.
 
 | Fichier | Rôle |
 |---|---|
-| `docs/ontologie.md` | Ontologie minimale : 9 classes, 10 relations, limites |
-| `src/build_kg.py` | Extraction + peuplement → `data/kg/` (`noeuds.csv`, `relations.csv`, `kg.graphml`, `kg_stats.md`) |
-| `src/kg_requetes.py` | Requêtes de démonstration (DCI d'un nom commercial, équivalents, interactions) |
+| `docs/ontologie.md` | Définition de l'ontologie minimale : 9 classes (entités), 10 relations, relation inférée, limites |
+| `src/build_kg.py` | Extraction des entités et relations (nomenclature, fiches produit, pages DwaDZ), liaison entre elles et peuplement du graphe → `data/kg/` (`noeuds.csv`, `relations.csv`, `kg.graphml`, `kg_stats.md`, `ontologie.json`) |
+| `src/generer_ontologie_md.py` | Génère `docs/ontologie.md` à partir de l'ontologie définie dans `build_kg.py` |
+| `src/kg_requetes.py` | Requêtes de démonstration : DCI d'un nom commercial, produits équivalents, interactions |
 
 ```bash
-python src/build_kg 
-
+python src/build_kg.py
+python src/generer_ontologie_md.py
+python src/kg_requetes.py
 ```
+#### Résultats
 
-#### Pistes pour la suite
+Le graphe contient **1132 nœuds** et **1230 relations**.
 
+| Classe de nœuds | Nombre |
+|---|---|
+| Produit | 455 |
+| Presentation | 455 |
+| Document | 87 |
+| DCI | 40 |
+| CodeATC | 38 |
+| Laboratoire | 24 |
+| Partenaire | 21 |
+| TypeSource | 9 |
+| ClasseTherapeutique | 3 |
+
+| Relation | Nombre |
+|---|---|
+| aPourDCI | 455 |
+| aPourPresentation | 455 |
+| decritDCI | 87 |
+| provientDeSource | 87 |
+| aPourATC | 38 |
+| appartientAClasse | 38 |
+| fabriquePar | 34 |
+| interagitAvec | 28 |
+| decritProduit | 6 |
+| partenaireEstDCI | 2 |
+
+**Interactions extraites de DwaDZ** : 23 pages lues, 28 interactions (15 associations déconseillées, 11 précautions d'emploi, 2 contre-indications). Les pages utiles concernent l'amlodipine (Amlodal), le losartan (Cozaar) et le périndopril (Coversyl, périndopril Beker, Perindosyl).
+
+**Requêtes de démonstration**
+| Question | Résultat |
+|---|---|
+| Quelle est la DCI de CARDENSIEL ? | bisoprolol (17 produits pour cette DCI, CARDENSIEL inclus) |
+| Quelle est la DCI de ANTALGEN ? | Aucune : ce nom n'est pas dans la nomenclature, donc aucune DCI n'est proposée |
+| Quels produits partagent la DCI de AMLOR ? | amlodipine : 16 produits, AMLOR inclus (15 autres) |
+| Quelles interactions sont associées au PERINDOPRIL ? | 12 partenaires : 7 précautions d'emploi, 4 associations déconseillées, 1 contre-indication |
 
 ## Documentation
 
@@ -136,6 +173,15 @@ python src/build_kg
 - [Synthèse de la comparaison des tailles de chunks](docs/evaluation/comparaison_tailles_chunks.md)
 - [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 
+### 5. Graphe de connaissances
+
+- [Semaine 3 — Ontologie minimale](docs/ontologie.md)
+- [Semaine 3 — Statistiques du graphe](data/kg/kg_stats.md)
+- [Semaine 3 — Évaluation du graphe](docs/evaluation/kg_evaluation.md)
+- [Semaine 3 — Résultats : DCI d'un nom commercial](docs/evaluation/kg_resultats_dci.csv)
+- [Semaine 3 — Résultats : produits équivalents](docs/evaluation/kg_resultats_equivalents.csv)
+- [Semaine 3 — Résultats : interactions](docs/evaluation/kg_resultats_interactions.csv)
+- [Semaine 3 — Prompt d'extraction (prévu pour la suite)](docs/prompts/prompt_extraction_graphe.md)
 ## Équipe
 - Lyna Anfel BELKHAIRI
 - Ibtihal BOUFENNARA

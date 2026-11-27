@@ -29,8 +29,8 @@
 
 ## 2. Tests de nomenclature
 - Resultats DCI : 2
-- Produits equivalents : 33
-- Interactions trouvees : 5
+- Produits equivalents (lignes, produit interroge inclus) : 33
+- Interactions trouvees (PERINDOPRIL, tous niveaux) : 12
 
 ## 3. Questions testees
 - Quelle est la DCI de CARDENSIEL ?
@@ -42,6 +42,6 @@
 - kg_resultats_dci.csv
 - kg_resultats_equivalents.csv
 - kg_resultats_interactions.csv
-- knowledge_graph.graphml : non disponible
+- knowledge_graph.graphml : copie disponible
 
 Les resultats dependent des informations presentes dans le Knowledge Graph.
