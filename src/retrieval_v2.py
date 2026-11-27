@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
 from normalize_names import normalize_query, _load_dict
+from fr_en_medical import expand_query_bilingual
 
 # ── Config ────────────────────────────────────────────────────────────────────
 CHUNKS_ENRICHED = ROOT / "data" / "processed" / "chunks_enriched.jsonl"
@@ -276,8 +277,12 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
     norm_result = extract_dci_from_text(query, dci_dict)
     dci_norm    = norm_result.get("dci_normalized") if norm_result["found"] else None
 
+    # ── 1b. Bilingual expansion: add English equivalents of French terms
+    #        so BM25 can match English RCP/Notice documents too
+    bilingual_query = expand_query_bilingual(query)
+
     # Expand query with DCI name if brand was typed
-    expanded = _expand_query(query, norm_result)
+    expanded = _expand_query(bilingual_query, norm_result)
 
     # ── 2. BM25 ──────────────────────────────────────────────────────────────
     bm25_results = []
