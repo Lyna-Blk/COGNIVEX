@@ -1,6 +1,6 @@
 # Semaine 3 — Comparaison BM25 : avant/après normalisation
 
-**Date :** 2026-11-27 16:31  
+**Date :** 2026-11-27 17:34  
 
 **Chunks originaux (Semaine 2) :** 1460 chunks  
 **Chunks enrichis (Semaine 3) :** 1460 chunks (+ `dci_normalized`, `atc`, `classe`)
@@ -84,8 +84,8 @@
 | **OLD** | 2 | DICLOFENAC | 48.041 | RCP | 8 |
 | **OLD** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 47.721 | RCP | 5 |
 | **NEW** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 48.9955 |  | 6 |
-| **NEW** | 2 | DICLOFENAC | 48.2694 |  | 8 |
-| **NEW** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 47.6865 |  | 5 |
+| **NEW** | 2 | DICLOFENAC | 48.9588 |  | 10 |
+| **NEW** | 3 | DICLOFENAC | 48.629 |  | 4 |
 
 **Observation :** Same top DCI. Normalization confirms the result.
 
@@ -121,11 +121,11 @@
 | **OLD** | 1 | PIROXICAM | 46.814 | RCP | 12 |
 | **OLD** | 2 | COTRIMOXAZOLE | 45.839 | Notice | 2 |
 | **OLD** | 3 | INDAPAMIDE | 45.393 | RCP | 7 |
-| **NEW** | 1 | PIROXICAM | 46.8285 |  | 12 |
-| **NEW** | 2 | COTRIMOXAZOLE | 45.8092 |  | 2 |
-| **NEW** | 3 | INDAPAMIDE | 45.3975 |  | 7 |
+| **NEW** | 1 | DICLOFENAC | 50.6175 |  | 3 |
+| **NEW** | 2 | CÉFUROXIME | 49.2998 |  | 2 |
+| **NEW** | 3 | AMLODIPINE | 48.4319 |  | 2 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** Different top DCI: OLD=PIROXICAM → NEW=DICLOFENAC (normalization redirected the query).
 
 
 ### Q6 — 6. Question piège — Dépassement de la dose maximale
@@ -140,9 +140,9 @@
 | **OLD** | 1 | PARACÉTAMOL + CODÉINE | 68.85 | RCP | 3 |
 | **OLD** | 2 | PARACÉTAMOL + CODÉINE | 63.22 | RCP | 2 |
 | **OLD** | 3 | PARACÉTAMOL + CODÉINE | 49.606 | RCP | 4 |
-| **NEW** | 1 | PARACÉTAMOL + CODÉINE | 68.9207 |  | 3 |
-| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 63.6176 |  | 2 |
-| **NEW** | 3 | PARACÉTAMOL + CODÉINE | 49.8365 |  | 4 |
+| **NEW** | 1 | PARACÉTAMOL + CODÉINE | 72.7843 |  | 3 |
+| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 67.1049 |  | 2 |
+| **NEW** | 3 | PARACETAMOL | 54.9814 |  | 2 |
 
 **Observation :** Same top DCI. Normalization confirms the result.
 
@@ -152,16 +152,16 @@
 > Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ?
 
 **Normalisation :** `paracétamol` | ATC: `N02BE01` | méthode: `FUZZY` | score: `0.955`  
-**Requête étendue :** `Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ? pa`
+**Requête étendue :** `Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ? do`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
 |---|---|---|---|---|---|
 | **OLD** | 1 | TRAMADOL | 26.089 | Notice | 9 |
 | **OLD** | 2 | PARACETAMOL | 24.916 | Notice | 1 |
 | **OLD** | 3 | TRAMADOL | 23.649 | Notice | 5 |
-| **NEW** | 1 | PARACETAMOL | 29.1015 |  | 1 |
-| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 26.7434 |  | 6 |
-| **NEW** | 3 | PARACÉTAMOL + CODÉINE | 26.6424 |  | 9 |
+| **NEW** | 1 | PARACETAMOL | 30.1346 |  | 1 |
+| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 28.1233 |  | 8 |
+| **NEW** | 3 | PARACÉTAMOL + CODÉINE | 27.7048 |  | 6 |
 
 **Observation :** Different top DCI: OLD=TRAMADOL → NEW=PARACETAMOL (normalization redirected the query).
 
@@ -178,9 +178,9 @@
 | **OLD** | 1 | CÉLÉCOXIB | 56.819 | Notice | 2 |
 | **OLD** | 2 | METRONIDAZOLE | 50.392 | Notice | 2 |
 | **OLD** | 3 | DOXYCYCLINE | 48.767 | Notice | 2 |
-| **NEW** | 1 | CÉLÉCOXIB | 56.834 |  | 2 |
-| **NEW** | 2 | METRONIDAZOLE | 50.4169 |  | 2 |
-| **NEW** | 3 | DOXYCYCLINE | 48.7903 |  | 2 |
+| **NEW** | 1 | CÉLÉCOXIB | 59.8256 |  | 2 |
+| **NEW** | 2 | DICLOFENAC | 51.3532 |  | 6 |
+| **NEW** | 3 | METRONIDAZOLE | 50.4169 |  | 2 |
 
 **Observation :** Same top DCI. Normalization confirms the result.
 
