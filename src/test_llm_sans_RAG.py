@@ -2,16 +2,8 @@ import os
 import json
 import time
 import requests
-from dotenv import load_dotenv
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-load_dotenv(ROOT / ".env")
-
-cle = os.getenv("GROQ_API_KEY")
-
-if not cle:
-    raise ValueError("GROQ_API_KEY not found in the project's .env file.")
+cle = os.environ["GROQ_API_KEY"]
 
 cache_file = "data/processed/llm_sans_RAG_cache.json"
 reponses_file = "docs/evaluation/reponses_sans_RAG.md"

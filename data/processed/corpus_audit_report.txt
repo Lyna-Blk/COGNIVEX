@@ -2,20 +2,20 @@
 ========================================================================
   COGNIVEX CORPUS RAG AUDIT REPORT
 ========================================================================
-    Generated : 2026-11-20T19:17:48.520379+00:00
-    Corpus    : C:/Users/LENOVO/Downloads/COGNIVEX-GIT/data/corpus
+    Generated : 2026-11-19T20:31:52.519576+00:00
+    Corpus    : C:/Users/Administrator/COGNIVEX/data/corpus
 
 
 ------------------------------------------------------------------------
   SUMMARY
 ------------------------------------------------------------------------
-    Total files scanned       : 144
-    Total PDFs analysed       : 119
+    Total files scanned       : 142
+    Total PDFs analysed       : 117
 
-    [READY]  Valid for RAG ingestion  : 84
-    [OCR]    Need OCR processing      : 35
+    [READY]  Valid for RAG ingestion  : 69
+    [OCR]    Need OCR processing      : 48
     [ERROR]  Empty / Corrupt PDFs     : 0
-    [NOISE]  Have header/footer noise : 51
+    [NOISE]  Have header/footer noise : 50
     [IMAGE]  Non-PDF files (PNG/CSV)  : 25
     [DUPE]   Duplicate file groups    : 0
 
@@ -35,18 +35,8 @@
     [OK]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
     [OK]  aténolol/aténolol_Notice_ANSM.pdf
     [OK]  aténolol/aténolol_RCP_ANSM.pdf
-    [OK]  azithromycine/azithromycine_Notice_EMC.pdf
-    [OK]  azithromycine/azithromycine_RCP_EMC.pdf
     [OK]  bisoprolol/bisoprolol_Notice_ANSM.pdf
     [OK]  bisoprolol/bisoprolol_RCP_ANPP.pdf
-    [OK]  ceftriaxone/ceftriaxone_Notice_ANSM.pdf
-    [OK]  ceftriaxone/ceftriaxone_RCP_ANSM.pdf
-    [OK]  ciprofloxacine/ciprofloxacine_Notice_EMC.pdf
-    [OK]  ciprofloxacine/ciprofloxacine_RCP_EMC.pdf
-    [OK]  clarithromycine/clarithromycine_Notice_EMC.pdf
-    [OK]  clarithromycine/clarithromycine_RCP_EMC.pdf
-    [OK]  cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf
-    [OK]  cotrimoxazole/cotrimoxazole_RCP_ANSM.pdf
     [OK]  céfixime/Article__CEFIXIME.pdf
     [OK]  céfixime/Notice_CEFIXIME_ALMUS_200_mg.pdf
     [OK]  céfixime/RCP_CEFIXIME_ALMUS_200_mg.pdf
@@ -62,8 +52,6 @@
     [OK]  diclofenac/biofenac/RCP_BIOFENAC_50mg.pdf
     [OK]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-FAST_50mg.pdf
     [OK]  diclofenac/documents_complementaires_non_reference/RCP_BIOFENAC-LP_75mg.pdf
-    [OK]  doxycycline/doxycycline_Notice_ANSM.pdf
-    [OK]  doxycycline/doxycycline_RCP_ANSM.pdf
     [OK]  ibuprofene/gelfen/Notice_IBUPROFENE_ARROW_5%_ANSM.pdf
     [OK]  ibuprofene/gelfen/RCP_GELFEN_5%.pdf
     [OK]  indapamide/indapamide_Notice_ANSM.pdf
@@ -71,12 +59,9 @@
     [OK]  ketoprofene/documents_complementaires_non_reference/notice_profenid.pdf
     [OK]  ketoprofene/koprofen/Notice_KETOPROFENE_BIOGARAN_2.5_gel_ANSM_.pdf
     [OK]  ketoprofene/koprofen/RCP_KOPROFEN_2.5%.pdf
-    [OK]  lévofloxacine/levofloxacine_Notice_EMC.pdf
-    [OK]  lévofloxacine/levofloxacine_RCP_EMC.pdf
+    [OK]  losartan/LOSartan anpp.pdf
     [OK]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
     [OK]  meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf
-    [OK]  metronidazole/metronidazole_Notice_ANSM.pdf
-    [OK]  metronidazole/metronidazole_RCP_ANSM.pdf
     [OK]  méthyldopa/méthyldopa_Notice_ANSM.pdf
     [OK]  méthyldopa/méthyldopa_RCP_ANSM.pdf
     [OK]  naproxene/Naproxene_sodique_275_550mg_DailyMed_USA.pdf
@@ -146,6 +131,14 @@
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  clindamycine/source_ansm-rcp.pdf
            => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/dwa--dz.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/info-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/notice-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  enalapril/rcp-enalapril.pdf
+           => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/daily med genta.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/genta_80/source_ansm_ autre medicament mem dci_dwadz.pdf
@@ -166,6 +159,16 @@
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  gentamicine/s_genta/source_interaction_s genta.pdf
            => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/cozzar/cozaar interaction.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/dailymed-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/info-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/notice-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  losartan/rcp-losartan.pdf
+           => Only 0 chars extracted - likely scanned image PDF
     [OCR]  nifedipine/dailymed-nifedipine.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  perindopril/coversyl/source interaction.pdf
@@ -179,6 +182,14 @@
     [OCR]  perindopril/perindopril/source rcp. prindoprile.pdf
            => Only 0 chars extracted - likely scanned image PDF
     [OCR]  perindopril/perindosyl/iteraction-source.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/info.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/notice-ramplir.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/ramplir-dailymed.pdf
+           => Only 0 chars extracted - likely scanned image PDF
+    [OCR]  ramipril/rcpramplir.pdf
            => Only 0 chars extracted - likely scanned image PDF
 
 ------------------------------------------------------------------------
@@ -229,10 +240,6 @@ Base de Données Publique des Médicaments" (x13)
     [NOISE]  amoxicilline + acide clavulanique/AMOXICILLINEACIDE CLAVULANIQUE SANDOZ 1 g200 mg/RCP_AMOXICILLINEACIDE_CLAVULANIQUE_SANDOZ 1 g200 mg.pdf
              Repeated block: "11/18/26, 7:10 PM
 Base de Données Publique des Médicaments" (x23)
-    [NOISE]  cotrimoxazole/cotrimoxazole_Notice_ANSM.pdf
-             Repeated block: "Sans objet." (x6)
-             Repeated block: "11/18/26, 7:38 PM
-Notice patient - BACTRIM FORTE, comprimé sécable - Base de don" (x5)
     [NOISE]  céfixime/Article__CEFIXIME.pdf
              Repeated block: "Google Scholar
 Crossref
@@ -303,15 +310,17 @@ Base de Données Publique des Médicaments" (x8)
 RESUME DES CARACTERISTIQUES DU PRODUIT" (x6)
              Repeated block: "Email : contact@ldmgroupe.com" (x6)
              Repeated block: "CONSTANTINE :  Oued Hamimime – 25100 El Khroub – Tél.: 031 95 53 03 &  95 53 04 " (x6)
+    [NOISE]  losartan/LOSartan anpp.pdf
+             Repeated block: "ANNEXE I 
+    RESUME DES CARACTERISTIQUES DU PRODUIT" (x23)
+             Repeated block: "Email : contact@ldmgroupe.com" (x23)
+             Repeated block: "CONSTANTINE :  Z.I Oued Hamimime – 25100 El Khroub – Tél. : 030 30 73 63 & 030 3" (x23)
     [NOISE]  meloxicam/Notice_MELOXICAM_BIOGARAN_7.5mg_France.pdf
              Repeated block: "17/11/2026 02:00
 Base de Données Publique des Médicaments" (x17)
     [NOISE]  meloxicam/RCP_MELOXICAM_BIOGARAN_7.5mg_France.pdf
              Repeated block: "17/11/2026 02:00
 Base de Données Publique des Médicaments" (x20)
-    [NOISE]  metronidazole/metronidazole_Notice_ANSM.pdf
-             Repeated block: "11/18/26, 7:47 PM
-Notice patient - FLAGYL 500 mg, comprimé pelliculé - Base de d" (x5)
     [NOISE]  méthyldopa/méthyldopa_Notice_ANSM.pdf
              Repeated block: "Sans objet." (x5)
     [NOISE]  nébivolol/nébivolol_RCP_ANSM.pdf
