@@ -1,6 +1,6 @@
 # Semaine 3 — Comparaison BM25 : avant/après normalisation
 
-**Date :** 2026-11-27 17:34  
+**Date :** 2026-11-27 17:43  
 
 **Chunks originaux (Semaine 2) :** 1460 chunks  
 **Chunks enrichis (Semaine 3) :** 1460 chunks (+ `dci_normalized`, `atc`, `classe`)
@@ -45,11 +45,14 @@
 | **OLD** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 45.735 | RCP | 20 |
 | **OLD** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 44.889 | RCP | 18 |
 | **OLD** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 41.903 | RCP | 19 |
-| **NEW** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 46.0059 |  | 20 |
-| **NEW** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 45.1555 |  | 18 |
-| **NEW** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 42.3227 |  | 19 |
+| **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 46.0059 |  | 20 |
+| **BM25** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 45.1555 |  | 18 |
+| **BM25** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 42.3227 |  | 19 |
+| **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 20 |
+| **HYBRID** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 | Notice | 12 |
+| **HYBRID** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016129 |  | 18 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Normalization confirms the result.
 
 
 ### Q2 — 2. Niveau 1 — Direct (Identification d’une DCI)
@@ -64,11 +67,14 @@
 | **OLD** | 1 | AMLODIPINE | 29.841 | RCP | 1 |
 | **OLD** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.13 | RCP | 1 |
 | **OLD** | 3 | PIROXICAM | 27.996 | RCP | 1 |
-| **NEW** | 1 | AMLODIPINE | 29.8364 |  | 1 |
-| **NEW** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.0575 |  | 1 |
-| **NEW** | 3 | PIROXICAM | 27.9823 |  | 1 |
+| **BM25** | 1 | AMLODIPINE | 29.8364 |  | 1 |
+| **BM25** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.0575 |  | 1 |
+| **BM25** | 3 | PIROXICAM | 27.9823 |  | 1 |
+| **HYBRID** | 1 | AMLODIPINE | 0.016393 |  | 1 |
+| **HYBRID** | 2 | BISOPROLOL | 0.016393 | Notice | 2 |
+| **HYBRID** | 3 | ACIDE-ACETYLSALICYLIQUE | 0.016129 |  | 1 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **AMLODIPINE**. Normalization confirms the result.
 
 
 ### Q3 — 3. Niveau 2 — Croisement de références (Association et niveau d’interaction)
@@ -83,11 +89,14 @@
 | **OLD** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 49.028 | RCP | 6 |
 | **OLD** | 2 | DICLOFENAC | 48.041 | RCP | 8 |
 | **OLD** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 47.721 | RCP | 5 |
-| **NEW** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 48.9955 |  | 6 |
-| **NEW** | 2 | DICLOFENAC | 48.9588 |  | 10 |
-| **NEW** | 3 | DICLOFENAC | 48.629 |  | 4 |
+| **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 48.9955 |  | 6 |
+| **BM25** | 2 | DICLOFENAC | 48.9588 |  | 10 |
+| **BM25** | 3 | DICLOFENAC | 48.629 |  | 4 |
+| **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 6 |
+| **HYBRID** | 2 | RAMIPRIL | 0.016393 | RCP | OCR — pagination non précisée |
+| **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 10 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Normalization confirms the result.
 
 
 ### Q4 — 4. Niveau 2 — Produits enregistrés contenant la même DCI
@@ -102,11 +111,14 @@
 | **OLD** | 1 | AMLODIPINE | 56.633 | Autre document PDF | OCR — pagination non précisée |
 | **OLD** | 2 | AMLODIPINE | 48.281 | Autre document PDF | OCR — pagination non précisée |
 | **OLD** | 3 | PERINDOPRIL | 47.865 | Autre document PDF | OCR — pagination non précisée |
-| **NEW** | 1 | AMLODIPINE | 62.7215 |  | OCR — pagination non précisée |
-| **NEW** | 2 | AMLODIPINE | 54.3494 |  | OCR — pagination non précisée |
-| **NEW** | 3 | AMLODIPINE | 52.3194 |  | OCR — pagination non précisée |
+| **BM25** | 1 | AMLODIPINE | 62.7215 |  | OCR — pagination non précisée |
+| **BM25** | 2 | AMLODIPINE | 54.3494 |  | OCR — pagination non précisée |
+| **BM25** | 3 | AMLODIPINE | 52.3194 |  | OCR — pagination non précisée |
+| **HYBRID** | 1 | AMLODIPINE | 0.032787 |  | OCR — pagination non précisée |
+| **HYBRID** | 2 | AMLODIPINE | 0.016129 |  | OCR — pagination non précisée |
+| **HYBRID** | 3 | AMLODIPINE | 0.016129 | RCP | 12 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **AMLODIPINE**. Normalization confirms the result.
 
 
 ### Q5 — 5. Niveau 3 — Contexte (Précautions pour un profil particulier de patient)
@@ -121,11 +133,14 @@
 | **OLD** | 1 | PIROXICAM | 46.814 | RCP | 12 |
 | **OLD** | 2 | COTRIMOXAZOLE | 45.839 | Notice | 2 |
 | **OLD** | 3 | INDAPAMIDE | 45.393 | RCP | 7 |
-| **NEW** | 1 | DICLOFENAC | 50.6175 |  | 3 |
-| **NEW** | 2 | CÉFUROXIME | 49.2998 |  | 2 |
-| **NEW** | 3 | AMLODIPINE | 48.4319 |  | 2 |
+| **BM25** | 1 | DICLOFENAC | 50.6175 |  | 3 |
+| **BM25** | 2 | CÉFUROXIME | 49.2998 |  | 2 |
+| **BM25** | 3 | AMLODIPINE | 48.4319 |  | 2 |
+| **HYBRID** | 1 | DICLOFENAC | 0.016393 |  | 3 |
+| **HYBRID** | 2 | CÉFIXIME | 0.016393 | Autre document PDF | 78 |
+| **HYBRID** | 3 | CÉFUROXIME | 0.016129 |  | 2 |
 
-**Observation :** Different top DCI: OLD=PIROXICAM → NEW=DICLOFENAC (normalization redirected the query).
+**Observation :** OLD=PIROXICAM → BM25=DICLOFENAC → HYBRID=DICLOFENAC. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q6 — 6. Question piège — Dépassement de la dose maximale
@@ -140,11 +155,14 @@
 | **OLD** | 1 | PARACÉTAMOL + CODÉINE | 68.85 | RCP | 3 |
 | **OLD** | 2 | PARACÉTAMOL + CODÉINE | 63.22 | RCP | 2 |
 | **OLD** | 3 | PARACÉTAMOL + CODÉINE | 49.606 | RCP | 4 |
-| **NEW** | 1 | PARACÉTAMOL + CODÉINE | 72.7843 |  | 3 |
-| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 67.1049 |  | 2 |
-| **NEW** | 3 | PARACETAMOL | 54.9814 |  | 2 |
+| **BM25** | 1 | PARACÉTAMOL + CODÉINE | 72.7843 |  | 3 |
+| **BM25** | 2 | PARACÉTAMOL + CODÉINE | 67.1049 |  | 2 |
+| **BM25** | 3 | PARACETAMOL | 54.9814 |  | 2 |
+| **HYBRID** | 1 | PARACÉTAMOL + CODÉINE | 0.032522 |  | 2 |
+| **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 |  | 3 |
+| **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 | RCP | 3 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **PARACÉTAMOL + CODÉINE**. Normalization confirms the result.
 
 
 ### Q7 — 7. Question piège — Médicaments aux noms très similaires / risque de confusion LASA
@@ -159,11 +177,14 @@
 | **OLD** | 1 | TRAMADOL | 26.089 | Notice | 9 |
 | **OLD** | 2 | PARACETAMOL | 24.916 | Notice | 1 |
 | **OLD** | 3 | TRAMADOL | 23.649 | Notice | 5 |
-| **NEW** | 1 | PARACETAMOL | 30.1346 |  | 1 |
-| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 28.1233 |  | 8 |
-| **NEW** | 3 | PARACÉTAMOL + CODÉINE | 27.7048 |  | 6 |
+| **BM25** | 1 | PARACETAMOL | 30.1346 |  | 1 |
+| **BM25** | 2 | PARACÉTAMOL + CODÉINE | 28.1233 |  | 8 |
+| **BM25** | 3 | PARACÉTAMOL + CODÉINE | 27.7048 |  | 6 |
+| **HYBRID** | 1 | PARACETAMOL | 0.016393 |  | 1 |
+| **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 | RCP | 2 |
+| **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 |  | 8 |
 
-**Observation :** Different top DCI: OLD=TRAMADOL → NEW=PARACETAMOL (normalization redirected the query).
+**Observation :** OLD=TRAMADOL → BM25=PARACETAMOL → HYBRID=PARACETAMOL. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q8 — 8. Hors périmètre — (Demande de diagnostic ou de prescription médicale)
@@ -178,23 +199,26 @@
 | **OLD** | 1 | CÉLÉCOXIB | 56.819 | Notice | 2 |
 | **OLD** | 2 | METRONIDAZOLE | 50.392 | Notice | 2 |
 | **OLD** | 3 | DOXYCYCLINE | 48.767 | Notice | 2 |
-| **NEW** | 1 | CÉLÉCOXIB | 59.8256 |  | 2 |
-| **NEW** | 2 | DICLOFENAC | 51.3532 |  | 6 |
-| **NEW** | 3 | METRONIDAZOLE | 50.4169 |  | 2 |
+| **BM25** | 1 | CÉLÉCOXIB | 59.8256 |  | 2 |
+| **BM25** | 2 | DICLOFENAC | 51.3532 |  | 6 |
+| **BM25** | 3 | METRONIDAZOLE | 50.4169 |  | 2 |
+| **HYBRID** | 1 | CÉLÉCOXIB | 0.016393 |  | 2 |
+| **HYBRID** | 2 | INDAPAMIDE | 0.016393 | Notice | 6 |
+| **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 6 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** All methods agree: **CÉLÉCOXIB**. Normalization confirms the result.
 
 
 ---
 
 ## Conclusion
 
-| Metric | Week 2 (original) | Week 3 (normalized) |
-|---|---|---|
-| Chunks in index | 1460 | 1460 |
-| Metadata fields | dci, brand, doc_type, page | + dci_normalized, atc, classe, noms_commerciaux |
-| Query normalization | ✗ None | ✓ Exact → Alias → Fuzzy (rapidfuzz) |
-| DCI filter on search | ✗ None | ✓ Filter by dci_normalized |
-| Query expansion | ✗ None | ✓ Brand name → DCI added to query |
-| Normalization accuracy | — | **40/40 (100%)** |
-| Knowledge graph | ✗ None | ✓ 757 nodes, 4 210 edges |
+| Metric | Week 2 (original) | Week 3 BM25 | Week 3 HYBRID |
+|---|---|---|---|
+| Chunks in index | 1460 | 1460 | 1460 |
+| Metadata fields | dci, brand, doc_type, page | + dci_normalized, atc, classe | + dci_normalized, atc, classe |
+| Query normalization | ✗ None | ✓ Exact → Alias → Fuzzy | ✓ Exact → Alias → Fuzzy |
+| Bilingual FR+EN expansion | ✗ None | ✓ fr_en_medical dict | ✓ fr_en_medical dict |
+| Search method | BM25 only | BM25 + normalization | BM25 + Semantic (RRF fusion) |
+| Normalization accuracy | — | **40/40 (100%)** | **40/40 (100%)** |
+| Knowledge graph | ✗ None | ✓ 757 nodes, 4 210 edges | ✓ 757 nodes, 4 210 edges |

@@ -251,6 +251,44 @@ def search_semantic(query: str, top_k: int = 5, dci_filter: str = None) -> list:
     return hits
 
 
+def merge_results_rrf(bm25_results: list, sem_results: list, top_k: int = 5, k: int = 60) -> list:
+    """
+    Reciprocal Rank Fusion (RRF) — merges BM25 and Semantic ranked lists
+    into one unified ranking.
+
+    Formula: RRF_score(doc) = 1/(k + rank_bm25) + 1/(k + rank_semantic)
+    k=60 is the standard constant that reduces the impact of very high ranks.
+
+    Why RRF?
+    - BM25 scores and semantic scores use different scales (can't just add them)
+    - RRF uses only the RANK position, not the raw score → scale-independent
+    - A document ranked #1 in both lists scores highest
+    """
+    scores = {}   # chunk_id → rrf_score
+    docs   = {}   # chunk_id → chunk dict
+
+    # Build a unique key for each chunk (use text hash as id)
+    def chunk_id(c):
+        return c.get("dci", "") + "|" + str(c.get("page", "")) + "|" + c.get("text", "")[:60]
+
+    for rank, chunk in enumerate(bm25_results, start=1):
+        cid = chunk_id(chunk)
+        scores[cid] = scores.get(cid, 0) + 1.0 / (k + rank)
+        docs[cid] = {**chunk, "method": "HYBRID"}
+
+    for rank, chunk in enumerate(sem_results, start=1):
+        cid = chunk_id(chunk)
+        scores[cid] = scores.get(cid, 0) + 1.0 / (k + rank)
+        if cid not in docs:
+            docs[cid] = {**chunk, "method": "HYBRID"}
+
+    ranked = sorted(scores.items(), key=lambda x: -x[1])
+    return [
+        {**docs[cid], "score_rrf": round(score, 6)}
+        for cid, score in ranked[:top_k]
+    ]
+
+
 def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
     """
     Main search function with normalization.
@@ -294,12 +332,15 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
     if method in ("semantic", "hybrid"):
         sem_results = search_semantic(expanded, top_k=top_k, dci_filter=dci_norm)
 
+    hybrid_results = merge_results_rrf(bm25_results, sem_results, top_k=top_k)
+
     return {
         "query_original":   query,
         "query_expanded":   expanded,
         "normalization":    norm_result,
         "results_bm25":     bm25_results,
         "results_semantic": sem_results,
+        "results_hybrid":   hybrid_results,
     }
 
 

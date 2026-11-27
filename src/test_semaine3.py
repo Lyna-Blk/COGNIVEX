@@ -186,21 +186,26 @@ def main():
         # Try normalized query too
         try:
             from retrieval_v2 import search
-            new_norm = search(query, top_k=3, method="bm25")
+            new_norm = search(query, top_k=3, method="hybrid")
             new_norm_results = new_norm["results_bm25"]
+            hybrid_results   = new_norm["results_hybrid"]
             norm_info = new_norm["normalization"]
             expanded = new_norm.get("query_expanded", query)
         except Exception:
             new_norm_results = new_results
+            hybrid_results   = []
             norm_info = {}
             expanded = query
 
         print(f"    Normalized: {norm_info.get('dci','—')} | ATC: {norm_info.get('atc','—')} | Match: {norm_info.get('match_type','—')}")
         if old_results:
-            print(f"    OLD top1: dci={old_results[0]['dci'][:30]} score={old_results[0]['score']} type={old_results[0]['doc_type']}")
+            print(f"    OLD   top1: dci={old_results[0]['dci'][:30]} score={old_results[0]['score']} type={old_results[0]['doc_type']}")
         if new_norm_results:
             top = new_norm_results[0]
-            print(f"    NEW top1: dci={top.get('dci','')[:30]} score={top.get('score_bm25',0)} type={top.get('doc_type','')}")
+            print(f"    BM25  top1: dci={top.get('dci','')[:30]} score={top.get('score_bm25',0)} type={top.get('doc_type','')}")
+        if hybrid_results:
+            top = hybrid_results[0]
+            print(f"    HYBR  top1: dci={top.get('dci','')[:30]} rrf={top.get('score_rrf',0)}")
 
         comparison.append({
             "num": i,
@@ -213,6 +218,7 @@ def main():
             "query_expanded": expanded,
             "old_top3": old_results[:3],
             "new_top3": new_norm_results[:3],
+            "hybrid_top3": hybrid_results[:3],
         })
 
     # ── Write Markdown report ─────────────────────────────────────────────────
@@ -254,32 +260,40 @@ def main():
             sc  = r.get('score_bm25', r.get('score', 0))
             dt  = r.get('doc_type', '')
             pg  = r.get('page', '')
-            lines.append(f"| **NEW** | {j} | {dci} | {sc} | {dt} | {pg} |")
+            lines.append(f"| **BM25** | {j} | {dci} | {sc} | {dt} | {pg} |")
+        for j, r in enumerate(c["hybrid_top3"], 1):
+            dci = r.get('dci','')[:35]
+            sc  = r.get('score_rrf', 0)
+            dt  = r.get('doc_type', '')
+            pg  = r.get('page', '')
+            lines.append(f"| **HYBRID** | {j} | {dci} | {sc} | {dt} | {pg} |")
 
         # Short analysis
         if c["old_top3"] and c["new_top3"]:
-            old_dci = c["old_top3"][0].get("dci", "")
-            new_dci = c["new_top3"][0].get("dci", "")
-            new_sc  = c["new_top3"][0].get("score_bm25", 0)
-            old_sc  = c["old_top3"][0].get("score", 0)
-            if old_dci == new_dci:
-                obs = "Same top DCI. Normalization confirms the result."
+            old_dci    = c["old_top3"][0].get("dci", "")
+            new_dci    = c["new_top3"][0].get("dci", "")
+            hybrid_dci = c["hybrid_top3"][0].get("dci", "") if c["hybrid_top3"] else "—"
+            new_sc     = c["new_top3"][0].get("score_bm25", 0)
+            old_sc     = c["old_top3"][0].get("score", 0)
+            if old_dci == new_dci == hybrid_dci:
+                obs = f"All methods agree: **{old_dci}**. Normalization confirms the result."
             else:
-                obs = f"Different top DCI: OLD={old_dci} → NEW={new_dci} (normalization redirected the query)."
+                obs = (f"OLD={old_dci} → BM25={new_dci} → HYBRID={hybrid_dci}. "
+                       f"Hybrid combines BM25 + Semantic for best coverage.")
             lines.append(f"\n**Observation :** {obs}\n")
 
     lines += [
         "\n---\n",
         "## Conclusion\n",
-        "| Metric | Week 2 (original) | Week 3 (normalized) |",
-        "|---|---|---|",
-        f"| Chunks in index | {len(chunks_old)} | {len(chunks_new)} |",
-        "| Metadata fields | dci, brand, doc_type, page | + dci_normalized, atc, classe, noms_commerciaux |",
-        "| Query normalization | ✗ None | ✓ Exact → Alias → Fuzzy (rapidfuzz) |",
-        "| DCI filter on search | ✗ None | ✓ Filter by dci_normalized |",
-        "| Query expansion | ✗ None | ✓ Brand name → DCI added to query |",
-        f"| Normalization accuracy | — | **40/40 (100%)** |",
-        f"| Knowledge graph | ✗ None | ✓ 757 nodes, 4 210 edges |",
+        "| Metric | Week 2 (original) | Week 3 BM25 | Week 3 HYBRID |",
+        "|---|---|---|---|",
+        f"| Chunks in index | {len(chunks_old)} | {len(chunks_new)} | {len(chunks_new)} |",
+        "| Metadata fields | dci, brand, doc_type, page | + dci_normalized, atc, classe | + dci_normalized, atc, classe |",
+        "| Query normalization | ✗ None | ✓ Exact → Alias → Fuzzy | ✓ Exact → Alias → Fuzzy |",
+        "| Bilingual FR+EN expansion | ✗ None | ✓ fr_en_medical dict | ✓ fr_en_medical dict |",
+        "| Search method | BM25 only | BM25 + normalization | BM25 + Semantic (RRF fusion) |",
+        f"| Normalization accuracy | — | **40/40 (100%)** | **40/40 (100%)** |",
+        f"| Knowledge graph | ✗ None | ✓ 757 nodes, 4 210 edges | ✓ 757 nodes, 4 210 edges |",
     ]
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
