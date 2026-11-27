@@ -65,6 +65,7 @@ python -m pip install -r requirements.txt
 |---|---|---|
 | Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
 | Semaine 2 | Découpage en chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique | Terminée |
+| Semaine 3 | Normalisation des noms (DCI ↔ noms commerciaux ↔ variantes) ; graphe de connaissances | Terminée |
 
 ### Semaine 1 — Préparation du corpus
 
@@ -125,6 +126,69 @@ python src/compare_search.py --bm25-only  # mots-clés seulement
 - [Comparaison BM25 et recherche sémantique — expérience 3 (500/75)](docs/evaluation/comparaison_recherche_exp3.md)
 - [Synthèse de la comparaison des tailles de chunks](docs/evaluation/comparaison_tailles_chunks.md)
 - [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
+
+### 5. Normalisation (Semaine 3)
+
+- [Tableau d'évaluation — 40 noms testés (100 %, 40/40)](data/evaluation/normalisation_eval.csv)
+
+| Étape | Script | Rôle |
+|---|---|---|
+| 1. Dictionnaire DCI | `src/build_dci_dict.py` | Lit l'Excel et construit `dci_dict.json` : 40 DCI, noms commerciaux, ATC, formes, dosages. |
+| 2. Normaliseur | `src/normalize_names.py` | Résout un nom (DCI, commercial, variante, faute) vers la DCI canonique. Exact → alias manuel → fuzzy (rapidfuzz). |
+
+```bash
+python src/build_dci_dict.py               # génère data/knowledge_graph/dci_dict.json
+python src/normalize_names.py "dolipranee" # normalise un nom
+python src/normalize_names.py --eval       # tableau 40 noms → data/evaluation/normalisation_eval.csv
+```
+
+#### Résultats de l'évaluation (40 noms)
+
+| Méthode | Cas |
+|---|---|
+| Exact (normalisé) | DCI directes, noms commerciaux présents dans l'Excel |
+| Alias manuel | Noms commerciaux internationaux absents de l'Excel algérien (AUGMENTIN, COAPROVEL, LODOZ…) |
+| Fuzzy (rapidfuzz) | Fautes de frappe, accents manquants, dosages inclus dans la requête |
+
+**Score final : 40/40 (100 %) — 1 cas ambigu correctement signalé**
+
+### 6. Graphe de connaissances (Semaine 3)
+
+- [Graphe JSON — NetworkX node-link](data/knowledge_graph/graph.json)
+- [Graphe GraphML — pour Gephi/Cytoscape](data/knowledge_graph/graph.graphml)
+- [Résumé du graphe](data/knowledge_graph/graph_summary.md)
+
+| Étape | Script | Rôle |
+|---|---|---|
+| 3. Enrichissement chunks | `src/enrich_chunks.py` | Ajoute `dci_normalized`, `atc`, `classe`, `noms_commerciaux` à chaque chunk ; reconstruit ChromaDB (`vectordb_enriched`). |
+| 4. Graphe de connaissances | `src/build_knowledge_graph.py` | Construit le graphe NetworkX (757 nœuds, 4 210 arêtes) depuis `dci_dict.json`. |
+| 5. Recherche avec normalisation | `src/retrieval_v2.py` | Normalise la requête → DCI canonique → filtre BM25/ChromaDB par DCI. |
+
+```bash
+python src/enrich_chunks.py                                # enrichit chunks + reconstruit ChromaDB
+python src/build_knowledge_graph.py                        # construit graph.json + graph.graphml
+python src/retrieval_v2.py "DOLIPRANE posologie" --method bm25
+python src/retrieval_v2.py "amoxiciline interaction" --method hybrid
+```
+
+#### Résultats du graphe (Semaine 3)
+
+| Type de nœud | Nombre |
+|---|---|
+| DCI (substances actives) | 40 |
+| Medicament (nom commercial + forme + dosage) | 674 |
+| ClasseTherapeutique | 3 |
+| CodeATC | 40 |
+| **Total nœuds** | **757** |
+
+| Relation | Nombre |
+|---|---|
+| EST_GENERIQUE_DE (Médicament → DCI) | 674 |
+| APPARTIENT_A (DCI → Classe) | 40 |
+| A_CODE_ATC (DCI → ATC) | 40 |
+| MEME_CLASSE_QUE (DCI ↔ DCI) | 496 |
+| EQUIVALENT_A (Médicament ↔ Médicament) | 2 960 |
+| **Total arêtes** | **4 210** |
 
 ## Équipe
 - Lyna Anfel BELKHAIRI
