@@ -11,7 +11,7 @@ from noms_commerciaux import charger_table, etendre_question
 from rag_config import (
     COLLECTION_NAME,
     EMBEDDING_MODEL,
-    EVAL_DIR,
+    EVAL_DIR ,
     EXPERIENCE,
     MAX_WORDS,
     OVERLAP_WORDS,

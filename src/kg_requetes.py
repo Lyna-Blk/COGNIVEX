@@ -10,7 +10,7 @@ from rag_config import ROOT
 from build_kg import cle_dci, sans_espace
 
 KG = ROOT / "data" / "kg"
-EVALUATION = ROOT / "docs" / "evaluation"   # même dossier que les autres rapports
+EVALUATION = ROOT / "docs" / "evaluation" / "semaine 3" # même dossier que les autres rapports
 
 
 def charger():

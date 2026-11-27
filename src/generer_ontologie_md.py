@@ -8,7 +8,7 @@ from rag_config import ROOT
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-SORTIE = ROOT / "docs" / "ontologie.md"
+SORTIE = ROOT / "docs" / "evaluation" / "semaine 3" / "ontologie.md"
 
 
 def effectifs(fichier: str, colonne: str) -> dict:
