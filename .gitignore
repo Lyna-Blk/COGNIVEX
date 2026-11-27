@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+.venv312/
 # Distribution / packaging
 build/
 dist/
