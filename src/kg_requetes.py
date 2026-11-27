@@ -10,7 +10,7 @@ from rag_config import ROOT
 from build_kg import cle_dci, sans_espace
 
 KG = ROOT / "data" / "kg"
-EVALUATION = ROOT / "evaluation"
+EVALUATION = ROOT / "docs" / "evaluation"   # même dossier que les autres rapports
 
 
 def charger():
@@ -165,13 +165,10 @@ def main():
         resultats_dci.extend(dci_de(nom, n, r))
         resultats_equivalents.extend(equivalents(nom, n, r))
 
-    for niveau in (
-        "Contre-indication",
-        "Association déconseillée"
-    ):
-        for resultat in interactions("perindopril", r, niveau):
-            resultat["niveau_recherche"] = niveau
-            resultats_interactions.append(resultat)
+    # toutes les interactions du périndopril, tous niveaux confondus (le niveau est dans la colonne « niveau »)
+    for resultat in interactions("perindopril", r):
+        resultat["niveau_recherche"] = "tous niveaux"
+        resultats_interactions.append(resultat)
 
     
     nb_dci = sauvegarder_csv(
@@ -192,7 +189,7 @@ def main():
         ["sujet", "objet", "niveau", "document", "niveau_recherche"]
     )
 
-    graphml = KG / "graphe.graphml"
+    graphml = KG / "kg.graphml"   # nom écrit par build_kg.py
     graph_copie = False
 
     if graphml.exists():
@@ -234,8 +231,8 @@ def main():
         "",
         "## 2. Tests de nomenclature",
         f"- Resultats DCI : {nb_dci}",
-        f"- Produits equivalents : {nb_equiv}",
-        f"- Interactions trouvees : {nb_inter}",
+        f"- Produits equivalents (lignes, produit interroge inclus) : {nb_equiv}",
+        f"- Interactions trouvees (PERINDOPRIL, tous niveaux) : {nb_inter}",
         "",
         "## 3. Questions testees",
         "- Quelle est la DCI de CARDENSIEL ?",
