@@ -64,7 +64,8 @@ python -m pip install -r requirements.txt
 | Semaine | Contenu | Statut |
 |---|---|---|
 | Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
-| Semaine 2 | Découpage en chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique | Terminée |
+| Semaine 2 | Chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique / hybride, normalisation des noms commerciaux | À valider (retour de l'enseignant) |
+| Semaine 3 | Graphe de connaissances : ontologie minimale, extraction, peuplement | Préparée (à soumettre quand la recherche est validée) |
 
 ### Semaine 1 — Préparation du corpus
 
@@ -76,32 +77,41 @@ Le corpus (`data/corpus/`) n’est jamais modifié ; les résultats sont écrits
 | 2. OCR et nettoyage | `src/ocr_pipeline.py` | OCR (RapidOCR) des PDF scannés et des images, extraction et nettoyage des PDF avec texte. Produit un Markdown par document, avec un titre `## Page N` pour citer la page. Reprend là où il s’est arrêté. |
 | 3. Métadonnées | `src/generate_corpus_metadata.py` | Regroupe par DCI les fiches DCI, les fichiers, le type de source, le niveau d’autorité et la qualité du texte dans `corpus_metadata.json`. |
 
-### Semaine 2 — Recherche par mots-clés et recherche sémantique
+### Semaine 2 — Recherche par mots-clés, sémantique et hybride (avec normalisation des noms commerciaux)
 
 | Étape | Fichier | Rôle |
 |---|---|---|
-| 1. Chunks | `src/build_chunks.py` | Découpe le texte page par page en passages de 120 mots (chevauchement 20) avec DCI, marque, type de document, fichier et page. Sortie : `chunks.jsonl` (**4 411 chunks**). |
-| 2. Embeddings | `notebooks/recherche.ipynb` | Calcule les embeddings (`multilingual-e5-small`, 384 dimensions) et monte la base ChromaDB (cosinus). |
-| 3. Comparaison | `src/compare_search.py` | Pose les 8 questions de `questions_llm.md` à BM25 et à la recherche sémantique (top-5) et écrit le rapport de comparaison. |
+| 1. Table des noms commerciaux | `src/noms_commerciaux.py` | Construit `data/processed/table_noms_commerciaux.csv` et `data/processed/paires_noms_proches_lasa.csv` (nom commercial → DCI, forme, dosage, laboratoire, niveau de source) à partir de la nomenclature MIPH (Excel), des fiches produit et des CSV Pharm'Net. Fournit `etendre_question()` : « CARDENSIEL » devient « CARDENSIEL (DCI : bisoprolol) » avant la recherche, et signale les noms proches non reconnus (risque LASA, ex. ANTALGEN ≈ ANTALGAN). |
+| 2. Chunks | `src/build_chunks.py` | Découpe tous les documents (Markdown OCR de `processed_corpus`, sinon PDF) en passages, avec DCI, marque, type de document, fichier, page et **section** (4.6 Grossesse…). Ajoute les passages de **nomenclature** (un par nom commercial, un par DCI). Taille selon `EXPERIENCE` dans `rag_config.py` (ou variable `COGNIVEX_EXP`). |
+| 3. Embeddings + base | `src/build_vectordb.py` | Calcule les embeddings si besoin (`--recalculer` après chaque `build_chunks.py`) et monte la base ChromaDB. |
+| 4. Hybride | `src/recherche_hybride.py` | Fusion RRF des classements BM25 et sémantique. |
+| 5. Comparaison | `src/compare_search.py` | Compare BM25, sémantique et hybride, sans puis avec normalisation (`+N`) : Hit@3 par question, tableau de normalisation, tableau de provenance. Références : `docs/evaluation/references_hit_at_3.json`. |
 
 ```bash
-python src/compare_search.py              # mots-clés + sémantique
-python src/compare_search.py --bm25-only  # mots-clés seulement
+python src/noms_commerciaux.py     # table + paires LASA
+python src/build_chunks.py
+python src/build_vectordb.py --recalculer
+python src/compare_search.py                      # BM25 + sémantique + hybride, avec et sans normalisation
+python src/compare_search.py --bm25-only          # sans modèle (rapport *_bm25.md)
+python src/compare_search.py --question "Amlor 5 mg"   # une question libre
 ```
 
-#### Premières observations (8 questions, top-5)
-- Les deux méthodes retrouvent souvent des passages différents (0 à 2 chunks communs sur 5) : elles sont complémentaires.
-- Pour une DCI précise (Q1), les deux retrouvent la bonne DCI. Pour une marque absente (Q2, CARDENSIEL), aucune ne retrouve de passage qui répond.
-- Pour les questions hors périmètre ou pièges (Q7, Q8), elles retournent quand même 5 résultats sans rapport clair.
-- Les scores sémantiques sont très proches (0,85 à 0,91) : un score élevé ne prouve pas que la réponse est dans le corpus.
+### Semaine 3 — Graphe de connaissances (après validation de la recherche)
 
-**Suite prévue** : seuil pour répondre « information non trouvée », recherche hybride, puis liaison avec le LLM.
+
+| Fichier | Rôle |
+|---|---|
+| `docs/ontologie.md` | Ontologie minimale : 9 classes, 10 relations, limites |
+| `src/build_kg.py` | Extraction + peuplement → `data/kg/` (`noeuds.csv`, `relations.csv`, `kg.graphml`, `kg_stats.md`) |
+| `src/kg_requetes.py` | Requêtes de démonstration (DCI d'un nom commercial, équivalents, interactions) |
+
+```bash
+python src/build_kg 
+
+```
 
 #### Pistes pour la suite
 
-- Ajouter un **seuil** ou une règle de décision pour répondre « information non trouvée dans les sources » quand les passages ne répondent pas à la question.
-- Tester une recherche **hybride** (BM25 + sémantique) et un filtrage par DCI.
-- Relier la recherche au LLM (Groq) avec le format de réponse prévu et les références (document, page).
 
 ## Documentation
 
