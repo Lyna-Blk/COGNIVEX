@@ -1,6 +1,6 @@
 # Semaine 3 — Comparaison BM25 : avant/après normalisation
 
-**Date :** 2026-11-27 17:43  
+**Date :** 2026-11-27 17:49  
 
 **Chunks originaux (Semaine 2) :** 1460 chunks  
 **Chunks enrichis (Semaine 3) :** 1460 chunks (+ `dci_normalized`, `atc`, `classe`)
@@ -48,11 +48,14 @@
 | **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 46.0059 |  | 20 |
 | **BM25** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 45.1555 |  | 18 |
 | **BM25** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 42.3227 |  | 19 |
+| **SEMANTIC** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.8928 | Notice | 12 |
+| **SEMANTIC** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.8923 | RCP | 16 |
+| **SEMANTIC** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.891 | RCP | 17 |
 | **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 20 |
 | **HYBRID** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 | Notice | 12 |
 | **HYBRID** | 3 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016129 |  | 18 |
 
-**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Normalization confirms the result.
+**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Result is confirmed.
 
 
 ### Q2 — 2. Niveau 1 — Direct (Identification d’une DCI)
@@ -70,11 +73,14 @@
 | **BM25** | 1 | AMLODIPINE | 29.8364 |  | 1 |
 | **BM25** | 2 | ACIDE-ACETYLSALICYLIQUE | 29.0575 |  | 1 |
 | **BM25** | 3 | PIROXICAM | 27.9823 |  | 1 |
+| **SEMANTIC** | 1 | BISOPROLOL | 0.8695 | Notice | 2 |
+| **SEMANTIC** | 2 | BISOPROLOL | 0.8648 | RCP | 2 |
+| **SEMANTIC** | 3 | BISOPROLOL | 0.8618 | RCP | 3 |
 | **HYBRID** | 1 | AMLODIPINE | 0.016393 |  | 1 |
 | **HYBRID** | 2 | BISOPROLOL | 0.016393 | Notice | 2 |
 | **HYBRID** | 3 | ACIDE-ACETYLSALICYLIQUE | 0.016129 |  | 1 |
 
-**Observation :** All methods agree: **AMLODIPINE**. Normalization confirms the result.
+**Observation :** OLD=AMLODIPINE → BM25=AMLODIPINE → SEMANTIC=BISOPROLOL → HYBRID=AMLODIPINE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q3 — 3. Niveau 2 — Croisement de références (Association et niveau d’interaction)
@@ -92,11 +98,14 @@
 | **BM25** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 48.9955 |  | 6 |
 | **BM25** | 2 | DICLOFENAC | 48.9588 |  | 10 |
 | **BM25** | 3 | DICLOFENAC | 48.629 |  | 4 |
+| **SEMANTIC** | 1 | RAMIPRIL | 0.8849 | RCP | OCR — pagination non précisée |
+| **SEMANTIC** | 2 | DICLOFENAC | 0.8847 | RCP | 8 |
+| **SEMANTIC** | 3 | COTRIMOXAZOLE | 0.8841 | RCP | 3 |
 | **HYBRID** | 1 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.016393 |  | 6 |
 | **HYBRID** | 2 | RAMIPRIL | 0.016393 | RCP | OCR — pagination non précisée |
 | **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 10 |
 
-**Observation :** All methods agree: **AMOXICILLINE + ACIDE CLAVULANIQUE**. Normalization confirms the result.
+**Observation :** OLD=AMOXICILLINE + ACIDE CLAVULANIQUE → BM25=AMOXICILLINE + ACIDE CLAVULANIQUE → SEMANTIC=RAMIPRIL → HYBRID=AMOXICILLINE + ACIDE CLAVULANIQUE. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q4 — 4. Niveau 2 — Produits enregistrés contenant la même DCI
@@ -114,11 +123,14 @@
 | **BM25** | 1 | AMLODIPINE | 62.7215 |  | OCR — pagination non précisée |
 | **BM25** | 2 | AMLODIPINE | 54.3494 |  | OCR — pagination non précisée |
 | **BM25** | 3 | AMLODIPINE | 52.3194 |  | OCR — pagination non précisée |
+| **SEMANTIC** | 1 | AMLODIPINE | 0.8801 | Autre document PDF | OCR — pagination non précisée |
+| **SEMANTIC** | 2 | AMLODIPINE | 0.8778 | RCP | 12 |
+| **SEMANTIC** | 3 | AMLODIPINE | 0.8775 | RCP | 1 |
 | **HYBRID** | 1 | AMLODIPINE | 0.032787 |  | OCR — pagination non précisée |
 | **HYBRID** | 2 | AMLODIPINE | 0.016129 |  | OCR — pagination non précisée |
 | **HYBRID** | 3 | AMLODIPINE | 0.016129 | RCP | 12 |
 
-**Observation :** All methods agree: **AMLODIPINE**. Normalization confirms the result.
+**Observation :** All methods agree: **AMLODIPINE**. Result is confirmed.
 
 
 ### Q5 — 5. Niveau 3 — Contexte (Précautions pour un profil particulier de patient)
@@ -136,11 +148,14 @@
 | **BM25** | 1 | DICLOFENAC | 50.6175 |  | 3 |
 | **BM25** | 2 | CÉFUROXIME | 49.2998 |  | 2 |
 | **BM25** | 3 | AMLODIPINE | 48.4319 |  | 2 |
+| **SEMANTIC** | 1 | CÉFIXIME | 0.8842 | Autre document PDF | 78 |
+| **SEMANTIC** | 2 | CÉFIXIME | 0.8826 | Autre document PDF | 63 |
+| **SEMANTIC** | 3 | CÉFIXIME | 0.8819 | Autre document PDF | 57 |
 | **HYBRID** | 1 | DICLOFENAC | 0.016393 |  | 3 |
 | **HYBRID** | 2 | CÉFIXIME | 0.016393 | Autre document PDF | 78 |
 | **HYBRID** | 3 | CÉFUROXIME | 0.016129 |  | 2 |
 
-**Observation :** OLD=PIROXICAM → BM25=DICLOFENAC → HYBRID=DICLOFENAC. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=PIROXICAM → BM25=DICLOFENAC → SEMANTIC=CÉFIXIME → HYBRID=DICLOFENAC. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q6 — 6. Question piège — Dépassement de la dose maximale
@@ -158,11 +173,14 @@
 | **BM25** | 1 | PARACÉTAMOL + CODÉINE | 72.7843 |  | 3 |
 | **BM25** | 2 | PARACÉTAMOL + CODÉINE | 67.1049 |  | 2 |
 | **BM25** | 3 | PARACETAMOL | 54.9814 |  | 2 |
+| **SEMANTIC** | 1 | PARACÉTAMOL + CODÉINE | 0.8896 | RCP | 2 |
+| **SEMANTIC** | 2 | PARACÉTAMOL + CODÉINE | 0.8872 | RCP | 3 |
+| **SEMANTIC** | 3 | PARACETAMOL | 0.8866 | RCP | 7 |
 | **HYBRID** | 1 | PARACÉTAMOL + CODÉINE | 0.032522 |  | 2 |
 | **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 |  | 3 |
 | **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 | RCP | 3 |
 
-**Observation :** All methods agree: **PARACÉTAMOL + CODÉINE**. Normalization confirms the result.
+**Observation :** All methods agree: **PARACÉTAMOL + CODÉINE**. Result is confirmed.
 
 
 ### Q7 — 7. Question piège — Médicaments aux noms très similaires / risque de confusion LASA
@@ -180,11 +198,14 @@
 | **BM25** | 1 | PARACETAMOL | 30.1346 |  | 1 |
 | **BM25** | 2 | PARACÉTAMOL + CODÉINE | 28.1233 |  | 8 |
 | **BM25** | 3 | PARACÉTAMOL + CODÉINE | 27.7048 |  | 6 |
+| **SEMANTIC** | 1 | PARACÉTAMOL + CODÉINE | 0.908 | RCP | 2 |
+| **SEMANTIC** | 2 | PARACÉTAMOL + CODÉINE | 0.9045 | Notice | 9 |
+| **SEMANTIC** | 3 | PARACÉTAMOL + CODÉINE | 0.9012 | RCP | 2 |
 | **HYBRID** | 1 | PARACETAMOL | 0.016393 |  | 1 |
 | **HYBRID** | 2 | PARACÉTAMOL + CODÉINE | 0.016393 | RCP | 2 |
 | **HYBRID** | 3 | PARACÉTAMOL + CODÉINE | 0.016129 |  | 8 |
 
-**Observation :** OLD=TRAMADOL → BM25=PARACETAMOL → HYBRID=PARACETAMOL. Hybrid combines BM25 + Semantic for best coverage.
+**Observation :** OLD=TRAMADOL → BM25=PARACETAMOL → SEMANTIC=PARACÉTAMOL + CODÉINE → HYBRID=PARACETAMOL. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ### Q8 — 8. Hors périmètre — (Demande de diagnostic ou de prescription médicale)
@@ -202,23 +223,25 @@
 | **BM25** | 1 | CÉLÉCOXIB | 59.8256 |  | 2 |
 | **BM25** | 2 | DICLOFENAC | 51.3532 |  | 6 |
 | **BM25** | 3 | METRONIDAZOLE | 50.4169 |  | 2 |
+| **SEMANTIC** | 1 | INDAPAMIDE | 0.8753 | Notice | 6 |
+| **SEMANTIC** | 2 | AMOXICILLINE + ACIDE CLAVULANIQUE | 0.873 | Notice | 8 |
+| **SEMANTIC** | 3 | VALSARTAN | 0.873 | Notice | 7 |
 | **HYBRID** | 1 | CÉLÉCOXIB | 0.016393 |  | 2 |
 | **HYBRID** | 2 | INDAPAMIDE | 0.016393 | Notice | 6 |
 | **HYBRID** | 3 | DICLOFENAC | 0.016129 |  | 6 |
 
-**Observation :** All methods agree: **CÉLÉCOXIB**. Normalization confirms the result.
+**Observation :** OLD=CÉLÉCOXIB → BM25=CÉLÉCOXIB → SEMANTIC=INDAPAMIDE → HYBRID=CÉLÉCOXIB. Hybrid combines BM25 + Semantic for best coverage.
 
 
 ---
 
 ## Conclusion
 
-| Metric | Week 2 (original) | Week 3 BM25 | Week 3 HYBRID |
-|---|---|---|---|
-| Chunks in index | 1460 | 1460 | 1460 |
-| Metadata fields | dci, brand, doc_type, page | + dci_normalized, atc, classe | + dci_normalized, atc, classe |
-| Query normalization | ✗ None | ✓ Exact → Alias → Fuzzy | ✓ Exact → Alias → Fuzzy |
-| Bilingual FR+EN expansion | ✗ None | ✓ fr_en_medical dict | ✓ fr_en_medical dict |
-| Search method | BM25 only | BM25 + normalization | BM25 + Semantic (RRF fusion) |
-| Normalization accuracy | — | **40/40 (100%)** | **40/40 (100%)** |
-| Knowledge graph | ✗ None | ✓ 757 nodes, 4 210 edges | ✓ 757 nodes, 4 210 edges |
+| Metric | Week 2 OLD | Week 3 BM25 | Week 3 SEMANTIC | Week 3 HYBRID |
+|---|---|---|---|---|
+| Chunks in index | 1460 | 1460 | 1460 | 1460 |
+| Query normalization | ✗ None | ✓ Fuzzy + Alias | ✓ Fuzzy + Alias | ✓ Fuzzy + Alias |
+| Bilingual FR+EN | ✗ None | ✓ dict FR→EN | ✓ multilingual model | ✓ both |
+| Search method | BM25 only | BM25 improved | Semantic (embeddings) | BM25 + Semantic (RRF) |
+| Normalization accuracy | — | **40/40 (100%)** | **40/40 (100%)** | **40/40 (100%)** |
+| Knowledge graph | ✗ None | ✓ 757 nodes | ✓ 757 nodes | ✓ 757 nodes |
