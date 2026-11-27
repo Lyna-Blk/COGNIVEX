@@ -64,8 +64,8 @@ python -m pip install -r requirements.txt
 | Semaine | Contenu | Statut |
 |---|---|---|
 | Semaine 1 | Collecte et préparation du corpus (audit, OCR, nettoyage, métadonnées) ; réponses du LLM seul, sans RAG | Terminée |
-| Semaine 2 | Chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique / hybride, normalisation des noms commerciaux | Terminée |
-| Semaine 3 | Graphe de connaissances : ontologie minimale, extraction, peuplement | Terminée |
+| Semaine 2 | Découpage en chunks, embeddings, base vectorielle, comparaison mots-clés / sémantique | Terminée |
+| Semaine 3 | Normalisation des noms (DCI ↔ noms commerciaux ↔ variantes) ; graphe de connaissances | Terminée |
 
 ### Semaine 1 — Préparation du corpus
 
@@ -77,78 +77,32 @@ Le corpus (`data/corpus/`) n’est jamais modifié ; les résultats sont écrits
 | 2. OCR et nettoyage | `src/ocr_pipeline.py` | OCR (RapidOCR) des PDF scannés et des images, extraction et nettoyage des PDF avec texte. Produit un Markdown par document, avec un titre `## Page N` pour citer la page. Reprend là où il s’est arrêté. |
 | 3. Métadonnées | `src/generate_corpus_metadata.py` | Regroupe par DCI les fiches DCI, les fichiers, le type de source, le niveau d’autorité et la qualité du texte dans `corpus_metadata.json`. |
 
-### Semaine 2 — Recherche par mots-clés, sémantique et hybride (avec normalisation des noms commerciaux)
+### Semaine 2 — Recherche par mots-clés et recherche sémantique
 
 | Étape | Fichier | Rôle |
 |---|---|---|
-| 1. Table des noms commerciaux | `src/noms_commerciaux.py` | Construit `data/processed/table_noms_commerciaux.csv` et `data/processed/paires_noms_proches_lasa.csv` (nom commercial → DCI, forme, dosage, laboratoire, niveau de source) à partir de la nomenclature MIPH (Excel), des fiches produit et des CSV Pharm'Net. Fournit `etendre_question()` : « CARDENSIEL » devient « CARDENSIEL (DCI : bisoprolol) » avant la recherche, et signale les noms proches non reconnus (risque LASA, ex. ANTALGEN ≈ ANTALGAN). |
-| 2. Chunks | `src/build_chunks.py` | Découpe tous les documents (Markdown OCR de `processed_corpus`, sinon PDF) en passages, avec DCI, marque, type de document, fichier, page et **section** (4.6 Grossesse…). Ajoute les passages de **nomenclature** (un par nom commercial, un par DCI). Taille selon `EXPERIENCE` dans `rag_config.py` (ou variable `COGNIVEX_EXP`). |
-| 3. Embeddings + base | `src/build_vectordb.py` | Calcule les embeddings si besoin (`--recalculer` après chaque `build_chunks.py`) et monte la base ChromaDB. |
-| 4. Hybride | `src/recherche_hybride.py` | Fusion RRF des classements BM25 et sémantique. |
-| 5. Comparaison | `src/compare_search.py` | Compare BM25, sémantique et hybride, sans puis avec normalisation (`+N`) : Hit@3 par question, tableau de normalisation, tableau de provenance. Références : `docs/evaluation/references_hit_at_3.json`. |
+| 1. Chunks | `src/build_chunks.py` | Découpe le texte page par page en passages de 120 mots (chevauchement 20) avec DCI, marque, type de document, fichier et page. Sortie : `chunks.jsonl` (**4 411 chunks**). |
+| 2. Embeddings | `notebooks/recherche.ipynb` | Calcule les embeddings (`multilingual-e5-small`, 384 dimensions) et monte la base ChromaDB (cosinus). |
+| 3. Comparaison | `src/compare_search.py` | Pose les 8 questions de `questions_llm.md` à BM25 et à la recherche sémantique (top-5) et écrit le rapport de comparaison. |
 
 ```bash
-python src/noms_commerciaux.py     # table + paires LASA
-python src/build_chunks.py
-python src/build_vectordb.py --recalculer
-python src/compare_search.py                      # BM25 + sémantique + hybride, avec et sans normalisation
-python src/compare_search.py --bm25-only          # sans modèle (rapport *_bm25.md)
-python src/compare_search.py --question "Amlor 5 mg"   # une question libre
+python src/compare_search.py              # mots-clés + sémantique
+python src/compare_search.py --bm25-only  # mots-clés seulement
 ```
-### Semaine 3 — Graphe de connaissances (après validation de la recherche)
 
-Le graphe relie les produits (noms commerciaux), leurs présentations, les DCI, les codes ATC, les laboratoires et les documents sources. Les interactions sont extraites des pages DwaDZ du corpus.
+#### Premières observations (8 questions, top-5)
+- Les deux méthodes retrouvent souvent des passages différents (0 à 2 chunks communs sur 5) : elles sont complémentaires.
+- Pour une DCI précise (Q1), les deux retrouvent la bonne DCI. Pour une marque absente (Q2, CARDENSIEL), aucune ne retrouve de passage qui répond.
+- Pour les questions hors périmètre ou pièges (Q7, Q8), elles retournent quand même 5 résultats sans rapport clair.
+- Les scores sémantiques sont très proches (0,85 à 0,91) : un score élevé ne prouve pas que la réponse est dans le corpus.
 
-| Fichier | Rôle |
-|---|---|
-| `docs/ontologie.md` | Définition de l'ontologie minimale : 9 classes (entités), 10 relations, relation inférée, limites |
-| `src/build_kg.py` | Extraction des entités et relations (nomenclature, fiches produit, pages DwaDZ), liaison entre elles et peuplement du graphe → `data/kg/` (`noeuds.csv`, `relations.csv`, `kg.graphml`, `kg_stats.md`, `ontologie.json`) |
-| `src/generer_ontologie_md.py` | Génère `docs/ontologie.md` à partir de l'ontologie définie dans `build_kg.py` |
-| `src/kg_requetes.py` | Requêtes de démonstration : DCI d'un nom commercial, produits équivalents, interactions |
+**Suite prévue** : seuil pour répondre « information non trouvée », recherche hybride, puis liaison avec le LLM.
 
-```bash
-python src/build_kg.py
-python src/generer_ontologie_md.py
-python src/kg_requetes.py
-```
-#### Résultats
+#### Pistes pour la suite
 
-Le graphe contient **1132 nœuds** et **1230 relations**.
-
-| Classe de nœuds | Nombre |
-|---|---|
-| Produit | 455 |
-| Presentation | 455 |
-| Document | 87 |
-| DCI | 40 |
-| CodeATC | 38 |
-| Laboratoire | 24 |
-| Partenaire | 21 |
-| TypeSource | 9 |
-| ClasseTherapeutique | 3 |
-
-| Relation | Nombre |
-|---|---|
-| aPourDCI | 455 |
-| aPourPresentation | 455 |
-| decritDCI | 87 |
-| provientDeSource | 87 |
-| aPourATC | 38 |
-| appartientAClasse | 38 |
-| fabriquePar | 34 |
-| interagitAvec | 28 |
-| decritProduit | 6 |
-| partenaireEstDCI | 2 |
-
-**Interactions extraites de DwaDZ** : 23 pages lues, 28 interactions (15 associations déconseillées, 11 précautions d'emploi, 2 contre-indications). Les pages utiles concernent l'amlodipine (Amlodal), le losartan (Cozaar) et le périndopril (Coversyl, périndopril Beker, Perindosyl).
-
-**Requêtes de démonstration**
-| Question | Résultat |
-|---|---|
-| Quelle est la DCI de CARDENSIEL ? | bisoprolol (17 produits pour cette DCI, CARDENSIEL inclus) |
-| Quelle est la DCI de ANTALGEN ? | Aucune : ce nom n'est pas dans la nomenclature, donc aucune DCI n'est proposée |
-| Quels produits partagent la DCI de AMLOR ? | amlodipine : 16 produits, AMLOR inclus (15 autres) |
-| Quelles interactions sont associées au PERINDOPRIL ? | 12 partenaires : 7 précautions d'emploi, 4 associations déconseillées, 1 contre-indication |
+- Ajouter un **seuil** ou une règle de décision pour répondre « information non trouvée dans les sources » quand les passages ne répondent pas à la question.
+- Tester une recherche **hybride** (BM25 + sémantique) et un filtrage par DCI.
+- Relier la recherche au LLM (Groq) avec le format de réponse prévu et les références (document, page).
 
 ## Documentation
 
@@ -173,15 +127,69 @@ Le graphe contient **1132 nœuds** et **1230 relations**.
 - [Synthèse de la comparaison des tailles de chunks](docs/evaluation/comparaison_tailles_chunks.md)
 - [Semaine 2 — Notebook : embeddings et base vectorielle](notebooks/recherche.ipynb)
 
-### 5. Graphe de connaissances
+### 5. Normalisation (Semaine 3)
 
-- [Semaine 3 — Ontologie minimale](docs/ontologie.md)
-- [Semaine 3 — Statistiques du graphe](data/kg/kg_stats.md)
-- [Semaine 3 — Évaluation du graphe](docs/evaluation/kg_evaluation.md)
-- [Semaine 3 — Résultats : DCI d'un nom commercial](docs/evaluation/kg_resultats_dci.csv)
-- [Semaine 3 — Résultats : produits équivalents](docs/evaluation/kg_resultats_equivalents.csv)
-- [Semaine 3 — Résultats : interactions](docs/evaluation/kg_resultats_interactions.csv)
-- [Semaine 3 — Prompt d'extraction (prévu pour la suite)](docs/prompts/prompt_extraction_graphe.md)
+- [Tableau d'évaluation — 40 noms testés (100 %, 40/40)](data/evaluation/normalisation_eval.csv)
+
+| Étape | Script | Rôle |
+|---|---|---|
+| 1. Dictionnaire DCI | `src/build_dci_dict.py` | Lit l'Excel et construit `dci_dict.json` : 40 DCI, noms commerciaux, ATC, formes, dosages. |
+| 2. Normaliseur | `src/normalize_names.py` | Résout un nom (DCI, commercial, variante, faute) vers la DCI canonique. Exact → alias manuel → fuzzy (rapidfuzz). |
+
+```bash
+python src/build_dci_dict.py               # génère data/knowledge_graph/dci_dict.json
+python src/normalize_names.py "dolipranee" # normalise un nom
+python src/normalize_names.py --eval       # tableau 40 noms → data/evaluation/normalisation_eval.csv
+```
+
+#### Résultats de l'évaluation (40 noms)
+
+| Méthode | Cas |
+|---|---|
+| Exact (normalisé) | DCI directes, noms commerciaux présents dans l'Excel |
+| Alias manuel | Noms commerciaux internationaux absents de l'Excel algérien (AUGMENTIN, COAPROVEL, LODOZ…) |
+| Fuzzy (rapidfuzz) | Fautes de frappe, accents manquants, dosages inclus dans la requête |
+
+**Score final : 40/40 (100 %) — 1 cas ambigu correctement signalé**
+
+### 6. Graphe de connaissances (Semaine 3)
+
+- [Graphe JSON — NetworkX node-link](data/knowledge_graph/graph.json)
+- [Graphe GraphML — pour Gephi/Cytoscape](data/knowledge_graph/graph.graphml)
+- [Résumé du graphe](data/knowledge_graph/graph_summary.md)
+
+| Étape | Script | Rôle |
+|---|---|---|
+| 3. Enrichissement chunks | `src/enrich_chunks.py` | Ajoute `dci_normalized`, `atc`, `classe`, `noms_commerciaux` à chaque chunk ; reconstruit ChromaDB (`vectordb_enriched`). |
+| 4. Graphe de connaissances | `src/build_knowledge_graph.py` | Construit le graphe NetworkX (757 nœuds, 4 210 arêtes) depuis `dci_dict.json`. |
+| 5. Recherche avec normalisation | `src/retrieval_v2.py` | Normalise la requête → DCI canonique → filtre BM25/ChromaDB par DCI. |
+
+```bash
+python src/enrich_chunks.py                                # enrichit chunks + reconstruit ChromaDB
+python src/build_knowledge_graph.py                        # construit graph.json + graph.graphml
+python src/retrieval_v2.py "DOLIPRANE posologie" --method bm25
+python src/retrieval_v2.py "amoxiciline interaction" --method hybrid
+```
+
+#### Résultats du graphe (Semaine 3)
+
+| Type de nœud | Nombre |
+|---|---|
+| DCI (substances actives) | 40 |
+| Medicament (nom commercial + forme + dosage) | 674 |
+| ClasseTherapeutique | 3 |
+| CodeATC | 40 |
+| **Total nœuds** | **757** |
+
+| Relation | Nombre |
+|---|---|
+| EST_GENERIQUE_DE (Médicament → DCI) | 674 |
+| APPARTIENT_A (DCI → Classe) | 40 |
+| A_CODE_ATC (DCI → ATC) | 40 |
+| MEME_CLASSE_QUE (DCI ↔ DCI) | 496 |
+| EQUIVALENT_A (Médicament ↔ Médicament) | 2 960 |
+| **Total arêtes** | **4 210** |
+
 ## Équipe
 - Lyna Anfel BELKHAIRI
 - Ibtihal BOUFENNARA
