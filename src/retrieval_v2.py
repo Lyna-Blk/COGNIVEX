@@ -4,7 +4,8 @@ retrieval_v2.py
 Step 3 of Week 3: Updated search that uses normalization before retrieval.
 
 Changes vs retrieval.py:
-  1. normalize_query() called on user query → resolves DCI before search
+  1. extract_dci_from_text() scans the query word-by-word to find a drug name
+     even when the query is a long sentence (e.g. teacher questions).
   2. BM25 search expanded with DCI name when brand name typed
   3. ChromaDB uses enriched collection + optional DCI filter
   4. Results tagged with match_type (exact/fuzzy/alias)
@@ -122,6 +123,38 @@ def _get_model():
 
 
 # ── Core search ───────────────────────────────────────────────────────────────
+def extract_dci_from_text(text: str, dci_dict: dict) -> dict:
+    """
+    Scan the query word-by-word (1-, 2-, 3-word windows) to find a drug name
+    embedded in a long sentence like a teacher question.
+
+    Strategy:
+      1. Try the full text first (fast path for short queries e.g. "DOLIPRANE").
+      2. If that fails or scores too low, slide 1/2/3-word windows over the
+         sentence and return the best match found.
+
+    Returns the same dict format as normalize_query().
+    """
+    # Fast path: short query or already a good match
+    result = normalize_query(text, dci_dict)
+    if result["found"] and result.get("score", 0) >= 0.80:
+        return result
+
+    words = text.split()
+    best = result
+    best_score = result.get("score", 0) or 0
+
+    for n in (1, 2, 3):
+        for i in range(len(words) - n + 1):
+            candidate = " ".join(words[i : i + n])
+            r = normalize_query(candidate, dci_dict)
+            if r["found"] and (r.get("score", 0) or 0) > best_score:
+                best = r
+                best_score = r.get("score", 0) or 0
+
+    return best
+
+
 def _expand_query(query: str, norm_result: dict) -> str:
     """
     If query is a brand name, expand it with the DCI name so BM25
@@ -142,7 +175,7 @@ def _expand_query(query: str, norm_result: dict) -> str:
     return query
 
 
-def search_bm25(query: str, top_k: int = 5, dci_filter: str = None) -> list[dict]:
+def search_bm25(query: str, top_k: int = 5, dci_filter: str = None) -> list:
     """BM25 keyword search, optionally filtered to one DCI."""
     import unicodedata, re
     def tokenize(text):
@@ -173,7 +206,7 @@ def search_bm25(query: str, top_k: int = 5, dci_filter: str = None) -> list[dict
     ]
 
 
-def search_semantic(query: str, top_k: int = 5, dci_filter: str = None) -> list[dict]:
+def search_semantic(query: str, top_k: int = 5, dci_filter: str = None) -> list:
     """Semantic search via ChromaDB."""
     chroma = _get_chroma()
     model  = _get_model()
@@ -223,7 +256,7 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
 
     Parameters
     ----------
-    query  : user query (can be brand name, DCI, with typos, etc.)
+    query  : user query (can be brand name, DCI, with typos, long sentence, etc.)
     top_k  : number of results to return per method
     method : 'bm25' | 'semantic' | 'hybrid'
 
@@ -239,8 +272,8 @@ def search(query: str, top_k: int = 5, method: str = "hybrid") -> dict:
     """
     dci_dict = _get_dict()
 
-    # ── 1. Normalize query ───────────────────────────────────────────────────
-    norm_result = normalize_query(query, dci_dict)
+    # ── 1. Normalize query (scan word-by-word to handle long teacher questions)
+    norm_result = extract_dci_from_text(query, dci_dict)
     dci_norm    = norm_result.get("dci_normalized") if norm_result["found"] else None
 
     # Expand query with DCI name if brand was typed

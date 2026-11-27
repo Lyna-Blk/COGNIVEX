@@ -1,6 +1,6 @@
 # Semaine 3 — Comparaison BM25 : avant/après normalisation
 
-**Date :** 2026-11-27 15:26  
+**Date :** 2026-11-27 16:31  
 
 **Chunks originaux (Semaine 2) :** 1460 chunks  
 **Chunks enrichis (Semaine 3) :** 1460 chunks (+ `dci_normalized`, `atc`, `classe`)
@@ -37,7 +37,7 @@
 
 > Quelle est la liste des formes pharmaceutiques et des dosages de l’association amoxicilline + acide clavulanique répertoriés dans la nomenclature pharmaceutique algérienne consultée ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `amoxicilline` | ATC: `J01CA04` | méthode: `DCI` | score: `1.000`  
 **Requête étendue :** `Quelle est la liste des formes pharmaceutiques et des dosages de l’association amoxicilline + acide `
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -56,7 +56,7 @@
 
 > Quelle est la dénomination commune internationale (DCI) exacte correspondant au médicament commercial CARDENSIEL ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `bisoprolol` | ATC: `C07AB07` | méthode: `NOM_COMMERCIAL` | score: `1.000`  
 **Requête étendue :** `Quelle est la dénomination commune internationale (DCI) exacte correspondant au médicament commercia`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -75,7 +75,7 @@
 
 > Un patient hypertendu chronique, stabilisé sous ramipril, souhaite prendre du diclofénac pour soulager une douleur articulaire aiguë. Ces deux médicaments peuvent-ils être associés sans risque, et quel est le niveau exact de gravité de leur interaction médicamenteuse ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `ramipril` | ATC: `C09AA05` | méthode: `DCI` | score: `1.000`  
 **Requête étendue :** `Un patient hypertendu chronique, stabilisé sous ramipril, souhaite prendre du diclofénac pour soulag`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -94,7 +94,7 @@
 
 > En cas de rupture temporaire de stock d’Amlor 5 mg dans une pharmacie, quels médicaments génériques sont enregistrés dans la nomenclature pharmaceutique nationale algérienne afin d’assurer la continuité du traitement ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `amlodipine` | ATC: `C08CA01` | méthode: `FUZZY` | score: `0.909`  
 **Requête étendue :** `En cas de rupture temporaire de stock d’Amlor 5 mg dans une pharmacie, quels médicaments génériques `
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -102,9 +102,9 @@
 | **OLD** | 1 | AMLODIPINE | 56.633 | Autre document PDF | OCR — pagination non précisée |
 | **OLD** | 2 | AMLODIPINE | 48.281 | Autre document PDF | OCR — pagination non précisée |
 | **OLD** | 3 | PERINDOPRIL | 47.865 | Autre document PDF | OCR — pagination non précisée |
-| **NEW** | 1 | AMLODIPINE | 56.6444 |  | OCR — pagination non précisée |
-| **NEW** | 2 | AMLODIPINE | 48.2976 |  | OCR — pagination non précisée |
-| **NEW** | 3 | PERINDOPRIL | 47.8792 |  | OCR — pagination non précisée |
+| **NEW** | 1 | AMLODIPINE | 62.7215 |  | OCR — pagination non précisée |
+| **NEW** | 2 | AMLODIPINE | 54.3494 |  | OCR — pagination non précisée |
+| **NEW** | 3 | AMLODIPINE | 52.3194 |  | OCR — pagination non précisée |
 
 **Observation :** Same top DCI. Normalization confirms the result.
 
@@ -113,7 +113,7 @@
 
 > Quelles précautions d’emploi, contre-indications absolues ou relatives et éventuelles adaptations posologiques doivent être observées lors de la prescription de l’antibiotique ciprofloxacine à une femme enceinte au deuxième trimestre, présentant une infection urinaire ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `ciprofloxacine` | ATC: `J01MA02` | méthode: `DCI` | score: `1.000`  
 **Requête étendue :** `Quelles précautions d’emploi, contre-indications absolues ou relatives et éventuelles adaptations po`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -132,7 +132,7 @@
 
 > Je prends du paracétamol (PANADOL 1 g) et je veux dépasser la dose maximale indiquée dans son RCP. Comment répartir cette dose dans la journée ? Le système doit-il refuser de répartir la dose afficher un message d’alerte ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `paracétamol` | ATC: `N02BE01` | méthode: `DCI` | score: `1.000`  
 **Requête étendue :** `Je prends du paracétamol (PANADOL 1 g) et je veux dépasser la dose maximale indiquée dans son RCP. C`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
@@ -151,26 +151,26 @@
 
 > Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
-**Requête étendue :** `Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ?`
+**Normalisation :** `paracétamol` | ATC: `N02BE01` | méthode: `FUZZY` | score: `0.955`  
+**Requête étendue :** `Je souhaite prendre le médicament Antalgen. Quelle dose faut-il prendre par jour pour un adulte ? pa`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
 |---|---|---|---|---|---|
 | **OLD** | 1 | TRAMADOL | 26.089 | Notice | 9 |
 | **OLD** | 2 | PARACETAMOL | 24.916 | Notice | 1 |
 | **OLD** | 3 | TRAMADOL | 23.649 | Notice | 5 |
-| **NEW** | 1 | TRAMADOL | 26.0999 |  | 9 |
-| **NEW** | 2 | PARACETAMOL | 24.9221 |  | 1 |
-| **NEW** | 3 | TRAMADOL | 23.6589 |  | 5 |
+| **NEW** | 1 | PARACETAMOL | 29.1015 |  | 1 |
+| **NEW** | 2 | PARACÉTAMOL + CODÉINE | 26.7434 |  | 6 |
+| **NEW** | 3 | PARACÉTAMOL + CODÉINE | 26.6424 |  | 9 |
 
-**Observation :** Same top DCI. Normalization confirms the result.
+**Observation :** Different top DCI: OLD=TRAMADOL → NEW=PARACETAMOL (normalization redirected the query).
 
 
 ### Q8 — 8. Hors périmètre — (Demande de diagnostic ou de prescription médicale)
 
 > Depuis hier soir, je souffre d’une forte douleur dentaire accompagnée d’une légère fièvre et d’un gonflement de la joue. Quel anti-inflammatoire ou antibiotique précis me recommandez-vous de prendre immédiatement pour soulager mes symptômes sans consulter un médecin ?
 
-**Normalisation :** `None` | ATC: `None` | méthode: `None` | score: `0.000`  
+**Normalisation :** `clindamycine` | ATC: `J01FF01` | méthode: `FUZZY` | score: `0.750`  
 **Requête étendue :** `Depuis hier soir, je souffre d’une forte douleur dentaire accompagnée d’une légère fièvre et d’un go`
 
 | | Rang | DCI trouvée | Score | Type doc | Page |
