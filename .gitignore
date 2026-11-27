@@ -26,3 +26,5 @@ tempCodeRunnerFile.py
 # Pipeline cache / scratch script
 data/ocr_pipeline_log.json
 validate_corpus_metadata.py
+
+.venv312/
