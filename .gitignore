@@ -28,9 +28,7 @@ data/ocr_pipeline_log.json
 validate_corpus_metadata.py
 
 # Large binary stores — rebuild locally with scripts
-data/processed/vectordb_*/
-data/processed/embeddings/
-data/processed/vector_store/
+
 
 # API keys
 .env
